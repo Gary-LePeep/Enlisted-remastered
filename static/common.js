@@ -106,3 +106,25 @@ RuButton.addEventListener("click", function () {
     }
 });
 langPanel.append(RuButton);
+
+// add the title bar's navigation buttons, highlighting the active one
+let i = 0;
+function createButton(active, where) {
+    const button = document.createElement('button');
+    button.innerHTML = translate(`page.button.${where}`);
+    button.style = `position: absolute; top: 0px; left: ${1168 + (i * 150)}px; width: 150px; height: 65px; font-size:20px; font-family: Trebuchet MS; background-color:${colorTitle}; color: white; border-color:${colorTitleLight}`
+    if (active === where) {
+        button.style.backgroundColor = colorTitleSelect;
+        button.style.borderColor = colorTitleSelectLight;
+    }
+    button.onclick = () => { window.location = `https://enlisted.vercel.app/${where}`; };
+    BODY.appendChild(button);
+    i++;
+}
+
+function addButtons(active) {
+    createButton(active, 'comparison');
+    createButton(active, 'datamine');
+    createButton(active, 'soldierStats');
+    createButton(active, 'tanks');
+}

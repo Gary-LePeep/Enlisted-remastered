@@ -1,11 +1,25 @@
 const EN = {
   'language': 'Language',
-  'page.title.comparison': 'Weapon Comparison Tool'
+  'page.button.comparison': 'Weapon Tool',
+  'page.title.comparison': 'Weapon Comparison Tool',
+  'page.button.datamine': 'Datamine',
+  'page.title.datamine': 'Enlisted Datamine',
+  'page.button.soldierStats': 'Soldier Stats',
+  'page.title.soldierStats': 'Soldier Statistics',
+  'page.button.tanks': 'Tank Tool',
+  'page.title.tanks': 'Tank Comparison Tool'
 }
 
 const RU = {
   'language': 'Язык',
-  'page.title.comparison': 'Инструмент Сравнения Оружия'
+  'page.button.comparison': 'Оружейный',
+  'page.title.comparison': 'Инструмент Сравнения Оружия',
+  'page.button.datamine': 'Датамайн',
+  'page.title.datamine': 'Enlisted Датамайн',
+  'page.button.soldierStats': 'Харак. Солдат',
+  'page.title.soldierStats': 'Характеристики Солдат',
+  'page.button.tanks': 'Танковый',
+  'page.title.tanks': 'Инструмент Сравнения Танков'
 }
 
 function translate(text, type = 'string', style = '') {

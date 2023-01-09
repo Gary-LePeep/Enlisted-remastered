@@ -19,7 +19,12 @@ def favicon():
 
 @app.route("/")
 def home():
-    return render_template('index.html')
+    return render_template('comparison.html')
+
+
+@app.route("/comparison")
+def comparison():
+    return render_template('comparison.html')
 
 
 if __name__ == "__main__":
