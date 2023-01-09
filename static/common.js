@@ -44,15 +44,7 @@ function setCookie(cname, cvalue, expiresDays = -1) {
     document.getElementsByTagName('HEAD')[0].appendChild(css);
 })();
 
-function getLanguage() {
-    let language = getCookie('language');
-    console.log(language);
-    return language === '' ? 'English' : language;
-}
-
-function translate(text) {
-
-}
+let LANG = getCookie('language') === '' ? 'English' : getCookie('language');
 
 // Colors
 const colorBG = '#27373D';
@@ -71,37 +63,33 @@ logo.src = '../static/img/logo.png';
 logo.style = 'position: absolute; top: 0px; left: 0px; width: 116px; height: 65px; object-fit: contain;';
 BODY.append(logo);
 
-const title = document.createElement('b');
-title.innerHTML = 'Weapon Comparison Tool';
-title.style = 'position: absolute; top:0px; left:115px; font-family: Trebuchet MS; width:1000px; font-size:50px; color: white';
-BODY.appendChild(title);
-
 // Language dropdown
 const langButton = document.createElement('button');
 langButton.style = `position: relative; top: 0px; left: 1770px; width: 150px; height: 65px; font-size:23px; font-family: Trebuchet MS; background-color:${colorTitle}; color: white; border-color:${colorTitleLight}`
-getLanguage();
-langButton.innerHTML = '🌐 Language';
+langButton.innerHTML = `🌐 ${translate('language')}`;
 titleBar.append(langButton);
 
 const langPanel = document.createElement('div');
 langPanel.style = 'position: relative; top: 0px; left: 0px; width: 150px; font-size:24px; font-family: Trebuchet MS; display: none;';
 langButton.addEventListener("click", function () {
-    if (langPanel.style.display === 'block'){
+    if (langPanel.style.display === 'block') {
         langPanel.style.display = langPanel.style.display = 'none';
         langButton.style.backgroundColor = colorTitle;
+        langButton.style.borderColor = colorTitleLight;
     } else {
         langPanel.style.display = langPanel.style.display = 'block';
         langButton.style.backgroundColor = colorTitleSelect;
+        langButton.style.borderColor = colorTitleSelectLight;
     }
 });
 titleBar.append(langPanel);
 
 // Add languages
 const EnButton = document.createElement('button');
-EnButton.style = `position: relative; top:0px; left:1770px; width:150px; height:50px; font-size:24px; font-family: Trebuchet MS; color: white; background-color:${getLanguage() === 'English' ? colorTitleSelect : colorTitle}; border-color:${getLanguage() === 'English' ? colorTitleSelectLight : colorTitleLight}; text-align:left;`;
+EnButton.style = `position: relative; top:0px; left:1770px; width:150px; height:50px; font-size:24px; font-family: Trebuchet MS; color: white; background-color:${LANG === 'English' ? colorTitleSelect : colorTitle}; border-color:${LANG === 'English' ? colorTitleSelectLight : colorTitleLight}; text-align:left;`;
 EnButton.innerHTML = ' 🇺🇸 English';
 EnButton.addEventListener("click", function () {
-    if (getLanguage() !== 'English') {
+    if (LANG !== 'English') {
         setCookie('language', 'English');
         window.location.reload();
     }
@@ -109,10 +97,10 @@ EnButton.addEventListener("click", function () {
 langPanel.append(EnButton);
 
 const RuButton = document.createElement('button');
-RuButton.style = `position: relative; top:0px; left:1770px; width:150px; height:50px; font-size:24px; font-family: Trebuchet MS; color: white; background-color:${getLanguage() === 'Russian' ? colorTitleSelect : colorTitle}; border-color:${getLanguage() === 'Russian' ? colorTitleSelectLight : colorTitleLight}; text-align:left;`;
+RuButton.style = `position: relative; top:0px; left:1770px; width:150px; height:50px; font-size:24px; font-family: Trebuchet MS; color: white; background-color:${LANG === 'Russian' ? colorTitleSelect : colorTitle}; border-color:${LANG === 'Russian' ? colorTitleSelectLight : colorTitleLight}; text-align:left;`;
 RuButton.innerHTML = ' 🇷🇺 Русский';
 RuButton.addEventListener("click", function () {
-    if (getLanguage() !== 'Russian') {
+    if (LANG !== 'Russian') {
         setCookie('language', 'Russian');
         window.location.reload();
     }
