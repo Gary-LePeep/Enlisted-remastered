@@ -27,6 +27,21 @@ def comparison():
     return render_template('comparison.html')
 
 
+@app.route("/datamine")
+def datamine():
+    return render_template('datamine.html')
+
+
+@app.route("/soldierStats")
+def soldier_stats():
+    return render_template('soldierStats.html')
+
+
+@app.route("/tanks")
+def tanks():
+    return render_template('tanks.html')
+
+
 if __name__ == "__main__":
     app.debug = True
     app.run(host="0.0.0.0", port=5000)
