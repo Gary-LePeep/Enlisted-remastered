@@ -1,8 +1,29 @@
+function getScrollbarWidth() {
+    // Creating invisible container
+    const outer = document.createElement('div');
+    outer.style.visibility = 'hidden';
+    outer.style.overflow = 'scroll'; // forcing scrollbar to appear
+    outer.style.msOverflowStyle = 'scrollbar'; // needed for WinJS apps
+    document.body.appendChild(outer);
+
+    // Creating inner element and placing it in the container
+    const inner = document.createElement('div');
+    outer.appendChild(inner);
+
+    // Calculating difference between container's full width and the child width
+    const scrollbarWidth = (outer.offsetWidth - inner.offsetWidth);
+
+    // Removing temporary elements from the DOM
+    outer.parentNode.removeChild(outer);
+
+    return scrollbarWidth;
+}
+
+let FULLWIDE = 1920;
 const BODY = document.getElementsByTagName('BODY')[0];
-const FULLWIDE = 1880;
 
 function recalibrateSize() {
-    BODY.style.transform = `scale(${window.innerWidth / 1920},${window.innerWidth / 1920})`;
+    BODY.style.transform = `scale(${window.innerWidth / FULLWIDE},${window.innerWidth / FULLWIDE})`;
     BODY.style.transformOrigin = '0 0';
 }
 
@@ -55,7 +76,7 @@ const colorTitleSelectLight = '#0B181E';
 
 // TITLE BAR
 const titleBar = document.createElement('div');
-titleBar.style = `position: absolute; top: 0px; left: 0px; width: 1920px; height: 65px; background-color:${colorTitle}; box-shadow: 0px 0px 10px;`;
+titleBar.style = `position: absolute; top: 0px; left: 0px; width: ${FULLWIDE}px; height: 65px; background-color:${colorTitle}; box-shadow: 0px 0px 10px;`;
 BODY.append(titleBar);
 
 const logo = document.createElement('img');
@@ -111,7 +132,7 @@ langPanel.append(RuButton);
 let i = 0;
 function createButton(active, where) {
     const button = document.createElement('button');
-    button.innerHTML = translate(`page.button.${where}`);
+    button.innerHTML = translate(`page.${where}.button`);
     button.style = `position: absolute; top: 0px; left: ${1168 + (i * 150)}px; width: 150px; height: 65px; font-size:20px; font-family: Trebuchet MS; background-color:${colorTitle}; color: white; border-color:${colorTitleLight}`
     if (active === where) {
         button.style.backgroundColor = colorTitleSelect;

@@ -1,3 +1,25 @@
 body {
     margin: 0;
 }
+
+body {
+    overflow-x: hidden;
+}
+
+table,
+th,
+td {
+    background-color: #111111;
+    border: 2px solid #444444;
+    border-collapse: collapse;
+    color: #FFFFFF;
+    padding: 10px;
+    min-width: 50px;
+    text-align: center;
+}
+
+tbody td{
+    background-color: #222222;
+    padding: 3px;
+    color: #FFFFFF;
+}
