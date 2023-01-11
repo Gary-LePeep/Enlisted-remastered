@@ -34,7 +34,7 @@ def datamine():
 
 @app.route("/soldierStats")
 def soldier_stats():
-    print(request.cookies)
+    print('cookies: ' + str(request.cookies))
     return render_template('soldierStats.html')
 
 
