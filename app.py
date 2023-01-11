@@ -34,7 +34,10 @@ def datamine():
 
 @app.route("/soldierStats")
 def soldier_stats():
-    print('cookies: ' + str(request.cookies))
+    if 'language' in request.cookies:
+        print('cookies: ' + str(request.cookies['language']))
+    else:
+        print('no language')
     return render_template('soldierStats.html')
 
 
