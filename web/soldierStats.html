@@ -259,7 +259,7 @@
             const rotate = damageMult > 1 ? -70 * (damageMult / 2.5) : damageMult < 1 ? 70 * ((0.66 - damageMult) * 2) : 0;
 
             const bodyPartImage = document.createElement('img');
-            bodyPartImage.src = `../static/img/soldierBody${name}.png`;
+            bodyPartImage.src = `../static/img/soldierBody${name.replace(' ', '_')}.png`;
             bodyPartImage.style = `position: absolute; top: ${1500 + soldierDamagePartOffsets[name]['top']}px; left: ${1000 + soldierDamagePartOffsets[name]['left']}px; filter: hue-rotate(${rotate}deg) saturate(8);`;
             BODY.appendChild(bodyPartImage);
 
