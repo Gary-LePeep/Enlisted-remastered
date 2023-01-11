@@ -34,13 +34,13 @@ def datamine():
 
 @app.route("/soldierStats")
 def soldier_stats():
-    language_cookie = request.cookies.to_dict()
     language = 'English'
     if 'language' in request.cookies.to_dict():
         language = request.cookies.to_dict()['language']
     language_json = json.load(open('static/translations/' + language + '.json'))
-    damage_parts = json.load(open('static/soldierStats/soldierDamage.json'))
-    return render_template('soldierStats.html', language=language_json, damageParts=damage_parts)
+    soldier_stats_json = json.load(open('static/soldierStats/solderStats.json'))
+    damage_parts_json = json.load(open('static/soldierStats/soldierDamage.json'))
+    return render_template('soldierStats.html', language=language_json, damageParts=damage_parts_json, soldierStats=soldier_stats_json)
 
 
 @app.route("/tanks")

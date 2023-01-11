@@ -1,0 +1,228 @@
+[
+    [
+      {
+        "name": "class.default",
+        "stats": [4, 4, 4],
+        "perk": "",
+        "value": 0
+      }
+    ],
+    [
+      {
+        "name": "class.rifle#I",
+        "stats": [5, 5, 5],
+        "perk": "perk.faster_decreasing_of_maximum_shot_spread",
+        "value": 0.105
+      },
+      {
+        "name": "class.rifle#II",
+        "stats": [6, 6, 6],
+        "perk": "perk.sprint_speed",
+        "value": 0.053
+      },
+      {
+        "name": "class.rifle#III",
+        "stats": [7, 7, 7],
+        "perk": "perk.heal_speed",
+        "value": 0.15
+      }
+    ],
+    [
+      {
+        "name": "class.medic",
+        "stats": [1, 6, 4],
+        "perk": "perk.run_speed",
+        "value": 0.035
+      },
+      {
+        "name": "class.assault#I",
+        "stats": [6, 4, 5],
+        "perk": "perk.climb_speed",
+        "value": 0.35
+      },
+      {
+        "name": "class.assault#II",
+        "stats": [7, 5, 6],
+        "perk": "perk.stamina_boost",
+        "value": 0.35
+      },
+      {
+        "name": "class.assault#III",
+        "stats": [8, 6, 7],
+        "perk": "perk.heal_effectivity",
+        "value": 1
+      },
+      {
+        "name": "class.assault#IV",
+        "stats": [9, 7, 8],
+        "perk": "perk.faster_reload",
+        "value": 0.12
+      }
+    ],
+    [
+      {
+        "name": "class.engineer#I",
+        "stats": [5, 6, 4],
+        "perk": "perk.crawl_crouch_speed",
+        "value": 0.21
+      },
+      {
+        "name": "class.engineer#II",
+        "stats": [6, 8, 4],
+        "perk": "perk.stamina_regeneration",
+        "value": 0.35
+      }
+    ],
+    [
+      {
+        "name": "class.sniper#I",
+        "stats": [6, 2, 7],
+        "perk": "perk.jump_height",
+        "value": 0.14
+      },
+      {
+        "name": "class.sniper#II",
+        "stats": [6, 2, 8],
+        "perk": "perk.longer_hold_breath_cd",
+        "value": 0.35
+      },
+      {
+        "name": "class.sniper#III",
+        "stats": [6, 2, 10],
+        "perk": "perk.faster_reload",
+        "value": 0.048
+      }
+    ],
+    [
+      {
+        "name": "class.anti_tank#I",
+        "stats": [2, 6, 7],
+        "perk": "perk.faster_change_pose_speed",
+        "value": 0.525
+      },
+      {
+        "name": "class.anti_tank#II",
+        "stats": [2, 8, 8],
+        "perk": "perk.longer_grenade_throw",
+        "value": 0.175
+      }
+    ],
+    [
+      {
+        "name": "class.mgun#I",
+        "stats": [4, 4, 7],
+        "perk": "perk.run_speed",
+        "value": 0.035
+      },
+      {
+        "name": "class.mgun#II",
+        "stats": [4, 4, 10],
+        "perk": "perk.faster_aim_speed",
+        "value": 0.07
+      },
+      {
+        "name": "class.mgun#III",
+        "stats": [5, 6, 10],
+        "perk": "perk.heal_effectivity",
+        "value": 1
+      }
+    ],
+    [
+      {
+        "name": "class.radioman#I",
+        "stats": [9, 4, 2],
+        "perk": "perk.faster_change_weapon",
+        "value": 0.175
+      },
+      {
+        "name": "class.radioman#II",
+        "stats": [10, 6, 2],
+        "perk": "perk.heal_effectivity",
+        "value": 0.7
+      }
+    ],
+    [
+      {
+        "name": "class.mortarman#I",
+        "stats": [3, 6, 6],
+        "perk": "perk.less_camera_shake_on_explosions",
+        "value": 0.175
+      }
+    ],
+    [
+      {
+        "name": "class.flametrooper#I",
+        "stats": [6, 9, 3],
+        "perk": "perk.more_stability_when_hit",
+        "value": 0.28
+      },
+      {
+        "name": "class.flametrooper#II",
+        "stats": [6, 11, 4],
+        "perk": "perk.hp_boost",
+        "value": 0.123
+      }
+    ],
+    [
+      {
+        "name": "class.pilot_fighter#I",
+        "stats": [4, 6, 5],
+        "perk": "perk.pilot_stamina_regeneration",
+        "value": 0.05
+      },
+      {
+        "name": "class.pilot_fighter#II",
+        "stats": [5, 7, 6],
+        "perk": "perk.pilot_stamina_boost",
+        "value": 0.05
+      },
+      {
+        "name": "class.pilot_fighter#III",
+        "stats": [5, 9, 7],
+        "perk": "perk.pilot_willpower",
+        "value": 0.1
+      }
+    ],
+    [
+      {
+        "name": "class.pilot_assaulter#I",
+        "stats": [4, 5, 6],
+        "perk": "perk.pilot_willpower",
+        "value": 0.05
+      },
+      {
+        "name": "class.pilot_assaulter#II",
+        "stats": [5, 6, 7],
+        "perk": "perk.pilot_awareness",
+        "value": 0.1
+      }
+    ],
+    [
+      {
+        "name": "class.tanker#I",
+        "stats": [7, 2, 6],
+        "perk": "perk.seat_change_speed",
+        "value": 0.1
+      },
+      {
+        "name": "class.tanker#II",
+        "stats": [9, 2, 7],
+        "perk": "perk.repair_speed",
+        "value": 0.05
+      },
+      {
+        "name": "class.tanker#III",
+        "stats": [11, 2, 8],
+        "perk": "perk.gearChangeTimeMult",
+        "value": 0.45
+      }
+    ],
+    [
+      {
+        "name": "class.biker#I",
+        "stats": [6, 4, 8],
+        "perk": "perk.repair_speed",
+        "value": 0.07
+      }
+    ]
+  ]

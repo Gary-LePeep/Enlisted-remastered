@@ -65,6 +65,11 @@ function setCookie(cname, cvalue, expiresDays = -1) {
     document.getElementsByTagName('HEAD')[0].appendChild(css);
 })();
 
+function toPlace(number, place) {
+    const ret = Math.round(number * (10 ** place));
+    return (ret / (10 ** place));
+}
+
 let LANG = getCookie('language') === '' ? 'English' : getCookie('language');
 
 function readJSON(stringName) {
@@ -74,30 +79,30 @@ function readJSON(stringName) {
 function translate(text, type = 'string', style = '') {
     let language = readJSON(LANGUAGE);
     if (type === 'string') {
-      let ret = language[text];
-      if (ret == null) {
-        ret = text;
-      }
-      return ret;
+        let ret = language[text];
+        if (ret == null) {
+            ret = text;
+        }
+        return ret;
     }
-  
+
     const element = document.createElement(type);
     element.style = style;
-  
+
     if (Array.isArray(language[text])) {
-      element.textContent = language[text].join('\r\n');
-      element.text = language[text].join('\r\n');
-      element.style = `${style}; white-space: pre-line`;
+        element.textContent = language[text].join('\r\n');
+        element.text = language[text].join('\r\n');
+        element.style = `${style}; white-space: pre-line`;
     } else {
-      let ret = language[text];
-      if (ret == null) {
-        ret = text;
-      }
-      element.textContent = ret;
-      element.text = ret;
+        let ret = language[text];
+        if (ret == null) {
+            ret = text;
+        }
+        element.textContent = ret;
+        element.text = ret;
     }
     return element;
-  }
+}
 
 // Colors
 const colorBG = '#27373D';

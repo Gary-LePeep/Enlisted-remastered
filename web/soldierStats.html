@@ -11,8 +11,6 @@
 <body style="background-color:rgb(39, 55, 61);"></body>
 
 <script src="../static/common.js"></script>
-<script src="../static/soldierStats/stats.js"></script>
-
 
 <script src="//code.jquery.com/jquery-1.10.2.js"></script>
 <script src="../static/fetch.js"></script>
@@ -86,6 +84,8 @@
         tableHeaderRow.appendChild(translate('★★★★★', 'th'));
         tableHeaderRow.appendChild(translate('page.soldierStats.table.defaultPerk', 'th'));
 
+        const SOLDIER_STATS = readJSON('{{soldierStats}}');
+
         for (let i = 0; i < SOLDIER_STATS.length; i++) {
             const tableBody = document.createElement('tbody');
             tableBody.style = `border: 4px solid ${colorBG};`
@@ -93,15 +93,17 @@
             for (let j = 0; j < SOLDIER_STATS[i].length; j++) {
                 const tableRow = document.createElement('tr');
                 tableBody.appendChild(tableRow);
-                tableRow.appendChild(formatName(SOLDIER_STATS[i][j].Name));
+                tableRow.appendChild(formatName(SOLDIER_STATS[i][j].name));
                 const STARS = [0, 2, 4, 6, 12];
                 for (let k = 0; k < STARS.length; k++) {
                     const star = document.createElement('td');
-                    formatStats(star, SOLDIER_STATS[i][j].Stats, STARS[k]);
+                    formatStats(star, SOLDIER_STATS[i][j].stats, STARS[k]);
                     tableRow.appendChild(star);
                 }
-                tableRow.appendChild(translate(` ${SOLDIER_STATS[i][j].Talent}`, 'td', 'text-align: left;'
-                    + 'padding: 0px 0px 0px 30px'));
+                const tableData = document.createElement('td');
+                tableData.style = 'text-align: left; padding: 0px 0px 0px 30px';
+                tableData.innerHTML = translate(`${SOLDIER_STATS[i][j].perk}`).replace('{value}', toPlace(SOLDIER_STATS[i][j].value * 100, 1) + '%');
+                tableRow.appendChild(tableData);
             }
         }
 
@@ -128,6 +130,21 @@
         sellTableHeaderRow.appendChild(translate('★★★★', 'th', sellTableHeaderRowStyle));
         sellTableHeaderRow.appendChild(translate('★★★★★', 'th', sellTableHeaderRowStyle));
 
+        const SELL_STATS = [
+            {
+                Name: 'class.rank#I',
+                Sell: ['2', '2', '2 (4)', '5 (10)', '28'],
+            },
+            {
+                Name: 'class.rank#II',
+                Sell: ['3', '3', '5', '14', '54'],
+            },
+            {
+                Name: 'class.rank#III',
+                Sell: ['3', '3', '5', '18', '82'],
+            },
+        ];
+
         const sellTableBody = document.createElement('tbody');
         sellTableBody.style = 'border: 0px';
         sellTable.appendChild(sellTableBody);
@@ -142,16 +159,16 @@
 
         const statsFooterTextbox = document.createElement('img');
         statsFooterTextbox.src = '../static/img/textBox.png';
-        statsFooterTextbox.style = 'position: absolute; top: 1215px; height: 65px; left: 400px; width: 1120px;';
+        statsFooterTextbox.style = 'position: relative; top: 125px; height: 65px; left: 400px; width: 1120px;';
         allTablesDiv.appendChild(statsFooterTextbox);
 
         const statsFooter = document.createElement('div');
-        statsFooter.style = `position: relative; top: 130px; height: 25px; width: ${FULLWIDE}px; text-align: center; font-size:20px; font-family: Trebuchet MS; color: white;`;
+        statsFooter.style = `position: relative; top: 65px; height: 25px; width: ${FULLWIDE}px; text-align: center; font-size:20px; font-family: Trebuchet MS; color: white;`;
         allTablesDiv.appendChild(statsFooter);
         statsFooter.appendChild(translate('page.soldierStats.footer', 'b'));
 
         const buyTable = document.createElement('table');
-        buyTable.style = 'position: relative; top: 170px; left: 193px; width: 1493px';
+        buyTable.style = 'position: relative; top: 110px; left: 193px; width: 1493px';
         allTablesDiv.appendChild(buyTable);
         const buyTableHeader = document.createElement('thead');
         buyTableHeader.style = 'border: 0px';
@@ -173,9 +190,9 @@
         buyTableHeaderRow.appendChild(translate('★★★★', 'th', silverHeaderRowStyle));
         buyTableHeaderRow.appendChild(translate('★★★★★', 'th', silverHeaderRowStyle));
 
-        const twoStarSoldier = 63;
-        const threeStarSoldier = 44;
-        const fourStarSoldier = 16;
+        const twoStarSoldier = 94;
+        const threeStarSoldier = 63;
+        const fourStarSoldier = 21;
         const fiveStarSoldier = 1;
         const totalSoldier = twoStarSoldier + threeStarSoldier + fourStarSoldier + fiveStarSoldier;
         const buyTableBody = document.createElement('tbody');
@@ -190,7 +207,7 @@
         buyTableBody.appendChild(translate(`${Math.round(100 * (fiveStarSoldier / totalSoldier))}%`, 'td', `${silverBodyStyle} width: 200px`));
 
         const wepTable = document.createElement('table');
-        wepTable.style = 'position: relative; top: 180px; left: 193px; width: 1286px';
+        wepTable.style = 'position: relative; top: 120px; left: 193px; width: 1286px';
         allTablesDiv.appendChild(wepTable);
         const wepTableHeader = document.createElement('thead');
         wepTableHeader.style = 'border: 0px';
@@ -213,7 +230,7 @@
         const oneStarWeapon = 30;
         const twoStarWeapon = 17;
         const threeStarWeapon = 9;
-        const fourStarWeapon = 3;
+        const fourStarWeapon = 4;
         const totalWeapon = oneStarWeapon + twoStarWeapon + threeStarWeapon + fourStarWeapon;
         const wepTableBody = document.createElement('tbody');
         wepTableBody.style = 'border: 0px';
@@ -230,27 +247,27 @@
         BODY.appendChild(soldierDamageTextbox);
         BODY.appendChild(translate('page.soldierStats.soldierDamageHeader', 'b', 'position: absolute; top: 1475px; height: 61px; left: 250px; width: 600px; text-align: center; font-size:40px; font-family: Trebuchet MS; color: white;'));
         BODY.appendChild(translate('page.soldierStats.soldierDamageBody', 'div', 'position: absolute; top: 1550px; height: 400px; left: 200px; width: 700px; text-align: center; font-size:20px; font-family: Trebuchet MS; color: white'));
-        
+
         const soldierDamagePartOffsets = {
-            "Head": {top: 0, left: 0},
-            "Neck": {top: 52, left: 13},
-            "L Thigh": {top: 258, left: 40},
-            "R Thigh": {top: 254, left: -17},
-            "L Calf": {top: 359, left: 52},
-            "R Calf": {top: 359, left: -11},
-            "L Foot": {top: 451, left: 65},
-            "R Foot": {top: 455, left: -17},
-            "Pelvis": {top: 236, left: -17},
-            "Spine": {top: 186, left: -19},
-            "Spine1": {top: 127, left: -20},
-            "R Clavicle": {top: 72, left: -28},
-            "L Clavicle": {top: 69, left: 34},
-            "R UpperArm": {top: 98, left: -53},
-            "L UpperArm": {top: 101, left: 90},
-            "R Forearm": {top: 182, left: -43},
-            "L Forearm": {top: 185, left: 91},
-            "R Hand": {top: 250, left: -36},
-            "L Hand": {top: 249, left: 89}
+            "Head": { top: 0, left: 0 },
+            "Neck": { top: 52, left: 13 },
+            "L Thigh": { top: 258, left: 40 },
+            "R Thigh": { top: 254, left: -17 },
+            "L Calf": { top: 359, left: 52 },
+            "R Calf": { top: 359, left: -11 },
+            "L Foot": { top: 451, left: 65 },
+            "R Foot": { top: 455, left: -17 },
+            "Pelvis": { top: 236, left: -17 },
+            "Spine": { top: 186, left: -19 },
+            "Spine1": { top: 127, left: -20 },
+            "R Clavicle": { top: 72, left: -28 },
+            "L Clavicle": { top: 69, left: 34 },
+            "R UpperArm": { top: 98, left: -53 },
+            "L UpperArm": { top: 101, left: 90 },
+            "R Forearm": { top: 182, left: -43 },
+            "L Forearm": { top: 185, left: 91 },
+            "R Hand": { top: 250, left: -36 },
+            "L Hand": { top: 249, left: 89 }
         };
 
         for (const bodyPart of readJSON('{{damageParts}}')) {
@@ -266,8 +283,8 @@
             const toolTip = document.createElement('b');
             toolTip.textContent = `${name}: x${damageMult} damage`;
             toolTip.style = `visibility: hidden; position: absolute; top: ${1480 + soldierDamagePartOffsets[name]['top']}px; left: ${930 + soldierDamagePartOffsets[name]['left']}px; text-align: center; width: 200px; height: 20px; background-color: #222222; border-radius: 6px; color: white; z-index: 99`;
-            bodyPartImage.addEventListener("mouseover", () => {toolTip.style.visibility = 'visible';});
-            bodyPartImage.addEventListener("mouseout", () => {toolTip.style.visibility = 'hidden';});
+            bodyPartImage.addEventListener("mouseover", () => { toolTip.style.visibility = 'visible'; });
+            bodyPartImage.addEventListener("mouseout", () => { toolTip.style.visibility = 'hidden'; });
             BODY.appendChild(toolTip);
         }
 
