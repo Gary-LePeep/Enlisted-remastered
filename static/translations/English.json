@@ -30,6 +30,11 @@
       "This page contains the data of the optimal rolls for soldiers based on class and rank.",
       "Actual soldiers may have between 0 and 2 points less in each category by random chance."
     ],
+    "page.soldierStats.soldierDamageHeader": "Soldier Damage Diagram",
+    "page.soldierStats.soldierDamageBody": [
+        "Hover over each body part to see its damage multiplier.",
+        "Note: Helmets do not reduce damage. Only Soviet body armor in Berlin does."
+      ],
     "page.soldierStats.table.bronzeSale": "Bronze orders per sale",
     "page.soldierStats.table.defaultPerk": "Default Perks",
     "page.soldierStats.table.silverBuy": "Chance per silver order",

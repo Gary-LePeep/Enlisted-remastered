@@ -87,7 +87,9 @@ function translate(text, type = 'string', style = '') {
     if (Array.isArray(language[text])) {
       element.textContent = language[text].join('\r\n');
       element.text = language[text].join('\r\n');
-      element.style += '; white-space: pre-line';
+      console.log(element.style)
+      element.style = `${style}; white-space: pre-line`;
+      console.log(element.style)
     } else {
       let ret = language[text];
       if (ret == null) {

@@ -39,8 +39,8 @@ def soldier_stats():
     if 'language' in request.cookies.to_dict():
         language = request.cookies.to_dict()['language']
     language_json = json.load(open('static/translations/' + language + '.json'))
-    print(language_json)
-    return render_template('soldierStats.html', language=language_json)
+    damage_parts = json.load(open('static/soldierStats/soldierDamage.json'))
+    return render_template('soldierStats.html', language=language_json, damageParts=damage_parts)
 
 
 @app.route("/tanks")
