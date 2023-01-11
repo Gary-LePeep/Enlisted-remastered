@@ -23,8 +23,8 @@ const EN = {
   'page.datamine.title': 'Enlisted Datamine',
   'page.soldierStats.button': 'Soldier Stats',
   'page.soldierStats.footer': [
-    'Numbers in parentheses mean the net return in bronze orders if soldier is first upgraded to 5 stars, then sold',
-    "Values for stars of a silver order's result are experimental and may not be completely accurate",
+    'Numbers in parentheses mean the net return in bronze orders if soldier is first upgraded to 5 stars, then sold.',
+    "Values for stars of a silver order's result are experimental and may not be completely accurate.",
   ],
   'page.soldierStats.header': [
     'This page contains the data of the optimal rolls for soldiers based on class and rank.',
