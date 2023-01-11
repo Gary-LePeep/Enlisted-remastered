@@ -67,6 +67,38 @@ function setCookie(cname, cvalue, expiresDays = -1) {
 
 let LANG = getCookie('language') === '' ? 'English' : getCookie('language');
 
+function readJSON(stringName) {
+    return JSON.parse(stringName.replace(/&#39;/g, '"').replace(/&#34;/g, '"').replace(/~/g, "'"));
+}
+
+function translate(text, type = 'string', style = '') {
+    let language = readJSON(LANGUAGE);
+    if (type === 'string') {
+      let ret = language[text];
+      if (ret == null) {
+        ret = text;
+      }
+      return ret;
+    }
+  
+    const element = document.createElement(type);
+    element.style = style;
+  
+    if (Array.isArray(language[text])) {
+      element.textContent = language[text].join('\r\n');
+      element.text = language[text].join('\r\n');
+      element.style += '; white-space: pre-line';
+    } else {
+      let ret = language[text];
+      if (ret == null) {
+        ret = text;
+      }
+      element.textContent = ret;
+      element.text = ret;
+    }
+    return element;
+  }
+
 // Colors
 const colorBG = '#27373D';
 const colorTitle = '#1F2C32';

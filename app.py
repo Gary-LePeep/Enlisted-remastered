@@ -34,8 +34,13 @@ def datamine():
 
 @app.route("/soldierStats")
 def soldier_stats():
-    print('cookies: ' + str(request.cookies.to_dict()['language']))
-    return render_template('soldierStats.html')
+    language_cookie = request.cookies.to_dict()
+    language = 'English'
+    if 'language' in request.cookies.to_dict():
+        language = request.cookies.to_dict()['language']
+    language_json = json.load(open('static/translations/' + language + '.json'))
+    print(language_json)
+    return render_template('soldierStats.html', language=language_json)
 
 
 @app.route("/tanks")
