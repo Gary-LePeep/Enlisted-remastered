@@ -13,6 +13,7 @@
     "class.pilot_assaulter": "Пилот-штурмовик",
     "class.pilot_fighter": "Пилот-истребитель",
     "class.radioman": "Радист",
+    "class.rank": "Звание",
     "class.rifle": "Боец",
     "class.shotgunner": "Диверсант",
     "class.sniper": "Снайпер",
@@ -34,8 +35,9 @@
     "page.soldierStats.soldierDamageBody": [
         "Наведите указатель на каждую часть тела,",
         "чтобы увидеть соответствующий множитель урона.",
+        "",
         "Примечание: Каски не уменьшают урон.",
-        "Так действуют только Советские бронежилеты в Берлине."
+        "Так действуют только Советские бронежилеты."
     ],
     "page.soldierStats.soldierDamageHeader": "Схема Урона Солдату",
     "page.soldierStats.table.bronzeSale": "Бронзовых заявок за продажу",

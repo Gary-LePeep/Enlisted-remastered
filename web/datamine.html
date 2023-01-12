@@ -3,6 +3,9 @@
 
 <head>
     <title>Enlisted Tool</title>
+    <script>
+        const LANGUAGE = '{{language}}'
+    </script>
 </head>
 
 <body style="background-color:rgb(39, 55, 61);"></body>
@@ -12,7 +15,8 @@
 
 <script src="//code.jquery.com/jquery-1.10.2.js"></script>
 <script src="../static/fetch.js"></script>
-<script src="https://code.jquery.com/ui/1.13.1/jquery-ui.min.js" integrity="sha256-eTyxS0rkjpLEo16uXTS0uVCS4815lc40K2iVpWDvdSY=" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/ui/1.13.1/jquery-ui.min.js"
+    integrity="sha256-eTyxS0rkjpLEo16uXTS0uVCS4815lc40K2iVpWDvdSY=" crossorigin="anonymous"></script>
 
 
 <body>
@@ -20,6 +24,94 @@
         // TITLE BAR
         BODY.appendChild(translate('page.datamine.title', 'b', 'position: absolute; top:0px; left:115px; font-family: Trebuchet MS; width:1000px; font-size:50px; color: white; text-align:center;'));
         addButtons('datamine');
+
+        // Color Dropdown
+        const headerbox = document.createElement('header');
+        headerbox.style = 'position: absolute; top: 65px'
+        headerbox.id = 'header-box';
+        BODY.appendChild(headerbox);
+
+        const header = document.createElement('div');
+        header.className = 'header';
+        headerbox.append(header);
+
+        const primary = document.createElement('nav');
+        header.append(primary);
+
+        const primarylist = document.createElement('ul');
+        primary.append(primarylist);
+        const colorButtonContainer = document.createElement('li');
+        primarylist.append(colorButtonContainer);
+
+        const colorButton = document.createElement('li');
+        colorButton.className = 'link topbtn greenbtn';
+        colorButtonContainer.append(colorButton);
+
+        const colorButtonText = document.createElement('a');
+        colorButtonText.style = 'color: white; font-size:22px';
+        colorButtonText.text = translate('Weapon');
+        colorButton.append(colorButtonText);
+
+        const categorylist = document.createElement('ul');
+        colorButton.append(categorylist);
+
+        const WEAPONS = ['thing']
+
+        for (let i = -1; i < WEAPONS.length; i++) {
+            const categoryButton = document.createElement('li');
+            categoryButton.className = 'Link submenu';
+            categorylist.append(categoryButton);
+
+            const categoryButtonText = document.createElement('a');
+            categoryButtonText.text = i < 0 ? translate('Remove') : WEAPONS[i][translate('Category')];
+            categoryButton.append(categoryButtonText);
+
+            categoryButton.onclick = () => {
+                if (window.refreshCategory === true || categoryButtonText.text === translate('Remove')) {
+                    // reset color button
+                    colorButtonText.text = translate('Weapon');
+                    gunNameData.textContent = '-';
+                    gunIGNData.textContent = '-';
+                    akaData.textContent = '-';
+                    typeData.textContent = '-';
+                    ammoData.textContent = '-';
+                    rpmData.textContent = '-';
+                    effRangeData.textContent = '-';
+                    maxRangeData.textContent = '-';
+                    bulletSpeedData.textContent = '-';
+                    tableRow1.textContent = '';
+                    tableRow2.textContent = '';
+                    tableRow3.textContent = '';
+                    tableRow4.textContent = '';
+                    tableRow5.textContent = '';
+                    tableRow6.textContent = '';
+                    dispersionData.textContent = '-';
+                    singleReloadPrepareData.textContent = '-';
+                    singleReloadLoopData.textContent = '-';
+                    singleReloadPostData.textContent = '-';
+                    zeroDistanceData.textContent = '-';
+                    recoilVertData.textContent = '-';
+                    recoilHorizData.textContent = '-';
+                    reloadData.textContent = '-';
+                    reloadData.style.removeProperty('text-decoration');
+                    reloadAltData.textContent = '-';
+                    reloadDualMagData.textContent = '-';
+                    crawlRecoilData.textContent = '-';
+                    sightsMagData.textContent = '-';
+                    weightData.textContent = '-';
+                    firingModeData.textContent = '-';
+                    magazineNameData.textContent = '-';
+                    magazineSizeData.textContent = '-';
+
+                    if (window.refreshStars) {
+                        starsDropdown.textContent = '';
+                        starsDropdown.append(defaultOption);
+                    }
+
+                    window.refreshCategory = false;
+                }
+            }
+        }
     </script>
 </body>
 

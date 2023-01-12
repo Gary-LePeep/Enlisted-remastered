@@ -34,7 +34,9 @@
     ],
     "page.soldierStats.soldierDamageBody": [
         "Hover over each body part to see its damage multiplier.",
-        "Note: Helmets do not reduce damage. Only Soviet body armor in Berlin does."
+        "",
+        "Note: Helmets do not reduce damage.",
+        "Only Soviet body armor does."
     ],
     "page.soldierStats.soldierDamageHeader": "Soldier Damage Diagram",
     "page.soldierStats.table.bronzeSale": "Bronze orders per sale",

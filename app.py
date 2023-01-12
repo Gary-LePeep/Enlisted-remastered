@@ -17,27 +17,34 @@ def favicon():
     return app.send_static_file('favicon.ico')
 
 
+def get_language():
+    language = 'English'
+    if 'language' in request.cookies.to_dict():
+        language = request.cookies.to_dict()['language']
+    return json.load(open('static/translations/' + language + '.json'))
+
+
 @app.route("/")
 def home():
-    return render_template('comparison.html')
+    language_json = get_language()
+    return render_template('comparison.html', language=language_json)
 
 
 @app.route("/comparison")
 def comparison():
-    return render_template('comparison.html')
+    language_json = get_language()
+    return render_template('comparison.html', language=language_json)
 
 
 @app.route("/datamine")
 def datamine():
-    return render_template('datamine.html')
+    language_json = get_language()
+    return render_template('datamine.html', language=language_json)
 
 
 @app.route("/soldierStats")
 def soldier_stats():
-    language = 'English'
-    if 'language' in request.cookies.to_dict():
-        language = request.cookies.to_dict()['language']
-    language_json = json.load(open('static/translations/' + language + '.json'))
+    language_json = get_language()
     soldier_stats_json = json.load(open('static/soldierStats/solderStats.json'))
     damage_parts_json = json.load(open('static/soldierStats/soldierDamage.json'))
     return render_template('soldierStats.html', language=language_json, damageParts=damage_parts_json, soldierStats=soldier_stats_json)
@@ -45,7 +52,8 @@ def soldier_stats():
 
 @app.route("/tanks")
 def tanks():
-    return render_template('tanks.html')
+    language_json = get_language()
+    return render_template('tanks.html', language=language_json)
 
 
 if __name__ == "__main__":
