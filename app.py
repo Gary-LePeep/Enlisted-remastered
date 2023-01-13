@@ -21,7 +21,7 @@ def get_language():
     language = 'English'
     if 'language' in request.cookies.to_dict():
         language = request.cookies.to_dict()['language']
-    return json.load(open('static/translations/' + language + '.json'), encoding='utf-8')
+    return json.load(open('static/translations/' + language + '.json'))
 
 
 @app.route("/")
@@ -39,15 +39,15 @@ def comparison():
 @app.route("/datamine")
 def datamine():
     language_json = get_language()
-    weapons_json = json.load(open('static/datamine/weapons.json', encoding='utf-8'))
+    weapons_json = json.load(open('static/datamine/weapons.json'))
     return render_template('datamine.html', language=language_json, weaponsJson=weapons_json)
 
 
 @app.route("/soldierStats")
 def soldier_stats():
     language_json = get_language()
-    soldier_stats_json = json.load(open('static/soldierStats/solderStats.json', encoding='utf-8'))
-    damage_parts_json = json.load(open('static/soldierStats/soldierDamage.json', encoding='utf-8'))
+    soldier_stats_json = json.load(open('static/soldierStats/solderStats.json'))
+    damage_parts_json = json.load(open('static/soldierStats/soldierDamage.json'))
     return render_template('soldierStats.html', language=language_json, damageParts=damage_parts_json, soldierStats=soldier_stats_json)
 
 
