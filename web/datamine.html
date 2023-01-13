@@ -114,7 +114,7 @@
 
         const colorButtonText = document.createElement('a');
         colorButtonText.style = 'color: white; font-size:22px';
-        colorButtonText.text = translate('Weapon');
+        colorButtonText.text = translate('weapon');
         colorButton.append(colorButtonText);
 
         const categorylist = document.createElement('ul');
@@ -127,14 +127,14 @@
             categorylist.append(categoryButton);
 
             const categoryButtonText = document.createElement('a');
-            categoryButtonText.text = i < 0 ? translate('Remove') : WEAPONS_META[i]['Category'];
+            categoryButtonText.text = i < 0 ? translate('remove') : translate(WEAPONS_META[i]['Category']);
             categoryButton.append(categoryButtonText);
 
             categoryButton.onclick = () => {
                 // Click does nothing unless you're clicking on 'Remove' or you clicked on a weapon in a submenu
-                if (window.newWeaponClicked || categoryButtonText.text === translate('Remove')) {
+                if (window.newWeaponClicked || categoryButtonText.text === translate('remove')) {
                     // reset color button
-                    colorButtonText.text = translate('Weapon')
+                    colorButtonText.text = translate('weapon')
                     gunNameData.textContent = '-';
                     gunIGNData.textContent = '-';
                     akaData.textContent = '-';

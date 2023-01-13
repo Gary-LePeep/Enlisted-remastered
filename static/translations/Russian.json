@@ -34,7 +34,7 @@
         "симулятор стрельбы на странице «Инструмент Сравнения Оружия»."
     ],
     "page.datamine.dispersion": "Рассеивание выстрелов: ",
-    "page.datamine.dispersionRecoil.header": "Recoil & Dispersion",
+    "page.datamine.dispersionRecoil.header": "Отдача и Рассеивание",
     "page.datamine.effRange": "Эффективное расстояние: ",
     "page.datamine.firingMode": "Режим ведения огня: ",
     "page.datamine.gunIGN": "Название в данных: ",
@@ -46,7 +46,7 @@
     "page.datamine.recoilHoriz": "* Горизонтальная отдача: ",
     "page.datamine.recoilVert": "Вертикальная отдача: ",
     "page.datamine.reload": "Время перезарядки с пустым магазином: ",
-    "page.datamine.reload.header": "Отдача и Рассеивание",
+    "page.datamine.reload.header": "Перезарядка",
     "page.datamine.reloadAlt": "Время перезарядки с непустым магазином: ",
     "page.datamine.reloadDualMag": "Время переключения между двойными магазинами: ",
     "page.datamine.rpm": "Скорострельность: ",
@@ -150,5 +150,19 @@
     "perk.stamina_boost": "+{value} выносливости",
     "perk.stamina_regeneration": "+{value} скорость восстановления выносливости",
     "perk.weapon_turning_speed": "+{value} скорость поворота оружия",
-    "perk.weight_run": "-{value} влияние веса оружия на скорость передвижения"
+    "perk.weight_run": "-{value} влияние веса оружия на скорость передвижения",
+    "weapon": "Оружие",
+    "remove": "(Убрать)",
+    "weapons.category.assault.allies": "Штурмовые Оружие Союзников",
+    "weapons.category.manual.allies": "Ручные Винтовки Союзников",
+    "weapons.category.semiauto.allies": "Самозарядные Винтовки Союзников",
+    "weapons.category.mg.allies": "Пулеметы Союзников",
+    "weapons.category.heavy.allies": "Тяжелое Вооружение Союзников",
+    "weapons.category.pistol.allies": "Пистолеты Союзников",
+    "weapons.category.assault.axis": "Штурмовые Оружие Оси",
+    "weapons.category.manual.axis": "Ручные Винтовки Оси",
+    "weapons.category.semiauto.axis": "Самозарядные Винтовки Оси",
+    "weapons.category.mg.axis": "Пулеметы Оси",
+    "weapons.category.heavy.axis": "Тяжелые Вооружение Оси",
+    "weapons.category.pistol.axis": "Пистолеты Оси"
 }
