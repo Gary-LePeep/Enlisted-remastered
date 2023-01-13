@@ -73,7 +73,7 @@ function toPlace(number, place) {
 let LANG = getCookie('language') === '' ? 'English' : getCookie('language');
 
 function readJSON(stringName) {
-    return JSON.parse(stringName.replace(/&#39;/g, '"').replace(/&#34;/g, '"').replace(/~/g, "'"));
+    return JSON.parse(stringName.replace(/&#39;/g, '"').replace(/&#34;/g, '"').replace(/~/g, "'").replace(/None/g, 'null'));
 }
 
 function translate(text, type = 'string', style = '') {
@@ -145,24 +145,32 @@ titleBar.append(langPanel);
 // Add languages
 const EnButton = document.createElement('button');
 EnButton.style = `position: relative; top:0px; left:1770px; width:150px; height:50px; font-size:24px; font-family: Trebuchet MS; color: white; background-color:${LANG === 'English' ? colorTitleSelect : colorTitle}; border-color:${LANG === 'English' ? colorTitleSelectLight : colorTitleLight}; text-align:left;`;
-EnButton.innerHTML = ' 🇺🇸 English';
+EnButton.innerHTML = '      English';
 EnButton.addEventListener("click", function () {
     if (LANG !== 'English') {
         setCookie('language', 'English');
         window.location.reload();
     }
 });
+const EnFlag = document.createElement('img');
+EnFlag.src = '../static/translations/English.png';
+EnFlag.style = 'position: absolute; top: 8px; left: 8px;';
+EnButton.append(EnFlag);
 langPanel.append(EnButton);
 
 const RuButton = document.createElement('button');
 RuButton.style = `position: relative; top:0px; left:1770px; width:150px; height:50px; font-size:24px; font-family: Trebuchet MS; color: white; background-color:${LANG === 'Russian' ? colorTitleSelect : colorTitle}; border-color:${LANG === 'Russian' ? colorTitleSelectLight : colorTitleLight}; text-align:left;`;
-RuButton.innerHTML = ' 🇷🇺 Русский';
+RuButton.innerHTML = '      Русский';
 RuButton.addEventListener("click", function () {
     if (LANG !== 'Russian') {
         setCookie('language', 'Russian');
         window.location.reload();
     }
 });
+const RuFlag = document.createElement('img');
+RuFlag.src = '../static/translations/Russian.png';
+RuFlag.style = 'position: absolute; top: 8px; left: 8px;';
+RuButton.append(RuFlag);
 langPanel.append(RuButton);
 
 // add the title bar's navigation buttons, highlighting the active one
