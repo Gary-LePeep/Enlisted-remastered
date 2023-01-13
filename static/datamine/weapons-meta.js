@@ -18,7 +18,7 @@ const WEAPONS_META = [
                 'm3a1_field_repair',
                 'm3_submachine_gun',
                 'm3_greasegun_supressed_oss',
-                'm3a1_grease',
+                'm3a1_grease_gun',
                 'm50_reising',
                 'ppd_1929',
                 'pp_dolganov',

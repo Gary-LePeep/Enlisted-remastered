@@ -190,7 +190,7 @@
                 weaponlist.append(weaponButton);
 
                 const weaponButtonText = document.createElement('a');
-                weaponButtonText.text = chosenWeapName;
+                weaponButtonText.text = translate(`item.${chosenWeapName}`);
                 weaponButton.append(weaponButtonText);
 
                 weaponButton.onclick = () => {
@@ -198,8 +198,8 @@
                     categoryButton.onclick();
 
                     // set color button name to selected weapon
-                    colorButtonText.text = translate(chosenWeapName);
-                    gunNameData.textContent = translate(chosenWeapName);
+                    colorButtonText.text = translate(`item.${chosenWeapName}`);
+                    gunNameData.textContent = translate(`item.${chosenWeapName}`);
                     gunIGNData.textContent = chosenWeapName;
 
                     // Data for gun not entered yet
