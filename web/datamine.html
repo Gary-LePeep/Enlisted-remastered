@@ -27,6 +27,7 @@
         addButtons('datamine');
 
         WEAPONS_JSON = readJSON('{{weaponsJson}}');
+        BULLETS_JSON = readJSON('{{bulletsJson}}');
 
         function createWeaponStatsDiv(top, left, name) {
             const div = document.createElement('div');
@@ -60,13 +61,14 @@
         const gunIGNData = createWeaponRow(20, 'page.datamine.gunIGN', metaDiv);
         const akaData = createWeaponRow(40, 'page.datamine.aka', metaDiv);
         const typeData = createWeaponRow(60, 'page.datamine.type', metaDiv);
-        const weightData = createWeaponRow(80, 'page.datamine.weight', metaDiv);
-        const firingModeData = createWeaponRow(100, 'page.datamine.firingMode', metaDiv);
-        const zeroDistanceData = createWeaponRow(120, 'page.datamine.zeroDistance', metaDiv);
-        
+        const subtypeData = createWeaponRow(80, 'page.datamine.subtype', metaDiv);
+        const weightData = createWeaponRow(100, 'page.datamine.weight', metaDiv);
+        const firingModeData = createWeaponRow(120, 'page.datamine.firingMode', metaDiv);
+        const zeroDistanceData = createWeaponRow(140, 'page.datamine.zeroDistance', metaDiv);
+
 
         // Bullets data
-        bulletsDiv = createWeaponStatsDiv(200, 0, translate('page.datamine.bullets.header'));
+        bulletsDiv = createWeaponStatsDiv(220, 0, translate('page.datamine.bullets.header'));
         const magazineNameData = createWeaponRow(0, 'page.datamine.magazineName', bulletsDiv);
         const magazineSizeData = createWeaponRow(20, 'page.datamine.magazineSize', bulletsDiv);
         const ammoData = createWeaponRow(40, 'page.datamine.ammo', bulletsDiv);
@@ -76,7 +78,7 @@
         const bulletSpeedData = createWeaponRow(120, 'page.datamine.bulletSpeed', bulletsDiv);
 
         // Dispersion & Recoil data
-        disRecDiv = createWeaponStatsDiv(400, 0, translate('page.datamine.dispersionRecoil.header'));
+        disRecDiv = createWeaponStatsDiv(420, 0, translate('page.datamine.dispersionRecoil.header'));
         const dispersionData = createWeaponRow(0, 'page.datamine.dispersion', disRecDiv);
         const recoilVertData = createWeaponRow(20, 'page.datamine.recoilVert', disRecDiv);
         const recoilHorizData = createWeaponRow(40, 'page.datamine.recoilHoriz', disRecDiv);
@@ -84,7 +86,7 @@
         const crawlRecoilData = createWeaponRow(80, 'page.datamine.crawlRecoil', disRecDiv);
 
         // Reload data
-        reloadDiv = createWeaponStatsDiv(560, 0, translate('page.datamine.reload.header'));
+        reloadDiv = createWeaponStatsDiv(580, 0, translate('page.datamine.reload.header'));
         const singleReloadPrepareData = createWeaponRow(0, 'page.datamine.singleReloadPrepare', reloadDiv);
         const singleReloadLoopData = createWeaponRow(20, 'page.datamine.singleReloadLoop', reloadDiv);
         const singleReloadPostData = createWeaponRow(40, 'page.datamine.singleReloadPost', reloadDiv);
@@ -93,11 +95,50 @@
         const reloadDualMagData = createWeaponRow(100, 'page.datamine.reloadDualMag', reloadDiv);
 
         // Accessories data
-        accessoriesDiv = createWeaponStatsDiv(720, 0, translate('page.datamine.accessories.header'));
+        accessoriesDiv = createWeaponStatsDiv(740, 0, translate('page.datamine.accessories.header'));
         const sightsMagData = createWeaponRow(0, 'page.datamine.sightsMag', accessoriesDiv);
 
         //Disclaimer
         BODY.append(translate('page.datamine.disclaimer', 'div', 'position: absolute; top: 870px; left: 10px; color: white; font-size:14px; font-family: Trebuchet MS;'));
+
+        // Bullet table
+        const dataDiv2 = document.createElement('div');
+        dataDiv2.style = 'position: absolute; top:120px; left: 1120px; width: 750px';
+        BODY.appendChild(dataDiv2);
+
+        const damageOverRange = translate('page.datamine.damageOverRange', 'div');
+        dataDiv2.append(damageOverRange);
+        const table = document.createElement('table');
+        dataDiv2.append(table);
+        const tableRow1 = document.createElement('tr');
+        table.append(tableRow1);
+        const tableRow2 = document.createElement('tr');
+        table.append(tableRow2);
+
+        dataDiv2.append(translate('EMPTY', 'p'));
+
+        const penOverRange = translate('page.datamine.penOverRange', 'div');
+        dataDiv2.append(penOverRange);
+        const table2 = document.createElement('table');
+        dataDiv2.append(table2);
+        const tableRow3 = document.createElement('tr');
+        table2.append(tableRow3);
+        const tableRow4 = document.createElement('tr');
+        table2.append(tableRow4);
+
+        dataDiv2.append(translate('EMPTY', 'p'));
+
+        const damageFromHeat = translate('page.datamine.damageFromHeat', 'div');
+        dataDiv2.append(damageFromHeat);
+        const table3 = document.createElement('table');
+        dataDiv2.append(table3);
+        const tableRow5 = document.createElement('tr');
+        table3.append(tableRow5);
+        const tableRow6 = document.createElement('tr');
+        table3.append(tableRow6);
+
+        dataDiv2.append(translate('EMPTY', 'p'));
+
 
         // Color Dropdown
         const primary = document.createElement('nav');
@@ -140,6 +181,7 @@
                     gunIGNData.textContent = '-';
                     akaData.textContent = '-';
                     typeData.textContent = '-';
+                    subtypeData.textContent = '-';
                     ammoData.textContent = '-';
                     rpmData.textContent = '-';
                     effRangeData.textContent = '-';
@@ -170,8 +212,8 @@
                     recoilRightBiasData.textContent = '-';
 
                     if (window.refreshStars) {
-                        starsDropdown.textContent = '';
-                        starsDropdown.append(defaultOption);
+                        //starsDropdown.textContent = '';
+                        //starsDropdown.append(defaultOption);
                     }
 
                     window.newWeaponClicked = false;
@@ -219,8 +261,8 @@
                         return;
                     }
 
-                    function getProperty(propertyName, toPlace=-1) {
-                        let result = weaponData[propertyName];
+                    function getProperty(propertyName, toPlace = -1, dataJson = weaponData) {
+                        let result = dataJson[propertyName];
                         result = result === null ? '-' : result;
                         if (toPlace !== -1) {
                             result = toPlace(result, toPlace);
@@ -228,11 +270,17 @@
                         return result;
                     }
 
+                    let ammoJson;
+                    function getAmmoProperty(propertyName, toPlace = -1, dataJson = weaponData) {
+                        return ammoJson == null ? '-' : getProperty(propertyName, toPlace, ammoJson)
+                    }
+
                     akaData.textContent = getProperty('locName');
                     typeData.textContent = getProperty('type').replace(/_/g, ' ');
+                    subtypeData.textContent = getProperty('stat').replace(/_/g, ' ');
 
                     // create stars only on weapon change
-                
+
                     let damageStar = 1;
                     let dispersionStar = 1;
                     let rpmStar = 1;
@@ -314,19 +362,17 @@
                         ammoData.textContent += `.${ammoFile.split('.')[k]}`;
                     }
 
-                    const ammoDataFile = window[`_${ammoData.textContent.replace(/\./g, '_')}`];
+                    ammoJson = BULLETS_JSON[ammoData.textContent];
 
-                    const magazineStat = getDataProperty([gunIGNData.textContent], 'gun__ammoHolders:array');
-                    magazineNameData.textContent = Array.isArray(magazineStat)
-                        ? magazineStat[0].ammoHolders : magazineStat.ammoHolders;
-                    magazineSizeData.textContent = ALLITEMSDATA[magazineNameData.textContent].ammo_holder__ammoCount;
+                    const magazineStat = getProperty('magazineName');
+                    magazineNameData.textContent = Array.isArray(magazineStat) ? magazineStat[0].ammoHolders : magazineStat.ammoHolders;
+                    //TODO: magazineSizeData.textContent = ALLITEMSDATA[magazineNameData.textContent].ammo_holder__ammoCount;
 
                     // damage just for flamethrowers done here
-                    const flameDamage = getDataProperty([gunIGNData.textContent], 'flamethrower__streamDamagePerSecond');
+                    const flameDamage = getProperty('flamethrowerDPS');
                     if (flameDamage !== '-') {
                         const tableheader = document.createElement('th');
-                        tableheader.textContent = translate('upTo')
-                            + getDataProperty([gunIGNData.textContent], 'flamethrower__maxFlameLength') + translate('meters');
+                        tableheader.textContent = translate('upTo') + getProperty('flamethrowerMaxLength') + translate('meters');
                         tableRow1.append(tableheader);
                         const tabledata = document.createElement('td');
                         tabledata.textContent = flameDamage + translate('perSecond');
@@ -334,19 +380,21 @@
                     }
 
                     // if ammo not found, return to prevent errors
-                    if (ammoDataFile == null) {
+                    if (ammoJson == null) {
+                        console.log(`ammunition not found: ${ammoData.textContent}`)
                         return;
                     }
-                    effRangeData.textContent = getAmmoProperty(ammoDataFile, 'effectiveDistance');
-                    maxRangeData.textContent = getAmmoProperty(ammoDataFile, 'maxDistance');
-                    bulletSpeedData.textContent = getAmmoProperty(ammoDataFile, 'speed');
+                    effRangeData.textContent = getAmmoProperty('effectiveDistance');
+                    maxRangeData.textContent = getAmmoProperty('maxDistance');
+                    bulletSpeedData.textContent = getAmmoProperty('speed');
 
                     // damage
-                    const numBullets = getAmmoProperty(ammoDataFile, 'spawn');
-                    const hitpower = getAmmoProperty(ammoDataFile, 'hitpower');
+                    const numBullets = getAmmoProperty('spawn');
+                    const hitpower = getAmmoProperty('hitpower');
                     if (hitpower != null) {
                         const keys = Object.keys(hitpower);
-                        const hitmult = getDataProperty([gunIGNData.textContent], 'gun__kineticDamageMult');
+                        const hitmult = getAmmoProperty('hitPowerMult');
+                        const gunDamageMult = getProperty('damageMult');
 
                         for (let k = 0; k < keys.length; k++) {
                             const tableheader = document.createElement('th');
@@ -354,20 +402,19 @@
                             tableRow1.append(tableheader);
                             const tabledata = document.createElement('td');
                             tabledata.textContent = '';
-                            if (numBullets != null) {
+                            if (numBullets !== '-') {
                                 if (numBullets.minCount === numBullets.maxCount) {
                                     tabledata.textContent += `${numBullets.maxCount} × `;
                                 } else {
                                     tabledata.textContent += `(${numBullets.minCount} - ${numBullets.maxCount}) × `;
                                 }
                             }
-                            tabledata.textContent += toPlace(hitpower[keys[k]][0] * getAmmoProperty(ammoDataFile, 'hitPowerMult')
-                                * damageStar * (hitmult === '-' ? 1 : hitmult), 3);
+                            tabledata.textContent += toPlace(hitpower[keys[k]][0] * damageStar * (hitmult === '-' ? 1 : hitmult) * (gunDamageMult === '-' ? 1 : gunDamageMult), 3);
                             tableRow2.append(tabledata);
                         }
                     }
-                    const cumDamage = getAmmoProperty(ammoDataFile, 'cumulativeDamage');
-                    if (cumDamage != null) {
+                    const cumDamage = getAmmoProperty('cumulativeDamage');
+                    if (cumDamage !== '-') {
                         // damage on contact to vehicles
                         let tableheader = document.createElement('th');
                         tableheader.textContent = translate('contactVehicle');
@@ -381,7 +428,7 @@
                         tableheader.textContent = `0${translate('meters')}`;
                         tableRow1.append(tableheader);
                         tabledata = document.createElement('td');
-                        tabledata.textContent = getAmmoProperty(ammoDataFile, 'explodeHitPower');
+                        tabledata.textContent = getAmmoProperty('explodeHitPower');
                         tableRow2.append(tabledata);
 
                         tableheader = document.createElement('th');
@@ -399,16 +446,15 @@
                         tabledata.textContent = cumDamage.armorPower + translate('millimeters');
                         tableRow4.append(tabledata);
                     } else {
-                        const armorpower = getAmmoProperty(ammoDataFile, 'armorpower');
-                        if (armorpower != null) {
+                        const armorpower = getAmmoProperty('armorpower');
+                        if (armorpower !== '-') {
                             const keys = Object.keys(armorpower);
                             for (let k = 0; k < keys.length; k++) {
                                 const tableheader = document.createElement('th');
-                                tableheader.textContent = getAmmoProperty(ammoDataFile, 'armorpower')[keys[k]][1] + translate('meters');
+                                tableheader.textContent = getAmmoProperty('armorpower')[keys[k]][1] + translate('meters');
                                 tableRow3.append(tableheader);
                                 const tabledata = document.createElement('td');
-                                tabledata.textContent = (getAmmoProperty(ammoDataFile, 'armorpower')[keys[k]][0])
-                                    + translate('millimeters');
+                                tabledata.textContent = (getAmmoProperty('armorpower')[keys[k]][0]) + translate('millimeters');
                                 tableRow4.append(tabledata);
                             }
                         }

@@ -101,7 +101,9 @@
         "mods": null,
         "adsSpeedMult": null,
         "damageMult": null,
-        "sightsMag": null
+        "sightsMag": null,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "colt_walker",
@@ -143,7 +145,9 @@
         "mods": null,
         "adsSpeedMult": 1.44,
         "damageMult": null,
-        "sightsMag": 1.0
+        "sightsMag": 1.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "akm_47",
@@ -197,7 +201,9 @@
         },
         "adsSpeedMult": 0.7,
         "damageMult": null,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "ak_103",
@@ -246,7 +252,9 @@
         },
         "adsSpeedMult": 0.7,
         "damageMult": null,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "fn_scar",
@@ -293,7 +301,9 @@
         "mods": null,
         "adsSpeedMult": 0.7,
         "damageMult": null,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "m4",
@@ -340,7 +350,9 @@
         "mods": null,
         "adsSpeedMult": 0.7,
         "damageMult": null,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "steyr_aug_a1",
@@ -387,7 +399,9 @@
         "mods": null,
         "adsSpeedMult": 0.7,
         "damageMult": null,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "spas_12",
@@ -429,7 +443,9 @@
         "mods": null,
         "adsSpeedMult": 0.8,
         "damageMult": null,
-        "sightsMag": 1.0
+        "sightsMag": 1.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "hk_mp5n",
@@ -476,7 +492,9 @@
         "mods": null,
         "adsSpeedMult": 0.8,
         "damageMult": null,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "hk_ump_45",
@@ -526,7 +544,9 @@
         "mods": null,
         "adsSpeedMult": 0.8,
         "damageMult": null,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "barrett_m82a1",
@@ -563,7 +583,9 @@
         "mods": null,
         "adsSpeedMult": 0.4,
         "damageMult": null,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "tt_33",
@@ -605,7 +627,9 @@
         "mods": null,
         "adsSpeedMult": 1.44,
         "damageMult": null,
-        "sightsMag": 1.0
+        "sightsMag": 1.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "tk_26",
@@ -642,7 +666,9 @@
         "mods": null,
         "adsSpeedMult": 1.3,
         "damageMult": null,
-        "sightsMag": 1.0
+        "sightsMag": 1.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "tk_26_chrome",
@@ -679,7 +705,9 @@
         "mods": null,
         "adsSpeedMult": 1.3,
         "damageMult": null,
-        "sightsMag": 1.0
+        "sightsMag": 1.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "astra_300",
@@ -716,7 +744,9 @@
         "mods": null,
         "adsSpeedMult": 1.44,
         "damageMult": null,
-        "sightsMag": 1.0
+        "sightsMag": 1.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "astra_300_gold",
@@ -753,7 +783,9 @@
         "mods": null,
         "adsSpeedMult": 1.44,
         "damageMult": null,
-        "sightsMag": 1.0
+        "sightsMag": 1.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "nagant_m1895",
@@ -795,7 +827,9 @@
         "mods": null,
         "adsSpeedMult": 1.44,
         "damageMult": null,
-        "sightsMag": 1.0
+        "sightsMag": 1.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "nagant_m1895_bramit",
@@ -837,7 +871,9 @@
         "mods": null,
         "adsSpeedMult": 1.44,
         "damageMult": null,
-        "sightsMag": 1.0
+        "sightsMag": 1.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "winchester_1895",
@@ -879,7 +915,9 @@
         "mods": null,
         "adsSpeedMult": 0.9,
         "damageMult": 1.62,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "mosin_m38",
@@ -925,7 +963,9 @@
         },
         "adsSpeedMult": 1.0,
         "damageMult": 1.58,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "mosin_m44",
@@ -974,7 +1014,9 @@
         },
         "adsSpeedMult": 1.0,
         "damageMult": 1.58,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "mosin_m44l",
@@ -1023,7 +1065,9 @@
         },
         "adsSpeedMult": 1.0,
         "damageMult": 1.58,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "mosin_m28",
@@ -1069,7 +1113,9 @@
         },
         "adsSpeedMult": 0.9,
         "damageMult": 1.58,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "mosin_m91",
@@ -1119,7 +1165,9 @@
         },
         "adsSpeedMult": 0.9,
         "damageMult": 1.58,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "mosin_m91_bramit",
@@ -1169,7 +1217,9 @@
         },
         "adsSpeedMult": 0.9,
         "damageMult": 1.58,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "mosin_m91_30",
@@ -1215,7 +1265,9 @@
         },
         "adsSpeedMult": 0.9,
         "damageMult": 1.58,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "mosin_m1907",
@@ -1264,7 +1316,9 @@
         },
         "adsSpeedMult": 1.0,
         "damageMult": 1.58,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "mosin_dragoon",
@@ -1310,7 +1364,9 @@
         },
         "adsSpeedMult": 0.9,
         "damageMult": 1.58,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "mosin_infantry",
@@ -1356,7 +1412,9 @@
         },
         "adsSpeedMult": 0.85,
         "damageMult": 1.58,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "berdan_no_2",
@@ -1393,7 +1451,9 @@
         "mods": [],
         "adsSpeedMult": 0.85,
         "damageMult": 1.58,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "mosin_1928_grenade_launcher",
@@ -1439,7 +1499,9 @@
         },
         "adsSpeedMult": 0.9,
         "damageMult": 1.58,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "mosin_m91_30_vpgs",
@@ -1485,7 +1547,9 @@
         },
         "adsSpeedMult": 0.9,
         "damageMult": 1.58,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "avs_36",
@@ -1536,7 +1600,9 @@
         },
         "adsSpeedMult": 0.85,
         "damageMult": 1.1,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "sniper_avs_36_gun",
@@ -1590,7 +1656,9 @@
         },
         "adsSpeedMult": 0.8,
         "damageMult": 1.1,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "svt_38",
@@ -1636,7 +1704,9 @@
         },
         "adsSpeedMult": 0.8,
         "damageMult": null,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "svt_40",
@@ -1682,7 +1752,9 @@
         },
         "adsSpeedMult": 0.83,
         "damageMult": 1.06,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "akt_40",
@@ -1733,7 +1805,9 @@
         },
         "adsSpeedMult": 0.87,
         "damageMult": null,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "skt_40",
@@ -1779,7 +1853,9 @@
         },
         "adsSpeedMult": 0.87,
         "damageMult": null,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "sniper_svt_38_gun",
@@ -1828,7 +1904,9 @@
         },
         "adsSpeedMult": 0.75,
         "damageMult": null,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "sniper_svt_40_gun",
@@ -1877,7 +1955,9 @@
         },
         "adsSpeedMult": 0.77,
         "damageMult": 1.06,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "avt_40",
@@ -1928,7 +2008,9 @@
         },
         "adsSpeedMult": 0.8,
         "damageMult": 1.06,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "sks_44",
@@ -1965,7 +2047,9 @@
         "mods": null,
         "adsSpeedMult": 0.9,
         "damageMult": null,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "fedorov_avtomat",
@@ -2007,7 +2091,9 @@
         "mods": null,
         "adsSpeedMult": 0.7,
         "damageMult": null,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "as_44",
@@ -2049,7 +2135,9 @@
         "mods": null,
         "adsSpeedMult": 0.7,
         "damageMult": null,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "toz_b",
@@ -2086,7 +2174,9 @@
         "mods": null,
         "adsSpeedMult": 0.8,
         "damageMult": null,
-        "sightsMag": 1.0
+        "sightsMag": 1.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "ppt_27",
@@ -2133,7 +2223,9 @@
         "mods": null,
         "adsSpeedMult": 0.8,
         "damageMult": null,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "ppd_1929",
@@ -2175,7 +2267,9 @@
         "mods": null,
         "adsSpeedMult": 0.7,
         "damageMult": null,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "kb_p_135",
@@ -2212,7 +2306,9 @@
         "mods": null,
         "adsSpeedMult": 0.85,
         "damageMult": 1.05,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "ppd_3438",
@@ -2259,7 +2355,9 @@
         "mods": null,
         "adsSpeedMult": 0.7,
         "damageMult": 0.964,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "ppd_3438_box",
@@ -2301,7 +2399,9 @@
         "mods": null,
         "adsSpeedMult": 0.8,
         "damageMult": 0.964,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "ppd_34",
@@ -2343,7 +2443,9 @@
         "mods": null,
         "adsSpeedMult": 0.8,
         "damageMult": 0.964,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "ppd_40",
@@ -2385,7 +2487,9 @@
         "mods": null,
         "adsSpeedMult": 0.72,
         "damageMult": null,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "ppd_40_dv",
@@ -2426,7 +2530,9 @@
         },
         "adsSpeedMult": 0.7,
         "damageMult": null,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "ppd_bramit",
@@ -2468,7 +2574,9 @@
         "mods": null,
         "adsSpeedMult": 0.72,
         "damageMult": 0.964,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "ppsh_40",
@@ -2510,7 +2618,9 @@
         "mods": null,
         "adsSpeedMult": 0.6,
         "damageMult": null,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "pp_dolganov",
@@ -2552,7 +2662,9 @@
         "mods": null,
         "adsSpeedMult": 0.7,
         "damageMult": null,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "pps_42",
@@ -2594,7 +2706,9 @@
         "mods": null,
         "adsSpeedMult": 0.8,
         "damageMult": 1.02,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "pps_42_red",
@@ -2636,7 +2750,9 @@
         "mods": null,
         "adsSpeedMult": 0.8,
         "damageMult": 1.02,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "pps_43",
@@ -2673,7 +2789,9 @@
         "mods": null,
         "adsSpeedMult": 0.8,
         "damageMult": 1.02,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "ppsh_41",
@@ -2720,7 +2838,9 @@
         "mods": null,
         "adsSpeedMult": 0.72,
         "damageMult": 1.0,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "ppsh_41_box",
@@ -2762,7 +2882,9 @@
         "mods": null,
         "adsSpeedMult": 0.72,
         "damageMult": null,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "ppk_41",
@@ -2799,7 +2921,9 @@
         "mods": null,
         "adsSpeedMult": 0.8,
         "damageMult": null,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "ppk_42",
@@ -2841,7 +2965,53 @@
         "mods": null,
         "adsSpeedMult": 0.8,
         "damageMult": null,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
+    },
+    {
+        "name": "lad_mg",
+        "rps": 10.0,
+        "dispersion": 0.87,
+        "stat": "submachine_gun",
+        "type": "submachine_gun",
+        "weight": 7.63,
+        "locName": "LAD",
+        "magazineName": [
+            {
+                "ammoHolders": "lad_mg_drum_magazine"
+            },
+            {
+                "ammoHolders": "box_7_62x25_magazine"
+            }
+        ],
+        "bullets": {
+            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.62x25_tokarev_smg.blk"
+        },
+        "firingModes": {
+            "mode": "full_auto"
+        },
+        "singleReloadPrep": null,
+        "singleReloadLoop": null,
+        "singleReloadPost": null,
+        "reload": 5.6,
+        "altReload": 5.1,
+        "dualMagReload": null,
+        "proneRecoilMult": 0.8,
+        "zeroDist": 0.15,
+        "reloadSingle": false,
+        "recoilAmount": 0.033,
+        "recoilDir": 0.33,
+        "recoilDirAmount": 0.65,
+        "visualRecoilMult": 1.6,
+        "recoilControlMult": 0.3,
+        "recoilOffsetMult": 0.3,
+        "mods": null,
+        "adsSpeedMult": 0.6,
+        "damageMult": 1.0,
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "pdm_42",
@@ -2878,7 +3048,9 @@
         "mods": null,
         "adsSpeedMult": 0.8,
         "damageMult": null,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "chauchat",
@@ -2915,7 +3087,9 @@
         "mods": null,
         "adsSpeedMult": 0.3,
         "damageMult": null,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "madsen",
@@ -2957,7 +3131,9 @@
         "mods": null,
         "adsSpeedMult": 0.3,
         "damageMult": null,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "dp_27",
@@ -2999,7 +3175,9 @@
         "mods": null,
         "adsSpeedMult": 0.3,
         "damageMult": null,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "dp_42_beltfed",
@@ -3036,7 +3214,9 @@
         "mods": null,
         "adsSpeedMult": 0.3,
         "damageMult": null,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "dpm",
@@ -3078,7 +3258,9 @@
         "mods": null,
         "adsSpeedMult": 0.3,
         "damageMult": null,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "dt_29",
@@ -3120,7 +3302,9 @@
         "mods": null,
         "adsSpeedMult": 0.3,
         "damageMult": null,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "rd_44",
@@ -3162,7 +3346,9 @@
         "mods": null,
         "adsSpeedMult": 0.5,
         "damageMult": null,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "ptrs_41",
@@ -3199,7 +3385,9 @@
         "mods": null,
         "adsSpeedMult": 0.25,
         "damageMult": null,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "ptrd_41",
@@ -3236,7 +3424,9 @@
         "mods": null,
         "adsSpeedMult": 0.25,
         "damageMult": null,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "ptr_sholokhov",
@@ -3273,7 +3463,9 @@
         "mods": null,
         "adsSpeedMult": 0.25,
         "damageMult": null,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "mortar_rm_40",
@@ -3320,7 +3512,9 @@
         "mods": null,
         "adsSpeedMult": null,
         "damageMult": null,
-        "sightsMag": 1.0
+        "sightsMag": 1.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "rm_38",
@@ -3367,7 +3561,9 @@
         "mods": null,
         "adsSpeedMult": null,
         "damageMult": null,
-        "sightsMag": 1.0
+        "sightsMag": 1.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "bm_41_mortar",
@@ -3414,7 +3610,9 @@
         "mods": null,
         "adsSpeedMult": null,
         "damageMult": null,
-        "sightsMag": 1.0
+        "sightsMag": 1.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "neiman_minethrower",
@@ -3451,7 +3649,9 @@
         "mods": null,
         "adsSpeedMult": 0.8,
         "damageMult": null,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "roks_3",
@@ -3502,7 +3702,9 @@
         "mods": null,
         "adsSpeedMult": null,
         "damageMult": null,
-        "sightsMag": 1.0
+        "sightsMag": 1.0,
+        "flamethrowerDPS": 60.0,
+        "flamethrowerMaxLength": 32.0
     },
     {
         "name": "roks_2",
@@ -3553,7 +3755,9 @@
         "mods": null,
         "adsSpeedMult": null,
         "damageMult": null,
-        "sightsMag": 1.0
+        "sightsMag": 1.0,
+        "flamethrowerDPS": 40.0,
+        "flamethrowerMaxLength": 18.0
     },
     {
         "name": "m1911_colt",
@@ -3595,7 +3799,9 @@
         "mods": null,
         "adsSpeedMult": 1.44,
         "damageMult": null,
-        "sightsMag": 1.0
+        "sightsMag": 1.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "m1911a1_colt_nickel",
@@ -3637,7 +3843,9 @@
         "mods": null,
         "adsSpeedMult": 1.44,
         "damageMult": null,
-        "sightsMag": 1.0
+        "sightsMag": 1.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "welrod_mk2",
@@ -3674,7 +3882,9 @@
         "mods": null,
         "adsSpeedMult": 1.44,
         "damageMult": null,
-        "sightsMag": 1.0
+        "sightsMag": 1.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "browning_hp",
@@ -3711,7 +3921,9 @@
         "mods": null,
         "adsSpeedMult": 1.44,
         "damageMult": null,
-        "sightsMag": 1.0
+        "sightsMag": 1.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "browning_hp_nickel",
@@ -3748,7 +3960,9 @@
         "mods": null,
         "adsSpeedMult": 1.44,
         "damageMult": null,
-        "sightsMag": 1.0
+        "sightsMag": 1.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "browning_hp_blued",
@@ -3785,7 +3999,9 @@
         "mods": null,
         "adsSpeedMult": 1.44,
         "damageMult": null,
-        "sightsMag": 1.0
+        "sightsMag": 1.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "browning_hp_silver",
@@ -3822,7 +4038,9 @@
         "mods": null,
         "adsSpeedMult": 1.44,
         "damageMult": null,
-        "sightsMag": 1.0
+        "sightsMag": 1.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "colt_new_service_m1909",
@@ -3864,7 +4082,9 @@
         "mods": null,
         "adsSpeedMult": 1.44,
         "damageMult": null,
-        "sightsMag": 1.0
+        "sightsMag": 1.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "sw_m1917",
@@ -3901,7 +4121,9 @@
         "mods": null,
         "adsSpeedMult": 1.44,
         "damageMult": null,
-        "sightsMag": 1.0
+        "sightsMag": 1.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "sw_m1917_engraved",
@@ -3938,7 +4160,9 @@
         "mods": null,
         "adsSpeedMult": 1.44,
         "damageMult": null,
-        "sightsMag": 1.0
+        "sightsMag": 1.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "m1903_springfield",
@@ -3986,7 +4210,9 @@
         },
         "adsSpeedMult": 0.9,
         "damageMult": 1.58,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "m1903_springfield_with_grenade_launcher",
@@ -4032,7 +4258,9 @@
         },
         "adsSpeedMult": 0.9,
         "damageMult": 1.58,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "m1903a1_springfield_usmc",
@@ -4080,7 +4308,9 @@
         },
         "adsSpeedMult": 0.9,
         "damageMult": 1.58,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "m1903_springfield_air_service",
@@ -4117,7 +4347,9 @@
         "mods": null,
         "adsSpeedMult": 0.84,
         "damageMult": 1.58,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "m1903a1_springfield",
@@ -4161,7 +4393,9 @@
         },
         "adsSpeedMult": 0.9,
         "damageMult": 1.58,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "m1903a3_springfield",
@@ -4205,7 +4439,9 @@
         },
         "adsSpeedMult": 0.9,
         "damageMult": 1.58,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "m1903a4_springfield",
@@ -4242,7 +4478,9 @@
         "mods": [],
         "adsSpeedMult": 0.85,
         "damageMult": 1.58,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "lee_enfield_no4_mk1",
@@ -4283,7 +4521,9 @@
         },
         "adsSpeedMult": 0.9,
         "damageMult": 1.58,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "lee_enfield_no4_mk1_with_scope",
@@ -4320,7 +4560,9 @@
         "mods": null,
         "adsSpeedMult": 0.9,
         "damageMult": 1.58,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "enfield_p14",
@@ -4363,7 +4605,9 @@
         },
         "adsSpeedMult": 0.9,
         "damageMult": 1.58,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "m1917_enfield",
@@ -4407,7 +4651,9 @@
         },
         "adsSpeedMult": 0.9,
         "damageMult": 1.58,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "ross_rifle",
@@ -4456,7 +4702,9 @@
         },
         "adsSpeedMult": 0.85,
         "damageMult": 1.58,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "m1903_springfield_pedersen_device",
@@ -4493,7 +4741,9 @@
         "mods": [],
         "adsSpeedMult": 0.86,
         "damageMult": null,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "m1_garand",
@@ -4541,7 +4791,9 @@
         },
         "adsSpeedMult": 0.75,
         "damageMult": 1.06,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "sniper_m1_garand_gun",
@@ -4591,7 +4843,9 @@
         },
         "adsSpeedMult": 0.75,
         "damageMult": 1.06,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "m1c_garand",
@@ -4638,7 +4892,9 @@
         },
         "adsSpeedMult": 0.75,
         "damageMult": 1.06,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "m1e5_garand",
@@ -4686,7 +4942,9 @@
         },
         "adsSpeedMult": 1.1,
         "damageMult": null,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "pedersen_rifle",
@@ -4723,7 +4981,9 @@
         "mods": null,
         "adsSpeedMult": 0.75,
         "damageMult": null,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "m1_carbine",
@@ -4765,7 +5025,9 @@
         "mods": null,
         "adsSpeedMult": 1.0,
         "damageMult": null,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "m1a1_carbine",
@@ -4811,7 +5073,9 @@
         },
         "adsSpeedMult": 1.1,
         "damageMult": null,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "m1a2_carbine",
@@ -4855,7 +5119,9 @@
         },
         "adsSpeedMult": 1.0,
         "damageMult": null,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "m2_carbine",
@@ -4901,7 +5167,9 @@
         },
         "adsSpeedMult": 0.9,
         "damageMult": null,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "m2a1_carbine",
@@ -4947,7 +5215,9 @@
         },
         "adsSpeedMult": 1.1,
         "damageMult": null,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "m1_carbine_grenade_launcher",
@@ -4988,7 +5258,9 @@
         },
         "adsSpeedMult": 1.0,
         "damageMult": null,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "delisle_commando_carbine",
@@ -5025,7 +5297,9 @@
         "mods": null,
         "adsSpeedMult": 0.85,
         "damageMult": 1.206,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "m1_garand_grenade_launcher_m7",
@@ -5066,7 +5340,9 @@
         },
         "adsSpeedMult": 0.8,
         "damageMult": 1.06,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "m1941_johnson",
@@ -5110,7 +5386,9 @@
         },
         "adsSpeedMult": 0.8,
         "damageMult": 1.06,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "browning_auto_5",
@@ -5152,7 +5430,9 @@
         "mods": null,
         "adsSpeedMult": 0.8,
         "damageMult": null,
-        "sightsMag": 1.0
+        "sightsMag": 1.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "ithaca_37",
@@ -5194,7 +5474,9 @@
         "mods": null,
         "adsSpeedMult": 0.8,
         "damageMult": null,
-        "sightsMag": 1.0
+        "sightsMag": 1.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "winchester_model_1912",
@@ -5236,7 +5518,9 @@
         "mods": null,
         "adsSpeedMult": 0.8,
         "damageMult": null,
-        "sightsMag": 1.0
+        "sightsMag": 1.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "winchester_model_1912_trench",
@@ -5273,7 +5557,9 @@
         "mods": null,
         "adsSpeedMult": 0.8,
         "damageMult": null,
-        "sightsMag": 1.0
+        "sightsMag": 1.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "sten_mk2",
@@ -5320,7 +5606,9 @@
         "mods": null,
         "adsSpeedMult": 0.8,
         "damageMult": null,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "sten_mk2s",
@@ -5367,7 +5655,9 @@
         "mods": null,
         "adsSpeedMult": 0.8,
         "damageMult": null,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "lanchester_32",
@@ -5404,7 +5694,9 @@
         "mods": null,
         "adsSpeedMult": 0.8,
         "damageMult": null,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "lanchester_50_round",
@@ -5441,7 +5733,53 @@
         "mods": null,
         "adsSpeedMult": 0.74,
         "damageMult": null,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
+    },
+    {
+        "name": "lanchester_model_1",
+        "rps": 13.33,
+        "dispersion": 0.84,
+        "stat": "submachine_gun",
+        "type": "submachine_gun",
+        "weight": 4.8,
+        "locName": "Lanchester",
+        "magazineName": {
+            "ammoHolders": "lanchester_magazine"
+        },
+        "bullets": {
+            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/9x19_parabellum_smg.blk"
+        },
+        "firingModes": [
+            {
+                "mode": "full_auto"
+            },
+            {
+                "mode": "semi_auto"
+            }
+        ],
+        "singleReloadPrep": null,
+        "singleReloadLoop": null,
+        "singleReloadPost": null,
+        "reload": 2.6,
+        "altReload": 2.0,
+        "dualMagReload": null,
+        "proneRecoilMult": null,
+        "zeroDist": 0.05,
+        "reloadSingle": false,
+        "recoilAmount": 0.048,
+        "recoilDir": 0.1,
+        "recoilDirAmount": 0.5,
+        "visualRecoilMult": 1.4,
+        "recoilControlMult": 0.5,
+        "recoilOffsetMult": 0.3,
+        "mods": null,
+        "adsSpeedMult": 1.2,
+        "damageMult": null,
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "m50_reising",
@@ -5488,7 +5826,9 @@
         "mods": null,
         "adsSpeedMult": 0.85,
         "damageMult": null,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "m55_reising",
@@ -5535,7 +5875,9 @@
         "mods": null,
         "adsSpeedMult": 1.0,
         "damageMult": null,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "m3_submachine_gun",
@@ -5577,7 +5919,9 @@
         "mods": null,
         "adsSpeedMult": null,
         "damageMult": null,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "m3a1_grease_gun",
@@ -5614,7 +5958,9 @@
         "mods": null,
         "adsSpeedMult": null,
         "damageMult": null,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "m3a1_field_repair",
@@ -5651,7 +5997,9 @@
         "mods": null,
         "adsSpeedMult": 0.8,
         "damageMult": null,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "m3_greasegun_supressed_oss",
@@ -5688,7 +6036,9 @@
         "mods": null,
         "adsSpeedMult": 0.8,
         "damageMult": 0.97,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "m1_thompson",
@@ -5735,7 +6085,9 @@
         "mods": null,
         "adsSpeedMult": 0.72,
         "damageMult": null,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "m1a1_thompson",
@@ -5782,7 +6134,9 @@
         "mods": null,
         "adsSpeedMult": 0.72,
         "damageMult": null,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "thompson_m1921_28_usmc",
@@ -5824,7 +6178,9 @@
         "mods": null,
         "adsSpeedMult": 0.75,
         "damageMult": null,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "thompson_m1928a1_box_mag",
@@ -5866,7 +6222,9 @@
         "mods": null,
         "adsSpeedMult": 0.72,
         "damageMult": null,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "thompson_m1928a1_50_drum",
@@ -5908,7 +6266,9 @@
         "mods": null,
         "adsSpeedMult": 0.68,
         "damageMult": null,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "thompson_m1928a1_100_drum",
@@ -5950,7 +6310,9 @@
         "mods": null,
         "adsSpeedMult": 0.64,
         "damageMult": null,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "m1921ac_thompson",
@@ -5997,7 +6359,9 @@
         "mods": null,
         "adsSpeedMult": 0.73,
         "damageMult": null,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "thompson_bsa_1929",
@@ -6039,7 +6403,9 @@
         "mods": null,
         "adsSpeedMult": 0.72,
         "damageMult": null,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "thompson_30_cal",
@@ -6081,7 +6447,9 @@
         "mods": null,
         "adsSpeedMult": 0.65,
         "damageMult": null,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "m2_hyde",
@@ -6123,7 +6491,9 @@
         "mods": null,
         "adsSpeedMult": 0.8,
         "damageMult": null,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "hyde_model_35",
@@ -6165,7 +6535,9 @@
         "mods": null,
         "adsSpeedMult": 0.8,
         "damageMult": null,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "ud_m42",
@@ -6207,7 +6579,9 @@
         "mods": null,
         "adsSpeedMult": 0.82,
         "damageMult": null,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "browning_m1918",
@@ -6254,7 +6628,9 @@
         "mods": null,
         "adsSpeedMult": 0.65,
         "damageMult": null,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "browning_m1918a1",
@@ -6296,7 +6672,9 @@
         "mods": null,
         "adsSpeedMult": 0.6,
         "damageMult": null,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "browning_m1918a2",
@@ -6338,7 +6716,9 @@
         "mods": null,
         "adsSpeedMult": 0.6,
         "damageMult": null,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "colt_monitor",
@@ -6380,7 +6760,9 @@
         "mods": null,
         "adsSpeedMult": 0.7,
         "damageMult": null,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "browning_wz_1928",
@@ -6422,7 +6804,9 @@
         "mods": null,
         "adsSpeedMult": 0.65,
         "damageMult": null,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "m1941_johnson_mg",
@@ -6467,7 +6851,9 @@
         "mods": null,
         "adsSpeedMult": 0.3,
         "damageMult": null,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "lewis_lmg",
@@ -6509,7 +6895,9 @@
         "mods": null,
         "adsSpeedMult": 0.3,
         "damageMult": null,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "bren_mk2",
@@ -6551,7 +6939,9 @@
         "mods": null,
         "adsSpeedMult": 0.3,
         "damageMult": null,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "chatellerault_m_24_29",
@@ -6588,7 +6978,9 @@
         "mods": null,
         "adsSpeedMult": 0.3,
         "damageMult": null,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "browning_m1919a6",
@@ -6625,7 +7017,9 @@
         "mods": null,
         "adsSpeedMult": 0.24,
         "damageMult": null,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "an_m2_stinger",
@@ -6662,7 +7056,9 @@
         "mods": null,
         "adsSpeedMult": 0.3,
         "damageMult": null,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "m1_bazooka",
@@ -6699,7 +7095,9 @@
         "mods": null,
         "adsSpeedMult": 0.25,
         "damageMult": null,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "m1a1_bazooka",
@@ -6736,7 +7134,9 @@
         "mods": null,
         "adsSpeedMult": 0.25,
         "damageMult": null,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "m9_bazooka",
@@ -6773,7 +7173,9 @@
         "mods": null,
         "adsSpeedMult": 0.25,
         "damageMult": null,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "piat",
@@ -6810,7 +7212,9 @@
         "mods": null,
         "adsSpeedMult": 0.25,
         "damageMult": null,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "m2_mortar",
@@ -6857,7 +7261,9 @@
         "mods": null,
         "adsSpeedMult": null,
         "damageMult": null,
-        "sightsMag": null
+        "sightsMag": null,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "two_inch_mortar",
@@ -6904,7 +7310,9 @@
         "mods": null,
         "adsSpeedMult": null,
         "damageMult": null,
-        "sightsMag": null
+        "sightsMag": null,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "type_89_mortar",
@@ -6951,7 +7359,9 @@
         "mods": null,
         "adsSpeedMult": null,
         "damageMult": null,
-        "sightsMag": null
+        "sightsMag": null,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "m2_flamethrower",
@@ -7002,7 +7412,9 @@
         "mods": null,
         "adsSpeedMult": null,
         "damageMult": null,
-        "sightsMag": 1.0
+        "sightsMag": 1.0,
+        "flamethrowerDPS": 60.0,
+        "flamethrowerMaxLength": 32.0
     },
     {
         "name": "m1_flamethrower",
@@ -7053,7 +7465,9 @@
         "mods": null,
         "adsSpeedMult": null,
         "damageMult": null,
-        "sightsMag": 1.0
+        "sightsMag": 1.0,
+        "flamethrowerDPS": 40.0,
+        "flamethrowerMaxLength": 18.0
     },
     {
         "name": "m1a1_flamethrower",
@@ -7104,7 +7518,9 @@
         "mods": null,
         "adsSpeedMult": null,
         "damageMult": null,
-        "sightsMag": 1.0
+        "sightsMag": 1.0,
+        "flamethrowerDPS": 40.0,
+        "flamethrowerMaxLength": 18.0
     },
     {
         "name": "flamethrower_portable_no_2_lifebuoy",
@@ -7155,7 +7571,9 @@
         "mods": null,
         "adsSpeedMult": null,
         "damageMult": null,
-        "sightsMag": 1.0
+        "sightsMag": 1.0,
+        "flamethrowerDPS": 60.0,
+        "flamethrowerMaxLength": 32.0
     },
     {
         "name": "mauser_c96",
@@ -7197,7 +7615,9 @@
         "mods": null,
         "adsSpeedMult": 1.05,
         "damageMult": null,
-        "sightsMag": 1.0
+        "sightsMag": 1.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "mauser_c96_gold",
@@ -7239,7 +7659,9 @@
         "mods": null,
         "adsSpeedMult": 1.44,
         "damageMult": null,
-        "sightsMag": 1.0
+        "sightsMag": 1.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "mauser_c96_m712",
@@ -7286,7 +7708,9 @@
         "mods": null,
         "adsSpeedMult": 1.05,
         "damageMult": null,
-        "sightsMag": 1.0
+        "sightsMag": 1.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "walther_pp",
@@ -7323,7 +7747,9 @@
         "mods": null,
         "adsSpeedMult": 1.44,
         "damageMult": null,
-        "sightsMag": 1.0
+        "sightsMag": 1.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "walther_pp_engraved",
@@ -7360,7 +7786,9 @@
         "mods": null,
         "adsSpeedMult": 1.44,
         "damageMult": null,
-        "sightsMag": 1.0
+        "sightsMag": 1.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "walther_ppk",
@@ -7397,7 +7825,9 @@
         "mods": null,
         "adsSpeedMult": 1.44,
         "damageMult": null,
-        "sightsMag": 1.0
+        "sightsMag": 1.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "walther_ppk_silver",
@@ -7434,7 +7864,9 @@
         "mods": null,
         "adsSpeedMult": 1.44,
         "damageMult": null,
-        "sightsMag": 1.0
+        "sightsMag": 1.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "cz_vz_27",
@@ -7471,7 +7903,9 @@
         "mods": null,
         "adsSpeedMult": 1.44,
         "damageMult": null,
-        "sightsMag": 1.0
+        "sightsMag": 1.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "p38_walther",
@@ -7513,7 +7947,9 @@
         "mods": null,
         "adsSpeedMult": 1.44,
         "damageMult": null,
-        "sightsMag": 1.0
+        "sightsMag": 1.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "p08_luger",
@@ -7555,7 +7991,9 @@
         "mods": null,
         "adsSpeedMult": 1.44,
         "damageMult": null,
-        "sightsMag": 1.0
+        "sightsMag": 1.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "p08_luger_engraved",
@@ -7597,7 +8035,9 @@
         "mods": null,
         "adsSpeedMult": 1.44,
         "damageMult": null,
-        "sightsMag": 1.0
+        "sightsMag": 1.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "p08_luger_platinum",
@@ -7639,7 +8079,9 @@
         "mods": null,
         "adsSpeedMult": 1.44,
         "damageMult": null,
-        "sightsMag": 1.0
+        "sightsMag": 1.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "p08_luger_artillery",
@@ -7676,7 +8118,9 @@
         "mods": null,
         "adsSpeedMult": 1.44,
         "damageMult": null,
-        "sightsMag": 1.0
+        "sightsMag": 1.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "dreyse_m1907",
@@ -7718,7 +8162,9 @@
         "mods": null,
         "adsSpeedMult": 1.3,
         "damageMult": null,
-        "sightsMag": 1.0
+        "sightsMag": 1.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "mauser_98k",
@@ -7767,7 +8213,9 @@
         },
         "adsSpeedMult": 0.95,
         "damageMult": 1.58,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "vz_24",
@@ -7813,7 +8261,9 @@
         },
         "adsSpeedMult": 0.9,
         "damageMult": 1.58,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "g40k",
@@ -7855,7 +8305,9 @@
         "mods": null,
         "adsSpeedMult": 1.1,
         "damageMult": null,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "mauser_98k_trench",
@@ -7901,7 +8353,9 @@
         },
         "adsSpeedMult": 0.9,
         "damageMult": 1.58,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "kar98k_kriegsmodell",
@@ -7943,7 +8397,9 @@
         "mods": null,
         "adsSpeedMult": 0.95,
         "damageMult": 1.58,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "kar98k_with_scope_mount_gun",
@@ -7992,7 +8448,9 @@
         },
         "adsSpeedMult": 0.9,
         "damageMult": 1.5,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "mauser_gewehr_98_with_scope_mount",
@@ -8034,7 +8492,9 @@
         "mods": null,
         "adsSpeedMult": 0.85,
         "damageMult": 1.58,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "mauser_gewehr_98_warmod",
@@ -8080,7 +8540,9 @@
         },
         "adsSpeedMult": 0.85,
         "damageMult": 1.58,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "pre_war_kar98k",
@@ -8126,7 +8588,9 @@
         },
         "adsSpeedMult": 0.97,
         "damageMult": 1.58,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "pre_war_kar98k_with_scope_mount_gun",
@@ -8175,7 +8639,9 @@
         },
         "adsSpeedMult": 0.93,
         "damageMult": 1.6,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "gewehr_33_40",
@@ -8221,7 +8687,9 @@
         },
         "adsSpeedMult": 1.06,
         "damageMult": 1.58,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "gewehr_88",
@@ -8263,7 +8731,9 @@
         "mods": [],
         "adsSpeedMult": 0.9,
         "damageMult": 1.58,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "vg_2",
@@ -8300,7 +8770,9 @@
         "mods": null,
         "adsSpeedMult": 0.95,
         "damageMult": 1.58,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "kar98k_with_schiessbecher_grenade_launcher",
@@ -8346,7 +8818,9 @@
         },
         "adsSpeedMult": 0.95,
         "damageMult": 1.5,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "kar98k_with_gg_p_40_grenade_launcher",
@@ -8392,7 +8866,9 @@
         },
         "adsSpeedMult": 0.95,
         "damageMult": 1.5,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "mas_36_with_bayonet",
@@ -8441,7 +8917,9 @@
         },
         "adsSpeedMult": 1.0,
         "damageMult": 1.58,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "lebel_1886_m93",
@@ -8487,7 +8965,9 @@
         },
         "adsSpeedMult": 0.9,
         "damageMult": 1.58,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "berthier_1892_m16",
@@ -8524,7 +9004,9 @@
         "mods": null,
         "adsSpeedMult": 0.9,
         "damageMult": 1.58,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "mannlicher_m1895",
@@ -8561,7 +9043,9 @@
         "mods": null,
         "adsSpeedMult": 1.0,
         "damageMult": 1.62,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "arisaka_type_38_carbine",
@@ -8603,7 +9087,9 @@
         },
         "adsSpeedMult": 1.05,
         "damageMult": 1.653,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "arisaka_type_38",
@@ -8645,7 +9131,9 @@
         },
         "adsSpeedMult": 0.95,
         "damageMult": 1.544,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "arisaka_type_38_with_grenade_discharger",
@@ -8690,7 +9178,9 @@
         },
         "adsSpeedMult": 0.95,
         "damageMult": 1.544,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "arisaka_type_99_early_short",
@@ -8732,7 +9222,9 @@
         },
         "adsSpeedMult": 0.95,
         "damageMult": 1.55,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "arisaka_type_99_long",
@@ -8774,7 +9266,9 @@
         },
         "adsSpeedMult": 0.95,
         "damageMult": 1.703,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "arisaka_type_99_late",
@@ -8816,7 +9310,9 @@
         },
         "adsSpeedMult": 0.95,
         "damageMult": 1.6,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "gewehr_41",
@@ -8857,7 +9353,9 @@
         },
         "adsSpeedMult": 0.77,
         "damageMult": null,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "sniper_gewehr_41",
@@ -8898,7 +9396,9 @@
         },
         "adsSpeedMult": 0.77,
         "damageMult": null,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "gewehr_41_mauser",
@@ -8939,7 +9439,9 @@
         },
         "adsSpeedMult": 0.74,
         "damageMult": null,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "gewehr_43",
@@ -8988,7 +9490,9 @@
         },
         "adsSpeedMult": 0.8,
         "damageMult": 1.06,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "sniper_gewehr_43_gun",
@@ -9034,7 +9538,9 @@
         },
         "adsSpeedMult": 0.76,
         "damageMult": 1.06,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "gewehr_43_kurz",
@@ -9076,7 +9582,9 @@
         "mods": null,
         "adsSpeedMult": 0.7,
         "damageMult": null,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "gerat_03",
@@ -9113,7 +9621,9 @@
         "mods": null,
         "adsSpeedMult": 0.8,
         "damageMult": null,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "zh_29",
@@ -9154,7 +9664,9 @@
         },
         "adsSpeedMult": 0.8,
         "damageMult": 1.1,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "zh_29_jp",
@@ -9196,7 +9708,9 @@
         },
         "adsSpeedMult": 0.75,
         "damageMult": 1.0667,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "wz_38m",
@@ -9233,7 +9747,9 @@
         "mods": null,
         "adsSpeedMult": 0.82,
         "damageMult": null,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "fg_42",
@@ -9287,7 +9803,9 @@
         },
         "adsSpeedMult": 0.53,
         "damageMult": null,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "fg_42_model_2",
@@ -9337,7 +9855,9 @@
         },
         "adsSpeedMult": 0.55,
         "damageMult": null,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "sniper_fg_42_model_2_gun",
@@ -9387,7 +9907,9 @@
         },
         "adsSpeedMult": 0.55,
         "damageMult": null,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "m30_luftwaffe_drilling",
@@ -9429,7 +9951,9 @@
         "mods": null,
         "adsSpeedMult": 0.8,
         "damageMult": null,
-        "sightsMag": 1.0
+        "sightsMag": 1.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "mp_18",
@@ -9471,7 +9995,9 @@
         "mods": null,
         "adsSpeedMult": 0.76,
         "damageMult": null,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "mp_28",
@@ -9508,7 +10034,9 @@
         "mods": null,
         "adsSpeedMult": 0.8,
         "damageMult": 1.0,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "mp_28_32_round",
@@ -9545,7 +10073,9 @@
         "mods": null,
         "adsSpeedMult": 0.8,
         "damageMult": 1.0,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "mp_28_jp",
@@ -9582,7 +10112,9 @@
         "mods": null,
         "adsSpeedMult": 0.72,
         "damageMult": null,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "mp40",
@@ -9624,7 +10156,9 @@
         "mods": null,
         "adsSpeedMult": 0.8,
         "damageMult": 1.02,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "mp_40_silenced",
@@ -9666,7 +10200,9 @@
         "mods": null,
         "adsSpeedMult": 0.8,
         "damageMult": 0.987,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "mp_40_1",
@@ -9703,7 +10239,48 @@
         "mods": null,
         "adsSpeedMult": 0.8,
         "damageMult": null,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
+    },
+    {
+        "name": "coenders_mp",
+        "rps": 16.667,
+        "dispersion": 0.9,
+        "stat": "submachine_gun",
+        "type": "submachine_gun",
+        "weight": 3.97,
+        "locName": "MP 40",
+        "magazineName": {
+            "ammoHolders": "coenders_mp_drum_magazine"
+        },
+        "bullets": {
+            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/9x19_parabellum_smg.blk"
+        },
+        "firingModes": {
+            "mode": "full_auto"
+        },
+        "singleReloadPrep": null,
+        "singleReloadLoop": null,
+        "singleReloadPost": null,
+        "reload": 5.3,
+        "altReload": 4.7,
+        "dualMagReload": null,
+        "proneRecoilMult": 0.8,
+        "zeroDist": 0.25,
+        "reloadSingle": false,
+        "recoilAmount": 0.034,
+        "recoilDir": 0.35,
+        "recoilDirAmount": 0.52,
+        "visualRecoilMult": 1.6,
+        "recoilControlMult": 0.3,
+        "recoilOffsetMult": 0.3,
+        "mods": null,
+        "adsSpeedMult": 0.8,
+        "damageMult": 1.0,
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "schmeisser_mk36_iii",
@@ -9750,7 +10327,9 @@
         "mods": null,
         "adsSpeedMult": 0.85,
         "damageMult": null,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "mp_38",
@@ -9792,7 +10371,9 @@
         "mods": null,
         "adsSpeedMult": 0.8,
         "damageMult": null,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "mp41",
@@ -9834,7 +10415,9 @@
         "mods": null,
         "adsSpeedMult": 0.8,
         "damageMult": null,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "mp_3008",
@@ -9876,7 +10459,9 @@
         "mods": null,
         "adsSpeedMult": 0.8,
         "damageMult": null,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "vollmer_vpf_1926",
@@ -9913,7 +10498,9 @@
         "mods": null,
         "adsSpeedMult": 0.8,
         "damageMult": null,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "sig_1920",
@@ -9955,7 +10542,9 @@
         },
         "adsSpeedMult": 0.8,
         "damageMult": null,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "erma_emp",
@@ -9997,7 +10586,9 @@
         "mods": null,
         "adsSpeedMult": 0.8,
         "damageMult": null,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "erma_emp_36",
@@ -10039,7 +10630,9 @@
         "mods": null,
         "adsSpeedMult": 0.8,
         "damageMult": null,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "silenced_erma_emp",
@@ -10081,7 +10674,9 @@
         "mods": null,
         "adsSpeedMult": 0.8,
         "damageMult": 0.97,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "erma_emp_44",
@@ -10118,7 +10713,9 @@
         "mods": null,
         "adsSpeedMult": 0.8,
         "damageMult": null,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "suomi_kp_26",
@@ -10160,7 +10757,9 @@
         "mods": null,
         "adsSpeedMult": 0.77,
         "damageMult": null,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "suomi_kp_31",
@@ -10202,7 +10801,9 @@
         "mods": null,
         "adsSpeedMult": 0.72,
         "damageMult": 0.965,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "suomi_kp_31_sjr",
@@ -10244,7 +10845,9 @@
         "mods": null,
         "adsSpeedMult": 0.72,
         "damageMult": null,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "fnab_43",
@@ -10286,7 +10889,9 @@
         "mods": null,
         "adsSpeedMult": 0.8,
         "damageMult": null,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "ppsh_41_german",
@@ -10328,7 +10933,9 @@
         "mods": null,
         "adsSpeedMult": 0.72,
         "damageMult": null,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "danuvia_39",
@@ -10370,7 +10977,9 @@
         "mods": null,
         "adsSpeedMult": 0.8,
         "damageMult": null,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "danuvia_43m",
@@ -10412,7 +11021,9 @@
         "mods": null,
         "adsSpeedMult": 0.8,
         "damageMult": null,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "beretta_m38",
@@ -10454,7 +11065,9 @@
         "mods": null,
         "adsSpeedMult": 0.8,
         "damageMult": null,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "beretta_m38_40_round",
@@ -10496,7 +11109,9 @@
         "mods": null,
         "adsSpeedMult": 0.8,
         "damageMult": null,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "beretta_m1918",
@@ -10533,7 +11148,9 @@
         "mods": null,
         "adsSpeedMult": 0.76,
         "damageMult": null,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "mp34o",
@@ -10575,7 +11192,9 @@
         "mods": null,
         "adsSpeedMult": 0.8,
         "damageMult": null,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "mp_34_jp",
@@ -10621,7 +11240,9 @@
         },
         "adsSpeedMult": 0.8,
         "damageMult": 1.0667,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "zk_383",
@@ -10663,7 +11284,9 @@
         "mods": null,
         "adsSpeedMult": 0.75,
         "damageMult": null,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "mp_35",
@@ -10701,7 +11324,9 @@
         "mods": null,
         "adsSpeedMult": 0.8,
         "damageMult": null,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "mp_35_long_barrel",
@@ -10738,7 +11363,9 @@
         "mods": null,
         "adsSpeedMult": 0.78,
         "damageMult": null,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "stg_44",
@@ -10785,7 +11412,9 @@
         "mods": null,
         "adsSpeedMult": 0.7,
         "damageMult": null,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "stg_44_rail",
@@ -10831,7 +11460,9 @@
         },
         "adsSpeedMult": 0.7,
         "damageMult": null,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "stg_45_m",
@@ -10873,7 +11504,9 @@
         "mods": null,
         "adsSpeedMult": 0.7,
         "damageMult": null,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "mkb_42_h",
@@ -10915,7 +11548,9 @@
         "mods": null,
         "adsSpeedMult": 0.7,
         "damageMult": null,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "mkb_42_h_with_scope",
@@ -10957,7 +11592,9 @@
         "mods": null,
         "adsSpeedMult": 0.7,
         "damageMult": null,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "mkb_42_w",
@@ -10999,7 +11636,9 @@
         "mods": null,
         "adsSpeedMult": 0.7,
         "damageMult": null,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "vstg_1_5",
@@ -11036,7 +11675,9 @@
         "mods": null,
         "adsSpeedMult": 0.7,
         "damageMult": null,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "mp43_1",
@@ -11086,7 +11727,9 @@
         },
         "adsSpeedMult": 0.7,
         "damageMult": null,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "vollmer_m35",
@@ -11128,7 +11771,9 @@
         "mods": null,
         "adsSpeedMult": 0.7,
         "damageMult": null,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "breda_mod_30",
@@ -11165,7 +11810,9 @@
         "mods": null,
         "adsSpeedMult": 0.3,
         "damageMult": null,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "lahti_saloranta_m26",
@@ -11212,7 +11859,9 @@
         "mods": null,
         "adsSpeedMult": 0.3,
         "damageMult": null,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "zb_26",
@@ -11249,7 +11898,9 @@
         "mods": null,
         "adsSpeedMult": 0.3,
         "damageMult": null,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "mg_13",
@@ -11291,7 +11942,9 @@
         "mods": null,
         "adsSpeedMult": 0.25,
         "damageMult": null,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "mg_13_saddle_drum",
@@ -11328,7 +11981,9 @@
         "mods": null,
         "adsSpeedMult": 0.22,
         "damageMult": null,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "mg_15",
@@ -11365,7 +12020,9 @@
         "mods": null,
         "adsSpeedMult": 0.25,
         "damageMult": null,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "mg_30",
@@ -11402,7 +12059,9 @@
         "mods": null,
         "adsSpeedMult": 0.3,
         "damageMult": null,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "mg_34",
@@ -11439,7 +12098,9 @@
         "mods": null,
         "adsSpeedMult": 0.3,
         "damageMult": null,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "mg_34_with_patronentrommel",
@@ -11476,7 +12137,9 @@
         "mods": null,
         "adsSpeedMult": 0.3,
         "damageMult": null,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "mg_42_handheld",
@@ -11518,7 +12181,9 @@
         "mods": null,
         "adsSpeedMult": 0.3,
         "damageMult": null,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "mg_45",
@@ -11560,7 +12225,9 @@
         "mods": null,
         "adsSpeedMult": 0.3,
         "damageMult": null,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "pzb_39",
@@ -11597,7 +12264,9 @@
         "mods": null,
         "adsSpeedMult": 0.25,
         "damageMult": null,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "pzb_39_with_two_magazines",
@@ -11634,7 +12303,9 @@
         "mods": null,
         "adsSpeedMult": 0.25,
         "damageMult": null,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "pzb_38",
@@ -11671,7 +12342,9 @@
         "mods": null,
         "adsSpeedMult": 0.25,
         "damageMult": null,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "wz_35",
@@ -11708,7 +12381,9 @@
         "mods": null,
         "adsSpeedMult": 0.35,
         "damageMult": null,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "grb_39",
@@ -11745,7 +12420,9 @@
         "mods": null,
         "adsSpeedMult": 0.25,
         "damageMult": null,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "rpzb_54_1_panzerschreck",
@@ -11782,7 +12459,9 @@
         "mods": null,
         "adsSpeedMult": 0.25,
         "damageMult": null,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "rpzb_43_ofenrohr",
@@ -11819,7 +12498,9 @@
         "mods": null,
         "adsSpeedMult": 0.25,
         "damageMult": null,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "panzerschreck",
@@ -11856,7 +12537,9 @@
         "mods": null,
         "adsSpeedMult": 0.25,
         "damageMult": null,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "panzerfaust_100",
@@ -11893,7 +12576,9 @@
         "mods": null,
         "adsSpeedMult": 0.6,
         "damageMult": null,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "panzerfaust_60",
@@ -11930,7 +12615,9 @@
         "mods": null,
         "adsSpeedMult": 0.6,
         "damageMult": null,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "leuchtpistole_42",
@@ -11967,7 +12654,9 @@
         "mods": null,
         "adsSpeedMult": 0.8,
         "damageMult": null,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "kampfpistole",
@@ -12004,7 +12693,9 @@
         "mods": null,
         "adsSpeedMult": 0.8,
         "damageMult": null,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "leuchtpistole_34",
@@ -12041,7 +12732,9 @@
         "mods": null,
         "adsSpeedMult": 0.8,
         "damageMult": null,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "sturmpistole",
@@ -12078,7 +12771,9 @@
         "mods": null,
         "adsSpeedMult": 0.8,
         "damageMult": null,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "granatwerfer_34",
@@ -12125,7 +12820,9 @@
         "mods": null,
         "adsSpeedMult": null,
         "damageMult": null,
-        "sightsMag": 1.0
+        "sightsMag": 1.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "granatwerfer_36",
@@ -12172,7 +12869,9 @@
         "mods": null,
         "adsSpeedMult": null,
         "damageMult": null,
-        "sightsMag": null
+        "sightsMag": null,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "granatwerfer_42",
@@ -12219,7 +12918,9 @@
         "mods": null,
         "adsSpeedMult": null,
         "damageMult": null,
-        "sightsMag": 1.0
+        "sightsMag": 1.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "flammenwerfer_35",
@@ -12270,7 +12971,9 @@
         "mods": null,
         "adsSpeedMult": null,
         "damageMult": null,
-        "sightsMag": 1.0
+        "sightsMag": 1.0,
+        "flamethrowerDPS": 40.0,
+        "flamethrowerMaxLength": 18.0
     },
     {
         "name": "lanciafiamme_m35",
@@ -12321,7 +13024,9 @@
         "mods": null,
         "adsSpeedMult": null,
         "damageMult": null,
-        "sightsMag": 1.0
+        "sightsMag": 1.0,
+        "flamethrowerDPS": 60.0,
+        "flamethrowerMaxLength": 32.0
     },
     {
         "name": "flammenwerfer_41",
@@ -12372,7 +13077,9 @@
         "mods": null,
         "adsSpeedMult": null,
         "damageMult": null,
-        "sightsMag": 1.0
+        "sightsMag": 1.0,
+        "flamethrowerDPS": 60.0,
+        "flamethrowerMaxLength": 32.0
     },
     {
         "name": "stationary_mg42_without_shell_ejection",
@@ -12407,7 +13114,9 @@
         "mods": null,
         "adsSpeedMult": null,
         "damageMult": null,
-        "sightsMag": 1.5
+        "sightsMag": 1.5,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "stationary_mg_34_without_shell_ejection",
@@ -12442,7 +13151,9 @@
         "mods": null,
         "adsSpeedMult": null,
         "damageMult": null,
-        "sightsMag": 1.5
+        "sightsMag": 1.5,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "stationary_browning_m1919a4_without_shell_ejection",
@@ -12477,7 +13188,9 @@
         "mods": null,
         "adsSpeedMult": null,
         "damageMult": null,
-        "sightsMag": 1.5
+        "sightsMag": 1.5,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "stationary_type_92_hmg_without_shell_ejection",
@@ -12512,7 +13225,9 @@
         "mods": null,
         "adsSpeedMult": null,
         "damageMult": null,
-        "sightsMag": 1.5
+        "sightsMag": 1.5,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "stationary_maxim_without_shell_ejection",
@@ -12547,7 +13262,9 @@
         "mods": null,
         "adsSpeedMult": null,
         "damageMult": null,
-        "sightsMag": 1.5
+        "sightsMag": 1.5,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "turret_105_skc_32",
@@ -12584,7 +13301,9 @@
         "mods": null,
         "adsSpeedMult": null,
         "damageMult": null,
-        "sightsMag": 3.0
+        "sightsMag": 3.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "ship_gun_105mm",
@@ -12621,7 +13340,9 @@
         "mods": null,
         "adsSpeedMult": null,
         "damageMult": null,
-        "sightsMag": 3.0
+        "sightsMag": 3.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "knife",
@@ -12652,7 +13373,9 @@
         "mods": null,
         "adsSpeedMult": null,
         "damageMult": null,
-        "sightsMag": null
+        "sightsMag": null,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "uk_2nd_pattern_fighting_knife",
@@ -12683,7 +13406,9 @@
         "mods": null,
         "adsSpeedMult": null,
         "damageMult": null,
-        "sightsMag": null
+        "sightsMag": null,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "axe",
@@ -12714,7 +13439,9 @@
         "mods": null,
         "adsSpeedMult": null,
         "damageMult": null,
-        "sightsMag": null
+        "sightsMag": null,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "russian_cavalry_sword_1927",
@@ -12745,7 +13472,9 @@
         "mods": null,
         "adsSpeedMult": null,
         "damageMult": null,
-        "sightsMag": null
+        "sightsMag": null,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "german_officer_sword",
@@ -12776,7 +13505,9 @@
         "mods": null,
         "adsSpeedMult": null,
         "damageMult": null,
-        "sightsMag": null
+        "sightsMag": null,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "us_officer_sword_1902",
@@ -12807,7 +13538,9 @@
         "mods": null,
         "adsSpeedMult": null,
         "damageMult": null,
-        "sightsMag": null
+        "sightsMag": null,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "british_officer_sword",
@@ -12838,7 +13571,9 @@
         "mods": null,
         "adsSpeedMult": null,
         "damageMult": null,
-        "sightsMag": null
+        "sightsMag": null,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "italian_m1929_infantry_sword",
@@ -12869,7 +13604,9 @@
         "mods": null,
         "adsSpeedMult": null,
         "damageMult": null,
-        "sightsMag": null
+        "sightsMag": null,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "type_95_shin_gunto",
@@ -12900,7 +13637,9 @@
         "mods": null,
         "adsSpeedMult": null,
         "damageMult": null,
-        "sightsMag": null
+        "sightsMag": null,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "katana",
@@ -12931,7 +13670,9 @@
         "mods": null,
         "adsSpeedMult": null,
         "damageMult": null,
-        "sightsMag": null
+        "sightsMag": null,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "moroccan_dagger",
@@ -12962,7 +13703,9 @@
         "mods": null,
         "adsSpeedMult": null,
         "damageMult": null,
-        "sightsMag": null
+        "sightsMag": null,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "san_marco_dagger",
@@ -12993,7 +13736,9 @@
         "mods": null,
         "adsSpeedMult": null,
         "damageMult": null,
-        "sightsMag": null
+        "sightsMag": null,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "nambu_type_14",
@@ -13030,7 +13775,9 @@
         "mods": null,
         "adsSpeedMult": 1.44,
         "damageMult": null,
-        "sightsMag": 1.0
+        "sightsMag": 1.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "nambu_type_14_engraved",
@@ -13067,7 +13814,9 @@
         "mods": null,
         "adsSpeedMult": 1.44,
         "damageMult": null,
-        "sightsMag": 1.0
+        "sightsMag": 1.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "hamada_type_1",
@@ -13104,7 +13853,9 @@
         "mods": null,
         "adsSpeedMult": 1.44,
         "damageMult": null,
-        "sightsMag": 1.0
+        "sightsMag": 1.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "hamada_type_2",
@@ -13141,7 +13892,9 @@
         "mods": null,
         "adsSpeedMult": 1.44,
         "damageMult": null,
-        "sightsMag": 1.0
+        "sightsMag": 1.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "nambu_type_94",
@@ -13178,7 +13931,9 @@
         "mods": null,
         "adsSpeedMult": 1.44,
         "damageMult": null,
-        "sightsMag": 1.0
+        "sightsMag": 1.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "arisaka_type_97",
@@ -13219,7 +13974,9 @@
         },
         "adsSpeedMult": 0.95,
         "damageMult": null,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "arisaka_type_99_early_sniper",
@@ -13260,7 +14017,9 @@
         },
         "adsSpeedMult": 0.95,
         "damageMult": 1.541,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "japanese_type_i_carcano",
@@ -13302,7 +14061,9 @@
         },
         "adsSpeedMult": 0.95,
         "damageMult": 1.7,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "type_hei_rifle",
@@ -13344,7 +14105,9 @@
         },
         "adsSpeedMult": 0.75,
         "damageMult": 1.1,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "type_hei_rifle_extended",
@@ -13386,7 +14149,9 @@
         },
         "adsSpeedMult": 0.75,
         "damageMult": 1.1,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "type_ko_rifle",
@@ -13428,7 +14193,9 @@
         },
         "adsSpeedMult": 0.75,
         "damageMult": 1.0667,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "type_100_paratrooper_smg",
@@ -13470,7 +14237,9 @@
         },
         "adsSpeedMult": 0.75,
         "damageMult": 1.0667,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "type_100_smg_early",
@@ -13512,7 +14281,9 @@
         },
         "adsSpeedMult": 0.75,
         "damageMult": 1.0667,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "type_100_smg_late",
@@ -13554,7 +14325,9 @@
         },
         "adsSpeedMult": 0.75,
         "damageMult": 1.0667,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "nambu_type_1_smg",
@@ -13599,7 +14372,56 @@
         "mods": null,
         "adsSpeedMult": 1.0,
         "damageMult": null,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
+    },
+    {
+        "name": "nambu_type_1_early_smg",
+        "rps": 8.333,
+        "dispersion": 0.76,
+        "stat": "submachine_gun",
+        "type": "submachine_gun",
+        "weight": 4.0,
+        "locName": "Nambu Type 1",
+        "magazineName": {
+            "ammoHolders": "nambu_type_1_smg_magazine"
+        },
+        "bullets": {
+            "shells": "content/e_ww2_common/gamedata/weapons/bullets/8x22_nambu_smg.blk"
+        },
+        "firingModes": [
+            {
+                "mode": "full_auto"
+            },
+            {
+                "mode": "full_auto_slow"
+            },
+            {
+                "mode": "semi_auto"
+            }
+        ],
+        "singleReloadPrep": null,
+        "singleReloadLoop": null,
+        "singleReloadPost": null,
+        "reload": 3.0,
+        "altReload": 2.6,
+        "dualMagReload": null,
+        "proneRecoilMult": 0.85,
+        "zeroDist": 0.05,
+        "reloadSingle": false,
+        "recoilAmount": 0.039,
+        "recoilDir": 0.34,
+        "recoilDirAmount": 0.62,
+        "visualRecoilMult": 1.0,
+        "recoilControlMult": 0.65,
+        "recoilOffsetMult": null,
+        "mods": null,
+        "adsSpeedMult": 1.0,
+        "damageMult": null,
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "nambu_type_2a_smg",
@@ -13644,7 +14466,9 @@
         "mods": null,
         "adsSpeedMult": 0.9,
         "damageMult": null,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "ni_05_lunge_mine",
@@ -13675,7 +14499,9 @@
         "mods": null,
         "adsSpeedMult": null,
         "damageMult": null,
-        "sightsMag": 1.5
+        "sightsMag": 1.5,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "type_11_lmg",
@@ -13712,7 +14538,9 @@
         "mods": null,
         "adsSpeedMult": 0.3,
         "damageMult": null,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "nambu_type_96_lmg",
@@ -13754,7 +14582,9 @@
         },
         "adsSpeedMult": 0.3,
         "damageMult": null,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "nambu_type_97_lmg",
@@ -13791,7 +14621,9 @@
         "mods": null,
         "adsSpeedMult": 0.3,
         "damageMult": null,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "type_97_antitank_canon",
@@ -13828,7 +14660,9 @@
         "mods": null,
         "adsSpeedMult": 0.25,
         "damageMult": null,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "type_97_antitank_canon_scaled",
@@ -13865,7 +14699,9 @@
         "mods": null,
         "adsSpeedMult": 0.25,
         "damageMult": null,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "type_5_45_at_rocket_launcher",
@@ -13902,7 +14738,9 @@
         "mods": null,
         "adsSpeedMult": 0.25,
         "damageMult": null,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "type_93_flamethrower",
@@ -13953,7 +14791,9 @@
         "mods": null,
         "adsSpeedMult": null,
         "damageMult": null,
-        "sightsMag": 1.0
+        "sightsMag": 1.0,
+        "flamethrowerDPS": 40.0,
+        "flamethrowerMaxLength": 18.0
     },
     {
         "name": "type_100_flamethrower",
@@ -14004,7 +14844,9 @@
         "mods": null,
         "adsSpeedMult": null,
         "damageMult": null,
-        "sightsMag": 1.0
+        "sightsMag": 1.0,
+        "flamethrowerDPS": 60.0,
+        "flamethrowerMaxLength": 32.0
     },
     {
         "name": "austen",
@@ -14054,7 +14896,9 @@
         "mods": null,
         "adsSpeedMult": 0.8,
         "damageMult": null,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "stationary_browning_m2_without_shell_ejection",
@@ -14089,7 +14933,9 @@
         "mods": null,
         "adsSpeedMult": null,
         "damageMult": null,
-        "sightsMag": 1.5
+        "sightsMag": 1.5,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "stationary_mg_131_without_shell_ejection",
@@ -14124,7 +14970,9 @@
         "mods": null,
         "adsSpeedMult": null,
         "damageMult": null,
-        "sightsMag": 1.5
+        "sightsMag": 1.5,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "stationary_dshk_1942_without_shell_ejection",
@@ -14159,7 +15007,9 @@
         "mods": null,
         "adsSpeedMult": null,
         "damageMult": null,
-        "sightsMag": 1.5
+        "sightsMag": 1.5,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "stationary_type_93_hmg_without_shell_ejection",
@@ -14194,7 +15044,9 @@
         "mods": null,
         "adsSpeedMult": null,
         "damageMult": null,
-        "sightsMag": 1.5
+        "sightsMag": 1.5,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "type_4_70_at_rocket_launcher",
@@ -14231,7 +15083,9 @@
         "mods": null,
         "adsSpeedMult": 0.25,
         "damageMult": null,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "fedorov_mg",
@@ -14273,7 +15127,9 @@
         "mods": null,
         "adsSpeedMult": 0.3,
         "damageMult": null,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "mg_42_handheld_early",
@@ -14315,7 +15171,9 @@
         "mods": null,
         "adsSpeedMult": 0.3,
         "damageMult": null,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "winchester_g30m",
@@ -14363,7 +15221,9 @@
         },
         "adsSpeedMult": 0.9,
         "damageMult": 1.06,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "carcano_m38",
@@ -14404,7 +15264,9 @@
         },
         "adsSpeedMult": 0.95,
         "damageMult": 1.58,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "carcano_m38_7_35",
@@ -14445,7 +15307,9 @@
         },
         "adsSpeedMult": 0.95,
         "damageMult": 1.58,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "carcano_m38_7_35_with_scope_mount",
@@ -14486,7 +15350,9 @@
         },
         "adsSpeedMult": 0.95,
         "damageMult": 1.58,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "carcano_m41",
@@ -14527,7 +15393,9 @@
         },
         "adsSpeedMult": 0.95,
         "damageMult": 1.58,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "carcano_m91",
@@ -14568,7 +15436,9 @@
         },
         "adsSpeedMult": 0.85,
         "damageMult": 1.58,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "carcano_m91_with_scope_mount",
@@ -14609,7 +15479,9 @@
         },
         "adsSpeedMult": 0.75,
         "damageMult": 1.58,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "carcano_moschetto_91",
@@ -14646,7 +15518,9 @@
         "mods": null,
         "adsSpeedMult": 0.95,
         "damageMult": 1.58,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "smle_mk3",
@@ -14687,7 +15561,9 @@
         },
         "adsSpeedMult": 0.9,
         "damageMult": 1.58,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "armaguerra_mod_39",
@@ -14724,7 +15600,9 @@
         "mods": null,
         "adsSpeedMult": 0.75,
         "damageMult": null,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "beretta_m31",
@@ -14761,7 +15639,9 @@
         "mods": null,
         "adsSpeedMult": 0.7,
         "damageMult": null,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "pavesi_m42",
@@ -14798,7 +15678,9 @@
         "mods": null,
         "adsSpeedMult": 0.75,
         "damageMult": null,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "pavesi_prototype_svt_copy",
@@ -14835,16 +15717,18 @@
         "mods": null,
         "adsSpeedMult": 0.75,
         "damageMult": null,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "scotti_model_x",
-        "rps": 5.333,
-        "dispersion": 0.28,
+        "rps": 5.0,
+        "dispersion": 0.25,
         "stat": "semiauto",
         "type": "semiauto",
         "weight": 4.0,
-        "locName": "Scotti mod X",
+        "locName": "Scotti Model X",
         "magazineName": {
             "ammoHolders": "carcano_m38_magazine"
         },
@@ -14857,22 +15741,24 @@
         "singleReloadPrep": null,
         "singleReloadLoop": null,
         "singleReloadPost": null,
-        "reload": 3.1,
-        "altReload": 3.6,
+        "reload": 2.6,
+        "altReload": 3.2,
         "dualMagReload": null,
         "proneRecoilMult": null,
         "zeroDist": 0.05,
         "reloadSingle": false,
-        "recoilAmount": 0.11,
-        "recoilDir": 0.38,
-        "recoilDirAmount": 0.75,
-        "visualRecoilMult": 1.1,
+        "recoilAmount": 0.125,
+        "recoilDir": 0.4,
+        "recoilDirAmount": 0.8,
+        "visualRecoilMult": 0.75,
         "recoilControlMult": null,
         "recoilOffsetMult": null,
         "mods": null,
-        "adsSpeedMult": 0.8,
-        "damageMult": null,
-        "sightsMag": 2.0
+        "adsSpeedMult": 1.1,
+        "damageMult": 1.066,
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "beretta_m1918_30",
@@ -14909,7 +15795,9 @@
         "mods": null,
         "adsSpeedMult": 0.76,
         "damageMult": 1.05,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "sw_light_rifle_mk_1",
@@ -14946,7 +15834,9 @@
         "mods": null,
         "adsSpeedMult": 0.85,
         "damageMult": null,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "sw_light_rifle_mk_2",
@@ -14983,7 +15873,9 @@
         "mods": null,
         "adsSpeedMult": 0.85,
         "damageMult": 1.05,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "turner_automatic_rifle",
@@ -15020,7 +15912,9 @@
         "mods": null,
         "adsSpeedMult": 0.9,
         "damageMult": null,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "beretta_m38_42",
@@ -15062,7 +15956,9 @@
         "mods": null,
         "adsSpeedMult": 0.8,
         "damageMult": null,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "beretta_m1",
@@ -15104,7 +16000,9 @@
         "mods": null,
         "adsSpeedMult": 0.8,
         "damageMult": null,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "ovp_1918",
@@ -15146,7 +16044,9 @@
         "mods": null,
         "adsSpeedMult": 0.85,
         "damageMult": null,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "tz_45",
@@ -15188,7 +16088,9 @@
         "mods": null,
         "adsSpeedMult": 0.8,
         "damageMult": null,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "thompson_m1921_28_box",
@@ -15230,7 +16132,9 @@
         "mods": null,
         "adsSpeedMult": 0.75,
         "damageMult": null,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "sten_mk3",
@@ -15272,7 +16176,9 @@
         "mods": null,
         "adsSpeedMult": 0.8,
         "damageMult": null,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "owen_mk1_42",
@@ -15309,7 +16215,9 @@
         "mods": null,
         "adsSpeedMult": 0.8,
         "damageMult": null,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "beretta_m1923",
@@ -15346,7 +16254,9 @@
         "mods": null,
         "adsSpeedMult": 1.44,
         "damageMult": null,
-        "sightsMag": 1.0
+        "sightsMag": 1.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "beretta_m1934",
@@ -15383,7 +16293,9 @@
         "mods": null,
         "adsSpeedMult": 1.44,
         "damageMult": null,
-        "sightsMag": 1.0
+        "sightsMag": 1.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "beretta_m1934_gold",
@@ -15420,7 +16332,9 @@
         "mods": null,
         "adsSpeedMult": 1.44,
         "damageMult": null,
-        "sightsMag": 1.0
+        "sightsMag": 1.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "webley_mk6",
@@ -15457,7 +16371,9 @@
         "mods": null,
         "adsSpeedMult": 1.44,
         "damageMult": null,
-        "sightsMag": 1.0
+        "sightsMag": 1.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "webley_mk6_nickel",
@@ -15494,7 +16410,9 @@
         "mods": null,
         "adsSpeedMult": 1.44,
         "damageMult": null,
-        "sightsMag": 1.0
+        "sightsMag": 1.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "enfield_no2_mk1",
@@ -15531,7 +16449,9 @@
         "mods": null,
         "adsSpeedMult": 1.44,
         "damageMult": null,
-        "sightsMag": 1.0
+        "sightsMag": 1.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "bren_mk1",
@@ -15568,7 +16488,9 @@
         "mods": null,
         "adsSpeedMult": 0.3,
         "damageMult": null,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "besal_lmg",
@@ -15605,7 +16527,9 @@
         "mods": null,
         "adsSpeedMult": 0.3,
         "damageMult": null,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "charlton_automatic_rifle",
@@ -15642,7 +16566,9 @@
         "mods": null,
         "adsSpeedMult": 0.65,
         "damageMult": null,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "solothurn_s_18_100",
@@ -15679,7 +16605,9 @@
         "mods": null,
         "adsSpeedMult": 0.25,
         "damageMult": null,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "atr_boys",
@@ -15716,7 +16644,9 @@
         "mods": null,
         "adsSpeedMult": 0.45,
         "damageMult": null,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "vickers_berthier",
@@ -15758,7 +16688,9 @@
         "mods": null,
         "adsSpeedMult": 0.3,
         "damageMult": null,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "smle_mk3_grenade_launcher",
@@ -15799,7 +16731,9 @@
         },
         "adsSpeedMult": 0.9,
         "damageMult": 1.58,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "smle_2_5_inch_grenade_launcher_cup",
@@ -15837,7 +16771,9 @@
         "mods": null,
         "adsSpeedMult": null,
         "damageMult": null,
-        "sightsMag": 3.0
+        "sightsMag": 3.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "kar98k_wartime_production",
@@ -15884,7 +16820,9 @@
         },
         "adsSpeedMult": 0.95,
         "damageMult": 1.5,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "mannlicher_m93_roman",
@@ -15925,7 +16863,9 @@
         },
         "adsSpeedMult": 0.85,
         "damageMult": 1.5,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "orita_m1941",
@@ -15967,7 +16907,9 @@
         "mods": null,
         "adsSpeedMult": 0.8,
         "damageMult": null,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "stl_mp_717r",
@@ -16009,7 +16951,9 @@
         "mods": null,
         "adsSpeedMult": 0.72,
         "damageMult": 1.0,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "ppsh_2",
@@ -16046,7 +16990,9 @@
         "mods": null,
         "adsSpeedMult": 0.8,
         "damageMult": null,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "stl_pps_42_red",
@@ -16088,7 +17034,9 @@
         "mods": null,
         "adsSpeedMult": 0.8,
         "damageMult": 1.05,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "stl_ppsh_41",
@@ -16130,7 +17078,9 @@
         "mods": null,
         "adsSpeedMult": 0.72,
         "damageMult": 1.0,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "stl_mg_42_handheld",
@@ -16172,7 +17122,9 @@
         "mods": null,
         "adsSpeedMult": 0.3,
         "damageMult": null,
-        "sightsMag": 2.0
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     },
     {
         "name": "stationary_ampulomet_without_shell_ejection",
@@ -16207,6 +17159,8 @@
         "mods": null,
         "adsSpeedMult": null,
         "damageMult": null,
-        "sightsMag": 1.5
+        "sightsMag": 1.5,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
     }
 ]

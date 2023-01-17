@@ -40,7 +40,8 @@ def comparison():
 def datamine():
     language_json = get_language()
     weapons_json = json.load(open('static/datamine/weapons.json'))
-    return render_template('datamine.html', language=language_json, weaponsJson=weapons_json)
+    bullets_json = json.load(open('static/datamine/bullets.json'))
+    return render_template('datamine.html', language=language_json, weaponsJson=weapons_json, bulletsJson=bullets_json)
 
 
 @app.route("/soldierStats")

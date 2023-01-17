@@ -1,7 +1,7 @@
 {
     "10.75x58_r": {
-        "maxDistance": 2000.0,
-        "effectiveDistance": 400.0,
+        "maxDistance": 1500.0,
+        "effectiveDistance": 200.0,
         "hitPowerMult": 21.0,
         "hitpower": {
             "HitPower10m": [
@@ -9,27 +9,31 @@
                 10.0
             ],
             "HitPower100m": [
-                0.9,
+                0.63,
                 100.0
             ],
             "HitPower200m": [
-                0.8,
+                0.5,
+                200.0
+            ],
+            "HitPower300m": [
+                0.4,
                 300.0
             ],
             "HitPower400m": [
-                0.7,
+                0.33,
                 400.0
             ],
-            "HitPower600m": [
+            "HitPower500m": [
                 0.3,
-                600.0
+                500.0
             ],
             "HitPower1000m": [
                 0.1,
                 1000.0
             ],
             "HitPower1500m": [
-                0.01,
+                0.03,
                 1500.0
             ]
         },
@@ -42,7 +46,10 @@
                 0.1,
                 1500.0
             ]
-        }
+        },
+        "speed": 410.0,
+        "spawn": null,
+        "cumulativeDamage": null
     },
     "105mm": {
         "maxDistance": 20000.0,
@@ -83,7 +90,10 @@
                 0.1,
                 1500.0
             ]
-        }
+        },
+        "speed": 900.0,
+        "spawn": null,
+        "cumulativeDamage": null
     },
     "12.7x108_bs41": {
         "maxDistance": 3000.0,
@@ -140,7 +150,10 @@
                 11.0,
                 1500.0
             ]
-        }
+        },
+        "speed": 860.0,
+        "spawn": null,
+        "cumulativeDamage": null
     },
     "12gauge_browning_shell": {
         "maxDistance": 2000.0,
@@ -173,7 +186,13 @@
                 0.1,
                 1500.0
             ]
-        }
+        },
+        "speed": 200.0,
+        "spawn": {
+            "minCount": 12,
+            "maxCount": 12
+        },
+        "cumulativeDamage": null
     },
     "12gauge_m30_drilling_shell": {
         "maxDistance": 2000.0,
@@ -206,12 +225,142 @@
                 0.1,
                 1500.0
             ]
-        }
+        },
+        "speed": 200.0,
+        "spawn": {
+            "minCount": 12,
+            "maxCount": 12
+        },
+        "cumulativeDamage": null
     },
     "14.5x114_bs41": {
-        "maxDistance": 3000.0,
-        "effectiveDistance": 400.0,
-        "hitPowerMult": 200.0,
+        "maxDistance": null,
+        "effectiveDistance": null,
+        "hitPowerMult": null,
+        "hitpower": null,
+        "armorpower": null,
+        "speed": null,
+        "spawn": null,
+        "cumulativeDamage": null
+    },
+    "30_06_springfield": {
+        "maxDistance": 1500.0,
+        "effectiveDistance": 350.0,
+        "hitPowerMult": 14.0,
+        "hitpower": {
+            "HitPower10m": [
+                1.0,
+                10.0
+            ],
+            "HitPower100m": [
+                0.82,
+                100.0
+            ],
+            "HitPower200m": [
+                0.67,
+                200.0
+            ],
+            "HitPower300m": [
+                0.55,
+                300.0
+            ],
+            "HitPower400m": [
+                0.45,
+                400.0
+            ],
+            "HitPower500m": [
+                0.37,
+                500.0
+            ],
+            "HitPower1000m": [
+                0.12,
+                1000.0
+            ],
+            "HitPower1500m": [
+                0.06,
+                1500.0
+            ]
+        },
+        "armorpower": {
+            "ArmorPower0m": [
+                1.0,
+                10.0
+            ],
+            "ArmorPower1500m": [
+                0.1,
+                1500.0
+            ]
+        },
+        "speed": 830.0,
+        "spawn": null,
+        "cumulativeDamage": null
+    },
+    "30_06_springfield_ap": {
+        "maxDistance": 1500.0,
+        "effectiveDistance": 500.0,
+        "hitPowerMult": 14.0,
+        "hitpower": {
+            "HitPower10m": [
+                1.0,
+                10.0
+            ],
+            "HitPower100m": [
+                0.93,
+                100.0
+            ],
+            "HitPower200m": [
+                0.87,
+                200.0
+            ],
+            "HitPower300m": [
+                0.82,
+                300.0
+            ],
+            "HitPower400m": [
+                0.76,
+                400.0
+            ],
+            "HitPower500m": [
+                0.71,
+                500.0
+            ],
+            "HitPower1000m": [
+                0.5,
+                1000.0
+            ],
+            "HitPower1500m": [
+                0.39,
+                1500.0
+            ]
+        },
+        "armorpower": {
+            "ArmorPower0m": [
+                1.0,
+                10.0
+            ],
+            "ArmorPower1500m": [
+                0.1,
+                1500.0
+            ]
+        },
+        "speed": 830.0,
+        "spawn": null,
+        "cumulativeDamage": null
+    },
+    "30_06_springfield_special": {
+        "maxDistance": null,
+        "effectiveDistance": null,
+        "hitPowerMult": null,
+        "hitpower": null,
+        "armorpower": null,
+        "speed": null,
+        "spawn": null,
+        "cumulativeDamage": null
+    },
+    "30_06_springfield_tracer": {
+        "maxDistance": 1500.0,
+        "effectiveDistance": 500.0,
+        "hitPowerMult": 12.0,
         "hitpower": {
             "HitPower10m": [
                 1.0,
@@ -244,162 +393,53 @@
         },
         "armorpower": {
             "ArmorPower0m": [
-                45.0,
-                5.0
-            ],
-            "ArmorPower100m": [
-                40.0,
-                100.0
-            ],
-            "ArmorPower500m": [
-                20.0,
-                500.0
-            ],
-            "ArmorPower1000m": [
-                10.0,
-                1000.0
-            ],
-            "ArmorPower1500m": [
-                5.0,
-                1500.0
-            ]
-        }
-    },
-    "30_06_springfield": {
-        "maxDistance": 2000.0,
-        "effectiveDistance": 400.0,
-        "hitPowerMult": 15.0,
-        "hitpower": {
-            "HitPower10m": [
                 1.0,
                 10.0
             ],
-            "HitPower150m": [
-                0.9,
-                150.0
-            ],
-            "HitPower350m": [
-                0.8,
-                350.0
-            ],
-            "HitPower450m": [
-                0.7,
-                450.0
-            ],
-            "HitPower650m": [
-                0.3,
-                650.0
-            ],
-            "HitPower1000m": [
+            "ArmorPower1500m": [
                 0.1,
-                1000.0
-            ],
-            "HitPower1500m": [
-                0.01,
                 1500.0
             ]
         },
-        "armorpower": {
-            "ArmorPower0m": [
-                1.0,
-                10.0
-            ],
-            "ArmorPower1500m": [
-                0.1,
-                1500.0
-            ]
-        }
-    },
-    "30_06_springfield_ap": {
-        "maxDistance": null,
-        "effectiveDistance": null,
-        "hitPowerMult": null,
-        "hitpower": null,
-        "armorpower": null
-    },
-    "30_06_springfield_special": {
-        "maxDistance": null,
-        "effectiveDistance": null,
-        "hitPowerMult": null,
-        "hitpower": null,
-        "armorpower": null
-    },
-    "30_06_springfield_tracer": {
-        "maxDistance": 2000.0,
-        "effectiveDistance": 400.0,
-        "hitPowerMult": 12.0,
-        "hitpower": {
-            "HitPower10m": [
-                1.0,
-                10.0
-            ],
-            "HitPower150m": [
-                0.9,
-                150.0
-            ],
-            "HitPower350m": [
-                0.8,
-                350.0
-            ],
-            "HitPower450m": [
-                0.7,
-                450.0
-            ],
-            "HitPower650m": [
-                0.3,
-                650.0
-            ],
-            "HitPower1000m": [
-                0.1,
-                1000.0
-            ],
-            "HitPower1500m": [
-                0.01,
-                1500.0
-            ]
-        },
-        "armorpower": {
-            "ArmorPower0m": [
-                1.0,
-                10.0
-            ],
-            "ArmorPower1500m": [
-                0.1,
-                1500.0
-            ]
-        }
+        "speed": 830.0,
+        "spawn": null,
+        "cumulativeDamage": null
     },
     "30_carbine": {
-        "maxDistance": 2000.0,
-        "effectiveDistance": null,
-        "hitPowerMult": 11.0,
+        "maxDistance": 500.0,
+        "effectiveDistance": 300.0,
+        "hitPowerMult": 7.3,
         "hitpower": {
             "HitPower10m": [
                 1.0,
                 10.0
             ],
-            "HitPower150m": [
-                0.85,
-                150.0
+            "HitPower100m": [
+                0.78,
+                100.0
             ],
-            "HitPower350m": [
-                0.75,
-                350.0
+            "HitPower200m": [
+                0.63,
+                200.0
             ],
-            "HitPower450m": [
-                0.6,
-                450.0
+            "HitPower300m": [
+                0.5,
+                300.0
             ],
-            "HitPower650m": [
-                0.25,
-                650.0
+            "HitPower400m": [
+                0.4,
+                400.0
+            ],
+            "HitPower500m": [
+                0.31,
+                500.0
             ],
             "HitPower1000m": [
-                0.07,
+                0.09,
                 1000.0
             ],
             "HitPower1500m": [
-                0.01,
+                0.04,
                 1500.0
             ]
         },
@@ -412,7 +452,10 @@
                 0.1,
                 1500.0
             ]
-        }
+        },
+        "speed": 560.0,
+        "spawn": null,
+        "cumulativeDamage": null
     },
     "32acp_dreyse": {
         "maxDistance": 2000.0,
@@ -441,7 +484,10 @@
                 0.1,
                 1500.0
             ]
-        }
+        },
+        "speed": 365.0,
+        "spawn": null,
+        "cumulativeDamage": null
     },
     "44_ball_revo": {
         "maxDistance": 2000.0,
@@ -470,7 +516,10 @@
                 0.1,
                 1500.0
             ]
-        }
+        },
+        "speed": 350.0,
+        "spawn": null,
+        "cumulativeDamage": null
     },
     "45acp": {
         "maxDistance": 2000.0,
@@ -499,7 +548,10 @@
                 0.1,
                 1500.0
             ]
-        }
+        },
+        "speed": 285.0,
+        "spawn": null,
+        "cumulativeDamage": null
     },
     "5.56x45_nato": {
         "maxDistance": 2000.0,
@@ -511,27 +563,31 @@
                 10.0
             ],
             "HitPower100m": [
-                0.8,
+                0.78,
                 100.0
             ],
             "HitPower200m": [
-                0.6,
+                0.63,
+                200.0
+            ],
+            "HitPower300m": [
+                0.5,
                 300.0
             ],
             "HitPower400m": [
-                0.5,
+                0.4,
                 400.0
             ],
-            "HitPower600m": [
-                0.3,
-                600.0
+            "HitPower500m": [
+                0.31,
+                500.0
             ],
             "HitPower1000m": [
-                0.1,
+                0.09,
                 1000.0
             ],
             "HitPower1500m": [
-                0.01,
+                0.04,
                 1500.0
             ]
         },
@@ -544,7 +600,10 @@
                 0.1,
                 1500.0
             ]
-        }
+        },
+        "speed": 970.0,
+        "spawn": null,
+        "cumulativeDamage": null
     },
     "50_bmg": {
         "maxDistance": 2000.0,
@@ -601,7 +660,10 @@
                 1.0,
                 1500.0
             ]
-        }
+        },
+        "speed": 853.0,
+        "spawn": null,
+        "cumulativeDamage": null
     },
     "6.5x50_arisaka": {
         "maxDistance": 2000.0,
@@ -646,7 +708,10 @@
                 0.1,
                 1500.0
             ]
-        }
+        },
+        "speed": 770.0,
+        "spawn": null,
+        "cumulativeDamage": null
     },
     "7.62ak47": {
         "maxDistance": 3000.0,
@@ -691,7 +756,10 @@
                 0.1,
                 1500.0
             ]
-        }
+        },
+        "speed": 720.0,
+        "spawn": null,
+        "cumulativeDamage": null
     },
     "7.62x26_r": {
         "maxDistance": 2000.0,
@@ -720,7 +788,10 @@
                 0.1,
                 1500.0
             ]
-        }
+        },
+        "speed": 279.0,
+        "spawn": null,
+        "cumulativeDamage": null
     },
     "7.62x39_r": {
         "maxDistance": 3000.0,
@@ -769,11 +840,14 @@
                 0.1,
                 1500.0
             ]
-        }
+        },
+        "speed": 720.0,
+        "spawn": null,
+        "cumulativeDamage": null
     },
     "7.62x54_r": {
         "maxDistance": 2000.0,
-        "effectiveDistance": 400.0,
+        "effectiveDistance": 350.0,
         "hitPowerMult": 15.0,
         "hitpower": {
             "HitPower10m": [
@@ -781,27 +855,31 @@
                 10.0
             ],
             "HitPower100m": [
-                0.9,
+                0.82,
                 100.0
             ],
             "HitPower200m": [
-                0.8,
+                0.67,
+                200.0
+            ],
+            "HitPower300m": [
+                0.55,
                 300.0
             ],
             "HitPower400m": [
-                0.7,
+                0.45,
                 400.0
             ],
-            "HitPower600m": [
-                0.3,
-                600.0
+            "HitPower500m": [
+                0.37,
+                500.0
             ],
             "HitPower1000m": [
-                0.1,
+                0.12,
                 1000.0
             ],
             "HitPower1500m": [
-                0.01,
+                0.06,
                 1500.0
             ]
         },
@@ -814,25 +892,76 @@
                 0.1,
                 1500.0
             ]
-        }
+        },
+        "speed": 815.0,
+        "spawn": null,
+        "cumulativeDamage": null
     },
     "7.62x54_r_ap": {
-        "maxDistance": null,
-        "effectiveDistance": null,
-        "hitPowerMult": null,
-        "hitpower": null,
-        "armorpower": null
+        "maxDistance": 2000.0,
+        "effectiveDistance": 500.0,
+        "hitPowerMult": 15.0,
+        "hitpower": {
+            "HitPower10m": [
+                1.0,
+                10.0
+            ],
+            "HitPower100m": [
+                0.93,
+                100.0
+            ],
+            "HitPower200m": [
+                0.87,
+                200.0
+            ],
+            "HitPower300m": [
+                0.82,
+                300.0
+            ],
+            "HitPower400m": [
+                0.76,
+                400.0
+            ],
+            "HitPower500m": [
+                0.71,
+                500.0
+            ],
+            "HitPower1000m": [
+                0.5,
+                1000.0
+            ],
+            "HitPower1500m": [
+                0.39,
+                1500.0
+            ]
+        },
+        "armorpower": {
+            "ArmorPower0m": [
+                1.0,
+                10.0
+            ],
+            "ArmorPower1500m": [
+                0.1,
+                1500.0
+            ]
+        },
+        "speed": 815.0,
+        "spawn": null,
+        "cumulativeDamage": null
     },
     "7.62x54_r_ap_infantry": {
         "maxDistance": null,
         "effectiveDistance": null,
         "hitPowerMult": null,
         "hitpower": null,
-        "armorpower": null
+        "armorpower": null,
+        "speed": null,
+        "spawn": null,
+        "cumulativeDamage": null
     },
     "7.62x54_r_tracer": {
         "maxDistance": 2000.0,
-        "effectiveDistance": 400.0,
+        "effectiveDistance": 500.0,
         "hitPowerMult": 12.0,
         "hitpower": {
             "HitPower10m": [
@@ -873,7 +1002,10 @@
                 0.1,
                 1500.0
             ]
-        }
+        },
+        "speed": 815.0,
+        "spawn": null,
+        "cumulativeDamage": null
     },
     "7.65x17_browning_sr": {
         "maxDistance": 200.0,
@@ -902,7 +1034,10 @@
                 0.1,
                 1500.0
             ]
-        }
+        },
+        "speed": 300.0,
+        "spawn": null,
+        "cumulativeDamage": null
     },
     "7.92x107_p35": {
         "maxDistance": 3000.0,
@@ -959,39 +1094,46 @@
                 5.0,
                 1500.0
             ]
-        }
+        },
+        "speed": 1270.0,
+        "spawn": null,
+        "cumulativeDamage": null
     },
     "7.92x33_kurz": {
-        "maxDistance": 3000.0,
-        "effectiveDistance": 500.0,
-        "hitPowerMult": 9.0,
+        "maxDistance": 2000.0,
+        "effectiveDistance": 300.0,
+        "hitPowerMult": 8.0,
         "hitpower": {
             "HitPower10m": [
                 1.0,
                 10.0
             ],
             "HitPower100m": [
-                0.85,
+                0.78,
                 100.0
             ],
             "HitPower200m": [
-                0.75,
+                0.63,
+                200.0
+            ],
+            "HitPower300m": [
+                0.5,
                 300.0
             ],
             "HitPower400m": [
-                0.6,
+                0.4,
                 400.0
             ],
-            "HitPower600m": [
-                0.3,
-                600.0
+            "HitPower500m": [
+                0.31,
+                500.0
             ],
             "HitPower1000m": [
-                0.1,
+                0.09,
                 1000.0
             ],
             "HitPower1500m": [
-                0.01,
+                0.04,
                 1500.0
             ]
         },
@@ -1004,11 +1146,14 @@
                 0.1,
                 1500.0
             ]
-        }
+        },
+        "speed": 680.0,
+        "spawn": null,
+        "cumulativeDamage": null
     },
     "7.92x57_mauser": {
         "maxDistance": 2000.0,
-        "effectiveDistance": 400.0,
+        "effectiveDistance": 350.0,
         "hitPowerMult": 15.0,
         "hitpower": {
             "HitPower10m": [
@@ -1016,27 +1161,31 @@
                 10.0
             ],
             "HitPower100m": [
-                0.9,
+                0.82,
                 100.0
             ],
             "HitPower200m": [
-                0.8,
+                0.67,
+                200.0
+            ],
+            "HitPower300m": [
+                0.55,
                 300.0
             ],
             "HitPower400m": [
-                0.7,
+                0.45,
                 400.0
             ],
-            "HitPower600m": [
-                0.3,
-                600.0
+            "HitPower500m": [
+                0.37,
+                500.0
             ],
             "HitPower1000m": [
-                0.1,
+                0.12,
                 1000.0
             ],
             "HitPower1500m": [
-                0.01,
+                0.06,
                 1500.0
             ]
         },
@@ -1049,25 +1198,76 @@
                 0.1,
                 1500.0
             ]
-        }
+        },
+        "speed": 750.0,
+        "spawn": null,
+        "cumulativeDamage": null
     },
     "7.92x57_mauser_ap": {
-        "maxDistance": null,
-        "effectiveDistance": null,
-        "hitPowerMult": null,
-        "hitpower": null,
-        "armorpower": null
+        "maxDistance": 2000.0,
+        "effectiveDistance": 500.0,
+        "hitPowerMult": 16.0,
+        "hitpower": {
+            "HitPower10m": [
+                1.0,
+                10.0
+            ],
+            "HitPower100m": [
+                0.93,
+                100.0
+            ],
+            "HitPower200m": [
+                0.87,
+                200.0
+            ],
+            "HitPower300m": [
+                0.82,
+                300.0
+            ],
+            "HitPower400m": [
+                0.76,
+                400.0
+            ],
+            "HitPower500m": [
+                0.71,
+                500.0
+            ],
+            "HitPower1000m": [
+                0.5,
+                1000.0
+            ],
+            "HitPower1500m": [
+                0.39,
+                1500.0
+            ]
+        },
+        "armorpower": {
+            "ArmorPower0m": [
+                1.0,
+                10.0
+            ],
+            "ArmorPower1500m": [
+                0.1,
+                1500.0
+            ]
+        },
+        "speed": 770.0,
+        "spawn": null,
+        "cumulativeDamage": null
     },
     "7.92x57_mauser_special": {
         "maxDistance": null,
         "effectiveDistance": null,
         "hitPowerMult": null,
         "hitpower": null,
-        "armorpower": null
+        "armorpower": null,
+        "speed": null,
+        "spawn": null,
+        "cumulativeDamage": null
     },
     "7.92x57_mauser_tracer": {
         "maxDistance": 2000.0,
-        "effectiveDistance": 400.0,
+        "effectiveDistance": 500.0,
         "hitPowerMult": 12.0,
         "hitpower": {
             "HitPower10m": [
@@ -1108,7 +1308,10 @@
                 0.1,
                 1500.0
             ]
-        }
+        },
+        "speed": 750.0,
+        "spawn": null,
+        "cumulativeDamage": null
     },
     "7.92x94_patronen": {
         "maxDistance": 3000.0,
@@ -1165,14 +1368,20 @@
                 5.0,
                 1500.0
             ]
-        }
+        },
+        "speed": 1200.0,
+        "spawn": null,
+        "cumulativeDamage": null
     },
     "76mm_m62_apcbc": {
         "maxDistance": null,
         "effectiveDistance": null,
         "hitPowerMult": null,
         "hitpower": null,
-        "armorpower": null
+        "armorpower": null,
+        "speed": null,
+        "spawn": null,
+        "cumulativeDamage": null
     },
     "7mm25": {
         "maxDistance": 2000.0,
@@ -1201,7 +1410,10 @@
                 0.1,
                 1500.0
             ]
-        }
+        },
+        "speed": 460.0,
+        "spawn": null,
+        "cumulativeDamage": null
     },
     "7mm54kaboom": {
         "maxDistance": 2000.0,
@@ -1246,7 +1458,10 @@
                 0.1,
                 1500.0
             ]
-        }
+        },
+        "speed": 865.0,
+        "spawn": null,
+        "cumulativeDamage": null
     },
     "8x22_nambu_pistol": {
         "maxDistance": 500.0,
@@ -1279,7 +1494,10 @@
                 0.1,
                 1500.0
             ]
-        }
+        },
+        "speed": 310.0,
+        "spawn": null,
+        "cumulativeDamage": null
     },
     "8x22_nambu_smg": {
         "maxDistance": 500.0,
@@ -1324,11 +1542,14 @@
                 0.1,
                 1500.0
             ]
-        }
+        },
+        "speed": 350.0,
+        "spawn": null,
+        "cumulativeDamage": null
     },
     "8x50_r": {
         "maxDistance": 2000.0,
-        "effectiveDistance": 400.0,
+        "effectiveDistance": 350.0,
         "hitPowerMult": 15.5,
         "hitpower": {
             "HitPower10m": [
@@ -1336,27 +1557,31 @@
                 10.0
             ],
             "HitPower100m": [
-                0.9,
+                0.82,
                 100.0
             ],
             "HitPower200m": [
-                0.8,
+                0.67,
+                200.0
+            ],
+            "HitPower300m": [
+                0.55,
                 300.0
             ],
             "HitPower400m": [
-                0.7,
+                0.45,
                 400.0
             ],
-            "HitPower600m": [
-                0.3,
-                600.0
+            "HitPower500m": [
+                0.37,
+                500.0
             ],
             "HitPower1000m": [
-                0.1,
+                0.12,
                 1000.0
             ],
             "HitPower1500m": [
-                0.01,
+                0.06,
                 1500.0
             ]
         },
@@ -1369,11 +1594,14 @@
                 0.1,
                 1500.0
             ]
-        }
+        },
+        "speed": 660.0,
+        "spawn": null,
+        "cumulativeDamage": null
     },
     "8x50_r_tracer": {
         "maxDistance": 2000.0,
-        "effectiveDistance": 400.0,
+        "effectiveDistance": 500.0,
         "hitPowerMult": 12.0,
         "hitpower": {
             "HitPower10m": [
@@ -1414,11 +1642,14 @@
                 0.1,
                 1500.0
             ]
-        }
+        },
+        "speed": 630.0,
+        "spawn": null,
+        "cumulativeDamage": null
     },
     "8x56_r_tracer": {
         "maxDistance": 2000.0,
-        "effectiveDistance": 400.0,
+        "effectiveDistance": 500.0,
         "hitPowerMult": 12.0,
         "hitpower": {
             "HitPower10m": [
@@ -1459,7 +1690,10 @@
                 0.1,
                 1500.0
             ]
-        }
+        },
+        "speed": 700.0,
+        "spawn": null,
+        "cumulativeDamage": null
     },
     "9mm19_parabellum": {
         "maxDistance": 2000.0,
@@ -1488,7 +1722,10 @@
                 0.1,
                 1500.0
             ]
-        }
+        },
+        "speed": 400.0,
+        "spawn": null,
+        "cumulativeDamage": null
     },
     "9mm19_parabellum_weak": {
         "maxDistance": 2000.0,
@@ -1517,14 +1754,20 @@
                 0.1,
                 1500.0
             ]
-        }
+        },
+        "speed": 400.0,
+        "spawn": null,
+        "cumulativeDamage": null
     },
     "flamethrower_dummy": {
         "maxDistance": 0.0,
         "effectiveDistance": null,
         "hitPowerMult": null,
         "hitpower": null,
-        "armorpower": null
+        "armorpower": null,
+        "speed": null,
+        "spawn": null,
+        "cumulativeDamage": null
     },
     "13.9x99_boys": {
         "maxDistance": 3000.0,
@@ -1581,7 +1824,10 @@
                 5.0,
                 1500.0
             ]
-        }
+        },
+        "speed": 880.0,
+        "spawn": null,
+        "cumulativeDamage": null
     },
     "20x105_b_solosthurn": {
         "maxDistance": 3000.0,
@@ -1638,7 +1884,10 @@
                 5.0,
                 1500.0
             ]
-        }
+        },
+        "speed": 710.0,
+        "spawn": null,
+        "cumulativeDamage": null
     },
     "303_british_mk7_semiauto": {
         "maxDistance": 1500.0,
@@ -1687,7 +1936,10 @@
                 0.1,
                 1500.0
             ]
-        }
+        },
+        "speed": 750.0,
+        "spawn": null,
+        "cumulativeDamage": null
     },
     "455_webley_mk6_pistol": {
         "maxDistance": 200.0,
@@ -1720,7 +1972,10 @@
                 0.1,
                 1500.0
             ]
-        }
+        },
+        "speed": 200.0,
+        "spawn": null,
+        "cumulativeDamage": null
     },
     "6.5x52_carcano": {
         "maxDistance": 2000.0,
@@ -1769,7 +2024,10 @@
                 0.1,
                 1500.0
             ]
-        }
+        },
+        "speed": 630.0,
+        "spawn": null,
+        "cumulativeDamage": null
     },
     "6.5x52_carcano_long": {
         "maxDistance": 2000.0,
@@ -1818,7 +2076,10 @@
                 0.1,
                 1500.0
             ]
-        }
+        },
+        "speed": 660.0,
+        "spawn": null,
+        "cumulativeDamage": null
     },
     "6.5x52_carcano_semiauto": {
         "maxDistance": 2000.0,
@@ -1867,7 +2128,10 @@
                 0.1,
                 1500.0
             ]
-        }
+        },
+        "speed": 630.0,
+        "spawn": null,
+        "cumulativeDamage": null
     },
     "7.35x51_carcano": {
         "maxDistance": 2000.0,
@@ -1916,7 +2180,10 @@
                 0.1,
                 1500.0
             ]
-        }
+        },
+        "speed": 730.0,
+        "spawn": null,
+        "cumulativeDamage": null
     },
     "7.35x51_carcano_ap": {
         "maxDistance": 2000.0,
@@ -1965,7 +2232,10 @@
                 0.1,
                 1500.0
             ]
-        }
+        },
+        "speed": 730.0,
+        "spawn": null,
+        "cumulativeDamage": null
     },
     "8x59_breda": {
         "maxDistance": 2000.0,
@@ -2014,7 +2284,10 @@
                 0.1,
                 1500.0
             ]
-        }
+        },
+        "speed": 790.0,
+        "spawn": null,
+        "cumulativeDamage": null
     },
     "8x59_breda_semiauto": {
         "maxDistance": 2000.0,
@@ -2063,7 +2336,10 @@
                 0.1,
                 1500.0
             ]
-        }
+        },
+        "speed": 790.0,
+        "spawn": null,
+        "cumulativeDamage": null
     },
     "9x17_corto_pistol": {
         "maxDistance": 200.0,
@@ -2096,7 +2372,10 @@
                 0.1,
                 1500.0
             ]
-        }
+        },
+        "speed": 270.0,
+        "spawn": null,
+        "cumulativeDamage": null
     },
     "9x19_glisenti_pistol": {
         "maxDistance": 200.0,
@@ -2129,7 +2408,10 @@
                 0.1,
                 1500.0
             ]
-        }
+        },
+        "speed": 300.0,
+        "spawn": null,
+        "cumulativeDamage": null
     },
     "9x20_380_sw_short_pistol": {
         "maxDistance": 200.0,
@@ -2162,6 +2444,2928 @@
                 0.1,
                 1500.0
             ]
-        }
+        },
+        "speed": 190.0,
+        "spawn": null,
+        "cumulativeDamage": null
+    },
+    "11.51x23_browning_pistol": {
+        "maxDistance": 250.0,
+        "effectiveDistance": 150.0,
+        "hitPowerMult": 6.5,
+        "hitpower": {
+            "HitPower10m": [
+                1.0,
+                10.0
+            ],
+            "HitPower50m": [
+                0.83,
+                50.0
+            ],
+            "HitPower100m": [
+                0.67,
+                100.0
+            ],
+            "HitPower200m": [
+                0.4,
+                200.0
+            ]
+        },
+        "armorpower": {
+            "ArmorPower0m": [
+                1.0,
+                200.0
+            ],
+            "ArmorPower1500m": [
+                0.1,
+                1500.0
+            ]
+        },
+        "speed": 250.0,
+        "spawn": null,
+        "cumulativeDamage": null
+    },
+    "11.51x23_browning_smg": {
+        "maxDistance": 250.0,
+        "effectiveDistance": 150.0,
+        "hitPowerMult": 6.8,
+        "hitpower": {
+            "HitPower10m": [
+                1.0,
+                10.0
+            ],
+            "HitPower50m": [
+                0.83,
+                50.0
+            ],
+            "HitPower100m": [
+                0.67,
+                100.0
+            ],
+            "HitPower200m": [
+                0.4,
+                200.0
+            ]
+        },
+        "armorpower": {
+            "ArmorPower0m": [
+                1.0,
+                200.0
+            ],
+            "ArmorPower1500m": [
+                0.1,
+                1500.0
+            ]
+        },
+        "speed": 265.0,
+        "spawn": null,
+        "cumulativeDamage": null
+    },
+    "12.7x108_b32": {
+        "maxDistance": 3000.0,
+        "effectiveDistance": 400.0,
+        "hitPowerMult": 120.0,
+        "hitpower": {
+            "HitPower10m": [
+                1.0,
+                10.0
+            ],
+            "HitPower100m": [
+                0.95,
+                150.0
+            ],
+            "HitPower200m": [
+                0.9,
+                300.0
+            ],
+            "HitPower400m": [
+                0.7,
+                450.0
+            ],
+            "HitPower600m": [
+                0.5,
+                650.0
+            ],
+            "HitPower1000m": [
+                0.4,
+                1000.0
+            ],
+            "HitPower1500m": [
+                0.3,
+                1500.0
+            ]
+        },
+        "armorpower": {
+            "ArmorPower0m": [
+                29.0,
+                10.0
+            ],
+            "ArmorPower100m": [
+                20.0,
+                100.0
+            ],
+            "ArmorPower500m": [
+                18.0,
+                500.0
+            ],
+            "ArmorPower1000m": [
+                15.0,
+                1000.0
+            ],
+            "ArmorPower1500m": [
+                10.0,
+                1500.0
+            ]
+        },
+        "speed": 860.0,
+        "spawn": null,
+        "cumulativeDamage": null
+    },
+    "12.7x99_bmj": {
+        "maxDistance": 2000.0,
+        "effectiveDistance": 400.0,
+        "hitPowerMult": 100.0,
+        "hitpower": {
+            "HitPower10m": [
+                1.0,
+                10.0
+            ],
+            "HitPower100m": [
+                0.95,
+                150.0
+            ],
+            "HitPower200m": [
+                0.9,
+                300.0
+            ],
+            "HitPower400m": [
+                0.7,
+                450.0
+            ],
+            "HitPower600m": [
+                0.5,
+                650.0
+            ],
+            "HitPower1000m": [
+                0.4,
+                1000.0
+            ],
+            "HitPower1500m": [
+                0.3,
+                1500.0
+            ]
+        },
+        "armorpower": {
+            "ArmorPower0m": [
+                29.0,
+                5.0
+            ],
+            "ArmorPower100m": [
+                25.0,
+                100.0
+            ],
+            "ArmorPower300m": [
+                22.0,
+                300.0
+            ],
+            "ArmorPower500m": [
+                16.0,
+                500.0
+            ],
+            "ArmorPower1000m": [
+                13.0,
+                1000.0
+            ],
+            "ArmorPower1500m": [
+                10.0,
+                1500.0
+            ]
+        },
+        "speed": 853.0,
+        "spawn": null,
+        "cumulativeDamage": null
+    },
+    "12gauge_shell": {
+        "maxDistance": 2000.0,
+        "effectiveDistance": 20.0,
+        "hitPowerMult": 2.25,
+        "hitpower": {
+            "HitPower10m": [
+                1.0,
+                10.0
+            ],
+            "HitPower40m": [
+                0.5,
+                40.0
+            ],
+            "HitPower100m": [
+                0.1,
+                100.0
+            ],
+            "HitPower200m": [
+                0.01,
+                200.0
+            ]
+        },
+        "armorpower": {
+            "ArmorPower0m": [
+                0.5,
+                300.0
+            ],
+            "ArmorPower1500m": [
+                0.1,
+                1500.0
+            ]
+        },
+        "speed": 200.0,
+        "spawn": {
+            "minCount": 18,
+            "maxCount": 18,
+            "spread": 5.0
+        },
+        "cumulativeDamage": null
+    },
+    "13.2x99_hotchkiss": {
+        "maxDistance": 2000.0,
+        "effectiveDistance": 400.0,
+        "hitPowerMult": 110.0,
+        "hitpower": {
+            "HitPower10m": [
+                1.0,
+                10.0
+            ],
+            "HitPower100m": [
+                0.95,
+                150.0
+            ],
+            "HitPower200m": [
+                0.9,
+                300.0
+            ],
+            "HitPower400m": [
+                0.7,
+                450.0
+            ],
+            "HitPower600m": [
+                0.5,
+                650.0
+            ],
+            "HitPower1000m": [
+                0.4,
+                1000.0
+            ],
+            "HitPower1500m": [
+                0.3,
+                1500.0
+            ]
+        },
+        "armorpower": {
+            "ArmorPower0m": [
+                29.0,
+                5.0
+            ],
+            "ArmorPower100m": [
+                25.0,
+                100.0
+            ],
+            "ArmorPower300m": [
+                22.0,
+                300.0
+            ],
+            "ArmorPower500m": [
+                16.0,
+                500.0
+            ],
+            "ArmorPower1000m": [
+                13.0,
+                1000.0
+            ],
+            "ArmorPower1500m": [
+                10.0,
+                1500.0
+            ]
+        },
+        "speed": 780.0,
+        "spawn": null,
+        "cumulativeDamage": null
+    },
+    "13x64_pzgr": {
+        "maxDistance": 2000.0,
+        "effectiveDistance": 400.0,
+        "hitPowerMult": 80.0,
+        "hitpower": {
+            "HitPower10m": [
+                1.0,
+                10.0
+            ],
+            "HitPower100m": [
+                0.95,
+                150.0
+            ],
+            "HitPower200m": [
+                0.9,
+                300.0
+            ],
+            "HitPower400m": [
+                0.7,
+                450.0
+            ],
+            "HitPower600m": [
+                0.5,
+                650.0
+            ],
+            "HitPower1000m": [
+                0.4,
+                1000.0
+            ],
+            "HitPower1500m": [
+                0.3,
+                1500.0
+            ]
+        },
+        "armorpower": {
+            "ArmorPower0m": [
+                27.0,
+                5.0
+            ],
+            "ArmorPower100m": [
+                23.0,
+                100.0
+            ],
+            "ArmorPower300m": [
+                21.0,
+                300.0
+            ],
+            "ArmorPower500m": [
+                16.0,
+                500.0
+            ],
+            "ArmorPower1000m": [
+                13.0,
+                1000.0
+            ],
+            "ArmorPower1500m": [
+                10.0,
+                1500.0
+            ]
+        },
+        "speed": 710.0,
+        "spawn": null,
+        "cumulativeDamage": null
+    },
+    "13x64_sprgr": {
+        "maxDistance": 2000.0,
+        "effectiveDistance": 400.0,
+        "hitPowerMult": 35.0,
+        "hitpower": {
+            "HitPower10m": [
+                1.0,
+                10.0
+            ],
+            "HitPower100m": [
+                0.95,
+                150.0
+            ],
+            "HitPower200m": [
+                0.9,
+                300.0
+            ],
+            "HitPower400m": [
+                0.7,
+                450.0
+            ],
+            "HitPower600m": [
+                0.5,
+                650.0
+            ],
+            "HitPower1000m": [
+                0.4,
+                1000.0
+            ],
+            "HitPower1500m": [
+                0.3,
+                1500.0
+            ]
+        },
+        "armorpower": {
+            "ArmorPower0m": [
+                3.0,
+                5.0
+            ],
+            "ArmorPower100m": [
+                2.8,
+                100.0
+            ],
+            "ArmorPower300m": [
+                2.6,
+                300.0
+            ],
+            "ArmorPower500m": [
+                2.1,
+                500.0
+            ],
+            "ArmorPower1000m": [
+                1.3,
+                1000.0
+            ],
+            "ArmorPower1500m": [
+                1.0,
+                1500.0
+            ]
+        },
+        "speed": 750.0,
+        "spawn": null,
+        "cumulativeDamage": null
+    },
+    "20x125mm_kokura": {
+        "maxDistance": 3000.0,
+        "effectiveDistance": 400.0,
+        "hitPowerMult": 250.0,
+        "hitpower": {
+            "HitPower10m": [
+                1.0,
+                10.0
+            ],
+            "HitPower100m": [
+                0.95,
+                150.0
+            ],
+            "HitPower200m": [
+                0.9,
+                300.0
+            ],
+            "HitPower400m": [
+                0.7,
+                450.0
+            ],
+            "HitPower600m": [
+                0.5,
+                650.0
+            ],
+            "HitPower1000m": [
+                0.4,
+                1000.0
+            ],
+            "HitPower1500m": [
+                0.3,
+                1500.0
+            ]
+        },
+        "armorpower": {
+            "ArmorPower0m": [
+                45.0,
+                5.0
+            ],
+            "ArmorPower100m": [
+                37.0,
+                100.0
+            ],
+            "ArmorPower300m": [
+                30.0,
+                300.0
+            ],
+            "ArmorPower500m": [
+                24.0,
+                500.0
+            ],
+            "ArmorPower1000m": [
+                17.0,
+                1000.0
+            ],
+            "ArmorPower1500m": [
+                10.0,
+                1500.0
+            ]
+        },
+        "speed": 750.0,
+        "spawn": null,
+        "cumulativeDamage": null
+    },
+    "276_pedersen_semiauto": {
+        "maxDistance": 1500.0,
+        "effectiveDistance": 350.0,
+        "hitPowerMult": 11.8,
+        "hitpower": {
+            "HitPower10m": [
+                1.0,
+                10.0
+            ],
+            "HitPower100m": [
+                0.82,
+                100.0
+            ],
+            "HitPower200m": [
+                0.67,
+                200.0
+            ],
+            "HitPower300m": [
+                0.55,
+                300.0
+            ],
+            "HitPower400m": [
+                0.45,
+                400.0
+            ],
+            "HitPower500m": [
+                0.37,
+                500.0
+            ],
+            "HitPower1000m": [
+                0.12,
+                1000.0
+            ],
+            "HitPower1500m": [
+                0.06,
+                1500.0
+            ]
+        },
+        "armorpower": {
+            "ArmorPower0m": [
+                1.0,
+                10.0
+            ],
+            "ArmorPower1500m": [
+                0.1,
+                1500.0
+            ]
+        },
+        "speed": 840.0,
+        "spawn": null,
+        "cumulativeDamage": null
+    },
+    "303_british_mk7": {
+        "maxDistance": 1500.0,
+        "effectiveDistance": 350.0,
+        "hitPowerMult": 14.0,
+        "hitpower": {
+            "HitPower10m": [
+                1.0,
+                10.0
+            ],
+            "HitPower100m": [
+                0.82,
+                100.0
+            ],
+            "HitPower200m": [
+                0.67,
+                200.0
+            ],
+            "HitPower300m": [
+                0.55,
+                300.0
+            ],
+            "HitPower400m": [
+                0.45,
+                400.0
+            ],
+            "HitPower500m": [
+                0.37,
+                500.0
+            ],
+            "HitPower1000m": [
+                0.12,
+                1000.0
+            ],
+            "HitPower1500m": [
+                0.06,
+                1500.0
+            ]
+        },
+        "armorpower": {
+            "ArmorPower0m": [
+                1.0,
+                10.0
+            ],
+            "ArmorPower1500m": [
+                0.1,
+                1500.0
+            ]
+        },
+        "speed": 750.0,
+        "spawn": null,
+        "cumulativeDamage": null
+    },
+    "303_british_mk7_ap": {
+        "maxDistance": 1500.0,
+        "effectiveDistance": 500.0,
+        "hitPowerMult": 14.0,
+        "hitpower": {
+            "HitPower10m": [
+                1.0,
+                10.0
+            ],
+            "HitPower100m": [
+                0.93,
+                100.0
+            ],
+            "HitPower200m": [
+                0.87,
+                200.0
+            ],
+            "HitPower300m": [
+                0.82,
+                300.0
+            ],
+            "HitPower400m": [
+                0.76,
+                400.0
+            ],
+            "HitPower500m": [
+                0.71,
+                500.0
+            ],
+            "HitPower1000m": [
+                0.5,
+                1000.0
+            ],
+            "HitPower1500m": [
+                0.39,
+                1500.0
+            ]
+        },
+        "armorpower": {
+            "ArmorPower0m": [
+                1.0,
+                10.0
+            ],
+            "ArmorPower1500m": [
+                0.1,
+                1500.0
+            ]
+        },
+        "speed": 750.0,
+        "spawn": null,
+        "cumulativeDamage": null
+    },
+    "303_british_mk7_tracer": {
+        "maxDistance": 1500.0,
+        "effectiveDistance": 500.0,
+        "hitPowerMult": 12.0,
+        "hitpower": {
+            "HitPower10m": [
+                1.0,
+                10.0
+            ],
+            "HitPower100m": [
+                0.9,
+                100.0
+            ],
+            "HitPower200m": [
+                0.8,
+                300.0
+            ],
+            "HitPower400m": [
+                0.7,
+                400.0
+            ],
+            "HitPower600m": [
+                0.3,
+                600.0
+            ],
+            "HitPower1000m": [
+                0.1,
+                1000.0
+            ],
+            "HitPower1500m": [
+                0.01,
+                1500.0
+            ]
+        },
+        "armorpower": {
+            "ArmorPower0m": [
+                1.0,
+                10.0
+            ],
+            "ArmorPower1500m": [
+                0.1,
+                1500.0
+            ]
+        },
+        "speed": 760.0,
+        "spawn": null,
+        "cumulativeDamage": null
+    },
+    "30_06_springfield_semiauto": {
+        "maxDistance": 1500.0,
+        "effectiveDistance": 350.0,
+        "hitPowerMult": 12.0,
+        "hitpower": {
+            "HitPower10m": [
+                1.0,
+                10.0
+            ],
+            "HitPower100m": [
+                0.82,
+                100.0
+            ],
+            "HitPower200m": [
+                0.67,
+                200.0
+            ],
+            "HitPower300m": [
+                0.55,
+                300.0
+            ],
+            "HitPower400m": [
+                0.45,
+                400.0
+            ],
+            "HitPower500m": [
+                0.37,
+                500.0
+            ],
+            "HitPower1000m": [
+                0.12,
+                1000.0
+            ],
+            "HitPower1500m": [
+                0.06,
+                1500.0
+            ]
+        },
+        "armorpower": {
+            "ArmorPower0m": [
+                1.0,
+                10.0
+            ],
+            "ArmorPower1500m": [
+                0.1,
+                1500.0
+            ]
+        },
+        "speed": 830.0,
+        "spawn": null,
+        "cumulativeDamage": null
+    },
+    "30_06_springfield_semiauto_carbine": {
+        "maxDistance": 1500.0,
+        "effectiveDistance": 350.0,
+        "hitPowerMult": 11.5,
+        "hitpower": {
+            "HitPower10m": [
+                1.0,
+                10.0
+            ],
+            "HitPower100m": [
+                0.82,
+                100.0
+            ],
+            "HitPower200m": [
+                0.67,
+                200.0
+            ],
+            "HitPower300m": [
+                0.55,
+                300.0
+            ],
+            "HitPower400m": [
+                0.45,
+                400.0
+            ],
+            "HitPower500m": [
+                0.37,
+                500.0
+            ],
+            "HitPower1000m": [
+                0.12,
+                1000.0
+            ],
+            "HitPower1500m": [
+                0.06,
+                1500.0
+            ]
+        },
+        "armorpower": {
+            "ArmorPower0m": [
+                1.0,
+                10.0
+            ],
+            "ArmorPower1500m": [
+                0.1,
+                1500.0
+            ]
+        },
+        "speed": 750.0,
+        "spawn": null,
+        "cumulativeDamage": null
+    },
+    "6.35x15_browning_pistol": {
+        "maxDistance": 200.0,
+        "effectiveDistance": 50.0,
+        "hitPowerMult": 4.4,
+        "hitpower": {
+            "HitPower10m": [
+                1.0,
+                10.0
+            ],
+            "HitPower50m": [
+                0.5,
+                50.0
+            ],
+            "HitPower100m": [
+                0.24,
+                100.0
+            ],
+            "HitPower200m": [
+                0.1,
+                200.0
+            ]
+        },
+        "armorpower": {
+            "ArmorPower0m": [
+                1.0,
+                10.0
+            ],
+            "ArmorPower1500m": [
+                0.1,
+                1500.0
+            ]
+        },
+        "speed": 240.0,
+        "spawn": null,
+        "cumulativeDamage": null
+    },
+    "6.5x50_arisaka_carbine": {
+        "maxDistance": 1500.0,
+        "effectiveDistance": 300.0,
+        "hitPowerMult": 13.6,
+        "hitpower": {
+            "HitPower10m": [
+                1.0,
+                10.0
+            ],
+            "HitPower100m": [
+                0.78,
+                100.0
+            ],
+            "HitPower200m": [
+                0.63,
+                200.0
+            ],
+            "HitPower300m": [
+                0.5,
+                300.0
+            ],
+            "HitPower400m": [
+                0.4,
+                400.0
+            ],
+            "HitPower500m": [
+                0.31,
+                500.0
+            ],
+            "HitPower1000m": [
+                0.09,
+                1000.0
+            ],
+            "HitPower1500m": [
+                0.04,
+                1500.0
+            ]
+        },
+        "armorpower": {
+            "ArmorPower0m": [
+                1.0,
+                10.0
+            ],
+            "ArmorPower1500m": [
+                0.1,
+                1500.0
+            ]
+        },
+        "speed": 770.0,
+        "spawn": null,
+        "cumulativeDamage": null
+    },
+    "6.5x50_arisaka_carbine_short": {
+        "maxDistance": 1500.0,
+        "effectiveDistance": 300.0,
+        "hitPowerMult": 12.4,
+        "hitpower": {
+            "HitPower10m": [
+                1.0,
+                10.0
+            ],
+            "HitPower100m": [
+                0.78,
+                100.0
+            ],
+            "HitPower200m": [
+                0.63,
+                200.0
+            ],
+            "HitPower300m": [
+                0.5,
+                300.0
+            ],
+            "HitPower400m": [
+                0.4,
+                400.0
+            ],
+            "HitPower500m": [
+                0.31,
+                500.0
+            ],
+            "HitPower1000m": [
+                0.09,
+                1000.0
+            ],
+            "HitPower1500m": [
+                0.04,
+                1500.0
+            ]
+        },
+        "armorpower": {
+            "ArmorPower0m": [
+                1.0,
+                10.0
+            ],
+            "ArmorPower1500m": [
+                0.1,
+                1500.0
+            ]
+        },
+        "speed": 735.0,
+        "spawn": null,
+        "cumulativeDamage": null
+    },
+    "6.5x50_arisaka_semiauto": {
+        "maxDistance": 1500.0,
+        "effectiveDistance": 300.0,
+        "hitPowerMult": 10.5,
+        "hitpower": {
+            "HitPower10m": [
+                1.0,
+                10.0
+            ],
+            "HitPower100m": [
+                0.78,
+                100.0
+            ],
+            "HitPower200m": [
+                0.63,
+                200.0
+            ],
+            "HitPower300m": [
+                0.5,
+                300.0
+            ],
+            "HitPower400m": [
+                0.4,
+                400.0
+            ],
+            "HitPower500m": [
+                0.31,
+                500.0
+            ],
+            "HitPower1000m": [
+                0.09,
+                1000.0
+            ],
+            "HitPower1500m": [
+                0.04,
+                1500.0
+            ]
+        },
+        "armorpower": {
+            "ArmorPower0m": [
+                1.0,
+                10.0
+            ],
+            "ArmorPower1500m": [
+                0.1,
+                1500.0
+            ]
+        },
+        "speed": 660.0,
+        "spawn": null,
+        "cumulativeDamage": null
+    },
+    "6.5x50_arisaka_sniper": {
+        "maxDistance": 2000.0,
+        "effectiveDistance": 500.0,
+        "hitPowerMult": 21.0,
+        "hitpower": {
+            "HitPower10m": [
+                1.0,
+                10.0
+            ],
+            "HitPower100m": [
+                0.93,
+                100.0
+            ],
+            "HitPower200m": [
+                0.87,
+                200.0
+            ],
+            "HitPower300m": [
+                0.82,
+                300.0
+            ],
+            "HitPower400m": [
+                0.76,
+                400.0
+            ],
+            "HitPower500m": [
+                0.71,
+                500.0
+            ],
+            "HitPower1000m": [
+                0.5,
+                1000.0
+            ],
+            "HitPower1500m": [
+                0.39,
+                1500.0
+            ]
+        },
+        "armorpower": null,
+        "speed": 770.0,
+        "spawn": null,
+        "cumulativeDamage": null
+    },
+    "6.5x50_arisaka_tracer": {
+        "maxDistance": 1500.0,
+        "effectiveDistance": 500.0,
+        "hitPowerMult": 11.2,
+        "hitpower": {
+            "HitPower10m": [
+                1.0,
+                10.0
+            ],
+            "HitPower100m": [
+                0.9,
+                100.0
+            ],
+            "HitPower200m": [
+                0.8,
+                300.0
+            ],
+            "HitPower400m": [
+                0.7,
+                400.0
+            ],
+            "HitPower600m": [
+                0.3,
+                600.0
+            ],
+            "HitPower1000m": [
+                0.1,
+                1000.0
+            ],
+            "HitPower1500m": [
+                0.01,
+                1500.0
+            ]
+        },
+        "armorpower": {
+            "ArmorPower0m": [
+                1.0,
+                10.0
+            ],
+            "ArmorPower1500m": [
+                0.1,
+                1500.0
+            ]
+        },
+        "speed": 730.0,
+        "spawn": null,
+        "cumulativeDamage": null
+    },
+    "6.5x52_carcano_tracer": {
+        "maxDistance": 2000.0,
+        "effectiveDistance": 500.0,
+        "hitPowerMult": 12.0,
+        "hitpower": {
+            "HitPower10m": [
+                1.0,
+                10.0
+            ],
+            "HitPower100m": [
+                0.9,
+                100.0
+            ],
+            "HitPower200m": [
+                0.8,
+                300.0
+            ],
+            "HitPower400m": [
+                0.7,
+                400.0
+            ],
+            "HitPower600m": [
+                0.3,
+                600.0
+            ],
+            "HitPower1000m": [
+                0.1,
+                1000.0
+            ],
+            "HitPower1500m": [
+                0.01,
+                1500.0
+            ]
+        },
+        "armorpower": {
+            "ArmorPower0m": [
+                1.0,
+                10.0
+            ],
+            "ArmorPower1500m": [
+                0.1,
+                1500.0
+            ]
+        },
+        "speed": 670.0,
+        "spawn": null,
+        "cumulativeDamage": null
+    },
+    "7.35x35_geco": {
+        "maxDistance": 2000.0,
+        "effectiveDistance": 300.0,
+        "hitPowerMult": 8.3,
+        "hitpower": {
+            "HitPower10m": [
+                1.0,
+                10.0
+            ],
+            "HitPower100m": [
+                0.78,
+                100.0
+            ],
+            "HitPower200m": [
+                0.63,
+                200.0
+            ],
+            "HitPower300m": [
+                0.5,
+                300.0
+            ],
+            "HitPower400m": [
+                0.4,
+                400.0
+            ],
+            "HitPower500m": [
+                0.31,
+                500.0
+            ],
+            "HitPower1000m": [
+                0.09,
+                1000.0
+            ],
+            "HitPower1500m": [
+                0.04,
+                1500.0
+            ]
+        },
+        "armorpower": {
+            "ArmorPower0m": [
+                1.0,
+                10.0
+            ],
+            "ArmorPower1500m": [
+                0.1,
+                1500.0
+            ]
+        },
+        "speed": 695.0,
+        "spawn": null,
+        "cumulativeDamage": null
+    },
+    "7.5x54_mas": {
+        "maxDistance": 2000.0,
+        "effectiveDistance": 300.0,
+        "hitPowerMult": 12.7,
+        "hitpower": {
+            "HitPower10m": [
+                1.0,
+                10.0
+            ],
+            "HitPower100m": [
+                0.78,
+                100.0
+            ],
+            "HitPower200m": [
+                0.63,
+                200.0
+            ],
+            "HitPower300m": [
+                0.5,
+                300.0
+            ],
+            "HitPower400m": [
+                0.4,
+                400.0
+            ],
+            "HitPower500m": [
+                0.31,
+                500.0
+            ],
+            "HitPower1000m": [
+                0.09,
+                1000.0
+            ],
+            "HitPower1500m": [
+                0.04,
+                1500.0
+            ]
+        },
+        "armorpower": {
+            "ArmorPower0m": [
+                1.0,
+                10.0
+            ],
+            "ArmorPower1500m": [
+                0.1,
+                1500.0
+            ]
+        },
+        "speed": 800.0,
+        "spawn": null,
+        "cumulativeDamage": null
+    },
+    "7.5x54_mas_tracer": {
+        "maxDistance": 2000.0,
+        "effectiveDistance": 500.0,
+        "hitPowerMult": 11.7,
+        "hitpower": {
+            "HitPower10m": [
+                1.0,
+                10.0
+            ],
+            "HitPower100m": [
+                0.9,
+                100.0
+            ],
+            "HitPower200m": [
+                0.8,
+                300.0
+            ],
+            "HitPower400m": [
+                0.7,
+                400.0
+            ],
+            "HitPower600m": [
+                0.3,
+                600.0
+            ],
+            "HitPower1000m": [
+                0.1,
+                1000.0
+            ],
+            "HitPower1500m": [
+                0.01,
+                1500.0
+            ]
+        },
+        "armorpower": {
+            "ArmorPower0m": [
+                1.0,
+                10.0
+            ],
+            "ArmorPower1500m": [
+                0.1,
+                1500.0
+            ]
+        },
+        "speed": 790.0,
+        "spawn": null,
+        "cumulativeDamage": null
+    },
+    "7.62x25_tokarev_pistol": {
+        "maxDistance": 200.0,
+        "effectiveDistance": 50.0,
+        "hitPowerMult": 5.3,
+        "hitpower": {
+            "HitPower10m": [
+                1.0,
+                10.0
+            ],
+            "HitPower50m": [
+                0.5,
+                50.0
+            ],
+            "HitPower100m": [
+                0.24,
+                100.0
+            ],
+            "HitPower200m": [
+                0.1,
+                200.0
+            ]
+        },
+        "armorpower": {
+            "ArmorPower0m": [
+                1.0,
+                10.0
+            ],
+            "ArmorPower1500m": [
+                0.1,
+                1500.0
+            ]
+        },
+        "speed": 400.0,
+        "spawn": null,
+        "cumulativeDamage": null
+    },
+    "7.62x25_tokarev_smg": {
+        "maxDistance": 500.0,
+        "effectiveDistance": 100.0,
+        "hitPowerMult": 5.5,
+        "hitpower": {
+            "HitPower10m": [
+                1.0,
+                10.0
+            ],
+            "HitPower50m": [
+                0.71,
+                50.0
+            ],
+            "HitPower100m": [
+                0.5,
+                100.0
+            ],
+            "HitPower150m": [
+                0.47,
+                150.0
+            ],
+            "HitPower200m": [
+                0.44,
+                200.0
+            ],
+            "HitPower300m": [
+                0.42,
+                300.0
+            ],
+            "HitPower500m": [
+                0.4,
+                500.0
+            ]
+        },
+        "armorpower": {
+            "ArmorPower0m": [
+                1.0,
+                10.0
+            ],
+            "ArmorPower1500m": [
+                0.1,
+                1500.0
+            ]
+        },
+        "speed": 450.0,
+        "spawn": null,
+        "cumulativeDamage": null
+    },
+    "7.62x38_nagant_carbine": {
+        "maxDistance": 500.0,
+        "effectiveDistance": 100.0,
+        "hitPowerMult": 5.3,
+        "hitpower": {
+            "HitPower10m": [
+                1.0,
+                10.0
+            ],
+            "HitPower50m": [
+                0.71,
+                50.0
+            ],
+            "HitPower100m": [
+                0.5,
+                100.0
+            ],
+            "HitPower150m": [
+                0.47,
+                150.0
+            ],
+            "HitPower200m": [
+                0.44,
+                200.0
+            ],
+            "HitPower300m": [
+                0.42,
+                300.0
+            ],
+            "HitPower500m": [
+                0.4,
+                500.0
+            ]
+        },
+        "armorpower": {
+            "ArmorPower0m": [
+                1.0,
+                10.0
+            ],
+            "ArmorPower1500m": [
+                0.1,
+                1500.0
+            ]
+        },
+        "speed": 305.0,
+        "spawn": null,
+        "cumulativeDamage": null
+    },
+    "7.62x38_nagant_pistol": {
+        "maxDistance": 200.0,
+        "effectiveDistance": 50.0,
+        "hitPowerMult": 5.0,
+        "hitpower": {
+            "HitPower10m": [
+                1.0,
+                10.0
+            ],
+            "HitPower50m": [
+                0.5,
+                50.0
+            ],
+            "HitPower100m": [
+                0.24,
+                100.0
+            ],
+            "HitPower200m": [
+                0.1,
+                200.0
+            ]
+        },
+        "armorpower": {
+            "ArmorPower0m": [
+                1.0,
+                10.0
+            ],
+            "ArmorPower1500m": [
+                0.1,
+                1500.0
+            ]
+        },
+        "speed": 285.0,
+        "spawn": null,
+        "cumulativeDamage": null
+    },
+    "7.62x39": {
+        "maxDistance": 3000.0,
+        "effectiveDistance": 300.0,
+        "hitPowerMult": 8.0,
+        "hitpower": {
+            "HitPower10m": [
+                1.0,
+                10.0
+            ],
+            "HitPower100m": [
+                0.78,
+                100.0
+            ],
+            "HitPower200m": [
+                0.63,
+                200.0
+            ],
+            "HitPower300m": [
+                0.5,
+                300.0
+            ],
+            "HitPower400m": [
+                0.4,
+                400.0
+            ],
+            "HitPower500m": [
+                0.31,
+                500.0
+            ],
+            "HitPower1000m": [
+                0.09,
+                1000.0
+            ],
+            "HitPower1500m": [
+                0.04,
+                1500.0
+            ]
+        },
+        "armorpower": {
+            "ArmorPower0m": [
+                1.0,
+                10.0
+            ],
+            "ArmorPower1500m": [
+                0.1,
+                1500.0
+            ]
+        },
+        "speed": 720.0,
+        "spawn": null,
+        "cumulativeDamage": null
+    },
+    "7.62x51_nato": {
+        "maxDistance": 2000.0,
+        "effectiveDistance": 300.0,
+        "hitPowerMult": 11.0,
+        "hitpower": {
+            "HitPower10m": [
+                1.0,
+                10.0
+            ],
+            "HitPower100m": [
+                0.78,
+                100.0
+            ],
+            "HitPower200m": [
+                0.63,
+                200.0
+            ],
+            "HitPower300m": [
+                0.5,
+                300.0
+            ],
+            "HitPower400m": [
+                0.4,
+                400.0
+            ],
+            "HitPower500m": [
+                0.31,
+                500.0
+            ],
+            "HitPower1000m": [
+                0.09,
+                1000.0
+            ],
+            "HitPower1500m": [
+                0.04,
+                1500.0
+            ]
+        },
+        "armorpower": {
+            "ArmorPower0m": [
+                1.0,
+                10.0
+            ],
+            "ArmorPower1500m": [
+                0.1,
+                1500.0
+            ]
+        },
+        "speed": 840.0,
+        "spawn": null,
+        "cumulativeDamage": null
+    },
+    "7.62x54_r_carbine": {
+        "maxDistance": 2000.0,
+        "effectiveDistance": 300.0,
+        "hitPowerMult": 14.0,
+        "hitpower": {
+            "HitPower10m": [
+                1.0,
+                10.0
+            ],
+            "HitPower100m": [
+                0.78,
+                100.0
+            ],
+            "HitPower200m": [
+                0.63,
+                200.0
+            ],
+            "HitPower300m": [
+                0.5,
+                300.0
+            ],
+            "HitPower400m": [
+                0.4,
+                400.0
+            ],
+            "HitPower500m": [
+                0.31,
+                500.0
+            ],
+            "HitPower1000m": [
+                0.09,
+                1000.0
+            ],
+            "HitPower1500m": [
+                0.04,
+                1500.0
+            ]
+        },
+        "armorpower": {
+            "ArmorPower0m": [
+                1.0,
+                10.0
+            ],
+            "ArmorPower1500m": [
+                0.1,
+                1500.0
+            ]
+        },
+        "speed": 790.0,
+        "spawn": null,
+        "cumulativeDamage": null
+    },
+    "7.62x54_r_carbine_short": {
+        "maxDistance": 2000.0,
+        "effectiveDistance": 300.0,
+        "hitPowerMult": 13.0,
+        "hitpower": {
+            "HitPower10m": [
+                1.0,
+                10.0
+            ],
+            "HitPower100m": [
+                0.78,
+                100.0
+            ],
+            "HitPower200m": [
+                0.63,
+                200.0
+            ],
+            "HitPower300m": [
+                0.5,
+                300.0
+            ],
+            "HitPower400m": [
+                0.4,
+                400.0
+            ],
+            "HitPower500m": [
+                0.31,
+                500.0
+            ],
+            "HitPower1000m": [
+                0.09,
+                1000.0
+            ],
+            "HitPower1500m": [
+                0.04,
+                1500.0
+            ]
+        },
+        "armorpower": {
+            "ArmorPower0m": [
+                1.0,
+                10.0
+            ],
+            "ArmorPower1500m": [
+                0.1,
+                1500.0
+            ]
+        },
+        "speed": 775.0,
+        "spawn": null,
+        "cumulativeDamage": null
+    },
+    "7.62x54_r_rifle_long": {
+        "maxDistance": 2000.0,
+        "effectiveDistance": 400.0,
+        "hitPowerMult": 18.0,
+        "hitpower": {
+            "HitPower10m": [
+                1.0,
+                10.0
+            ],
+            "HitPower100m": [
+                0.83,
+                100.0
+            ],
+            "HitPower200m": [
+                0.7,
+                200.0
+            ],
+            "HitPower300m": [
+                0.6,
+                300.0
+            ],
+            "HitPower400m": [
+                0.5,
+                400.0
+            ],
+            "HitPower500m": [
+                0.42,
+                500.0
+            ],
+            "HitPower1000m": [
+                0.16,
+                1000.0
+            ],
+            "HitPower1500m": [
+                0.09,
+                1500.0
+            ]
+        },
+        "armorpower": {
+            "ArmorPower0m": [
+                1.0,
+                10.0
+            ],
+            "ArmorPower1500m": [
+                0.1,
+                1500.0
+            ]
+        },
+        "speed": 830.0,
+        "spawn": null,
+        "cumulativeDamage": null
+    },
+    "7.62x54_r_semiauto": {
+        "maxDistance": 2000.0,
+        "effectiveDistance": 350.0,
+        "hitPowerMult": 12.0,
+        "hitpower": {
+            "HitPower10m": [
+                1.0,
+                10.0
+            ],
+            "HitPower100m": [
+                0.82,
+                100.0
+            ],
+            "HitPower200m": [
+                0.67,
+                200.0
+            ],
+            "HitPower300m": [
+                0.55,
+                300.0
+            ],
+            "HitPower400m": [
+                0.45,
+                400.0
+            ],
+            "HitPower500m": [
+                0.37,
+                500.0
+            ],
+            "HitPower1000m": [
+                0.12,
+                1000.0
+            ],
+            "HitPower1500m": [
+                0.06,
+                1500.0
+            ]
+        },
+        "armorpower": {
+            "ArmorPower0m": [
+                1.0,
+                10.0
+            ],
+            "ArmorPower1500m": [
+                0.1,
+                1500.0
+            ]
+        },
+        "speed": 815.0,
+        "spawn": null,
+        "cumulativeDamage": null
+    },
+    "7.62x54_r_semiauto_short": {
+        "maxDistance": 2000.0,
+        "effectiveDistance": 300.0,
+        "hitPowerMult": 11.6,
+        "hitpower": {
+            "HitPower10m": [
+                1.0,
+                10.0
+            ],
+            "HitPower100m": [
+                0.78,
+                100.0
+            ],
+            "HitPower200m": [
+                0.63,
+                200.0
+            ],
+            "HitPower300m": [
+                0.5,
+                300.0
+            ],
+            "HitPower400m": [
+                0.4,
+                400.0
+            ],
+            "HitPower500m": [
+                0.31,
+                500.0
+            ],
+            "HitPower1000m": [
+                0.09,
+                1000.0
+            ],
+            "HitPower1500m": [
+                0.04,
+                1500.0
+            ]
+        },
+        "armorpower": {
+            "ArmorPower0m": [
+                1.0,
+                10.0
+            ],
+            "ArmorPower1500m": [
+                0.1,
+                1500.0
+            ]
+        },
+        "speed": 775.0,
+        "spawn": null,
+        "cumulativeDamage": null
+    },
+    "7.62x54_r_subsonic": {
+        "maxDistance": 2000.0,
+        "effectiveDistance": 500.0,
+        "hitPowerMult": 12.0,
+        "hitpower": {
+            "HitPower10m": [
+                1.0,
+                10.0
+            ],
+            "HitPower100m": [
+                0.93,
+                100.0
+            ],
+            "HitPower200m": [
+                0.87,
+                200.0
+            ],
+            "HitPower300m": [
+                0.82,
+                300.0
+            ],
+            "HitPower400m": [
+                0.76,
+                400.0
+            ],
+            "HitPower500m": [
+                0.71,
+                500.0
+            ],
+            "HitPower1000m": [
+                0.5,
+                1000.0
+            ],
+            "HitPower1500m": [
+                0.39,
+                1500.0
+            ]
+        },
+        "armorpower": {
+            "ArmorPower0m": [
+                1.0,
+                10.0
+            ],
+            "ArmorPower1500m": [
+                0.1,
+                1500.0
+            ]
+        },
+        "speed": 340.0,
+        "spawn": null,
+        "cumulativeDamage": null
+    },
+    "7.63x25_mauser_pistol": {
+        "maxDistance": 200.0,
+        "effectiveDistance": 50.0,
+        "hitPowerMult": 5.3,
+        "hitpower": {
+            "HitPower10m": [
+                1.0,
+                10.0
+            ],
+            "HitPower50m": [
+                0.5,
+                50.0
+            ],
+            "HitPower100m": [
+                0.24,
+                100.0
+            ],
+            "HitPower200m": [
+                0.1,
+                200.0
+            ]
+        },
+        "armorpower": {
+            "ArmorPower0m": [
+                1.0,
+                10.0
+            ],
+            "ArmorPower1500m": [
+                0.1,
+                1500.0
+            ]
+        },
+        "speed": 400.0,
+        "spawn": null,
+        "cumulativeDamage": null
+    },
+    "7.63x25_mauser_smg": {
+        "maxDistance": 500.0,
+        "effectiveDistance": 100.0,
+        "hitPowerMult": 5.5,
+        "hitpower": {
+            "HitPower10m": [
+                1.0,
+                10.0
+            ],
+            "HitPower50m": [
+                0.71,
+                50.0
+            ],
+            "HitPower100m": [
+                0.5,
+                100.0
+            ],
+            "HitPower150m": [
+                0.47,
+                150.0
+            ],
+            "HitPower200m": [
+                0.44,
+                200.0
+            ],
+            "HitPower300m": [
+                0.42,
+                300.0
+            ],
+            "HitPower500m": [
+                0.4,
+                500.0
+            ]
+        },
+        "armorpower": {
+            "ArmorPower0m": [
+                1.0,
+                10.0
+            ],
+            "ArmorPower1500m": [
+                0.1,
+                1500.0
+            ]
+        },
+        "speed": 430.0,
+        "spawn": null,
+        "cumulativeDamage": null
+    },
+    "7.65x17_browning_pistol": {
+        "maxDistance": 200.0,
+        "effectiveDistance": 50.0,
+        "hitPowerMult": 5.0,
+        "hitpower": {
+            "HitPower10m": [
+                1.0,
+                10.0
+            ],
+            "HitPower50m": [
+                0.5,
+                50.0
+            ],
+            "HitPower100m": [
+                0.24,
+                100.0
+            ],
+            "HitPower200m": [
+                0.1,
+                200.0
+            ]
+        },
+        "armorpower": {
+            "ArmorPower0m": [
+                1.0,
+                10.0
+            ],
+            "ArmorPower1500m": [
+                0.1,
+                1500.0
+            ]
+        },
+        "speed": 300.0,
+        "spawn": null,
+        "cumulativeDamage": null
+    },
+    "7.65x17_dreyse_pistol": {
+        "maxDistance": 200.0,
+        "effectiveDistance": 50.0,
+        "hitPowerMult": 4.5,
+        "hitpower": {
+            "HitPower10m": [
+                1.0,
+                10.0
+            ],
+            "HitPower50m": [
+                0.5,
+                50.0
+            ],
+            "HitPower100m": [
+                0.24,
+                100.0
+            ],
+            "HitPower200m": [
+                0.1,
+                200.0
+            ]
+        },
+        "armorpower": {
+            "ArmorPower0m": [
+                1.0,
+                10.0
+            ],
+            "ArmorPower1500m": [
+                0.1,
+                1500.0
+            ]
+        },
+        "speed": 285.0,
+        "spawn": null,
+        "cumulativeDamage": null
+    },
+    "7.65x20_longue_smg": {
+        "maxDistance": 500.0,
+        "effectiveDistance": 100.0,
+        "hitPowerMult": 5.2,
+        "hitpower": {
+            "HitPower10m": [
+                1.0,
+                10.0
+            ],
+            "HitPower50m": [
+                0.71,
+                50.0
+            ],
+            "HitPower100m": [
+                0.5,
+                100.0
+            ],
+            "HitPower150m": [
+                0.47,
+                150.0
+            ],
+            "HitPower200m": [
+                0.44,
+                200.0
+            ],
+            "HitPower300m": [
+                0.42,
+                300.0
+            ],
+            "HitPower500m": [
+                0.4,
+                500.0
+            ]
+        },
+        "armorpower": {
+            "ArmorPower0m": [
+                1.0,
+                10.0
+            ],
+            "ArmorPower1500m": [
+                0.1,
+                1500.0
+            ]
+        },
+        "speed": 380.0,
+        "spawn": null,
+        "cumulativeDamage": null
+    },
+    "7.65x21_parabellum_smg": {
+        "maxDistance": 500.0,
+        "effectiveDistance": 100.0,
+        "hitPowerMult": 5.5,
+        "hitpower": {
+            "HitPower10m": [
+                1.0,
+                10.0
+            ],
+            "HitPower50m": [
+                0.71,
+                50.0
+            ],
+            "HitPower100m": [
+                0.5,
+                100.0
+            ],
+            "HitPower150m": [
+                0.47,
+                150.0
+            ],
+            "HitPower200m": [
+                0.44,
+                200.0
+            ],
+            "HitPower300m": [
+                0.42,
+                300.0
+            ],
+            "HitPower500m": [
+                0.4,
+                500.0
+            ]
+        },
+        "armorpower": {
+            "ArmorPower0m": [
+                1.0,
+                10.0
+            ],
+            "ArmorPower1500m": [
+                0.1,
+                1500.0
+            ]
+        },
+        "speed": 370.0,
+        "spawn": null,
+        "cumulativeDamage": null
+    },
+    "7.7x58_arisaka": {
+        "maxDistance": 1500.0,
+        "effectiveDistance": 300.0,
+        "hitPowerMult": 14.6,
+        "hitpower": {
+            "HitPower10m": [
+                1.0,
+                10.0
+            ],
+            "HitPower100m": [
+                0.78,
+                100.0
+            ],
+            "HitPower200m": [
+                0.63,
+                200.0
+            ],
+            "HitPower300m": [
+                0.5,
+                300.0
+            ],
+            "HitPower400m": [
+                0.4,
+                400.0
+            ],
+            "HitPower500m": [
+                0.31,
+                500.0
+            ],
+            "HitPower1000m": [
+                0.09,
+                1000.0
+            ],
+            "HitPower1500m": [
+                0.04,
+                1500.0
+            ]
+        },
+        "armorpower": {
+            "ArmorPower0m": [
+                1.0,
+                10.0
+            ],
+            "ArmorPower1500m": [
+                0.1,
+                1500.0
+            ]
+        },
+        "speed": 730.0,
+        "spawn": null,
+        "cumulativeDamage": null
+    },
+    "7.7x58_arisaka_sniper": {
+        "maxDistance": 1500.0,
+        "effectiveDistance": 500.0,
+        "hitPowerMult": 22.2,
+        "hitpower": {
+            "HitPower10m": [
+                1.0,
+                10.0
+            ],
+            "HitPower100m": [
+                0.93,
+                100.0
+            ],
+            "HitPower200m": [
+                0.87,
+                200.0
+            ],
+            "HitPower300m": [
+                0.82,
+                300.0
+            ],
+            "HitPower400m": [
+                0.76,
+                400.0
+            ],
+            "HitPower500m": [
+                0.71,
+                500.0
+            ],
+            "HitPower1000m": [
+                0.5,
+                1000.0
+            ],
+            "HitPower1500m": [
+                0.39,
+                1500.0
+            ]
+        },
+        "armorpower": {
+            "ArmorPower0m": [
+                1.0,
+                10.0
+            ],
+            "ArmorPower1500m": [
+                0.1,
+                1500.0
+            ]
+        },
+        "speed": 690.0,
+        "spawn": null,
+        "cumulativeDamage": null
+    },
+    "7.7x58_arisaka_tracer": {
+        "maxDistance": 1500.0,
+        "effectiveDistance": 500.0,
+        "hitPowerMult": 12.0,
+        "hitpower": {
+            "HitPower10m": [
+                1.0,
+                10.0
+            ],
+            "HitPower100m": [
+                0.9,
+                100.0
+            ],
+            "HitPower200m": [
+                0.8,
+                300.0
+            ],
+            "HitPower400m": [
+                0.7,
+                400.0
+            ],
+            "HitPower600m": [
+                0.3,
+                600.0
+            ],
+            "HitPower1000m": [
+                0.1,
+                1000.0
+            ],
+            "HitPower1500m": [
+                0.01,
+                1500.0
+            ]
+        },
+        "armorpower": {
+            "ArmorPower0m": [
+                1.0,
+                10.0
+            ],
+            "ArmorPower1500m": [
+                0.1,
+                1500.0
+            ]
+        },
+        "speed": 710.0,
+        "spawn": null,
+        "cumulativeDamage": null
+    },
+    "7.92x33_kurz_rifle": {
+        "maxDistance": 2000.0,
+        "effectiveDistance": 300.0,
+        "hitPowerMult": 8.4,
+        "hitpower": {
+            "HitPower10m": [
+                1.0,
+                10.0
+            ],
+            "HitPower100m": [
+                0.78,
+                100.0
+            ],
+            "HitPower200m": [
+                0.63,
+                200.0
+            ],
+            "HitPower300m": [
+                0.5,
+                300.0
+            ],
+            "HitPower400m": [
+                0.4,
+                400.0
+            ],
+            "HitPower500m": [
+                0.31,
+                500.0
+            ],
+            "HitPower1000m": [
+                0.09,
+                1000.0
+            ],
+            "HitPower1500m": [
+                0.04,
+                1500.0
+            ]
+        },
+        "armorpower": {
+            "ArmorPower0m": [
+                1.0,
+                10.0
+            ],
+            "ArmorPower1500m": [
+                0.1,
+                1500.0
+            ]
+        },
+        "speed": 700.0,
+        "spawn": null,
+        "cumulativeDamage": null
+    },
+    "7.92x57_mauser_carbine": {
+        "maxDistance": 2000.0,
+        "effectiveDistance": 300.0,
+        "hitPowerMult": 14.0,
+        "hitpower": {
+            "HitPower10m": [
+                1.0,
+                10.0
+            ],
+            "HitPower100m": [
+                0.78,
+                100.0
+            ],
+            "HitPower200m": [
+                0.63,
+                200.0
+            ],
+            "HitPower300m": [
+                0.5,
+                300.0
+            ],
+            "HitPower400m": [
+                0.4,
+                400.0
+            ],
+            "HitPower500m": [
+                0.31,
+                500.0
+            ],
+            "HitPower1000m": [
+                0.09,
+                1000.0
+            ],
+            "HitPower1500m": [
+                0.04,
+                1500.0
+            ]
+        },
+        "armorpower": {
+            "ArmorPower0m": [
+                1.0,
+                10.0
+            ],
+            "ArmorPower1500m": [
+                0.1,
+                1500.0
+            ]
+        },
+        "speed": 750.0,
+        "spawn": null,
+        "cumulativeDamage": null
+    },
+    "7.92x57_mauser_carbine_ap": {
+        "maxDistance": 2000.0,
+        "effectiveDistance": 500.0,
+        "hitPowerMult": 14.0,
+        "hitpower": {
+            "HitPower10m": [
+                1.0,
+                10.0
+            ],
+            "HitPower100m": [
+                0.93,
+                100.0
+            ],
+            "HitPower200m": [
+                0.87,
+                200.0
+            ],
+            "HitPower300m": [
+                0.82,
+                300.0
+            ],
+            "HitPower400m": [
+                0.76,
+                400.0
+            ],
+            "HitPower500m": [
+                0.71,
+                500.0
+            ],
+            "HitPower1000m": [
+                0.5,
+                1000.0
+            ],
+            "HitPower1500m": [
+                0.39,
+                1500.0
+            ]
+        },
+        "armorpower": {
+            "ArmorPower0m": [
+                1.0,
+                10.0
+            ],
+            "ArmorPower1500m": [
+                0.1,
+                1500.0
+            ]
+        },
+        "speed": 750.0,
+        "spawn": null,
+        "cumulativeDamage": null
+    },
+    "7.92x57_mauser_carbine_short": {
+        "maxDistance": 2000.0,
+        "effectiveDistance": 300.0,
+        "hitPowerMult": 13.0,
+        "hitpower": {
+            "HitPower10m": [
+                1.0,
+                10.0
+            ],
+            "HitPower100m": [
+                0.78,
+                100.0
+            ],
+            "HitPower200m": [
+                0.63,
+                200.0
+            ],
+            "HitPower300m": [
+                0.5,
+                300.0
+            ],
+            "HitPower400m": [
+                0.4,
+                400.0
+            ],
+            "HitPower500m": [
+                0.31,
+                500.0
+            ],
+            "HitPower1000m": [
+                0.09,
+                1000.0
+            ],
+            "HitPower1500m": [
+                0.04,
+                1500.0
+            ]
+        },
+        "armorpower": {
+            "ArmorPower0m": [
+                1.0,
+                10.0
+            ],
+            "ArmorPower1500m": [
+                0.1,
+                1500.0
+            ]
+        },
+        "speed": 720.0,
+        "spawn": null,
+        "cumulativeDamage": null
+    },
+    "7.92x57_mauser_semiauto": {
+        "maxDistance": 2000.0,
+        "effectiveDistance": 350.0,
+        "hitPowerMult": 12.0,
+        "hitpower": {
+            "HitPower10m": [
+                1.0,
+                10.0
+            ],
+            "HitPower100m": [
+                0.82,
+                100.0
+            ],
+            "HitPower200m": [
+                0.67,
+                200.0
+            ],
+            "HitPower300m": [
+                0.55,
+                300.0
+            ],
+            "HitPower400m": [
+                0.45,
+                400.0
+            ],
+            "HitPower500m": [
+                0.37,
+                500.0
+            ],
+            "HitPower1000m": [
+                0.12,
+                1000.0
+            ],
+            "HitPower1500m": [
+                0.06,
+                1500.0
+            ]
+        },
+        "armorpower": {
+            "ArmorPower0m": [
+                1.0,
+                10.0
+            ],
+            "ArmorPower1500m": [
+                0.1,
+                1500.0
+            ]
+        },
+        "speed": 750.0,
+        "spawn": null,
+        "cumulativeDamage": null
+    },
+    "7.92x94_smkh_patronen": {
+        "maxDistance": null,
+        "effectiveDistance": null,
+        "hitPowerMult": null,
+        "hitpower": null,
+        "armorpower": null,
+        "speed": null,
+        "spawn": null,
+        "cumulativeDamage": null
+    },
+    "8x50_r_carbine": {
+        "maxDistance": 2000.0,
+        "effectiveDistance": 350.0,
+        "hitPowerMult": 13.8,
+        "hitpower": {
+            "HitPower10m": [
+                1.0,
+                10.0
+            ],
+            "HitPower100m": [
+                0.82,
+                100.0
+            ],
+            "HitPower200m": [
+                0.67,
+                200.0
+            ],
+            "HitPower300m": [
+                0.55,
+                300.0
+            ],
+            "HitPower400m": [
+                0.45,
+                400.0
+            ],
+            "HitPower500m": [
+                0.37,
+                500.0
+            ],
+            "HitPower1000m": [
+                0.12,
+                1000.0
+            ],
+            "HitPower1500m": [
+                0.06,
+                1500.0
+            ]
+        },
+        "armorpower": {
+            "ArmorPower0m": [
+                1.0,
+                10.0
+            ],
+            "ArmorPower1500m": [
+                0.1,
+                1500.0
+            ]
+        },
+        "speed": 620.0,
+        "spawn": null,
+        "cumulativeDamage": null
+    },
+    "8x56_r_steyr_carbine": {
+        "maxDistance": 1500.0,
+        "effectiveDistance": 300.0,
+        "hitPowerMult": 13.6,
+        "hitpower": {
+            "HitPower10m": [
+                1.0,
+                10.0
+            ],
+            "HitPower100m": [
+                0.78,
+                100.0
+            ],
+            "HitPower200m": [
+                0.63,
+                200.0
+            ],
+            "HitPower300m": [
+                0.5,
+                300.0
+            ],
+            "HitPower400m": [
+                0.4,
+                400.0
+            ],
+            "HitPower500m": [
+                0.31,
+                500.0
+            ],
+            "HitPower1000m": [
+                0.09,
+                1000.0
+            ],
+            "HitPower1500m": [
+                0.04,
+                1500.0
+            ]
+        },
+        "armorpower": {
+            "ArmorPower0m": [
+                1.0,
+                10.0
+            ],
+            "ArmorPower1500m": [
+                0.1,
+                1500.0
+            ]
+        },
+        "speed": 700.0,
+        "spawn": null,
+        "cumulativeDamage": null
+    },
+    "9x17_380_acp_pistol": {
+        "maxDistance": 200.0,
+        "effectiveDistance": 100.0,
+        "hitPowerMult": 5.2,
+        "hitpower": {
+            "HitPower10m": [
+                1.0,
+                10.0
+            ],
+            "HitPower50m": [
+                0.71,
+                50.0
+            ],
+            "HitPower100m": [
+                0.5,
+                100.0
+            ],
+            "HitPower200m": [
+                0.35,
+                200.0
+            ]
+        },
+        "armorpower": {
+            "ArmorPower0m": [
+                1.0,
+                10.0
+            ],
+            "ArmorPower1500m": [
+                0.1,
+                1500.0
+            ]
+        },
+        "speed": 310.0,
+        "spawn": null,
+        "cumulativeDamage": null
+    },
+    "9x19_parabellum_carbine": {
+        "maxDistance": 500.0,
+        "effectiveDistance": 150.0,
+        "hitPowerMult": 5.7,
+        "hitpower": {
+            "HitPower10m": [
+                1.0,
+                10.0
+            ],
+            "HitPower50m": [
+                0.77,
+                50.0
+            ],
+            "HitPower100m": [
+                0.58,
+                100.0
+            ],
+            "HitPower150m": [
+                0.5,
+                150.0
+            ],
+            "HitPower200m": [
+                0.47,
+                200.0
+            ],
+            "HitPower300m": [
+                0.44,
+                300.0
+            ],
+            "HitPower500m": [
+                0.4,
+                500.0
+            ]
+        },
+        "armorpower": {
+            "ArmorPower0m": [
+                1.0,
+                10.0
+            ],
+            "ArmorPower1500m": [
+                0.1,
+                1500.0
+            ]
+        },
+        "speed": 435.0,
+        "spawn": null,
+        "cumulativeDamage": null
+    },
+    "9x19_parabellum_pistol": {
+        "maxDistance": 200.0,
+        "effectiveDistance": 100.0,
+        "hitPowerMult": 5.5,
+        "hitpower": {
+            "HitPower10m": [
+                1.0,
+                10.0
+            ],
+            "HitPower50m": [
+                0.71,
+                50.0
+            ],
+            "HitPower100m": [
+                0.5,
+                100.0
+            ],
+            "HitPower200m": [
+                0.35,
+                200.0
+            ]
+        },
+        "armorpower": {
+            "ArmorPower0m": [
+                1.0,
+                10.0
+            ],
+            "ArmorPower1500m": [
+                0.1,
+                1500.0
+            ]
+        },
+        "speed": 370.0,
+        "spawn": null,
+        "cumulativeDamage": null
+    },
+    "9x19_parabellum_smg": {
+        "maxDistance": 500.0,
+        "effectiveDistance": 150.0,
+        "hitPowerMult": 5.7,
+        "hitpower": {
+            "HitPower10m": [
+                1.0,
+                10.0
+            ],
+            "HitPower50m": [
+                0.77,
+                50.0
+            ],
+            "HitPower100m": [
+                0.58,
+                100.0
+            ],
+            "HitPower150m": [
+                0.5,
+                150.0
+            ],
+            "HitPower200m": [
+                0.47,
+                200.0
+            ],
+            "HitPower300m": [
+                0.44,
+                300.0
+            ],
+            "HitPower500m": [
+                0.4,
+                500.0
+            ]
+        },
+        "armorpower": {
+            "ArmorPower0m": [
+                1.0,
+                10.0
+            ],
+            "ArmorPower1500m": [
+                0.1,
+                1500.0
+            ]
+        },
+        "speed": 400.0,
+        "spawn": null,
+        "cumulativeDamage": null
+    },
+    "9x19_parabellum_smg_long_barrel": {
+        "maxDistance": 500.0,
+        "effectiveDistance": 150.0,
+        "hitPowerMult": 6.0,
+        "hitpower": {
+            "HitPower10m": [
+                1.0,
+                10.0
+            ],
+            "HitPower50m": [
+                0.77,
+                50.0
+            ],
+            "HitPower100m": [
+                0.58,
+                100.0
+            ],
+            "HitPower150m": [
+                0.5,
+                150.0
+            ],
+            "HitPower200m": [
+                0.47,
+                200.0
+            ],
+            "HitPower300m": [
+                0.44,
+                300.0
+            ],
+            "HitPower500m": [
+                0.4,
+                500.0
+            ]
+        },
+        "armorpower": {
+            "ArmorPower0m": [
+                1.0,
+                10.0
+            ],
+            "ArmorPower1500m": [
+                0.1,
+                1500.0
+            ]
+        },
+        "speed": 440.0,
+        "spawn": null,
+        "cumulativeDamage": null
+    },
+    "9x25_mauser_export_smg": {
+        "maxDistance": 500.0,
+        "effectiveDistance": 150.0,
+        "hitPowerMult": 6.6,
+        "hitpower": {
+            "HitPower10m": [
+                1.0,
+                10.0
+            ],
+            "HitPower50m": [
+                0.77,
+                50.0
+            ],
+            "HitPower100m": [
+                0.58,
+                100.0
+            ],
+            "HitPower150m": [
+                0.5,
+                150.0
+            ],
+            "HitPower200m": [
+                0.47,
+                200.0
+            ],
+            "HitPower300m": [
+                0.44,
+                300.0
+            ],
+            "HitPower500m": [
+                0.4,
+                500.0
+            ]
+        },
+        "armorpower": {
+            "ArmorPower0m": [
+                1.0,
+                200.0
+            ],
+            "ArmorPower1500m": [
+                0.1,
+                1500.0
+            ]
+        },
+        "speed": 445.0,
+        "spawn": null,
+        "cumulativeDamage": null
+    },
+    "tracer_shell": {
+        "maxDistance": 2000.0,
+        "effectiveDistance": null,
+        "hitPowerMult": null,
+        "hitpower": null,
+        "armorpower": null,
+        "speed": 500.0,
+        "spawn": null,
+        "cumulativeDamage": null
     }
 }
