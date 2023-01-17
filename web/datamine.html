@@ -187,12 +187,12 @@
                     effRangeData.textContent = '-';
                     maxRangeData.textContent = '-';
                     bulletSpeedData.textContent = '-';
-                    //tableRow1.textContent = '';
-                    //tableRow2.textContent = '';
-                    //tableRow3.textContent = '';
-                    //tableRow4.textContent = '';
-                    //tableRow5.textContent = '';
-                    //tableRow6.textContent = '';
+                    tableRow1.textContent = '';
+                    tableRow2.textContent = '';
+                    tableRow3.textContent = '';
+                    tableRow4.textContent = '';
+                    tableRow5.textContent = '';
+                    tableRow6.textContent = '';
                     dispersionData.textContent = '-';
                     singleReloadPrepareData.textContent = '-';
                     singleReloadLoopData.textContent = '-';
@@ -391,7 +391,7 @@
                     // damage
                     const numBullets = getAmmoProperty('spawn');
                     const hitpower = getAmmoProperty('hitpower');
-                    if (hitpower != null) {
+                    if (hitpower !== '-') {
                         const keys = Object.keys(hitpower);
                         const hitmult = getAmmoProperty('hitPowerMult');
                         const gunDamageMult = getProperty('damageMult');
@@ -432,7 +432,7 @@
                         tableRow2.append(tabledata);
 
                         tableheader = document.createElement('th');
-                        tableheader.textContent = cumDamage.distance + translate('meters');
+                        tableheader.textContent = `${cumDamage.distance}${translate('meters')}`;;
                         tableRow1.append(tableheader);
                         tabledata = document.createElement('td');
                         tabledata.textContent = 0;
