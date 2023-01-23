@@ -8,6 +8,7 @@
         "weight": null,
         "locName": "items/grenade",
         "magazineName": null,
+        "magazineSize": null,
         "bullets": [
             {
                 "shells": "content/e_ww2_common/gamedata/weapons/grenades/m24.blk"
@@ -121,6 +122,7 @@
                 "ammoHolders": "box_45_acp_magazine"
             }
         ],
+        "magazineSize": 6,
         "bullets": {
             "shells": "content/e_ww2_common/gamedata/weapons/bullets/44_ball_revo.blk"
         },
@@ -165,6 +167,7 @@
                 "ammoHolders": "box_7_62x39_magazine"
             }
         ],
+        "magazineSize": 30,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.62x39.blk"
         },
@@ -216,6 +219,7 @@
         "magazineName": {
             "ammoHolders": "akm_47_magazine"
         },
+        "magazineSize": 30,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.62x39.blk"
         },
@@ -272,6 +276,7 @@
                 "ammoHolders": "box_5_56_magazine"
             }
         ],
+        "magazineSize": 30,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/5.56x45_nato.blk"
         },
@@ -321,6 +326,7 @@
                 "ammoHolders": "box_5_56_magazine"
             }
         ],
+        "magazineSize": 30,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/5.56x45_nato.blk"
         },
@@ -370,6 +376,7 @@
                 "ammoHolders": "box_5_56_magazine"
             }
         ],
+        "magazineSize": 30,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/5.56x45_nato.blk"
         },
@@ -419,6 +426,7 @@
                 "ammoHolders": "box_12_gauge_magazine"
             }
         ],
+        "magazineSize": 8,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/12gauge_shell.blk"
         },
@@ -463,6 +471,7 @@
                 "ammoHolders": "box_9mm_magazine"
             }
         ],
+        "magazineSize": 30,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/9x19_parabellum_smg.blk"
         },
@@ -512,6 +521,7 @@
                 "ammoHolders": "box_45_acp_magazine"
             }
         ],
+        "magazineSize": 25,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/11.51x23_browning_smg.blk"
         },
@@ -559,6 +569,7 @@
         "magazineName": {
             "ammoHolders": "barrett_m82a1_magazine"
         },
+        "magazineSize": 10,
         "bullets": {
             "shells": "content/e_ww2_common/gamedata/weapons/bullets/50_bmg.blk"
         },
@@ -603,6 +614,7 @@
                 "ammoHolders": "box_7_62x25_magazine"
             }
         ],
+        "magazineSize": 8,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.62x25_tokarev_pistol.blk"
         },
@@ -642,6 +654,7 @@
         "magazineName": {
             "ammoHolders": "tk_magazine"
         },
+        "magazineSize": 8,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/6.35x15_browning_pistol.blk"
         },
@@ -681,6 +694,7 @@
         "magazineName": {
             "ammoHolders": "tk_magazine"
         },
+        "magazineSize": 8,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/6.35x15_browning_pistol.blk"
         },
@@ -720,6 +734,7 @@
         "magazineName": {
             "ammoHolders": "astra_300_magazine"
         },
+        "magazineSize": 6,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/9x17_380_acp_pistol.blk"
         },
@@ -759,6 +774,7 @@
         "magazineName": {
             "ammoHolders": "astra_300_magazine"
         },
+        "magazineSize": 6,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/9x17_380_acp_pistol.blk"
         },
@@ -803,6 +819,7 @@
                 "ammoHolders": "box_7_62x25_magazine"
             }
         ],
+        "magazineSize": 7,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.62x38_nagant_pistol.blk"
         },
@@ -847,6 +864,7 @@
                 "ammoHolders": "box_7_62x25_magazine"
             }
         ],
+        "magazineSize": 7,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.62x38_nagant_pistol.blk"
         },
@@ -891,6 +909,7 @@
                 "ammoHolders": "box_7_62_magazine"
             }
         ],
+        "magazineSize": 5,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.62x54_r.blk"
         },
@@ -935,6 +954,7 @@
                 "ammoHolders": "box_7_62_magazine"
             }
         ],
+        "magazineSize": 5,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.62x54_r_carbine_short.blk"
         },
@@ -983,6 +1003,7 @@
                 "ammoHolders": "box_7_62_magazine"
             }
         ],
+        "magazineSize": 5,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.62x54_r_carbine_short.blk"
         },
@@ -1034,6 +1055,7 @@
                 "ammoHolders": "box_7_62_magazine"
             }
         ],
+        "magazineSize": 5,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.62x54_r.blk"
         },
@@ -1085,6 +1107,7 @@
                 "ammoHolders": "box_7_62_magazine"
             }
         ],
+        "magazineSize": 5,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.62x54_r.blk"
         },
@@ -1133,6 +1156,7 @@
                 "ammoHolders": "box_7_62x54_magazine"
             }
         ],
+        "magazineSize": 5,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.62x54_r_ap.blk"
         },
@@ -1185,6 +1209,7 @@
                 "ammoHolders": "box_7_62x54_magazine"
             }
         ],
+        "magazineSize": 5,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.62x54_r_subsonic.blk"
         },
@@ -1237,6 +1262,7 @@
                 "ammoHolders": "box_7_62_magazine"
             }
         ],
+        "magazineSize": 5,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.62x54_r.blk"
         },
@@ -1285,6 +1311,7 @@
                 "ammoHolders": "box_7_62_magazine"
             }
         ],
+        "magazineSize": 5,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.62x54_r_carbine_short.blk"
         },
@@ -1336,6 +1363,7 @@
                 "ammoHolders": "box_7_62_magazine"
             }
         ],
+        "magazineSize": 5,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.62x54_r.blk"
         },
@@ -1384,6 +1412,7 @@
                 "ammoHolders": "box_7_62x54_magazine"
             }
         ],
+        "magazineSize": 5,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.62x54_r_rifle_long.blk"
         },
@@ -1427,6 +1456,7 @@
         "magazineName": {
             "ammoHolders": "berdan_no_2_magazine"
         },
+        "magazineSize": 1,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/10.75x58_r.blk"
         },
@@ -1471,6 +1501,7 @@
                 "ammoHolders": "box_7_62_magazine"
             }
         ],
+        "magazineSize": 5,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.62x54_r.blk"
         },
@@ -1519,6 +1550,7 @@
                 "ammoHolders": "box_7_62_magazine"
             }
         ],
+        "magazineSize": 5,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.62x54_r.blk"
         },
@@ -1567,6 +1599,7 @@
                 "ammoHolders": "box_7_62x54_magazine"
             }
         ],
+        "magazineSize": 15,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.62x54_r_semiauto.blk"
         },
@@ -1620,6 +1653,7 @@
                 "ammoHolders": "box_7_62x54_magazine"
             }
         ],
+        "magazineSize": 15,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.62x54_r_semiauto.blk"
         },
@@ -1676,6 +1710,7 @@
                 "ammoHolders": "box_7_62x54_magazine"
             }
         ],
+        "magazineSize": 10,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.62x54_r_semiauto.blk"
         },
@@ -1724,6 +1759,7 @@
                 "ammoHolders": "box_7_62x54_magazine"
             }
         ],
+        "magazineSize": 10,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.62x54_r_semiauto.blk"
         },
@@ -1772,6 +1808,7 @@
                 "ammoHolders": "box_7_62_magazine"
             }
         ],
+        "magazineSize": 10,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.62x54_r_semiauto_short.blk"
         },
@@ -1825,6 +1862,7 @@
                 "ammoHolders": "box_7_62_magazine"
             }
         ],
+        "magazineSize": 10,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.62x54_r_semiauto_short.blk"
         },
@@ -1873,6 +1911,7 @@
                 "ammoHolders": "box_7_62x54_magazine"
             }
         ],
+        "magazineSize": 10,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.62x54_r_semiauto.blk"
         },
@@ -1924,6 +1963,7 @@
                 "ammoHolders": "box_7_62x54_magazine"
             }
         ],
+        "magazineSize": 10,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.62x54_r_semiauto.blk"
         },
@@ -1975,6 +2015,7 @@
                 "ammoHolders": "box_7_62_magazine"
             }
         ],
+        "magazineSize": 15,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.62x54_r_semiauto.blk"
         },
@@ -2023,6 +2064,7 @@
         "magazineName": {
             "ammoHolders": "mosin_magazine"
         },
+        "magazineSize": 5,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.62x54_r_semiauto_short.blk"
         },
@@ -2062,6 +2104,7 @@
         "magazineName": {
             "ammoHolders": "fedorov_avtomat_magazine"
         },
+        "magazineSize": 25,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/6.5x50_arisaka_semiauto.blk"
         },
@@ -2106,6 +2149,7 @@
         "magazineName": {
             "ammoHolders": "as_44_magazine"
         },
+        "magazineSize": 30,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.62x39.blk"
         },
@@ -2150,6 +2194,7 @@
         "magazineName": {
             "ammoHolders": "m30_luftwaffe_drilling_magazine"
         },
+        "magazineSize": 2,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/12gauge_shell.blk"
         },
@@ -2194,6 +2239,7 @@
                 "ammoHolders": "box_7_62_magazine"
             }
         ],
+        "magazineSize": 21,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.62x38_nagant_carbine.blk"
         },
@@ -2238,6 +2284,7 @@
         "magazineName": {
             "ammoHolders": "ppd_1929_magazine"
         },
+        "magazineSize": 44,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.62x25_tokarev_smg.blk"
         },
@@ -2282,6 +2329,7 @@
         "magazineName": {
             "ammoHolders": "ppd_3438_box_magazine"
         },
+        "magazineSize": 25,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.62x25_tokarev_smg.blk"
         },
@@ -2326,6 +2374,7 @@
                 "ammoHolders": "box_7_62x25_magazine"
             }
         ],
+        "magazineSize": 71,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.62x25_tokarev_smg.blk"
         },
@@ -2370,6 +2419,7 @@
         "magazineName": {
             "ammoHolders": "ppd_3438_box_magazine"
         },
+        "magazineSize": 25,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.62x25_tokarev_smg.blk"
         },
@@ -2414,6 +2464,7 @@
         "magazineName": {
             "ammoHolders": "ppd_3438_box_magazine"
         },
+        "magazineSize": 25,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.62x25_tokarev_smg.blk"
         },
@@ -2458,6 +2509,7 @@
         "magazineName": {
             "ammoHolders": "ppsh_drum"
         },
+        "magazineSize": 71,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.62x25_tokarev_smg.blk"
         },
@@ -2502,6 +2554,7 @@
         "magazineName": {
             "ammoHolders": "ppsh_drum"
         },
+        "magazineSize": 71,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.62x25_tokarev_smg.blk"
         },
@@ -2545,6 +2598,7 @@
         "magazineName": {
             "ammoHolders": "ppsh_drum"
         },
+        "magazineSize": 71,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.62x25_tokarev_smg.blk"
         },
@@ -2589,6 +2643,7 @@
         "magazineName": {
             "ammoHolders": "ppsh_40_drum"
         },
+        "magazineSize": 97,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.62x25_tokarev_smg.blk"
         },
@@ -2633,6 +2688,7 @@
         "magazineName": {
             "ammoHolders": "ppsh_drum"
         },
+        "magazineSize": 71,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.62x25_tokarev_smg.blk"
         },
@@ -2682,6 +2738,7 @@
                 "ammoHolders": "box_7_62x25_magazine"
             }
         ],
+        "magazineSize": 35,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.62x25_tokarev_smg.blk"
         },
@@ -2726,6 +2783,7 @@
                 "ammoHolders": "box_7_62x25_magazine"
             }
         ],
+        "magazineSize": 35,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.62x25_tokarev_smg.blk"
         },
@@ -2765,6 +2823,7 @@
         "magazineName": {
             "ammoHolders": "pps_magazine"
         },
+        "magazineSize": 35,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.62x25_tokarev_smg.blk"
         },
@@ -2809,6 +2868,7 @@
                 "ammoHolders": "box_7_62x25_magazine"
             }
         ],
+        "magazineSize": 71,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.62x25_tokarev_smg.blk"
         },
@@ -2853,6 +2913,7 @@
         "magazineName": {
             "ammoHolders": "ppsh_magazine"
         },
+        "magazineSize": 35,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.62x25_tokarev_smg.blk"
         },
@@ -2897,6 +2958,7 @@
         "magazineName": {
             "ammoHolders": "ppk_41_magazine"
         },
+        "magazineSize": 35,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.62x25_tokarev_smg.blk"
         },
@@ -2936,6 +2998,7 @@
         "magazineName": {
             "ammoHolders": "ppk_42_magazine"
         },
+        "magazineSize": 25,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.62x25_tokarev_smg.blk"
         },
@@ -2985,6 +3048,7 @@
                 "ammoHolders": "box_7_62x25_magazine"
             }
         ],
+        "magazineSize": 150,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.62x25_tokarev_smg.blk"
         },
@@ -3024,6 +3088,7 @@
         "magazineName": {
             "ammoHolders": "pdm_42_magazine"
         },
+        "magazineSize": 30,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.62x25_tokarev_smg.blk"
         },
@@ -3063,6 +3128,7 @@
         "magazineName": {
             "ammoHolders": "chauchat_magazine"
         },
+        "magazineSize": 20,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/8x50_r_tracer.blk"
         },
@@ -3107,6 +3173,7 @@
                 "ammoHolders": "box_7_62_magazine"
             }
         ],
+        "magazineSize": 25,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.62x54_r_tracer.blk"
         },
@@ -3151,6 +3218,7 @@
                 "ammoHolders": "box_7_62x54_magazine"
             }
         ],
+        "magazineSize": 47,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.62x54_r_tracer.blk"
         },
@@ -3190,6 +3258,7 @@
         "magazineName": {
             "ammoHolders": "dp_42_beltfed_magazine"
         },
+        "magazineSize": 100,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.62x54_r_tracer.blk"
         },
@@ -3234,6 +3303,7 @@
                 "ammoHolders": "box_7_62_magazine"
             }
         ],
+        "magazineSize": 47,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.62x54_r_tracer.blk"
         },
@@ -3278,6 +3348,7 @@
                 "ammoHolders": "box_7_62_magazine"
             }
         ],
+        "magazineSize": 63,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.62x54_r_tracer.blk"
         },
@@ -3322,6 +3393,7 @@
                 "ammoHolders": "box_7_92x57_magazine"
             }
         ],
+        "magazineSize": 100,
         "bullets": {
             "shells": "content/e_ww2_common/gamedata/weapons/bullets/7.62x39_r.blk"
         },
@@ -3361,6 +3433,7 @@
         "magazineName": {
             "ammoHolders": "ptrs_41_magazine"
         },
+        "magazineSize": 5,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/14.5x114_bs41.blk"
         },
@@ -3400,6 +3473,7 @@
         "magazineName": {
             "ammoHolders": "ptrd_41_magazine"
         },
+        "magazineSize": 1,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/14.5x114_bs41.blk"
         },
@@ -3439,6 +3513,7 @@
         "magazineName": {
             "ammoHolders": "ptrd_41_magazine"
         },
+        "magazineSize": 1,
         "bullets": {
             "shells": "content/e_ww2_common/gamedata/weapons/bullets/12.7x108_bs41.blk"
         },
@@ -3483,6 +3558,7 @@
                 "ammoHolders": "mine_o822_mp_smoke_item"
             }
         ],
+        "magazineSize": null,
         "bullets": [
             {
                 "shells": "content/enlisted/gamedata/weapons_enlisted/shells/mine_o822_mp.blk"
@@ -3532,6 +3608,7 @@
                 "ammoHolders": "mine_o822_mp_smoke_item"
             }
         ],
+        "magazineSize": null,
         "bullets": [
             {
                 "shells": "content/enlisted/gamedata/weapons_enlisted/shells/mine_o822_mp.blk"
@@ -3581,6 +3658,7 @@
                 "ammoHolders": "mine_o832_smoke_item"
             }
         ],
+        "magazineSize": null,
         "bullets": [
             {
                 "shells": "content/enlisted/gamedata/weapons_enlisted/shells/mine_o832.blk"
@@ -3625,6 +3703,7 @@
         "magazineName": {
             "ammoHolders": "neiman_mine_item"
         },
+        "magazineSize": null,
         "bullets": {
             "shells": "content/e_ww2_common/gamedata/weapons/shells/neiman_mine.blk"
         },
@@ -3678,6 +3757,7 @@
                 "ammoHolders": "jp_flamethrower_fuel_tank"
             }
         ],
+        "magazineSize": 200,
         "bullets": {
             "shells": "content/e_ww2_common/gamedata/weapons/bullets/flamethrower_dummy.blk"
         },
@@ -3731,6 +3811,7 @@
                 "ammoHolders": "jp_flamethrower_fuel_tank"
             }
         ],
+        "magazineSize": 200,
         "bullets": {
             "shells": "content/e_ww2_common/gamedata/weapons/bullets/flamethrower_dummy.blk"
         },
@@ -3775,6 +3856,7 @@
                 "ammoHolders": "box_45_acp_magazine"
             }
         ],
+        "magazineSize": 8,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/11.51x23_browning_pistol.blk"
         },
@@ -3819,6 +3901,7 @@
                 "ammoHolders": "box_45_acp_magazine"
             }
         ],
+        "magazineSize": 8,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/11.51x23_browning_pistol.blk"
         },
@@ -3858,6 +3941,7 @@
         "magazineName": {
             "ammoHolders": "welrod_mk2_magazine"
         },
+        "magazineSize": 8,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.65x17_browning_pistol.blk"
         },
@@ -3897,6 +3981,7 @@
         "magazineName": {
             "ammoHolders": "browning_hp_magazine"
         },
+        "magazineSize": 13,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/9x19_parabellum_pistol.blk"
         },
@@ -3936,6 +4021,7 @@
         "magazineName": {
             "ammoHolders": "browning_hp_magazine"
         },
+        "magazineSize": 13,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/9x19_parabellum_pistol.blk"
         },
@@ -3975,6 +4061,7 @@
         "magazineName": {
             "ammoHolders": "browning_hp_magazine"
         },
+        "magazineSize": 13,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/9x19_parabellum_pistol.blk"
         },
@@ -4014,6 +4101,7 @@
         "magazineName": {
             "ammoHolders": "browning_hp_magazine"
         },
+        "magazineSize": 13,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/9x19_parabellum_pistol.blk"
         },
@@ -4058,6 +4146,7 @@
                 "ammoHolders": "box_45_acp_magazine"
             }
         ],
+        "magazineSize": 6,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/11.51x23_browning_pistol.blk"
         },
@@ -4097,6 +4186,7 @@
         "magazineName": {
             "ammoHolders": "sw_m1917_magazine"
         },
+        "magazineSize": 6,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/11.51x23_browning_pistol.blk"
         },
@@ -4136,6 +4226,7 @@
         "magazineName": {
             "ammoHolders": "sw_m1917_magazine"
         },
+        "magazineSize": 6,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/11.51x23_browning_pistol.blk"
         },
@@ -4180,6 +4271,7 @@
                 "ammoHolders": "box_30_magazine"
             }
         ],
+        "magazineSize": 5,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/30_06_springfield.blk"
         },
@@ -4230,6 +4322,7 @@
                 "ammoHolders": "box_30_magazine"
             }
         ],
+        "magazineSize": 5,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/30_06_springfield.blk"
         },
@@ -4278,6 +4371,7 @@
                 "ammoHolders": "box_30_magazine"
             }
         ],
+        "magazineSize": 5,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/30_06_springfield.blk"
         },
@@ -4323,6 +4417,7 @@
         "magazineName": {
             "ammoHolders": "m1903_springfield_air_service_magazine"
         },
+        "magazineSize": 25,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/30_06_springfield.blk"
         },
@@ -4362,6 +4457,7 @@
         "magazineName": {
             "ammoHolders": "m1903_springfield_magazine"
         },
+        "magazineSize": 5,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/30_06_springfield_ap.blk"
         },
@@ -4408,6 +4504,7 @@
         "magazineName": {
             "ammoHolders": "m1903_springfield_magazine"
         },
+        "magazineSize": 5,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/30_06_springfield_ap.blk"
         },
@@ -4454,6 +4551,7 @@
         "magazineName": {
             "ammoHolders": "m1903_springfield_magazine"
         },
+        "magazineSize": 5,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/30_06_springfield_ap.blk"
         },
@@ -4493,6 +4591,7 @@
         "magazineName": {
             "ammoHolders": "lee_enfield_no4_mk1_magazine"
         },
+        "magazineSize": 10,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/303_british_mk7.blk"
         },
@@ -4536,6 +4635,7 @@
         "magazineName": {
             "ammoHolders": "lee_enfield_no4_mk1_magazine"
         },
+        "magazineSize": 10,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/303_british_mk7_ap.blk"
         },
@@ -4575,6 +4675,7 @@
         "magazineName": {
             "ammoHolders": "enfield_p14_magazine"
         },
+        "magazineSize": 5,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/303_british_mk7.blk"
         },
@@ -4620,6 +4721,7 @@
         "magazineName": {
             "ammoHolders": "m1917_enfield_magazine"
         },
+        "magazineSize": 6,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/30_06_springfield.blk"
         },
@@ -4671,6 +4773,7 @@
                 "ammoHolders": "box_30_magazine"
             }
         ],
+        "magazineSize": 5,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/303_british_mk7.blk"
         },
@@ -4717,6 +4820,7 @@
         "magazineName": {
             "ammoHolders": "m1903_springfield_pedersen_device_magazine"
         },
+        "magazineSize": 40,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.65x20_longue_smg.blk"
         },
@@ -4761,6 +4865,7 @@
                 "ammoHolders": "box_30_magazine"
             }
         ],
+        "magazineSize": 8,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/30_06_springfield_semiauto.blk"
         },
@@ -4811,6 +4916,7 @@
                 "ammoHolders": "box_30_magazine"
             }
         ],
+        "magazineSize": 8,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/30_06_springfield_semiauto.blk"
         },
@@ -4863,6 +4969,7 @@
                 "ammoHolders": "box_30_magazine"
             }
         ],
+        "magazineSize": 8,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/30_06_springfield_semiauto.blk"
         },
@@ -4912,6 +5019,7 @@
                 "ammoHolders": "box_30_magazine"
             }
         ],
+        "magazineSize": 8,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/30_06_springfield_semiauto_carbine.blk"
         },
@@ -4957,6 +5065,7 @@
         "magazineName": {
             "ammoHolders": "pedersen_rifle_magazine"
         },
+        "magazineSize": 10,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/276_pedersen_semiauto.blk"
         },
@@ -5001,6 +5110,7 @@
                 "ammoHolders": "box_30_magazine"
             }
         ],
+        "magazineSize": 15,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/30_carbine.blk"
         },
@@ -5045,6 +5155,7 @@
                 "ammoHolders": "box_30_magazine"
             }
         ],
+        "magazineSize": 15,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/30_carbine.blk"
         },
@@ -5088,6 +5199,7 @@
         "magazineName": {
             "ammoHolders": "m1_carbine_magazine"
         },
+        "magazineSize": 15,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/30_carbine.blk"
         },
@@ -5134,6 +5246,7 @@
         "magazineName": {
             "ammoHolders": "m2_carbine_magazine"
         },
+        "magazineSize": 30,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/30_carbine.blk"
         },
@@ -5182,6 +5295,7 @@
         "magazineName": {
             "ammoHolders": "m2_carbine_magazine"
         },
+        "magazineSize": 30,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/30_carbine.blk"
         },
@@ -5230,6 +5344,7 @@
         "magazineName": {
             "ammoHolders": "m1_carbine_magazine"
         },
+        "magazineSize": 15,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/30_carbine.blk"
         },
@@ -5273,6 +5388,7 @@
         "magazineName": {
             "ammoHolders": "delisle_commando_carbine_magazine"
         },
+        "magazineSize": 7,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/11.51x23_browning_smg.blk"
         },
@@ -5312,6 +5428,7 @@
         "magazineName": {
             "ammoHolders": "m1_garand_magazine"
         },
+        "magazineSize": 8,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/30_06_springfield_semiauto.blk"
         },
@@ -5355,6 +5472,7 @@
         "magazineName": {
             "ammoHolders": "m1941_johnson_magazine"
         },
+        "magazineSize": 10,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/30_06_springfield_semiauto.blk"
         },
@@ -5406,6 +5524,7 @@
                 "ammoHolders": "box_12_gauge_magazine"
             }
         ],
+        "magazineSize": 5,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/12gauge_shell.blk"
         },
@@ -5450,6 +5569,7 @@
                 "ammoHolders": "box_12_gauge_magazine"
             }
         ],
+        "magazineSize": 7,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/12gauge_shell.blk"
         },
@@ -5494,6 +5614,7 @@
                 "ammoHolders": "box_12_gauge_magazine"
             }
         ],
+        "magazineSize": 6,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/12gauge_shell.blk"
         },
@@ -5533,6 +5654,7 @@
         "magazineName": {
             "ammoHolders": "winchester_model_1912_magazine"
         },
+        "magazineSize": 6,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/12gauge_shell.blk"
         },
@@ -5577,6 +5699,7 @@
                 "ammoHolders": "box_9mm_magazine"
             }
         ],
+        "magazineSize": 32,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/9x19_parabellum_pistol.blk"
         },
@@ -5626,6 +5749,7 @@
                 "ammoHolders": "box_9mm_magazine"
             }
         ],
+        "magazineSize": 32,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/9x19_parabellum_pistol.blk"
         },
@@ -5670,6 +5794,7 @@
         "magazineName": {
             "ammoHolders": "lanchester_magazine"
         },
+        "magazineSize": 32,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/9x19_parabellum_smg.blk"
         },
@@ -5709,6 +5834,7 @@
         "magazineName": {
             "ammoHolders": "lanchester_50_round_magazine"
         },
+        "magazineSize": 50,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/9x19_parabellum_smg.blk"
         },
@@ -5748,6 +5874,7 @@
         "magazineName": {
             "ammoHolders": "lanchester_magazine"
         },
+        "magazineSize": 32,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/9x19_parabellum_smg.blk"
         },
@@ -5797,6 +5924,7 @@
                 "ammoHolders": "box_45_acp_magazine"
             }
         ],
+        "magazineSize": 20,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/11.51x23_browning_smg.blk"
         },
@@ -5846,6 +5974,7 @@
                 "ammoHolders": "box_45_acp_magazine"
             }
         ],
+        "magazineSize": 20,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/11.51x23_browning_smg.blk"
         },
@@ -5895,6 +6024,7 @@
                 "ammoHolders": "box_45_acp_magazine"
             }
         ],
+        "magazineSize": 30,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/11.51x23_browning_smg.blk"
         },
@@ -5910,14 +6040,14 @@
         "proneRecoilMult": null,
         "zeroDist": 0.05,
         "reloadSingle": false,
-        "recoilAmount": null,
-        "recoilDir": null,
-        "recoilDirAmount": null,
-        "visualRecoilMult": null,
-        "recoilControlMult": null,
-        "recoilOffsetMult": null,
+        "recoilAmount": 0.04,
+        "recoilDir": 0.4,
+        "recoilDirAmount": 0.58,
+        "visualRecoilMult": 1.2,
+        "recoilControlMult": 0.4,
+        "recoilOffsetMult": 0.3,
         "mods": null,
-        "adsSpeedMult": null,
+        "adsSpeedMult": 0.8,
         "damageMult": null,
         "sightsMag": 2.0,
         "flamethrowerDPS": null,
@@ -5934,6 +6064,7 @@
         "magazineName": {
             "ammoHolders": "m3_submachine_gun_magazine"
         },
+        "magazineSize": 30,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/11.51x23_browning_smg.blk"
         },
@@ -5949,14 +6080,14 @@
         "proneRecoilMult": null,
         "zeroDist": 0.05,
         "reloadSingle": false,
-        "recoilAmount": null,
-        "recoilDir": null,
-        "recoilDirAmount": null,
-        "visualRecoilMult": null,
-        "recoilControlMult": null,
-        "recoilOffsetMult": null,
+        "recoilAmount": 0.04,
+        "recoilDir": 0.4,
+        "recoilDirAmount": 0.58,
+        "visualRecoilMult": 1.2,
+        "recoilControlMult": 0.4,
+        "recoilOffsetMult": 0.3,
         "mods": null,
-        "adsSpeedMult": null,
+        "adsSpeedMult": 0.8,
         "damageMult": null,
         "sightsMag": 2.0,
         "flamethrowerDPS": null,
@@ -5973,6 +6104,7 @@
         "magazineName": {
             "ammoHolders": "m3_submachine_gun_magazine"
         },
+        "magazineSize": 30,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/11.51x23_browning_smg.blk"
         },
@@ -6012,6 +6144,7 @@
         "magazineName": {
             "ammoHolders": "m3_submachine_gun_magazine"
         },
+        "magazineSize": 30,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/11.51x23_browning_smg.blk"
         },
@@ -6056,6 +6189,7 @@
                 "ammoHolders": "box_45_acp_magazine"
             }
         ],
+        "magazineSize": 30,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/11.51x23_browning_smg.blk"
         },
@@ -6105,6 +6239,7 @@
                 "ammoHolders": "box_45_acp_magazine"
             }
         ],
+        "magazineSize": 30,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/11.51x23_browning_smg.blk"
         },
@@ -6149,6 +6284,7 @@
         "magazineName": {
             "ammoHolders": "thompson_small_magazine"
         },
+        "magazineSize": 20,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/11.51x23_browning_smg.blk"
         },
@@ -6193,6 +6329,7 @@
         "magazineName": {
             "ammoHolders": "m1928a_thompson_magazine"
         },
+        "magazineSize": 30,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/11.51x23_browning_smg.blk"
         },
@@ -6237,6 +6374,7 @@
         "magazineName": {
             "ammoHolders": "m1921_thompson_drum"
         },
+        "magazineSize": 50,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/11.51x23_browning_smg.blk"
         },
@@ -6281,6 +6419,7 @@
         "magazineName": {
             "ammoHolders": "thompson_m1928a1_100_drum_magazine"
         },
+        "magazineSize": 100,
         "bullets": {
             "shells": "content/e_ww2_common/gamedata/weapons/bullets/45acp.blk"
         },
@@ -6330,6 +6469,7 @@
                 "ammoHolders": "box_45_acp_magazine"
             }
         ],
+        "magazineSize": 50,
         "bullets": {
             "shells": "content/e_ww2_common/gamedata/weapons/bullets/45acp.blk"
         },
@@ -6374,6 +6514,7 @@
         "magazineName": {
             "ammoHolders": "thompson_bsa_1929_magazine"
         },
+        "magazineSize": 20,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/11.51x23_browning_smg.blk"
         },
@@ -6418,6 +6559,7 @@
         "magazineName": {
             "ammoHolders": "thompson_30_cal_magazine"
         },
+        "magazineSize": 20,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/30_carbine.blk"
         },
@@ -6462,6 +6604,7 @@
         "magazineName": {
             "ammoHolders": "m1928a1_20_thompson_magazine"
         },
+        "magazineSize": 20,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/11.51x23_browning_smg.blk"
         },
@@ -6506,6 +6649,7 @@
         "magazineName": {
             "ammoHolders": "m1928a1_20_thompson_magazine"
         },
+        "magazineSize": 20,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/11.51x23_browning_smg.blk"
         },
@@ -6550,6 +6694,7 @@
         "magazineName": {
             "ammoHolders": "ud_m42_magazine"
         },
+        "magazineSize": 25,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/9x19_parabellum_smg.blk"
         },
@@ -6599,6 +6744,7 @@
                 "ammoHolders": "box_30_magazine"
             }
         ],
+        "magazineSize": 20,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/30_06_springfield_tracer.blk"
         },
@@ -6643,6 +6789,7 @@
         "magazineName": {
             "ammoHolders": "browning_m1918_magazine"
         },
+        "magazineSize": 20,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/30_06_springfield_tracer.blk"
         },
@@ -6687,6 +6834,7 @@
         "magazineName": {
             "ammoHolders": "browning_m1918_magazine"
         },
+        "magazineSize": 20,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/30_06_springfield_tracer.blk"
         },
@@ -6731,6 +6879,7 @@
         "magazineName": {
             "ammoHolders": "browning_m1918_magazine"
         },
+        "magazineSize": 20,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/30_06_springfield_tracer.blk"
         },
@@ -6775,6 +6924,7 @@
         "magazineName": {
             "ammoHolders": "browning_m1918_magazine"
         },
+        "magazineSize": 20,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.92x57_mauser_tracer.blk"
         },
@@ -6819,6 +6969,7 @@
         "magazineName": {
             "ammoHolders": "m1941_johnson_mg_magazine"
         },
+        "magazineSize": 20,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/30_06_springfield_tracer.blk"
         },
@@ -6871,6 +7022,7 @@
                 "ammoHolders": "box_7_62x54_magazine"
             }
         ],
+        "magazineSize": 47,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.62x54_r_tracer.blk"
         },
@@ -6915,6 +7067,7 @@
                 "ammoHolders": "box_7_92x57_magazine"
             }
         ],
+        "magazineSize": 30,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/303_british_mk7_tracer.blk"
         },
@@ -6954,6 +7107,7 @@
         "magazineName": {
             "ammoHolders": "chatellerault_m_24_29_magazine"
         },
+        "magazineSize": 25,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.5x54_mas_tracer.blk"
         },
@@ -6993,6 +7147,7 @@
         "magazineName": {
             "ammoHolders": "browning_m1919a6_magazine"
         },
+        "magazineSize": 100,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/30_06_springfield_tracer.blk"
         },
@@ -7032,6 +7187,7 @@
         "magazineName": {
             "ammoHolders": "an_m2_stinger_magazine"
         },
+        "magazineSize": 200,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/30_06_springfield_tracer.blk"
         },
@@ -7071,6 +7227,7 @@
         "magazineName": {
             "ammoHolders": "m6a1_bazooka_item"
         },
+        "magazineSize": null,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/shells/m6a1_bazooka.blk"
         },
@@ -7110,6 +7267,7 @@
         "magazineName": {
             "ammoHolders": "m6a1_bazooka_item"
         },
+        "magazineSize": null,
         "bullets": {
             "shells": "content/e_ww2_common/gamedata/weapons/shells/m6a1_bazooka.blk"
         },
@@ -7149,6 +7307,7 @@
         "magazineName": {
             "ammoHolders": "m6a3_bazooka_item"
         },
+        "magazineSize": null,
         "bullets": {
             "shells": "content/e_ww2_common/gamedata/weapons/shells/m6a3_bazooka.blk"
         },
@@ -7188,6 +7347,7 @@
         "magazineName": {
             "ammoHolders": "piat_shell_item"
         },
+        "magazineSize": null,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/shells/piat_shell.blk"
         },
@@ -7232,6 +7392,7 @@
                 "ammoHolders": "m49a2_smoke_item"
             }
         ],
+        "magazineSize": null,
         "bullets": [
             {
                 "shells": "content/enlisted/gamedata/weapons_enlisted/shells/m49a2.blk"
@@ -7281,6 +7442,7 @@
                 "ammoHolders": "two_inch_smoke_shell_item"
             }
         ],
+        "magazineSize": null,
         "bullets": [
             {
                 "shells": "content/enlisted/gamedata/weapons_enlisted/shells/two_inch_he_shell.blk"
@@ -7330,6 +7492,7 @@
                 "ammoHolders": "type_89_mortar_smoke_shell_item"
             }
         ],
+        "magazineSize": null,
         "bullets": [
             {
                 "shells": "content/enlisted/gamedata/weapons_enlisted/shells/two_inch_he_shell.blk"
@@ -7388,6 +7551,7 @@
                 "ammoHolders": "jp_flamethrower_fuel_tank"
             }
         ],
+        "magazineSize": 200,
         "bullets": {
             "shells": "content/e_ww2_common/gamedata/weapons/bullets/flamethrower_dummy.blk"
         },
@@ -7441,6 +7605,7 @@
                 "ammoHolders": "jp_flamethrower_fuel_tank"
             }
         ],
+        "magazineSize": 200,
         "bullets": {
             "shells": "content/e_ww2_common/gamedata/weapons/bullets/flamethrower_dummy.blk"
         },
@@ -7494,6 +7659,7 @@
                 "ammoHolders": "jp_flamethrower_fuel_tank"
             }
         ],
+        "magazineSize": 200,
         "bullets": {
             "shells": "content/e_ww2_common/gamedata/weapons/bullets/flamethrower_dummy.blk"
         },
@@ -7547,6 +7713,7 @@
                 "ammoHolders": "jp_flamethrower_fuel_tank"
             }
         ],
+        "magazineSize": 200,
         "bullets": {
             "shells": "content/e_ww2_common/gamedata/weapons/bullets/flamethrower_dummy.blk"
         },
@@ -7591,6 +7758,7 @@
                 "ammoHolders": "box_9mm_magazine"
             }
         ],
+        "magazineSize": 10,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.63x25_mauser_pistol.blk"
         },
@@ -7635,6 +7803,7 @@
                 "ammoHolders": "box_9mm_magazine"
             }
         ],
+        "magazineSize": 10,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.63x25_mauser_pistol.blk"
         },
@@ -7679,6 +7848,7 @@
                 "ammoHolders": "box_9mm_magazine"
             }
         ],
+        "magazineSize": 20,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.63x25_mauser_pistol.blk"
         },
@@ -7723,6 +7893,7 @@
         "magazineName": {
             "ammoHolders": "walther_pp_magazine"
         },
+        "magazineSize": 8,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.65x17_browning_pistol.blk"
         },
@@ -7762,6 +7933,7 @@
         "magazineName": {
             "ammoHolders": "walther_pp_magazine"
         },
+        "magazineSize": 8,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.65x17_browning_pistol.blk"
         },
@@ -7801,6 +7973,7 @@
         "magazineName": {
             "ammoHolders": "walther_ppk_magazine"
         },
+        "magazineSize": 7,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.65x17_browning_pistol.blk"
         },
@@ -7840,6 +8013,7 @@
         "magazineName": {
             "ammoHolders": "walther_ppk_magazine"
         },
+        "magazineSize": 7,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.65x17_browning_pistol.blk"
         },
@@ -7879,6 +8053,7 @@
         "magazineName": {
             "ammoHolders": "cz_vz_27_magazine"
         },
+        "magazineSize": 8,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.65x17_browning_pistol.blk"
         },
@@ -7923,6 +8098,7 @@
                 "ammoHolders": "box_9mm_magazine"
             }
         ],
+        "magazineSize": 8,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/9x19_parabellum_pistol.blk"
         },
@@ -7967,6 +8143,7 @@
                 "ammoHolders": "box_9mm_magazine"
             }
         ],
+        "magazineSize": 8,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/9x19_parabellum_pistol.blk"
         },
@@ -8011,6 +8188,7 @@
                 "ammoHolders": "box_9mm_magazine"
             }
         ],
+        "magazineSize": 8,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/9x19_parabellum_pistol.blk"
         },
@@ -8055,6 +8233,7 @@
                 "ammoHolders": "box_9mm_magazine"
             }
         ],
+        "magazineSize": 8,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/9x19_parabellum_pistol.blk"
         },
@@ -8094,6 +8273,7 @@
         "magazineName": {
             "ammoHolders": "mp_18_magazine"
         },
+        "magazineSize": 32,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/9x19_parabellum_smg.blk"
         },
@@ -8138,6 +8318,7 @@
                 "ammoHolders": "box_45_acp_magazine"
             }
         ],
+        "magazineSize": 7,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.65x17_dreyse_pistol.blk"
         },
@@ -8182,6 +8363,7 @@
                 "ammoHolders": "box_7_92x57_magazine"
             }
         ],
+        "magazineSize": 5,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.92x57_mauser_carbine.blk"
         },
@@ -8233,6 +8415,7 @@
                 "ammoHolders": "box_7_92x57_magazine"
             }
         ],
+        "magazineSize": 5,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.92x57_mauser.blk"
         },
@@ -8281,6 +8464,7 @@
                 "ammoHolders": "box_7_92x57_magazine"
             }
         ],
+        "magazineSize": 5,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.92x57_mauser_carbine_short.blk"
         },
@@ -8325,6 +8509,7 @@
                 "ammoHolders": "box_7_92x57_magazine"
             }
         ],
+        "magazineSize": 25,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.92x57_mauser_carbine.blk"
         },
@@ -8373,6 +8558,7 @@
                 "ammoHolders": "box_7_92x57_magazine"
             }
         ],
+        "magazineSize": 5,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.92x57_mauser_carbine.blk"
         },
@@ -8417,6 +8603,7 @@
                 "ammoHolders": "box_7_92x57_magazine"
             }
         ],
+        "magazineSize": 5,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.92x57_mauser_carbine_ap.blk"
         },
@@ -8468,6 +8655,7 @@
                 "ammoHolders": "box_7_92x57_magazine"
             }
         ],
+        "magazineSize": 5,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.92x57_mauser_ap.blk"
         },
@@ -8512,6 +8700,7 @@
                 "ammoHolders": "box_7_92x57_magazine"
             }
         ],
+        "magazineSize": 25,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.92x57_mauser.blk"
         },
@@ -8560,6 +8749,7 @@
                 "ammoHolders": "box_7_92x57_magazine"
             }
         ],
+        "magazineSize": 5,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.92x57_mauser_carbine.blk"
         },
@@ -8608,6 +8798,7 @@
                 "ammoHolders": "box_7_92x57_magazine"
             }
         ],
+        "magazineSize": 5,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.92x57_mauser_carbine_ap.blk"
         },
@@ -8659,6 +8850,7 @@
                 "ammoHolders": "box_7_92x57_magazine"
             }
         ],
+        "magazineSize": 5,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.92x57_mauser_carbine_short.blk"
         },
@@ -8707,6 +8899,7 @@
                 "ammoHolders": "box_7_92x57_magazine"
             }
         ],
+        "magazineSize": 5,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.92x57_mauser.blk"
         },
@@ -8746,6 +8939,7 @@
         "magazineName": {
             "ammoHolders": "gewehr_43_magazine"
         },
+        "magazineSize": 10,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.92x57_mauser_carbine.blk"
         },
@@ -8790,6 +8984,7 @@
                 "ammoHolders": "box_7_92x57_magazine"
             }
         ],
+        "magazineSize": 5,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.92x57_mauser_carbine.blk"
         },
@@ -8838,6 +9033,7 @@
                 "ammoHolders": "box_7_92x57_magazine"
             }
         ],
+        "magazineSize": 5,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.92x57_mauser_carbine.blk"
         },
@@ -8886,6 +9082,7 @@
                 "ammoHolders": "box_7_62_magazine"
             }
         ],
+        "magazineSize": 5,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.5x54_mas.blk"
         },
@@ -8937,6 +9134,7 @@
                 "ammoHolders": "box_7_92x57_magazine"
             }
         ],
+        "magazineSize": 10,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/8x50_r.blk"
         },
@@ -8980,6 +9178,7 @@
         "magazineName": {
             "ammoHolders": "berthier_1892_m16_magazine"
         },
+        "magazineSize": 5,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/8x50_r_carbine.blk"
         },
@@ -9019,6 +9218,7 @@
         "magazineName": {
             "ammoHolders": "mannlicher_m1895_magazine"
         },
+        "magazineSize": 5,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/8x56_r_steyr_carbine.blk"
         },
@@ -9058,6 +9258,7 @@
         "magazineName": {
             "ammoHolders": "arisaka_magazine"
         },
+        "magazineSize": 5,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/6.5x50_arisaka_carbine_short.blk"
         },
@@ -9102,6 +9303,7 @@
         "magazineName": {
             "ammoHolders": "arisaka_magazine"
         },
+        "magazineSize": 5,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/6.5x50_arisaka_carbine.blk"
         },
@@ -9146,6 +9348,7 @@
         "magazineName": {
             "ammoHolders": "arisaka_magazine"
         },
+        "magazineSize": 5,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/6.5x50_arisaka_carbine.blk"
         },
@@ -9193,6 +9396,7 @@
         "magazineName": {
             "ammoHolders": "arisaka_7mm_magazine"
         },
+        "magazineSize": 5,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.7x58_arisaka.blk"
         },
@@ -9237,6 +9441,7 @@
         "magazineName": {
             "ammoHolders": "arisaka_7mm_magazine"
         },
+        "magazineSize": 5,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.7x58_arisaka.blk"
         },
@@ -9281,6 +9486,7 @@
         "magazineName": {
             "ammoHolders": "arisaka_7mm_magazine"
         },
+        "magazineSize": 5,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.7x58_arisaka.blk"
         },
@@ -9325,6 +9531,7 @@
         "magazineName": {
             "ammoHolders": "gewehr_41_magazine"
         },
+        "magazineSize": 10,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.92x57_mauser_semiauto.blk"
         },
@@ -9368,6 +9575,7 @@
         "magazineName": {
             "ammoHolders": "gewehr_41_magazine"
         },
+        "magazineSize": 10,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.92x57_mauser_semiauto.blk"
         },
@@ -9411,6 +9619,7 @@
         "magazineName": {
             "ammoHolders": "gewehr_41_m_magazine"
         },
+        "magazineSize": 10,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.92x57_mauser_semiauto.blk"
         },
@@ -9459,6 +9668,7 @@
                 "ammoHolders": "box_7_92x57_magazine"
             }
         ],
+        "magazineSize": 10,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.92x57_mauser_semiauto.blk"
         },
@@ -9510,6 +9720,7 @@
                 "ammoHolders": "box_7_92x57_magazine"
             }
         ],
+        "magazineSize": 10,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.92x57_mauser_semiauto.blk"
         },
@@ -9553,6 +9764,7 @@
         "magazineName": {
             "ammoHolders": "stg_44_magazine"
         },
+        "magazineSize": 30,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.92x33_kurz_rifle.blk"
         },
@@ -9597,6 +9809,7 @@
         "magazineName": {
             "ammoHolders": "gerat_03_magazine"
         },
+        "magazineSize": 15,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.92x57_mauser_semiauto.blk"
         },
@@ -9636,6 +9849,7 @@
         "magazineName": {
             "ammoHolders": "zh_29_magazine"
         },
+        "magazineSize": 10,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.92x57_mauser_semiauto.blk"
         },
@@ -9679,6 +9893,7 @@
         "magazineName": {
             "ammoHolders": "zh_29_jp_magazine"
         },
+        "magazineSize": 5,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/6.5x50_arisaka_semiauto.blk"
         },
@@ -9723,6 +9938,7 @@
         "magazineName": {
             "ammoHolders": "gewehr_41_magazine"
         },
+        "magazineSize": 10,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.92x57_mauser_semiauto.blk"
         },
@@ -9767,6 +9983,7 @@
                 "ammoHolders": "box_7_92x57_magazine"
             }
         ],
+        "magazineSize": 20,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.92x57_mauser_semiauto.blk"
         },
@@ -9818,6 +10035,7 @@
         "magazineName": {
             "ammoHolders": "fg_42_magazine"
         },
+        "magazineSize": 20,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.92x57_mauser_semiauto.blk"
         },
@@ -9870,6 +10088,7 @@
         "magazineName": {
             "ammoHolders": "fg_42_magazine"
         },
+        "magazineSize": 20,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.92x57_mauser_semiauto.blk"
         },
@@ -9927,6 +10146,7 @@
                 "ammoHolders": "box_12_gauge_magazine"
             }
         ],
+        "magazineSize": 2,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/12gauge_shell.blk"
         },
@@ -9971,6 +10191,7 @@
                 "ammoHolders": "box_9mm_magazine"
             }
         ],
+        "magazineSize": 32,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/9x19_parabellum_smg.blk"
         },
@@ -10010,6 +10231,7 @@
         "magazineName": {
             "ammoHolders": "mp_28_20_round_magazine"
         },
+        "magazineSize": 20,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/9x19_parabellum_smg.blk"
         },
@@ -10049,6 +10271,7 @@
         "magazineName": {
             "ammoHolders": "mp_28_32_round_magazine"
         },
+        "magazineSize": 32,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/9x19_parabellum_smg.blk"
         },
@@ -10088,6 +10311,7 @@
         "magazineName": {
             "ammoHolders": "mp_28_jp_magazine"
         },
+        "magazineSize": 50,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.65x21_parabellum_smg.blk"
         },
@@ -10132,6 +10356,7 @@
                 "ammoHolders": "box_9mm_magazine"
             }
         ],
+        "magazineSize": 32,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/9x19_parabellum_smg.blk"
         },
@@ -10176,6 +10401,7 @@
                 "ammoHolders": "box_9mm_magazine"
             }
         ],
+        "magazineSize": 32,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/9x19_parabellum_smg.blk"
         },
@@ -10215,6 +10441,7 @@
         "magazineName": {
             "ammoHolders": "mp40_magazine"
         },
+        "magazineSize": 32,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/9x19_parabellum_smg.blk"
         },
@@ -10254,6 +10481,7 @@
         "magazineName": {
             "ammoHolders": "coenders_mp_drum_magazine"
         },
+        "magazineSize": 100,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/9x19_parabellum_smg.blk"
         },
@@ -10298,6 +10526,7 @@
                 "ammoHolders": "box_9mm_magazine"
             }
         ],
+        "magazineSize": 20,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/9x19_parabellum_carbine.blk"
         },
@@ -10347,6 +10576,7 @@
                 "ammoHolder": "9mm19_parabellum_handful"
             }
         ],
+        "magazineSize": 32,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/9x19_parabellum_smg.blk"
         },
@@ -10386,6 +10616,7 @@
         "magazineName": {
             "ammoHolders": "mp40_magazine"
         },
+        "magazineSize": 32,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/9x19_parabellum_smg.blk"
         },
@@ -10430,6 +10661,7 @@
         "magazineName": {
             "ammoHolders": "mp40_magazine"
         },
+        "magazineSize": 32,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/9x19_parabellum_smg.blk"
         },
@@ -10474,6 +10706,7 @@
         "magazineName": {
             "ammoHolders": "vollmer_vpf_1926_magazine"
         },
+        "magazineSize": 40,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/9x19_parabellum_smg.blk"
         },
@@ -10513,6 +10746,7 @@
         "magazineName": {
             "ammoHolders": "sig_1920_magazine"
         },
+        "magazineSize": 50,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.65x21_parabellum_smg.blk"
         },
@@ -10562,6 +10796,7 @@
                 "ammoHolders": "box_9mm_magazine"
             }
         ],
+        "magazineSize": 32,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/9x19_parabellum_smg.blk"
         },
@@ -10606,6 +10841,7 @@
                 "ammoHolders": "box_9mm_magazine"
             }
         ],
+        "magazineSize": 32,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/9x19_parabellum_smg.blk"
         },
@@ -10650,6 +10886,7 @@
                 "ammoHolders": "box_9mm_magazine"
             }
         ],
+        "magazineSize": 32,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/9x19_parabellum_smg.blk"
         },
@@ -10689,6 +10926,7 @@
         "magazineName": {
             "ammoHolders": "mp40_magazine"
         },
+        "magazineSize": 32,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/9x19_parabellum_smg.blk"
         },
@@ -10728,6 +10966,7 @@
         "magazineName": {
             "ammoHolders": "suomi_kp_26_magazine"
         },
+        "magazineSize": 36,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/9x19_parabellum_smg.blk"
         },
@@ -10772,6 +11011,7 @@
         "magazineName": {
             "ammoHolders": "suomi_kp_31_magazine"
         },
+        "magazineSize": 71,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/9x19_parabellum_smg.blk"
         },
@@ -10816,6 +11056,7 @@
         "magazineName": {
             "ammoHolders": "suomi_kp_31_magazine"
         },
+        "magazineSize": 71,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/9x19_parabellum_smg.blk"
         },
@@ -10860,6 +11101,7 @@
         "magazineName": {
             "ammoHolders": "fnab_43_magazine"
         },
+        "magazineSize": 40,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/9x19_parabellum_smg.blk"
         },
@@ -10904,6 +11146,7 @@
         "magazineName": {
             "ammoHolders": "mp40_magazine"
         },
+        "magazineSize": 32,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/9x19_parabellum_smg.blk"
         },
@@ -10948,6 +11191,7 @@
         "magazineName": {
             "ammoHolders": "danuvia_43m_magazine"
         },
+        "magazineSize": 40,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/9x25_mauser_export_smg.blk"
         },
@@ -10992,6 +11236,7 @@
         "magazineName": {
             "ammoHolders": "danuvia_43m_magazine"
         },
+        "magazineSize": 40,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/9x25_mauser_export_smg.blk"
         },
@@ -11036,6 +11281,7 @@
         "magazineName": {
             "ammoHolders": "beretta_m38_magazine"
         },
+        "magazineSize": 20,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/9x19_parabellum_smg.blk"
         },
@@ -11080,6 +11326,7 @@
         "magazineName": {
             "ammoHolders": "beretta_m38_40_round_magazine"
         },
+        "magazineSize": 40,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/9x19_parabellum_smg.blk"
         },
@@ -11124,6 +11371,7 @@
         "magazineName": {
             "ammoHolders": "beretta_m1918_magazine"
         },
+        "magazineSize": 25,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/9x19_parabellum_smg.blk"
         },
@@ -11163,6 +11411,7 @@
         "magazineName": {
             "ammoHolders": "mp34o_magazine"
         },
+        "magazineSize": 32,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/9x19_parabellum_smg.blk"
         },
@@ -11207,6 +11456,7 @@
         "magazineName": {
             "ammoHolders": "mp34o_magazine"
         },
+        "magazineSize": 32,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.65x21_parabellum_smg.blk"
         },
@@ -11255,6 +11505,7 @@
         "magazineName": {
             "ammoHolders": "zk_383_magazine"
         },
+        "magazineSize": 30,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/9x19_parabellum_smg.blk"
         },
@@ -11300,6 +11551,7 @@
             "ammoHolders": "mp_35_magazine",
             "ammoHolder": "box_9mm_magazine"
         },
+        "magazineSize": 32,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/9x19_parabellum_smg.blk"
         },
@@ -11339,6 +11591,7 @@
         "magazineName": {
             "ammoHolders": "mp_35_magazine"
         },
+        "magazineSize": 32,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/9x19_parabellum_smg_long_barrel.blk"
         },
@@ -11383,6 +11636,7 @@
                 "ammoHolders": "box_7_62x39_magazine"
             }
         ],
+        "magazineSize": 30,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.92x33_kurz.blk"
         },
@@ -11427,6 +11681,7 @@
         "magazineName": {
             "ammoHolders": "stg_44_magazine"
         },
+        "magazineSize": 30,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.92x33_kurz.blk"
         },
@@ -11475,6 +11730,7 @@
         "magazineName": {
             "ammoHolders": "stg_44_magazine"
         },
+        "magazineSize": 30,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.92x33_kurz.blk"
         },
@@ -11519,6 +11775,7 @@
         "magazineName": {
             "ammoHolders": "stg_44_magazine"
         },
+        "magazineSize": 30,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.92x33_kurz.blk"
         },
@@ -11563,6 +11820,7 @@
         "magazineName": {
             "ammoHolders": "stg_44_magazine"
         },
+        "magazineSize": 30,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.92x33_kurz.blk"
         },
@@ -11607,6 +11865,7 @@
         "magazineName": {
             "ammoHolders": "stg_44_magazine"
         },
+        "magazineSize": 30,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.92x33_kurz.blk"
         },
@@ -11651,6 +11910,7 @@
         "magazineName": {
             "ammoHolders": "stg_44_magazine"
         },
+        "magazineSize": 30,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.92x33_kurz.blk"
         },
@@ -11690,6 +11950,7 @@
         "magazineName": {
             "ammoHolders": "stg_44_magazine"
         },
+        "magazineSize": 30,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.92x33_kurz.blk"
         },
@@ -11742,6 +12003,7 @@
         "magazineName": {
             "ammoHolders": "vollmer_m35_magazine"
         },
+        "magazineSize": 20,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.35x35_geco.blk"
         },
@@ -11786,6 +12048,7 @@
         "magazineName": {
             "ammoHolders": "breda_mod_30_magazine"
         },
+        "magazineSize": 20,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/6.5x52_carcano_tracer.blk"
         },
@@ -11830,6 +12093,7 @@
                 "ammoHolders": "box_7_62_magazine"
             }
         ],
+        "magazineSize": 20,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.62x54_r_tracer.blk"
         },
@@ -11874,6 +12138,7 @@
         "magazineName": {
             "ammoHolders": "zb_26_magazine"
         },
+        "magazineSize": 20,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.92x57_mauser_tracer.blk"
         },
@@ -11918,6 +12183,7 @@
                 "ammoHolders": "box_7_92x57_magazine"
             }
         ],
+        "magazineSize": 25,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.92x57_mauser_tracer.blk"
         },
@@ -11957,6 +12223,7 @@
         "magazineName": {
             "ammoHolders": "mg_13_saddle_drum_magazine"
         },
+        "magazineSize": 75,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.92x57_mauser_tracer.blk"
         },
@@ -11996,6 +12263,7 @@
         "magazineName": {
             "ammoHolders": "mg_34_with_patronentrommel_magazine"
         },
+        "magazineSize": 75,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.92x57_mauser_tracer.blk"
         },
@@ -12035,6 +12303,7 @@
         "magazineName": {
             "ammoHolders": "mg_30_magazine"
         },
+        "magazineSize": 25,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/8x56_r_tracer.blk"
         },
@@ -12074,6 +12343,7 @@
         "magazineName": {
             "ammoHolders": "mg_42_handheld_magazine"
         },
+        "magazineSize": 50,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.92x57_mauser_tracer.blk"
         },
@@ -12113,6 +12383,7 @@
         "magazineName": {
             "ammoHolders": "mg_34_with_patronentrommel_magazine"
         },
+        "magazineSize": 75,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.92x57_mauser_tracer.blk"
         },
@@ -12157,6 +12428,7 @@
                 "ammoHolders": "box_7_92x57_magazine"
             }
         ],
+        "magazineSize": 50,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.92x57_mauser_tracer.blk"
         },
@@ -12201,6 +12473,7 @@
                 "ammoHolders": "box_7_92x57_magazine"
             }
         ],
+        "magazineSize": 50,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.92x57_mauser_tracer.blk"
         },
@@ -12240,6 +12513,7 @@
         "magazineName": {
             "ammoHolders": "pzb_39_magazine"
         },
+        "magazineSize": 10,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.92x94_smkh_patronen.blk"
         },
@@ -12279,6 +12553,7 @@
         "magazineName": {
             "ammoHolders": "pzb_39_two_magazine"
         },
+        "magazineSize": 20,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.92x94_smkh_patronen.blk"
         },
@@ -12318,6 +12593,7 @@
         "magazineName": {
             "ammoHolders": "pzb_38_magazine"
         },
+        "magazineSize": 10,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.92x94_smkh_patronen.blk"
         },
@@ -12357,6 +12633,7 @@
         "magazineName": {
             "ammoHolders": "wz_35_magazine"
         },
+        "magazineSize": 4,
         "bullets": {
             "shells": "content/e_ww2_common/gamedata/weapons/bullets/7.92x107_p35.blk"
         },
@@ -12396,6 +12673,7 @@
         "magazineName": {
             "ammoHolders": "gross_panzergranate_46_item"
         },
+        "magazineSize": null,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/shells/gross_panzergranate_46.blk"
         },
@@ -12435,6 +12713,7 @@
         "magazineName": {
             "ammoHolders": "rpzb_gr_4992_item"
         },
+        "magazineSize": null,
         "bullets": {
             "shells": "content/e_ww2_common/gamedata/weapons/shells/rpzb_gr_4992.blk"
         },
@@ -12474,6 +12753,7 @@
         "magazineName": {
             "ammoHolders": "rpzb_gr_4322_item"
         },
+        "magazineSize": null,
         "bullets": {
             "shells": "content/e_ww2_common/gamedata/weapons/shells/rpzb_gr_4322.blk"
         },
@@ -12513,6 +12793,7 @@
         "magazineName": {
             "ammoHolders": "rpzb_gr_4992_item"
         },
+        "magazineSize": null,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/shells/rpzb_gr_4992.blk"
         },
@@ -12552,6 +12833,7 @@
         "magazineName": {
             "ammoHolders": "panzerfaust_100_shell_item"
         },
+        "magazineSize": null,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/shells/panzerfaust_100_shell.blk"
         },
@@ -12591,6 +12873,7 @@
         "magazineName": {
             "ammoHolders": "panzerfaust_60_shell_item"
         },
+        "magazineSize": null,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/shells/panzerfaust_60_shell.blk"
         },
@@ -12630,6 +12913,7 @@
         "magazineName": {
             "ammoHolders": "wurfgranate_326_item"
         },
+        "magazineSize": null,
         "bullets": {
             "shells": "content/e_ww2_common/gamedata/weapons/shells/wurfgranate_326.blk"
         },
@@ -12669,6 +12953,7 @@
         "magazineName": {
             "ammoHolders": "sprengpatrone_item"
         },
+        "magazineSize": null,
         "bullets": {
             "shells": "content/e_ww2_common/gamedata/weapons/shells/sprengpatrone.blk"
         },
@@ -12708,6 +12993,7 @@
         "magazineName": {
             "ammoHolders": "wurfkorper_361_item"
         },
+        "magazineSize": null,
         "bullets": {
             "shells": "content/e_ww2_common/gamedata/weapons/shells/wurfkorper_361.blk"
         },
@@ -12747,6 +13033,7 @@
         "magazineName": {
             "ammoHolders": "panzerwurfkorper_42_item"
         },
+        "magazineSize": null,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/shells/panzerwurfkorper_42.blk"
         },
@@ -12791,6 +13078,7 @@
                 "ammoHolders": "8cm_wgr_39_smoke_item"
             }
         ],
+        "magazineSize": null,
         "bullets": [
             {
                 "shells": "content/enlisted/gamedata/weapons_enlisted/shells/8cm_wgr_39.blk"
@@ -12840,6 +13128,7 @@
                 "ammoHolders": "wrg_36_smoke_item"
             }
         ],
+        "magazineSize": null,
         "bullets": [
             {
                 "shells": "content/enlisted/gamedata/weapons_enlisted/shells/wrg_36.blk"
@@ -12889,6 +13178,7 @@
                 "ammoHolders": "8cm_wgr_39_smoke_item"
             }
         ],
+        "magazineSize": null,
         "bullets": [
             {
                 "shells": "content/enlisted/gamedata/weapons_enlisted/shells/8cm_wgr_39.blk"
@@ -12947,6 +13237,7 @@
                 "ammoHolders": "jp_flamethrower_fuel_tank"
             }
         ],
+        "magazineSize": 200,
         "bullets": {
             "shells": "content/e_ww2_common/gamedata/weapons/bullets/flamethrower_dummy.blk"
         },
@@ -13000,6 +13291,7 @@
                 "ammoHolders": "jp_flamethrower_fuel_tank"
             }
         ],
+        "magazineSize": 200,
         "bullets": {
             "shells": "content/e_ww2_common/gamedata/weapons/bullets/flamethrower_dummy.blk"
         },
@@ -13053,6 +13345,7 @@
                 "ammoHolders": "jp_flamethrower_fuel_tank"
             }
         ],
+        "magazineSize": 200,
         "bullets": {
             "shells": "content/e_ww2_common/gamedata/weapons/bullets/flamethrower_dummy.blk"
         },
@@ -13092,6 +13385,7 @@
         "magazineName": {
             "ammoHolders": "mg42_infinite"
         },
+        "magazineSize": 5000,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.92x57_mauser_tracer.blk"
         },
@@ -13129,6 +13423,7 @@
         "magazineName": {
             "ammoHolders": "mg42_infinite"
         },
+        "magazineSize": 5000,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.92x57_mauser_tracer.blk"
         },
@@ -13166,6 +13461,7 @@
         "magazineName": {
             "ammoHolders": "mg42_infinite"
         },
+        "magazineSize": 5000,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/30_06_springfield_tracer.blk"
         },
@@ -13203,6 +13499,7 @@
         "magazineName": {
             "ammoHolders": "mg42_infinite"
         },
+        "magazineSize": 5000,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.7x58_arisaka_tracer.blk"
         },
@@ -13240,6 +13537,7 @@
         "magazineName": {
             "ammoHolders": "mg42_infinite"
         },
+        "magazineSize": 5000,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.62x54_r_tracer.blk"
         },
@@ -13277,6 +13575,7 @@
         "magazineName": {
             "ammoHolders": "mg42_infinite"
         },
+        "magazineSize": 5000,
         "bullets": {
             "shells": "content/e_ww2_common/gamedata/weapons/bullets/105mm.blk"
         },
@@ -13316,6 +13615,7 @@
         "magazineName": {
             "ammoHolders": "mg42_infinite"
         },
+        "magazineSize": 5000,
         "bullets": {
             "shells": "content/e_ww2_common/gamedata/weapons/bullets/105mm.blk"
         },
@@ -13353,6 +13653,7 @@
         "weight": 0.5,
         "locName": "Knife",
         "magazineName": null,
+        "magazineSize": null,
         "bullets": null,
         "firingModes": null,
         "singleReloadPrep": null,
@@ -13386,6 +13687,7 @@
         "weight": 0.5,
         "locName": "Knife",
         "magazineName": null,
+        "magazineSize": null,
         "bullets": null,
         "firingModes": null,
         "singleReloadPrep": null,
@@ -13419,6 +13721,7 @@
         "weight": 1.0,
         "locName": "Axe",
         "magazineName": null,
+        "magazineSize": null,
         "bullets": null,
         "firingModes": null,
         "singleReloadPrep": null,
@@ -13452,6 +13755,7 @@
         "weight": 1.13,
         "locName": "Shashka M1927",
         "magazineName": null,
+        "magazineSize": null,
         "bullets": null,
         "firingModes": null,
         "singleReloadPrep": null,
@@ -13485,6 +13789,7 @@
         "weight": 1.13,
         "locName": "German Officer Sword",
         "magazineName": null,
+        "magazineSize": null,
         "bullets": null,
         "firingModes": null,
         "singleReloadPrep": null,
@@ -13518,6 +13823,7 @@
         "weight": 1.13,
         "locName": "US Officer Sword",
         "magazineName": null,
+        "magazineSize": null,
         "bullets": null,
         "firingModes": null,
         "singleReloadPrep": null,
@@ -13551,6 +13857,7 @@
         "weight": 1.13,
         "locName": "British Infantry Officer Sword",
         "magazineName": null,
+        "magazineSize": null,
         "bullets": null,
         "firingModes": null,
         "singleReloadPrep": null,
@@ -13584,6 +13891,7 @@
         "weight": 1.13,
         "locName": "British Infantry Officer Sword",
         "magazineName": null,
+        "magazineSize": null,
         "bullets": null,
         "firingModes": null,
         "singleReloadPrep": null,
@@ -13617,6 +13925,7 @@
         "weight": 1.13,
         "locName": "Shashka M1927",
         "magazineName": null,
+        "magazineSize": null,
         "bullets": null,
         "firingModes": null,
         "singleReloadPrep": null,
@@ -13650,6 +13959,7 @@
         "weight": 1.13,
         "locName": "Katana",
         "magazineName": null,
+        "magazineSize": null,
         "bullets": null,
         "firingModes": null,
         "singleReloadPrep": null,
@@ -13683,6 +13993,7 @@
         "weight": 0.5,
         "locName": "Moroccan Dagger",
         "magazineName": null,
+        "magazineSize": null,
         "bullets": null,
         "firingModes": null,
         "singleReloadPrep": null,
@@ -13716,6 +14027,7 @@
         "weight": 0.5,
         "locName": "San Marco Dagger",
         "magazineName": null,
+        "magazineSize": null,
         "bullets": null,
         "firingModes": null,
         "singleReloadPrep": null,
@@ -13751,6 +14063,7 @@
         "magazineName": {
             "ammoHolders": "nambu_type_14_magazine"
         },
+        "magazineSize": 8,
         "bullets": {
             "shells": "content/e_ww2_common/gamedata/weapons/bullets/8x22_nambu_pistol.blk"
         },
@@ -13790,6 +14103,7 @@
         "magazineName": {
             "ammoHolders": "nambu_type_14_magazine"
         },
+        "magazineSize": 8,
         "bullets": {
             "shells": "content/e_ww2_common/gamedata/weapons/bullets/8x22_nambu_pistol.blk"
         },
@@ -13829,6 +14143,7 @@
         "magazineName": {
             "ammoHolders": "hamada_type_1_magazine"
         },
+        "magazineSize": 9,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.65x17_browning_pistol.blk"
         },
@@ -13868,6 +14183,7 @@
         "magazineName": {
             "ammoHolders": "hamada_type_2_magazine"
         },
+        "magazineSize": 6,
         "bullets": {
             "shells": "content/e_ww2_common/gamedata/weapons/bullets/8x22_nambu_pistol.blk"
         },
@@ -13907,6 +14223,7 @@
         "magazineName": {
             "ammoHolders": "nambu_type_94_magazine"
         },
+        "magazineSize": 6,
         "bullets": {
             "shells": "content/e_ww2_common/gamedata/weapons/bullets/8x22_nambu_pistol.blk"
         },
@@ -13946,6 +14263,7 @@
         "magazineName": {
             "ammoHolders": "arisaka_magazine"
         },
+        "magazineSize": 5,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/6.5x50_arisaka_sniper.blk"
         },
@@ -13989,6 +14307,7 @@
         "magazineName": {
             "ammoHolders": "arisaka_7mm_magazine"
         },
+        "magazineSize": 5,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.7x58_arisaka.blk"
         },
@@ -14032,6 +14351,7 @@
         "magazineName": {
             "ammoHolders": "arisaka_magazine"
         },
+        "magazineSize": 5,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/6.5x50_arisaka_carbine.blk"
         },
@@ -14076,6 +14396,7 @@
         "magazineName": {
             "ammoHolders": "type_hei_rifle_magazine"
         },
+        "magazineSize": 5,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/6.5x50_arisaka_semiauto.blk"
         },
@@ -14120,6 +14441,7 @@
         "magazineName": {
             "ammoHolders": "type_hei_rifle_extended_magazine"
         },
+        "magazineSize": 10,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/6.5x50_arisaka_semiauto.blk"
         },
@@ -14164,6 +14486,7 @@
         "magazineName": {
             "ammoHolders": "type_ko_rifle_magazine"
         },
+        "magazineSize": 10,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/6.5x50_arisaka_semiauto.blk"
         },
@@ -14208,6 +14531,7 @@
         "magazineName": {
             "ammoHolders": "type_100_smg_magazine"
         },
+        "magazineSize": 30,
         "bullets": {
             "shells": "content/e_ww2_common/gamedata/weapons/bullets/8x22_nambu_smg.blk"
         },
@@ -14252,6 +14576,7 @@
         "magazineName": {
             "ammoHolders": "type_100_smg_magazine"
         },
+        "magazineSize": 30,
         "bullets": {
             "shells": "content/e_ww2_common/gamedata/weapons/bullets/8x22_nambu_smg.blk"
         },
@@ -14296,6 +14621,7 @@
         "magazineName": {
             "ammoHolders": "type_100_smg_magazine"
         },
+        "magazineSize": 30,
         "bullets": {
             "shells": "content/e_ww2_common/gamedata/weapons/bullets/8x22_nambu_smg.blk"
         },
@@ -14340,6 +14666,7 @@
         "magazineName": {
             "ammoHolders": "nambu_type_1_smg_magazine"
         },
+        "magazineSize": 50,
         "bullets": {
             "shells": "content/e_ww2_common/gamedata/weapons/bullets/8x22_nambu_smg.blk"
         },
@@ -14387,6 +14714,7 @@
         "magazineName": {
             "ammoHolders": "nambu_type_1_smg_magazine"
         },
+        "magazineSize": 50,
         "bullets": {
             "shells": "content/e_ww2_common/gamedata/weapons/bullets/8x22_nambu_smg.blk"
         },
@@ -14434,6 +14762,7 @@
         "magazineName": {
             "ammoHolders": "nambu_type_2a_smg_magazine"
         },
+        "magazineSize": 30,
         "bullets": {
             "shells": "content/e_ww2_common/gamedata/weapons/bullets/8x22_nambu_smg.blk"
         },
@@ -14479,6 +14808,7 @@
         "weight": 6.49,
         "locName": "ni_05_lunge_mine",
         "magazineName": null,
+        "magazineSize": null,
         "bullets": null,
         "firingModes": null,
         "singleReloadPrep": null,
@@ -14514,6 +14844,7 @@
         "magazineName": {
             "ammoHolders": "type_11_lmg_magazine"
         },
+        "magazineSize": 30,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/6.5x50_arisaka_tracer.blk"
         },
@@ -14553,6 +14884,7 @@
         "magazineName": {
             "ammoHolders": "nambu_type_96_lmg_magazine"
         },
+        "magazineSize": 30,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/6.5x50_arisaka_tracer.blk"
         },
@@ -14597,6 +14929,7 @@
         "magazineName": {
             "ammoHolders": "nambu_type_97_lmg_magazine"
         },
+        "magazineSize": 20,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.7x58_arisaka_tracer.blk"
         },
@@ -14636,6 +14969,7 @@
         "magazineName": {
             "ammoHolders": "type_97_antitank_canon_magazine"
         },
+        "magazineSize": 7,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/20x125mm_kokura.blk"
         },
@@ -14675,6 +15009,7 @@
         "magazineName": {
             "ammoHolders": "type_97_antitank_canon_magazine"
         },
+        "magazineSize": 7,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/20x125mm_kokura.blk"
         },
@@ -14714,6 +15049,7 @@
         "magazineName": {
             "ammoHolders": "type_5_rocket_item"
         },
+        "magazineSize": null,
         "bullets": {
             "shells": "content/e_ww2_common/gamedata/weapons/shells/type_5_rocket.blk"
         },
@@ -14767,6 +15103,7 @@
                 "ammoHolders": "jp_flamethrower_fuel_tank"
             }
         ],
+        "magazineSize": 200,
         "bullets": {
             "shells": "content/e_ww2_common/gamedata/weapons/bullets/flamethrower_dummy.blk"
         },
@@ -14820,6 +15157,7 @@
                 "ammoHolders": "jp_flamethrower_fuel_tank"
             }
         ],
+        "magazineSize": 200,
         "bullets": {
             "shells": "content/e_ww2_common/gamedata/weapons/bullets/flamethrower_dummy.blk"
         },
@@ -14867,6 +15205,7 @@
                 "ammoHolders": "box_9mm_magazine"
             }
         ],
+        "magazineSize": 30,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/9x19_parabellum_pistol.blk"
         },
@@ -14911,6 +15250,7 @@
         "magazineName": {
             "ammoHolders": "mg42_infinite"
         },
+        "magazineSize": 5000,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/12.7x99_bmj.blk"
         },
@@ -14948,6 +15288,7 @@
         "magazineName": {
             "ammoHolders": "mg42_infinite"
         },
+        "magazineSize": 5000,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/13x64_pzgr.blk"
         },
@@ -14985,6 +15326,7 @@
         "magazineName": {
             "ammoHolders": "mg42_infinite"
         },
+        "magazineSize": 5000,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/12.7x108_b32.blk"
         },
@@ -15022,6 +15364,7 @@
         "magazineName": {
             "ammoHolders": "mg42_infinite"
         },
+        "magazineSize": 5000,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/13.2x99_hotchkiss.blk"
         },
@@ -15059,6 +15402,7 @@
         "magazineName": {
             "ammoHolders": "type_4_at_7cm_item"
         },
+        "magazineSize": null,
         "bullets": {
             "shells": "content/e_ww2_common/gamedata/weapons/shells/type_4_at_7cm.blk"
         },
@@ -15098,6 +15442,7 @@
         "magazineName": {
             "ammoHolders": "fedorov_avtomat_magazine"
         },
+        "magazineSize": 25,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/6.5x50_arisaka_semiauto.blk"
         },
@@ -15147,6 +15492,7 @@
                 "ammoHolders": "box_7_92x57_magazine"
             }
         ],
+        "magazineSize": 50,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.92x57_mauser_tracer.blk"
         },
@@ -15191,6 +15537,7 @@
                 "ammoHolders": "box_30_magazine"
             }
         ],
+        "magazineSize": 5,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/30_06_springfield_semiauto.blk"
         },
@@ -15236,6 +15583,7 @@
         "magazineName": {
             "ammoHolders": "carcano_m38_magazine"
         },
+        "magazineSize": 6,
         "bullets": {
             "shells": "content/e_tunisia/gamedata/weapons/bullets/6.5x52_carcano.blk"
         },
@@ -15279,6 +15627,7 @@
         "magazineName": {
             "ammoHolders": "carcano_m38_7_35_magazine"
         },
+        "magazineSize": 6,
         "bullets": {
             "shells": "content/e_tunisia/gamedata/weapons/bullets/7.35x51_carcano.blk"
         },
@@ -15322,6 +15671,7 @@
         "magazineName": {
             "ammoHolders": "carcano_m38_7_35_magazine"
         },
+        "magazineSize": 6,
         "bullets": {
             "shells": "content/e_tunisia/gamedata/weapons/bullets/7.35x51_carcano_ap.blk"
         },
@@ -15365,6 +15715,7 @@
         "magazineName": {
             "ammoHolders": "carcano_m38_magazine"
         },
+        "magazineSize": 6,
         "bullets": {
             "shells": "content/e_tunisia/gamedata/weapons/bullets/6.5x52_carcano.blk"
         },
@@ -15408,6 +15759,7 @@
         "magazineName": {
             "ammoHolders": "carcano_m38_magazine"
         },
+        "magazineSize": 6,
         "bullets": {
             "shells": "content/e_tunisia/gamedata/weapons/bullets/6.5x52_carcano_long.blk"
         },
@@ -15451,6 +15803,7 @@
         "magazineName": {
             "ammoHolders": "carcano_m38_magazine"
         },
+        "magazineSize": 6,
         "bullets": {
             "shells": "content/e_tunisia/gamedata/weapons/bullets/6.5x52_carcano_long.blk"
         },
@@ -15494,6 +15847,7 @@
         "magazineName": {
             "ammoHolders": "carcano_m38_magazine"
         },
+        "magazineSize": 6,
         "bullets": {
             "shells": "content/e_tunisia/gamedata/weapons/bullets/6.5x52_carcano.blk"
         },
@@ -15533,6 +15887,7 @@
         "magazineName": {
             "ammoHolders": "lee_enfield_no4_mk1_magazine"
         },
+        "magazineSize": 10,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/303_british_mk7.blk"
         },
@@ -15576,6 +15931,7 @@
         "magazineName": {
             "ammoHolders": "carcano_m38_magazine"
         },
+        "magazineSize": 6,
         "bullets": {
             "shells": "content/e_tunisia/gamedata/weapons/bullets/6.5x52_carcano_semiauto.blk"
         },
@@ -15615,6 +15971,7 @@
         "magazineName": {
             "ammoHolders": "carcano_m38_magazine"
         },
+        "magazineSize": 6,
         "bullets": {
             "shells": "content/e_tunisia/gamedata/weapons/bullets/6.5x52_carcano_semiauto.blk"
         },
@@ -15654,6 +16011,7 @@
         "magazineName": {
             "ammoHolders": "pavesi_m42_magazine"
         },
+        "magazineSize": 6,
         "bullets": {
             "shells": "content/e_tunisia/gamedata/weapons/bullets/8x59_breda_semiauto.blk"
         },
@@ -15693,6 +16051,7 @@
         "magazineName": {
             "ammoHolders": "pavesi_prototype_svt_copy_magazine"
         },
+        "magazineSize": 10,
         "bullets": {
             "shells": "content/e_tunisia/gamedata/weapons/bullets/8x59_breda_semiauto.blk"
         },
@@ -15732,6 +16091,7 @@
         "magazineName": {
             "ammoHolders": "carcano_m38_magazine"
         },
+        "magazineSize": 6,
         "bullets": {
             "shells": "content/e_tunisia/gamedata/weapons/bullets/6.5x52_carcano_semiauto.blk"
         },
@@ -15771,6 +16131,7 @@
         "magazineName": {
             "ammoHolders": "beretta_m1918_magazine"
         },
+        "magazineSize": 25,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/9x19_parabellum_smg.blk"
         },
@@ -15810,6 +16171,7 @@
         "magazineName": {
             "ammoHolders": "sw_light_rifle_magazine"
         },
+        "magazineSize": 20,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/9x19_parabellum_carbine.blk"
         },
@@ -15849,6 +16211,7 @@
         "magazineName": {
             "ammoHolders": "sw_light_rifle_magazine"
         },
+        "magazineSize": 20,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/9x19_parabellum_carbine.blk"
         },
@@ -15888,6 +16251,7 @@
         "magazineName": {
             "ammoHolders": "lee_enfield_no4_mk1_magazine"
         },
+        "magazineSize": 10,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/303_british_mk7.blk"
         },
@@ -15927,6 +16291,7 @@
         "magazineName": {
             "ammoHolders": "beretta_m38_40_round_magazine"
         },
+        "magazineSize": 40,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/9x19_parabellum_smg.blk"
         },
@@ -15971,6 +16336,7 @@
         "magazineName": {
             "ammoHolders": "beretta_m38_40_round_magazine"
         },
+        "magazineSize": 40,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/9x19_parabellum_smg.blk"
         },
@@ -16015,6 +16381,7 @@
         "magazineName": {
             "ammoHolders": "ovp_1918_magazine"
         },
+        "magazineSize": 25,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/9x19_parabellum_carbine.blk"
         },
@@ -16059,6 +16426,7 @@
         "magazineName": {
             "ammoHolders": "beretta_m38_40_round_magazine"
         },
+        "magazineSize": 40,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/9x19_parabellum_smg.blk"
         },
@@ -16103,6 +16471,7 @@
         "magazineName": {
             "ammoHolders": "m1928a_thompson_magazine"
         },
+        "magazineSize": 30,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/11.51x23_browning_smg.blk"
         },
@@ -16147,6 +16516,7 @@
         "magazineName": {
             "ammoHolders": "sten_mk2_magazine"
         },
+        "magazineSize": 32,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/9x19_parabellum_pistol.blk"
         },
@@ -16191,6 +16561,7 @@
         "magazineName": {
             "ammoHolders": "owen_magazine"
         },
+        "magazineSize": 33,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/9x19_parabellum_smg.blk"
         },
@@ -16230,6 +16601,7 @@
         "magazineName": {
             "ammoHolders": "beretta_m1923_magazine"
         },
+        "magazineSize": 7,
         "bullets": {
             "shells": "content/e_tunisia/gamedata/weapons/bullets/9x19_glisenti_pistol.blk"
         },
@@ -16269,6 +16641,7 @@
         "magazineName": {
             "ammoHolders": "beretta_m1934_magazine"
         },
+        "magazineSize": 7,
         "bullets": {
             "shells": "content/e_tunisia/gamedata/weapons/bullets/9x17_corto_pistol.blk"
         },
@@ -16308,6 +16681,7 @@
         "magazineName": {
             "ammoHolders": "beretta_m1934_magazine"
         },
+        "magazineSize": 7,
         "bullets": {
             "shells": "content/e_tunisia/gamedata/weapons/bullets/9x17_corto_pistol.blk"
         },
@@ -16347,6 +16721,7 @@
         "magazineName": {
             "ammoHolders": "webley_mk6_magazine"
         },
+        "magazineSize": 6,
         "bullets": {
             "shells": "content/e_tunisia/gamedata/weapons/bullets/455_webley_mk6_pistol.blk"
         },
@@ -16386,6 +16761,7 @@
         "magazineName": {
             "ammoHolders": "webley_mk6_magazine"
         },
+        "magazineSize": 6,
         "bullets": {
             "shells": "content/e_tunisia/gamedata/weapons/bullets/455_webley_mk6_pistol.blk"
         },
@@ -16425,6 +16801,7 @@
         "magazineName": {
             "ammoHolders": "enfield_no2_mk1_magazine"
         },
+        "magazineSize": 6,
         "bullets": {
             "shells": "content/e_tunisia/gamedata/weapons/bullets/9x20_380_sw_short_pistol.blk"
         },
@@ -16464,6 +16841,7 @@
         "magazineName": {
             "ammoHolders": "bren_mk2_magazine"
         },
+        "magazineSize": 30,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/303_british_mk7_tracer.blk"
         },
@@ -16503,6 +16881,7 @@
         "magazineName": {
             "ammoHolders": "bren_mk2_magazine"
         },
+        "magazineSize": 30,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/303_british_mk7_tracer.blk"
         },
@@ -16542,6 +16921,7 @@
         "magazineName": {
             "ammoHolders": "charlton_automatic_rifle_magazine"
         },
+        "magazineSize": 30,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/303_british_mk7_tracer.blk"
         },
@@ -16581,6 +16961,7 @@
         "magazineName": {
             "ammoHolders": "solothurn_s_18_100_magazine"
         },
+        "magazineSize": 10,
         "bullets": {
             "shells": "content/e_tunisia/gamedata/weapons/bullets/20x105_b_solosthurn.blk"
         },
@@ -16620,6 +17001,7 @@
         "magazineName": {
             "ammoHolders": "atr_boys_magazine"
         },
+        "magazineSize": 5,
         "bullets": {
             "shells": "content/e_tunisia/gamedata/weapons/bullets/13.9x99_boys.blk"
         },
@@ -16659,6 +17041,7 @@
         "magazineName": {
             "ammoHolders": "vickers_berthier_magazine"
         },
+        "magazineSize": 30,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/303_british_mk7_tracer.blk"
         },
@@ -16703,6 +17086,7 @@
         "magazineName": {
             "ammoHolders": "lee_enfield_no4_mk1_magazine"
         },
+        "magazineSize": 10,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/303_british_mk7.blk"
         },
@@ -16786,6 +17170,7 @@
         "magazineName": {
             "ammoHolders": "mauser98k_magazine"
         },
+        "magazineSize": 5,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.92x57_mauser_carbine.blk"
         },
@@ -16835,6 +17220,7 @@
         "magazineName": {
             "ammoHolders": "mannlicher_m93_magazine"
         },
+        "magazineSize": 5,
         "bullets": {
             "shells": "content/e_tunisia/gamedata/weapons/bullets/6.5x52_carcano_long.blk"
         },
@@ -16878,6 +17264,7 @@
         "magazineName": {
             "ammoHolders": "mp40_magazine"
         },
+        "magazineSize": 32,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/9x19_parabellum_smg.blk"
         },
@@ -16922,6 +17309,7 @@
         "magazineName": {
             "ammoHolders": "ppsh_drum"
         },
+        "magazineSize": 71,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.63x25_mauser_smg.blk"
         },
@@ -16966,6 +17354,7 @@
         "magazineName": {
             "ammoHolders": "pps_magazine"
         },
+        "magazineSize": 35,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.62x25_tokarev_smg.blk"
         },
@@ -17010,6 +17399,7 @@
                 "ammoHolders": "box_7_62x25_magazine"
             }
         ],
+        "magazineSize": 35,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.62x25_tokarev_smg.blk"
         },
@@ -17049,6 +17439,7 @@
         "magazineName": {
             "ammoHolders": "ppsh_drum"
         },
+        "magazineSize": 71,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.62x25_tokarev_smg.blk"
         },
@@ -17098,6 +17489,7 @@
                 "ammoHolders": "box_7_92x57_magazine"
             }
         ],
+        "magazineSize": 50,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.92x57_mauser_tracer.blk"
         },
@@ -17137,6 +17529,7 @@
         "magazineName": {
             "ammoHolders": "ampula_item"
         },
+        "magazineSize": null,
         "bullets": {
             "shells": "content/e_stalingrad/gamedata/weapons/shells/ampula_shell.blk"
         },
