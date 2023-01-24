@@ -704,6 +704,7 @@
     "page.datamine.type": "Type: ",
     "page.datamine.weight": "Weight: ",
     "page.datamine.zeroDistance": "Sights Zeroing Distance: ",
+    "page.soldierStats.armorDamageLabel": "Wearing body armor",
     "page.soldierStats.button": "Soldier Stats",
     "page.soldierStats.footer": [
         "Numbers in parentheses mean the net return in bronze orders if soldier is first upgraded to 5 stars, then sold.",
@@ -713,6 +714,7 @@
         "This page contains the data of the optimal rolls for soldiers based on class and rank.",
         "Actual soldiers may have between 0 and 2 points less in each category by random chance."
     ],
+    "page.soldierStats.helmetDamageLabel": "Wearing a helmet",
     "page.soldierStats.soldierDamageBody": [
         "Hover over each body part to see its damage multiplier.",
         "",
@@ -808,6 +810,7 @@
     "weapons.category.manual.axis": "Axis Manual Rifles",
     "weapons.category.mg.allies": "Allied Machineguns",
     "weapons.category.mg.axis": "Axis Machineguns",
+    "weapons.category.other": "Unavailable Weapons",
     "weapons.category.pistol.allies": "Allied Pistols",
     "weapons.category.pistol.axis": "Axis Pistols",
     "weapons.category.semiauto.allies": "Allied Semi/Auto Rifles",

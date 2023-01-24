@@ -705,6 +705,7 @@
     "page.datamine.type": "Тип: ",
     "page.datamine.weight": "Вес: ",
     "page.datamine.zeroDistance": "Дистанция пристрелки: ",
+    "page.soldierStats.armorDamageLabel": "В нагруднике",
     "page.soldierStats.button": "Харак. Солдат",
     "page.soldierStats.footer": [
         "Цифры в скобках означают прибыль в бронзовых заявок, если солдат сначала будет повышен до 5 звезд, а затем продан.",
@@ -714,6 +715,7 @@
         "Эта страница содержит данные оптимальной статистики для солдат в зависимости от класса и звания.",
         "Настоящие солдаты могут случайно иметь от 0 до 2 очков меньше в каждой категории."
     ],
+    "page.soldierStats.helmetDamageLabel": "В каске",
     "page.soldierStats.soldierDamageBody": [
         "Наведите указатель на каждую часть тела,",
         "чтобы увидеть соответствующий множитель урона.",
@@ -810,6 +812,7 @@
     "weapons.category.manual.axis": "Ручные Винтовки Оси",
     "weapons.category.mg.allies": "Пулеметы Союзников",
     "weapons.category.mg.axis": "Пулеметы Оси",
+    "weapons.category.other": "Недоступные Оружие",
     "weapons.category.pistol.allies": "Пистолеты Союзников",
     "weapons.category.pistol.axis": "Пистолеты Оси",
     "weapons.category.semiauto.allies": "Самозарядные Винтовки Союзников",

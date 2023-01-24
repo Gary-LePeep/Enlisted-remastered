@@ -162,6 +162,24 @@
         const categorylist = document.createElement('ul');
         colorButton.append(categorylist);
 
+        // Add all unavailable weapons
+        for (weapon of WEAPONS_JSON) {
+            let weaponExists = false;
+            for (category of WEAPONS_META) {
+                if (!weaponExists) {
+                    for (existingWeapon of category.Weapons) {
+                        if (weapon.name === existingWeapon) {
+                            weaponExists = true;
+                            break;
+                        }
+                    }
+                }
+            }
+            if (!weaponExists) {
+                WEAPONS_META[WEAPONS_META.length - 1].Weapons.push(weapon.name);
+            }
+        }
+
         // For each category
         for (let i = -1; i < WEAPONS_META.length; i++) {
             const categoryButton = document.createElement('li');

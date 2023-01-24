@@ -346,6 +346,11 @@ const WEAPONS_META = [
                 'walther_ppk',
         ],
     },
+    {
+        'Category': 'weapons.category.other',
+        Weapons: [
+        ],
+    },
 ];
 
 
