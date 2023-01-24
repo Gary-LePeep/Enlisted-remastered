@@ -239,8 +239,15 @@
                     window.newWeaponClicked = true;
                     categoryButton.onclick();
 
-                    // set color button name to selected weapon
+                    // set color button name to selected weapon. Resize until it stays small
                     colorButtonText.text = translate(`item.${chosenWeapName}`);
+                    while (colorButtonText.offsetWidth > 250) {
+                        colorButtonText.text = colorButtonText.text.replace('…', '');
+                        colorButtonText.text = colorButtonText.text.substring(0, colorButtonText.text.length - 1);
+                        colorButtonText.text += '…';
+                    }
+
+
                     gunNameData.textContent = translate(`item.${chosenWeapName}`);
                     gunIGNData.textContent = chosenWeapName;
 
@@ -336,7 +343,7 @@
                     rpmData.textContent = toPlace(getProperty('rps') * 60 * rpmStar, 1);
 
                     dispersionData.textContent = toPlace(getProperty('dispersion') * dispersionStar, 2);
-                    zeroDistanceData.textContent = getProperty('zeroDist') === '-' ? '' : `${getProperty('zeroDist') * 1000}${translate('meters')}`;;
+                    zeroDistanceData.textContent = getProperty('zeroDist') === '-' ? '-' : `${getProperty('zeroDist') * 1000}${translate('meters')}`;;
                     singleReloadPrepareData.textContent = getProperty('singleReloadPrep') === '-' ? '-' : toPlace(getProperty('singleReloadPrep') * reloadStar, 2);
                     singleReloadLoopData.textContent = getProperty('singleReloadLoop') === '-' ? '-' : toPlace(getProperty('singleReloadLoop') * reloadStar, 2);
                     singleReloadPostData.textContent = getProperty('singleReloadPost') === '-' ? '-' : toPlace(getProperty('singleReloadPost') * reloadStar, 2);

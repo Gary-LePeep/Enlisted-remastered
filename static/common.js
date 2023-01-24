@@ -73,7 +73,7 @@ function toPlace(number, place) {
 let LANG = getCookie('language') === '' ? 'English' : getCookie('language');
 
 function readJSON(stringName) {
-    return JSON.parse(stringName.replace(/&#39;/g, '"').replace(/&#34;/g, '"').replace(/~/g, "'").replace(/None/g, 'null').replace(/False/g, false).replace(/True/g, true).replace(/Ã—/g, '×').replace(/ÄŒ/g, 'Č').replace('Ã¶', 'ö').replace('Ã¤', 'ä'));
+    return JSON.parse(stringName.replace(/&#39;/g, '"').replace(/&#34;/g, '"').replace(/~/g, "'").replace(/None/g, 'null').replace(/False/g, false).replace(/True/g, true).replace(/Ã—/g, '×').replace(/ÄŒ/g, 'Č').replace(/Ã¶/g, 'ö').replace(/Ã¤/g, 'ä').replace(/&amp;/g, '&'));
 }
 
 function translate(text, type = 'string', style = '') {
