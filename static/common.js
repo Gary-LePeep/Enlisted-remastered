@@ -128,7 +128,7 @@ langButton.innerHTML = `🌐 ${translate('language')}`;
 titleBar.append(langButton);
 
 const langPanel = document.createElement('div');
-langPanel.style = 'position: relative; top: 0px; left: 0px; width: 150px; font-size:24px; font-family: Trebuchet MS; display: none;';
+langPanel.style = 'position: relative; top: 0px; left: 0px; width: 150px; font-size:24px; font-family: Trebuchet MS; display: none; z-index: 99;';
 langButton.addEventListener("click", function () {
     if (langPanel.style.display === 'block') {
         langPanel.style.display = langPanel.style.display = 'none';
