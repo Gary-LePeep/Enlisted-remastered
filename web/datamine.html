@@ -402,7 +402,7 @@
                     ammoJson = BULLETS_JSON[ammoData.textContent];
 
                     const magazineStat = getProperty('magazineName');
-                    magazineNameData.textContent = Array.isArray(magazineStat) ? magazineStat[0].ammoHolders : magazineStat.ammoHolders;
+                    magazineNameData.textContent = translate(`item.${Array.isArray(magazineStat) ? magazineStat[0].ammoHolders : magazineStat.ammoHolders}`);
                     magazineSizeData.textContent = getProperty('magazineSize');
 
                     // damage just for flamethrowers done here
