@@ -347,6 +347,19 @@ const WEAPONS_META = [
         ],
     },
     {
+        'Category': 'weapons.category.grenades-mines',
+        Weapons: [
+                'explosion_pack',
+                'grenade',
+                'molotov_grenade',
+                'incendiary_grenade',
+                'impact_grenade',
+                'antipersonnel_mine',
+                'antitank_mine',
+                'tnt_block'
+        ],
+    },
+    {
         'Category': 'weapons.category.other',
         Weapons: [
         ],

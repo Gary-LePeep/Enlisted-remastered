@@ -114,6 +114,8 @@
         table.append(tableRow1);
         const tableRow2 = document.createElement('tr');
         table.append(tableRow2);
+        const tableRow2_5 = document.createElement('tr');
+        table.append(tableRow2_5);
 
         dataDiv2.append(translate('EMPTY', 'p'));
 
@@ -125,6 +127,8 @@
         table2.append(tableRow3);
         const tableRow4 = document.createElement('tr');
         table2.append(tableRow4);
+        const tableRow4_5 = document.createElement('tr');
+        table2.append(tableRow4_5);
 
         dataDiv2.append(translate('EMPTY', 'p'));
 
@@ -207,8 +211,10 @@
                     bulletSpeedData.textContent = '-';
                     tableRow1.textContent = '';
                     tableRow2.textContent = '';
+                    tableRow2_5.textContent = '';
                     tableRow3.textContent = '';
                     tableRow4.textContent = '';
+                    tableRow4_5.textContent = '';
                     tableRow5.textContent = '';
                     tableRow6.textContent = '';
                     dispersionData.textContent = '-';
@@ -288,7 +294,7 @@
 
                     function getProperty(propertyName, toPlace = -1, dataJson = weaponData) {
                         let result = dataJson[propertyName];
-                        result = result === null ? '-' : result;
+                        result = result === null ? '-' : typeof result === "undefined" ? '-' : result;
                         if (toPlace !== -1) {
                             result = toPlace(result, toPlace);
                         }
@@ -301,8 +307,8 @@
                     }
 
                     akaData.textContent = getProperty('locName');
-                    typeData.textContent = getProperty('type').replace(/_/g, ' ');
-                    subtypeData.textContent = getProperty('stat').replace(/_/g, ' ');
+                    typeData.textContent = getProperty('type') === '-' ? '-' : getProperty('type').replace(/_/g, ' ');
+                    subtypeData.textContent = getProperty('stat') === '-' ? '-' : getProperty('stat').replace(/_/g, ' ');
 
                     // create stars only on weapon change
 
@@ -355,12 +361,15 @@
                         for (let k = 1; k < firingModes.length; k++) {
                             firingModeData.textContent += `, ${translate(`firingMode.${firingModes[k].mode}`)}`;
                         }
-                    } else {
+                    } else if (firingModes !== '-') {
                         firingModeData.textContent = translate(`firingMode.${firingModes.mode}`);
                     }
-                    rpmData.textContent = toPlace(getProperty('rps') * 60 * rpmStar, 1);
-
-                    dispersionData.textContent = toPlace(getProperty('dispersion') * dispersionStar, 2);
+                    if (getProperty('rps') !== '-') {
+                        rpmData.textContent = toPlace(getProperty('rps') * 60 * rpmStar, 1);
+                    }
+                    if (getProperty('rps') !== '-') {
+                        dispersionData.textContent = toPlace(getProperty('dispersion') * dispersionStar, 2);
+                    }
                     zeroDistanceData.textContent = getProperty('zeroDist') === '-' ? '-' : `${getProperty('zeroDist') * 1000}${translate('meters')}`;;
                     singleReloadPrepareData.textContent = getProperty('singleReloadPrep') === '-' ? '-' : toPlace(getProperty('singleReloadPrep') * reloadStar, 2);
                     singleReloadLoopData.textContent = getProperty('singleReloadLoop') === '-' ? '-' : toPlace(getProperty('singleReloadLoop') * reloadStar, 2);
@@ -373,14 +382,17 @@
 
                     sightsMagData.textContent = getProperty('sightsMag') === '-' ? '-' : `${getProperty('sightsMag')}×`;
 
-                    const recoilTotal = getProperty('recoilAmount')
-                    const recoilDir = getProperty('recoilDirAmount')
-                    recoilVertData.textContent = toPlace(recoilTotal * 1000 * recoilDir * recoilVertStar, 2);
-                    recoilHorizData.textContent = toPlace(recoilTotal * 1000 * (1 - recoilDir) * recoilHorizStar, 2);
+                    let recoilTotal = getProperty('recoilAmount');
+                    const recoilDir = getProperty('recoilDirAmount');
+                    if (recoilTotal !== '-' && recoilDir !== '-') {
+                        recoilTotal *= getProperty('recoilControlMult') === '-' ? 1 : getProperty('recoilControlMult');
+                        recoilVertData.textContent = toPlace(recoilTotal * 1000 * recoilDir * recoilVertStar, 2);
+                        recoilHorizData.textContent = toPlace(recoilTotal * 1000 * (1 - recoilDir) * recoilHorizStar, 2);
+                    }
                     crawlRecoilData.textContent = getProperty('proneRecoilMult') === '-' ? '-' : `${getProperty('proneRecoilMult')}×`;
                     recoilRightBiasData.textContent = getProperty('recoilDir') === '-' ? '-' : `${getProperty('recoilDir') * 50} ${translate('degrees')}`;;
 
-                    ammoFile = getProperty('bullets').shells.split('/');
+                    ammoFile = (Array.isArray(getProperty('bullets')) ? getProperty('bullets')[0] : getProperty('bullets')).shells.split('/');
                     ammoFile = ammoFile[ammoFile.length - 1];
                     [ammoData.textContent] = ammoFile.split('.');
                     for (let k = 1; k < ammoFile.split('.').length - 1; k++) {
@@ -438,52 +450,105 @@
                             tableRow2.append(tabledata);
                         }
                     }
-                    const cumDamage = getAmmoProperty('cumulativeDamage');
-                    if (cumDamage !== '-') {
-                        // damage on contact to vehicles
-                        let tableheader = document.createElement('th');
-                        tableheader.textContent = translate('contactVehicle');
-                        tableRow5.append(tableheader);
-                        let tabledata = document.createElement('td');
-                        tabledata.textContent = cumDamage.damage;
-                        tableRow6.append(tabledata);
 
+                    if (getAmmoProperty('explodeHitPower') !== '-' || getAmmoProperty('splashDamage') !== '-') {
+                        const hasEHP = getAmmoProperty('explodeHitPower') !== '-';
+                        const hasSplash = getAmmoProperty('splashDamage') !== '-';
                         // damage at distance to people
-                        tableheader = document.createElement('th');
+
+                        let tableheader = document.createElement('th');
                         tableheader.textContent = `0${translate('meters')}`;
                         tableRow1.append(tableheader);
-                        tabledata = document.createElement('td');
-                        tabledata.textContent = getAmmoProperty('explodeHitPower');
-                        tableRow2.append(tabledata);
+                        if (hasEHP) {
+                            let tabledata = document.createElement('td');
+                            tabledata.textContent = getAmmoProperty('explodeHitPower');
+                            tableRow2.append(tabledata);
+                        }
+                        if (hasSplash) {
+                            tabledata = document.createElement('td');
+                            tabledata.textContent = getAmmoProperty('splashDamage').damage;
+                            tableRow2_5.append(tabledata);
+                        }
 
-                        tableheader = document.createElement('th');
-                        tableheader.textContent = `${cumDamage.distance}${translate('meters')}`;;
-                        tableRow1.append(tableheader);
-                        tabledata = document.createElement('td');
-                        tabledata.textContent = 0;
-                        tableRow2.append(tabledata);
-
-                        // armor
-                        tableheader = document.createElement('th');
-                        tableheader.textContent = translate('contactVehicle');
-                        tableRow3.append(tableheader);
-                        tabledata = document.createElement('td');
-                        tabledata.textContent = cumDamage.armorPower + translate('millimeters');
-                        tableRow4.append(tabledata);
-                    } else {
-                        const armorpower = getAmmoProperty('armorpower');
-                        if (armorpower !== '-') {
-                            const keys = Object.keys(armorpower);
-                            for (let k = 0; k < keys.length; k++) {
-                                const tableheader = document.createElement('th');
-                                tableheader.textContent = getAmmoProperty('armorpower')[keys[k]][1] + translate('meters');
-                                tableRow3.append(tableheader);
-                                const tabledata = document.createElement('td');
-                                tabledata.textContent = (getAmmoProperty('armorpower')[keys[k]][0]) + translate('millimeters');
-                                tableRow4.append(tabledata);
+                        if (hasEHP) {
+                            tableheader = document.createElement('th');
+                            tableheader.textContent = `${getAmmoProperty('explodeRadius')[1]}${translate('meters')}`;
+                            tableRow1.append(tableheader);
+                            tabledata = document.createElement('td');
+                            tabledata.textContent = 0;
+                            tableRow2.append(tabledata);
+                            if (hasSplash) {
+                                tabledata = document.createElement('td');
+                                tableRow2_5.append(tabledata);
                             }
                         }
+
+                        if (hasSplash) {
+                            tableheader = document.createElement('th');
+                            tableheader.textContent = `${getAmmoProperty('splashDamage').radius[1]}${translate('meters')}`;
+                            tableRow1.append(tableheader);
+                            if (hasEHP) {
+                                tabledata = document.createElement('td');
+                                tableRow2.append(tabledata);
+                            }
+                            tabledata = document.createElement('td');
+                            tabledata.textContent = 0;
+                            tableRow2_5.append(tabledata);
+                        }
                     }
+
+                    const cumDamage = getAmmoProperty('cumulativeDamage');
+                    if (cumDamage !== '-') {
+                        // armor
+                        let tableheader = document.createElement('th');
+                        tableheader.textContent = translate('contactVehicle');
+                        tableRow3.append(tableheader);
+                        let tabledata = document.createElement('td');
+                        tabledata.textContent = `${cumDamage.armorPower}${translate('millimeters')}`;
+                        tableRow4.append(tabledata);
+
+                        // heat
+                        tableheader = document.createElement('th');
+                        tableheader.textContent = translate('contactVehicle');
+                        tableRow5.append(tableheader);
+                        tabledata = document.createElement('td');
+                        tabledata.textContent = cumDamage.damage;
+                        tableRow6.append(tabledata);
+                    } else {
+                        // handle non-HEAT armor penetration
+                        let armorpower = getAmmoProperty('armorpower');
+                        if (armorpower !== '-') {
+                            if (armorpower !== '-') {
+                                const keys = Object.keys(armorpower);
+                                for (let k = 0; k < keys.length; k++) {
+                                    const tableheader = document.createElement('th');
+                                    tableheader.textContent = `${getAmmoProperty('armorpower')[keys[k]][1]}${translate('meters')}`;
+                                    tableRow3.append(tableheader);
+                                    const tabledata = document.createElement('td');
+                                    tabledata.textContent = `${getAmmoProperty('armorpower')[keys[k]][0]}${translate('millimeters')}`;
+                                    tableRow4.append(tabledata);
+                                }
+                            }
+                        }
+                        // handle grenades
+                        armorpower = getAmmoProperty('explodeArmorPower');
+                        if (armorpower !== '-') {
+                            tableheader = document.createElement('th');
+                            tableheader.textContent = `0${translate('meters')}`;
+                            tableRow3.append(tableheader);
+                            tabledata = document.createElement('td');
+                            tabledata.textContent = `${getAmmoProperty('explodeArmorPower')}${translate('millimeters')}`;
+                            tableRow4.append(tabledata);
+
+                            tableheader = document.createElement('th');
+                            tableheader.textContent = `${getAmmoProperty('explodeRadius')[1]}${translate('meters')}`;
+                            tableRow3.append(tableheader);
+                            tabledata = document.createElement('td');
+                            tabledata.textContent = `0${translate('millimeters')}`;
+                            tableRow4.append(tabledata);
+                        }
+                    }
+
                     window.refreshStars = true;
                 };
             }

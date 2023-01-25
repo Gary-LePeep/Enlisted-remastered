@@ -17555,5 +17555,69 @@
         "sightsMag": 1.5,
         "flamethrowerDPS": null,
         "flamethrowerMaxLength": null
+    },
+    {
+        "name": "explosion_pack",
+        "explosive": "explosive",
+        "weight": 3.5,
+        "bullets": {
+            "shells": "explosion_pack"
+        }
+    },
+    {
+        "name": "grenade",
+        "explosive": "explosive",
+        "weight": 0.6,
+        "bullets": {
+            "shells": "grenade"
+        }
+    },
+    {
+        "name": "molotov_grenade",
+        "explosive": "explosive",
+        "weight": 1.0,
+        "bullets": {
+            "shells": "molotov_grenade"
+        }
+    },
+    {
+        "name": "incendiary_grenade",
+        "explosive": "explosive",
+        "weight": 0.5,
+        "bullets": {
+            "shells": "incendiary_grenade"
+        }
+    },
+    {
+        "name": "impact_grenade",
+        "explosive": "explosive",
+        "weight": 1.0,
+        "bullets": {
+            "shells": "impact_grenade"
+        }
+    },
+    {
+        "name": "antipersonnel_mine",
+        "explosive": "explosive",
+        "weight": 0.6,
+        "bullets": {
+            "shells": "antipersonnel_mine"
+        }
+    },
+    {
+        "name": "antitank_mine",
+        "explosive": "explosive",
+        "weight": 15.0,
+        "bullets": {
+            "shells": "antitank_mine"
+        }
+    },
+    {
+        "name": "tnt_block",
+        "explosive": "explosive",
+        "weight": 15.0,
+        "bullets": {
+            "shells": "tnt_block"
+        }
     }
 ]
