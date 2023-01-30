@@ -368,11 +368,11 @@ const WEAPONS_META = [
 
 
 const STARUPGRADES = {
-    assault_rifle: [
+    "assault rifle": [
         {},
         { dev: 0.85 },
         { recoilVert: 0.85, recoilHoriz: 0.85 },
-        { damage: 1.10, dev: 0.85 },
+        { damage: 1.10, dev: 0.7225 },
     ],
     flamethrower: [
         {},
@@ -383,7 +383,7 @@ const STARUPGRADES = {
         { rpm: 1.15, reload: 0.85 },
         { damage: 1.15, dev: 0.85 },
     ],
-    machine: [
+    "machine gun": [
         {},
         { reload: 0.85 },
         { rpm: 1.10 },
@@ -402,13 +402,13 @@ const STARUPGRADES = {
         {},
         { dev: 0.85 },
         { rpm: 1.15 },
-        { damage: 1.15, dev: 0.8 },
+        { damage: 1.15, dev: 0.68 },
     ],
     semiauto: [
         {},
         { dev: 0.85 },
         { rpm: 1.10, recoilVert: 0.85, recoilHoriz: 0.85 },
-        { damage: 1.20, dev: 0.85 },
+        { damage: 1.20, dev: 0.7225 },
     ],
     shotgun: [
         {},
@@ -416,7 +416,7 @@ const STARUPGRADES = {
         { dev: 0.85 },
         { damage: 1.10 },
     ],
-    submachine: [
+    "submachine gun": [
         {},
         { reload: 0.90 },
         { rpm: 1.15, recoilVert: 0.9, recoilHoriz: 0.9 },
@@ -425,15 +425,15 @@ const STARUPGRADES = {
 };
 
 const RANGES = {
-    assault_rifle: 300,
+    "assault rifle": 300,
     flamethrower: 37.5,
     launcher: 75,
-    machine: 300,
+    "machine gun": 300,
     melee: 15,
     mortar: 300,
     pistol: 75,
     rifle: 300,
     semiauto: 300,
     shotgun: 75,
-    submachine: 75,
+    "submachine gun": 75,
 };

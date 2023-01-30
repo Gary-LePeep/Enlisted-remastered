@@ -719,8 +719,9 @@
     "page.soldierStats.soldierDamageBody": [
         "Hover over each body part to see its damage multiplier.",
         "",
-        "Note: Helmets do not reduce damage.",
-        "Only Soviet body armor does."
+        "Note: Soviet body armor reduces damage to the mid-torso by 10%.",
+        "Helmets reduce damage to the full head by 10%,",
+        "but around half of helmets randomly don~t offer protection."
     ],
     "page.soldierStats.soldierDamageHeader": "Soldier Damage Diagram",
     "page.soldierStats.table.bronzeSale": "Bronze orders per sale",

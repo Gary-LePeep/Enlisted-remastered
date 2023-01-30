@@ -166,6 +166,69 @@
         const categorylist = document.createElement('ul');
         colorButton.append(categorylist);
 
+        // Stars Dropdown
+        const starsDropdownContainer = document.createElement('div');
+        starsDropdownContainer.style = `background-color:${colorBG}; text-align: center; padding: 15px`;
+        colorButtonContainer.append(starsDropdownContainer);
+        const starsDropdown = document.createElement('select');
+        starsDropdown.id = 'starsDropdown';
+        starsDropdownContainer.append(starsDropdown);
+        const defaultOption = document.createElement('option');
+        defaultOption.textContent = '☆☆☆☆☆';
+        starsDropdown.append(defaultOption);
+        starsDropdown.data = {};
+        starsDropdown.onchange = () => {
+            const type = typeData.textContent
+            if (type === '-') {
+                return;
+            }
+            const starList = STARUPGRADES[type]
+
+            // reset values
+            for (let i = 0; i < Object.keys(starsDropdown.data.damage).length - 1; i++) {
+                tableRow2.childNodes[i].textContent = toPlace(starsDropdown.data.damage[i], 3);
+            }
+            dispersionData.textContent = dispersionData.textContent === '-' ? '-' : toPlace(starsDropdown.data.dev, 3);
+            rpmData.textContent = rpmData.textContent === '-' ? '-' : toPlace(starsDropdown.data.rpm, 1);
+            recoilVertData.textContent = recoilVertData.textContent === '-' ? '-' : toPlace(starsDropdown.data.recoilVert, 2);
+            recoilHorizData.textContent = recoilHorizData.textContent === '-' ? '-' : toPlace(starsDropdown.data.recoilHoriz, 2);
+            singleReloadPrepareData.textContent = singleReloadPrepareData.textContent === '-' ? '-' : toPlace(starsDropdown.data.reload.singleReloadPrepare, 2);
+            singleReloadLoopData.textContent = singleReloadLoopData.textContent === '-' ? '-' : toPlace(starsDropdown.data.reload.singleReloadLoop, 2);
+            singleReloadPostData.textContent = singleReloadPostData.textContent === '-' ? '-' : toPlace(starsDropdown.data.reload.singleReloadPost, 2);
+            reloadData.textContent = reloadData.textContent === '-' ? '-' : toPlace(starsDropdown.data.reload.reload, 2);
+            reloadAltData.textContent = reloadAltData.textContent === '-' ? '-' : toPlace(starsDropdown.data.reload.altReload, 2);
+            reloadDualMagData.textContent = reloadDualMagData.textContent === '-' ? '-' : toPlace(starsDropdown.data.reload.reloadDualMag, 2);
+            console.log(starsDropdown.data)
+            for (let i = 0; i <= starsDropdown.selectedIndex; i++) {
+                for (let j in starList[i]) {
+                    const starKey = j;
+                    const starVal = starList[i][j];
+
+                    // set values
+                    if (starKey === 'damage') {
+                        for (let i = 0; i < Object.keys(starsDropdown.data.damage).length - 1; i++) {
+                            tableRow2.childNodes[i].textContent = toPlace(starsDropdown.data.damage[i] * starVal, 3);
+                        }
+                    } else if (starKey === 'dev') {
+                        dispersionData.textContent = dispersionData.textContent === '-' ? '-' : toPlace(starsDropdown.data.dev * starVal, 3);
+                    } else if (starKey === 'rpm') {
+                        rpmData.textContent = rpmData.textContent === '-' ? '-' : toPlace(starsDropdown.data.rpm * starVal, 1);
+                    } else if (starKey === 'recoilVert') {
+                        recoilVertData.textContent = recoilVertData.textContent === '-' ? '-' : toPlace(starsDropdown.data.recoilVert * starVal, 2);
+                    } else if (starKey === 'recoilHoriz') {
+                        recoilHorizData.textContent = recoilHorizData.textContent === '-' ? '-' : toPlace(starsDropdown.data.recoilHoriz * starVal, 2);
+                    } else if (starKey === 'reload') {
+                        singleReloadPrepareData.textContent = singleReloadPrepareData.textContent === '-' ? '-' : toPlace(starsDropdown.data.reload.singleReloadPrepare * starVal, 2);
+                        singleReloadLoopData.textContent = singleReloadLoopData.textContent === '-' ? '-' : toPlace(starsDropdown.data.reload.singleReloadLoop * starVal, 2);
+                        singleReloadPostData.textContent = singleReloadPostData.textContent === '-' ? '-' : toPlace(starsDropdown.data.reload.singleReloadPost * starVal, 2);
+                        reloadData.textContent = reloadData.textContent === '-' ? '-' : toPlace(starsDropdown.data.reload.reload * starVal, 2);
+                        reloadAltData.textContent = reloadAltData.textContent === '-' ? '-' : toPlace(starsDropdown.data.reload.reloadAlt * starVal, 2);
+                        reloadDualMagData.textContent = reloadDualMagData.textContent === '-' ? '-' : toPlace(starsDropdown.data.reload.reloadDualMag * starVal, 2);
+                    }
+                }
+            }
+        };
+
         // Add all unavailable weapons
         for (weapon of WEAPONS_JSON) {
             let weaponExists = false;
@@ -234,11 +297,6 @@
                     magazineNameData.textContent = '-';
                     magazineSizeData.textContent = '-';
                     recoilRightBiasData.textContent = '-';
-
-                    if (window.refreshStars) {
-                        //starsDropdown.textContent = '';
-                        //starsDropdown.append(defaultOption);
-                    }
 
                     window.newWeaponClicked = false;
                 }
@@ -310,49 +368,12 @@
                     typeData.textContent = getProperty('type') === '-' ? '-' : getProperty('type').replace(/_/g, ' ');
                     subtypeData.textContent = getProperty('stat') === '-' ? '-' : getProperty('stat').replace(/_/g, ' ');
 
-                    // create stars only on weapon change
-
-                    let damageStar = 1;
-                    let dispersionStar = 1;
-                    let rpmStar = 1;
-                    let recoilVertStar = 1;
-                    let recoilHorizStar = 1;
-                    let reloadStar = 1;
-                    /*
-                    if (window.refreshStars) {
+                    if (typeData.textContent !== '-') {
                         starsDropdown.textContent = '';
-                        for (let k = 0; k < STARUPGRADES[wepType].length; k++) {
+                        for (let k = 0; k < STARUPGRADES[typeData.textContent].length; k++) {
                             starsDropdown.append(translate('★'.repeat(k + 1), 'option'));
                         }
                     }
-
-                    // Apply star modifiers
-
-                    
-
-                    const stars = document.getElementById('starsDropdown').value.split('★').length - 2;
-                    for (let k = stars; k >= 0; k--) {
-                        const effects = Object.keys(STARUPGRADES[wepType][k]);
-                        for (let l = 0; l < effects.length; l++) {
-                            if (effects[l] === 'damage') {
-                                damageStar *= STARUPGRADES[wepType][k][effects[l]];
-                            } else if (effects[l] === 'dev') {
-                                dispersionStar *= STARUPGRADES[wepType][k][effects[l]];
-                            } else if (effects[l] === 'rpm') {
-                                rpmStar *= STARUPGRADES[wepType][k][effects[l]];
-                            } else if (effects[l] === 'recoilVert') {
-                                recoilVertStar *= STARUPGRADES[wepType][k][effects[l]];
-                            } else if (effects[l] === 'recoilHoriz') {
-                                recoilHorizStar *= STARUPGRADES[wepType][k][effects[l]];
-                            } else if (effects[l] === 'reload') {
-                                reloadStar *= STARUPGRADES[wepType][k][effects[l]];
-                            } else {
-                                // eslint-disable-next-line no-alert
-                                alert(`${effects[l]} , ${STARUPGRADES[wepType][k][effects[l]]}`);
-                            }
-                        }
-                    }
-                    */
 
                     weightData.textContent = getProperty('weight') === '-' ? '' : `${getProperty('weight')}${translate('kg')}`;
                     const firingModes = getProperty('firingModes')
@@ -365,20 +386,29 @@
                         firingModeData.textContent = translate(`firingMode.${firingModes.mode}`);
                     }
                     if (getProperty('rps') !== '-') {
-                        rpmData.textContent = toPlace(getProperty('rps') * 60 * rpmStar, 1);
+                        rpmData.textContent = toPlace(getProperty('rps') * 60, 1);
+                        starsDropdown.data.rpm = getProperty('rps') * 60;
                     }
-                    if (getProperty('rps') !== '-') {
-                        dispersionData.textContent = toPlace(getProperty('dispersion') * dispersionStar, 2);
+                    if (getProperty('dispersion') !== '-') {
+                        dispersionData.textContent = toPlace(getProperty('dispersion'), 3);
+                        starsDropdown.data.dev = getProperty('dispersion');
                     }
                     zeroDistanceData.textContent = getProperty('zeroDist') === '-' ? '-' : `${getProperty('zeroDist') * 1000}${translate('meters')}`;;
-                    singleReloadPrepareData.textContent = getProperty('singleReloadPrep') === '-' ? '-' : toPlace(getProperty('singleReloadPrep') * reloadStar, 2);
-                    singleReloadLoopData.textContent = getProperty('singleReloadLoop') === '-' ? '-' : toPlace(getProperty('singleReloadLoop') * reloadStar, 2);
-                    singleReloadPostData.textContent = getProperty('singleReloadPost') === '-' ? '-' : toPlace(getProperty('singleReloadPost') * reloadStar, 2);
+                    starsDropdown.data.reload = {};
+                    singleReloadPrepareData.textContent = getProperty('singleReloadPrep') === '-' ? '-' : toPlace(getProperty('singleReloadPrep'), 2);
+                    starsDropdown.data.reload.singleReloadPrepare = getProperty('singleReloadPrep');
+                    singleReloadLoopData.textContent = getProperty('singleReloadLoop') === '-' ? '-' : toPlace(getProperty('singleReloadLoop'), 2);
+                    starsDropdown.data.reload.singleReloadLoop = getProperty('singleReloadLoop');
+                    singleReloadPostData.textContent = getProperty('singleReloadPost') === '-' ? '-' : toPlace(getProperty('singleReloadPost'), 2);
+                    starsDropdown.data.reload.singleReloadPost = getProperty('singleReloadPost');
                     if (getProperty('reloadSingle') != true) {
-                        reloadData.textContent = getProperty('reload') === '-' ? '-' : toPlace(getProperty('reload') * reloadStar, 2);
+                        reloadData.textContent = getProperty('reload') === '-' ? '-' : toPlace(getProperty('reload'), 2);
+                        starsDropdown.data.reload.reload = getProperty('reload');
                     }
-                    reloadAltData.textContent = getProperty('altReload') === '-' ? '-' : toPlace(getProperty('altReload') * reloadStar, 2);
-                    reloadDualMagData.textContent = getProperty('dualMagReload') === '-' ? '-' : toPlace(getProperty('dualMagReload') * reloadStar, 2);
+                    reloadAltData.textContent = getProperty('altReload') === '-' ? '-' : toPlace(getProperty('altReload'), 2);
+                    starsDropdown.data.reload.altReload = getProperty('altReload');
+                    reloadDualMagData.textContent = getProperty('dualMagReload') === '-' ? '-' : toPlace(getProperty('dualMagReload'), 2);
+                    starsDropdown.data.reload.dualMagReload = getProperty('dualMagReload');
 
                     sightsMagData.textContent = getProperty('sightsMag') === '-' ? '-' : `${getProperty('sightsMag')}×`;
 
@@ -386,8 +416,10 @@
                     const recoilDir = getProperty('recoilDirAmount');
                     if (recoilTotal !== '-' && recoilDir !== '-') {
                         recoilTotal *= getProperty('recoilControlMult') === '-' ? 1 : getProperty('recoilControlMult');
-                        recoilVertData.textContent = toPlace(recoilTotal * 1000 * recoilDir * recoilVertStar, 2);
-                        recoilHorizData.textContent = toPlace(recoilTotal * 1000 * (1 - recoilDir) * recoilHorizStar, 2);
+                        recoilVertData.textContent = toPlace(recoilTotal * 1000 * recoilDir, 2);
+                        starsDropdown.data.recoilVert = recoilTotal * 1000 * recoilDir;
+                        recoilHorizData.textContent = toPlace(recoilTotal * 1000 * (1 - recoilDir), 2);
+                        starsDropdown.data.recoilHoriz = recoilTotal * 1000 * (1 - recoilDir);
                     }
                     crawlRecoilData.textContent = getProperty('proneRecoilMult') === '-' ? '-' : `${getProperty('proneRecoilMult')}×`;
                     recoilRightBiasData.textContent = getProperty('recoilDir') === '-' ? '-' : `${getProperty('recoilDir') * 50} ${translate('degrees')}`;;
@@ -402,7 +434,7 @@
                     ammoJson = BULLETS_JSON[ammoData.textContent];
 
                     const magazineStat = getProperty('magazineName');
-                    magazineNameData.textContent = translate(`item.${Array.isArray(magazineStat) ? magazineStat[0].ammoHolders : magazineStat.ammoHolders}`);
+                    magazineNameData.textContent = translate(`item.${Array.isArray(magazineStat) ? magazineStat[0].ammoHolders : magazineStat.ammoHolders}`).replace('item.', '');
                     magazineSizeData.textContent = getProperty('magazineSize');
 
                     // damage just for flamethrowers done here
@@ -428,6 +460,7 @@
                     // damage
                     const numBullets = getAmmoProperty('spawn');
                     const hitpower = getAmmoProperty('hitpower');
+                    starsDropdown.data.damage = {}
                     if (hitpower !== '-') {
                         const keys = Object.keys(hitpower);
                         const hitmult = getAmmoProperty('hitPowerMult');
@@ -446,7 +479,8 @@
                                     tabledata.textContent += `(${numBullets.minCount} - ${numBullets.maxCount}) × `;
                                 }
                             }
-                            tabledata.textContent += toPlace(hitpower[keys[k]][0] * damageStar * (hitmult === '-' ? 1 : hitmult) * (gunDamageMult === '-' ? 1 : gunDamageMult), 3);
+                            tabledata.textContent += toPlace(hitpower[keys[k]][0] * (hitmult === '-' ? 1 : hitmult) * (gunDamageMult === '-' ? 1 : gunDamageMult), 3);
+                            starsDropdown.data.damage[k] = hitpower[keys[k]][0] * (hitmult === '-' ? 1 : hitmult) * (gunDamageMult === '-' ? 1 : gunDamageMult);
                             tableRow2.append(tabledata);
                         }
                     }
@@ -548,8 +582,6 @@
                             tableRow4.append(tabledata);
                         }
                     }
-
-                    window.refreshStars = true;
                 };
             }
         }
