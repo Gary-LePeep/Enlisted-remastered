@@ -65,10 +65,11 @@
         const weightData = createWeaponRow(100, 'page.datamine.weight', metaDiv);
         const firingModeData = createWeaponRow(120, 'page.datamine.firingMode', metaDiv);
         const zeroDistanceData = createWeaponRow(140, 'page.datamine.zeroDistance', metaDiv);
+        const adsSpeedData = createWeaponRow(160, 'page.datamine.adsSpeed', metaDiv);
 
 
         // Bullets data
-        bulletsDiv = createWeaponStatsDiv(220, 0, translate('page.datamine.bullets.header'));
+        bulletsDiv = createWeaponStatsDiv(240, 0, translate('page.datamine.bullets.header'));
         const magazineNameData = createWeaponRow(0, 'page.datamine.magazineName', bulletsDiv);
         const magazineSizeData = createWeaponRow(20, 'page.datamine.magazineSize', bulletsDiv);
         const ammoData = createWeaponRow(40, 'page.datamine.ammo', bulletsDiv);
@@ -78,7 +79,7 @@
         const bulletSpeedData = createWeaponRow(120, 'page.datamine.bulletSpeed', bulletsDiv);
 
         // Dispersion & Recoil data
-        disRecDiv = createWeaponStatsDiv(420, 0, translate('page.datamine.dispersionRecoil.header'));
+        disRecDiv = createWeaponStatsDiv(440, 0, translate('page.datamine.dispersionRecoil.header'));
         const dispersionData = createWeaponRow(0, 'page.datamine.dispersion', disRecDiv);
         const recoilVertData = createWeaponRow(20, 'page.datamine.recoilVert', disRecDiv);
         const recoilHorizData = createWeaponRow(40, 'page.datamine.recoilHoriz', disRecDiv);
@@ -86,7 +87,7 @@
         const crawlRecoilData = createWeaponRow(80, 'page.datamine.crawlRecoil', disRecDiv);
 
         // Reload data
-        reloadDiv = createWeaponStatsDiv(580, 0, translate('page.datamine.reload.header'));
+        reloadDiv = createWeaponStatsDiv(600, 0, translate('page.datamine.reload.header'));
         const singleReloadPrepareData = createWeaponRow(0, 'page.datamine.singleReloadPrepare', reloadDiv);
         const singleReloadLoopData = createWeaponRow(20, 'page.datamine.singleReloadLoop', reloadDiv);
         const singleReloadPostData = createWeaponRow(40, 'page.datamine.singleReloadPost', reloadDiv);
@@ -95,7 +96,7 @@
         const reloadDualMagData = createWeaponRow(100, 'page.datamine.reloadDualMag', reloadDiv);
 
         // Accessories data
-        accessoriesDiv = createWeaponStatsDiv(740, 0, translate('page.datamine.accessories.header'));
+        accessoriesDiv = createWeaponStatsDiv(500, 550, translate('page.datamine.accessories.header'));
         const sightsMagData = createWeaponRow(0, 'page.datamine.sightsMag', accessoriesDiv);
 
         //Disclaimer
@@ -285,6 +286,7 @@
                     singleReloadLoopData.textContent = '-';
                     singleReloadPostData.textContent = '-';
                     zeroDistanceData.textContent = '-';
+                    adsSpeedData.textContent = '-';
                     recoilVertData.textContent = '-';
                     recoilHorizData.textContent = '-';
                     reloadData.textContent = '-';
@@ -393,7 +395,8 @@
                         dispersionData.textContent = toPlace(getProperty('dispersion'), 3);
                         starsDropdown.data.dev = getProperty('dispersion');
                     }
-                    zeroDistanceData.textContent = getProperty('zeroDist') === '-' ? '-' : `${getProperty('zeroDist') * 1000}${translate('meters')}`;;
+                    zeroDistanceData.textContent = getProperty('zeroDist') === '-' ? '-' : `${getProperty('zeroDist') * 1000}${translate('meters')}`;
+                    adsSpeedData.textContent = getProperty('adsSpeedMult');
                     starsDropdown.data.reload = {};
                     singleReloadPrepareData.textContent = getProperty('singleReloadPrep') === '-' ? '-' : toPlace(getProperty('singleReloadPrep'), 2);
                     starsDropdown.data.reload.singleReloadPrepare = getProperty('singleReloadPrep');
@@ -455,7 +458,7 @@
                     }
                     effRangeData.textContent = getAmmoProperty('effectiveDistance');
                     maxRangeData.textContent = getAmmoProperty('maxDistance');
-                    bulletSpeedData.textContent = getAmmoProperty('speed');
+                    bulletSpeedData.textContent = getAmmoProperty('speed') === '-' ? '-' : `${getAmmoProperty('speed')}${translate('mps')}`;
 
                     // damage
                     const numBullets = getAmmoProperty('spawn');
