@@ -11,19 +11,267 @@
 <body style="background-color:rgb(39, 55, 61);"></body>
 
 <script src="../static/common.js"></script>
-
-
-<script src="//code.jquery.com/jquery-1.10.2.js"></script>
-<script src="../static/fetch.js"></script>
-<script src="https://code.jquery.com/ui/1.13.1/jquery-ui.min.js" integrity="sha256-eTyxS0rkjpLEo16uXTS0uVCS4815lc40K2iVpWDvdSY=" crossorigin="anonymous"></script>
-
+<script src="../static/datamine/weapons-meta.js"></script>
+<script src="../static/chart.min.js"></script>
+<script src="../static/chartjs-plugin-annotation.min.js"></script>
 
 <body>
     <script>
         // TITLE BAR
         BODY.appendChild(translate('page.comparison.title', 'b', 'position: absolute; top:0px; left:115px; font-family: Trebuchet MS; width:1000px; font-size:50px; color: white; text-align:center;'));
         addButtons('comparison');
+
+        WEAPONS_JSON = readJSON('{{weaponsJson}}');
+        BULLETS_JSON = readJSON('{{bulletsJson}}');
+
+        // Color Dropdown
+        const btncolors = [colorGreen, colorRed, colorBlue, colorOrange];
+        const primary = document.createElement('nav');
+        primary.style = 'position: absolute; top: 65px;'
+        BODY.append(primary);
+        for (let h = 3; h >= 0; h--) {
+            const primarylist = document.createElement('ul');
+            primarylist.style = `position: absolute; top: 0px; left: ${250 * h}px;`
+            primary.append(primarylist);
+
+            const colorButtonContainer = document.createElement('li');
+            primarylist.append(colorButtonContainer);
+
+            const colorButton = document.createElement('li');
+            colorButton.className = `topbtn`;
+            colorButton.style.backgroundColor = btncolors[h];
+            colorButtonContainer.append(colorButton);
+
+            const colorButtonText = document.createElement('a');
+            colorButtonText.style = 'color: white; font-size:22px';
+            colorButtonText.text = `${translate('weapon')} ${h + 1}`;
+            colorButton.append(colorButtonText);
+
+            const categorylist = document.createElement('ul');
+            colorButton.append(categorylist);
+
+            // Stars Dropdown
+            const starsDropdownContainer = document.createElement('div');
+            starsDropdownContainer.style = `background-color:${colorBG}; text-align: center; padding: 15px`;
+            colorButtonContainer.append(starsDropdownContainer);
+            const starsDropdown = document.createElement('select');
+            starsDropdown.id = 'starsDropdown';
+            starsDropdownContainer.append(starsDropdown);
+            const defaultOption = document.createElement('option');
+            defaultOption.textContent = '☆☆☆☆☆';
+            starsDropdown.append(defaultOption);
+            starsDropdown.data = {};
+            starsDropdown.onchange = () => {
+                const type = typeData.textContent
+                if (type === '-') {
+                    return;
+                }
+                const starList = STARUPGRADES[type]
+
+                // reset values
+
+                for (let i = 0; i <= starsDropdown.selectedIndex; i++) {
+                    for (let j in starList[i]) {
+                        const starKey = j;
+                        const starVal = starList[i][j];
+
+                        // set values
+
+                    }
+                }
+            };
+
+            // Add all unavailable weapons
+            for (weapon of WEAPONS_JSON) {
+                let weaponExists = false;
+                for (category of WEAPONS_META) {
+                    if (!weaponExists) {
+                        for (existingWeapon of category.Weapons) {
+                            if (weapon.name === existingWeapon) {
+                                weaponExists = true;
+                                break;
+                            }
+                        }
+                    }
+                }
+                if (!weaponExists) {
+                    WEAPONS_META[WEAPONS_META.length - 1].Weapons.push(weapon.name);
+                }
+            }
+
+            // For each category
+            for (let i = -1; i < WEAPONS_META.length; i++) {
+                const categoryButton = document.createElement('li');
+                categoryButton.className = 'submenu';
+                categorylist.append(categoryButton);
+
+                const categoryButtonText = document.createElement('a');
+                categoryButtonText.text = i < 0 ? translate('remove') : translate(WEAPONS_META[i]['Category']);
+                categoryButton.append(categoryButtonText);
+
+                categoryButton.onclick = () => {
+                    // Click does nothing unless you're clicking on 'Remove' or you clicked on a weapon in a submenu
+                    if (categoryButtonText.text === translate('remove')) {
+                        // reset color button
+                        colorButtonText.text = `${translate('weapon')} ${h + 1}`;
+                    }
+                }
+
+                // Add all weapons to category
+                const weaponlist = document.createElement('ul');
+                categoryButton.append(weaponlist);
+
+                for (let j = 0; i >= 0 && j < WEAPONS_META[i].Weapons.length; j++) {
+                    const chosenWeapName = WEAPONS_META[i].Weapons[j];
+
+                    const weaponButton = document.createElement('li');
+                    weaponButton.className = 'link submenu';
+                    weaponlist.append(weaponButton);
+
+                    const weaponButtonText = document.createElement('a');
+                    weaponButtonText.text = translate(`item.${chosenWeapName}`);
+                    weaponButton.append(weaponButtonText);
+
+                    weaponButton.onclick = () => {
+                        categoryButton.onclick();
+
+                        // set color button name to selected weapon. Resize until it stays small
+                        colorButtonText.text = translate(`item.${chosenWeapName}`);
+                        while (colorButtonText.offsetWidth > 250) {
+                            colorButtonText.text = colorButtonText.text.replace('…', '');
+                            colorButtonText.text = colorButtonText.text.substring(0, colorButtonText.text.length - 1);
+                            colorButtonText.text += '…';
+                        }
+                    };
+                }
+            }
+        }
+        console.log(this[0].scrollHeight)
+        console.log(this.innerHeight())
     </script>
+    <canvas id="myChart"></canvas>
+    <img src="../static/img/gray.jpg" style="position:absolute; top:225px; left:10px; width:800px; height:400px;">
+    <div style="position:absolute; top:225px; left:10px; width:800px; height:400px;">
+      <canvas id="ttk-dpm-chart"></canvas>
+  
+      <script type="text/javascript">
+        Chart.defaults.color = '#cccccc';
+        Chart.defaults.borderColor = '#888888';
+        const indicatedValueData = {
+          type: 'line',
+          labels: [],
+          datasets: [{
+            label: `${translate('Weapon')} 1`,
+            backgroundColor: [colorGreen],
+            borderColor: [colorGreen],
+            borderWidth: 5,
+          },
+          {
+            label: `${translate('Weapon')} 2`,
+            backgroundColor: [colorRed],
+            borderColor: [colorRed],
+            borderWidth: 5,
+          },
+          {
+            label: `${translate('Weapon')} 3`,
+            backgroundColor: [colorBlue],
+            borderColor: [colorBlue],
+            borderWidth: 5,
+          },
+          {
+            label: `${translate('Weapon')} 4`,
+            backgroundColor: [colorOrange],
+            borderColor: [colorOrange],
+            borderWidth: 5,
+          }],
+        };
+        const opts = {
+          plugins: {
+            autocolors: false,
+            annotation: {
+              annotations: {
+                line1: {
+                  type: 'line',
+                  yMin: 10,
+                  yMax: 10,
+                  borderColor: 'rgb(255, 0, 0)',
+                  borderWidth: 0,
+                },
+              },
+            },
+          },
+          scales: {
+            y: {
+              beginAtZero: true,
+            },
+          },
+        };
+  
+        const chart = document.getElementById('ttk-dpm-chart').getContext('2d');
+        window.ttk_dpm_chart = new Chart(chart, { type: 'line', data: indicatedValueData, options: opts });
+      </script>
+    </div>
+  
+    <canvas id="scatterChart"></canvas>
+    <img src="../static/img/target.png" style="position:absolute; top:308px; left:1183px; width:537px; height:532px;">
+    <div style="position:absolute; top:300px; left:1200px; width:500px; height:523px;">
+      <canvas id="scatter-chart"></canvas>
+  
+      <script type="text/javascript">
+        Chart.defaults.color = '#ffffff';
+        Chart.defaults.borderColor = '#888888';
+        const scatterValueData = {
+          type: 'scatter',
+          labels: [],
+          datasets: [{
+            label: `${translate('Weapon')} 1`,
+            backgroundColor: [colorGreen],
+            borderColor: [colorGreen],
+            pointRadius: 7,
+          },
+          {
+            label: `${translate('Weapon')} 2`,
+            backgroundColor: [colorRed],
+            borderColor: [colorRed],
+            pointRadius: 7,
+          },
+          {
+            label: `${translate('Weapon')} 3`,
+            backgroundColor: [colorBlue],
+            borderColor: [colorBlue],
+            pointRadius: 7,
+          },
+          {
+            label: `${translate('Weapon')} 4`,
+            backgroundColor: [colorOrange],
+            borderColor: [colorOrange],
+            pointRadius: 7,
+          }],
+        };
+        const scatterOpts = {
+          maintainAspectRatio: false,
+          events: [],
+          scales: {
+            x: {
+              type: 'linear',
+              position: 'bottom',
+              min: -9.5,
+              max: 9.5,
+              display: false,
+            },
+            y: {
+              type: 'linear',
+              min: -9.5,
+              max: 9.5,
+              display: false,
+            },
+          },
+        };
+  
+        const scatterChart = document.getElementById('scatter-chart').getContext('2d');
+        window.scatter_chart = new Chart(scatterChart, { type: 'scatter', data: scatterValueData, options: scatterOpts });
+      </script>
+    </div>
 </body>
 
 </html>

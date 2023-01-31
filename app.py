@@ -26,14 +26,15 @@ def get_language():
 
 @app.route("/")
 def home():
-    language_json = get_language()
-    return render_template('comparison.html', language=language_json)
+    return comparison()
 
 
 @app.route("/comparison")
 def comparison():
     language_json = get_language()
-    return render_template('comparison.html', language=language_json)
+    weapons_json = json.load(open('static/datamine/weapons.json'))
+    bullets_json = json.load(open('static/datamine/bullets.json'))
+    return render_template('comparison.html', language=language_json, weaponsJson=weapons_json, bulletsJson=bullets_json)
 
 
 @app.route("/datamine")

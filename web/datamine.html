@@ -13,13 +13,6 @@
 <script src="../static/common.js"></script>
 <script src="../static/datamine/weapons-meta.js"></script>
 
-
-<script src="//code.jquery.com/jquery-1.10.2.js"></script>
-<script src="../static/fetch.js"></script>
-<script src="https://code.jquery.com/ui/1.13.1/jquery-ui.min.js"
-    integrity="sha256-eTyxS0rkjpLEo16uXTS0uVCS4815lc40K2iVpWDvdSY=" crossorigin="anonymous"></script>
-
-
 <body>
     <script>
         // TITLE BAR
@@ -260,9 +253,9 @@
 
             categoryButton.onclick = () => {
                 // Click does nothing unless you're clicking on 'Remove' or you clicked on a weapon in a submenu
-                if (window.newWeaponClicked || categoryButtonText.text === translate('remove')) {
+                if (categoryButtonText.text === translate('remove')) {
                     // reset color button
-                    colorButtonText.text = translate('weapon')
+                    colorButtonText.text = translate('weapon');
                     gunNameData.textContent = '-';
                     gunIGNData.textContent = '-';
                     akaData.textContent = '-';
@@ -299,8 +292,6 @@
                     magazineNameData.textContent = '-';
                     magazineSizeData.textContent = '-';
                     recoilRightBiasData.textContent = '-';
-
-                    window.newWeaponClicked = false;
                 }
             }
 
@@ -320,7 +311,6 @@
                 weaponButton.append(weaponButtonText);
 
                 weaponButton.onclick = () => {
-                    window.newWeaponClicked = true;
                     categoryButton.onclick();
 
                     // set color button name to selected weapon. Resize until it stays small

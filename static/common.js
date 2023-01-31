@@ -19,7 +19,7 @@ function getScrollbarWidth() {
     return scrollbarWidth;
 }
 
-let FULLWIDE = 1920;
+let FULLWIDE = 1920 + getScrollbarWidth();
 const BODY = document.getElementsByTagName('BODY')[0];
 
 function recalibrateSize() {
@@ -110,6 +110,10 @@ const colorTitle = '#1F2C32';
 const colorTitleLight = '#29363C';
 const colorTitleSelect = '#010E14';
 const colorTitleSelectLight = '#0B181E';
+const colorGreen = '#009e73';
+const colorRed = '#cf3437';
+const colorBlue = '#474bb6';
+const colorOrange = '#d55c05';
 
 // TITLE BAR
 const titleBar = document.createElement('div');
@@ -123,7 +127,7 @@ BODY.append(logo);
 
 // Language dropdown
 const langButton = document.createElement('button');
-langButton.style = `position: relative; top: 0px; left: 1770px; width: 150px; height: 65px; font-size:23px; font-family: Trebuchet MS; background-color:${colorTitle}; color: white; border-color:${colorTitleLight}`
+langButton.style = `position: relative; top: 0px; left: 1768px; width: ${FULLWIDE - 1768}px; height: 65px; font-size:23px; font-family: Trebuchet MS; background-color:${colorTitle}; color: white; border-color:${colorTitleLight}; text-align:left;`
 langButton.innerHTML = `🌐 ${translate('language')}`;
 titleBar.append(langButton);
 
@@ -144,7 +148,7 @@ titleBar.append(langPanel);
 
 // Add languages
 const EnButton = document.createElement('button');
-EnButton.style = `position: relative; top:0px; left:1770px; width:150px; height:50px; font-size:24px; font-family: Trebuchet MS; color: white; background-color:${LANG === 'English' ? colorTitleSelect : colorTitle}; border-color:${LANG === 'English' ? colorTitleSelectLight : colorTitleLight}; text-align:left;`;
+EnButton.style = `position: relative; top:0px; left:1768px; width:${FULLWIDE - 1768}px; height:50px; font-size:24px; font-family: Trebuchet MS; color: white; background-color:${LANG === 'English' ? colorTitleSelect : colorTitle}; border-color:${LANG === 'English' ? colorTitleSelectLight : colorTitleLight}; text-align:left;`;
 EnButton.innerHTML = '      English';
 EnButton.addEventListener("click", function () {
     if (LANG !== 'English') {
@@ -159,7 +163,7 @@ EnButton.append(EnFlag);
 langPanel.append(EnButton);
 
 const RuButton = document.createElement('button');
-RuButton.style = `position: relative; top:0px; left:1770px; width:150px; height:50px; font-size:24px; font-family: Trebuchet MS; color: white; background-color:${LANG === 'Russian' ? colorTitleSelect : colorTitle}; border-color:${LANG === 'Russian' ? colorTitleSelectLight : colorTitleLight}; text-align:left;`;
+RuButton.style = `position: relative; top:0px; left:1768px; width:${FULLWIDE - 1768}px; height:50px; font-size:24px; font-family: Trebuchet MS; color: white; background-color:${LANG === 'Russian' ? colorTitleSelect : colorTitle}; border-color:${LANG === 'Russian' ? colorTitleSelectLight : colorTitleLight}; text-align:left;`;
 RuButton.innerHTML = '      Русский';
 RuButton.addEventListener("click", function () {
     if (LANG !== 'Russian') {
