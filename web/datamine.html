@@ -322,15 +322,14 @@
                     categoryButton.onclick();
 
                     // set color button name to selected weapon. Resize until it stays small
-                    colorButtonText.text = translate(`item.${chosenWeapName}`);
-                    while (colorButtonText.offsetWidth > 250) {
-                        colorButtonText.text = colorButtonText.text.replace('…', '');
-                        colorButtonText.text = colorButtonText.text.substring(0, colorButtonText.text.length - 1);
+                    colorButtonText.text = weaponButtonText.text;
+                    while (colorButtonText.offsetHeight > 50) {
+                        colorButtonText.text = colorButtonText.text.substring(0, colorButtonText.text.length - 2);
                         colorButtonText.text += '…';
                     }
 
 
-                    gunNameData.textContent = translate(`item.${chosenWeapName}`);
+                    gunNameData.textContent = weaponButtonText.text;
                     gunIGNData.textContent = chosenWeapName;
 
                     // Data for gun not entered yet
@@ -425,7 +424,7 @@
                     crawlRecoilData.textContent = getProperty('proneRecoilMult') === '-' ? '-' : `${getProperty('proneRecoilMult')}×`;
                     recoilRightBiasData.textContent = getProperty('recoilDir') === '-' ? '-' : `${getProperty('recoilDir') * 50} ${translate('degrees')}`;;
 
-                    ammoFile = (Array.isArray(getProperty('bullets')) ? getProperty('bullets')[0] : getProperty('bullets')).shells.split('/');
+                    let ammoFile = (Array.isArray(getProperty('bullets')) ? getProperty('bullets')[0] : getProperty('bullets')).shells.split('/');
                     ammoFile = ammoFile[ammoFile.length - 1];
                     [ammoData.textContent] = ammoFile.split('.');
                     for (let k = 1; k < ammoFile.split('.').length - 1; k++) {

@@ -436,4 +436,5 @@ const RANGES = {
     semiauto: 300,
     shotgun: 75,
     "submachine gun": 75,
+    explosive: 15
 };

@@ -27,7 +27,8 @@
         // Color Dropdown
         const btncolors = [colorGreen, colorRed, colorBlue, colorOrange];
         const primary = document.createElement('nav');
-        primary.style = 'position: absolute; top: 65px;'
+        primary.style = 'position: absolute; top: 65px;';
+        primary.data = [null, null, null, null] // holds data of weapons chosen
         BODY.append(primary);
         for (let h = 3; h >= 0; h--) {
             const primarylist = document.createElement('ul');
@@ -99,6 +100,9 @@
                 }
             }
 
+            // Without this, clicking on any weapon also just resets it so we need it
+            let resetData = true;
+
             // For each category
             for (let i = -1; i < WEAPONS_META.length; i++) {
                 const categoryButton = document.createElement('li');
@@ -112,9 +116,27 @@
 
                 categoryButton.onclick = () => {
                     // Click does nothing unless you're clicking on 'Remove' or you clicked on a weapon in a submenu
-                    if (categoryButtonText.text === translate('remove')) {
+                    if (categoryButtonText.text === translate('remove') || resetData === true) {
                         // reset color button
                         colorButtonText.text = `${translate('weapon')} ${h + 1}`;
+                        window.ttk_dpm_chart.data.datasets[h].label = `${translate('weapon')} ${h + 1}`;
+                        window.scatter_chart.data.datasets[h].label = `${translate('weapon')} ${h + 1}`;
+
+                        // remove data points
+                        window.ttk_dpm_chart.data.datasets[h] = {
+                            label: `${translate('weapon')} ${h + 1}`,
+                            backgroundColor: [btncolors[h]],
+                            borderColor: [btncolors[h]],
+                            borderWidth: 5,
+                        };
+
+                        primary.data[h] = null;
+
+                        resetData = false;
+
+                        // refresh charts
+                        window.ttk_dpm_chart.update();
+                        window.scatter_chart.update();
                     }
                 }
 
@@ -135,144 +157,253 @@
                     weaponButton.append(weaponButtonText);
 
                     weaponButton.onclick = () => {
+                        resetData = true;
                         categoryButton.onclick();
 
+                        let weaponData = null;
+                        for (weapon of WEAPONS_JSON) {
+                            if (weapon.name === chosenWeapName) {
+                                weaponData = weapon;
+                            }
+                        }
+                        if (weaponData === null) {
+                            console.log(`weapon not found: ${chosenWeapName}`)
+                            return;
+                        }
+
+                        function getProperty(propertyName, toPlace = -1, dataJson = weaponData) {
+                            let result = dataJson[propertyName];
+                            result = result === null ? '-' : typeof result === "undefined" ? '-' : result;
+                            if (toPlace !== -1) {
+                                result = toPlace(result, toPlace);
+                            }
+                            return result;
+                        }
+
+                        let ammoData;
+                        let ammoFile = (Array.isArray(getProperty('bullets')) ? getProperty('bullets')[0] : getProperty('bullets')).shells.split('/');
+                        ammoFile = ammoFile[ammoFile.length - 1];
+                        [ammoData] = ammoFile.split('.');
+                        for (let k = 1; k < ammoFile.split('.').length - 1; k++) {
+                            ammoData += `.${ammoFile.split('.')[k]}`;
+                        }
+                        let ammoJson = BULLETS_JSON[ammoData];
+                        // if ammo not found, return to prevent errors
+                        if (ammoJson == null) {
+                            console.log(`ammunition not found: ${ammoData}`)
+                            return;
+                        }
+
+                        function getAmmoProperty(propertyName, toPlace = -1, dataJson = weaponData) {
+                            return ammoJson == null ? '-' : getProperty(propertyName, toPlace, ammoJson)
+                        }
+
+                        primary.data[h] = weaponData;
+
                         // set color button name to selected weapon. Resize until it stays small
-                        colorButtonText.text = translate(`item.${chosenWeapName}`);
-                        while (colorButtonText.offsetWidth > 250) {
-                            colorButtonText.text = colorButtonText.text.replace('…', '');
-                            colorButtonText.text = colorButtonText.text.substring(0, colorButtonText.text.length - 1);
+                        colorButtonText.text = weaponButtonText.text;
+                        while (colorButtonText.offsetHeight > 50) {
+                            colorButtonText.text = colorButtonText.text.substring(0, colorButtonText.text.length - 2);
                             colorButtonText.text += '…';
                         }
+
+                        // set legend to label. TODO: Resize until it stays small
+                        window.ttk_dpm_chart.data.datasets[h].label = weaponButtonText.text;
+                        while (window.ttk_dpm_chart.data.datasets[0].label.length + window.ttk_dpm_chart.data.datasets[1].label.length + window.ttk_dpm_chart.data.datasets[2].label.length + window.ttk_dpm_chart.data.datasets[3].label.length > 80) {
+                            if (window.ttk_dpm_chart.data.datasets[0].label.length >= window.ttk_dpm_chart.data.datasets[1].label.length && window.ttk_dpm_chart.data.datasets[0].label.length >= window.ttk_dpm_chart.data.datasets[2].label.length && window.ttk_dpm_chart.data.datasets[0].label.length >= window.ttk_dpm_chart.data.datasets[3].label.length) {
+                                window.ttk_dpm_chart.data.datasets[0].label = window.ttk_dpm_chart.data.datasets[0].label.substring(0, window.ttk_dpm_chart.data.datasets[0].label.length - 2);
+                                window.ttk_dpm_chart.data.datasets[0].label += '…';
+                            }
+                            if (window.ttk_dpm_chart.data.datasets[1].label.length >= window.ttk_dpm_chart.data.datasets[0].label.length && window.ttk_dpm_chart.data.datasets[1].label.length >= window.ttk_dpm_chart.data.datasets[2].label.length && window.ttk_dpm_chart.data.datasets[1].label.length >= window.ttk_dpm_chart.data.datasets[3].label.length) {
+                                window.ttk_dpm_chart.data.datasets[1].label = window.ttk_dpm_chart.data.datasets[1].label.substring(0, window.ttk_dpm_chart.data.datasets[1].label.length - 2);
+                                window.ttk_dpm_chart.data.datasets[1].label += '…';
+                            }
+                            if (window.ttk_dpm_chart.data.datasets[2].label.length >= window.ttk_dpm_chart.data.datasets[1].label.length && window.ttk_dpm_chart.data.datasets[2].label.length >= window.ttk_dpm_chart.data.datasets[0].label.length && window.ttk_dpm_chart.data.datasets[2].label.length >= window.ttk_dpm_chart.data.datasets[3].label.length) {
+                                window.ttk_dpm_chart.data.datasets[2].label = window.ttk_dpm_chart.data.datasets[2].label.substring(0, window.ttk_dpm_chart.data.datasets[2].label.length - 2);
+                                window.ttk_dpm_chart.data.datasets[2].label += '…';
+                            }
+                            if (window.ttk_dpm_chart.data.datasets[3].label.length >= window.ttk_dpm_chart.data.datasets[2].label.length && window.ttk_dpm_chart.data.datasets[3].label.length >= window.ttk_dpm_chart.data.datasets[1].label.length && window.ttk_dpm_chart.data.datasets[3].label.length >= window.ttk_dpm_chart.data.datasets[0].label.length) {
+                                window.ttk_dpm_chart.data.datasets[3].label = window.ttk_dpm_chart.data.datasets[3].label.substring(0, window.ttk_dpm_chart.data.datasets[3].label.length - 2);
+                                window.ttk_dpm_chart.data.datasets[3].label += '…';
+                            }
+                        }
+                        window.scatter_chart.data.datasets[h].label = weaponButtonText.text;
+                        while (window.scatter_chart.data.datasets[0].label.length + window.scatter_chart.data.datasets[1].label.length + window.scatter_chart.data.datasets[2].label.length + window.scatter_chart.data.datasets[3].label.length > 36) {
+                            if (window.scatter_chart.data.datasets[0].label.length >= window.scatter_chart.data.datasets[1].label.length && window.scatter_chart.data.datasets[0].label.length >= window.scatter_chart.data.datasets[2].label.length && window.scatter_chart.data.datasets[0].label.length >= window.scatter_chart.data.datasets[3].label.length) {
+                                window.scatter_chart.data.datasets[0].label = window.scatter_chart.data.datasets[0].label.substring(0, window.scatter_chart.data.datasets[0].label.length - 2);
+                                window.scatter_chart.data.datasets[0].label += '…';
+                            }
+                            if (window.scatter_chart.data.datasets[1].label.length >= window.scatter_chart.data.datasets[0].label.length && window.scatter_chart.data.datasets[1].label.length >= window.scatter_chart.data.datasets[2].label.length && window.scatter_chart.data.datasets[1].label.length >= window.scatter_chart.data.datasets[3].label.length) {
+                                window.scatter_chart.data.datasets[1].label = window.scatter_chart.data.datasets[1].label.substring(0, window.scatter_chart.data.datasets[1].label.length - 2);
+                                window.scatter_chart.data.datasets[1].label += '…';
+                            }
+                            if (window.scatter_chart.data.datasets[2].label.length >= window.scatter_chart.data.datasets[1].label.length && window.scatter_chart.data.datasets[2].label.length >= window.scatter_chart.data.datasets[0].label.length && window.scatter_chart.data.datasets[2].label.length >= window.scatter_chart.data.datasets[3].label.length) {
+                                window.scatter_chart.data.datasets[2].label = window.scatter_chart.data.datasets[2].label.substring(0, window.scatter_chart.data.datasets[2].label.length - 2);
+                                window.scatter_chart.data.datasets[2].label += '…';
+                            }
+                            if (window.scatter_chart.data.datasets[3].label.length >= window.scatter_chart.data.datasets[2].label.length && window.scatter_chart.data.datasets[3].label.length >= window.scatter_chart.data.datasets[1].label.length && window.scatter_chart.data.datasets[3].label.length >= window.scatter_chart.data.datasets[0].label.length) {
+                                window.scatter_chart.data.datasets[3].label = window.scatter_chart.data.datasets[3].label.substring(0, window.scatter_chart.data.datasets[3].label.length - 2);
+                                window.scatter_chart.data.datasets[3].label += '…';
+                            }
+                        }
+
+                        // find max range of all selected guns
+                        let maxRange = 0;
+                        for (let k = 0; k < 4; k++) {
+                            if (primary.data[k] !== null) {
+                                const wepType = primary.data[k].type !== null ? primary.data[k].type.replace(/_/g, ' ') : primary.data[k].explosive;
+                                if (RANGES[wepType] != null && RANGES[wepType] > maxRange) {
+                                    maxRange = RANGES[wepType];
+                                }
+                            }
+                        }
+
+                        console.log(maxRange)
+
+                        // update chart data
+                        showDeathThreshold = false;
+                        const data = [];
+                        const scatterData = [];
+
+                        // set chart data
+                        window.ttk_dpm_chart.data.datasets[h].data = data;
+                        window.ttk_dpm_chart.options.plugins.annotation.annotations.line1.borderWidth = showDeathThreshold ? 2 : 0;
+                        window.ttk_dpm_chart.options.plugins.annotation.annotations.line1.yMax = showDeathThreshold ? MAX_DMG : 0;
+                        window.ttk_dpm_chart.options.plugins.annotation.annotations.line1.yMin = showDeathThreshold ? MAX_DMG : 0;
+
+                        window.scatter_chart.data.datasets[h].data = scatterData;
+
+                        // refresh charts
+                        window.ttk_dpm_chart.update();
+                        window.scatter_chart.update();
                     };
                 }
             }
         }
-        console.log(this[0].scrollHeight)
-        console.log(this.innerHeight())
     </script>
     <canvas id="myChart"></canvas>
     <img src="../static/img/gray.jpg" style="position:absolute; top:225px; left:10px; width:800px; height:400px;">
     <div style="position:absolute; top:225px; left:10px; width:800px; height:400px;">
-      <canvas id="ttk-dpm-chart"></canvas>
-  
-      <script type="text/javascript">
-        Chart.defaults.color = '#cccccc';
-        Chart.defaults.borderColor = '#888888';
-        const indicatedValueData = {
-          type: 'line',
-          labels: [],
-          datasets: [{
-            label: `${translate('Weapon')} 1`,
-            backgroundColor: [colorGreen],
-            borderColor: [colorGreen],
-            borderWidth: 5,
-          },
-          {
-            label: `${translate('Weapon')} 2`,
-            backgroundColor: [colorRed],
-            borderColor: [colorRed],
-            borderWidth: 5,
-          },
-          {
-            label: `${translate('Weapon')} 3`,
-            backgroundColor: [colorBlue],
-            borderColor: [colorBlue],
-            borderWidth: 5,
-          },
-          {
-            label: `${translate('Weapon')} 4`,
-            backgroundColor: [colorOrange],
-            borderColor: [colorOrange],
-            borderWidth: 5,
-          }],
-        };
-        const opts = {
-          plugins: {
-            autocolors: false,
-            annotation: {
-              annotations: {
-                line1: {
-                  type: 'line',
-                  yMin: 10,
-                  yMax: 10,
-                  borderColor: 'rgb(255, 0, 0)',
-                  borderWidth: 0,
+        <canvas id="ttk-dpm-chart"></canvas>
+
+        <script type="text/javascript">
+            Chart.defaults.color = '#cccccc';
+            Chart.defaults.borderColor = '#888888';
+            const indicatedValueData = {
+                type: 'line',
+                labels: [],
+                datasets: [{
+                    label: `${translate('Weapon')} 1`,
+                    backgroundColor: [colorGreen],
+                    borderColor: [colorGreen],
+                    borderWidth: 5,
                 },
-              },
-            },
-          },
-          scales: {
-            y: {
-              beginAtZero: true,
-            },
-          },
-        };
-  
-        const chart = document.getElementById('ttk-dpm-chart').getContext('2d');
-        window.ttk_dpm_chart = new Chart(chart, { type: 'line', data: indicatedValueData, options: opts });
-      </script>
+                {
+                    label: `${translate('Weapon')} 2`,
+                    backgroundColor: [colorRed],
+                    borderColor: [colorRed],
+                    borderWidth: 5,
+                },
+                {
+                    label: `${translate('Weapon')} 3`,
+                    backgroundColor: [colorBlue],
+                    borderColor: [colorBlue],
+                    borderWidth: 5,
+                },
+                {
+                    label: `${translate('Weapon')} 4`,
+                    backgroundColor: [colorOrange],
+                    borderColor: [colorOrange],
+                    borderWidth: 5,
+                }],
+            };
+            const opts = {
+                plugins: {
+                    autocolors: false,
+                    annotation: {
+                        annotations: {
+                            line1: {
+                                type: 'line',
+                                yMin: 10,
+                                yMax: 10,
+                                borderColor: 'rgb(255, 0, 0)',
+                                borderWidth: 0,
+                            },
+                        },
+                    },
+                },
+                scales: {
+                    y: {
+                        beginAtZero: true,
+                    },
+                },
+            };
+
+            const chart = document.getElementById('ttk-dpm-chart').getContext('2d');
+            window.ttk_dpm_chart = new Chart(chart, { type: 'line', data: indicatedValueData, options: opts });
+        </script>
     </div>
-  
+
     <canvas id="scatterChart"></canvas>
     <img src="../static/img/target.png" style="position:absolute; top:308px; left:1183px; width:537px; height:532px;">
     <div style="position:absolute; top:300px; left:1200px; width:500px; height:523px;">
-      <canvas id="scatter-chart"></canvas>
-  
-      <script type="text/javascript">
-        Chart.defaults.color = '#ffffff';
-        Chart.defaults.borderColor = '#888888';
-        const scatterValueData = {
-          type: 'scatter',
-          labels: [],
-          datasets: [{
-            label: `${translate('Weapon')} 1`,
-            backgroundColor: [colorGreen],
-            borderColor: [colorGreen],
-            pointRadius: 7,
-          },
-          {
-            label: `${translate('Weapon')} 2`,
-            backgroundColor: [colorRed],
-            borderColor: [colorRed],
-            pointRadius: 7,
-          },
-          {
-            label: `${translate('Weapon')} 3`,
-            backgroundColor: [colorBlue],
-            borderColor: [colorBlue],
-            pointRadius: 7,
-          },
-          {
-            label: `${translate('Weapon')} 4`,
-            backgroundColor: [colorOrange],
-            borderColor: [colorOrange],
-            pointRadius: 7,
-          }],
-        };
-        const scatterOpts = {
-          maintainAspectRatio: false,
-          events: [],
-          scales: {
-            x: {
-              type: 'linear',
-              position: 'bottom',
-              min: -9.5,
-              max: 9.5,
-              display: false,
-            },
-            y: {
-              type: 'linear',
-              min: -9.5,
-              max: 9.5,
-              display: false,
-            },
-          },
-        };
-  
-        const scatterChart = document.getElementById('scatter-chart').getContext('2d');
-        window.scatter_chart = new Chart(scatterChart, { type: 'scatter', data: scatterValueData, options: scatterOpts });
-      </script>
+        <canvas id="scatter-chart"></canvas>
+
+        <script type="text/javascript">
+            Chart.defaults.color = '#ffffff';
+            Chart.defaults.borderColor = '#888888';
+            const scatterValueData = {
+                type: 'scatter',
+                labels: [],
+                datasets: [{
+                    label: `${translate('Weapon')} 1`,
+                    backgroundColor: [colorGreen],
+                    borderColor: [colorGreen],
+                    pointRadius: 7,
+                },
+                {
+                    label: `${translate('Weapon')} 2`,
+                    backgroundColor: [colorRed],
+                    borderColor: [colorRed],
+                    pointRadius: 7,
+                },
+                {
+                    label: `${translate('Weapon')} 3`,
+                    backgroundColor: [colorBlue],
+                    borderColor: [colorBlue],
+                    pointRadius: 7,
+                },
+                {
+                    label: `${translate('Weapon')} 4`,
+                    backgroundColor: [colorOrange],
+                    borderColor: [colorOrange],
+                    pointRadius: 7,
+                }],
+            };
+            const scatterOpts = {
+                maintainAspectRatio: false,
+                events: [],
+                scales: {
+                    x: {
+                        type: 'linear',
+                        position: 'bottom',
+                        min: -9.5,
+                        max: 9.5,
+                        display: false,
+                    },
+                    y: {
+                        type: 'linear',
+                        min: -9.5,
+                        max: 9.5,
+                        display: false,
+                    },
+                },
+            };
+
+            const scatterChart = document.getElementById('scatter-chart').getContext('2d');
+            window.scatter_chart = new Chart(scatterChart, { type: 'scatter', data: scatterValueData, options: scatterOpts });
+
+        </script>
     </div>
 </body>
 
