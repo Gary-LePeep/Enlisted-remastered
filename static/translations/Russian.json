@@ -19,6 +19,7 @@
     "class.sniper": "Снайпер",
     "class.tanker": "Танкист",
     "contactVehicle": "При контакте с техникой",
+    "damagePost": "урона",
     "degrees": "градусов",
     "firingMode.bolt_action": "Ручн.",
     "firingMode.full_auto": "Авт.",
@@ -822,6 +823,5 @@
     "weapons.category.pistol.allies": "Пистолеты Союзников",
     "weapons.category.pistol.axis": "Пистолеты Оси",
     "weapons.category.semiauto.allies": "Самозарядные Винтовки Союзников",
-    "weapons.category.semiauto.axis": "Самозарядные Винтовки Оси",
-    "damagePost": "урона"
+    "weapons.category.semiauto.axis": "Самозарядные Винтовки Оси"
 }

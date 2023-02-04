@@ -242,6 +242,9 @@
             }
         }
 
+        // Without this, clicking on any weapon also just resets it so we need it
+        let resetData = true;
+
         // For each category
         for (let i = -1; i < WEAPONS_META.length; i++) {
             const categoryButton = document.createElement('li');
@@ -255,7 +258,7 @@
 
             categoryButton.onclick = () => {
                 // Click does nothing unless you're clicking on 'Remove' or you clicked on a weapon in a submenu
-                if (categoryButtonText.text === translate('remove')) {
+                if (categoryButtonText.text === translate('remove') || resetData === true) {
                     // reset color button
                     colorButtonText.text = translate('weapon');
                     gunNameData.textContent = '-';
@@ -294,6 +297,7 @@
                     magazineNameData.textContent = '-';
                     magazineSizeData.textContent = '-';
                     recoilRightBiasData.textContent = '-';
+                    resetData = false;
                 }
             }
 
@@ -314,6 +318,7 @@
                 weaponButton.append(weaponButtonText);
 
                 weaponButton.onclick = () => {
+                    resetData = true;
                     categoryButton.onclick();
 
                     // set color button name to selected weapon. Resize until it stays small

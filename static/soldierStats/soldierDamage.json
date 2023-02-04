@@ -3,57 +3,57 @@
         "Head": 2.3
     },
     {
-        "L Thigh": 0.6
-    },
-    {
-        "R Thigh": 0.6
-    },
-    {
-        "L Calf": 0.45
-    },
-    {
-        "R Calf": 0.45
-    },
-    {
-        "L Foot": 0.3
-    },
-    {
-        "R Foot": 0.3
-    },
-    {
-        "Pelvis": 1.0
-    },
-    {
         "Spine": 1.0
     },
     {
         "Spine1": 1.0
     },
     {
+        "R Thigh": 0.6
+    },
+    {
+        "R Calf": 0.45
+    },
+    {
+        "R Foot": 0.3
+    },
+    {
         "R Clavicle": 1.0
-    },
-    {
-        "L Clavicle": 1.0
-    },
-    {
-        "Neck": 2.5
     },
     {
         "R UpperArm": 1.0
     },
     {
-        "L UpperArm": 1.0
-    },
-    {
         "R Forearm": 1.0
-    },
-    {
-        "L Forearm": 1.0
     },
     {
         "R Hand": 1.0
     },
     {
+        "L Thigh": 0.6
+    },
+    {
+        "L Calf": 0.45
+    },
+    {
+        "L Foot": 0.3
+    },
+    {
+        "Pelvis": 1.0
+    },
+    {
+        "L Clavicle": 1.0
+    },
+    {
+        "L UpperArm": 1.0
+    },
+    {
+        "L Forearm": 1.0
+    },
+    {
         "L Hand": 1.0
+    },
+    {
+        "Neck": 2.5
     }
 ]

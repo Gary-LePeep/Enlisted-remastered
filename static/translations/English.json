@@ -19,6 +19,7 @@
     "class.sniper": "Sniper",
     "class.tanker": "Tanker",
     "contactVehicle": "On contact with vehicle",
+    "damagePost": "damage",
     "degrees": "degrees",
     "firingMode.bolt_action": "Manual",
     "firingMode.full_auto": "Auto",
@@ -819,6 +820,5 @@
     "weapons.category.pistol.allies": "Allied Pistols",
     "weapons.category.pistol.axis": "Axis Pistols",
     "weapons.category.semiauto.allies": "Allied Semi/Auto Rifles",
-    "weapons.category.semiauto.axis": "Axis Semi/Auto Rifles",
-    "damagePost": "damage"
+    "weapons.category.semiauto.axis": "Axis Semi/Auto Rifles"
 }
