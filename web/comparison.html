@@ -107,6 +107,7 @@
 
                 const categoryButtonText = document.createElement('a');
                 categoryButtonText.text = i < 0 ? translate('remove') : translate(WEAPONS_META[i]['Category']);
+                categoryButtonText.style.fontFamily = 'Helvetica';
                 categoryButton.append(categoryButtonText);
 
                 categoryButton.onclick = () => {
@@ -130,6 +131,7 @@
 
                     const weaponButtonText = document.createElement('a');
                     weaponButtonText.text = translate(`item.${chosenWeapName}`);
+                    weaponButtonText.style.fontFamily = 'Helvetica';
                     weaponButton.append(weaponButtonText);
 
                     weaponButton.onclick = () => {

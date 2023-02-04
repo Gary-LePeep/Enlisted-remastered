@@ -819,5 +819,6 @@
     "weapons.category.pistol.allies": "Allied Pistols",
     "weapons.category.pistol.axis": "Axis Pistols",
     "weapons.category.semiauto.allies": "Allied Semi/Auto Rifles",
-    "weapons.category.semiauto.axis": "Axis Semi/Auto Rifles"
+    "weapons.category.semiauto.axis": "Axis Semi/Auto Rifles",
+    "damagePost": "damage"
 }

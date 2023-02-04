@@ -24,24 +24,6 @@ tbody td{
     color: #FFFFFF;
 }
 
-
-/* Define some colors for the menu */
-.greenbtn:hover {
-    background-color: #25ac88;
-}
-
-.redbtn:hover {
-    background-color: #d65153;
-}
-
-.bluebtn:hover {
-    background-color: #6265c1;
-}
-
-.magbtn:hover {
-    background-color: #db7329;
-}
-
 .topbtn {
     min-width: 250px;
     min-height: 50px;

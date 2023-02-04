@@ -40,7 +40,7 @@
         function createWeaponRow(top, name, div) {
             const label = document.createElement('div');
             label.innerHTML = translate(name);
-            label.style = `position: absolute; top: ${40 + top}px; left: 20px; color: white`;
+            label.style = `position: absolute; top: ${40 + top}px; left: 20px; color: white; font-family: Helvetica;`;
             div.append(label);
             const data = document.createElement('b');
             data.innerHTML = '-';
@@ -93,11 +93,11 @@
         const sightsMagData = createWeaponRow(0, 'page.datamine.sightsMag', accessoriesDiv);
 
         //Disclaimer
-        BODY.append(translate('page.datamine.disclaimer', 'div', 'position: absolute; top: 870px; left: 10px; color: white; font-size:14px; font-family: Trebuchet MS;'));
+        BODY.append(translate('page.datamine.disclaimer', 'div', 'position: absolute; top: 870px; left: 10px; color: white; font-size:14px; font-family: Helvetica;'));
 
         // Bullet table
         const dataDiv2 = document.createElement('div');
-        dataDiv2.style = 'position: absolute; top:120px; left: 1120px; width: 750px; color: white; font-family: Trebuchet MS;';
+        dataDiv2.style = 'position: absolute; top:120px; left: 1120px; width: 750px; color: white; font-family: Helvetica;';
         BODY.appendChild(dataDiv2);
 
         const damageOverRange = translate('page.datamine.damageOverRange', 'b');
@@ -149,7 +149,8 @@
         primarylist.append(colorButtonContainer);
 
         const colorButton = document.createElement('li');
-        colorButton.className = 'topbtn greenbtn';
+        colorButton.className = 'topbtn';
+        colorButton.style.backgroundColor = colorGreen;
         colorButtonContainer.append(colorButton);
 
         const colorButtonText = document.createElement('a');
@@ -245,6 +246,7 @@
         for (let i = -1; i < WEAPONS_META.length; i++) {
             const categoryButton = document.createElement('li');
             categoryButton.className = 'submenu';
+            categoryButton.style.fontFamily = 'Helvetica';
             categorylist.append(categoryButton);
 
             const categoryButtonText = document.createElement('a');
@@ -308,6 +310,7 @@
 
                 const weaponButtonText = document.createElement('a');
                 weaponButtonText.text = translate(`item.${chosenWeapName}`);
+                weaponButtonText.style.fontFamily = 'Helvetica';
                 weaponButton.append(weaponButtonText);
 
                 weaponButton.onclick = () => {

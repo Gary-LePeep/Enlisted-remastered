@@ -60,7 +60,7 @@
         statsHeader.appendChild(translate('page.soldierStats.header', 'b'));
 
         const table = document.createElement('table');
-        table.style = 'position: relative; top: 108px; left: 190px; width: 1500px';
+        table.style = 'position: relative; top: 108px; left: 190px; width: 1500px; font-family: Helvetica;';
         allTablesDiv.appendChild(table);
         const tableHeader = document.createElement('thead');
         tableHeader.style = `border: 4px solid ${colorBG};`
@@ -102,7 +102,7 @@
         }
 
         const sellTable = document.createElement('table');
-        sellTable.style = 'position: relative; top: 115px; left: 193px; width: 1493px';
+        sellTable.style = 'position: relative; top: 115px; left: 193px; width: 1493px; font-family: Helvetica;';
         allTablesDiv.appendChild(sellTable);
         const sellTableHeader = document.createElement('thead');
         sellTableHeader.style = 'border: 0px';
@@ -162,7 +162,7 @@
         statsFooter.appendChild(translate('page.soldierStats.footer', 'b'));
 
         const buyTable = document.createElement('table');
-        buyTable.style = 'position: relative; top: 110px; left: 193px; width: 1493px';
+        buyTable.style = 'position: relative; top: 110px; left: 193px; width: 1493px; font-family: Helvetica;';
         allTablesDiv.appendChild(buyTable);
         const buyTableHeader = document.createElement('thead');
         buyTableHeader.style = 'border: 0px';
@@ -184,9 +184,9 @@
         buyTableHeaderRow.appendChild(translate('★★★★', 'th', silverHeaderRowStyle));
         buyTableHeaderRow.appendChild(translate('★★★★★', 'th', silverHeaderRowStyle));
 
-        const twoStarSoldier = 98;
-        const threeStarSoldier = 68;
-        const fourStarSoldier = 24;
+        const twoStarSoldier = 106;
+        const threeStarSoldier = 71;
+        const fourStarSoldier = 25;
         const fiveStarSoldier = 2;
         const totalSoldier = twoStarSoldier + threeStarSoldier + fourStarSoldier + fiveStarSoldier;
         const buyTableBody = document.createElement('tbody');
@@ -201,7 +201,7 @@
         buyTableBody.appendChild(translate(`${Math.round(100 * (fiveStarSoldier / totalSoldier))}%`, 'td', `${silverBodyStyle} width: 200px`));
 
         const wepTable = document.createElement('table');
-        wepTable.style = 'position: relative; top: 120px; left: 193px; width: 1286px';
+        wepTable.style = 'position: relative; top: 120px; left: 193px; width: 1286px; font-family: Helvetica;';
         allTablesDiv.appendChild(wepTable);
         const wepTableHeader = document.createElement('thead');
         wepTableHeader.style = 'border: 0px';
@@ -221,9 +221,9 @@
         wepTableHeaderRow.appendChild(translate('★★★', 'th', silverHeaderRowStyle));
         wepTableHeaderRow.appendChild(translate('★★★★', 'th', silverHeaderRowStyle));
 
-        const oneStarWeapon = 42;
-        const twoStarWeapon = 23;
-        const threeStarWeapon = 16;
+        const oneStarWeapon = 47;
+        const twoStarWeapon = 26;
+        const threeStarWeapon = 17;
         const fourStarWeapon = 5;
         const totalWeapon = oneStarWeapon + twoStarWeapon + threeStarWeapon + fourStarWeapon;
         const wepTableBody = document.createElement('tbody');
@@ -297,7 +297,7 @@
                 BODY.appendChild(bodyPartImage);
 
                 const toolTip = document.createElement('b');
-                toolTip.textContent = `${name}: x${damageMult} damage`;
+                toolTip.textContent = `${name}: ${damageMult}× ${translate('damagePost')}`;
                 toolTip.style = `visibility: hidden; position: absolute; top: ${1480 + soldierDamagePartOffsets[name]['top']}px; left: ${930 + soldierDamagePartOffsets[name]['left']}px; text-align: center; width: 200px; height: 20px; background-color: #222222; border-radius: 6px; color: white; z-index: 99`;
                 bodyPartImage.addEventListener("mouseover", () => { toolTip.style.visibility = 'visible'; });
                 bodyPartImage.addEventListener("mouseout", () => { toolTip.style.visibility = 'hidden'; });
