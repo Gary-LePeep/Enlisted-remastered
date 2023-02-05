@@ -24,12 +24,26 @@
         WEAPONS_JSON = readJSON('{{weaponsJson}}');
         BULLETS_JSON = readJSON('{{bulletsJson}}');
 
+        // TTK DPM dropdown
+        const ttkDpmDropdownLabel = translate('page.comparison.ttkDpmDropdown', 'b', 'position: absolute; top: 185px; left: 200px; font-family: Trebuchet MS; width:1000px; font-size:18px; color: white;');
+        BODY.appendChild(ttkDpmDropdownLabel);
+
+        const ttkDpmDropdown = document.createElement('select');
+        ttkDpmDropdown.onchange = () => { reloadTtkDpmChart(); };
+        ttkDpmDropdownLabel.appendChild(ttkDpmDropdown);
+
+        ttkDpmDropdown.append(translate('page.comparison.ttkDpmDropdown1', 'option'));
+        ttkDpmDropdown.append(translate('page.comparison.ttkDpmDropdown2', 'option'));
+        ttkDpmDropdown.append(translate('page.comparison.ttkDpmDropdown3', 'option'));
+        ttkDpmDropdown.append(translate('page.comparison.ttkDpmDropdown4', 'option'));
+
         // Color Dropdown
         const btncolors = [colorGreen, colorRed, colorBlue, colorOrange];
         const primary = document.createElement('nav');
         primary.style = 'position: absolute; top: 65px;';
         primary.data = [null, null, null, null] // holds data of weapons chosen
         BODY.append(primary);
+
         for (let h = 3; h >= 0; h--) {
             const primarylist = document.createElement('ul');
             primarylist.style = `position: absolute; top: 0px; left: ${250 * h}px;`
@@ -129,14 +143,12 @@
                             borderColor: [btncolors[h]],
                             borderWidth: 5,
                         };
-
                         primary.data[h] = null;
 
                         resetData = false;
 
                         // refresh charts
-                        window.ttk_dpm_chart.update();
-                        window.scatter_chart.update();
+                        reloadCharts();
                     }
                 }
 
@@ -198,7 +210,10 @@
                             return ammoJson == null ? '-' : getProperty(propertyName, toPlace, ammoJson)
                         }
 
-                        primary.data[h] = weaponData;
+                        primary.data[h] = {
+                            weapon: weaponData,
+                            ammo: ammoJson
+                        };
 
                         // set color button name to selected weapon. Resize until it stays small
                         colorButtonText.text = weaponButtonText.text;
@@ -206,79 +221,148 @@
                             colorButtonText.text = colorButtonText.text.substring(0, colorButtonText.text.length - 2);
                             colorButtonText.text += '…';
                         }
-
-                        // set legend to label. TODO: Resize until it stays small
                         window.ttk_dpm_chart.data.datasets[h].label = weaponButtonText.text;
-                        while (window.ttk_dpm_chart.data.datasets[0].label.length + window.ttk_dpm_chart.data.datasets[1].label.length + window.ttk_dpm_chart.data.datasets[2].label.length + window.ttk_dpm_chart.data.datasets[3].label.length > 80) {
-                            if (window.ttk_dpm_chart.data.datasets[0].label.length >= window.ttk_dpm_chart.data.datasets[1].label.length && window.ttk_dpm_chart.data.datasets[0].label.length >= window.ttk_dpm_chart.data.datasets[2].label.length && window.ttk_dpm_chart.data.datasets[0].label.length >= window.ttk_dpm_chart.data.datasets[3].label.length) {
-                                window.ttk_dpm_chart.data.datasets[0].label = window.ttk_dpm_chart.data.datasets[0].label.substring(0, window.ttk_dpm_chart.data.datasets[0].label.length - 2);
-                                window.ttk_dpm_chart.data.datasets[0].label += '…';
-                            }
-                            if (window.ttk_dpm_chart.data.datasets[1].label.length >= window.ttk_dpm_chart.data.datasets[0].label.length && window.ttk_dpm_chart.data.datasets[1].label.length >= window.ttk_dpm_chart.data.datasets[2].label.length && window.ttk_dpm_chart.data.datasets[1].label.length >= window.ttk_dpm_chart.data.datasets[3].label.length) {
-                                window.ttk_dpm_chart.data.datasets[1].label = window.ttk_dpm_chart.data.datasets[1].label.substring(0, window.ttk_dpm_chart.data.datasets[1].label.length - 2);
-                                window.ttk_dpm_chart.data.datasets[1].label += '…';
-                            }
-                            if (window.ttk_dpm_chart.data.datasets[2].label.length >= window.ttk_dpm_chart.data.datasets[1].label.length && window.ttk_dpm_chart.data.datasets[2].label.length >= window.ttk_dpm_chart.data.datasets[0].label.length && window.ttk_dpm_chart.data.datasets[2].label.length >= window.ttk_dpm_chart.data.datasets[3].label.length) {
-                                window.ttk_dpm_chart.data.datasets[2].label = window.ttk_dpm_chart.data.datasets[2].label.substring(0, window.ttk_dpm_chart.data.datasets[2].label.length - 2);
-                                window.ttk_dpm_chart.data.datasets[2].label += '…';
-                            }
-                            if (window.ttk_dpm_chart.data.datasets[3].label.length >= window.ttk_dpm_chart.data.datasets[2].label.length && window.ttk_dpm_chart.data.datasets[3].label.length >= window.ttk_dpm_chart.data.datasets[1].label.length && window.ttk_dpm_chart.data.datasets[3].label.length >= window.ttk_dpm_chart.data.datasets[0].label.length) {
-                                window.ttk_dpm_chart.data.datasets[3].label = window.ttk_dpm_chart.data.datasets[3].label.substring(0, window.ttk_dpm_chart.data.datasets[3].label.length - 2);
-                                window.ttk_dpm_chart.data.datasets[3].label += '…';
-                            }
-                        }
                         window.scatter_chart.data.datasets[h].label = weaponButtonText.text;
-                        while (window.scatter_chart.data.datasets[0].label.length + window.scatter_chart.data.datasets[1].label.length + window.scatter_chart.data.datasets[2].label.length + window.scatter_chart.data.datasets[3].label.length > 36) {
-                            if (window.scatter_chart.data.datasets[0].label.length >= window.scatter_chart.data.datasets[1].label.length && window.scatter_chart.data.datasets[0].label.length >= window.scatter_chart.data.datasets[2].label.length && window.scatter_chart.data.datasets[0].label.length >= window.scatter_chart.data.datasets[3].label.length) {
-                                window.scatter_chart.data.datasets[0].label = window.scatter_chart.data.datasets[0].label.substring(0, window.scatter_chart.data.datasets[0].label.length - 2);
-                                window.scatter_chart.data.datasets[0].label += '…';
-                            }
-                            if (window.scatter_chart.data.datasets[1].label.length >= window.scatter_chart.data.datasets[0].label.length && window.scatter_chart.data.datasets[1].label.length >= window.scatter_chart.data.datasets[2].label.length && window.scatter_chart.data.datasets[1].label.length >= window.scatter_chart.data.datasets[3].label.length) {
-                                window.scatter_chart.data.datasets[1].label = window.scatter_chart.data.datasets[1].label.substring(0, window.scatter_chart.data.datasets[1].label.length - 2);
-                                window.scatter_chart.data.datasets[1].label += '…';
-                            }
-                            if (window.scatter_chart.data.datasets[2].label.length >= window.scatter_chart.data.datasets[1].label.length && window.scatter_chart.data.datasets[2].label.length >= window.scatter_chart.data.datasets[0].label.length && window.scatter_chart.data.datasets[2].label.length >= window.scatter_chart.data.datasets[3].label.length) {
-                                window.scatter_chart.data.datasets[2].label = window.scatter_chart.data.datasets[2].label.substring(0, window.scatter_chart.data.datasets[2].label.length - 2);
-                                window.scatter_chart.data.datasets[2].label += '…';
-                            }
-                            if (window.scatter_chart.data.datasets[3].label.length >= window.scatter_chart.data.datasets[2].label.length && window.scatter_chart.data.datasets[3].label.length >= window.scatter_chart.data.datasets[1].label.length && window.scatter_chart.data.datasets[3].label.length >= window.scatter_chart.data.datasets[0].label.length) {
-                                window.scatter_chart.data.datasets[3].label = window.scatter_chart.data.datasets[3].label.substring(0, window.scatter_chart.data.datasets[3].label.length - 2);
-                                window.scatter_chart.data.datasets[3].label += '…';
-                            }
-                        }
 
-                        // find max range of all selected guns
-                        let maxRange = 0;
-                        for (let k = 0; k < 4; k++) {
-                            if (primary.data[k] !== null) {
-                                const wepType = primary.data[k].type !== null ? primary.data[k].type.replace(/_/g, ' ') : primary.data[k].explosive;
-                                if (RANGES[wepType] != null && RANGES[wepType] > maxRange) {
-                                    maxRange = RANGES[wepType];
-                                }
-                            }
-                        }
-
-                        console.log(maxRange)
-
-                        // update chart data
-                        showDeathThreshold = false;
-                        const data = [];
-                        const scatterData = [];
-
-                        // set chart data
-                        window.ttk_dpm_chart.data.datasets[h].data = data;
-                        window.ttk_dpm_chart.options.plugins.annotation.annotations.line1.borderWidth = showDeathThreshold ? 2 : 0;
-                        window.ttk_dpm_chart.options.plugins.annotation.annotations.line1.yMax = showDeathThreshold ? MAX_DMG : 0;
-                        window.ttk_dpm_chart.options.plugins.annotation.annotations.line1.yMin = showDeathThreshold ? MAX_DMG : 0;
-
-                        window.scatter_chart.data.datasets[h].data = scatterData;
-
-                        // refresh charts
-                        window.ttk_dpm_chart.update();
-                        window.scatter_chart.update();
+                        // reload charts
+                        reloadCharts();
                     };
                 }
             }
+        }
+
+        function getMaxRange() {
+            let maxRange = 0;
+            for (let k = 0; k < 4; k++) {
+                if (primary.data[k] !== null) {
+                    const wepType = primary.data[k].weapon.type !== null ? primary.data[k].weapon.type.replace(/_/g, ' ') : primary.data[k].weapon.explosive;
+                    if (RANGES[wepType] != null && RANGES[wepType] > maxRange) {
+                        maxRange = RANGES[wepType];
+                    }
+                }
+            }
+            return maxRange;
+        }
+
+        function reloadTtkDpmChart() {
+            while (window.ttk_dpm_chart.data.datasets[0].label.length + window.ttk_dpm_chart.data.datasets[1].label.length + window.ttk_dpm_chart.data.datasets[2].label.length + window.ttk_dpm_chart.data.datasets[3].label.length > 80) {
+                if (window.ttk_dpm_chart.data.datasets[0].label.length >= window.ttk_dpm_chart.data.datasets[1].label.length && window.ttk_dpm_chart.data.datasets[0].label.length >= window.ttk_dpm_chart.data.datasets[2].label.length && window.ttk_dpm_chart.data.datasets[0].label.length >= window.ttk_dpm_chart.data.datasets[3].label.length) {
+                    window.ttk_dpm_chart.data.datasets[0].label = window.ttk_dpm_chart.data.datasets[0].label.substring(0, window.ttk_dpm_chart.data.datasets[0].label.length - 2);
+                    window.ttk_dpm_chart.data.datasets[0].label += '…';
+                }
+                if (window.ttk_dpm_chart.data.datasets[1].label.length >= window.ttk_dpm_chart.data.datasets[0].label.length && window.ttk_dpm_chart.data.datasets[1].label.length >= window.ttk_dpm_chart.data.datasets[2].label.length && window.ttk_dpm_chart.data.datasets[1].label.length >= window.ttk_dpm_chart.data.datasets[3].label.length) {
+                    window.ttk_dpm_chart.data.datasets[1].label = window.ttk_dpm_chart.data.datasets[1].label.substring(0, window.ttk_dpm_chart.data.datasets[1].label.length - 2);
+                    window.ttk_dpm_chart.data.datasets[1].label += '…';
+                }
+                if (window.ttk_dpm_chart.data.datasets[2].label.length >= window.ttk_dpm_chart.data.datasets[1].label.length && window.ttk_dpm_chart.data.datasets[2].label.length >= window.ttk_dpm_chart.data.datasets[0].label.length && window.ttk_dpm_chart.data.datasets[2].label.length >= window.ttk_dpm_chart.data.datasets[3].label.length) {
+                    window.ttk_dpm_chart.data.datasets[2].label = window.ttk_dpm_chart.data.datasets[2].label.substring(0, window.ttk_dpm_chart.data.datasets[2].label.length - 2);
+                    window.ttk_dpm_chart.data.datasets[2].label += '…';
+                }
+                if (window.ttk_dpm_chart.data.datasets[3].label.length >= window.ttk_dpm_chart.data.datasets[2].label.length && window.ttk_dpm_chart.data.datasets[3].label.length >= window.ttk_dpm_chart.data.datasets[1].label.length && window.ttk_dpm_chart.data.datasets[3].label.length >= window.ttk_dpm_chart.data.datasets[0].label.length) {
+                    window.ttk_dpm_chart.data.datasets[3].label = window.ttk_dpm_chart.data.datasets[3].label.substring(0, window.ttk_dpm_chart.data.datasets[3].label.length - 2);
+                    window.ttk_dpm_chart.data.datasets[3].label += '…';
+                }
+            }
+
+            const maxRange = getMaxRange();
+            showDeathThreshold = false;
+            for (let h = 0; h < 4; h++) {
+                if (primary.data[h] !== null) {
+                    let ranges = [];
+                    let data = [];
+                    for (let k = 0; k <= 15; k++) {
+                        const distance = (maxRange / 15) * k;
+                        ranges.push(distance);
+                        let damageAtDist = 0;
+                        const hpKeys = Object.keys(primary.data[h].ammo.hitpower);
+                        for (let i = 0; i < hpKeys.length - 1; i++) {
+                            const curDist = primary.data[h].ammo.hitpower[hpKeys[i]][1];
+                            const nextDist = primary.data[h].ammo.hitpower[hpKeys[i + 1]][1];
+                            const curDamage = primary.data[h].ammo.hitpower[hpKeys[i]][0];
+                            const nextDamage = primary.data[h].ammo.hitpower[hpKeys[i + 1]][0];
+                            // distance is less than minimum hitpower distance, set damage to minimum distance
+                            if (distance < curDist && i === 0) {
+                                damageAtDist = curDamage;
+                            }
+                            // distance is more than maximum hitpower distance, set damage to maximum distance
+                            else if (distance > nextDist && i === hpKeys.length - 2) {
+                                damageAtDist = nextDamage;
+                            }
+                            // distance is between two valid points. Interpolate between them
+                            else if (distance >= curDist && distance <= nextDist) {
+                                const difference = nextDist - curDist;
+                                const curDistProximity = 1 - ((distance - curDist) / difference);
+                                const nextDistProximity = 1 - ((nextDist - distance) / difference);
+                                damageAtDist = (curDamage * curDistProximity) + (nextDamage * nextDistProximity);
+                            }
+                        }
+                        const gunDamageMult = primary.data[h].weapon.damageMult;
+                        const hitmult = primary.data[h].ammo.hitPowerMult;
+                        damageAtDist = toPlace(damageAtDist * (hitmult === null ? 1 : hitmult) * (gunDamageMult === null ? 1 : gunDamageMult), 3);
+                        damageAtDist = Math.max(damageAtDist, 0.1);
+                        //const shotsToKill = Math.ceil(MAX_DMG / damageAtDist);
+                        if (ttkDpmDropdown.value === translate('page.comparison.ttkDpmDropdown1')) {
+                            showDeathThreshold = true;
+                            data.push(damageAtDist);
+                        }
+                        if (ttkDpmDropdown.value === translate('page.comparison.ttkDpmDropdown3')) {
+                            data.push(shotsToKill);
+                        }
+                        if (ttkDpmDropdown.value === translate('page.comparison.ttkDpmDropdown4')) {
+                            const timeToKill = (shotsToKill - 1) * (60 / rpm);
+                            data.push(timeToKill);
+                        }
+                        if (ttkDpmDropdown.value === translate('page.comparison.ttkDpmDropdown2')) {
+                            data.push(rpm * damageAtDist);
+                        }
+                    }
+
+                    // set chart data
+                    window.ttk_dpm_chart.data.datasets[h].data = data;
+                    window.ttk_dpm_chart.data.labels = ranges;
+                }
+            }
+            console.log(window.ttk_dpm_chart.data.datasets)
+            window.ttk_dpm_chart.options.plugins.annotation.annotations.line1.borderWidth = showDeathThreshold ? 2 : 0;
+            window.ttk_dpm_chart.options.plugins.annotation.annotations.line1.yMax = showDeathThreshold ? 10 : 0;
+            window.ttk_dpm_chart.options.plugins.annotation.annotations.line1.yMin = showDeathThreshold ? 10 : 0;
+
+            window.ttk_dpm_chart.update();
+        }
+
+        function reloadScatterChart() {
+            while (window.scatter_chart.data.datasets[0].label.length + window.scatter_chart.data.datasets[1].label.length + window.scatter_chart.data.datasets[2].label.length + window.scatter_chart.data.datasets[3].label.length > 36) {
+                if (window.scatter_chart.data.datasets[0].label.length >= window.scatter_chart.data.datasets[1].label.length && window.scatter_chart.data.datasets[0].label.length >= window.scatter_chart.data.datasets[2].label.length && window.scatter_chart.data.datasets[0].label.length >= window.scatter_chart.data.datasets[3].label.length) {
+                    window.scatter_chart.data.datasets[0].label = window.scatter_chart.data.datasets[0].label.substring(0, window.scatter_chart.data.datasets[0].label.length - 2);
+                    window.scatter_chart.data.datasets[0].label += '…';
+                }
+                if (window.scatter_chart.data.datasets[1].label.length >= window.scatter_chart.data.datasets[0].label.length && window.scatter_chart.data.datasets[1].label.length >= window.scatter_chart.data.datasets[2].label.length && window.scatter_chart.data.datasets[1].label.length >= window.scatter_chart.data.datasets[3].label.length) {
+                    window.scatter_chart.data.datasets[1].label = window.scatter_chart.data.datasets[1].label.substring(0, window.scatter_chart.data.datasets[1].label.length - 2);
+                    window.scatter_chart.data.datasets[1].label += '…';
+                }
+                if (window.scatter_chart.data.datasets[2].label.length >= window.scatter_chart.data.datasets[1].label.length && window.scatter_chart.data.datasets[2].label.length >= window.scatter_chart.data.datasets[0].label.length && window.scatter_chart.data.datasets[2].label.length >= window.scatter_chart.data.datasets[3].label.length) {
+                    window.scatter_chart.data.datasets[2].label = window.scatter_chart.data.datasets[2].label.substring(0, window.scatter_chart.data.datasets[2].label.length - 2);
+                    window.scatter_chart.data.datasets[2].label += '…';
+                }
+                if (window.scatter_chart.data.datasets[3].label.length >= window.scatter_chart.data.datasets[2].label.length && window.scatter_chart.data.datasets[3].label.length >= window.scatter_chart.data.datasets[1].label.length && window.scatter_chart.data.datasets[3].label.length >= window.scatter_chart.data.datasets[0].label.length) {
+                    window.scatter_chart.data.datasets[3].label = window.scatter_chart.data.datasets[3].label.substring(0, window.scatter_chart.data.datasets[3].label.length - 2);
+                    window.scatter_chart.data.datasets[3].label += '…';
+                }
+            }
+
+            const scatterData = [];
+            for (let h = 0; h < 4; h++) {
+                if (primary.data[h] !== null) {
+                    window.scatter_chart.data.datasets[h].data = scatterData;
+                }
+            }
+
+            window.scatter_chart.update();
+        }
+
+        function reloadCharts() {
+            reloadTtkDpmChart();
+            reloadScatterChart();
         }
     </script>
     <canvas id="myChart"></canvas>
@@ -402,7 +486,6 @@
 
             const scatterChart = document.getElementById('scatter-chart').getContext('2d');
             window.scatter_chart = new Chart(scatterChart, { type: 'scatter', data: scatterValueData, options: scatterOpts });
-
         </script>
     </div>
 </body>
