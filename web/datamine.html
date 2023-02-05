@@ -60,7 +60,6 @@
         const zeroDistanceData = createWeaponRow(140, 'page.datamine.zeroDistance', metaDiv);
         const adsSpeedData = createWeaponRow(160, 'page.datamine.adsSpeed', metaDiv);
 
-
         // Bullets data
         bulletsDiv = createWeaponStatsDiv(240, 0, translate('page.datamine.bullets.header'));
         const magazineNameData = createWeaponRow(0, 'page.datamine.magazineName', bulletsDiv);
@@ -318,6 +317,7 @@
                 weaponButton.append(weaponButtonText);
 
                 weaponButton.onclick = () => {
+                    // Click a weapon button
                     resetData = true;
                     categoryButton.onclick();
 

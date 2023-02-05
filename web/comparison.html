@@ -37,6 +37,8 @@
         ttkDpmDropdown.append(translate('page.comparison.ttkDpmDropdown3', 'option'));
         ttkDpmDropdown.append(translate('page.comparison.ttkDpmDropdown4', 'option'));
 
+        MAX_DMG = 10;
+
         // Color Dropdown
         const btncolors = [colorGreen, colorRed, colorBlue, colorOrange];
         const primary = document.createElement('nav');
@@ -169,6 +171,7 @@
                     weaponButton.append(weaponButtonText);
 
                     weaponButton.onclick = () => {
+                        // Click a weapon button
                         resetData = true;
                         categoryButton.onclick();
 
@@ -245,6 +248,7 @@
         }
 
         function reloadTtkDpmChart() {
+            // Add label and shorten if too long
             while (window.ttk_dpm_chart.data.datasets[0].label.length + window.ttk_dpm_chart.data.datasets[1].label.length + window.ttk_dpm_chart.data.datasets[2].label.length + window.ttk_dpm_chart.data.datasets[3].label.length > 80) {
                 if (window.ttk_dpm_chart.data.datasets[0].label.length >= window.ttk_dpm_chart.data.datasets[1].label.length && window.ttk_dpm_chart.data.datasets[0].label.length >= window.ttk_dpm_chart.data.datasets[2].label.length && window.ttk_dpm_chart.data.datasets[0].label.length >= window.ttk_dpm_chart.data.datasets[3].label.length) {
                     window.ttk_dpm_chart.data.datasets[0].label = window.ttk_dpm_chart.data.datasets[0].label.substring(0, window.ttk_dpm_chart.data.datasets[0].label.length - 2);
@@ -300,7 +304,7 @@
                         const hitmult = primary.data[h].ammo.hitPowerMult;
                         damageAtDist = toPlace(damageAtDist * (hitmult === null ? 1 : hitmult) * (gunDamageMult === null ? 1 : gunDamageMult), 3);
                         damageAtDist = Math.max(damageAtDist, 0.1);
-                        //const shotsToKill = Math.ceil(MAX_DMG / damageAtDist);
+                        const shotsToKill = Math.ceil(MAX_DMG / damageAtDist);
                         if (ttkDpmDropdown.value === translate('page.comparison.ttkDpmDropdown1')) {
                             showDeathThreshold = true;
                             data.push(damageAtDist);
@@ -309,11 +313,11 @@
                             data.push(shotsToKill);
                         }
                         if (ttkDpmDropdown.value === translate('page.comparison.ttkDpmDropdown4')) {
-                            const timeToKill = (shotsToKill - 1) * (60 / rpm);
+                            const timeToKill = (shotsToKill - 1) / (primary.data[h].weapon.rps);
                             data.push(timeToKill);
                         }
                         if (ttkDpmDropdown.value === translate('page.comparison.ttkDpmDropdown2')) {
-                            data.push(rpm * damageAtDist);
+                            data.push(primary.data[h].weapon.rps * 60 * damageAtDist);
                         }
                     }
 
@@ -322,15 +326,15 @@
                     window.ttk_dpm_chart.data.labels = ranges;
                 }
             }
-            console.log(window.ttk_dpm_chart.data.datasets)
             window.ttk_dpm_chart.options.plugins.annotation.annotations.line1.borderWidth = showDeathThreshold ? 2 : 0;
-            window.ttk_dpm_chart.options.plugins.annotation.annotations.line1.yMax = showDeathThreshold ? 10 : 0;
-            window.ttk_dpm_chart.options.plugins.annotation.annotations.line1.yMin = showDeathThreshold ? 10 : 0;
+            window.ttk_dpm_chart.options.plugins.annotation.annotations.line1.yMax = showDeathThreshold ? MAX_DMG : 0;
+            window.ttk_dpm_chart.options.plugins.annotation.annotations.line1.yMin = showDeathThreshold ? MAX_DMG : 0;
 
             window.ttk_dpm_chart.update();
         }
 
         function reloadScatterChart() {
+            // Add label and shorten if too long
             while (window.scatter_chart.data.datasets[0].label.length + window.scatter_chart.data.datasets[1].label.length + window.scatter_chart.data.datasets[2].label.length + window.scatter_chart.data.datasets[3].label.length > 36) {
                 if (window.scatter_chart.data.datasets[0].label.length >= window.scatter_chart.data.datasets[1].label.length && window.scatter_chart.data.datasets[0].label.length >= window.scatter_chart.data.datasets[2].label.length && window.scatter_chart.data.datasets[0].label.length >= window.scatter_chart.data.datasets[3].label.length) {
                     window.scatter_chart.data.datasets[0].label = window.scatter_chart.data.datasets[0].label.substring(0, window.scatter_chart.data.datasets[0].label.length - 2);
