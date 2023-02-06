@@ -16897,9 +16897,9 @@
         "proneRecoilMult": 0.7,
         "zeroDist": 0.3,
         "reloadSingle": false,
-        "recoilAmount": 0.055,
+        "recoilAmount": 0.057,
         "recoilDir": 0.0,
-        "recoilDirAmount": 0.63,
+        "recoilDirAmount": 0.68,
         "visualRecoilMult": 0.4,
         "recoilControlMult": 0.9,
         "recoilOffsetMult": 0.1,
@@ -17559,6 +17559,7 @@
     {
         "name": "explosion_pack",
         "explosive": "explosive",
+        "type": "explosive",
         "weight": 3.5,
         "bullets": {
             "shells": "explosion_pack"
@@ -17567,6 +17568,7 @@
     {
         "name": "grenade",
         "explosive": "explosive",
+        "type": "explosive",
         "weight": 0.6,
         "bullets": {
             "shells": "grenade"
@@ -17575,6 +17577,7 @@
     {
         "name": "molotov_grenade",
         "explosive": "explosive",
+        "type": "explosive",
         "weight": 1.0,
         "bullets": {
             "shells": "molotov_grenade"
@@ -17583,6 +17586,7 @@
     {
         "name": "incendiary_grenade",
         "explosive": "explosive",
+        "type": "explosive",
         "weight": 0.5,
         "bullets": {
             "shells": "incendiary_grenade"
@@ -17591,6 +17595,7 @@
     {
         "name": "impact_grenade",
         "explosive": "explosive",
+        "type": "explosive",
         "weight": 1.0,
         "bullets": {
             "shells": "impact_grenade"
@@ -17599,6 +17604,7 @@
     {
         "name": "antipersonnel_mine",
         "explosive": "explosive",
+        "type": "explosive",
         "weight": 0.6,
         "bullets": {
             "shells": "antipersonnel_mine"
@@ -17607,6 +17613,7 @@
     {
         "name": "antitank_mine",
         "explosive": "explosive",
+        "type": "explosive",
         "weight": 15.0,
         "bullets": {
             "shells": "antitank_mine"
@@ -17615,6 +17622,7 @@
     {
         "name": "tnt_block",
         "explosive": "explosive",
+        "type": "explosive",
         "weight": 15.0,
         "bullets": {
             "shells": "tnt_block"

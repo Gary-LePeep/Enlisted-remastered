@@ -7245,7 +7245,8 @@
             "onHit": false,
             "timer": 5.0
         },
-        "speed": 15.0
+        "speed": 15.0,
+        "hitpower": null
     },
     "grenade": {
         "explodeHitPower": null,
@@ -7271,7 +7272,8 @@
             "onHit": false,
             "timer": 5.0
         },
-        "speed": 18.5
+        "speed": 18.5,
+        "hitpower": null
     },
     "molotov_grenade": {
         "explodeHitPower": null,
@@ -7294,7 +7296,8 @@
             ]
         },
         "detonation": null,
-        "speed": 18.5
+        "speed": 18.5,
+        "hitpower": null
     },
     "incendiary_grenade": {
         "explodeHitPower": null,
@@ -7320,7 +7323,8 @@
             "onHit": false,
             "timer": 5.0
         },
-        "speed": 18.5
+        "speed": 18.5,
+        "hitpower": null
     },
     "impact_grenade": {
         "explodeHitPower": null,
@@ -7343,7 +7347,8 @@
             ]
         },
         "detonation": null,
-        "speed": 18.5
+        "speed": 18.5,
+        "hitpower": null
     },
     "antipersonnel_mine": {
         "explodeHitPower": null,
@@ -7366,7 +7371,8 @@
             ]
         },
         "detonation": null,
-        "speed": 0.0
+        "speed": 0.0,
+        "hitpower": null
     },
     "antitank_mine": {
         "explodeHitPower": 250.0,
@@ -7377,7 +7383,8 @@
         "explodeArmorPower": 35.0,
         "splashDamage": null,
         "detonation": null,
-        "speed": 0.0
+        "speed": 0.0,
+        "hitpower": null
     },
     "tnt_block": {
         "explodeHitPower": 250.0,
@@ -7388,6 +7395,7 @@
         "explodeArmorPower": 35.0,
         "splashDamage": null,
         "detonation": null,
-        "speed": 0.0
+        "speed": 0.0,
+        "hitpower": null
     }
 }
