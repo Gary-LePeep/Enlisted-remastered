@@ -227,6 +227,7 @@ const WEAPONS_META = [
     {
         'Category': 'weapons.category.mg.allies',
         Weapons: [
+                'besal_lmg',
                 'breda_mod_30',
                 'bren_mk1',
                 'bren_mk2',
