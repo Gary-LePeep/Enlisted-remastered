@@ -37,7 +37,75 @@
         ttkDpmDropdown.append(translate('page.comparison.ttkDpmDropdown3', 'option'));
         ttkDpmDropdown.append(translate('page.comparison.ttkDpmDropdown4', 'option'));
 
-        MAX_DMG = 10;
+        // scatter chart dropdown
+        const scatterDropdownLabel = translate('page.comparison.ttkDpmDropdown', 'b', 'position:absolute; top:215px; left:1225px; width:450px; text-align:center; font-family: Trebuchet MS; font-size:18px; color: white;');
+        BODY.appendChild(scatterDropdownLabel);
+        const scatterDropdown = document.createElement('select');
+        scatterDropdown.id = 'scatter_dropdown';
+        scatterDropdown.onchange = () => { reloadScatterChart(); };
+        scatterDropdownLabel.appendChild(scatterDropdown);
+        scatterDropdown.append(translate('page.comparison.scatter_dropdown1', 'option'));
+        scatterDropdown.append(translate('page.comparison.scatter_dropdown2', 'option'));
+        scatterDropdown.append(translate('page.comparison.scatter_dropdown3', 'option'));
+
+        const roundsLabel = translate('page.comparison.roundsSlideScatter', 'div', 'position:absolute; top:245px; left:1225px; width:450px; text-align:center; font-family: Trebuchet MS; font-size:18px; color: white;');
+        BODY.appendChild(roundsLabel);
+        const roundsSlider = document.createElement('input');
+        roundsSlider.type = 'text';
+        roundsSlider.value = 100;
+        roundsSlider.style = 'width:50px';
+        roundsSlider.onchange = () => { reloadScatterChart(); };
+        roundsLabel.appendChild(roundsSlider);
+
+        const distanceLabel = translate('page.comparison.distanceSlideScatter', 'div', 'position:absolute; top:275px; left:1225px; width:450px; text-align:center; font-family: Trebuchet MS; font-size:18px; color: white;');
+        BODY.appendChild(distanceLabel);
+        const rangeSlider = document.createElement('input');
+        rangeSlider.type = 'text';
+        rangeSlider.value = 30;
+        rangeSlider.style = 'width:50px';
+        rangeSlider.onchange = () => { reloadScatterChart(); };
+        distanceLabel.appendChild(rangeSlider);
+
+        // Checkboxes
+        const vitalityCheck = document.createElement('input');
+        vitalityCheck.style = 'position: absolute; top: 261px; left: 830px;';
+        vitalityCheck.type = 'checkbox';
+        vitalityCheck.onchange = () => { reloadTtkDpmChart(); };
+        BODY.appendChild(vitalityCheck);
+        const vitalityCheckLabel = translate('page.comparison.vitalityCheck', 'b', 'position: absolute; top: 260px; left: 854px; font-family: Trebuchet MS; width:1000px; font-size:18px; color: white;');
+        BODY.append(vitalityCheckLabel);
+
+        const armorCheck = document.createElement('input');
+        armorCheck.style = 'position: absolute; top: 291px; left: 830px;';
+        armorCheck.type = 'checkbox';
+        armorCheck.onchange = () => { reloadTtkDpmChart(); };
+        BODY.appendChild(armorCheck);
+        const armorCheckLabel = translate('page.comparison.armorCheck', 'b', 'position: absolute; top: 290px; left: 854px; font-family: Trebuchet MS; width:1000px; font-size:18px; color: white;');
+        BODY.append(armorCheckLabel);
+
+        const vertRecoilCheck = document.createElement('input');
+        vertRecoilCheck.style = 'position: absolute; top: 321px; left: 830px;';
+        vertRecoilCheck.type = 'checkbox';
+        vertRecoilCheck.onchange = () => { reloadScatterChart(); };
+        BODY.appendChild(vertRecoilCheck);
+        const vertRecoilCheckLabel = translate('page.comparison.vertRecoilCheck', 'b', 'position: absolute; top: 320px; left: 854px; font-family: Trebuchet MS; width:1000px; font-size:18px; color: white;');
+        BODY.append(vertRecoilCheckLabel);
+
+        const horizRecoilCheck = document.createElement('input');
+        horizRecoilCheck.style = 'position: absolute; top: 351px; left: 830px;';
+        horizRecoilCheck.type = 'checkbox';
+        horizRecoilCheck.onchange = () => { reloadScatterChart(); };
+        BODY.appendChild(horizRecoilCheck);
+        const horizRecoilCheckLabel = translate('page.comparison.horizRecoilCheck', 'b', 'position: absolute; top: 350px; left: 854px; font-family: Trebuchet MS; width:1000px; font-size:18px; color: white;');
+        BODY.append(horizRecoilCheckLabel);
+
+        const flametrooperCheck = document.createElement('input');
+        flametrooperCheck.style = 'position: absolute; top: 381px; left: 830px;';
+        flametrooperCheck.type = 'checkbox';
+        flametrooperCheck.onchange = () => { reloadTtkDpmChart(); };
+        BODY.appendChild(flametrooperCheck);
+        const flametrooperCheckLabel = translate('page.comparison.flametrooperCheck', 'b', 'position: absolute; top: 380px; left: 854px; font-family: Trebuchet MS; width:1000px; font-size:18px; color: white;');
+        BODY.append(flametrooperCheckLabel);
 
         // Color Dropdown
         const btncolors = [colorGreen, colorRed, colorBlue, colorOrange];
@@ -268,6 +336,11 @@
                 }
             }
 
+            let maxHP = 10;
+            maxHP += vitalityCheck.checked ? 3.5 : 0;
+            maxHP += flametrooperCheck.checked ? 1.23 : 0;
+            let armorMod = armorCheck.checked ? 0.9 : 1;
+
             const maxRange = getMaxRange();
             showDeathThreshold = false;
             for (let h = 0; h < 4; h++) {
@@ -278,33 +351,59 @@
                         const distance = (maxRange / 15) * k;
                         ranges.push(distance);
                         let damageAtDist = 0;
-                        const hpKeys = Object.keys(primary.data[h].ammo.hitpower);
-                        for (let i = 0; i < hpKeys.length - 1; i++) {
-                            const curDist = primary.data[h].ammo.hitpower[hpKeys[i]][1];
-                            const nextDist = primary.data[h].ammo.hitpower[hpKeys[i + 1]][1];
-                            const curDamage = primary.data[h].ammo.hitpower[hpKeys[i]][0];
-                            const nextDamage = primary.data[h].ammo.hitpower[hpKeys[i + 1]][0];
-                            // distance is less than minimum hitpower distance, set damage to minimum distance
-                            if (distance < curDist && i === 0) {
-                                damageAtDist = curDamage;
+                        // if has hitpower, use that
+                        if (primary.data[h].ammo.hitpower !== null) {
+                            const hpKeys = Object.keys(primary.data[h].ammo.hitpower);
+                            for (let i = 0; i < hpKeys.length - 1; i++) {
+                                const curDist = primary.data[h].ammo.hitpower[hpKeys[i]][1];
+                                const nextDist = primary.data[h].ammo.hitpower[hpKeys[i + 1]][1];
+                                const curDamage = primary.data[h].ammo.hitpower[hpKeys[i]][0];
+                                const nextDamage = primary.data[h].ammo.hitpower[hpKeys[i + 1]][0];
+                                // distance is less than minimum hitpower distance, set damage to minimum distance
+                                if (distance < curDist && i === 0) {
+                                    damageAtDist = curDamage;
+                                }
+                                // distance is more than maximum hitpower distance, set damage to maximum distance
+                                else if (distance > nextDist && i === hpKeys.length - 2) {
+                                    damageAtDist = nextDamage;
+                                }
+                                // distance is between two valid points. Interpolate between them
+                                else if (distance >= curDist && distance <= nextDist) {
+                                    const difference = nextDist - curDist;
+                                    const curDistProximity = 1 - ((distance - curDist) / difference);
+                                    const nextDistProximity = 1 - ((nextDist - distance) / difference);
+                                    damageAtDist = (curDamage * curDistProximity) + (nextDamage * nextDistProximity);
+                                }
                             }
-                            // distance is more than maximum hitpower distance, set damage to maximum distance
-                            else if (distance > nextDist && i === hpKeys.length - 2) {
-                                damageAtDist = nextDamage;
-                            }
-                            // distance is between two valid points. Interpolate between them
-                            else if (distance >= curDist && distance <= nextDist) {
-                                const difference = nextDist - curDist;
-                                const curDistProximity = 1 - ((distance - curDist) / difference);
-                                const nextDistProximity = 1 - ((nextDist - distance) / difference);
-                                damageAtDist = (curDamage * curDistProximity) + (nextDamage * nextDistProximity);
+                            const gunDamageMult = primary.data[h].weapon.damageMult;
+                            const hitmult = primary.data[h].ammo.hitPowerMult;
+                            damageAtDist = toPlace(damageAtDist * (hitmult === null ? 1 : hitmult) * (gunDamageMult === null ? 1 : gunDamageMult), 3);
+                        }
+                        // is a flamethrower
+                        else if (typeof primary.data[h].weapon.flamethrowerDPS !== "undefined") {
+                            if (distance <= primary.data[h].weapon.flamethrowerMaxLength) {
+                                damageAtDist = primary.data[h].weapon.flamethrowerDPS;
                             }
                         }
-                        const gunDamageMult = primary.data[h].weapon.damageMult;
-                        const hitmult = primary.data[h].ammo.hitPowerMult;
-                        damageAtDist = toPlace(damageAtDist * (hitmult === null ? 1 : hitmult) * (gunDamageMult === null ? 1 : gunDamageMult), 3);
-                        damageAtDist = Math.max(damageAtDist, 0.1);
-                        const shotsToKill = Math.ceil(MAX_DMG / damageAtDist);
+                        // is an explosive
+                        else {
+                            console.log(primary.data[h])
+                            if (primary.data[h].ammo.explodeRadius !== null) {
+                                const maxDistExplodeHitPower = primary.data[h].ammo.explodeRadius[1];
+                                const damageExplodeHitPower = primary.data[h].ammo.explodeHitPower;
+                                const distExplodeProximity = 1 - (distance / maxDistExplodeHitPower);
+                                damageAtDist = Math.max(damageExplodeHitPower * distExplodeProximity, 0);
+                            }
+                            if (primary.data[h].ammo.splashDamage !== null) {
+                                const maxDistSplashDamage = primary.data[h].ammo.splashDamage.radius[1];
+                                const damageSplashDamage = primary.data[h].ammo.splashDamage.damage;
+                                const distSplashProximity = 1 - (distance / maxDistSplashDamage);
+                                damageAtDist += damageSplashDamage * distSplashProximity;
+                            }
+
+                        }
+                        damageAtDist = Math.max(damageAtDist, 0) * armorMod;
+                        const shotsToKill = Math.ceil(maxHP / damageAtDist);
                         if (ttkDpmDropdown.value === translate('page.comparison.ttkDpmDropdown1')) {
                             showDeathThreshold = true;
                             data.push(damageAtDist);
@@ -327,8 +426,8 @@
                 }
             }
             window.ttk_dpm_chart.options.plugins.annotation.annotations.line1.borderWidth = showDeathThreshold ? 2 : 0;
-            window.ttk_dpm_chart.options.plugins.annotation.annotations.line1.yMax = showDeathThreshold ? MAX_DMG : 0;
-            window.ttk_dpm_chart.options.plugins.annotation.annotations.line1.yMin = showDeathThreshold ? MAX_DMG : 0;
+            window.ttk_dpm_chart.options.plugins.annotation.annotations.line1.yMax = showDeathThreshold ? maxHP : 0;
+            window.ttk_dpm_chart.options.plugins.annotation.annotations.line1.yMin = showDeathThreshold ? maxHP : 0;
 
             window.ttk_dpm_chart.update();
         }
@@ -354,14 +453,79 @@
                 }
             }
 
-            const scatterData = [];
+
+
             for (let h = 0; h < 4; h++) {
                 if (primary.data[h] !== null) {
+                    console.log(primary.data[h]);
+
+                    let scatterData = [];
+                    const dispersion = primary.data[h].weapon.dispersion// * dispersionStar;
+                    const distance = rangeSlider.value;
+                    let recoilTotal = primary.data[h].weapon.recoilAmount;
+                    const recoilDir = primary.data[h].weapon.recoilDirAmount;
+                    recoilTotal *= primary.data[h].weapon.recoilControlMult === null ? 1 : primary.data[h].weapon.recoilControlMult;
+                    const recoilVert = toPlace(recoilTotal * 1000 * recoilDir, 2);
+                    const recoilHoriz = toPlace(recoilTotal * 1000 * (1 - recoilDir), 2);
+                    const recoilRightBias = primary.data[h].weapon.recoilDir;
+
+                    const horizPerk = horizRecoilCheck.checked ? 0.7 : 1;
+                    const vertPerk = vertRecoilCheck.checked ? 0.6 : 1;
+
+                    function doDispersion() {
+                        let result = [];
+                        for (let k = 1; k <= roundsSlider.value; k++) {
+                            const radius = (Math.cbrt(1000 * (dispersion ** 2.5)) - Math.cbrt(Math.random() * 1000 * (dispersion ** 2.5))) * (distance / 28);
+                            const theta = Math.random() * 6.28318530718;
+                            result.push([radius * Math.cos(theta), radius * Math.sin(theta)]);
+                        }
+                        return result;
+                    }
+
+                    function doRecoil() {
+                        let result = []
+                        for (let k = 1; k <= roundsSlider.value; k++) {
+                            const radius = recoilHoriz * (distance / 100);
+                            let offset = recoilVert * (distance / 100);
+                            let horizOffset = 0;
+                            // some guns seemingly just have horizontal offset instead, haven't figured out why yet
+                            const horizRecoilGuns = [
+                                'charlton_automatic_rifle',
+                                'mg_13',
+                                'mg_34',
+                                'mg_42_handheld',
+                                'mg_34_with_patronentrommel',
+                            ];
+                            if (horizRecoilGuns.includes(primary.data[h].weapon.name)) {
+                                horizOffset = offset;
+                                offset = 0;
+                            }
+                            const theta = Math.random() * 6.28318530718;
+                            result.push([
+                                ((radius * Math.cos(theta)) + horizOffset) * horizPerk,
+                                ((radius * Math.sin(theta)) + offset) * vertPerk]);
+                        }
+                        return result;
+                    }
+
+                    if (scatterDropdown.value === translate('page.comparison.scatter_dropdown1')) {
+                        scatterData = doDispersion();
+                    }
+                    if (scatterDropdown.value === translate('page.comparison.scatter_dropdown2')) {
+                        scatterData = doRecoil();
+                    }
+                    if (scatterDropdown.value === translate('page.comparison.scatter_dropdown3')) {
+                        const dispersionPart = doDispersion();
+                        const recoilPart = doRecoil();
+                        for (let i = 0; i < roundsSlider.value; i++) {
+                            scatterData.push([dispersionPart[i][0] + recoilPart[i][0], dispersionPart[i][1] + recoilPart[i][1]]);
+                        }
+                    }
                     window.scatter_chart.data.datasets[h].data = scatterData;
+                    console.log(window.scatter_chart.data.datasets[h].data)
+                    window.scatter_chart.update();
                 }
             }
-
-            window.scatter_chart.update();
         }
 
         function reloadCharts() {

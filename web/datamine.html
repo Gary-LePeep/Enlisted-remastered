@@ -422,7 +422,7 @@
                         starsDropdown.data.recoilHoriz = recoilTotal * 1000 * (1 - recoilDir);
                     }
                     crawlRecoilData.textContent = getProperty('proneRecoilMult') === '-' ? '-' : `${getProperty('proneRecoilMult')}×`;
-                    recoilRightBiasData.textContent = getProperty('recoilDir') === '-' ? '-' : `${getProperty('recoilDir') * 50} ${translate('degrees')}`;;
+                    recoilRightBiasData.textContent = getProperty('recoilDir') === '-' ? '-' : `${getProperty('recoilDir')}`;;
 
                     let ammoFile = (Array.isArray(getProperty('bullets')) ? getProperty('bullets')[0] : getProperty('bullets')).shells.split('/');
                     ammoFile = ammoFile[ammoFile.length - 1];
