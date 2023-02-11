@@ -692,10 +692,6 @@
     "page.datamine.crawlRecoil": "Recoil multiplier while prone: ",
     "page.datamine.damageFromHeat": "Damage from HEAT",
     "page.datamine.damageOverRange": "Damage over distance",
-    "page.datamine.disclaimer": [
-        "* Horizontal recoil does not behave in the way that you might assume.",
-        "For more info, see the shooting simulator in the Weapon Comparison Tool tab."
-    ],
     "page.datamine.dispersion": "Dispersion: ",
     "page.datamine.dispersionRecoil.header": "Recoil & Dispersion",
     "page.datamine.effRange": "Effective Range: ",
@@ -707,7 +703,7 @@
     "page.datamine.maxRange": "Maximum Range: ",
     "page.datamine.metadata.header": "General Data",
     "page.datamine.penOverRange": "Armor penetration over distance",
-    "page.datamine.recoilHoriz": "* Horizontal Recoil: ",
+    "page.datamine.recoilHoriz": "Horizontal Recoil: ",
     "page.datamine.recoilRightBias": "Recoil bias towards right: ",
     "page.datamine.recoilVert": "Vertical Recoil: ",
     "page.datamine.reload": "Time to reload with empty magazine: ",
@@ -836,5 +832,29 @@
     "weapons.category.pistol.allies": "Allied Pistols",
     "weapons.category.pistol.axis": "Axis Pistols",
     "weapons.category.semiauto.allies": "Allied Semi/Auto Rifles",
-    "weapons.category.semiauto.axis": "Axis Semi/Auto Rifles"
+    "weapons.category.semiauto.axis": "Axis Semi/Auto Rifles",
+    "page.datamine.dispersion.info": [
+        "Dispersion is a hidden mechanic of a gun which determines the cone size where a bullet~s trajectory will be randomly decided.",
+        "A lower dispersion means your bullets land closer to where you are aiming.",
+        "A high dispersion means you might be aiming directly at someone close to you and still completely miss!",
+        "Here are some example dispersions:",
+        "0.01 - 0.15 Very low, good for sniping",
+        "0.15 - 0.25 Medium range",
+        "0.25 - 0.4  Short to medium range",
+        "0.4  - 0.7  Better for shorter ranges",
+        "0.7  - 1    Short range only",
+        "Some exceptions may apply. For example, MG42 has very bad dispersion, but because it fires so fast, you can get a hit even at medium range.",
+        "For an easy visualization, see the dispersion simulator in the ~Weapon Tool~ tab"
+    ],
+    "page.datamine.recoil.info": [
+        "Vertical recoil has strictly a vertical component. It is also constant, there is no randomness to how much the barrel will rise.",
+        "However, horizontal recoil has both a vertical and horizontal component. Horizontal recoil actually creates a ring, and the bullet can lang anywhere on that ring.",
+        "For an easy visualization, see the recoil simulator in the ~Weapon Tool~ tab"
+    ],
+    "page.datamine.rightbias.info": [
+        "Origin refers to the point that the gun was aiming at prior to firing.",
+        "Some guns have a bias to the right (or, more rarely, to the left, which is shown with a negative value).",
+        "When a gun has a right bias, that means that, after the recoil ring is created with horizontal recoil, and offset vertically by vertical recoil, the resulting plane is rotated about the origin point by some value, approximately 50 times the data value in degrees.",
+        "For an easy visualization, see the recoil simulator in the ~Weapon Tool~ tab"
+    ]
 }

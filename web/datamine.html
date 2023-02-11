@@ -48,6 +48,19 @@
             return data;
         }
 
+        function createInfoIcon(top, left, tipText) {
+            const infoIcon = document.createElement('div');
+            infoIcon.innerHTML = 'ℹ️';
+            infoIcon.style = `position: absolute; top: ${top + 117}px; left: ${495 + left}px; width: 50px; height: 50px;`;
+
+            const infoTip = translate(tipText, 'a', `position: relative; top: -100px; left: -410px; width: 400px; background-color: ${colorTitle}; text-alight: right; display: none; font-family: Trebuchet MS; color: white;`);
+            infoIcon.appendChild(infoTip);
+
+            infoIcon.onmouseenter = () => {infoTip.style.display = 'block';}
+            infoIcon.onmouseleave = () => {infoTip.style.display = 'none';}
+            return infoIcon;
+        }
+
         // General data
         metaDiv = createWeaponStatsDiv(0, 0, translate('page.datamine.metadata.header'));
         const gunNameData = createWeaponRow(0, 'page.datamine.gunName', metaDiv);
@@ -73,9 +86,12 @@
         // Dispersion & Recoil data
         disRecDiv = createWeaponStatsDiv(440, 0, translate('page.datamine.dispersionRecoil.header'));
         const dispersionData = createWeaponRow(0, 'page.datamine.dispersion', disRecDiv);
+        BODY.appendChild(createInfoIcon(440, 0 , 'page.datamine.dispersion.info'));
         const recoilVertData = createWeaponRow(20, 'page.datamine.recoilVert', disRecDiv);
         const recoilHorizData = createWeaponRow(40, 'page.datamine.recoilHoriz', disRecDiv);
+        BODY.appendChild(createInfoIcon(470, 0 , 'page.datamine.recoil.info'));
         const recoilRightBiasData = createWeaponRow(60, 'page.datamine.recoilRightBias', disRecDiv);
+        BODY.appendChild(createInfoIcon(500, 0 , 'page.datamine.rightbias.info'));
         const crawlRecoilData = createWeaponRow(80, 'page.datamine.crawlRecoil', disRecDiv);
 
         // Reload data
@@ -90,9 +106,6 @@
         // Accessories data
         accessoriesDiv = createWeaponStatsDiv(500, 550, translate('page.datamine.accessories.header'));
         const sightsMagData = createWeaponRow(0, 'page.datamine.sightsMag', accessoriesDiv);
-
-        //Disclaimer
-        BODY.append(translate('page.datamine.disclaimer', 'div', 'position: absolute; top: 870px; left: 10px; color: white; font-size:14px; font-family: Helvetica;'));
 
         // Bullet table
         const dataDiv2 = document.createElement('div');

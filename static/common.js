@@ -73,7 +73,7 @@ function toPlace(number, place) {
 let LANG = getCookie('language') === '' ? 'English' : getCookie('language');
 
 function readJSON(stringName) {
-    return JSON.parse(stringName.replace(/&#39;/g, '"').replace(/&#34;/g, '"').replace(/~/g, "'").replace(/None/g, 'null').replace(/False/g, false).replace(/True/g, true).replace(/Ã—/g, '×').replace(/ÄŒ/g, 'Č').replace(/Ã¶/g, 'ö').replace(/Ã¤/g, 'ä').replace(/&amp;/g, '&').replace(/Ð¡/g, 'С').replace(/â€“/g, '–'));
+    return JSON.parse(stringName.replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&#39;/g, '"').replace(/&#34;/g, '"').replace(/~/g, "'").replace(/None/g, 'null').replace(/False/g, false).replace(/True/g, true).replace(/Ã—/g, '×').replace(/ÄŒ/g, 'Č').replace(/Ã¶/g, 'ö').replace(/Ã¤/g, 'ä').replace(/&amp;/g, '&').replace(/Ð¡/g, 'С').replace(/â€“/g, '–').replace(/Â/g, ' '));
 }
 
 function translate(text, type = 'string', style = '') {
@@ -90,7 +90,7 @@ function translate(text, type = 'string', style = '') {
     element.style = style;
 
     if (Array.isArray(language[text])) {
-        element.textContent = language[text].join('\r\n');
+        element.innerHTML = language[text].join('\r\n');
         element.text = language[text].join('\r\n');
         element.style = `${style}; white-space: pre-line`;
     } else {
@@ -98,7 +98,7 @@ function translate(text, type = 'string', style = '') {
         if (ret == null) {
             ret = text;
         }
-        element.textContent = ret;
+        element.innerHTML = ret;
         element.text = ret;
     }
     return element;
