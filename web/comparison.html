@@ -147,13 +147,19 @@
             starsDropdown.append(defaultOption);
             starsDropdown.data = {};
             starsDropdown.onchange = () => {
-                const type = typeData.textContent
+                const type = primary.data[h].weapon.type.replace(/_/g, ' ')
                 if (type === '-') {
                     return;
                 }
                 const starList = STARUPGRADES[type]
 
                 // reset values
+                primary.data[h].star.damage = 1;
+                primary.data[h].star.dev = 1;
+                primary.data[h].star.rpm = 1;
+                primary.data[h].star.recoilVert = 1;
+                primary.data[h].star.recoilHoriz = 1;
+                primary.data[h].star.reload = 1;
 
                 for (let i = 0; i <= starsDropdown.selectedIndex; i++) {
                     for (let j in starList[i]) {
@@ -161,9 +167,11 @@
                         const starVal = starList[i][j];
 
                         // set values
-
+                        primary.data[h].star[starKey] = starVal;
                     }
                 }
+                reloadCharts();
+                console.log(primary.data[h])
             };
 
             // Add all unavailable weapons
@@ -283,8 +291,23 @@
 
                         primary.data[h] = {
                             weapon: weaponData,
-                            ammo: ammoJson
+                            ammo: ammoJson,
+                            star: {
+                                damage: 1,
+                                dev: 1,
+                                rpm: 1,
+                                recoilVert: 1,
+                                recoilHoriz: 1,
+                                reload: 1
+                            }
                         };
+
+                        if (getProperty('type') !== '-' && getProperty('type') !== 'explosive') {
+                            starsDropdown.textContent = '';
+                            for (let k = 0; k < STARUPGRADES[getProperty('type').replace(/_/g, ' ')].length; k++) {
+                                starsDropdown.append(translate('★'.repeat(k + 1), 'option'));
+                            }
+                        }
 
                         // set color button name to selected weapon. Resize until it stays small
                         colorButtonText.text = weaponButtonText.text;
@@ -309,6 +332,10 @@
                     const wepType = primary.data[k].weapon.type !== null ? primary.data[k].weapon.type.replace(/_/g, ' ') : primary.data[k].weapon.explosive;
                     if (RANGES[wepType] != null && RANGES[wepType] > maxRange) {
                         maxRange = RANGES[wepType];
+                    }
+                    // AT rifles count as launchers but range for them should be 300
+                    if (primary.data[k].weapon.type === 'launcher' && primary.data[k].ammo.hitpower !== null) {
+                        maxRange = 300;
                     }
                 }
             }
@@ -347,6 +374,7 @@
                 if (primary.data[h] !== null) {
                     let ranges = [];
                     let data = [];
+                    console.log(primary.data[h])
                     for (let k = 0; k <= 15; k++) {
                         const distance = (maxRange / 15) * k;
                         ranges.push(distance);
@@ -380,14 +408,13 @@
                             damageAtDist = toPlace(damageAtDist * (hitmult === null ? 1 : hitmult) * (gunDamageMult === null ? 1 : gunDamageMult), 3);
                         }
                         // is a flamethrower
-                        else if (typeof primary.data[h].weapon.flamethrowerDPS !== "undefined") {
+                        else if (typeof primary.data[h].weapon.flamethrowerDPS !== "undefined" && primary.data[h].weapon.flamethrowerDPS !== null) {
                             if (distance <= primary.data[h].weapon.flamethrowerMaxLength) {
                                 damageAtDist = primary.data[h].weapon.flamethrowerDPS;
                             }
                         }
                         // is an explosive
                         else {
-                            console.log(primary.data[h])
                             if (primary.data[h].ammo.explodeRadius !== null) {
                                 const maxDistExplodeHitPower = primary.data[h].ammo.explodeRadius[1];
                                 const damageExplodeHitPower = primary.data[h].ammo.explodeHitPower;
@@ -402,7 +429,7 @@
                             }
 
                         }
-                        damageAtDist = Math.max(damageAtDist, 0) * armorMod;
+                        damageAtDist = Math.max(damageAtDist, 0) * armorMod * primary.data[h].star.damage;
                         const shotsToKill = Math.ceil(maxHP / damageAtDist);
                         if (ttkDpmDropdown.value === translate('page.comparison.ttkDpmDropdown1')) {
                             showDeathThreshold = true;
@@ -416,7 +443,7 @@
                             data.push(timeToKill);
                         }
                         if (ttkDpmDropdown.value === translate('page.comparison.ttkDpmDropdown2')) {
-                            data.push(primary.data[h].weapon.rps * 60 * damageAtDist);
+                            data.push(primary.data[h].weapon.rps * 60 * damageAtDist * primary.data[h].star.rpm);
                         }
                     }
 
@@ -457,16 +484,14 @@
 
             for (let h = 0; h < 4; h++) {
                 if (primary.data[h] !== null) {
-                    console.log(primary.data[h]);
-
                     let scatterData = [];
-                    const dispersion = primary.data[h].weapon.dispersion// * dispersionStar;
+                    const dispersion = primary.data[h].weapon.dispersion * primary.data[h].star.dev;
                     const distance = rangeSlider.value;
                     let recoilTotal = primary.data[h].weapon.recoilAmount;
                     const recoilDir = primary.data[h].weapon.recoilDirAmount;
                     recoilTotal *= primary.data[h].weapon.recoilControlMult === null ? 1 : primary.data[h].weapon.recoilControlMult;
-                    const recoilVert = toPlace(recoilTotal * 1000 * recoilDir, 2);
-                    const recoilHoriz = toPlace(recoilTotal * 1000 * (1 - recoilDir), 2);
+                    const recoilVert = toPlace(primary.data[h].star.recoilVert * recoilTotal * 1000 * recoilDir, 2);
+                    const recoilHoriz = toPlace(primary.data[h].star.recoilHoriz * recoilTotal * 1000 * (1 - recoilDir), 2);
                     const recoilRightBias = primary.data[h].weapon.recoilDir;
 
                     const horizPerk = horizRecoilCheck.checked ? 0.7 : 1;
@@ -522,7 +547,6 @@
                         }
                     }
                     window.scatter_chart.data.datasets[h].data = scatterData;
-                    console.log(window.scatter_chart.data.datasets[h].data)
                     window.scatter_chart.update();
                 }
             }
