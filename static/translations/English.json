@@ -693,6 +693,19 @@
     "page.datamine.damageFromHeat": "Damage from HEAT",
     "page.datamine.damageOverRange": "Damage over distance",
     "page.datamine.dispersion": "Dispersion: ",
+    "page.datamine.dispersion.info": [
+        "Dispersion is a hidden mechanic of a gun which determines the cone size where a bullet~s trajectory will be randomly decided.",
+        "A lower dispersion means your bullets land closer to where you are aiming.",
+        "A high dispersion means you might be aiming directly at someone close to you and still completely miss!",
+        "Here are some example dispersions:",
+        "0.01 - 0.15 Very low, good for sniping",
+        "0.15 - 0.25 Medium range",
+        "0.25 - 0.4  Short to medium range",
+        "0.4  - 0.7  Better for shorter ranges",
+        "0.7  - 1    Short range only",
+        "Some exceptions may apply. For example, MG42 has very bad dispersion, but because it fires so fast, you can get a hit even at medium range.",
+        "For an easy visualization, see the dispersion simulator in the ~Weapon Tool~ tab"
+    ],
     "page.datamine.dispersionRecoil.header": "Recoil & Dispersion",
     "page.datamine.effRange": "Effective Range: ",
     "page.datamine.firingMode": "Firing mode: ",
@@ -703,6 +716,11 @@
     "page.datamine.maxRange": "Maximum Range: ",
     "page.datamine.metadata.header": "General Data",
     "page.datamine.penOverRange": "Armor penetration over distance",
+    "page.datamine.recoil.info": [
+        "Vertical recoil has strictly a vertical component. It is also constant, there is no randomness to how much the barrel will rise.",
+        "However, horizontal recoil has both a vertical and horizontal component. Horizontal recoil actually creates a ring, and the bullet can lang anywhere on that ring.",
+        "For an easy visualization, see the recoil simulator in the ~Weapon Tool~ tab"
+    ],
     "page.datamine.recoilHoriz": "Horizontal Recoil: ",
     "page.datamine.recoilRightBias": "Recoil bias towards right: ",
     "page.datamine.recoilVert": "Vertical Recoil: ",
@@ -710,6 +728,12 @@
     "page.datamine.reload.header": "Reload Timings",
     "page.datamine.reloadAlt": "Time to reload with nonempty magazine: ",
     "page.datamine.reloadDualMag": "Time to switch between dual mags: ",
+    "page.datamine.rightbias.info": [
+        "Origin refers to the point that the gun was aiming at prior to firing.",
+        "Some guns have a bias to the right (or, more rarely, to the left, which is shown with a negative value).",
+        "When a gun has a right bias, that means that, after the recoil ring is created with horizontal recoil, and offset vertically by vertical recoil, the resulting plane is rotated about the origin point by some value, approximately 50 times the data value in degrees.",
+        "For an easy visualization, see the recoil simulator in the ~Weapon Tool~ tab"
+    ],
     "page.datamine.rpm": "Rounds/min: ",
     "page.datamine.sightsMag": "Scope Magnification: ",
     "page.datamine.singleReloadLoop": "Single Bullet Reload (time per bullet): ",
@@ -821,6 +845,8 @@
     "weapon": "Weapon",
     "weapons.category.assault.allies": "Allied Assault Weapons",
     "weapons.category.assault.axis": "Axis Assault Weapons",
+    "weapons.category.berlin.allies": "Berlin Allies",
+    "weapons.category.berlin.axis": "Berlin Axis",
     "weapons.category.grenades-mines": "Grenades and Mines",
     "weapons.category.heavy.allies": "Allied Heavy Weapons",
     "weapons.category.heavy.axis": "Axis Heavy Weapons",
@@ -828,33 +854,19 @@
     "weapons.category.manual.axis": "Axis Manual Rifles",
     "weapons.category.mg.allies": "Allied Machineguns",
     "weapons.category.mg.axis": "Axis Machineguns",
+    "weapons.category.moscow.allies": "Moscow Allies",
+    "weapons.category.moscow.axis": "Moscow Axis",
+    "weapons.category.normandy.allies": "Normandy Allies",
+    "weapons.category.normandy.axis": "Normandy Axis",
     "weapons.category.other": "Unavailable Weapons",
+    "weapons.category.pacific.allies": "Pacific Allies",
+    "weapons.category.pacific.axis": "Pacific Axis",
     "weapons.category.pistol.allies": "Allied Pistols",
     "weapons.category.pistol.axis": "Axis Pistols",
     "weapons.category.semiauto.allies": "Allied Semi/Auto Rifles",
     "weapons.category.semiauto.axis": "Axis Semi/Auto Rifles",
-    "page.datamine.dispersion.info": [
-        "Dispersion is a hidden mechanic of a gun which determines the cone size where a bullet~s trajectory will be randomly decided.",
-        "A lower dispersion means your bullets land closer to where you are aiming.",
-        "A high dispersion means you might be aiming directly at someone close to you and still completely miss!",
-        "Here are some example dispersions:",
-        "0.01 - 0.15 Very low, good for sniping",
-        "0.15 - 0.25 Medium range",
-        "0.25 - 0.4  Short to medium range",
-        "0.4  - 0.7  Better for shorter ranges",
-        "0.7  - 1    Short range only",
-        "Some exceptions may apply. For example, MG42 has very bad dispersion, but because it fires so fast, you can get a hit even at medium range.",
-        "For an easy visualization, see the dispersion simulator in the ~Weapon Tool~ tab"
-    ],
-    "page.datamine.recoil.info": [
-        "Vertical recoil has strictly a vertical component. It is also constant, there is no randomness to how much the barrel will rise.",
-        "However, horizontal recoil has both a vertical and horizontal component. Horizontal recoil actually creates a ring, and the bullet can lang anywhere on that ring.",
-        "For an easy visualization, see the recoil simulator in the ~Weapon Tool~ tab"
-    ],
-    "page.datamine.rightbias.info": [
-        "Origin refers to the point that the gun was aiming at prior to firing.",
-        "Some guns have a bias to the right (or, more rarely, to the left, which is shown with a negative value).",
-        "When a gun has a right bias, that means that, after the recoil ring is created with horizontal recoil, and offset vertically by vertical recoil, the resulting plane is rotated about the origin point by some value, approximately 50 times the data value in degrees.",
-        "For an easy visualization, see the recoil simulator in the ~Weapon Tool~ tab"
-    ]
+    "weapons.category.stalingrad.allies": "Stalingrad Allies",
+    "weapons.category.stalingrad.axis": "Stalingrad Axis",
+    "weapons.category.tunisia.allies": "Tunisia Allies",
+    "weapons.category.tunisia.axis": "Tunisia Axis"
 }

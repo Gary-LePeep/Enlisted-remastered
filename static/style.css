@@ -48,6 +48,10 @@ nav li:hover {
     background-color: #CCCCCC;
 }
 
+nav {
+    background-color: #FF0000
+}
+
 /* Basic menu declarations */
 
 nav {
