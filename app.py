@@ -56,7 +56,8 @@ def soldier_stats():
 @app.route("/tanks")
 def tanks():
     language_json = get_language()
-    return render_template('tanks.html', language=language_json)
+    tanks_json = json.load(open('static/tanks/tanks.json'))
+    return render_template('tanks.html', language=language_json, tanksJson=tanks_json)
 
 
 if __name__ == "__main__":

@@ -146,6 +146,7 @@ const TANKS_META = [
   {
     'Category': 'weapons.category.pacific.axis',
     Tanks: [
+      'jp_type_97_kai',
       'jp_type_95_ha_go',
       'jp_type_3_ka_chi',
       'jp_type_2_ka_mi',
