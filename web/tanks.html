@@ -103,8 +103,8 @@
                     for (let i = 0; i < turretDiv.childNodes[0].childNodes.length; i++) {
                         for (let j = 0; j < turretDiv.childNodes[0].childNodes[i].childNodes.length; j++) {
                             if (turretDiv.childNodes[0].childNodes[i].childNodes[j] != null) {
-                                turretDiv.childNodes[0].childNodes[i].childNodes[j].style.backgroundColor = '#333333';
-                                turretDiv.childNodes[0].childNodes[i].childNodes[j].style.borderColor = '#777777';
+                                turretDiv.childNodes[0].childNodes[i].childNodes[j].style.backgroundColor = '#111111';
+                                turretDiv.childNodes[0].childNodes[i].childNodes[j].style.borderColor = '#444444';
                             }
                         }
                     }
@@ -117,13 +117,13 @@
             const mainGuns1 = [];
 
             // collect just the indices of the main gun(s)
-            for (let i = 0; i < table0.childNodes[7].childNodes.length; i++) {
-                if (!(table0.childNodes[7].childNodes[i].textContent === translate('N_A'))) {
+            for (let i = 0; i < table0.childNodes[15].childNodes.length; i++) {
+                if (!(table0.childNodes[15].childNodes[i].textContent.includes('　'))) {
                     mainGuns0.push(i);
                 }
             }
-            for (let i = 0; i < table1.childNodes[7].childNodes.length; i++) {
-                if (!(table1.childNodes[7].childNodes[i].textContent === translate('N_A'))) {
+            for (let i = 0; i < table1.childNodes[15].childNodes.length; i++) {
+                if (!(table1.childNodes[15].childNodes[i].textContent.includes('　'))) {
                     mainGuns1.push(i);
                 }
             }
@@ -134,8 +134,8 @@
             }
 
             // do the coloring on the main guns, excluding certain lines
-            const skipLines = [0, 1, 6, 7, 8, 11, 12, 13];
-            const lowerBetter = [5];
+            const skipLines = [0, 1, 11, 12, 13, 16, 17, 18];
+            const lowerBetter = [10];
             for (let i = 0; i < table1.childNodes.length; i++) {
                 if (skipLines.includes(i)) {
                     continue;
@@ -232,6 +232,7 @@
         for (let h = 0; h < 2; h++) {
             // add color button dropdown to left and right nav
             const colorButtonContainer = document.createElement('li');
+            colorButtonContainer.style.zIndex = 1;
             if (h === 0) {
                 leftNavList.append(colorButtonContainer);
             }
@@ -244,7 +245,7 @@
             colorButtonContainer.append(colorButton);
             const colorButtonText = document.createElement('a');
             colorButtonText.style = 'color: white; font-size:22px';
-            colorButtonText.text = translate('Tank') + (h + 1);
+            colorButtonText.text = `${translate('Tank')} ${(h + 1)}`;
             colorButton.append(colorButtonText);
             const campaignList = document.createElement('ul');
             colorButton.append(campaignList);
@@ -329,28 +330,23 @@
                         }
                         setDataTable(topSpeedDiv, toPlace(topSpeed, 0), h, true);
                         setDataTable(accelDiv, toPlace(powerFactor, 1), h, true);
-                        turretArray = [];
-                        for (let l = 0; l < Object.keys(tanksDataFile).length; l++) {
-                            const key = Object.keys(tanksDataFile)[l];
-                            if (key.includes('turret_0')) {
-                                turretArray.push(tanksDataFile[key]);
-                            }
-                        }
+                        turretArray = TANK_DATA.turrets;
                         const turretTable = document.createElement('table');
                         const tableWidth = (Math.min(250 * turretArray.length, 740));
-                        const labels = ['turretName', 'yawSpeed', 'pitchSpeed', 'rpm', 'reloadShell', 'APround', 'shellType', 'speed', 'armorPower', 'HEround', 'shellType', 'speed', 'explosiveMass', 'explosiveRadius'];
-                        turretTable.style = `position: absolute; top:${148 + (dataDivs.length * 50)}px; left: ${h === 1 ? 940 : 940 - tableWidth}px; width: ${tableWidth}px; border-collapse:separate; border:0px; padding: 0px`;
+                        const labels = ['yawSpeed', 'pitchSpeed', 'depression', 'elevation', 'rotation', 'rpm', 'ammoCount', 'ammoBelt', 'reloadShell', 'APround', 'shellType', 'speed', 'armorPower', 'HEround', 'shellType', 'speed', 'explosiveMass', 'explosiveRadius'];
+                        turretTable.style = `position: absolute; table-layout: fixed; top:${148 + (dataDivs.length * 50)}px; left: ${h === 1 ? 940 : 940 - tableWidth}px; width: ${tableWidth}px; border-collapse:separate; border:0px; padding: 0px`;
                         turretTable.id = `turretTable${h}`;
                         turretDiv.appendChild(turretTable);
                         const turretTableHeader = document.createElement('thead');
                         turretTable.appendChild(turretTableHeader);
                         const turretTableHeaderRow = document.createElement('tr');
+                        turretTableHeaderRow.style = 'height: 100px;';
                         turretTableHeader.appendChild(turretTableHeaderRow);
                         const labelsDiv = document.createElement('div');
                         labelsDiv.id = `turretLabelsDiv${h}`;
                         turretDiv.appendChild(labelsDiv);
                         for (let l = 0; l < labels.length; l++) {
-                            labelsDiv.appendChild(translate(labels[l], 'b', `position:absolute; top:${160 + (dataDivs.length * 50) + (l * 44.5)}px; left:${h === 0 ? 740 - tableWidth : 955 + tableWidth}px; width:185px; text-align:${h === 0 ? 'right' : 'left'}; font-size:18px`));
+                            labelsDiv.appendChild(translate(labels[l], 'b', `position:absolute; top:${265 + (dataDivs.length * 50) + (l * 44.15)}px; left:${h === 0 ? 740 - tableWidth : 955 + tableWidth}px; width:185px; text-align:${h === 0 ? 'right' : 'left'}; font-size:18px`));
                         }
                         const turretTableBody = document.createElement('tbody');
                         turretTable.appendChild(turretTableBody);
@@ -358,8 +354,18 @@
                         turretTable.appendChild(yawTableRow);
                         const pitchTableRow = document.createElement('tr');
                         turretTable.appendChild(pitchTableRow);
+                        const depressionTableRow = document.createElement('tr');
+                        turretTable.appendChild(depressionTableRow);
+                        const elevationTableRow = document.createElement('tr');
+                        turretTable.appendChild(elevationTableRow);
+                        const rotationTableRow = document.createElement('tr');
+                        turretTable.appendChild(rotationTableRow);
                         const rpmTableRow = document.createElement('tr');
                         turretTable.appendChild(rpmTableRow);
+                        const ammoCountTableRow = document.createElement('tr');
+                        turretTable.appendChild(ammoCountTableRow);
+                        const ammoBeltTableRow = document.createElement('tr');
+                        turretTable.appendChild(ammoBeltTableRow);
                         const reloadTableRow = document.createElement('tr');
                         turretTable.appendChild(reloadTableRow);
 
@@ -390,113 +396,81 @@
                         turretTable.appendChild(HEExplosiveRadiusTableRow);
 
                         for (let l = 0; l < turretArray.length; l++) {
-                            turret = turretArray[h === 1 ? l : turretArray.length - l - 1];
-                            let flammenwerfer = false;
-                            // for now just german flamethrowers extend other turrets of interest
-                            if (!(Array.isArray(turret)) && (turret._extends.includes('ato_41') || turret._extends.includes('flammenwerfer_anlagen'))) {
-                                turret = window._ht_130.ht_130_turret_01_ato_41;
-                                flammenwerfer = true;
-                            }
-                            if (Array.isArray(turret)) {
-                                for (let m = 0; m < turret.length; m++) {
-                                    if (Object.keys(turret[m]).includes('gun__locName')) {
-                                        if (flammenwerfer) {
-                                            turretTableHeaderRow.appendChild(translate('flammenwerfer anlagen', 'th'));
-                                        } else {
-                                            turretTableHeaderRow.appendChild(translate(turret[m].gun__locName.split('_').join(' '), 'th'));
-                                        }
-                                    }
-                                    if (Object.keys(turret[m]).includes('turret__yawSpeed')) {
-                                        yawTableRow.appendChild(translate(turret[m].turret__yawSpeed, 'th'));
-                                    }
-                                    if (Object.keys(turret[m]).includes('turret__pitchSpeed')) {
-                                        pitchTableRow.appendChild(translate(turret[m].turret__pitchSpeed, 'th'));
-                                    }
-                                }
-                                rpmTableRow.appendChild(translate(270, 'th'));
-                                reloadTableRow.appendChild(translate(1, 'th'));
+                            const turret = turretArray[h === 1 ? l : turretArray.length - l - 1];
+                            turretTableHeaderRow.appendChild(translate(turret.gun.name.replace(/_/g, ' '), 'th'));
+                            yawTableRow.appendChild(translate(turret.yaw == null ? 'coax' : turret.yaw, 'th'));
+                            pitchTableRow.appendChild(translate(turret.pitch == null ? 'coax' : turret.pitch, 'th'));
+                            depressionTableRow.appendChild(translate(turret.depression == null ? 'coax' : `${turret.depression * -1} ${translate('degrees')}`, 'th'));
+                            elevationTableRow.appendChild(translate(turret.elevation == null ? 'coax' : `${turret.elevation} ${translate('degrees')}`, 'th'));
+                            rotationTableRow.appendChild(translate(turret.rotation == null ? 'coax' : `${turret.rotation} ${translate('degrees')}`, 'th'));
+                            rpmTableRow.appendChild(translate(toPlace(turret.gun.rps * 60, 2), 'th'));
+                            ammoCountTableRow.appendChild(translate(turret.ammo, 'th'));
+                            ammoBeltTableRow.appendChild(translate(turret.gun.ammoBelt == null ? 'individual' : turret.gun.ammoBelt, 'th'));
+                            reloadTableRow.appendChild(translate(turret.gun.reload == null ? 'N_A' : turret.gun.reload, 'th'));
+                            let shellAP = null;
+                            let shellHE = null;
+                            let shellSmoke = null;
 
+                            if (!turret.gun.hasOwnProperty('shells')) {
+                                break;
+                            }
+
+                            for (const shell of turret.gun.shells) {
+                                if (shellSmoke == null && shell.type.includes('smoke')) {
+                                    shellSmoke = shell;
+                                }
+                                else if (shellHE == null && shell.type.includes('frag')) {
+                                    shellHE = shell;
+                                }
+                                else if (shellAP == null) {
+                                    shellAP = shell;
+                                }
+                                else {
+                                    console.log(turret.gun.shells);
+                                    return;
+                                }
+                            }
+
+
+                            // AP shell data
+                            if (shellAP != null) {
+                                APTableRow.appendChild(translate(shellAP.name == null ? shellAP.type : shellAP.name.replace(/_/g, ' '), 'th'));
+                                APTypeTableRow.appendChild(translate(shellAP.type.replace(/_/g, ' '), 'th'));
+                                APSpeedTableRow.appendChild(translate(`${shellAP.speed} ${translate('mps')}`, 'th'));
+                                if (shellAP.cumulativeArmorPower != null) {
+                                    APArmorPowerTableRow.appendChild(translate(`${shellAP.cumulativeArmorPower} ${translate('millimeters')}`, 'th'));
+                                } else if (shellAP.demarrePenetrationK != null) {
+                                    const refDiam = 45;
+                                    const refMass = 1.43;
+                                    const refVel = 870;
+                                    const refPen = 0.069;
+                                    const diam = shellAP.caliber * 1000;
+                                    const shellMass = shellAP.mass;
+                                    const vel = shellAP.speed;
+                                    const deMarreArmorPower = refPen * ((vel / refVel) ** 1.43) * ((diam / refDiam) ** 1.07) * ((shellMass / (diam ** 3)) ** 0.71) / ((refMass / (refDiam ** 3)) ** 0.71);
+                                    APArmorPowerTableRow.appendChild(translate(`${1000 * toPlace(deMarreArmorPower, 3)} ${translate('millimeters')}`, 'th'));
+                                } else {
+                                    APArmorPowerTableRow.appendChild(translate('　', 'th'));
+                                }
+                            } else {
                                 APTableRow.appendChild(translate('N_A', 'th'));
                                 APTypeTableRow.appendChild(translate('　', 'th'));
                                 APSpeedTableRow.appendChild(translate('　', 'th'));
                                 APArmorPowerTableRow.appendChild(translate('　', 'th'));
-
+                            }
+                            // HE shell data
+                            if (shellHE != null) {
+                                HETableRow.appendChild(translate(shellHE.name == null ? shellHE.type : shellHE.name.replace(/_/g, ' '), 'th'));
+                                HETypeTableRow.appendChild(translate(shellHE.type.replace(/_/g, ' '), 'th'));
+                                HESpeedTableRow.appendChild(translate(`${shellHE.speed} ${translate('mps')}`, 'th'));
+                                HEExplosiveMassTableRow.appendChild(translate(`${shellHE.explosiveMass} ${translate('kg')}`, 'th'));
+                                HEExplosiveRadiusTableRow.appendChild(translate(shellHE.explosionPatchRadius == null ? 0 : `${shellHE.explosionPatchRadius} ${translate('meters')}`, 'th'));
+                            } else {
                                 HETableRow.appendChild(translate('N_A', 'th'));
                                 HETypeTableRow.appendChild(translate('　', 'th'));
                                 HESpeedTableRow.appendChild(translate('　', 'th'));
                                 HEExplosiveMassTableRow.appendChild(translate('　', 'th'));
                                 HEExplosiveRadiusTableRow.appendChild(translate('　', 'th'));
-                            } else {
-                                const turretName = turret._extends.replace('tankgun_', '');
-                                turretTableHeaderRow.appendChild(translate(turretName
-                                    .replace('ht_130_turret_01_ato_41', 'ato_41_flamethrower') // because Pz.II flammenwerfer copies the HT-130 turret
-                                    .split('_').join(' '), 'th'));
-                                yawTableRow.appendChild(translate(turret.turret__yawSpeed == null ? 'N_A' : turret.turret__yawSpeed, 'th'));
-                                pitchTableRow.appendChild(translate(turret.turret__pitchSpeed == null ? 'N_A' : turret.turret__pitchSpeed, 'th'));
-                                const turretsDataFile = window[`_${turretName}`];
-                                rpmTableRow.appendChild(translate(toPlace(turretsDataFile[`base_${turretName}`].gun__shotFreq * 60, 2), 'th'));
-                                reloadTableRow.appendChild(translate(turretsDataFile[`base_${turretName}`].gun__reloadTime == null ? toPlace(1 / turretsDataFile[`base_${turretName}`].gun__shotFreq, 2) : turretsDataFile[`base_${turretName}`].gun__reloadTime, 'th'));
-                                const availableShellsNames = Object.keys(turretsDataFile[`base_${turretName}`]['gun__ammoSetsInfo:shared:array']);
-                                let APshell = ammoDistribution == null ? turretsDataFile[`base_${turretName}`]['gun__ammoSetsInfo:shared:array'][availableShellsNames[0]] : turretsDataFile[`base_${turretName}`]['gun__ammoSetsInfo:shared:array'][availableShellsNames[ammoDistribution[0]['ammo:object'].slot]];
-                                let HEshell = ammoDistribution == null ? turretsDataFile[`base_${turretName}`]['gun__ammoSetsInfo:shared:array'][availableShellsNames[1]] : turretsDataFile[`base_${turretName}`]['gun__ammoSetsInfo:shared:array'][availableShellsNames[ammoDistribution[1]['ammo:object'].slot]];
-
-                                // no way to know which is AP and which is HE, so switch if necessary
-                                if (APshell != null && APshell['shell:object'] != null) {
-                                    if (APshell['shell:object'].type.replace('_tank', '').includes('he_')) {
-                                        const temp = APshell;
-                                        APshell = HEshell;
-                                        HEshell = temp;
-                                    }
-                                }
-                                // for autocannons, first slot contains both AP and HE
-                                if (['20mm_tnsh', '20mm_kwk30', '20mm_breda_m35_l6'].includes(turretName)) {
-                                    HEshell = APshell[1];
-                                    APshell = APshell[0];
-                                }
-
-                                // AP shell data
-                                if (APshell != null && APshell['shell:object'] != null) {
-                                    const shellName = APshell['shell:object'].name == null ? APshell['shell:object'].blk.split('/').pop().split('.blk')[0] : APshell['shell:object'].name;
-                                    APTableRow.appendChild(translate(shellName.split('_').join(' '), 'th'));
-                                    APTypeTableRow.appendChild(translate(APshell['shell:object'].type.replace('_tank', '').split('_').join(' '), 'th'));
-                                    const shellDataFile = window[`_${APshell['shell:object'].blk.split('/').pop().split('.blk')[0]}`];
-                                    APSpeedTableRow.appendChild(translate(shellDataFile.speed, 'th'));
-                                    if (shellDataFile.cumulativeDamage != null) {
-                                        APArmorPowerTableRow.appendChild(translate(shellDataFile.cumulativeDamage.armorPower, 'th'));
-                                    } else if (shellDataFile.armorpower != null) {
-                                        APArmorPowerTableRow.appendChild(translate(shellDataFile.armorpower.ArmorPower0m[0], 'th'));
-                                    } else if (shellDataFile.damage.kinetic.demarrePenetrationK != null) {
-                                        const refDiam = 45;
-                                        const refMass = 1.43;
-                                        const refVel = 870;
-                                        const refPen = 0.069;
-                                        const diam = shellDataFile.caliber * 1000;
-                                        const shellMass = shellDataFile.mass;
-                                        const vel = shellDataFile.speed;
-                                        APArmorPowerTableRow.appendChild(translate(1000 * toPlace(refPen * ((vel / refVel) ** 1.43) * ((diam / refDiam) ** 1.07) * ((shellMass / (diam ** 3)) ** 0.71) / ((refMass / (refDiam ** 3)) ** 0.71), 3), 'th'));
-                                    }
-                                } else {
-                                    APTableRow.appendChild(translate('N_A', 'th'));
-                                    APTypeTableRow.appendChild(translate('　', 'th'));
-                                    APSpeedTableRow.appendChild(translate('　', 'th'));
-                                    APArmorPowerTableRow.appendChild(translate('　', 'th'));
-                                }
-                                // HE shell data
-                                if (HEshell != null && HEshell['shell:object'] != null) {
-                                    const shellName = HEshell['shell:object'].name == null ? HEshell['shell:object'].blk.split('/').pop().split('.blk')[0] : HEshell['shell:object'].name;
-                                    HETableRow.appendChild(translate(shellName.split('_').join(' '), 'th'));
-                                    HETypeTableRow.appendChild(translate(HEshell['shell:object'].type.replace('_tank', '').split('_').join(' '), 'th'));
-                                    const shellDataFile = window[`_${HEshell['shell:object'].blk.split('/').pop().split('.blk')[0]}`];
-                                    HESpeedTableRow.appendChild(translate(shellDataFile.speed, 'th'));
-                                    HEExplosiveMassTableRow.appendChild(translate(shellDataFile.explosiveMass, 'th'));
-                                    HEExplosiveRadiusTableRow.appendChild(translate(shellDataFile.explosionPatchRadius == null ? 'contactObject' : shellDataFile.explosionPatchRadius, 'th'));
-                                } else {
-                                    HETableRow.appendChild(translate('N_A', 'th'));
-                                    HETypeTableRow.appendChild(translate('　', 'th'));
-                                    HESpeedTableRow.appendChild(translate('　', 'th'));
-                                    HEExplosiveMassTableRow.appendChild(translate('　', 'th'));
-                                    HEExplosiveRadiusTableRow.appendChild(translate('　', 'th'));
-                                }
                             }
                         }
                         colorTurretTable();
