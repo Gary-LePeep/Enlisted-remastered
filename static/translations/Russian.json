@@ -1486,5 +1486,21 @@
     "weapons.category.pistol.allies": "Пистолеты Союзников",
     "weapons.category.pistol.axis": "Пистолеты Оси",
     "weapons.category.semiauto.allies": "Самозарядные Винтовки Союзников",
-    "weapons.category.semiauto.axis": "Самозарядные Винтовки Оси"
+    "weapons.category.semiauto.axis": "Самозарядные Винтовки Оси",
+    "page.tanks.table.yawSpeed": "Скорость рыскания",
+    "page.tanks.table.pitchSpeed": "Скорость тангажа",
+    "page.tanks.table.depression": "Угол депрессии",
+    "page.tanks.table.elevation": "Угол возвышения",
+    "page.tanks.table.rotation": "Дуга окружности",
+    "page.tanks.table.rpm": "Темп стрельбы (выстрелов/мин)",
+    "page.tanks.table.ammoCount": "Общий боекомплект",
+    "page.tanks.table.ammoBelt": "Размер ленты патронов",
+    "page.tanks.table.reloadShell": "Время перезарядки",
+    "page.tanks.table.APround": "Бронебойный снаряд",
+    "page.tanks.table.shellType": "Тип снаряда",
+    "page.tanks.table.speed": "Скорость снаряда",
+    "page.tanks.table.armorPower": "Макс. бронепробиваемость",
+    "page.tanks.table.HEround": "Фугасный снаряд",
+    "page.tanks.table.explosiveMass": "Масса ВВ",
+    "page.tanks.table.explosiveRadius": "Радиус взрыва"
 }

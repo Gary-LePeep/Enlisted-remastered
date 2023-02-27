@@ -5024,7 +5024,11 @@
                 "elevation": 22.0,
                 "rotation": 180.0,
                 "gun": {
-                    "name": "ht_130_turret_01_ato_41"
+                    "name": "ht_130_turret_01_ato_41",
+                    "rps": 5.0,
+                    "reload": null,
+                    "ammoBelt": 360,
+                    "shells": []
                 },
                 "ammo": 160
             },
@@ -5036,7 +5040,11 @@
                 "elevation": 22.0,
                 "rotation": 180.0,
                 "gun": {
-                    "name": "ht_130_turret_01_ato_41"
+                    "name": "ht_130_turret_01_ato_41",
+                    "rps": 5.0,
+                    "reload": null,
+                    "ammoBelt": 360,
+                    "shells": []
                 },
                 "ammo": 160
             },
@@ -15212,7 +15220,11 @@
                 "elevation": 22.0,
                 "rotation": 360.0,
                 "gun": {
-                    "name": "ht_130_turret_01_ato_41"
+                    "name": "ht_130_turret_01_ato_41",
+                    "rps": 5.0,
+                    "reload": null,
+                    "ammoBelt": 360,
+                    "shells": []
                 },
                 "ammo": 360
             },

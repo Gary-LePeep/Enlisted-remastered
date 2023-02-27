@@ -1496,5 +1496,21 @@
     "weapons.category.stalingrad.allies": "Stalingrad Allies",
     "weapons.category.stalingrad.axis": "Stalingrad Axis",
     "weapons.category.tunisia.allies": "Tunisia Allies",
-    "weapons.category.tunisia.axis": "Tunisia Axis"
+    "weapons.category.tunisia.axis": "Tunisia Axis",
+    "page.tanks.table.yawSpeed": "Yaw speed",
+    "page.tanks.table.pitchSpeed": "Pitch speed",
+    "page.tanks.table.depression": "Depression",
+    "page.tanks.table.elevation": "Elevation",
+    "page.tanks.table.rotation": "Arc of rotation",
+    "page.tanks.table.rpm": "Rounds/min",
+    "page.tanks.table.ammoCount": "Total ammo count",
+    "page.tanks.table.ammoBelt": "Ammo belt size",
+    "page.tanks.table.reloadShell": "Reload time",
+    "page.tanks.table.APround": "Armor-piercing round",
+    "page.tanks.table.shellType": "Shell type",
+    "page.tanks.table.speed": "Projectile speed",
+    "page.tanks.table.armorPower": "Maximum penetration",
+    "page.tanks.table.HEround": "Explosive round",
+    "page.tanks.table.explosiveMass": "Explosive mass",
+    "page.tanks.table.explosiveRadius": "Radius of explosion"
 }

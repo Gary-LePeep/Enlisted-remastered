@@ -346,7 +346,7 @@
                         labelsDiv.id = `turretLabelsDiv${h}`;
                         turretDiv.appendChild(labelsDiv);
                         for (let l = 0; l < labels.length; l++) {
-                            labelsDiv.appendChild(translate(labels[l], 'b', `position:absolute; top:${265 + (dataDivs.length * 50) + (l * 44.15)}px; left:${h === 0 ? 740 - tableWidth : 955 + tableWidth}px; width:185px; text-align:${h === 0 ? 'right' : 'left'}; font-size:18px`));
+                            labelsDiv.appendChild(translate(`page.tanks.table.${labels[l]}`, 'b', `position:absolute; top:${265 + (dataDivs.length * 50) + (l * 44.15)}px; left:${h === 0 ? 640 - tableWidth : 955 + tableWidth}px; width:285px; text-align:${h === 0 ? 'right' : 'left'}; font-size:18px; font-family: Helvetica; color:white;`));
                         }
                         const turretTableBody = document.createElement('tbody');
                         turretTable.appendChild(turretTableBody);
@@ -410,10 +410,6 @@
                             let shellAP = null;
                             let shellHE = null;
                             let shellSmoke = null;
-
-                            if (!turret.gun.hasOwnProperty('shells')) {
-                                break;
-                            }
 
                             for (const shell of turret.gun.shells) {
                                 if (shellSmoke == null && shell.type.includes('smoke')) {
