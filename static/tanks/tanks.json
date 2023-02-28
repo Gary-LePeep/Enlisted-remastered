@@ -9,7 +9,6 @@
         "brake": 70000.0,
         "turrets": [
             {
-                "name": "dickermax_turret_01_105mm_k18",
                 "yaw": 12.0,
                 "pitch": 4.0,
                 "depression": -15.0,
@@ -91,7 +90,6 @@
         "brake": 80000.0,
         "turrets": [
             {
-                "name": "flpz_iv_wirbelwind_turret_01_20mm_flak38",
                 "yaw": 60.0,
                 "pitch": 20.0,
                 "depression": -10.0,
@@ -154,7 +152,6 @@
                 "ammo": 800
             },
             {
-                "name": "flpz_iv_wirbelwind_turret_02_20mm_flak38",
                 "yaw": 60.0,
                 "pitch": 20.0,
                 "depression": -10.0,
@@ -217,7 +214,6 @@
                 "ammo": 800
             },
             {
-                "name": "flpz_iv_wirbelwind_turret_03_20mm_flak38",
                 "yaw": 60.0,
                 "pitch": 20.0,
                 "depression": -10.0,
@@ -280,7 +276,6 @@
                 "ammo": 800
             },
             {
-                "name": "flpz_iv_wirbelwind_turret_04_20mm_flak38",
                 "yaw": 60.0,
                 "pitch": 20.0,
                 "depression": -10.0,
@@ -358,7 +353,6 @@
         "brake": 20000.0,
         "turrets": [
             {
-                "name": "flpz_i_ausf_a_turret_01_20mm_flak38",
                 "yaw": 35.0,
                 "pitch": 20.0,
                 "depression": -10.0,
@@ -436,7 +430,6 @@
         "brake": 30000.0,
         "turrets": [
             {
-                "name": "flak_36_sdkfz_6_2_turret_01_37mm_flak36",
                 "yaw": 35.0,
                 "pitch": 20.0,
                 "depression": -8.0,
@@ -518,7 +511,6 @@
         "brake": 170000.0,
         "turrets": [
             {
-                "name": "panzerjager_panther_turret_01_88mm_pak43",
                 "yaw": 8.0,
                 "pitch": 4.0,
                 "depression": -8.0,
@@ -585,7 +577,6 @@
                 "ammo": 60
             },
             {
-                "name": "panzerjager_panther_turret_02_7_92mm_mg34",
                 "yaw": 5.5,
                 "pitch": 4.0,
                 "depression": -5.0,
@@ -623,7 +614,6 @@
                 "ammo": 3000
             },
             {
-                "name": "panzerjager_panther_turret_03_91mm_germ_smoke_mortar_launcher",
                 "yaw": null,
                 "pitch": null,
                 "depression": null,
@@ -680,7 +670,6 @@
         "brake": 80000.0,
         "turrets": [
             {
-                "name": "panzerbefelhswagen_iv_ausf_j_turret_01_75mm_kwk40_l48",
                 "yaw": 10.0,
                 "pitch": 4.0,
                 "depression": -10.0,
@@ -772,7 +761,6 @@
                 "ammo": 87
             },
             {
-                "name": "panzerbefelhswagen_iv_ausf_j_turret_02_7_92mm_mg34",
                 "yaw": null,
                 "pitch": null,
                 "depression": null,
@@ -810,7 +798,6 @@
                 "ammo": 3150
             },
             {
-                "name": "panzerbefelhswagen_iv_ausf_j_turret_03_7_92mm_mg34",
                 "yaw": 90.0,
                 "pitch": 90.0,
                 "depression": -10.0,
@@ -864,7 +851,6 @@
         "brake": 90000.0,
         "turrets": [
             {
-                "name": "panzerjager_iv_l_48_turret_01_75mm_pak39_l48",
                 "yaw": 8.0,
                 "pitch": 4.0,
                 "depression": -8.0,
@@ -956,7 +942,6 @@
                 "ammo": 79
             },
             {
-                "name": "panzerjager_iv_l_48_turret_02_7_92mm_mg42",
                 "yaw": 5.5,
                 "pitch": 4.0,
                 "depression": -3.0,
@@ -994,7 +979,6 @@
                 "ammo": 1200
             },
             {
-                "name": "panzerjager_iv_l_48_turret_03_91mm_germ_smoke_mortar_launcher",
                 "yaw": null,
                 "pitch": null,
                 "depression": null,
@@ -1052,7 +1036,6 @@
         "brake": 90000.0,
         "turrets": [
             {
-                "name": "panzerjager_iv_l_70_turret_01_75mm_pak42",
                 "yaw": 8.0,
                 "pitch": 4.0,
                 "depression": -7.0,
@@ -1119,7 +1102,6 @@
                 "ammo": 55
             },
             {
-                "name": "panzerjager_iv_l_70_turret_02_7_92mm_mg42",
                 "yaw": 5.5,
                 "pitch": 4.0,
                 "depression": -6.0,
@@ -1157,7 +1139,6 @@
                 "ammo": 600
             },
             {
-                "name": "panzerjager_iv_l_70_turret_03_91mm_germ_smoke_mortar_launcher",
                 "yaw": null,
                 "pitch": null,
                 "depression": null,
@@ -1214,7 +1195,6 @@
         "brake": 90000.0,
         "turrets": [
             {
-                "name": "panzerjager_iv_l_70_a_turret_01_75mm_pak42",
                 "yaw": 8.0,
                 "pitch": 4.0,
                 "depression": -5.0,
@@ -1281,7 +1261,6 @@
                 "ammo": 60
             },
             {
-                "name": "panzerjager_iv_l_70_a_turret_02_7_92mm_mg42",
                 "yaw": 5.5,
                 "pitch": 4.0,
                 "depression": -2.0,
@@ -1319,7 +1298,6 @@
                 "ammo": 600
             },
             {
-                "name": "panzerjager_iv_l_70_a_turret_03_91mm_germ_smoke_mortar_launcher",
                 "yaw": null,
                 "pitch": null,
                 "depression": null,
@@ -1376,7 +1354,6 @@
         "brake": 220000.0,
         "turrets": [
             {
-                "name": "panzerjager_tiger_turret_01_128mm_PaK44",
                 "yaw": 5.0,
                 "pitch": 3.0,
                 "depression": null,
@@ -1443,7 +1420,6 @@
                 "ammo": 40
             },
             {
-                "name": "panzerjager_tiger_turret_02_7_92mm_mg34",
                 "yaw": 5.5,
                 "pitch": 4.0,
                 "depression": null,
@@ -1496,7 +1472,6 @@
         "brake": 25000.0,
         "turrets": [
             {
-                "name": "panzerwerfer_42_turret_01_7_92mm_mg42",
                 "yaw": 90.0,
                 "pitch": 90.0,
                 "depression": -5.0,
@@ -1549,7 +1524,6 @@
         "brake": 35000.0,
         "turrets": [
             {
-                "name": "pzkpfw_38t_ausf_f_turret_01_37mm_kwk38_t",
                 "yaw": 14.0,
                 "pitch": 15.0,
                 "depression": -10.0,
@@ -1616,7 +1590,6 @@
                 "ammo": 90
             },
             {
-                "name": "pzkpfw_38t_ausf_f_turret_02_7_92mm_zb_vz37",
                 "yaw": null,
                 "pitch": null,
                 "depression": null,
@@ -1654,7 +1627,6 @@
                 "ammo": 5600
             },
             {
-                "name": "pzkpfw_38t_ausf_f_turret_03_66mm_germ_smoke_candle_launcher",
                 "yaw": null,
                 "pitch": null,
                 "depression": null,
@@ -1696,7 +1668,6 @@
                 "ammo": 1
             },
             {
-                "name": "pzkpfw_38t_ausf_f_turret_04_66mm_germ_smoke_candle_launcher",
                 "yaw": null,
                 "pitch": null,
                 "depression": null,
@@ -1738,7 +1709,6 @@
                 "ammo": 1
             },
             {
-                "name": "pzkpfw_38t_ausf_f_turret_05_66mm_germ_smoke_candle_launcher",
                 "yaw": null,
                 "pitch": null,
                 "depression": null,
@@ -1780,7 +1750,6 @@
                 "ammo": 1
             },
             {
-                "name": "pzkpfw_38t_ausf_f_turret_06_66mm_germ_smoke_candle_launcher",
                 "yaw": null,
                 "pitch": null,
                 "depression": null,
@@ -1822,7 +1791,6 @@
                 "ammo": 1
             },
             {
-                "name": "pzkpfw_38t_ausf_f_turret_07_66mm_germ_smoke_candle_launcher",
                 "yaw": null,
                 "pitch": null,
                 "depression": null,
@@ -1879,7 +1847,6 @@
         "brake": 35000.0,
         "turrets": [
             {
-                "name": "pzkpfw_38t_marder_iii_turret_01_76mm_pak36_r",
                 "yaw": 12.0,
                 "pitch": 4.0,
                 "depression": -6.0,
@@ -1946,7 +1913,6 @@
                 "ammo": 30
             },
             {
-                "name": "pzkpfw_38t_marder_iii_turret_02_7_92mm_zb_vz37",
                 "yaw": 5.5,
                 "pitch": 4.0,
                 "depression": -10.0,
@@ -1984,7 +1950,6 @@
                 "ammo": 1200
             },
             {
-                "name": "pzkpfw_38t_marder_iii_turret_03_66mm_germ_smoke_candle_launcher",
                 "yaw": null,
                 "pitch": null,
                 "depression": null,
@@ -2026,7 +1991,6 @@
                 "ammo": 1
             },
             {
-                "name": "pzkpfw_38t_marder_iii_turret_04_66mm_germ_smoke_candle_launcher",
                 "yaw": null,
                 "pitch": null,
                 "depression": null,
@@ -2068,7 +2032,6 @@
                 "ammo": 1
             },
             {
-                "name": "pzkpfw_38t_marder_iii_turret_05_66mm_germ_smoke_candle_launcher",
                 "yaw": null,
                 "pitch": null,
                 "depression": null,
@@ -2110,7 +2073,6 @@
                 "ammo": 1
             },
             {
-                "name": "pzkpfw_38t_marder_iii_turret_06_66mm_germ_smoke_candle_launcher",
                 "yaw": null,
                 "pitch": null,
                 "depression": null,
@@ -2152,7 +2114,6 @@
                 "ammo": 1
             },
             {
-                "name": "pzkpfw_38t_marder_iii_turret_07_66mm_germ_smoke_candle_launcher",
                 "yaw": null,
                 "pitch": null,
                 "depression": null,
@@ -2209,7 +2170,6 @@
         "brake": 50000.0,
         "turrets": [
             {
-                "name": "pzkpfw_iii_ausf_b_turret_01_37mm_kwk36",
                 "yaw": 6.0,
                 "pitch": 4.0,
                 "depression": -10.0,
@@ -2276,7 +2236,6 @@
                 "ammo": 121
             },
             {
-                "name": "pzkpfw_iii_ausf_b_turret_02_7_92mm_mg34",
                 "yaw": null,
                 "pitch": null,
                 "depression": null,
@@ -2314,7 +2273,6 @@
                 "ammo": 1800
             },
             {
-                "name": "pzkpfw_iii_ausf_b_turret_03_7_92mm_mg34",
                 "yaw": null,
                 "pitch": null,
                 "depression": null,
@@ -2352,7 +2310,6 @@
                 "ammo": 1800
             },
             {
-                "name": "pzkpfw_iii_ausf_b_turret_04_66mm_germ_smoke_candle_launcher",
                 "yaw": null,
                 "pitch": null,
                 "depression": null,
@@ -2394,7 +2351,6 @@
                 "ammo": 1
             },
             {
-                "name": "pzkpfw_iii_ausf_b_turret_05_66mm_germ_smoke_candle_launcher",
                 "yaw": null,
                 "pitch": null,
                 "depression": null,
@@ -2436,7 +2392,6 @@
                 "ammo": 1
             },
             {
-                "name": "pzkpfw_iii_ausf_b_turret_06_66mm_germ_smoke_candle_launcher",
                 "yaw": null,
                 "pitch": null,
                 "depression": null,
@@ -2478,7 +2433,6 @@
                 "ammo": 1
             },
             {
-                "name": "pzkpfw_iii_ausf_b_turret_07_66mm_germ_smoke_candle_launcher",
                 "yaw": null,
                 "pitch": null,
                 "depression": null,
@@ -2520,7 +2474,6 @@
                 "ammo": 1
             },
             {
-                "name": "pzkpfw_iii_ausf_b_turret_08_66mm_germ_smoke_candle_launcher",
                 "yaw": null,
                 "pitch": null,
                 "depression": null,
@@ -2577,7 +2530,6 @@
         "brake": 65000.0,
         "turrets": [
             {
-                "name": "pzkpfw_iii_ausf_e_turret_01_37mm_kwk36",
                 "yaw": 5.5,
                 "pitch": 4.0,
                 "depression": -10.0,
@@ -2644,7 +2596,6 @@
                 "ammo": 131
             },
             {
-                "name": "pzkpfw_iii_ausf_e_turret_02_7_92mm_mg34",
                 "yaw": null,
                 "pitch": null,
                 "depression": null,
@@ -2682,7 +2633,6 @@
                 "ammo": 1800
             },
             {
-                "name": "pzkpfw_iii_ausf_e_turret_03_7_92mm_mg34",
                 "yaw": null,
                 "pitch": null,
                 "depression": null,
@@ -2720,7 +2670,6 @@
                 "ammo": 1800
             },
             {
-                "name": "pzkpfw_iii_ausf_e_turret_04_66mm_germ_smoke_candle_launcher",
                 "yaw": null,
                 "pitch": null,
                 "depression": null,
@@ -2762,7 +2711,6 @@
                 "ammo": 1
             },
             {
-                "name": "pzkpfw_iii_ausf_e_turret_05_66mm_germ_smoke_candle_launcher",
                 "yaw": null,
                 "pitch": null,
                 "depression": null,
@@ -2804,7 +2752,6 @@
                 "ammo": 1
             },
             {
-                "name": "pzkpfw_iii_ausf_e_turret_06_66mm_germ_smoke_candle_launcher",
                 "yaw": null,
                 "pitch": null,
                 "depression": null,
@@ -2846,7 +2793,6 @@
                 "ammo": 1
             },
             {
-                "name": "pzkpfw_iii_ausf_e_turret_07_66mm_germ_smoke_candle_launcher",
                 "yaw": null,
                 "pitch": null,
                 "depression": null,
@@ -2888,7 +2834,6 @@
                 "ammo": 1
             },
             {
-                "name": "pzkpfw_iii_ausf_e_turret_08_66mm_germ_smoke_candle_launcher",
                 "yaw": null,
                 "pitch": null,
                 "depression": null,
@@ -2945,7 +2890,6 @@
         "brake": 65000.0,
         "turrets": [
             {
-                "name": "pzkpfw_iii_ausf_f_turret_01_50mm_kwk38",
                 "yaw": 5.5,
                 "pitch": 4.0,
                 "depression": -10.0,
@@ -3012,7 +2956,6 @@
                 "ammo": 99
             },
             {
-                "name": "pzkpfw_iii_ausf_f_turret_02_7_92mm_mg34",
                 "yaw": null,
                 "pitch": null,
                 "depression": null,
@@ -3050,7 +2993,6 @@
                 "ammo": 4350
             },
             {
-                "name": "pzkpfw_iii_ausf_f_turret_03_66mm_germ_smoke_candle_launcher",
                 "yaw": null,
                 "pitch": null,
                 "depression": null,
@@ -3092,7 +3034,6 @@
                 "ammo": 1
             },
             {
-                "name": "pzkpfw_iii_ausf_f_turret_04_66mm_germ_smoke_candle_launcher",
                 "yaw": null,
                 "pitch": null,
                 "depression": null,
@@ -3134,7 +3075,6 @@
                 "ammo": 1
             },
             {
-                "name": "pzkpfw_iii_ausf_f_turret_05_66mm_germ_smoke_candle_launcher",
                 "yaw": null,
                 "pitch": null,
                 "depression": null,
@@ -3176,7 +3116,6 @@
                 "ammo": 1
             },
             {
-                "name": "pzkpfw_iii_ausf_f_turret_06_66mm_germ_smoke_candle_launcher",
                 "yaw": null,
                 "pitch": null,
                 "depression": null,
@@ -3218,7 +3157,6 @@
                 "ammo": 1
             },
             {
-                "name": "pzkpfw_iii_ausf_f_turret_07_66mm_germ_smoke_candle_launcher",
                 "yaw": null,
                 "pitch": null,
                 "depression": null,
@@ -3275,7 +3213,6 @@
         "brake": 80000.0,
         "turrets": [
             {
-                "name": "pzkpfw_iii_ausf_j_l42_turret_01_50mm_kwk38",
                 "yaw": 5.5,
                 "pitch": 4.0,
                 "depression": -10.0,
@@ -3342,7 +3279,6 @@
                 "ammo": 99
             },
             {
-                "name": "pzkpfw_iii_ausf_j_l42_turret_02_7_92mm_mg34",
                 "yaw": null,
                 "pitch": null,
                 "depression": null,
@@ -3380,7 +3316,6 @@
                 "ammo": 4350
             },
             {
-                "name": "pzkpfw_iii_ausf_j_l42_turret_03_66mm_germ_smoke_candle_launcher",
                 "yaw": null,
                 "pitch": null,
                 "depression": null,
@@ -3422,7 +3357,6 @@
                 "ammo": 1
             },
             {
-                "name": "pzkpfw_iii_ausf_j_l42_turret_04_66mm_germ_smoke_candle_launcher",
                 "yaw": null,
                 "pitch": null,
                 "depression": null,
@@ -3464,7 +3398,6 @@
                 "ammo": 1
             },
             {
-                "name": "pzkpfw_iii_ausf_j_l42_turret_05_66mm_germ_smoke_candle_launcher",
                 "yaw": null,
                 "pitch": null,
                 "depression": null,
@@ -3506,7 +3439,6 @@
                 "ammo": 1
             },
             {
-                "name": "pzkpfw_iii_ausf_j_l42_turret_06_66mm_germ_smoke_candle_launcher",
                 "yaw": null,
                 "pitch": null,
                 "depression": null,
@@ -3548,7 +3480,6 @@
                 "ammo": 1
             },
             {
-                "name": "pzkpfw_iii_ausf_j_l42_turret_07_66mm_germ_smoke_candle_launcher",
                 "yaw": null,
                 "pitch": null,
                 "depression": null,
@@ -3605,7 +3536,6 @@
         "brake": 80000.0,
         "turrets": [
             {
-                "name": "pzkpfw_iii_ausf_j_l42_turret_01_50mm_kwk38",
                 "yaw": 5.5,
                 "pitch": 4.0,
                 "depression": -10.0,
@@ -3672,7 +3602,6 @@
                 "ammo": 99
             },
             {
-                "name": "pzkpfw_iii_ausf_j_l42_turret_02_7_92mm_mg34",
                 "yaw": null,
                 "pitch": null,
                 "depression": null,
@@ -3710,7 +3639,6 @@
                 "ammo": 4350
             },
             {
-                "name": "pzkpfw_iii_ausf_j_l42_turret_03_66mm_germ_smoke_candle_launcher",
                 "yaw": null,
                 "pitch": null,
                 "depression": null,
@@ -3752,7 +3680,6 @@
                 "ammo": 1
             },
             {
-                "name": "pzkpfw_iii_ausf_j_l42_turret_04_66mm_germ_smoke_candle_launcher",
                 "yaw": null,
                 "pitch": null,
                 "depression": null,
@@ -3794,7 +3721,6 @@
                 "ammo": 1
             },
             {
-                "name": "pzkpfw_iii_ausf_j_l42_turret_05_66mm_germ_smoke_candle_launcher",
                 "yaw": null,
                 "pitch": null,
                 "depression": null,
@@ -3836,7 +3762,6 @@
                 "ammo": 1
             },
             {
-                "name": "pzkpfw_iii_ausf_j_l42_turret_06_66mm_germ_smoke_candle_launcher",
                 "yaw": null,
                 "pitch": null,
                 "depression": null,
@@ -3878,7 +3803,6 @@
                 "ammo": 1
             },
             {
-                "name": "pzkpfw_iii_ausf_j_l42_turret_07_66mm_germ_smoke_candle_launcher",
                 "yaw": null,
                 "pitch": null,
                 "depression": null,
@@ -3935,7 +3859,6 @@
         "brake": 88000.0,
         "turrets": [
             {
-                "name": "pzkpfw_iii_ausf_l_turret_01_50mm_kwk39",
                 "yaw": 14.0,
                 "pitch": 4.0,
                 "depression": -10.0,
@@ -4002,7 +3925,6 @@
                 "ammo": 84
             },
             {
-                "name": "pzkpfw_iii_ausf_l_turret_02_7_92mm_mg34",
                 "yaw": null,
                 "pitch": null,
                 "depression": null,
@@ -4055,7 +3977,6 @@
         "brake": 92000.0,
         "turrets": [
             {
-                "name": "pzkpfw_iii_ausf_m_turret_01_50mm_kwk39",
                 "yaw": 14.0,
                 "pitch": 4.0,
                 "depression": -10.0,
@@ -4122,7 +4043,6 @@
                 "ammo": 84
             },
             {
-                "name": "pzkpfw_iii_ausf_m_turret_02_7_92mm_mg34",
                 "yaw": null,
                 "pitch": null,
                 "depression": null,
@@ -4160,7 +4080,6 @@
                 "ammo": 3750
             },
             {
-                "name": "pzkpfw_iii_ausf_m_turret_03_7_92mm_mg34",
                 "yaw": 90.0,
                 "pitch": 90.0,
                 "depression": -10.0,
@@ -4198,7 +4117,6 @@
                 "ammo": 2100
             },
             {
-                "name": "pzkpfw_iii_ausf_m_turret_04_91mm_germ_smoke_grenade_launcher",
                 "yaw": null,
                 "pitch": null,
                 "depression": null,
@@ -4240,7 +4158,6 @@
                 "ammo": 1
             },
             {
-                "name": "pzkpfw_iii_ausf_m_turret_05_91mm_germ_smoke_grenade_launcher",
                 "yaw": null,
                 "pitch": null,
                 "depression": null,
@@ -4282,7 +4199,6 @@
                 "ammo": 1
             },
             {
-                "name": "pzkpfw_iii_ausf_m_turret_06_91mm_germ_smoke_grenade_launcher",
                 "yaw": null,
                 "pitch": null,
                 "depression": null,
@@ -4324,7 +4240,6 @@
                 "ammo": 1
             },
             {
-                "name": "pzkpfw_iii_ausf_m_turret_07_91mm_germ_smoke_grenade_launcher",
                 "yaw": null,
                 "pitch": null,
                 "depression": null,
@@ -4366,7 +4281,6 @@
                 "ammo": 1
             },
             {
-                "name": "pzkpfw_iii_ausf_m_turret_08_91mm_germ_smoke_grenade_launcher",
                 "yaw": null,
                 "pitch": null,
                 "depression": null,
@@ -4408,7 +4322,6 @@
                 "ammo": 1
             },
             {
-                "name": "pzkpfw_iii_ausf_m_turret_09_91mm_germ_smoke_grenade_launcher",
                 "yaw": null,
                 "pitch": null,
                 "depression": null,
@@ -4465,7 +4378,6 @@
         "brake": 92000.0,
         "turrets": [
             {
-                "name": "pzkpfw_iii_ausf_n_turret_01_75mm_kwk37",
                 "yaw": 14.0,
                 "pitch": 4.0,
                 "depression": -10.0,
@@ -4557,7 +4469,6 @@
                 "ammo": 64
             },
             {
-                "name": "pzkpfw_iii_ausf_n_turret_02_7_92mm_mg34",
                 "yaw": null,
                 "pitch": null,
                 "depression": null,
@@ -4595,7 +4506,6 @@
                 "ammo": 3450
             },
             {
-                "name": "pzkpfw_iii_ausf_n_turret_03_7_92mm_mg34",
                 "yaw": 90.0,
                 "pitch": 90.0,
                 "depression": -10.0,
@@ -4633,7 +4543,6 @@
                 "ammo": 2100
             },
             {
-                "name": "pzkpfw_iii_ausf_n_turret_04_91mm_germ_smoke_grenade_launcher",
                 "yaw": null,
                 "pitch": null,
                 "depression": null,
@@ -4675,7 +4584,6 @@
                 "ammo": 1
             },
             {
-                "name": "pzkpfw_iii_ausf_n_turret_05_91mm_germ_smoke_grenade_launcher",
                 "yaw": null,
                 "pitch": null,
                 "depression": null,
@@ -4717,7 +4625,6 @@
                 "ammo": 1
             },
             {
-                "name": "pzkpfw_iii_ausf_n_turret_06_91mm_germ_smoke_grenade_launcher",
                 "yaw": null,
                 "pitch": null,
                 "depression": null,
@@ -4759,7 +4666,6 @@
                 "ammo": 1
             },
             {
-                "name": "pzkpfw_iii_ausf_n_turret_07_91mm_germ_smoke_grenade_launcher",
                 "yaw": null,
                 "pitch": null,
                 "depression": null,
@@ -4801,7 +4707,6 @@
                 "ammo": 1
             },
             {
-                "name": "pzkpfw_iii_ausf_n_turret_08_91mm_germ_smoke_grenade_launcher",
                 "yaw": null,
                 "pitch": null,
                 "depression": null,
@@ -4843,7 +4748,6 @@
                 "ammo": 1
             },
             {
-                "name": "pzkpfw_iii_ausf_n_turret_09_91mm_germ_smoke_grenade_launcher",
                 "yaw": null,
                 "pitch": null,
                 "depression": null,
@@ -4901,7 +4805,6 @@
         "brake": 35000.0,
         "turrets": [
             {
-                "name": "pzkpfw_ii_ausf_c_turret_01_20mm_kwk30",
                 "yaw": 14.0,
                 "pitch": 15.0,
                 "depression": -9.5,
@@ -4964,7 +4867,6 @@
                 "ammo": 180
             },
             {
-                "name": "pzkpfw_ii_ausf_c_turret_02_7_92mm_mg34",
                 "yaw": null,
                 "pitch": null,
                 "depression": null,
@@ -5017,7 +4919,6 @@
         "brake": 35000.0,
         "turrets": [
             {
-                "name": "pzkpfw_ii_flamm_turret_01_flammenwerfer_anlagen",
                 "yaw": 16.0,
                 "pitch": 4.0,
                 "depression": -6.0,
@@ -5033,7 +4934,6 @@
                 "ammo": 160
             },
             {
-                "name": "pzkpfw_ii_flamm_turret_02_flammenwerfer_anlagen",
                 "yaw": 16.0,
                 "pitch": 4.0,
                 "depression": -6.0,
@@ -5049,7 +4949,6 @@
                 "ammo": 160
             },
             {
-                "name": "pzkpfw_ii_flamm_turret_02_7_92mm_mg34",
                 "yaw": 25.0,
                 "pitch": 15.0,
                 "depression": -5.0,
@@ -5102,7 +5001,6 @@
         "brake": 60000.0,
         "turrets": [
             {
-                "name": "pzkpfw_iv_ausf_c_turret_01_75mm_kwk37",
                 "yaw": 14.0,
                 "pitch": 4.0,
                 "depression": -10.0,
@@ -5194,7 +5092,6 @@
                 "ammo": 80
             },
             {
-                "name": "pzkpfw_iv_ausf_c_turret_02_7_92mm_mg34",
                 "yaw": null,
                 "pitch": null,
                 "depression": null,
@@ -5232,7 +5129,6 @@
                 "ammo": 2400
             },
             {
-                "name": "pzkpfw_iv_ausf_c_turret_03_66mm_germ_smoke_candle_launcher",
                 "yaw": null,
                 "pitch": null,
                 "depression": null,
@@ -5274,7 +5170,6 @@
                 "ammo": 1
             },
             {
-                "name": "pzkpfw_iv_ausf_c_turret_04_66mm_germ_smoke_candle_launcher",
                 "yaw": null,
                 "pitch": null,
                 "depression": null,
@@ -5316,7 +5211,6 @@
                 "ammo": 1
             },
             {
-                "name": "pzkpfw_iv_ausf_c_turret_05_66mm_germ_smoke_candle_launcher",
                 "yaw": null,
                 "pitch": null,
                 "depression": null,
@@ -5358,7 +5252,6 @@
                 "ammo": 1
             },
             {
-                "name": "pzkpfw_iv_ausf_c_turret_06_66mm_germ_smoke_candle_launcher",
                 "yaw": null,
                 "pitch": null,
                 "depression": null,
@@ -5400,7 +5293,6 @@
                 "ammo": 1
             },
             {
-                "name": "pzkpfw_iv_ausf_c_turret_07_66mm_germ_smoke_candle_launcher",
                 "yaw": null,
                 "pitch": null,
                 "depression": null,
@@ -5458,7 +5350,6 @@
         "brake": 80000.0,
         "turrets": [
             {
-                "name": "pzkpfw_iv_ausf_e_turret_01_75mm_kwk37",
                 "yaw": 14.0,
                 "pitch": 4.0,
                 "depression": -10.0,
@@ -5550,7 +5441,6 @@
                 "ammo": 80
             },
             {
-                "name": "pzkpfw_iv_ausf_e_turret_02_7_92mm_mg34",
                 "yaw": null,
                 "pitch": null,
                 "depression": null,
@@ -5588,7 +5478,6 @@
                 "ammo": 2700
             },
             {
-                "name": "pzkpfw_iv_ausf_e_turret_03_66mm_germ_smoke_candle_launcher",
                 "yaw": null,
                 "pitch": null,
                 "depression": null,
@@ -5630,7 +5519,6 @@
                 "ammo": 1
             },
             {
-                "name": "pzkpfw_iv_ausf_e_turret_04_66mm_germ_smoke_candle_launcher",
                 "yaw": null,
                 "pitch": null,
                 "depression": null,
@@ -5672,7 +5560,6 @@
                 "ammo": 1
             },
             {
-                "name": "pzkpfw_iv_ausf_e_turret_05_66mm_germ_smoke_candle_launcher",
                 "yaw": null,
                 "pitch": null,
                 "depression": null,
@@ -5714,7 +5601,6 @@
                 "ammo": 1
             },
             {
-                "name": "pzkpfw_iv_ausf_e_turret_06_66mm_germ_smoke_candle_launcher",
                 "yaw": null,
                 "pitch": null,
                 "depression": null,
@@ -5756,7 +5642,6 @@
                 "ammo": 1
             },
             {
-                "name": "pzkpfw_iv_ausf_e_turret_07_66mm_germ_smoke_candle_launcher",
                 "yaw": null,
                 "pitch": null,
                 "depression": null,
@@ -5814,7 +5699,6 @@
         "brake": 80000.0,
         "turrets": [
             {
-                "name": "pzkpfw_iv_ausf_f_turret_01_75mm_kwk37",
                 "yaw": 14.0,
                 "pitch": 4.0,
                 "depression": -10.0,
@@ -5906,7 +5790,6 @@
                 "ammo": 80
             },
             {
-                "name": "pzkpfw_iv_ausf_f_turret_02_7_92mm_mg34",
                 "yaw": null,
                 "pitch": null,
                 "depression": null,
@@ -5944,7 +5827,6 @@
                 "ammo": 2700
             },
             {
-                "name": "pzkpfw_iv_ausf_f_turret_03_66mm_germ_smoke_candle_launcher",
                 "yaw": null,
                 "pitch": null,
                 "depression": null,
@@ -5986,7 +5868,6 @@
                 "ammo": 1
             },
             {
-                "name": "pzkpfw_iv_ausf_f_turret_04_66mm_germ_smoke_candle_launcher",
                 "yaw": null,
                 "pitch": null,
                 "depression": null,
@@ -6028,7 +5909,6 @@
                 "ammo": 1
             },
             {
-                "name": "pzkpfw_iv_ausf_f_turret_05_66mm_germ_smoke_candle_launcher",
                 "yaw": null,
                 "pitch": null,
                 "depression": null,
@@ -6070,7 +5950,6 @@
                 "ammo": 1
             },
             {
-                "name": "pzkpfw_iv_ausf_f_turret_06_66mm_germ_smoke_candle_launcher",
                 "yaw": null,
                 "pitch": null,
                 "depression": null,
@@ -6112,7 +5991,6 @@
                 "ammo": 1
             },
             {
-                "name": "pzkpfw_iv_ausf_f_turret_07_66mm_germ_smoke_candle_launcher",
                 "yaw": null,
                 "pitch": null,
                 "depression": null,
@@ -6170,7 +6048,6 @@
         "brake": 80000.0,
         "turrets": [
             {
-                "name": "pzkpfw_iv_ausf_f2_turret_01_75mm_kwk40_l43",
                 "yaw": 14.0,
                 "pitch": 4.0,
                 "depression": -10.0,
@@ -6262,7 +6139,6 @@
                 "ammo": 87
             },
             {
-                "name": "pzkpfw_iv_ausf_f2_turret_02_7_92mm_mg34",
                 "yaw": null,
                 "pitch": null,
                 "depression": null,
@@ -6300,7 +6176,6 @@
                 "ammo": 3000
             },
             {
-                "name": "pzkpfw_iv_ausf_f2_turret_03_66mm_germ_smoke_candle_launcher",
                 "yaw": null,
                 "pitch": null,
                 "depression": null,
@@ -6342,7 +6217,6 @@
                 "ammo": 1
             },
             {
-                "name": "pzkpfw_iv_ausf_f2_turret_04_66mm_germ_smoke_candle_launcher",
                 "yaw": null,
                 "pitch": null,
                 "depression": null,
@@ -6384,7 +6258,6 @@
                 "ammo": 1
             },
             {
-                "name": "pzkpfw_iv_ausf_f2_turret_05_66mm_germ_smoke_candle_launcher",
                 "yaw": null,
                 "pitch": null,
                 "depression": null,
@@ -6426,7 +6299,6 @@
                 "ammo": 1
             },
             {
-                "name": "pzkpfw_iv_ausf_f2_turret_06_66mm_germ_smoke_candle_launcher",
                 "yaw": null,
                 "pitch": null,
                 "depression": null,
@@ -6468,7 +6340,6 @@
                 "ammo": 1
             },
             {
-                "name": "pzkpfw_iv_ausf_f2_turret_07_66mm_germ_smoke_candle_launcher",
                 "yaw": null,
                 "pitch": null,
                 "depression": null,
@@ -6526,7 +6397,6 @@
         "brake": 80000.0,
         "turrets": [
             {
-                "name": "pzkpfw_iv_ausf_g_turret_01_75mm_kwk40_l43",
                 "yaw": 14.0,
                 "pitch": 4.0,
                 "depression": -10.0,
@@ -6618,7 +6488,6 @@
                 "ammo": 87
             },
             {
-                "name": "pzkpfw_iv_ausf_g_turret_02_7_92mm_mg34",
                 "yaw": null,
                 "pitch": null,
                 "depression": null,
@@ -6656,7 +6525,6 @@
                 "ammo": 3000
             },
             {
-                "name": "pzkpfw_iv_ausf_g_turret_03_91mm_germ_smoke_grenade_launcher",
                 "yaw": null,
                 "pitch": null,
                 "depression": null,
@@ -6698,7 +6566,6 @@
                 "ammo": 1
             },
             {
-                "name": "pzkpfw_iv_ausf_g_turret_04_91mm_germ_smoke_grenade_launcher",
                 "yaw": null,
                 "pitch": null,
                 "depression": null,
@@ -6740,7 +6607,6 @@
                 "ammo": 1
             },
             {
-                "name": "pzkpfw_iv_ausf_g_turret_05_91mm_germ_smoke_grenade_launcher",
                 "yaw": null,
                 "pitch": null,
                 "depression": null,
@@ -6782,7 +6648,6 @@
                 "ammo": 1
             },
             {
-                "name": "pzkpfw_iv_ausf_g_turret_06_91mm_germ_smoke_grenade_launcher",
                 "yaw": null,
                 "pitch": null,
                 "depression": null,
@@ -6824,7 +6689,6 @@
                 "ammo": 1
             },
             {
-                "name": "pzkpfw_iv_ausf_g_turret_07_91mm_germ_smoke_grenade_launcher",
                 "yaw": null,
                 "pitch": null,
                 "depression": null,
@@ -6866,7 +6730,6 @@
                 "ammo": 1
             },
             {
-                "name": "pzkpfw_iv_ausf_g_turret_08_91mm_germ_smoke_grenade_launcher",
                 "yaw": null,
                 "pitch": null,
                 "depression": null,
@@ -6924,7 +6787,6 @@
         "brake": 80000.0,
         "turrets": [
             {
-                "name": "pzkpfw_iv_ausf_h_turret_01_75mm_kwk40_l48",
                 "yaw": 14.0,
                 "pitch": 4.0,
                 "depression": -10.0,
@@ -7016,7 +6878,6 @@
                 "ammo": 87
             },
             {
-                "name": "pzkpfw_iv_ausf_h_turret_02_7_92mm_mg34",
                 "yaw": null,
                 "pitch": null,
                 "depression": null,
@@ -7054,7 +6915,6 @@
                 "ammo": 3000
             },
             {
-                "name": "pzkpfw_iv_ausf_h_turret_03_7_92mm_mg34",
                 "yaw": 90.0,
                 "pitch": 90.0,
                 "depression": -10.0,
@@ -7108,7 +6968,6 @@
         "brake": 80000.0,
         "turrets": [
             {
-                "name": "pzkpfw_iv_ausf_j_turret_01_75mm_kwk40_l48",
                 "yaw": 10.0,
                 "pitch": 4.0,
                 "depression": -10.0,
@@ -7200,7 +7059,6 @@
                 "ammo": 87
             },
             {
-                "name": "pzkpfw_iv_ausf_j_turret_02_7_92mm_mg34",
                 "yaw": null,
                 "pitch": null,
                 "depression": null,
@@ -7238,7 +7096,6 @@
                 "ammo": 3150
             },
             {
-                "name": "pzkpfw_iv_ausf_j_turret_03_7_92mm_mg34",
                 "yaw": 90.0,
                 "pitch": 90.0,
                 "depression": -10.0,
@@ -7276,7 +7133,6 @@
                 "ammo": 2100
             },
             {
-                "name": "pzkpfw_iv_ausf_j_turret_04_91mm_germ_smoke_mortar_launcher",
                 "yaw": null,
                 "pitch": null,
                 "depression": null,
@@ -7334,7 +7190,6 @@
         "brake": 220000.0,
         "turrets": [
             {
-                "name": "pzkpfw_vi_ausf_b_tiger_iih_turret_01_88mm_kwk43",
                 "yaw": 19.0,
                 "pitch": 4.0,
                 "depression": -8.0,
@@ -7401,7 +7256,6 @@
                 "ammo": 70
             },
             {
-                "name": "pzkpfw_vi_ausf_b_tiger_iih_turret_02_7_92mm_mg34",
                 "yaw": null,
                 "pitch": null,
                 "depression": null,
@@ -7439,7 +7293,6 @@
                 "ammo": 3000
             },
             {
-                "name": "pzkpfw_vi_ausf_b_tiger_iih_turret_03_7_92mm_mg34",
                 "yaw": 90.0,
                 "pitch": 90.0,
                 "depression": -10.0,
@@ -7477,7 +7330,6 @@
                 "ammo": 2100
             },
             {
-                "name": "pzkpfw_vi_ausf_b_tiger_iih_turret_04_91mm_germ_smoke_mortar_launcher",
                 "yaw": null,
                 "pitch": null,
                 "depression": null,
@@ -7534,7 +7386,6 @@
         "brake": 220000.0,
         "turrets": [
             {
-                "name": "pzkpfw_vi_ausf_b_tiger_iip_turret_01_88mm_kwk43",
                 "yaw": 19.0,
                 "pitch": 4.0,
                 "depression": -8.0,
@@ -7601,7 +7452,6 @@
                 "ammo": 70
             },
             {
-                "name": "pzkpfw_vi_ausf_b_tiger_iip_turret_02_7_92mm_mg34",
                 "yaw": null,
                 "pitch": null,
                 "depression": null,
@@ -7639,7 +7489,6 @@
                 "ammo": 3000
             },
             {
-                "name": "pzkpfw_vi_ausf_b_tiger_iip_turret_03_7_92mm_mg34",
                 "yaw": 90.0,
                 "pitch": 90.0,
                 "depression": -10.0,
@@ -7677,7 +7526,6 @@
                 "ammo": 2100
             },
             {
-                "name": "pzkpfw_vi_ausf_b_tiger_iip_turret_04_91mm_germ_smoke_mortar_launcher",
                 "yaw": null,
                 "pitch": null,
                 "depression": null,
@@ -7734,7 +7582,6 @@
         "brake": 220000.0,
         "turrets": [
             {
-                "name": "pzkpfw_vi_ausf_e_tiger_turret_01_88mm_kwk36",
                 "yaw": 14.0,
                 "pitch": 4.0,
                 "depression": -8.0,
@@ -7801,7 +7648,6 @@
                 "ammo": 92
             },
             {
-                "name": "pzkpfw_vi_ausf_e_tiger_turret_02_7_92mm_mg34",
                 "yaw": null,
                 "pitch": null,
                 "depression": null,
@@ -7839,7 +7685,6 @@
                 "ammo": 2400
             },
             {
-                "name": "pzkpfw_vi_ausf_e_tiger_turret_03_7_92mm_mg34",
                 "yaw": 90.0,
                 "pitch": 90.0,
                 "depression": -10.0,
@@ -7877,7 +7722,6 @@
                 "ammo": 2100
             },
             {
-                "name": "pzkpfw_vi_ausf_e_tiger_turret_04_91mm_germ_smoke_mortar_launcher",
                 "yaw": null,
                 "pitch": null,
                 "depression": null,
@@ -7934,7 +7778,6 @@
         "brake": 170000.0,
         "turrets": [
             {
-                "name": "pzkpfw_v_ausf_a_panther_turret_01_75mm_kwk42",
                 "yaw": 20.0,
                 "pitch": 4.0,
                 "depression": -8.0,
@@ -8001,7 +7844,6 @@
                 "ammo": 79
             },
             {
-                "name": "pzkpfw_v_ausf_a_panther_turret_02_7_92mm_mg34",
                 "yaw": null,
                 "pitch": null,
                 "depression": null,
@@ -8039,7 +7881,6 @@
                 "ammo": 2700
             },
             {
-                "name": "pzkpfw_v_ausf_a_panther_turret_03_7_92mm_mg34",
                 "yaw": 90.0,
                 "pitch": 90.0,
                 "depression": -10.0,
@@ -8077,7 +7918,6 @@
                 "ammo": 1950
             },
             {
-                "name": "pzkpfw_v_ausf_a_panther_turret_04_91mm_germ_smoke_mortar_launcher",
                 "yaw": null,
                 "pitch": null,
                 "depression": null,
@@ -8134,7 +7974,6 @@
         "brake": 170000.0,
         "turrets": [
             {
-                "name": "pzkpfw_v_ausf_f_panther_turret_01_75mm_kwk44",
                 "yaw": 15.0,
                 "pitch": 4.0,
                 "depression": -8.0,
@@ -8201,7 +8040,6 @@
                 "ammo": 82
             },
             {
-                "name": "pzkpfw_v_ausf_f_panther_turret_02_7_92mm_mg42",
                 "yaw": null,
                 "pitch": null,
                 "depression": null,
@@ -8239,7 +8077,6 @@
                 "ammo": 3000
             },
             {
-                "name": "pzkpfw_v_ausf_f_panther_turret_03_91mm_germ_smoke_mortar_launcher",
                 "yaw": null,
                 "pitch": null,
                 "depression": null,
@@ -8296,7 +8133,6 @@
         "brake": 170000.0,
         "turrets": [
             {
-                "name": "pzkpfw_v_ausf_g_panther_turret_01_75mm_kwk42",
                 "yaw": 20.0,
                 "pitch": 4.0,
                 "depression": -8.0,
@@ -8363,7 +8199,6 @@
                 "ammo": 82
             },
             {
-                "name": "pzkpfw_v_ausf_g_panther_turret_02_7_92mm_mg34",
                 "yaw": null,
                 "pitch": null,
                 "depression": null,
@@ -8401,7 +8236,6 @@
                 "ammo": 2700
             },
             {
-                "name": "pzkpfw_v_ausf_g_panther_turret_03_7_92mm_mg34",
                 "yaw": 90.0,
                 "pitch": 90.0,
                 "depression": -10.0,
@@ -8439,7 +8273,6 @@
                 "ammo": 1950
             },
             {
-                "name": "pzkpfw_v_ausf_g_panther_turret_04_91mm_germ_smoke_mortar_launcher",
                 "yaw": null,
                 "pitch": null,
                 "depression": null,
@@ -8496,7 +8329,6 @@
         "brake": 48100.0,
         "turrets": [
             {
-                "name": "sdkfz_234_2_turret_01_50mm_kwk39_1",
                 "yaw": 14.0,
                 "pitch": 4.0,
                 "depression": -10.0,
@@ -8563,7 +8395,6 @@
                 "ammo": 55
             },
             {
-                "name": "sdkfz_234_2_turret_02_7_92mm_mg42",
                 "yaw": null,
                 "pitch": null,
                 "depression": null,
@@ -8601,7 +8432,6 @@
                 "ammo": 1950
             },
             {
-                "name": "sdkfz_234_2_turret_03_91mm_germ_smoke_grenade_launcher",
                 "yaw": null,
                 "pitch": null,
                 "depression": null,
@@ -8643,7 +8473,6 @@
                 "ammo": 1
             },
             {
-                "name": "sdkfz_234_2_turret_04_91mm_germ_smoke_grenade_launcher",
                 "yaw": null,
                 "pitch": null,
                 "depression": null,
@@ -8685,7 +8514,6 @@
                 "ammo": 1
             },
             {
-                "name": "sdkfz_234_2_turret_05_91mm_germ_smoke_grenade_launcher",
                 "yaw": null,
                 "pitch": null,
                 "depression": null,
@@ -8727,7 +8555,6 @@
                 "ammo": 1
             },
             {
-                "name": "sdkfz_234_2_turret_06_91mm_germ_smoke_grenade_launcher",
                 "yaw": null,
                 "pitch": null,
                 "depression": null,
@@ -8769,7 +8596,6 @@
                 "ammo": 1
             },
             {
-                "name": "sdkfz_234_2_turret_07_91mm_germ_smoke_grenade_launcher",
                 "yaw": null,
                 "pitch": null,
                 "depression": null,
@@ -8811,7 +8637,6 @@
                 "ammo": 1
             },
             {
-                "name": "sdkfz_234_2_turret_08_91mm_germ_smoke_grenade_launcher",
                 "yaw": null,
                 "pitch": null,
                 "depression": null,
@@ -8868,7 +8693,6 @@
         "brake": 30000.0,
         "turrets": [
             {
-                "name": "sdkfz_251_10_turret_01_37mm_pak",
                 "yaw": 20.0,
                 "pitch": 4.0,
                 "depression": -8.0,
@@ -8950,7 +8774,6 @@
         "brake": 60000.0,
         "turrets": [
             {
-                "name": "stug_iii_ausf_a_turret_01_75mm_stuk37",
                 "yaw": 8.0,
                 "pitch": 4.0,
                 "depression": -10.0,
@@ -9042,7 +8865,6 @@
                 "ammo": 44
             },
             {
-                "name": "stug_iii_ausf_a_turret_02_66mm_germ_smoke_candle_launcher",
                 "yaw": null,
                 "pitch": null,
                 "depression": null,
@@ -9084,7 +8906,6 @@
                 "ammo": 1
             },
             {
-                "name": "stug_iii_ausf_a_turret_03_66mm_germ_smoke_candle_launcher",
                 "yaw": null,
                 "pitch": null,
                 "depression": null,
@@ -9126,7 +8947,6 @@
                 "ammo": 1
             },
             {
-                "name": "stug_iii_ausf_a_turret_04_66mm_germ_smoke_candle_launcher",
                 "yaw": null,
                 "pitch": null,
                 "depression": null,
@@ -9168,7 +8988,6 @@
                 "ammo": 1
             },
             {
-                "name": "stug_iii_ausf_a_turret_05_66mm_germ_smoke_candle_launcher",
                 "yaw": null,
                 "pitch": null,
                 "depression": null,
@@ -9210,7 +9029,6 @@
                 "ammo": 1
             },
             {
-                "name": "stug_iii_ausf_a_turret_06_66mm_germ_smoke_candle_launcher",
                 "yaw": null,
                 "pitch": null,
                 "depression": null,
@@ -9268,7 +9086,6 @@
         "brake": 70000.0,
         "turrets": [
             {
-                "name": "stug_iii_ausf_f_turret_01_75mm_stuk40_l43",
                 "yaw": 15.0,
                 "pitch": 5.0,
                 "depression": -6.0,
@@ -9360,7 +9177,6 @@
                 "ammo": 44
             },
             {
-                "name": "stug_iii_ausf_f_turret_02_66mm_germ_smoke_candle_launcher",
                 "yaw": null,
                 "pitch": null,
                 "depression": null,
@@ -9402,7 +9218,6 @@
                 "ammo": 1
             },
             {
-                "name": "stug_iii_ausf_f_turret_03_66mm_germ_smoke_candle_launcher",
                 "yaw": null,
                 "pitch": null,
                 "depression": null,
@@ -9444,7 +9259,6 @@
                 "ammo": 1
             },
             {
-                "name": "stug_iii_ausf_f_turret_04_66mm_germ_smoke_candle_launcher",
                 "yaw": null,
                 "pitch": null,
                 "depression": null,
@@ -9486,7 +9300,6 @@
                 "ammo": 1
             },
             {
-                "name": "stug_iii_ausf_f_turret_05_66mm_germ_smoke_candle_launcher",
                 "yaw": null,
                 "pitch": null,
                 "depression": null,
@@ -9528,7 +9341,6 @@
                 "ammo": 1
             },
             {
-                "name": "stug_iii_ausf_f_turret_06_66mm_germ_smoke_candle_launcher",
                 "yaw": null,
                 "pitch": null,
                 "depression": null,
@@ -9586,7 +9398,6 @@
         "brake": 92000.0,
         "turrets": [
             {
-                "name": "stug_iii_ausf_g_turret_01_75mm_stuk40_l48",
                 "yaw": 15.0,
                 "pitch": 5.0,
                 "depression": -6.0,
@@ -9694,7 +9505,6 @@
         "brake": 92000.0,
         "turrets": [
             {
-                "name": "stuh_iii_ausf_g_turret_01_105mm_stuh42",
                 "yaw": 12.0,
                 "pitch": 4.0,
                 "depression": -6.0,
@@ -9802,7 +9612,6 @@
         "brake": 80000.0,
         "turrets": [
             {
-                "name": "sturmpanzer_ii_turret_01_150mm_sig_33",
                 "yaw": 6.0,
                 "pitch": 4.0,
                 "depression": -4.0,
@@ -9884,7 +9693,6 @@
         "brake": 3200.0,
         "turrets": [
             {
-                "name": "towed_at_pak36_turret_01_37mm_kwk36",
                 "yaw": 35.0,
                 "pitch": 20.0,
                 "depression": -2.0,
@@ -9966,7 +9774,6 @@
         "brake": 3200.0,
         "turrets": [
             {
-                "name": "towed_at_pak38_turret_01_50mm_pak38",
                 "yaw": 35.0,
                 "pitch": 20.0,
                 "depression": -2.0,
@@ -10048,7 +9855,6 @@
         "brake": 3200.0,
         "turrets": [
             {
-                "name": "towed_at_pak40_turret_01_75mm_pak40_3_l46",
                 "yaw": 35.0,
                 "pitch": 20.0,
                 "depression": -2.0,
@@ -10130,7 +9936,6 @@
         "brake": 31000.0,
         "turrets": [
             {
-                "name": "ab_41_turret_01_20mm_breda_m35_l6",
                 "yaw": 24.0,
                 "pitch": 15.0,
                 "depression": -12.0,
@@ -10197,7 +10002,6 @@
                 "ammo": 456
             },
             {
-                "name": "ab_41_turret_02_8mm_breda_mod38",
                 "yaw": null,
                 "pitch": null,
                 "depression": null,
@@ -10250,7 +10054,6 @@
         "brake": 58000.0,
         "turrets": [
             {
-                "name": "m13_40_serie_3_turret_01_47mm_ansaldo_47_32_m35",
                 "yaw": 14.0,
                 "pitch": 4.0,
                 "depression": -15.0,
@@ -10317,7 +10120,6 @@
                 "ammo": 87
             },
             {
-                "name": "m13_40_serie_3_turret_02_8mm_breda_mod38",
                 "yaw": null,
                 "pitch": null,
                 "depression": null,
@@ -10355,7 +10157,6 @@
                 "ammo": 1536
             },
             {
-                "name": "m13_40_serie_3_turret_03_8mm_breda_mod38",
                 "yaw": 90.0,
                 "pitch": 90.0,
                 "depression": -10.0,
@@ -10408,7 +10209,6 @@
         "brake": 58000.0,
         "turrets": [
             {
-                "name": "m14_41_turret_01_47mm_ansaldo_47_32_m35",
                 "yaw": 14.0,
                 "pitch": 4.0,
                 "depression": -15.0,
@@ -10475,7 +10275,6 @@
                 "ammo": 87
             },
             {
-                "name": "m14_41_turret_02_8mm_breda_mod38",
                 "yaw": null,
                 "pitch": null,
                 "depression": null,
@@ -10513,7 +10312,6 @@
                 "ammo": 1536
             },
             {
-                "name": "m14_41_turret_03_8mm_breda_mod38",
                 "yaw": 90.0,
                 "pitch": 90.0,
                 "depression": -10.0,
@@ -10566,7 +10364,6 @@
         "brake": 58000.0,
         "turrets": [
             {
-                "name": "m41_75_18_turret_01_75mm_ansaldo_75_18_m34",
                 "yaw": 14.0,
                 "pitch": 4.0,
                 "depression": -12.0,
@@ -10633,7 +10430,6 @@
                 "ammo": 43
             },
             {
-                "name": "m41_75_18_turret_02_8mm_breda_mod38",
                 "yaw": 30.0,
                 "pitch": 20.0,
                 "depression": -10.0,
@@ -10664,7 +10460,6 @@
         "brake": 58000.0,
         "turrets": [
             {
-                "name": "m41_75_32_turret_01_75mm_ansaldo_75_32_m37",
                 "yaw": 14.0,
                 "pitch": 4.0,
                 "depression": -12.0,
@@ -10746,7 +10541,6 @@
         "brake": 3200.0,
         "turrets": [
             {
-                "name": "towed_at_type_1_turret_01_47mm_type1",
                 "yaw": 35.0,
                 "pitch": 20.0,
                 "depression": -2.0,
@@ -10803,7 +10597,6 @@
         "brake": 68800.0,
         "turrets": [
             {
-                "name": "type_1_chi_he_turret_01_47mm_type1",
                 "yaw": 14.0,
                 "pitch": 8.0,
                 "depression": -15.0,
@@ -10870,7 +10663,6 @@
                 "ammo": 120
             },
             {
-                "name": "type_1_chi_he_turret_02_7_7mm_type_97",
                 "yaw": 35.0,
                 "pitch": 35.0,
                 "depression": -16.0,
@@ -10908,7 +10700,6 @@
                 "ammo": 3000
             },
             {
-                "name": "type_1_chi_he_turret_03_7_7mm_type_97",
                 "yaw": 90.0,
                 "pitch": 90.0,
                 "depression": -10.0,
@@ -10961,7 +10752,6 @@
         "brake": 64000.0,
         "turrets": [
             {
-                "name": "type_2_ho_i_turret_01_75mm_type99",
                 "yaw": 14.0,
                 "pitch": 4.0,
                 "depression": -15.0,
@@ -11053,7 +10843,6 @@
                 "ammo": 63
             },
             {
-                "name": "type_2_ho_i_turret_02_7_7mm_type_97",
                 "yaw": 35.0,
                 "pitch": 35.0,
                 "depression": -8.0,
@@ -11091,7 +10880,6 @@
                 "ammo": 3000
             },
             {
-                "name": "type_2_ho_i_turret_03_7_7mm_type_97",
                 "yaw": 90.0,
                 "pitch": 90.0,
                 "depression": -10.0,
@@ -11145,7 +10933,6 @@
         "brake": 44000.0,
         "turrets": [
             {
-                "name": "type_2_ka_mi_turret_01_37mm_type1",
                 "yaw": 12.1,
                 "pitch": 15.0,
                 "depression": -10.0,
@@ -11212,7 +10999,6 @@
                 "ammo": 132
             },
             {
-                "name": "type_2_ka_mi_turret_02_7_7mm_type_97",
                 "yaw": null,
                 "pitch": null,
                 "depression": null,
@@ -11250,7 +11036,6 @@
                 "ammo": 4000
             },
             {
-                "name": "type_2_ka_mi_turret_03_7_7mm_type_97",
                 "yaw": 35.0,
                 "pitch": 35.0,
                 "depression": -11.0,
@@ -11288,7 +11073,6 @@
                 "ammo": 3000
             },
             {
-                "name": "type_2_ka_mi_turret_04_7_7mm_type_97",
                 "yaw": 90.0,
                 "pitch": 90.0,
                 "depression": -10.0,
@@ -11341,7 +11125,6 @@
         "brake": 75200.0,
         "turrets": [
             {
-                "name": "type_3_chi_nu_turret_01_75mm_type3",
                 "yaw": 10.4,
                 "pitch": 4.0,
                 "depression": -10.0,
@@ -11433,7 +11216,6 @@
                 "ammo": 55
             },
             {
-                "name": "type_3_chi_nu_turret_02_7_7mm_type_97",
                 "yaw": 40.0,
                 "pitch": 40.0,
                 "depression": -7.0,
@@ -11471,7 +11253,6 @@
                 "ammo": 3000
             },
             {
-                "name": "type_3_chi_nu_turret_03_7_7mm_type_97",
                 "yaw": 90.0,
                 "pitch": 90.0,
                 "depression": -10.0,
@@ -11525,7 +11306,6 @@
         "brake": 100000.0,
         "turrets": [
             {
-                "name": "type_3_ka_chi_turret_01_47mm_type1",
                 "yaw": 15.0,
                 "pitch": 10.0,
                 "depression": -10.0,
@@ -11592,7 +11372,6 @@
                 "ammo": 120
             },
             {
-                "name": "type_3_ka_chi_turret_02_7_7mm_type_97",
                 "yaw": 35.0,
                 "pitch": 35.0,
                 "depression": -5.0,
@@ -11645,7 +11424,6 @@
         "brake": 28000.0,
         "turrets": [
             {
-                "name": "type_95_ha_go_turret_01_37mm_type_94",
                 "yaw": 15.7,
                 "pitch": 15.0,
                 "depression": -15.0,
@@ -11687,7 +11465,6 @@
                 "ammo": 119
             },
             {
-                "name": "type_95_ha_go_turret_02_7_7mm_type_97",
                 "yaw": 35.0,
                 "pitch": 35.0,
                 "depression": -22.0,
@@ -11740,7 +11517,6 @@
         "brake": 60000.0,
         "turrets": [
             {
-                "name": "type_97_chi_ha_turret_01_57mm_type97",
                 "yaw": 15.2,
                 "pitch": 10.0,
                 "depression": -15.0,
@@ -11782,7 +11558,6 @@
                 "ammo": 120
             },
             {
-                "name": "type_97_chi_ha_turret_02_7_7mm_type_97",
                 "yaw": 35.0,
                 "pitch": 35.0,
                 "depression": -10.0,
@@ -11820,7 +11595,6 @@
                 "ammo": 3000
             },
             {
-                "name": "type_97_chi_ha_turret_03_7_7mm_type_97",
                 "yaw": 90.0,
                 "pitch": 90.0,
                 "depression": -2.0,
@@ -11873,7 +11647,6 @@
         "brake": 60000.0,
         "turrets": [
             {
-                "name": "type_97_chi_ha_12cm_turret_01_120mm_navy_short_gun",
                 "yaw": 6.0,
                 "pitch": 4.0,
                 "depression": -8.0,
@@ -11915,7 +11688,6 @@
                 "ammo": 23
             },
             {
-                "name": "type_97_chi_ha_12cm_turret_02_7_7mm_type_97",
                 "yaw": 35.0,
                 "pitch": 35.0,
                 "depression": -10.0,
@@ -11953,7 +11725,6 @@
                 "ammo": 3000
             },
             {
-                "name": "type_97_chi_ha_12cm_turret_03_7_7mm_type_97",
                 "yaw": 90.0,
                 "pitch": 90.0,
                 "depression": -20.0,
@@ -12006,7 +11777,6 @@
         "brake": 60000.0,
         "turrets": [
             {
-                "name": "type_97_kai_turret_01_47mm_type1",
                 "yaw": 15.0,
                 "pitch": 10.0,
                 "depression": -15.0,
@@ -12073,7 +11843,6 @@
                 "ammo": 104
             },
             {
-                "name": "type_97_kai_turret_02_7_7mm_type_97",
                 "yaw": 35.0,
                 "pitch": 35.0,
                 "depression": -8.0,
@@ -12111,7 +11880,6 @@
                 "ammo": 3000
             },
             {
-                "name": "type_97_kai_turret_03_7_7mm_type_97",
                 "yaw": 90.0,
                 "pitch": 90.0,
                 "depression": -20.0,
@@ -12164,7 +11932,6 @@
         "brake": 28000.0,
         "turrets": [
             {
-                "name": "type_98_ke_ni_turret_01_37mm_type100",
                 "yaw": 17.0,
                 "pitch": 15.0,
                 "depression": -15.0,
@@ -12206,7 +11973,6 @@
                 "ammo": 110
             },
             {
-                "name": "type_98_ke_ni_turret_02_7_7mm_type_97",
                 "yaw": null,
                 "pitch": null,
                 "depression": null,
@@ -12259,7 +12025,6 @@
         "brake": 28000.0,
         "turrets": [
             {
-                "name": "type_98_ta_se_turret_01_20mm_type98",
                 "yaw": 40.0,
                 "pitch": 25.0,
                 "depression": -10.0,
@@ -12337,7 +12102,6 @@
         "brake": 50000.0,
         "turrets": [
             {
-                "name": "a13_mk_2_1938_turret_01_40mm_qf_2pdr",
                 "yaw": 16.0,
                 "pitch": 15.0,
                 "depression": -15.0,
@@ -12404,7 +12168,6 @@
                 "ammo": 87
             },
             {
-                "name": "a13_mk_2_1938_turret_02_7_7mm_vikkers",
                 "yaw": null,
                 "pitch": null,
                 "depression": null,
@@ -12442,7 +12205,6 @@
                 "ammo": 3500
             },
             {
-                "name": "a13_mk_2_1938_turret_03_76mm_nato_smoke_grenade_launcher_single",
                 "yaw": null,
                 "pitch": null,
                 "depression": null,
@@ -12484,7 +12246,6 @@
                 "ammo": 1
             },
             {
-                "name": "a13_mk_2_1938_turret_04_76mm_nato_smoke_grenade_launcher_single",
                 "yaw": null,
                 "pitch": null,
                 "depression": null,
@@ -12541,7 +12302,6 @@
         "brake": 50000.0,
         "turrets": [
             {
-                "name": "a13_mk_2_1939_turret_01_40mm_qf_2pdr",
                 "yaw": 16.0,
                 "pitch": 15.0,
                 "depression": -15.0,
@@ -12608,7 +12368,6 @@
                 "ammo": 87
             },
             {
-                "name": "a13_mk_2_1939_turret_02_7_7mm_vikkers",
                 "yaw": null,
                 "pitch": null,
                 "depression": null,
@@ -12646,7 +12405,6 @@
                 "ammo": 3500
             },
             {
-                "name": "a13_mk_2_1939_turret_03_76mm_nato_smoke_grenade_launcher_single",
                 "yaw": null,
                 "pitch": null,
                 "depression": null,
@@ -12688,7 +12446,6 @@
                 "ammo": 1
             },
             {
-                "name": "a13_mk_2_1939_turret_04_76mm_nato_smoke_grenade_launcher_single",
                 "yaw": null,
                 "pitch": null,
                 "depression": null,
@@ -12745,7 +12502,6 @@
         "brake": 105668.0,
         "turrets": [
             {
-                "name": "ac1_sentinel_turret_01_40mm_qf_2pdr",
                 "yaw": 30.0,
                 "pitch": 4.0,
                 "depression": -10.0,
@@ -12812,7 +12568,6 @@
                 "ammo": 130
             },
             {
-                "name": "ac1_sentinel_turret_02_7_7mm_vikkers",
                 "yaw": null,
                 "pitch": null,
                 "depression": null,
@@ -12850,7 +12605,6 @@
                 "ammo": 4250
             },
             {
-                "name": "ac1_sentinel_turret_03_7_7mm_vikkers",
                 "yaw": 90.0,
                 "pitch": 90.0,
                 "depression": -10.0,
@@ -12903,7 +12657,6 @@
         "brake": 48800.0,
         "turrets": [
             {
-                "name": "aec_mk_2_57mm_6pdr_turret_01_57mm_6pdr_qqf_mk_5_l50",
                 "yaw": 24.0,
                 "pitch": 15.0,
                 "depression": -10.0,
@@ -12970,7 +12723,6 @@
                 "ammo": 60
             },
             {
-                "name": "aec_mk_2_57mm_6pdr_turret_02_7_92mm_besa",
                 "yaw": null,
                 "pitch": null,
                 "depression": null,
@@ -13008,7 +12760,6 @@
                 "ammo": 3375
             },
             {
-                "name": "aec_mk_2_57mm_6pdr_turret_03_50mm_uk_smoke_mortar_launcher",
                 "yaw": null,
                 "pitch": null,
                 "depression": null,
@@ -13065,7 +12816,6 @@
         "brake": 156000.0,
         "turrets": [
             {
-                "name": "churchill_3_turret_01_57mm_6pdr_qqf_mk_5_l50",
                 "yaw": 24.0,
                 "pitch": 10.0,
                 "depression": -12.0,
@@ -13132,7 +12882,6 @@
                 "ammo": 85
             },
             {
-                "name": "churchill_3_turret_02_7_92mm_besa",
                 "yaw": null,
                 "pitch": null,
                 "depression": null,
@@ -13170,7 +12919,6 @@
                 "ammo": 9450
             },
             {
-                "name": "churchill_3_turret_03_50mm_uk_smoke_mortar_launcher",
                 "yaw": null,
                 "pitch": null,
                 "depression": null,
@@ -13227,7 +12975,6 @@
         "brake": 112000.0,
         "turrets": [
             {
-                "name": "cromwell_5_turret_01_75mm_qqf_mkv",
                 "yaw": 25.0,
                 "pitch": 4.0,
                 "depression": -12.0,
@@ -13319,7 +13066,6 @@
                 "ammo": 64
             },
             {
-                "name": "cromwell_5_turret_02_7_92mm_besa",
                 "yaw": null,
                 "pitch": null,
                 "depression": null,
@@ -13357,7 +13103,6 @@
                 "ammo": 4950
             },
             {
-                "name": "cromwell_5_turret_03_50mm_uk_smoke_mortar_launcher",
                 "yaw": null,
                 "pitch": null,
                 "depression": null,
@@ -13415,7 +13160,6 @@
         "brake": 80000.0,
         "turrets": [
             {
-                "name": "crusader_mk_3_turret_01_57mm_6pdr_qqf_mk_3_l43",
                 "yaw": 36.0,
                 "pitch": 10.0,
                 "depression": -12.0,
@@ -13482,7 +13226,6 @@
                 "ammo": 65
             },
             {
-                "name": "crusader_mk_3_turret_02_7_92mm_besa",
                 "yaw": null,
                 "pitch": null,
                 "depression": null,
@@ -13520,7 +13263,6 @@
                 "ammo": 3375
             },
             {
-                "name": "crusader_mk_3_turret_03_50mm_uk_smoke_mortar_launcher",
                 "yaw": null,
                 "pitch": null,
                 "depression": null,
@@ -13577,7 +13319,6 @@
         "brake": 30520.0,
         "turrets": [
             {
-                "name": "daimler_mk_2_turret_01_40mm_qf_2pdr",
                 "yaw": 16.0,
                 "pitch": 15.0,
                 "depression": -12.0,
@@ -13644,7 +13385,6 @@
                 "ammo": 52
             },
             {
-                "name": "daimler_mk_2_turret_02_7_92mm_besa",
                 "yaw": null,
                 "pitch": null,
                 "depression": null,
@@ -13682,7 +13422,6 @@
                 "ammo": 675
             },
             {
-                "name": "daimler_mk_2_turret_03_76mm_nato_smoke_grenade_launcher_single",
                 "yaw": null,
                 "pitch": null,
                 "depression": null,
@@ -13724,7 +13463,6 @@
                 "ammo": 1
             },
             {
-                "name": "daimler_mk_2_turret_04_76mm_nato_smoke_grenade_launcher_single",
                 "yaw": null,
                 "pitch": null,
                 "depression": null,
@@ -13781,7 +13519,6 @@
         "brake": 110000.0,
         "turrets": [
             {
-                "name": "mk_1_grant_turret_01_37mm_m5_user_cannon_for_m3_lee",
                 "yaw": 18.0,
                 "pitch": 4.0,
                 "depression": -7.0,
@@ -13848,7 +13585,6 @@
                 "ammo": 128
             },
             {
-                "name": "mk_1_grant_turret_02_75mm_m2",
                 "yaw": 12.0,
                 "pitch": 4.0,
                 "depression": -9.0,
@@ -13915,7 +13651,6 @@
                 "ammo": 65
             },
             {
-                "name": "mk_1_grant_turret_03_7_62mm_m1919a4",
                 "yaw": null,
                 "pitch": null,
                 "depression": null,
@@ -13931,7 +13666,6 @@
                 "ammo": 4000
             },
             {
-                "name": "mk_1_grant_turret_04_50mm_uk_smoke_mortar_launcher",
                 "yaw": null,
                 "pitch": null,
                 "depression": null,
@@ -13962,7 +13696,6 @@
         "brake": 130000.0,
         "turrets": [
             {
-                "name": "sherman_ic_firefly_turret_01_76mm_17pdr_qf",
                 "yaw": 24.0,
                 "pitch": 4.0,
                 "depression": -5.0,
@@ -14054,7 +13787,6 @@
                 "ammo": 77
             },
             {
-                "name": "sherman_ic_firefly_turret_02_7_62mm_l3a1",
                 "yaw": null,
                 "pitch": null,
                 "depression": null,
@@ -14092,7 +13824,6 @@
                 "ammo": 5000
             },
             {
-                "name": "sherman_ic_firefly_turret_03_12_7mm_m2_hb",
                 "yaw": 90.0,
                 "pitch": 90.0,
                 "depression": -10.0,
@@ -14130,7 +13861,6 @@
                 "ammo": 800
             },
             {
-                "name": "sherman_ic_firefly_turret_04_50mm_uk_smoke_mortar_launcher",
                 "yaw": null,
                 "pitch": null,
                 "depression": null,
@@ -14188,7 +13918,6 @@
         "brake": 130000.0,
         "turrets": [
             {
-                "name": "sherman_ii_turret_01_75mm_m3",
                 "yaw": 24.0,
                 "pitch": 4.0,
                 "depression": -12.0,
@@ -14280,7 +14009,6 @@
                 "ammo": 90
             },
             {
-                "name": "sherman_ii_turret_02_12_7mm_m2_hb",
                 "yaw": 90.0,
                 "pitch": 90.0,
                 "depression": -10.0,
@@ -14318,7 +14046,6 @@
                 "ammo": 600
             },
             {
-                "name": "sherman_ii_turret_03_7_62mm_m1919a4",
                 "yaw": null,
                 "pitch": null,
                 "depression": null,
@@ -14372,7 +14099,6 @@
         "brake": 32000.0,
         "turrets": [
             {
-                "name": "ba_11_turret_01_45mm_20k",
                 "yaw": 16.0,
                 "pitch": 4.0,
                 "depression": -8.0,
@@ -14439,7 +14165,6 @@
                 "ammo": 114
             },
             {
-                "name": "ba_11_turret_02_7_62mm_dt",
                 "yaw": null,
                 "pitch": null,
                 "depression": null,
@@ -14506,7 +14231,6 @@
         "brake": 50000.0,
         "turrets": [
             {
-                "name": "bt_7a_f32_turret_01_76mm_f32",
                 "yaw": 16.0,
                 "pitch": 4.0,
                 "depression": -6.0,
@@ -14598,7 +14322,6 @@
                 "ammo": 50
             },
             {
-                "name": "bt_7a_f32_turret_02_7_62mm_dt",
                 "yaw": null,
                 "pitch": null,
                 "depression": null,
@@ -14636,7 +14359,6 @@
                 "ammo": 1890
             },
             {
-                "name": "bt_7a_f32_turret_03_7_62mm_dt",
                 "yaw": 90.0,
                 "pitch": 90.0,
                 "depression": -10.0,
@@ -14690,7 +14412,6 @@
         "brake": 50000.0,
         "turrets": [
             {
-                "name": "bt_7_1937_turret_01_45mm_20k",
                 "yaw": 16.0,
                 "pitch": 4.0,
                 "depression": -6.0,
@@ -14757,7 +14478,6 @@
                 "ammo": 188
             },
             {
-                "name": "bt_7_1937_turret_02_7_62mm_dt",
                 "yaw": null,
                 "pitch": null,
                 "depression": null,
@@ -14810,7 +14530,6 @@
         "brake": 6000.0,
         "turrets": [
             {
-                "name": "gaz_4m_turret_01_7_62mm_maxim",
                 "yaw": 60.0,
                 "pitch": 20.0,
                 "depression": -10.0,
@@ -14869,7 +14588,6 @@
                 "ammo": 2000
             },
             {
-                "name": "gaz_4m_turret_02_7_62mm_maxim",
                 "yaw": 60.0,
                 "pitch": 20.0,
                 "depression": -10.0,
@@ -14928,7 +14646,6 @@
                 "ammo": 2000
             },
             {
-                "name": "gaz_4m_turret_03_7_62mm_maxim",
                 "yaw": 60.0,
                 "pitch": 20.0,
                 "depression": -10.0,
@@ -14987,7 +14704,6 @@
                 "ammo": 2000
             },
             {
-                "name": "gaz_4m_turret_04_7_62mm_maxim",
                 "yaw": 60.0,
                 "pitch": 20.0,
                 "depression": -10.0,
@@ -15061,7 +14777,6 @@
         "brake": 6000.0,
         "turrets": [
             {
-                "name": "gaz_dshk_turret_01_12_7mm_dshk_gaz",
                 "yaw": 35.0,
                 "pitch": 20.0,
                 "depression": -4.0,
@@ -15135,7 +14850,6 @@
         "brake": 6000.0,
         "turrets": [
             {
-                "name": "gaz_mm_72k_turret_01_25mm_72k",
                 "yaw": 35.0,
                 "pitch": 20.0,
                 "depression": -10.0,
@@ -15213,7 +14927,6 @@
         "brake": 40000.0,
         "turrets": [
             {
-                "name": "ht_130_turret_01_ato_41",
                 "yaw": 16.0,
                 "pitch": 4.0,
                 "depression": -6.0,
@@ -15229,7 +14942,6 @@
                 "ammo": 360
             },
             {
-                "name": "ht_130_turret_02_7_62mm_dt",
                 "yaw": null,
                 "pitch": null,
                 "depression": null,
@@ -15282,7 +14994,6 @@
         "brake": 200000.0,
         "turrets": [
             {
-                "name": "isu_152_turret_01_152mm_ml20s",
                 "yaw": 8.0,
                 "pitch": 2.0,
                 "depression": -3.0,
@@ -15349,7 +15060,6 @@
                 "ammo": 20
             },
             {
-                "name": "isu_152_turret_02_12_7mm_dshk",
                 "yaw": 90.0,
                 "pitch": 90.0,
                 "depression": -5.0,
@@ -15402,7 +15112,6 @@
         "brake": 250000.0,
         "turrets": [
             {
-                "name": "is_1_turret_01_85mm_d5t",
                 "yaw": 14.0,
                 "pitch": 5.0,
                 "depression": -5.0,
@@ -15469,7 +15178,6 @@
                 "ammo": 59
             },
             {
-                "name": "is_1_turret_02_7_62mm_dt",
                 "yaw": null,
                 "pitch": null,
                 "depression": null,
@@ -15522,7 +15230,6 @@
         "brake": 250000.0,
         "turrets": [
             {
-                "name": "is_2_turret_01_122mm_d25t",
                 "yaw": 14.0,
                 "pitch": 4.0,
                 "depression": -3.0,
@@ -15589,7 +15296,6 @@
                 "ammo": 28
             },
             {
-                "name": "is_2_turret_02_7_62mm_dt",
                 "yaw": null,
                 "pitch": null,
                 "depression": null,
@@ -15642,7 +15348,6 @@
         "brake": 250000.0,
         "turrets": [
             {
-                "name": "is_2_1944_turret_01_122mm_d25t",
                 "yaw": 14.0,
                 "pitch": 4.0,
                 "depression": -3.0,
@@ -15709,7 +15414,6 @@
                 "ammo": 28
             },
             {
-                "name": "is_2_1944_turret_02_7_62mm_dt",
                 "yaw": null,
                 "pitch": null,
                 "depression": null,
@@ -15747,7 +15451,6 @@
                 "ammo": 1890
             },
             {
-                "name": "is_2_1944_turret_03_12_7mm_dshk",
                 "yaw": 90.0,
                 "pitch": 90.0,
                 "depression": -10.0,
@@ -15800,7 +15503,6 @@
         "brake": 200000.0,
         "turrets": [
             {
-                "name": "kv_1_l_11_turret_01_76mm_l11",
                 "yaw": 12.0,
                 "pitch": 4.0,
                 "depression": -7.0,
@@ -15867,7 +15569,6 @@
                 "ammo": 111
             },
             {
-                "name": "kv_1_l_11_turret_02_7_62mm_dt",
                 "yaw": null,
                 "pitch": null,
                 "depression": null,
@@ -15920,7 +15621,6 @@
         "brake": 200000.0,
         "turrets": [
             {
-                "name": "kv_2_1939_turret_01_152mm_m10t",
                 "yaw": 6.0,
                 "pitch": 3.0,
                 "depression": -5.0,
@@ -16002,7 +15702,6 @@
         "brake": 129324.0,
         "turrets": [
             {
-                "name": "matilda_iii_turret_01_40mm_qf_2pdr",
                 "yaw": 20.0,
                 "pitch": 15.0,
                 "depression": -20.0,
@@ -16069,7 +15768,6 @@
                 "ammo": 93
             },
             {
-                "name": "matilda_iii_turret_02_7_92mm_besa",
                 "yaw": null,
                 "pitch": null,
                 "depression": null,
@@ -16107,7 +15805,6 @@
                 "ammo": 4050
             },
             {
-                "name": "matilda_iii_turret_03_76mm_nato_smoke_grenade_launcher_single",
                 "yaw": null,
                 "pitch": null,
                 "depression": null,
@@ -16149,7 +15846,6 @@
                 "ammo": 1
             },
             {
-                "name": "matilda_iii_turret_04_76mm_nato_smoke_grenade_launcher_single",
                 "yaw": null,
                 "pitch": null,
                 "depression": null,
@@ -16206,7 +15902,6 @@
         "brake": 120000.0,
         "turrets": [
             {
-                "name": "su_100_turret_01_100mm_d10s",
                 "yaw": 7.0,
                 "pitch": 4.0,
                 "depression": -3.0,
@@ -16314,7 +16009,6 @@
         "brake": 30000.0,
         "turrets": [
             {
-                "name": "su_76m_turret_01_76mm_zis3",
                 "yaw": 7.0,
                 "pitch": 4.0,
                 "depression": -5.0,
@@ -16422,7 +16116,6 @@
         "brake": 120000.0,
         "turrets": [
             {
-                "name": "su_85m_turret_01_85mm_d5s",
                 "yaw": 8.0,
                 "pitch": 4.0,
                 "depression": -3.0,
@@ -16504,7 +16197,6 @@
         "brake": 3200.0,
         "turrets": [
             {
-                "name": "towed_at_53k_turret_01_45mm_20k",
                 "yaw": 35.0,
                 "pitch": 20.0,
                 "depression": -2.0,
@@ -16586,7 +16278,6 @@
         "brake": 40000.0,
         "turrets": [
             {
-                "name": "t_26_1940_turret_01_45mm_20k",
                 "yaw": 16.0,
                 "pitch": 4.0,
                 "depression": -6.0,
@@ -16653,7 +16344,6 @@
                 "ammo": 205
             },
             {
-                "name": "t_26_1940_turret_02_7_62mm_dt",
                 "yaw": null,
                 "pitch": null,
                 "depression": null,
@@ -16706,7 +16396,6 @@
         "brake": 100000.0,
         "turrets": [
             {
-                "name": "t_28_turret_01_76mm_l10",
                 "yaw": 15.0,
                 "pitch": 3.0,
                 "depression": -5.0,
@@ -16773,7 +16462,6 @@
                 "ammo": 69
             },
             {
-                "name": "t_28_turret_02_7_62mm_dt",
                 "yaw": 25.0,
                 "pitch": 15.0,
                 "depression": -5.0,
@@ -16811,7 +16499,6 @@
                 "ammo": 2646
             },
             {
-                "name": "t_28_turret_03_7_62mm_dt",
                 "yaw": 25.0,
                 "pitch": 15.0,
                 "depression": -5.0,
@@ -16849,7 +16536,6 @@
                 "ammo": 2646
             },
             {
-                "name": "t_28_turret_04_7_62mm_dt",
                 "yaw": 25.0,
                 "pitch": 15.0,
                 "depression": -15.0,
@@ -16902,7 +16588,6 @@
         "brake": 100000.0,
         "turrets": [
             {
-                "name": "t_28e_turret_01_76mm_l10",
                 "yaw": 15.0,
                 "pitch": 3.0,
                 "depression": -5.0,
@@ -16969,7 +16654,6 @@
                 "ammo": 69
             },
             {
-                "name": "t_28e_turret_02_7_62mm_dt",
                 "yaw": 25.0,
                 "pitch": 15.0,
                 "depression": -5.0,
@@ -17007,7 +16691,6 @@
                 "ammo": 2646
             },
             {
-                "name": "t_28e_turret_03_7_62mm_dt",
                 "yaw": 25.0,
                 "pitch": 15.0,
                 "depression": -5.0,
@@ -17045,7 +16728,6 @@
                 "ammo": 2646
             },
             {
-                "name": "t_28e_turret_04_7_62mm_dt",
                 "yaw": null,
                 "pitch": null,
                 "depression": null,
@@ -17098,7 +16780,6 @@
         "brake": 100000.0,
         "turrets": [
             {
-                "name": "t_34e_stz_turret_01_76mm_f34",
                 "yaw": 25.0,
                 "pitch": 4.0,
                 "depression": -5.0,
@@ -17190,7 +16871,6 @@
                 "ammo": 77
             },
             {
-                "name": "t_34e_stz_turret_02_7_62mm_dt",
                 "yaw": null,
                 "pitch": null,
                 "depression": null,
@@ -17244,7 +16924,6 @@
         "brake": 100000.0,
         "turrets": [
             {
-                "name": "t_34_1940_l_11_turret_01_76mm_l11",
                 "yaw": 25.0,
                 "pitch": 6.0,
                 "depression": -5.0,
@@ -17311,7 +16990,6 @@
                 "ammo": 77
             },
             {
-                "name": "t_34_1940_l_11_turret_02_7_62mm_dt",
                 "yaw": null,
                 "pitch": null,
                 "depression": null,
@@ -17364,7 +17042,6 @@
         "brake": 100000.0,
         "turrets": [
             {
-                "name": "t_34_1941_turret_01_76mm_f34",
                 "yaw": 25.0,
                 "pitch": 4.0,
                 "depression": -5.0,
@@ -17456,7 +17133,6 @@
                 "ammo": 77
             },
             {
-                "name": "t_34_1941_turret_02_7_62mm_dt",
                 "yaw": null,
                 "pitch": null,
                 "depression": null,
@@ -17510,7 +17186,6 @@
         "brake": 100000.0,
         "turrets": [
             {
-                "name": "t_34_57_1943_turret_01_57mm_zis4m",
                 "yaw": 25.0,
                 "pitch": 4.0,
                 "depression": -5.0,
@@ -17577,7 +17252,6 @@
                 "ammo": 100
             },
             {
-                "name": "t_34_57_1943_turret_02_7_62mm_dt",
                 "yaw": null,
                 "pitch": null,
                 "depression": null,
@@ -17630,7 +17304,6 @@
         "brake": 120000.0,
         "turrets": [
             {
-                "name": "t_34_85_d_5t_turret_01_85mm_d5t",
                 "yaw": 25.0,
                 "pitch": 4.0,
                 "depression": -5.0,
@@ -17697,7 +17370,6 @@
                 "ammo": 56
             },
             {
-                "name": "t_34_85_d_5t_turret_02_7_62mm_dt",
                 "yaw": null,
                 "pitch": null,
                 "depression": null,
@@ -17750,7 +17422,6 @@
         "brake": 120000.0,
         "turrets": [
             {
-                "name": "t_34_85_e_turret_01_85mm_zis_s_53",
                 "yaw": 25.0,
                 "pitch": 4.0,
                 "depression": -5.0,
@@ -17817,7 +17488,6 @@
                 "ammo": 60
             },
             {
-                "name": "t_34_85_e_turret_02_7_62mm_dt",
                 "yaw": null,
                 "pitch": null,
                 "depression": null,
@@ -17870,7 +17540,6 @@
         "brake": 120000.0,
         "turrets": [
             {
-                "name": "t_34_85_zis_53_turret_01_85mm_zis_s_53",
                 "yaw": 25.0,
                 "pitch": 4.0,
                 "depression": -5.0,
@@ -17937,7 +17606,6 @@
                 "ammo": 60
             },
             {
-                "name": "t_34_85_zis_53_turret_02_7_62mm_dt",
                 "yaw": null,
                 "pitch": null,
                 "depression": null,
@@ -17990,7 +17658,6 @@
         "brake": 50000.0,
         "turrets": [
             {
-                "name": "t_50_turret_01_45mm_20k",
                 "yaw": 8.0,
                 "pitch": 4.0,
                 "depression": -7.0,
@@ -18057,7 +17724,6 @@
                 "ammo": 150
             },
             {
-                "name": "t_50_turret_02_7_62mm_dt",
                 "yaw": null,
                 "pitch": null,
                 "depression": null,
@@ -18095,7 +17761,6 @@
                 "ammo": 1890
             },
             {
-                "name": "t_50_turret_03_7_62mm_dt",
                 "yaw": null,
                 "pitch": null,
                 "depression": null,
@@ -18148,7 +17813,6 @@
         "brake": 30000.0,
         "turrets": [
             {
-                "name": "t_60_1941_turret_01_20mm_tnsh",
                 "yaw": 15.0,
                 "pitch": 10.0,
                 "depression": -7.0,
@@ -18207,7 +17871,6 @@
                 "ammo": 754
             },
             {
-                "name": "t_60_1941_turret_02_7_62mm_dt",
                 "yaw": null,
                 "pitch": null,
                 "depression": null,
@@ -18260,7 +17923,6 @@
         "brake": 40000.0,
         "turrets": [
             {
-                "name": "t_70_turret_01_45mm_20k",
                 "yaw": 6.0,
                 "pitch": 4.0,
                 "depression": -6.0,
@@ -18327,7 +17989,6 @@
                 "ammo": 90
             },
             {
-                "name": "t_70_turret_02_7_62mm_dt",
                 "yaw": null,
                 "pitch": null,
                 "depression": null,
@@ -18380,7 +18041,6 @@
         "brake": 62800.0,
         "turrets": [
             {
-                "name": "valentine_i_turret_01_40mm_qf_2pdr",
                 "yaw": 16.0,
                 "pitch": 15.0,
                 "depression": -15.0,
@@ -18447,7 +18107,6 @@
                 "ammo": 61
             },
             {
-                "name": "valentine_i_turret_02_7_92mm_besa",
                 "yaw": null,
                 "pitch": null,
                 "depression": null,
@@ -18485,7 +18144,6 @@
                 "ammo": 3600
             },
             {
-                "name": "valentine_i_turret_03_50mm_uk_smoke_mortar_launcher",
                 "yaw": null,
                 "pitch": null,
                 "depression": null,
@@ -18542,7 +18200,6 @@
         "brake": 15000.0,
         "turrets": [
             {
-                "name": "zis_30_turret_01_57mm_zis2",
                 "yaw": 7.0,
                 "pitch": 4.0,
                 "depression": -4.0,
@@ -18609,7 +18266,6 @@
                 "ammo": 20
             },
             {
-                "name": "zis_30_turret_02_7_62mm_dt",
                 "yaw": 5.5,
                 "pitch": 4.0,
                 "depression": -10.0,
@@ -18662,7 +18318,6 @@
         "brake": 30000.0,
         "turrets": [
             {
-                "name": "halftrack_m13_turret_01_12_7mm_m2_hb",
                 "yaw": 60.0,
                 "pitch": 60.0,
                 "depression": -10.0,
@@ -18700,7 +18355,6 @@
                 "ammo": 1200
             },
             {
-                "name": "halftrack_m13_turret_02_12_7mm_m2_hb",
                 "yaw": null,
                 "pitch": null,
                 "depression": null,
@@ -18753,7 +18407,6 @@
         "brake": 30000.0,
         "turrets": [
             {
-                "name": "halftrack_m3_75mm_gmc_turret_01_75mm_m1897a4",
                 "yaw": 6.0,
                 "pitch": 4.0,
                 "depression": -10.0,
@@ -18861,7 +18514,6 @@
         "brake": 45000.0,
         "turrets": [
             {
-                "name": "lvt_a_1_turret_01_37mm_m6",
                 "yaw": 24.0,
                 "pitch": 4.0,
                 "depression": -10.0,
@@ -18928,7 +18580,6 @@
                 "ammo": 104
             },
             {
-                "name": "lvt_a_1_turret_02_7_62mm_m1919a4",
                 "yaw": 90.0,
                 "pitch": 90.0,
                 "depression": -10.0,
@@ -18966,7 +18617,6 @@
                 "ammo": 3000
             },
             {
-                "name": "lvt_a_1_turret_03_7_62mm_m1919a4",
                 "yaw": 90.0,
                 "pitch": 90.0,
                 "depression": -10.0,
@@ -19004,7 +18654,6 @@
                 "ammo": 3000
             },
             {
-                "name": "lvt_a_1_turret_04_7_62mm_m1919a4",
                 "yaw": null,
                 "pitch": null,
                 "depression": null,
@@ -19057,7 +18706,6 @@
         "brake": 45000.0,
         "turrets": [
             {
-                "name": "lvt_a_4_turret_01_75mm_m2_howitzer",
                 "yaw": 6.0,
                 "pitch": 4.0,
                 "depression": -20.0,
@@ -19149,7 +18797,6 @@
                 "ammo": 100
             },
             {
-                "name": "lvt_a_4_turret_02_12_7mm_m2_hb",
                 "yaw": 90.0,
                 "pitch": 90.0,
                 "depression": -5.0,
@@ -19224,7 +18871,6 @@
         "brake": 120000.0,
         "turrets": [
             {
-                "name": "m10_wolverine_turret_01_76mm_m7_for_m10",
                 "yaw": 4.5,
                 "pitch": 4.0,
                 "depression": -10.0,
@@ -19291,7 +18937,6 @@
                 "ammo": 54
             },
             {
-                "name": "m10_wolverine_turret_02_12_7mm_m2_hb",
                 "yaw": 90.0,
                 "pitch": 90.0,
                 "depression": -10.0,
@@ -19344,7 +18989,6 @@
         "brake": 60000.0,
         "turrets": [
             {
-                "name": "m18_hellcat_turret_01_76mm_m1",
                 "yaw": 24.0,
                 "pitch": 4.0,
                 "depression": -10.0,
@@ -19436,7 +19080,6 @@
                 "ammo": 45
             },
             {
-                "name": "m18_hellcat_turret_02_12_7mm_m2_hb",
                 "yaw": 90.0,
                 "pitch": 90.0,
                 "depression": -10.0,
@@ -19490,7 +19133,6 @@
         "brake": 70000.0,
         "turrets": [
             {
-                "name": "m24_chaffee_turret_01_75mm_m6",
                 "yaw": 24.0,
                 "pitch": 4.0,
                 "depression": -10.0,
@@ -19582,7 +19224,6 @@
                 "ammo": 48
             },
             {
-                "name": "m24_chaffee_turret_02_7_62mm_m1919a4",
                 "yaw": null,
                 "pitch": null,
                 "depression": null,
@@ -19620,7 +19261,6 @@
                 "ammo": 2000
             },
             {
-                "name": "m24_chaffee_turret_03_12_7mm_m2_hb",
                 "yaw": 90.0,
                 "pitch": 90.0,
                 "depression": -10.0,
@@ -19658,7 +19298,6 @@
                 "ammo": 1000
             },
             {
-                "name": "m24_chaffee_turret_04_50mm_uk_smoke_mortar_launcher",
                 "yaw": null,
                 "pitch": null,
                 "depression": null,
@@ -19716,7 +19355,6 @@
         "brake": 35000.0,
         "turrets": [
             {
-                "name": "m2a4_turret_01_37mm_m5_early",
                 "yaw": 20.5,
                 "pitch": 15.0,
                 "depression": -10.0,
@@ -19783,7 +19421,6 @@
                 "ammo": 103
             },
             {
-                "name": "m2a4_turret_02_7_62mm_m1919a4",
                 "yaw": null,
                 "pitch": null,
                 "depression": null,
@@ -19821,7 +19458,6 @@
                 "ammo": 5250
             },
             {
-                "name": "m2a4_turret_03_7_62mm_m1919a4",
                 "yaw": 90.0,
                 "pitch": 90.0,
                 "depression": -10.0,
@@ -19859,7 +19495,6 @@
                 "ammo": 3000
             },
             {
-                "name": "m2a4_turret_04_7_62mm_m1919a4",
                 "yaw": null,
                 "pitch": null,
                 "depression": null,
@@ -19897,7 +19532,6 @@
                 "ammo": 5250
             },
             {
-                "name": "m2a4_turret_05_7_62mm_m1919a4",
                 "yaw": null,
                 "pitch": null,
                 "depression": null,
@@ -19935,7 +19569,6 @@
                 "ammo": 5250
             },
             {
-                "name": "m2a4_turret_06_7_62mm_m1919a4",
                 "yaw": null,
                 "pitch": null,
                 "depression": null,
@@ -19988,7 +19621,6 @@
         "brake": 30000.0,
         "turrets": [
             {
-                "name": "m3a1_stuart_turret_01_37mm_m5_early",
                 "yaw": 20.0,
                 "pitch": 4.0,
                 "depression": -10.0,
@@ -20055,7 +19687,6 @@
                 "ammo": 103
             },
             {
-                "name": "m3a1_stuart_turret_02_7_62mm_m1919a4",
                 "yaw": 90.0,
                 "pitch": 90.0,
                 "depression": -10.0,
@@ -20093,7 +19724,6 @@
                 "ammo": 2000
             },
             {
-                "name": "m3a1_stuart_turret_03_7_62mm_m1919a4",
                 "yaw": null,
                 "pitch": null,
                 "depression": null,
@@ -20146,7 +19776,6 @@
         "brake": 30000.0,
         "turrets": [
             {
-                "name": "m3a1_stuart_flame_turret_01_37mm_m6",
                 "yaw": 20.0,
                 "pitch": 4.0,
                 "depression": -10.0,
@@ -20213,7 +19842,6 @@
                 "ammo": 106
             },
             {
-                "name": "m3a1_stuart_flame_turret_02_7_62mm_m1919a4",
                 "yaw": 90.0,
                 "pitch": 90.0,
                 "depression": -5.0,
@@ -20251,7 +19879,6 @@
                 "ammo": 3000
             },
             {
-                "name": "m3a1_stuart_flame_turret_03_7_62mm_m1919a4",
                 "yaw": null,
                 "pitch": null,
                 "depression": null,
@@ -20304,7 +19931,6 @@
         "brake": 110000.0,
         "turrets": [
             {
-                "name": "m3_lee_turret_01_37mm_m5_user_cannon_for_m3_lee",
                 "yaw": 18.0,
                 "pitch": 4.0,
                 "depression": -7.0,
@@ -20371,7 +19997,6 @@
                 "ammo": 179
             },
             {
-                "name": "m3_lee_turret_02_75mm_m2",
                 "yaw": 12.0,
                 "pitch": 4.0,
                 "depression": -9.0,
@@ -20463,7 +20088,6 @@
                 "ammo": 50
             },
             {
-                "name": "m3_lee_turret_03_7_62mm_m1919a4",
                 "yaw": null,
                 "pitch": null,
                 "depression": null,
@@ -20479,7 +20103,6 @@
                 "ammo": 3000
             },
             {
-                "name": "m3_lee_turret_04_7_62mm_m1919a4",
                 "yaw": 30.0,
                 "pitch": 20.0,
                 "depression": -10.0,
@@ -20511,7 +20134,6 @@
         "brake": 130000.0,
         "turrets": [
             {
-                "name": "m4a1_76w_sherman_turret_01_76mm_m1_no_mb",
                 "yaw": 24.0,
                 "pitch": 4.0,
                 "depression": -10.0,
@@ -20603,7 +20225,6 @@
                 "ammo": 71
             },
             {
-                "name": "m4a1_76w_sherman_turret_02_7_62mm_m1919a4",
                 "yaw": null,
                 "pitch": null,
                 "depression": null,
@@ -20641,7 +20262,6 @@
                 "ammo": 3000
             },
             {
-                "name": "m4a1_76w_sherman_turret_03_12_7mm_m2_hb",
                 "yaw": 90.0,
                 "pitch": 90.0,
                 "depression": -10.0,
@@ -20695,7 +20315,6 @@
         "brake": 130000.0,
         "turrets": [
             {
-                "name": "m4a1_sherman_1942_turret_01_75mm_m3",
                 "yaw": 24.0,
                 "pitch": 4.0,
                 "depression": -12.0,
@@ -20787,7 +20406,6 @@
                 "ammo": 90
             },
             {
-                "name": "m4a1_sherman_1942_turret_02_12_7mm_m2_hb",
                 "yaw": 90.0,
                 "pitch": 90.0,
                 "depression": -10.0,
@@ -20825,7 +20443,6 @@
                 "ammo": 600
             },
             {
-                "name": "m4a1_sherman_1942_turret_03_7_62mm_m1919a4",
                 "yaw": null,
                 "pitch": null,
                 "depression": null,
@@ -20879,7 +20496,6 @@
         "brake": 130000.0,
         "turrets": [
             {
-                "name": "m4a2_76w_sherman_turret_01_76mm_m1",
                 "yaw": 24.0,
                 "pitch": 4.0,
                 "depression": -10.0,
@@ -20971,7 +20587,6 @@
                 "ammo": 71
             },
             {
-                "name": "m4a2_76w_sherman_turret_02_7_62mm_m1919a4",
                 "yaw": null,
                 "pitch": null,
                 "depression": null,
@@ -21009,7 +20624,6 @@
                 "ammo": 3000
             },
             {
-                "name": "m4a2_76w_sherman_turret_03_12_7mm_m2_hb",
                 "yaw": 90.0,
                 "pitch": 90.0,
                 "depression": -10.0,
@@ -21063,7 +20677,6 @@
         "brake": 130000.0,
         "turrets": [
             {
-                "name": "m4a2_sherman_1944_turret_01_75mm_m3",
                 "yaw": 24.0,
                 "pitch": 4.0,
                 "depression": -10.0,
@@ -21155,7 +20768,6 @@
                 "ammo": 97
             },
             {
-                "name": "m4a2_sherman_1944_turret_02_7_62mm_m1919a4",
                 "yaw": null,
                 "pitch": null,
                 "depression": null,
@@ -21193,7 +20805,6 @@
                 "ammo": 3000
             },
             {
-                "name": "m4a2_sherman_1944_turret_03_12_7mm_m2_hb",
                 "yaw": 90.0,
                 "pitch": 90.0,
                 "depression": -10.0,
@@ -21231,7 +20842,6 @@
                 "ammo": 400
             },
             {
-                "name": "m4a2_sherman_1944_turret_04_50mm_uk_smoke_mortar_launcher",
                 "yaw": null,
                 "pitch": null,
                 "depression": null,
@@ -21289,7 +20899,6 @@
         "brake": 130000.0,
         "turrets": [
             {
-                "name": "m4a3e2_76w_sherman_jumbo_turret_01_76mm_m1_no_mb",
                 "yaw": 24.0,
                 "pitch": 4.0,
                 "depression": -10.0,
@@ -21381,7 +20990,6 @@
                 "ammo": 71
             },
             {
-                "name": "m4a3e2_76w_sherman_jumbo_turret_02_7_62mm_m1919a4",
                 "yaw": null,
                 "pitch": null,
                 "depression": null,
@@ -21419,7 +21027,6 @@
                 "ammo": 3000
             },
             {
-                "name": "m4a3e2_76w_sherman_jumbo_turret_03_12_7mm_m2_hb",
                 "yaw": 90.0,
                 "pitch": 90.0,
                 "depression": -10.0,
@@ -21473,7 +21080,6 @@
         "brake": 130000.0,
         "turrets": [
             {
-                "name": "m4a3e2_sherman_jumbo_turret_01_75mm_m3",
                 "yaw": 24.0,
                 "pitch": 4.0,
                 "depression": -10.0,
@@ -21565,7 +21171,6 @@
                 "ammo": 104
             },
             {
-                "name": "m4a3e2_sherman_jumbo_turret_02_7_62mm_m1919a4",
                 "yaw": null,
                 "pitch": null,
                 "depression": null,
@@ -21603,7 +21208,6 @@
                 "ammo": 3000
             },
             {
-                "name": "m4a3e2_sherman_jumbo_turret_03_12_7mm_m2_hb",
                 "yaw": 90.0,
                 "pitch": 90.0,
                 "depression": -10.0,
@@ -21657,7 +21261,6 @@
         "brake": 130000.0,
         "turrets": [
             {
-                "name": "m4a3_105_sherman_turret_01_105mm_m4",
                 "yaw": 6.0,
                 "pitch": 4.0,
                 "depression": -10.0,
@@ -21749,7 +21352,6 @@
                 "ammo": 66
             },
             {
-                "name": "m4a3_105_sherman_turret_02_7_62mm_m1919a4",
                 "yaw": null,
                 "pitch": null,
                 "depression": null,
@@ -21787,7 +21389,6 @@
                 "ammo": 3000
             },
             {
-                "name": "m4a3_105_sherman_turret_03_12_7mm_m2_hb",
                 "yaw": 90.0,
                 "pitch": 90.0,
                 "depression": -10.0,
@@ -21825,7 +21426,6 @@
                 "ammo": 600
             },
             {
-                "name": "m4a3_105_sherman_turret_04_50mm_uk_smoke_mortar_launcher",
                 "yaw": null,
                 "pitch": null,
                 "depression": null,
@@ -21883,7 +21483,6 @@
         "brake": 130000.0,
         "turrets": [
             {
-                "name": "m4_sherman_calliope_turret_01_75mm_m3",
                 "yaw": 24.0,
                 "pitch": 4.0,
                 "depression": -10.0,
@@ -21975,7 +21574,6 @@
                 "ammo": 97
             },
             {
-                "name": "m4_sherman_calliope_turret_02_7_62mm_m1919a4",
                 "yaw": null,
                 "pitch": null,
                 "depression": null,
@@ -22029,7 +21627,6 @@
         "brake": 45000.0,
         "turrets": [
             {
-                "name": "m5a1_stuart_late_turret_01_37mm_m6",
                 "yaw": 24.0,
                 "pitch": 4.0,
                 "depression": -12.0,
@@ -22096,7 +21693,6 @@
                 "ammo": 147
             },
             {
-                "name": "m5a1_stuart_late_turret_02_7_62mm_m1919a4",
                 "yaw": 90.0,
                 "pitch": 90.0,
                 "depression": -10.0,
@@ -22134,7 +21730,6 @@
                 "ammo": 3000
             },
             {
-                "name": "m5a1_stuart_late_turret_03_7_62mm_m1919a4",
                 "yaw": null,
                 "pitch": null,
                 "depression": null,
@@ -22187,7 +21782,6 @@
         "brake": 31200.0,
         "turrets": [
             {
-                "name": "m8_greyhound_turret_01_37mm_m6",
                 "yaw": 20.0,
                 "pitch": 4.0,
                 "depression": -10.0,
@@ -22254,7 +21848,6 @@
                 "ammo": 80
             },
             {
-                "name": "m8_greyhound_turret_02_7_62mm_m1919a4",
                 "yaw": null,
                 "pitch": null,
                 "depression": null,
@@ -22270,7 +21863,6 @@
                 "ammo": 1500
             },
             {
-                "name": "m8_greyhound_turret_03_12_7mm_m2_hb",
                 "yaw": 90.0,
                 "pitch": 90.0,
                 "depression": -10.0,
@@ -22323,7 +21915,6 @@
         "brake": 45000.0,
         "turrets": [
             {
-                "name": "m8_scott_turret_01_75mm_m2_howitzer",
                 "yaw": 6.0,
                 "pitch": 4.0,
                 "depression": -20.0,
@@ -22415,7 +22006,6 @@
                 "ammo": 46
             },
             {
-                "name": "m8_scott_turret_02_12_7mm_m2_hb",
                 "yaw": 90.0,
                 "pitch": 90.0,
                 "depression": -5.0,
@@ -22490,7 +22080,6 @@
         "brake": 3200.0,
         "turrets": [
             {
-                "name": "towed_at_m1_turret_01_57mm_6pdr_qqf_mk_3_l43",
                 "yaw": 35.0,
                 "pitch": 20.0,
                 "depression": -2.0,

@@ -1,5 +1,6 @@
 {
     "EMPTY": "",
+    "N_A": "N/A",
     "class.anti_tank": "AT Gunner",
     "class.assault": "Assaulter",
     "class.biker": "Rider",
@@ -1391,8 +1392,10 @@
     "page.tanks.table.accel": "Acceleration (hp:ton ratio):",
     "page.tanks.table.ammoBelt": "Ammo belt size",
     "page.tanks.table.ammoCount": "Total ammo count",
-    "page.tanks.table.armorPower": "Maximum penetration",
+    "page.tanks.table.armorPower": "Max penetration",
     "page.tanks.table.brake": "Braking force:",
+    "page.tanks.table.coax.false": "Coaxial",
+    "page.tanks.table.coax.true": "Fixed",
     "page.tanks.table.crew": "Crew count:",
     "page.tanks.table.depression": "Depression",
     "page.tanks.table.elevation": "Elevation",
