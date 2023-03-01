@@ -24,7 +24,7 @@ const TANKS_META = [
       'germ_pzkpfw_iii_ausf_b',
       'germ_pzkpfw_iii_ausf_e',
       'germ_pzkpfw_iii_ausf_j',
-      'germ_pzkpfw_iii_ausf_j1_l60',
+      //'germ_pzkpfw_iii_ausf_j1_l60',
       'germ_pzkpfw_iv_ausf_e',
       'germ_pzkpfw_iv_ausf_f',
       'germ_pzkpfw_iv_ausf_f2'
@@ -146,6 +146,7 @@ const TANKS_META = [
   {
     'Category': 'weapons.category.pacific.axis',
     Tanks: [
+      'jp_type_97_chi_ha',
       'jp_type_97_kai',
       'jp_type_95_ha_go',
       'jp_type_3_ka_chi',

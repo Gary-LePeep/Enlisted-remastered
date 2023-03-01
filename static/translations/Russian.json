@@ -1389,6 +1389,7 @@
     "page.soldierStats.title": "Характеристики Солдат",
     "page.tanks.button": "Танковый",
     "page.tanks.table.APround": "Бронебойный снаряд",
+    "page.tanks.table.smokeRound": "Дымовой снаряд",
     "page.tanks.table.HEround": "Фугасный снаряд",
     "page.tanks.table.IGN": "Имя в данных:",
     "page.tanks.table.accel": "Ускорение (соотношение л.с.:тонна):",

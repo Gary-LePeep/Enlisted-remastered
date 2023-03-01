@@ -47,11 +47,11 @@
                 tableRow.childNodes[1].style.backgroundColor = `rgb(${red1}, ${green1}, 0)`;
                 if (val0 > val1) {
                     tableRow.childNodes[0].style.borderColor = '#00BB00';
-                    // tableRow.childNodes[1].style.borderColor = '#BB0000';
+                    //tableRow.childNodes[1].style.borderColor = '#333333';
                 }
                 if (val0 < val1) {
                     tableRow.childNodes[1].style.borderColor = '#00BB00';
-                    // tableRow.childNodes[0].style.borderColor = '#BB0000';
+                    //tableRow.childNodes[0].style.borderColor = '#333333';
                 }
             }
         }
@@ -97,23 +97,44 @@
 
         BODY.appendChild(translate('page.tanks.table.tanksTurrets', 'b', `position:absolute; top:${120 + (dataDivs.length * 50)}px; left:${FULLWIDE / 4}px; width:${FULLWIDE / 2}px; text-align:center; font-size:20px; font-family: Trebuchet MS; color:white;`));
 
-        function colorTurretTable() {
-            // dont color unless both sides have something
-            if (turretDiv.childNodes.length < 4) {
-                if (turretDiv.childNodes.length === 2) {
-                    for (let i = 0; i < turretDiv.childNodes[0].childNodes.length; i++) {
-                        for (let j = 0; j < turretDiv.childNodes[0].childNodes[i].childNodes.length; j++) {
-                            if (turretDiv.childNodes[0].childNodes[i].childNodes[j] != null) {
-                                turretDiv.childNodes[0].childNodes[i].childNodes[j].style.backgroundColor = '#111111';
-                                turretDiv.childNodes[0].childNodes[i].childNodes[j].style.borderColor = '#444444';
-                            }
+        function defaultColorTurretTable(table) {
+            for (let i = 0; i < table.childNodes.length; i++) {
+                for (let j = 0; j < table.childNodes[i].childNodes.length; j++) {
+                    if (table.childNodes[i].childNodes[j] != null) {
+                        if (i >= 25) {
+                            table.childNodes[i].childNodes[j].style.backgroundColor = '#335544';
+                            table.childNodes[i].childNodes[j].style.borderColor = '#669977';
+                        }
+                        else if (i >= 19) {
+                            table.childNodes[i].childNodes[j].style.backgroundColor = '#333355';
+                            table.childNodes[i].childNodes[j].style.borderColor = '#666699';
+                        }
+                        else if (i >= 12) {
+                            table.childNodes[i].childNodes[j].style.backgroundColor = '#553344';
+                            table.childNodes[i].childNodes[j].style.borderColor = '#996677';
+                        }
+                        else {
+                            table.childNodes[i].childNodes[j].style.backgroundColor = '#333333';
+                            table.childNodes[i].childNodes[j].style.borderColor = '#666666';
                         }
                     }
                 }
+            }
+
+        }
+
+        function colorTurretTable() {
+            const table0 = turretDiv.childNodes[0];
+            if (turretDiv.childNodes.length === 2) {
+                defaultColorTurretTable(table0);
+            }
+            // dont color unless both sides have something
+            if (turretDiv.childNodes.length < 4) {
                 return;
             }
-            const table0 = turretDiv.childNodes[0];
             const table1 = turretDiv.childNodes[2];
+            defaultColorTurretTable(table1);
+
             const mainGuns0 = [];
             const mainGuns1 = [];
 
@@ -135,7 +156,7 @@
             }
 
             // do the coloring on the main guns, excluding certain lines
-            const skipLines = [0, 1, 11, 12, 13, 19, 20, 25];
+            const skipLines = [0, 1, 12, 13, 19, 20, 25];
             const lowerBetter = [10];
             for (let i = 0; i < table1.childNodes.length; i++) {
                 if (skipLines.includes(i)) {
@@ -144,9 +165,10 @@
                 const values = [];
                 let largest = lowerBetter.includes(i) ? 9007199254740991 : -1;
                 for (let j = 0; j < mainGuns0.length; j++) {
-                    if (table0.childNodes[i].childNodes[mainGuns0[j]] != null) {
-                        table0.childNodes[i].childNodes[mainGuns0[j]].style.backgroundColor = 'rgb(100, 100, 0)';
-                        const val = toPlace(parseFloat(table0.childNodes[i].childNodes[mainGuns0[j]].textContent), 2);
+                    const turretItem0 = table0.childNodes[i].childNodes[mainGuns0[j]];
+                    if (turretItem0 != null) {
+                        turretItem0.style.backgroundColor = 'rgb(100, 100, 0)';
+                        const val = toPlace(parseFloat((turretItem0.textContent === '　' || turretItem0.textContent === translate('N_A')) ? 0 : turretItem0.textContent), 2);
                         values.push(val);
                         // if only 2 turrets, don't highlight ties
                         if (mainGuns0.length + mainGuns1.length === 2 && val === largest) {
@@ -159,9 +181,10 @@
                     }
                 }
                 for (let j = 0; j < mainGuns1.length; j++) {
-                    if (table1.childNodes[i].childNodes[mainGuns1[j]] != null) {
-                        table1.childNodes[i].childNodes[mainGuns1[j]].style.backgroundColor = 'rgb(100, 100, 0)';
-                        const val = toPlace(parseFloat(table1.childNodes[i].childNodes[mainGuns1[j]].textContent), 2);
+                    const turretItem1 = table1.childNodes[i].childNodes[mainGuns1[j]];
+                    if (turretItem1 != null) {
+                        turretItem1.style.backgroundColor = 'rgb(100, 100, 0)';
+                        const val = toPlace(parseFloat((turretItem1.textContent === '　' || turretItem1.textContent === translate('N_A')) ? 0 : turretItem1.textContent), 2);
                         values.push(val);
                         // if only 2 turrets, don't highlight ties
                         if (mainGuns0.length + mainGuns1.length === 2 && val === largest) {
@@ -182,6 +205,7 @@
                         const red = val < (3 * max / 4) ? 100 : (1 - (val - (3 * max / 4)) / (max / 4)) * 100;
                         const green = val > (3 * max / 4) ? 100 : (((val - (max / 4)) / (max / 4)) - 1) * 100;
                         table0.childNodes[i].childNodes[mainGuns0[j]].style.backgroundColor = lowerBetter.includes(i) ? `rgb(${green}, ${red}, 0)` : `rgb(${red}, ${green}, 0)`;
+                        table0.childNodes[i].childNodes[mainGuns0[j]].style.borderColor = lowerBetter.includes(i) ? `rgb(${green}, ${red}, 0)` : `rgb(${red}, ${green}, 0)`;
                         if (val === largest) {
                             table0.childNodes[i].childNodes[mainGuns0[j]].style.borderColor = '#00BB00';
                         }
@@ -193,6 +217,7 @@
                         const red = val < (3 * max / 4) ? 100 : (1 - (val - (3 * max / 4)) / (max / 4)) * 100;
                         const green = val > (3 * max / 4) ? 100 : (((val - (max / 4)) / (max / 4)) - 1) * 100;
                         table1.childNodes[i].childNodes[mainGuns1[j]].style.backgroundColor = lowerBetter.includes(i) ? `rgb(${green}, ${red}, 0)` : `rgb(${red}, ${green}, 0)`;
+                        table1.childNodes[i].childNodes[mainGuns1[j]].style.borderColor = lowerBetter.includes(i) ? `rgb(${green}, ${red}, 0)` : `rgb(${red}, ${green}, 0)`;
                         if (val === largest) {
                             table1.childNodes[i].childNodes[mainGuns1[j]].style.borderColor = '#00BB00';
                         }

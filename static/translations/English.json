@@ -1387,6 +1387,7 @@
     "page.soldierStats.title": "Soldier Statistics",
     "page.tanks.button": "Tank Tool",
     "page.tanks.table.APround": "Armor-piercing round",
+    "page.tanks.table.smokeRound": "Smoke round",
     "page.tanks.table.HEround": "Explosive round",
     "page.tanks.table.IGN": "Data name:",
     "page.tanks.table.accel": "Acceleration (hp:ton ratio):",
