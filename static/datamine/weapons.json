@@ -11,76 +11,73 @@
         "magazineSize": null,
         "bullets": [
             {
-                "shells": "content/e_ww2_common/gamedata/weapons/grenades/m24.blk"
+                "shells": "content/enlisted/gamedata/weapons/grenades/m24.blk"
             },
             {
-                "shells": "content/e_ww2_common/gamedata/weapons/grenades/m24_smoke.blk"
+                "shells": "content/enlisted/gamedata/weapons/grenades/m24_smoke.blk"
             },
             {
-                "shells": "content/e_ww2_common/gamedata/weapons/grenades/m24_smoke_short_time.blk"
+                "shells": "content/enlisted/gamedata/weapons/grenades/m24_smoke_short_time.blk"
             },
             {
-                "shells": "content/e_ww2_common/gamedata/weapons/grenades/usa_mk2.blk"
+                "shells": "content/enlisted/gamedata/weapons/grenades/usa_mk2.blk"
             },
             {
-                "shells": "content/e_ww2_common/gamedata/weapons/grenades/uk_mills_grenade.blk"
+                "shells": "content/enlisted/gamedata/weapons/grenades/uk_mills_grenade.blk"
             },
             {
-                "shells": "content/e_ww2_common/gamedata/weapons/grenades/usa_anm8_smoke.blk"
+                "shells": "content/enlisted/gamedata/weapons/grenades/usa_anm8_smoke.blk"
             },
             {
-                "shells": "content/e_ww2_common/gamedata/weapons/grenades/m24_flash.blk"
+                "shells": "content/enlisted/gamedata/weapons/grenades/m24_flash.blk"
             },
             {
-                "shells": "content/e_ww2_common/gamedata/weapons/grenades/f1.blk"
+                "shells": "content/enlisted/gamedata/weapons/grenades/f1.blk"
             },
             {
-                "shells": "content/e_ww2_common/gamedata/weapons/grenades/rdg1_smoke.blk"
+                "shells": "content/enlisted/gamedata/weapons/grenades/rdg1_smoke.blk"
             },
             {
-                "shells": "content/e_ww2_common/gamedata/weapons/grenades/signal_flare.blk"
+                "shells": "content/enlisted/gamedata/weapons/grenades/signal_flare.blk"
             },
             {
-                "shells": "content/e_ww2_common/gamedata/weapons/grenades/explosion_pack.blk"
+                "shells": "content/enlisted/gamedata/weapons/grenades/explosion_pack.blk"
             },
             {
-                "shells": "content/e_ww2_common/gamedata/weapons/grenades/ger_molotov.blk"
+                "shells": "content/enlisted/gamedata/weapons/grenades/ger_molotov.blk"
             },
             {
-                "shells": "content/e_ww2_common/gamedata/weapons/grenades/ussr_molotov.blk"
+                "shells": "content/enlisted/gamedata/weapons/grenades/ussr_molotov.blk"
             },
             {
-                "shells": "content/e_ww2_common/gamedata/weapons/grenades/jap_molotov.blk"
+                "shells": "content/enlisted/gamedata/weapons/grenades/jap_molotov.blk"
             },
             {
-                "shells": "content/e_ww2_common/gamedata/weapons/grenades/srcm_mod_35fl.blk"
+                "shells": "content/enlisted/gamedata/weapons/grenades/srcm_mod_35fl.blk"
             },
             {
-                "shells": "content/e_aprilfools_2022/gamedata/weapons/grenades/plasma_pack.blk"
+                "shells": "content/enlisted/gamedata/weapons/grenades/no_69_impact_grenade.blk"
             },
             {
-                "shells": "content/e_ww2_common/gamedata/weapons/grenades/no_69_impact_grenade.blk"
+                "shells": "content/enlisted/gamedata/weapons/grenades/srcm_mod_35_impact_grenade.blk"
             },
             {
-                "shells": "content/e_ww2_common/gamedata/weapons/grenades/srcm_mod_35_impact_grenade.blk"
+                "shells": "content/enlisted/gamedata/weapons/grenades/m_15_incendiary_grenade.blk"
             },
             {
-                "shells": "content/e_ww2_common/gamedata/weapons/grenades/m_15_incendiary_grenade.blk"
+                "shells": "content/enlisted/gamedata/weapons/grenades/type_91_incendiary_grenade.blk"
             },
             {
-                "shells": "content/e_ww2_common/gamedata/weapons/grenades/type_91_incendiary_grenade.blk"
+                "shells": "content/enlisted/gamedata/weapons/grenades/uk_no_77_incendiary_grenade.blk"
             },
             {
-                "shells": "content/e_ww2_common/gamedata/weapons/grenades/uk_no_77_incendiary_grenade.blk"
+                "shells": "content/enlisted/gamedata/weapons/grenades/srcm_mod_35_incendiary_grenade.blk"
             },
             {
-                "shells": "content/e_ww2_common/gamedata/weapons/grenades/srcm_mod_35_incendiary_grenade.blk"
+                "shells": "content/enlisted/gamedata/weapons/grenades/type_97_grenade.blk"
             },
             {
-                "shells": "content/e_ww2_common/gamedata/weapons/grenades/type_97_grenade.blk"
-            },
-            {
-                "shells": "content/e_ww2_common/gamedata/weapons/grenades/type_94_smoke_grenade.blk"
+                "shells": "content/enlisted/gamedata/weapons/grenades/type_94_smoke_grenade.blk"
             }
         ],
         "firingModes": null,
@@ -124,7 +121,7 @@
         ],
         "magazineSize": 6,
         "bullets": {
-            "shells": "content/e_ww2_common/gamedata/weapons/bullets/44_ball_revo.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/44_ball_revo.blk"
         },
         "firingModes": {
             "mode": "bolt_action"
@@ -169,7 +166,7 @@
         ],
         "magazineSize": 30,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.62x39.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/7.62x39.blk"
         },
         "firingModes": [
             {
@@ -221,7 +218,7 @@
         },
         "magazineSize": 30,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.62x39.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/7.62x39.blk"
         },
         "firingModes": [
             {
@@ -278,7 +275,7 @@
         ],
         "magazineSize": 30,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/5.56x45_nato.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/5.56x45_nato.blk"
         },
         "firingModes": [
             {
@@ -328,7 +325,7 @@
         ],
         "magazineSize": 30,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/5.56x45_nato.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/5.56x45_nato.blk"
         },
         "firingModes": [
             {
@@ -378,7 +375,7 @@
         ],
         "magazineSize": 30,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/5.56x45_nato.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/5.56x45_nato.blk"
         },
         "firingModes": [
             {
@@ -428,7 +425,7 @@
         ],
         "magazineSize": 8,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/12gauge_shell.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/12gauge_shell.blk"
         },
         "firingModes": {
             "mode": "bolt_action"
@@ -473,7 +470,7 @@
         ],
         "magazineSize": 30,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/9x19_parabellum_smg.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/9x19_parabellum_smg.blk"
         },
         "firingModes": [
             {
@@ -523,7 +520,7 @@
         ],
         "magazineSize": 25,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/11.51x23_browning_smg.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/11.51x23_browning_smg.blk"
         },
         "firingModes": [
             {
@@ -571,7 +568,7 @@
         },
         "magazineSize": 10,
         "bullets": {
-            "shells": "content/e_ww2_common/gamedata/weapons/bullets/50_bmg.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/50_bmg.blk"
         },
         "firingModes": {
             "mode": "semi_auto"
@@ -604,7 +601,7 @@
         "dispersion": 0.92,
         "stat": "pistol",
         "type": "pistol",
-        "weight": 1.0,
+        "weight": 0.95,
         "locName": "TT",
         "magazineName": [
             {
@@ -616,7 +613,7 @@
         ],
         "magazineSize": 8,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.62x25_tokarev_pistol.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/7.62x25_tokarev_pistol.blk"
         },
         "firingModes": {
             "mode": "semi_auto"
@@ -649,14 +646,14 @@
         "dispersion": 1.1,
         "stat": "pistol",
         "type": "pistol",
-        "weight": 1.0,
+        "weight": 0.49,
         "locName": "TK 1926",
         "magazineName": {
             "ammoHolders": "tk_magazine"
         },
         "magazineSize": 8,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/6.35x15_browning_pistol.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/6.35x15_browning_pistol.blk"
         },
         "firingModes": {
             "mode": "semi_auto"
@@ -689,14 +686,14 @@
         "dispersion": 1.1,
         "stat": "pistol",
         "type": "pistol",
-        "weight": 1.0,
+        "weight": 0.49,
         "locName": "TK 1926 Chrome",
         "magazineName": {
             "ammoHolders": "tk_magazine"
         },
         "magazineSize": 8,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/6.35x15_browning_pistol.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/6.35x15_browning_pistol.blk"
         },
         "firingModes": {
             "mode": "semi_auto"
@@ -736,7 +733,7 @@
         },
         "magazineSize": 6,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/9x17_380_acp_pistol.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/9x17_380_acp_pistol.blk"
         },
         "firingModes": {
             "mode": "semi_auto"
@@ -776,7 +773,7 @@
         },
         "magazineSize": 6,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/9x17_380_acp_pistol.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/9x17_380_acp_pistol.blk"
         },
         "firingModes": {
             "mode": "semi_auto"
@@ -809,7 +806,7 @@
         "dispersion": 0.7,
         "stat": "pistol",
         "type": "pistol",
-        "weight": 1.0,
+        "weight": 0.88,
         "locName": "Nagant 1895",
         "magazineName": [
             {
@@ -821,7 +818,7 @@
         ],
         "magazineSize": 7,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.62x38_nagant_pistol.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/7.62x38_nagant_pistol.blk"
         },
         "firingModes": {
             "mode": "bolt_action"
@@ -829,7 +826,7 @@
         "singleReloadPrep": 1.2,
         "singleReloadLoop": 0.8,
         "singleReloadPost": 1.2,
-        "reload": 3.9,
+        "reload": 7.2,
         "altReload": null,
         "dualMagReload": null,
         "proneRecoilMult": null,
@@ -866,7 +863,7 @@
         ],
         "magazineSize": 7,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.62x38_nagant_pistol.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/7.62x38_nagant_pistol.blk"
         },
         "firingModes": {
             "mode": "bolt_action"
@@ -874,7 +871,7 @@
         "singleReloadPrep": 1.2,
         "singleReloadLoop": 0.8,
         "singleReloadPost": 1.2,
-        "reload": 3.9,
+        "reload": 7.2,
         "altReload": null,
         "dualMagReload": null,
         "proneRecoilMult": null,
@@ -911,7 +908,7 @@
         ],
         "magazineSize": 5,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.62x54_r.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/7.62x54_r.blk"
         },
         "firingModes": {
             "mode": "bolt_action"
@@ -944,7 +941,7 @@
         "dispersion": 0.16,
         "stat": "rifle",
         "type": "rifle",
-        "weight": 5.0,
+        "weight": 3.4,
         "locName": "Mosina",
         "magazineName": [
             {
@@ -956,7 +953,7 @@
         ],
         "magazineSize": 5,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.62x54_r_carbine_short.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/7.62x54_r_carbine_short.blk"
         },
         "firingModes": {
             "mode": "bolt_action"
@@ -1005,7 +1002,7 @@
         ],
         "magazineSize": 5,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.62x54_r_carbine_short.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/7.62x54_r_carbine_short.blk"
         },
         "firingModes": {
             "mode": "bolt_action"
@@ -1057,7 +1054,7 @@
         ],
         "magazineSize": 5,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.62x54_r.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/7.62x54_r.blk"
         },
         "firingModes": {
             "mode": "bolt_action"
@@ -1109,7 +1106,7 @@
         ],
         "magazineSize": 5,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.62x54_r.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/7.62x54_r.blk"
         },
         "firingModes": {
             "mode": "bolt_action"
@@ -1158,7 +1155,7 @@
         ],
         "magazineSize": 5,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.62x54_r_ap.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/7.62x54_r_ap.blk"
         },
         "firingModes": {
             "mode": "bolt_action"
@@ -1211,7 +1208,7 @@
         ],
         "magazineSize": 5,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.62x54_r_subsonic.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/7.62x54_r_subsonic.blk"
         },
         "firingModes": {
             "mode": "bolt_action"
@@ -1252,7 +1249,7 @@
         "dispersion": 0.13,
         "stat": "rifle",
         "type": "rifle",
-        "weight": 5.0,
+        "weight": 4.0,
         "locName": "Mosina",
         "magazineName": [
             {
@@ -1264,7 +1261,7 @@
         ],
         "magazineSize": 5,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.62x54_r.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/7.62x54_r.blk"
         },
         "firingModes": {
             "mode": "bolt_action"
@@ -1301,7 +1298,7 @@
         "dispersion": 0.17,
         "stat": "rifle",
         "type": "rifle",
-        "weight": 5.0,
+        "weight": 3.28,
         "locName": "Mosin~s carbine 1907",
         "magazineName": [
             {
@@ -1313,7 +1310,7 @@
         ],
         "magazineSize": 5,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.62x54_r_carbine_short.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/7.62x54_r_carbine_short.blk"
         },
         "firingModes": {
             "mode": "bolt_action"
@@ -1353,7 +1350,7 @@
         "dispersion": 0.15,
         "stat": "rifle",
         "type": "rifle",
-        "weight": 5.0,
+        "weight": 3.8,
         "locName": "Mosin~s Dragoon rifle 1891",
         "magazineName": [
             {
@@ -1365,7 +1362,7 @@
         ],
         "magazineSize": 5,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.62x54_r.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/7.62x54_r.blk"
         },
         "firingModes": {
             "mode": "bolt_action"
@@ -1414,7 +1411,7 @@
         ],
         "magazineSize": 5,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.62x54_r_rifle_long.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/7.62x54_r_rifle_long.blk"
         },
         "firingModes": {
             "mode": "bolt_action"
@@ -1458,7 +1455,7 @@
         },
         "magazineSize": 1,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/10.75x58_r.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/10.75x58_r.blk"
         },
         "firingModes": {
             "mode": "bolt_action"
@@ -1503,7 +1500,7 @@
         ],
         "magazineSize": 5,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.62x54_r.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/7.62x54_r.blk"
         },
         "firingModes": {
             "mode": "bolt_action"
@@ -1540,7 +1537,7 @@
         "dispersion": 0.13,
         "stat": "rifle",
         "type": "rifle",
-        "weight": 5.0,
+        "weight": 4.0,
         "locName": "Mosina",
         "magazineName": [
             {
@@ -1552,7 +1549,7 @@
         ],
         "magazineSize": 5,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.62x54_r.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/7.62x54_r.blk"
         },
         "firingModes": {
             "mode": "bolt_action"
@@ -1589,7 +1586,7 @@
         "dispersion": 0.28,
         "stat": "semiauto",
         "type": "semiauto",
-        "weight": 5.0,
+        "weight": 4.3,
         "locName": "AVS 36",
         "magazineName": [
             {
@@ -1601,7 +1598,7 @@
         ],
         "magazineSize": 15,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.62x54_r_semiauto.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/7.62x54_r_semiauto.blk"
         },
         "firingModes": [
             {
@@ -1643,7 +1640,7 @@
         "dispersion": 0.05,
         "stat": "semiauto",
         "type": "semiauto",
-        "weight": 5.0,
+        "weight": 4.3,
         "locName": "Sniper AVS-36",
         "magazineName": [
             {
@@ -1655,7 +1652,7 @@
         ],
         "magazineSize": 15,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.62x54_r_semiauto.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/7.62x54_r_semiauto.blk"
         },
         "firingModes": [
             {
@@ -1700,7 +1697,7 @@
         "dispersion": 0.28,
         "stat": "semiauto",
         "type": "semiauto",
-        "weight": 5.0,
+        "weight": 3.95,
         "locName": "SVT-38",
         "magazineName": [
             {
@@ -1712,7 +1709,7 @@
         ],
         "magazineSize": 10,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.62x54_r_semiauto.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/7.62x54_r_semiauto.blk"
         },
         "firingModes": {
             "mode": "semi_auto"
@@ -1749,7 +1746,7 @@
         "dispersion": 0.26,
         "stat": "semiauto",
         "type": "semiauto",
-        "weight": 5.0,
+        "weight": 3.85,
         "locName": "SVT 40",
         "magazineName": [
             {
@@ -1761,7 +1758,7 @@
         ],
         "magazineSize": 10,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.62x54_r_semiauto.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/7.62x54_r_semiauto.blk"
         },
         "firingModes": {
             "mode": "semi_auto"
@@ -1810,7 +1807,7 @@
         ],
         "magazineSize": 10,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.62x54_r_semiauto_short.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/7.62x54_r_semiauto_short.blk"
         },
         "firingModes": [
             {
@@ -1864,7 +1861,7 @@
         ],
         "magazineSize": 10,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.62x54_r_semiauto_short.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/7.62x54_r_semiauto_short.blk"
         },
         "firingModes": {
             "mode": "semi_auto"
@@ -1901,7 +1898,7 @@
         "dispersion": 0.05,
         "stat": "semiauto",
         "type": "semiauto",
-        "weight": 5.0,
+        "weight": 3.95,
         "locName": "Sniper SVT-38",
         "magazineName": [
             {
@@ -1913,7 +1910,7 @@
         ],
         "magazineSize": 10,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.62x54_r_semiauto.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/7.62x54_r_semiauto.blk"
         },
         "firingModes": {
             "mode": "semi_auto"
@@ -1953,7 +1950,7 @@
         "dispersion": 0.05,
         "stat": "semiauto",
         "type": "semiauto",
-        "weight": 5.0,
+        "weight": 3.85,
         "locName": "Sniper SVT-40",
         "magazineName": [
             {
@@ -1965,7 +1962,7 @@
         ],
         "magazineSize": 10,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.62x54_r_semiauto.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/7.62x54_r_semiauto.blk"
         },
         "firingModes": {
             "mode": "semi_auto"
@@ -2017,7 +2014,7 @@
         ],
         "magazineSize": 15,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.62x54_r_semiauto.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/7.62x54_r_semiauto.blk"
         },
         "firingModes": [
             {
@@ -2066,7 +2063,7 @@
         },
         "magazineSize": 5,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.62x54_r_semiauto_short.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/7.62x54_r_semiauto_short.blk"
         },
         "firingModes": {
             "mode": "semi_auto"
@@ -2106,7 +2103,7 @@
         },
         "magazineSize": 25,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/6.5x50_arisaka_semiauto.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/6.5x50_arisaka_semiauto.blk"
         },
         "firingModes": [
             {
@@ -2151,7 +2148,7 @@
         },
         "magazineSize": 30,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.62x39.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/7.62x39.blk"
         },
         "firingModes": [
             {
@@ -2196,7 +2193,7 @@
         },
         "magazineSize": 2,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/12gauge_shell.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/12gauge_shell.blk"
         },
         "firingModes": {
             "mode": "bolt_action"
@@ -2241,7 +2238,7 @@
         ],
         "magazineSize": 21,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.62x38_nagant_carbine.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/7.62x38_nagant_carbine.blk"
         },
         "firingModes": [
             {
@@ -2286,7 +2283,7 @@
         },
         "magazineSize": 44,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.62x25_tokarev_smg.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/7.62x25_tokarev_smg.blk"
         },
         "firingModes": [
             {
@@ -2331,7 +2328,7 @@
         },
         "magazineSize": 25,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.62x25_tokarev_smg.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/7.62x25_tokarev_smg.blk"
         },
         "firingModes": {
             "mode": "semi_auto"
@@ -2364,7 +2361,7 @@
         "dispersion": 0.82,
         "stat": "submachine_gun",
         "type": "submachine_gun",
-        "weight": 4.0,
+        "weight": 4.9,
         "locName": "PPD 34/38",
         "magazineName": [
             {
@@ -2376,7 +2373,7 @@
         ],
         "magazineSize": 71,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.62x25_tokarev_smg.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/7.62x25_tokarev_smg.blk"
         },
         "firingModes": [
             {
@@ -2414,14 +2411,14 @@
         "dispersion": 0.84,
         "stat": "submachine_gun",
         "type": "submachine_gun",
-        "weight": 4.0,
+        "weight": 3.75,
         "locName": "PPD-34/38 with box magazine",
         "magazineName": {
             "ammoHolders": "ppd_3438_box_magazine"
         },
         "magazineSize": 25,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.62x25_tokarev_smg.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/7.62x25_tokarev_smg.blk"
         },
         "firingModes": [
             {
@@ -2459,14 +2456,14 @@
         "dispersion": 0.84,
         "stat": "submachine_gun",
         "type": "submachine_gun",
-        "weight": 4.0,
+        "weight": 3.75,
         "locName": "PPD-34/38 with box magazine",
         "magazineName": {
             "ammoHolders": "ppd_3438_box_magazine"
         },
         "magazineSize": 25,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.62x25_tokarev_smg.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/7.62x25_tokarev_smg.blk"
         },
         "firingModes": [
             {
@@ -2504,14 +2501,14 @@
         "dispersion": 0.8,
         "stat": "submachine_gun",
         "type": "submachine_gun",
-        "weight": 4.0,
+        "weight": 4.9,
         "locName": "PPD 40",
         "magazineName": {
             "ammoHolders": "ppsh_drum"
         },
         "magazineSize": 71,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.62x25_tokarev_smg.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/7.62x25_tokarev_smg.blk"
         },
         "firingModes": [
             {
@@ -2549,14 +2546,14 @@
         "dispersion": 0.8,
         "stat": "submachine_gun",
         "type": "submachine_gun",
-        "weight": 4.0,
+        "weight": 5.0,
         "locName": "PPD 40 DSZ",
         "magazineName": {
             "ammoHolders": "ppsh_drum"
         },
         "magazineSize": 71,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.62x25_tokarev_smg.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/7.62x25_tokarev_smg.blk"
         },
         "firingModes": {
             "mode": "full_auto"
@@ -2593,14 +2590,14 @@
         "dispersion": 0.8,
         "stat": "submachine_gun",
         "type": "submachine_gun",
-        "weight": 4.0,
+        "weight": 4.9,
         "locName": "PPD 40",
         "magazineName": {
             "ammoHolders": "ppsh_drum"
         },
         "magazineSize": 71,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.62x25_tokarev_smg.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/7.62x25_tokarev_smg.blk"
         },
         "firingModes": [
             {
@@ -2638,14 +2635,14 @@
         "dispersion": 0.72,
         "stat": "submachine_gun",
         "type": "submachine_gun",
-        "weight": 7.2,
+        "weight": 5.3,
         "locName": "PPSh 40",
         "magazineName": {
             "ammoHolders": "ppsh_40_drum"
         },
         "magazineSize": 97,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.62x25_tokarev_smg.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/7.62x25_tokarev_smg.blk"
         },
         "firingModes": [
             {
@@ -2690,7 +2687,7 @@
         },
         "magazineSize": 71,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.62x25_tokarev_smg.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/7.62x25_tokarev_smg.blk"
         },
         "firingModes": [
             {
@@ -2740,7 +2737,7 @@
         ],
         "magazineSize": 35,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.62x25_tokarev_smg.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/7.62x25_tokarev_smg.blk"
         },
         "firingModes": {
             "mode": "full_auto"
@@ -2785,7 +2782,7 @@
         ],
         "magazineSize": 35,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.62x25_tokarev_smg.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/7.62x25_tokarev_smg.blk"
         },
         "firingModes": {
             "mode": "full_auto"
@@ -2825,7 +2822,7 @@
         },
         "magazineSize": 35,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.62x25_tokarev_smg.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/7.62x25_tokarev_smg.blk"
         },
         "firingModes": {
             "mode": "full_auto"
@@ -2870,7 +2867,7 @@
         ],
         "magazineSize": 71,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.62x25_tokarev_smg.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/7.62x25_tokarev_smg.blk"
         },
         "firingModes": [
             {
@@ -2915,7 +2912,7 @@
         },
         "magazineSize": 35,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.62x25_tokarev_smg.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/7.62x25_tokarev_smg.blk"
         },
         "firingModes": [
             {
@@ -2960,7 +2957,7 @@
         },
         "magazineSize": 35,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.62x25_tokarev_smg.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/7.62x25_tokarev_smg.blk"
         },
         "firingModes": {
             "mode": "full_auto"
@@ -3000,7 +2997,7 @@
         },
         "magazineSize": 25,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.62x25_tokarev_smg.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/7.62x25_tokarev_smg.blk"
         },
         "firingModes": [
             {
@@ -3050,7 +3047,7 @@
         ],
         "magazineSize": 150,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.62x25_tokarev_smg.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/7.62x25_tokarev_smg.blk"
         },
         "firingModes": {
             "mode": "full_auto"
@@ -3090,7 +3087,7 @@
         },
         "magazineSize": 30,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.62x25_tokarev_smg.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/7.62x25_tokarev_smg.blk"
         },
         "firingModes": {
             "mode": "full_auto"
@@ -3120,7 +3117,7 @@
     {
         "name": "chauchat",
         "rps": 4.5,
-        "dispersion": 0.62,
+        "dispersion": 0.4,
         "stat": "machine_gun",
         "type": "machine_gun",
         "weight": 10.0,
@@ -3130,7 +3127,7 @@
         },
         "magazineSize": 20,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/8x50_r_tracer.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/8x50_r_tracer.blk"
         },
         "firingModes": {
             "mode": "full_auto"
@@ -3160,7 +3157,7 @@
     {
         "name": "madsen",
         "rps": 7.5,
-        "dispersion": 0.55,
+        "dispersion": 0.39,
         "stat": "machine_gun",
         "type": "machine_gun",
         "weight": 11.0,
@@ -3175,7 +3172,7 @@
         ],
         "magazineSize": 25,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.62x54_r_tracer.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/7.62x54_r_tracer.blk"
         },
         "firingModes": {
             "mode": "full_auto"
@@ -3205,10 +3202,10 @@
     {
         "name": "dp_27",
         "rps": 9.2,
-        "dispersion": 0.58,
+        "dispersion": 0.45,
         "stat": "machine_gun",
         "type": "machine_gun",
-        "weight": 10.0,
+        "weight": 11.8,
         "locName": "DP-27",
         "magazineName": [
             {
@@ -3220,7 +3217,7 @@
         ],
         "magazineSize": 47,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.62x54_r_tracer.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/7.62x54_r_tracer.blk"
         },
         "firingModes": {
             "mode": "full_auto"
@@ -3250,7 +3247,7 @@
     {
         "name": "dp_42_beltfed",
         "rps": 9.2,
-        "dispersion": 0.58,
+        "dispersion": 0.45,
         "stat": "machine_gun",
         "type": "machine_gun",
         "weight": 9.0,
@@ -3260,7 +3257,7 @@
         },
         "magazineSize": 100,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.62x54_r_tracer.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/7.62x54_r_tracer.blk"
         },
         "firingModes": {
             "mode": "full_auto"
@@ -3290,7 +3287,7 @@
     {
         "name": "dpm",
         "rps": 9.2,
-        "dispersion": 0.55,
+        "dispersion": 0.44,
         "stat": "machine_gun",
         "type": "machine_gun",
         "weight": 10.0,
@@ -3305,7 +3302,7 @@
         ],
         "magazineSize": 47,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.62x54_r_tracer.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/7.62x54_r_tracer.blk"
         },
         "firingModes": {
             "mode": "full_auto"
@@ -3335,7 +3332,7 @@
     {
         "name": "dt_29",
         "rps": 9.2,
-        "dispersion": 0.56,
+        "dispersion": 0.44,
         "stat": "machine_gun",
         "type": "machine_gun",
         "weight": 10.0,
@@ -3350,7 +3347,7 @@
         ],
         "magazineSize": 63,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.62x54_r_tracer.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/7.62x54_r_tracer.blk"
         },
         "firingModes": {
             "mode": "full_auto"
@@ -3380,7 +3377,7 @@
     {
         "name": "rd_44",
         "rps": 12.5,
-        "dispersion": 0.65,
+        "dispersion": 0.47,
         "stat": "machine_gun",
         "type": "machine_gun",
         "weight": 7.4,
@@ -3395,7 +3392,7 @@
         ],
         "magazineSize": 100,
         "bullets": {
-            "shells": "content/e_ww2_common/gamedata/weapons/bullets/7.62x39_r.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/7.62x39_r.blk"
         },
         "firingModes": {
             "mode": "full_auto"
@@ -3435,7 +3432,7 @@
         },
         "magazineSize": 5,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/14.5x114_bs41.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/14.5x114_bs41.blk"
         },
         "firingModes": {
             "mode": "semi_auto"
@@ -3475,7 +3472,7 @@
         },
         "magazineSize": 1,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/14.5x114_bs41.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/14.5x114_bs41.blk"
         },
         "firingModes": {
             "mode": "bolt_action"
@@ -3504,18 +3501,18 @@
     },
     {
         "name": "ptr_sholokhov",
-        "rps": 16.8,
+        "rps": 0.333,
         "dispersion": 0.05,
         "stat": "launcher",
         "type": "launcher",
         "weight": 17.3,
         "locName": "PTR Sholohov",
         "magazineName": {
-            "ammoHolders": "ptrd_41_magazine"
+            "ammoHolders": "ptr_sholokhov_magazine"
         },
         "magazineSize": 1,
         "bullets": {
-            "shells": "content/e_ww2_common/gamedata/weapons/bullets/12.7x108_bs41.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/12.7x108_bs41.blk"
         },
         "firingModes": {
             "mode": "bolt_action"
@@ -3523,7 +3520,7 @@
         "singleReloadPrep": null,
         "singleReloadLoop": null,
         "singleReloadPost": null,
-        "reload": 4.0,
+        "reload": 3.0,
         "altReload": null,
         "dualMagReload": null,
         "proneRecoilMult": null,
@@ -3561,10 +3558,10 @@
         "magazineSize": null,
         "bullets": [
             {
-                "shells": "content/enlisted/gamedata/weapons_enlisted/shells/mine_o822_mp.blk"
+                "shells": "content/enlisted/gamedata/weapons/shells/mine_o822_mp.blk"
             },
             {
-                "shells": "content/enlisted/gamedata/weapons_enlisted/shells/mine_o822_mp_smoke.blk"
+                "shells": "content/enlisted/gamedata/weapons/shells/mine_o822_mp_smoke.blk"
             }
         ],
         "firingModes": {
@@ -3611,10 +3608,10 @@
         "magazineSize": null,
         "bullets": [
             {
-                "shells": "content/enlisted/gamedata/weapons_enlisted/shells/mine_o822_mp.blk"
+                "shells": "content/enlisted/gamedata/weapons/shells/mine_o822_mp.blk"
             },
             {
-                "shells": "content/enlisted/gamedata/weapons_enlisted/shells/mine_o822_mp_smoke.blk"
+                "shells": "content/enlisted/gamedata/weapons/shells/mine_o822_mp_smoke.blk"
             }
         ],
         "firingModes": {
@@ -3661,10 +3658,10 @@
         "magazineSize": null,
         "bullets": [
             {
-                "shells": "content/enlisted/gamedata/weapons_enlisted/shells/mine_o832.blk"
+                "shells": "content/enlisted/gamedata/weapons/shells/mine_o832.blk"
             },
             {
-                "shells": "content/enlisted/gamedata/weapons_enlisted/shells/mine_o832_smoke.blk"
+                "shells": "content/enlisted/gamedata/weapons/shells/mine_o832_smoke.blk"
             }
         ],
         "firingModes": {
@@ -3705,7 +3702,7 @@
         },
         "magazineSize": null,
         "bullets": {
-            "shells": "content/e_ww2_common/gamedata/weapons/shells/neiman_mine.blk"
+            "shells": "content/enlisted/gamedata/weapons/shells/neiman_mine.blk"
         },
         "firingModes": {
             "mode": "bolt_action"
@@ -3759,7 +3756,7 @@
         ],
         "magazineSize": 200,
         "bullets": {
-            "shells": "content/e_ww2_common/gamedata/weapons/bullets/flamethrower_dummy.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/flamethrower_dummy.blk"
         },
         "firingModes": {
             "mode": "full_auto"
@@ -3813,7 +3810,7 @@
         ],
         "magazineSize": 200,
         "bullets": {
-            "shells": "content/e_ww2_common/gamedata/weapons/bullets/flamethrower_dummy.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/flamethrower_dummy.blk"
         },
         "firingModes": {
             "mode": "full_auto"
@@ -3858,7 +3855,7 @@
         ],
         "magazineSize": 8,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/11.51x23_browning_pistol.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/11.51x23_browning_pistol.blk"
         },
         "firingModes": {
             "mode": "semi_auto"
@@ -3903,7 +3900,7 @@
         ],
         "magazineSize": 8,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/11.51x23_browning_pistol.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/11.51x23_browning_pistol.blk"
         },
         "firingModes": {
             "mode": "semi_auto"
@@ -3943,7 +3940,7 @@
         },
         "magazineSize": 8,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.65x17_browning_pistol.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/7.65x17_browning_pistol.blk"
         },
         "firingModes": {
             "mode": "bolt_action"
@@ -3983,7 +3980,7 @@
         },
         "magazineSize": 13,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/9x19_parabellum_pistol.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/9x19_parabellum_pistol.blk"
         },
         "firingModes": {
             "mode": "semi_auto"
@@ -4023,7 +4020,7 @@
         },
         "magazineSize": 13,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/9x19_parabellum_pistol.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/9x19_parabellum_pistol.blk"
         },
         "firingModes": {
             "mode": "semi_auto"
@@ -4063,7 +4060,7 @@
         },
         "magazineSize": 13,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/9x19_parabellum_pistol.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/9x19_parabellum_pistol.blk"
         },
         "firingModes": {
             "mode": "semi_auto"
@@ -4103,7 +4100,7 @@
         },
         "magazineSize": 13,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/9x19_parabellum_pistol.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/9x19_parabellum_pistol.blk"
         },
         "firingModes": {
             "mode": "semi_auto"
@@ -4148,7 +4145,7 @@
         ],
         "magazineSize": 6,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/11.51x23_browning_pistol.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/11.51x23_browning_pistol.blk"
         },
         "firingModes": {
             "mode": "semi_auto"
@@ -4156,7 +4153,7 @@
         "singleReloadPrep": 1.7,
         "singleReloadLoop": 1.1,
         "singleReloadPost": 0.9,
-        "reload": 3.0,
+        "reload": 5.2,
         "altReload": null,
         "dualMagReload": null,
         "proneRecoilMult": null,
@@ -4188,14 +4185,14 @@
         },
         "magazineSize": 6,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/11.51x23_browning_pistol.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/11.51x23_browning_pistol.blk"
         },
         "firingModes": {
             "mode": "semi_auto"
         },
-        "singleReloadPrep": 1.2,
-        "singleReloadLoop": 1.1,
-        "singleReloadPost": 0.7,
+        "singleReloadPrep": null,
+        "singleReloadLoop": null,
+        "singleReloadPost": null,
         "reload": 3.0,
         "altReload": 2.0,
         "dualMagReload": null,
@@ -4228,14 +4225,14 @@
         },
         "magazineSize": 6,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/11.51x23_browning_pistol.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/11.51x23_browning_pistol.blk"
         },
         "firingModes": {
             "mode": "semi_auto"
         },
-        "singleReloadPrep": 1.2,
-        "singleReloadLoop": 1.1,
-        "singleReloadPost": 0.7,
+        "singleReloadPrep": null,
+        "singleReloadLoop": null,
+        "singleReloadPost": null,
         "reload": 3.0,
         "altReload": 2.0,
         "dualMagReload": null,
@@ -4273,7 +4270,7 @@
         ],
         "magazineSize": 5,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/30_06_springfield.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/30_06_springfield.blk"
         },
         "firingModes": {
             "mode": "bolt_action"
@@ -4324,7 +4321,7 @@
         ],
         "magazineSize": 5,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/30_06_springfield.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/30_06_springfield.blk"
         },
         "firingModes": {
             "mode": "bolt_action"
@@ -4373,7 +4370,7 @@
         ],
         "magazineSize": 5,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/30_06_springfield.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/30_06_springfield.blk"
         },
         "firingModes": {
             "mode": "bolt_action"
@@ -4419,7 +4416,7 @@
         },
         "magazineSize": 25,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/30_06_springfield.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/30_06_springfield.blk"
         },
         "firingModes": {
             "mode": "bolt_action"
@@ -4459,7 +4456,7 @@
         },
         "magazineSize": 5,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/30_06_springfield_ap.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/30_06_springfield_ap.blk"
         },
         "firingModes": {
             "mode": "bolt_action"
@@ -4500,13 +4497,13 @@
         "stat": "sniper",
         "type": "rifle",
         "weight": 5.0,
-        "locName": "m1903a1 Springfield",
+        "locName": "m1903a3 Springfield",
         "magazineName": {
             "ammoHolders": "m1903_springfield_magazine"
         },
         "magazineSize": 5,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/30_06_springfield_ap.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/30_06_springfield_ap.blk"
         },
         "firingModes": {
             "mode": "bolt_action"
@@ -4553,7 +4550,7 @@
         },
         "magazineSize": 5,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/30_06_springfield_ap.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/30_06_springfield_ap.blk"
         },
         "firingModes": {
             "mode": "bolt_action"
@@ -4593,7 +4590,7 @@
         },
         "magazineSize": 10,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/303_british_mk7.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/303_british_mk7.blk"
         },
         "firingModes": {
             "mode": "bolt_action"
@@ -4637,7 +4634,7 @@
         },
         "magazineSize": 10,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/303_british_mk7_ap.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/303_british_mk7_ap.blk"
         },
         "firingModes": {
             "mode": "bolt_action"
@@ -4677,7 +4674,7 @@
         },
         "magazineSize": 5,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/303_british_mk7.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/303_british_mk7.blk"
         },
         "firingModes": {
             "mode": "bolt_action"
@@ -4723,7 +4720,7 @@
         },
         "magazineSize": 6,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/30_06_springfield.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/30_06_springfield.blk"
         },
         "firingModes": {
             "mode": "bolt_action"
@@ -4775,7 +4772,7 @@
         ],
         "magazineSize": 5,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/303_british_mk7.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/303_british_mk7.blk"
         },
         "firingModes": {
             "mode": "bolt_action"
@@ -4822,7 +4819,7 @@
         },
         "magazineSize": 40,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.65x20_longue_smg.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/7.65x20_longue_smg.blk"
         },
         "firingModes": {
             "mode": "semi_auto"
@@ -4867,7 +4864,7 @@
         ],
         "magazineSize": 8,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/30_06_springfield_semiauto.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/30_06_springfield_semiauto.blk"
         },
         "firingModes": {
             "mode": "semi_auto"
@@ -4918,7 +4915,7 @@
         ],
         "magazineSize": 8,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/30_06_springfield_semiauto.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/30_06_springfield_semiauto.blk"
         },
         "firingModes": {
             "mode": "semi_auto"
@@ -4971,7 +4968,7 @@
         ],
         "magazineSize": 8,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/30_06_springfield_semiauto.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/30_06_springfield_semiauto.blk"
         },
         "firingModes": {
             "mode": "semi_auto"
@@ -5021,7 +5018,7 @@
         ],
         "magazineSize": 8,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/30_06_springfield_semiauto_carbine.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/30_06_springfield_semiauto_carbine.blk"
         },
         "firingModes": {
             "mode": "semi_auto"
@@ -5067,7 +5064,7 @@
         },
         "magazineSize": 10,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/276_pedersen_semiauto.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/276_pedersen_semiauto.blk"
         },
         "firingModes": {
             "mode": "semi_auto"
@@ -5097,7 +5094,7 @@
     {
         "name": "m1_carbine",
         "rps": 5.333,
-        "dispersion": 0.55,
+        "dispersion": 0.28,
         "stat": "assault_rifle",
         "type": "semiauto",
         "weight": 2.9,
@@ -5112,7 +5109,7 @@
         ],
         "magazineSize": 15,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/30_carbine.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/30_carbine.blk"
         },
         "firingModes": {
             "mode": "semi_auto"
@@ -5142,7 +5139,7 @@
     {
         "name": "m1a1_carbine",
         "rps": 5.333,
-        "dispersion": 0.55,
+        "dispersion": 0.28,
         "stat": "semiauto",
         "type": "semiauto",
         "weight": 2.7,
@@ -5157,7 +5154,7 @@
         ],
         "magazineSize": 15,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/30_carbine.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/30_carbine.blk"
         },
         "firingModes": {
             "mode": "semi_auto"
@@ -5191,7 +5188,7 @@
     {
         "name": "m1a2_carbine",
         "rps": 5.333,
-        "dispersion": 0.55,
+        "dispersion": 0.28,
         "stat": "assault_rifle",
         "type": "semiauto",
         "weight": 2.8,
@@ -5201,7 +5198,7 @@
         },
         "magazineSize": 15,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/30_carbine.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/30_carbine.blk"
         },
         "firingModes": {
             "mode": "semi_auto"
@@ -5238,7 +5235,7 @@
     {
         "name": "m2_carbine",
         "rps": 12.5,
-        "dispersion": 0.55,
+        "dispersion": 0.28,
         "stat": "assault_rifle",
         "type": "semiauto",
         "weight": 2.9,
@@ -5248,7 +5245,7 @@
         },
         "magazineSize": 30,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/30_carbine.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/30_carbine.blk"
         },
         "firingModes": [
             {
@@ -5287,7 +5284,7 @@
     {
         "name": "m2a1_carbine",
         "rps": 12.5,
-        "dispersion": 0.55,
+        "dispersion": 0.28,
         "stat": "semiauto",
         "type": "semiauto",
         "weight": 2.7,
@@ -5297,7 +5294,7 @@
         },
         "magazineSize": 30,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/30_carbine.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/30_carbine.blk"
         },
         "firingModes": [
             {
@@ -5317,7 +5314,7 @@
         "zeroDist": 0.05,
         "reloadSingle": false,
         "recoilAmount": 0.07,
-        "recoilDir": 0.0,
+        "recoilDir": 0.25,
         "recoilDirAmount": 0.72,
         "visualRecoilMult": 0.25,
         "recoilControlMult": 0.45,
@@ -5336,7 +5333,7 @@
     {
         "name": "m1_carbine_grenade_launcher",
         "rps": 5.333,
-        "dispersion": 0.55,
+        "dispersion": 0.28,
         "stat": "assault_rifle",
         "type": "semiauto",
         "weight": 5.0,
@@ -5346,7 +5343,7 @@
         },
         "magazineSize": 15,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/30_carbine.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/30_carbine.blk"
         },
         "firingModes": {
             "mode": "semi_auto"
@@ -5390,7 +5387,7 @@
         },
         "magazineSize": 7,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/11.51x23_browning_smg.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/11.51x23_browning_smg.blk"
         },
         "firingModes": {
             "mode": "bolt_action"
@@ -5430,7 +5427,7 @@
         },
         "magazineSize": 8,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/30_06_springfield_semiauto.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/30_06_springfield_semiauto.blk"
         },
         "firingModes": {
             "mode": "semi_auto"
@@ -5445,7 +5442,7 @@
         "zeroDist": 0.05,
         "reloadSingle": false,
         "recoilAmount": 0.138,
-        "recoilDir": 0.0,
+        "recoilDir": 0.35,
         "recoilDirAmount": 0.76,
         "visualRecoilMult": 0.7,
         "recoilControlMult": null,
@@ -5474,14 +5471,14 @@
         },
         "magazineSize": 10,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/30_06_springfield_semiauto.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/30_06_springfield_semiauto.blk"
         },
         "firingModes": {
             "mode": "semi_auto"
         },
-        "singleReloadPrep": null,
-        "singleReloadLoop": null,
-        "singleReloadPost": null,
+        "singleReloadPrep": 1.0,
+        "singleReloadLoop": 1.6,
+        "singleReloadPost": 1.2,
         "reload": 4.3,
         "altReload": null,
         "dualMagReload": null,
@@ -5526,7 +5523,7 @@
         ],
         "magazineSize": 5,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/12gauge_shell.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/12gauge_shell.blk"
         },
         "firingModes": {
             "mode": "semi_auto"
@@ -5571,7 +5568,7 @@
         ],
         "magazineSize": 7,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/12gauge_shell.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/12gauge_shell.blk"
         },
         "firingModes": {
             "mode": "bolt_action"
@@ -5616,12 +5613,12 @@
         ],
         "magazineSize": 6,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/12gauge_shell.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/12gauge_shell.blk"
         },
         "firingModes": {
             "mode": "bolt_action"
         },
-        "singleReloadPrep": 0.5,
+        "singleReloadPrep": 0.38,
         "singleReloadLoop": 0.5,
         "singleReloadPost": 1.2,
         "reload": 3.5,
@@ -5656,7 +5653,7 @@
         },
         "magazineSize": 6,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/12gauge_shell.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/12gauge_shell.blk"
         },
         "firingModes": {
             "mode": "bolt_action"
@@ -5701,7 +5698,7 @@
         ],
         "magazineSize": 32,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/9x19_parabellum_pistol.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/9x19_parabellum_pistol.blk"
         },
         "firingModes": [
             {
@@ -5722,9 +5719,9 @@
         "reloadSingle": false,
         "recoilAmount": 0.051,
         "recoilDir": 0.4,
-        "recoilDirAmount": 0.5,
+        "recoilDirAmount": 0.62,
         "visualRecoilMult": 1.6,
-        "recoilControlMult": 0.4,
+        "recoilControlMult": 0.3,
         "recoilOffsetMult": 0.3,
         "mods": null,
         "adsSpeedMult": 0.8,
@@ -5751,7 +5748,7 @@
         ],
         "magazineSize": 32,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/9x19_parabellum_pistol.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/9x19_parabellum_pistol.blk"
         },
         "firingModes": [
             {
@@ -5772,9 +5769,9 @@
         "reloadSingle": false,
         "recoilAmount": 0.051,
         "recoilDir": 0.4,
-        "recoilDirAmount": 0.5,
+        "recoilDirAmount": 0.62,
         "visualRecoilMult": 1.6,
-        "recoilControlMult": 0.4,
+        "recoilControlMult": 0.3,
         "recoilOffsetMult": 0.3,
         "mods": null,
         "adsSpeedMult": 0.8,
@@ -5796,7 +5793,7 @@
         },
         "magazineSize": 32,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/9x19_parabellum_smg.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/9x19_parabellum_smg.blk"
         },
         "firingModes": {
             "mode": "full_auto"
@@ -5836,7 +5833,7 @@
         },
         "magazineSize": 50,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/9x19_parabellum_smg.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/9x19_parabellum_smg.blk"
         },
         "firingModes": {
             "mode": "full_auto"
@@ -5876,7 +5873,7 @@
         },
         "magazineSize": 32,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/9x19_parabellum_smg.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/9x19_parabellum_smg.blk"
         },
         "firingModes": [
             {
@@ -5926,7 +5923,7 @@
         ],
         "magazineSize": 20,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/11.51x23_browning_smg.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/11.51x23_browning_smg.blk"
         },
         "firingModes": [
             {
@@ -5976,7 +5973,7 @@
         ],
         "magazineSize": 20,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/11.51x23_browning_smg.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/11.51x23_browning_smg.blk"
         },
         "firingModes": [
             {
@@ -6026,7 +6023,7 @@
         ],
         "magazineSize": 30,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/11.51x23_browning_smg.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/11.51x23_browning_smg.blk"
         },
         "firingModes": {
             "mode": "full_auto"
@@ -6066,7 +6063,7 @@
         },
         "magazineSize": 30,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/11.51x23_browning_smg.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/11.51x23_browning_smg.blk"
         },
         "firingModes": {
             "mode": "full_auto"
@@ -6106,7 +6103,7 @@
         },
         "magazineSize": 30,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/11.51x23_browning_smg.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/11.51x23_browning_smg.blk"
         },
         "firingModes": {
             "mode": "full_auto"
@@ -6146,7 +6143,7 @@
         },
         "magazineSize": 30,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/11.51x23_browning_smg.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/11.51x23_browning_smg.blk"
         },
         "firingModes": {
             "mode": "full_auto"
@@ -6191,7 +6188,7 @@
         ],
         "magazineSize": 30,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/11.51x23_browning_smg.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/11.51x23_browning_smg.blk"
         },
         "firingModes": [
             {
@@ -6241,7 +6238,7 @@
         ],
         "magazineSize": 30,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/11.51x23_browning_smg.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/11.51x23_browning_smg.blk"
         },
         "firingModes": [
             {
@@ -6286,7 +6283,7 @@
         },
         "magazineSize": 20,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/11.51x23_browning_smg.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/11.51x23_browning_smg.blk"
         },
         "firingModes": [
             {
@@ -6331,7 +6328,7 @@
         },
         "magazineSize": 30,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/11.51x23_browning_smg.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/11.51x23_browning_smg.blk"
         },
         "firingModes": [
             {
@@ -6354,8 +6351,8 @@
         "recoilDir": 0.0,
         "recoilDirAmount": 0.6,
         "visualRecoilMult": 1.2,
-        "recoilControlMult": null,
-        "recoilOffsetMult": null,
+        "recoilControlMult": 0.4,
+        "recoilOffsetMult": 0.3,
         "mods": null,
         "adsSpeedMult": 0.72,
         "damageMult": null,
@@ -6376,7 +6373,7 @@
         },
         "magazineSize": 50,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/11.51x23_browning_smg.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/11.51x23_browning_smg.blk"
         },
         "firingModes": [
             {
@@ -6421,7 +6418,7 @@
         },
         "magazineSize": 100,
         "bullets": {
-            "shells": "content/e_ww2_common/gamedata/weapons/bullets/45acp.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/45acp.blk"
         },
         "firingModes": [
             {
@@ -6444,8 +6441,8 @@
         "recoilDir": 0.0,
         "recoilDirAmount": 0.5,
         "visualRecoilMult": 0.7,
-        "recoilControlMult": null,
-        "recoilOffsetMult": null,
+        "recoilControlMult": 0.4,
+        "recoilOffsetMult": 0.3,
         "mods": null,
         "adsSpeedMult": 0.64,
         "damageMult": null,
@@ -6471,7 +6468,7 @@
         ],
         "magazineSize": 50,
         "bullets": {
-            "shells": "content/e_ww2_common/gamedata/weapons/bullets/45acp.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/45acp.blk"
         },
         "firingModes": [
             {
@@ -6516,7 +6513,7 @@
         },
         "magazineSize": 20,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/11.51x23_browning_smg.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/11.51x23_browning_smg.blk"
         },
         "firingModes": [
             {
@@ -6561,7 +6558,7 @@
         },
         "magazineSize": 20,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/30_carbine.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/30_carbine.blk"
         },
         "firingModes": [
             {
@@ -6606,7 +6603,7 @@
         },
         "magazineSize": 20,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/11.51x23_browning_smg.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/11.51x23_browning_smg.blk"
         },
         "firingModes": [
             {
@@ -6651,7 +6648,7 @@
         },
         "magazineSize": 20,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/11.51x23_browning_smg.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/11.51x23_browning_smg.blk"
         },
         "firingModes": [
             {
@@ -6696,7 +6693,7 @@
         },
         "magazineSize": 25,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/9x19_parabellum_smg.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/9x19_parabellum_smg.blk"
         },
         "firingModes": [
             {
@@ -6731,7 +6728,7 @@
     {
         "name": "browning_m1918",
         "rps": 10.0,
-        "dispersion": 0.46,
+        "dispersion": 0.39,
         "stat": "machine_gun",
         "type": "machine_gun",
         "weight": 10.0,
@@ -6746,7 +6743,7 @@
         ],
         "magazineSize": 20,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/30_06_springfield_tracer.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/30_06_springfield_tracer.blk"
         },
         "firingModes": [
             {
@@ -6781,7 +6778,7 @@
     {
         "name": "browning_m1918a1",
         "rps": 10.0,
-        "dispersion": 0.44,
+        "dispersion": 0.38,
         "stat": "machine_gun",
         "type": "machine_gun",
         "weight": 10.0,
@@ -6791,7 +6788,7 @@
         },
         "magazineSize": 20,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/30_06_springfield_tracer.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/30_06_springfield_tracer.blk"
         },
         "firingModes": [
             {
@@ -6826,7 +6823,7 @@
     {
         "name": "browning_m1918a2",
         "rps": 10.0,
-        "dispersion": 0.42,
+        "dispersion": 0.36,
         "stat": "machine_gun",
         "type": "machine_gun",
         "weight": 10.0,
@@ -6836,7 +6833,7 @@
         },
         "magazineSize": 20,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/30_06_springfield_tracer.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/30_06_springfield_tracer.blk"
         },
         "firingModes": [
             {
@@ -6871,7 +6868,7 @@
     {
         "name": "colt_monitor",
         "rps": 10.0,
-        "dispersion": 0.52,
+        "dispersion": 0.42,
         "stat": "machine_gun",
         "type": "machine_gun",
         "weight": 6.0,
@@ -6881,7 +6878,7 @@
         },
         "magazineSize": 20,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/30_06_springfield_tracer.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/30_06_springfield_tracer.blk"
         },
         "firingModes": [
             {
@@ -6916,7 +6913,7 @@
     {
         "name": "browning_wz_1928",
         "rps": 10.0,
-        "dispersion": 0.4,
+        "dispersion": 0.35,
         "stat": "machine_gun",
         "type": "machine_gun",
         "weight": 10.0,
@@ -6926,7 +6923,7 @@
         },
         "magazineSize": 20,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.92x57_mauser_tracer.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/7.92x57_mauser_tracer.blk"
         },
         "firingModes": [
             {
@@ -6961,7 +6958,7 @@
     {
         "name": "m1941_johnson_mg",
         "rps": 15.0,
-        "dispersion": 0.44,
+        "dispersion": 0.38,
         "stat": "machine_gun",
         "type": "machine_gun",
         "weight": 7.0,
@@ -6971,7 +6968,7 @@
         },
         "magazineSize": 20,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/30_06_springfield_tracer.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/30_06_springfield_tracer.blk"
         },
         "firingModes": [
             {
@@ -7000,7 +6997,7 @@
         "recoilControlMult": 0.9,
         "recoilOffsetMult": 0.1,
         "mods": null,
-        "adsSpeedMult": 0.3,
+        "adsSpeedMult": 0.6,
         "damageMult": null,
         "sightsMag": 2.0,
         "flamethrowerDPS": null,
@@ -7009,7 +7006,7 @@
     {
         "name": "lewis_lmg",
         "rps": 8.5,
-        "dispersion": 0.6,
+        "dispersion": 0.46,
         "stat": "machine_gun",
         "type": "machine_gun",
         "weight": 10.0,
@@ -7024,7 +7021,7 @@
         ],
         "magazineSize": 47,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.62x54_r_tracer.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/7.62x54_r_tracer.blk"
         },
         "firingModes": {
             "mode": "full_auto"
@@ -7054,7 +7051,7 @@
     {
         "name": "bren_mk2",
         "rps": 8.03,
-        "dispersion": 0.43,
+        "dispersion": 0.37,
         "stat": "machine_gun",
         "type": "machine_gun",
         "weight": 10.0,
@@ -7069,7 +7066,7 @@
         ],
         "magazineSize": 30,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/303_british_mk7_tracer.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/303_british_mk7_tracer.blk"
         },
         "firingModes": {
             "mode": "full_auto"
@@ -7109,7 +7106,7 @@
         },
         "magazineSize": 25,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.5x54_mas_tracer.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/7.5x54_mas_tracer.blk"
         },
         "firingModes": {
             "mode": "full_auto"
@@ -7149,7 +7146,7 @@
         },
         "magazineSize": 100,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/30_06_springfield_tracer.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/30_06_springfield_tracer.blk"
         },
         "firingModes": {
             "mode": "full_auto"
@@ -7189,7 +7186,7 @@
         },
         "magazineSize": 200,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/30_06_springfield_tracer.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/30_06_springfield_tracer.blk"
         },
         "firingModes": {
             "mode": "full_auto"
@@ -7229,7 +7226,7 @@
         },
         "magazineSize": null,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/shells/m6a1_bazooka.blk"
+            "shells": "content/enlisted/gamedata/weapons/shells/m6a1_bazooka.blk"
         },
         "firingModes": {
             "mode": "bolt_action"
@@ -7269,7 +7266,7 @@
         },
         "magazineSize": null,
         "bullets": {
-            "shells": "content/e_ww2_common/gamedata/weapons/shells/m6a1_bazooka.blk"
+            "shells": "content/enlisted/gamedata/weapons/shells/m6a1_bazooka.blk"
         },
         "firingModes": {
             "mode": "bolt_action"
@@ -7309,7 +7306,7 @@
         },
         "magazineSize": null,
         "bullets": {
-            "shells": "content/e_ww2_common/gamedata/weapons/shells/m6a3_bazooka.blk"
+            "shells": "content/enlisted/gamedata/weapons/shells/m6a3_bazooka.blk"
         },
         "firingModes": {
             "mode": "bolt_action"
@@ -7349,7 +7346,7 @@
         },
         "magazineSize": null,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/shells/piat_shell.blk"
+            "shells": "content/enlisted/gamedata/weapons/shells/piat_shell.blk"
         },
         "firingModes": {
             "mode": "semi_auto"
@@ -7395,10 +7392,10 @@
         "magazineSize": null,
         "bullets": [
             {
-                "shells": "content/enlisted/gamedata/weapons_enlisted/shells/m49a2.blk"
+                "shells": "content/enlisted/gamedata/weapons/shells/m49a2.blk"
             },
             {
-                "shells": "content/enlisted/gamedata/weapons_enlisted/shells/m49a2_smoke.blk"
+                "shells": "content/enlisted/gamedata/weapons/shells/m49a2_smoke.blk"
             }
         ],
         "firingModes": {
@@ -7445,10 +7442,10 @@
         "magazineSize": null,
         "bullets": [
             {
-                "shells": "content/enlisted/gamedata/weapons_enlisted/shells/two_inch_he_shell.blk"
+                "shells": "content/enlisted/gamedata/weapons/shells/two_inch_he_shell.blk"
             },
             {
-                "shells": "content/enlisted/gamedata/weapons_enlisted/shells/two_inch_smoke_shell.blk"
+                "shells": "content/enlisted/gamedata/weapons/shells/two_inch_smoke_shell.blk"
             }
         ],
         "firingModes": {
@@ -7495,10 +7492,10 @@
         "magazineSize": null,
         "bullets": [
             {
-                "shells": "content/enlisted/gamedata/weapons_enlisted/shells/two_inch_he_shell.blk"
+                "shells": "content/enlisted/gamedata/weapons/shells/two_inch_he_shell.blk"
             },
             {
-                "shells": "content/enlisted/gamedata/weapons_enlisted/shells/two_inch_smoke_shell.blk"
+                "shells": "content/enlisted/gamedata/weapons/shells/two_inch_smoke_shell.blk"
             }
         ],
         "firingModes": {
@@ -7553,7 +7550,7 @@
         ],
         "magazineSize": 200,
         "bullets": {
-            "shells": "content/e_ww2_common/gamedata/weapons/bullets/flamethrower_dummy.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/flamethrower_dummy.blk"
         },
         "firingModes": {
             "mode": "full_auto"
@@ -7607,7 +7604,7 @@
         ],
         "magazineSize": 200,
         "bullets": {
-            "shells": "content/e_ww2_common/gamedata/weapons/bullets/flamethrower_dummy.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/flamethrower_dummy.blk"
         },
         "firingModes": {
             "mode": "full_auto"
@@ -7661,7 +7658,7 @@
         ],
         "magazineSize": 200,
         "bullets": {
-            "shells": "content/e_ww2_common/gamedata/weapons/bullets/flamethrower_dummy.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/flamethrower_dummy.blk"
         },
         "firingModes": {
             "mode": "full_auto"
@@ -7715,7 +7712,7 @@
         ],
         "magazineSize": 200,
         "bullets": {
-            "shells": "content/e_ww2_common/gamedata/weapons/bullets/flamethrower_dummy.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/flamethrower_dummy.blk"
         },
         "firingModes": {
             "mode": "full_auto"
@@ -7748,7 +7745,7 @@
         "dispersion": 0.8,
         "stat": "pistol",
         "type": "pistol",
-        "weight": 1.0,
+        "weight": 1.2,
         "locName": "Mauser C96",
         "magazineName": [
             {
@@ -7760,7 +7757,7 @@
         ],
         "magazineSize": 10,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.63x25_mauser_pistol.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/7.63x25_mauser_pistol.blk"
         },
         "firingModes": {
             "mode": "semi_auto"
@@ -7793,7 +7790,7 @@
         "dispersion": 0.8,
         "stat": "pistol",
         "type": "pistol",
-        "weight": 1.0,
+        "weight": 1.2,
         "locName": "Mauser C96",
         "magazineName": [
             {
@@ -7805,7 +7802,7 @@
         ],
         "magazineSize": 10,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.63x25_mauser_pistol.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/7.63x25_mauser_pistol.blk"
         },
         "firingModes": {
             "mode": "semi_auto"
@@ -7850,7 +7847,7 @@
         ],
         "magazineSize": 20,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.63x25_mauser_pistol.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/7.63x25_mauser_pistol.blk"
         },
         "firingModes": [
             {
@@ -7895,7 +7892,7 @@
         },
         "magazineSize": 8,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.65x17_browning_pistol.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/7.65x17_browning_pistol.blk"
         },
         "firingModes": {
             "mode": "semi_auto"
@@ -7935,7 +7932,7 @@
         },
         "magazineSize": 8,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.65x17_browning_pistol.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/7.65x17_browning_pistol.blk"
         },
         "firingModes": {
             "mode": "semi_auto"
@@ -7968,14 +7965,14 @@
         "dispersion": 1.0,
         "stat": "pistol",
         "type": "pistol",
-        "weight": 1.0,
+        "weight": 0.68,
         "locName": "walther ppk",
         "magazineName": {
             "ammoHolders": "walther_ppk_magazine"
         },
         "magazineSize": 7,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.65x17_browning_pistol.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/7.65x17_browning_pistol.blk"
         },
         "firingModes": {
             "mode": "semi_auto"
@@ -8008,14 +8005,14 @@
         "dispersion": 1.0,
         "stat": "pistol",
         "type": "pistol",
-        "weight": 1.0,
+        "weight": 0.68,
         "locName": "Walther PPK Silver",
         "magazineName": {
             "ammoHolders": "walther_ppk_magazine"
         },
         "magazineSize": 7,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.65x17_browning_pistol.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/7.65x17_browning_pistol.blk"
         },
         "firingModes": {
             "mode": "semi_auto"
@@ -8055,7 +8052,7 @@
         },
         "magazineSize": 8,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.65x17_browning_pistol.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/7.65x17_browning_pistol.blk"
         },
         "firingModes": {
             "mode": "semi_auto"
@@ -8088,7 +8085,7 @@
         "dispersion": 0.88,
         "stat": "pistol",
         "type": "pistol",
-        "weight": 1.0,
+        "weight": 0.88,
         "locName": "Walther P38",
         "magazineName": [
             {
@@ -8100,7 +8097,7 @@
         ],
         "magazineSize": 8,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/9x19_parabellum_pistol.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/9x19_parabellum_pistol.blk"
         },
         "firingModes": {
             "mode": "semi_auto"
@@ -8145,7 +8142,7 @@
         ],
         "magazineSize": 8,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/9x19_parabellum_pistol.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/9x19_parabellum_pistol.blk"
         },
         "firingModes": {
             "mode": "semi_auto"
@@ -8190,7 +8187,7 @@
         ],
         "magazineSize": 8,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/9x19_parabellum_pistol.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/9x19_parabellum_pistol.blk"
         },
         "firingModes": {
             "mode": "semi_auto"
@@ -8235,7 +8232,7 @@
         ],
         "magazineSize": 8,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/9x19_parabellum_pistol.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/9x19_parabellum_pistol.blk"
         },
         "firingModes": {
             "mode": "semi_auto"
@@ -8275,7 +8272,7 @@
         },
         "magazineSize": 32,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/9x19_parabellum_smg.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/9x19_parabellum_smg.blk"
         },
         "firingModes": {
             "mode": "semi_auto"
@@ -8320,7 +8317,7 @@
         ],
         "magazineSize": 7,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.65x17_dreyse_pistol.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/7.65x17_dreyse_pistol.blk"
         },
         "firingModes": {
             "mode": "semi_auto"
@@ -8365,7 +8362,7 @@
         ],
         "magazineSize": 5,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.92x57_mauser_carbine.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/7.92x57_mauser_carbine.blk"
         },
         "firingModes": {
             "mode": "bolt_action"
@@ -8405,7 +8402,7 @@
         "dispersion": 0.13,
         "stat": "rifle",
         "type": "rifle",
-        "weight": 5.0,
+        "weight": 4.2,
         "locName": "Kar98k",
         "magazineName": [
             {
@@ -8417,7 +8414,7 @@
         ],
         "magazineSize": 5,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.92x57_mauser.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/7.92x57_mauser.blk"
         },
         "firingModes": {
             "mode": "bolt_action"
@@ -8466,7 +8463,7 @@
         ],
         "magazineSize": 5,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.92x57_mauser_carbine_short.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/7.92x57_mauser_carbine_short.blk"
         },
         "firingModes": {
             "mode": "bolt_action"
@@ -8499,7 +8496,7 @@
         "dispersion": 0.13,
         "stat": "rifle",
         "type": "rifle",
-        "weight": 5.0,
+        "weight": 3.92,
         "locName": "Kar98k",
         "magazineName": [
             {
@@ -8511,7 +8508,7 @@
         ],
         "magazineSize": 25,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.92x57_mauser_carbine.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/7.92x57_mauser_carbine.blk"
         },
         "firingModes": {
             "mode": "bolt_action"
@@ -8560,7 +8557,7 @@
         ],
         "magazineSize": 5,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.92x57_mauser_carbine.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/7.92x57_mauser_carbine.blk"
         },
         "firingModes": {
             "mode": "bolt_action"
@@ -8605,7 +8602,7 @@
         ],
         "magazineSize": 5,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.92x57_mauser_carbine_ap.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/7.92x57_mauser_carbine_ap.blk"
         },
         "firingModes": {
             "mode": "bolt_action"
@@ -8645,7 +8642,7 @@
         "dispersion": 0.01,
         "stat": "rifle",
         "type": "rifle",
-        "weight": 5.0,
+        "weight": 4.1,
         "locName": "Gewehr 98 sniper",
         "magazineName": [
             {
@@ -8657,7 +8654,7 @@
         ],
         "magazineSize": 5,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.92x57_mauser_ap.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/7.92x57_mauser_ap.blk"
         },
         "firingModes": {
             "mode": "bolt_action"
@@ -8702,7 +8699,7 @@
         ],
         "magazineSize": 25,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.92x57_mauser.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/7.92x57_mauser.blk"
         },
         "firingModes": {
             "mode": "bolt_action"
@@ -8751,7 +8748,7 @@
         ],
         "magazineSize": 5,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.92x57_mauser_carbine.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/7.92x57_mauser_carbine.blk"
         },
         "firingModes": {
             "mode": "bolt_action"
@@ -8800,7 +8797,7 @@
         ],
         "magazineSize": 5,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.92x57_mauser_carbine_ap.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/7.92x57_mauser_carbine_ap.blk"
         },
         "firingModes": {
             "mode": "bolt_action"
@@ -8840,7 +8837,7 @@
         "dispersion": 0.16,
         "stat": "rifle",
         "type": "rifle",
-        "weight": 5.0,
+        "weight": 3.45,
         "locName": "Gewehr 33/40",
         "magazineName": [
             {
@@ -8852,7 +8849,7 @@
         ],
         "magazineSize": 5,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.92x57_mauser_carbine_short.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/7.92x57_mauser_carbine_short.blk"
         },
         "firingModes": {
             "mode": "bolt_action"
@@ -8901,7 +8898,7 @@
         ],
         "magazineSize": 5,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.92x57_mauser.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/7.92x57_mauser.blk"
         },
         "firingModes": {
             "mode": "bolt_action"
@@ -8941,7 +8938,7 @@
         },
         "magazineSize": 10,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.92x57_mauser_carbine.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/7.92x57_mauser_carbine.blk"
         },
         "firingModes": {
             "mode": "bolt_action"
@@ -8986,7 +8983,7 @@
         ],
         "magazineSize": 5,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.92x57_mauser_carbine.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/7.92x57_mauser_carbine.blk"
         },
         "firingModes": {
             "mode": "bolt_action"
@@ -9035,7 +9032,7 @@
         ],
         "magazineSize": 5,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.92x57_mauser_carbine.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/7.92x57_mauser_carbine.blk"
         },
         "firingModes": {
             "mode": "bolt_action"
@@ -9084,7 +9081,7 @@
         ],
         "magazineSize": 5,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.5x54_mas.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/7.5x54_mas.blk"
         },
         "firingModes": {
             "mode": "bolt_action"
@@ -9136,7 +9133,7 @@
         ],
         "magazineSize": 10,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/8x50_r.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/8x50_r.blk"
         },
         "firingModes": {
             "mode": "bolt_action"
@@ -9180,7 +9177,7 @@
         },
         "magazineSize": 5,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/8x50_r_carbine.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/8x50_r_carbine.blk"
         },
         "firingModes": {
             "mode": "bolt_action"
@@ -9220,7 +9217,7 @@
         },
         "magazineSize": 5,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/8x56_r_steyr_carbine.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/8x56_r_steyr_carbine.blk"
         },
         "firingModes": {
             "mode": "bolt_action"
@@ -9260,7 +9257,7 @@
         },
         "magazineSize": 5,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/6.5x50_arisaka_carbine_short.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/6.5x50_arisaka_carbine_short.blk"
         },
         "firingModes": {
             "mode": "bolt_action"
@@ -9305,7 +9302,7 @@
         },
         "magazineSize": 5,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/6.5x50_arisaka_carbine.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/6.5x50_arisaka_carbine.blk"
         },
         "firingModes": {
             "mode": "bolt_action"
@@ -9350,7 +9347,7 @@
         },
         "magazineSize": 5,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/6.5x50_arisaka_carbine.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/6.5x50_arisaka_carbine.blk"
         },
         "firingModes": {
             "mode": "bolt_action"
@@ -9398,7 +9395,7 @@
         },
         "magazineSize": 5,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.7x58_arisaka.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/7.7x58_arisaka.blk"
         },
         "firingModes": {
             "mode": "bolt_action"
@@ -9443,7 +9440,7 @@
         },
         "magazineSize": 5,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.7x58_arisaka.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/7.7x58_arisaka.blk"
         },
         "firingModes": {
             "mode": "bolt_action"
@@ -9488,7 +9485,7 @@
         },
         "magazineSize": 5,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.7x58_arisaka.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/7.7x58_arisaka.blk"
         },
         "firingModes": {
             "mode": "bolt_action"
@@ -9526,14 +9523,14 @@
         "dispersion": 0.28,
         "stat": "semiauto",
         "type": "semiauto",
-        "weight": 5.0,
+        "weight": 4.9,
         "locName": "Gewehr 41",
         "magazineName": {
             "ammoHolders": "gewehr_41_magazine"
         },
         "magazineSize": 10,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.92x57_mauser_semiauto.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/7.92x57_mauser_semiauto.blk"
         },
         "firingModes": {
             "mode": "semi_auto"
@@ -9570,14 +9567,14 @@
         "dispersion": 0.03,
         "stat": "semiauto",
         "type": "semiauto",
-        "weight": 5.0,
+        "weight": 4.9,
         "locName": "Gewehr 41",
         "magazineName": {
             "ammoHolders": "gewehr_41_magazine"
         },
         "magazineSize": 10,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.92x57_mauser_semiauto.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/7.92x57_mauser_semiauto.blk"
         },
         "firingModes": {
             "mode": "semi_auto"
@@ -9621,7 +9618,7 @@
         },
         "magazineSize": 10,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.92x57_mauser_semiauto.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/7.92x57_mauser_semiauto.blk"
         },
         "firingModes": {
             "mode": "semi_auto"
@@ -9670,7 +9667,7 @@
         ],
         "magazineSize": 10,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.92x57_mauser_semiauto.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/7.92x57_mauser_semiauto.blk"
         },
         "firingModes": {
             "mode": "semi_auto"
@@ -9722,7 +9719,7 @@
         ],
         "magazineSize": 10,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.92x57_mauser_semiauto.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/7.92x57_mauser_semiauto.blk"
         },
         "firingModes": {
             "mode": "semi_auto"
@@ -9766,7 +9763,7 @@
         },
         "magazineSize": 30,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.92x33_kurz_rifle.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/7.92x33_kurz_rifle.blk"
         },
         "firingModes": [
             {
@@ -9811,7 +9808,7 @@
         },
         "magazineSize": 15,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.92x57_mauser_semiauto.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/7.92x57_mauser_semiauto.blk"
         },
         "firingModes": {
             "mode": "semi_auto"
@@ -9844,14 +9841,14 @@
         "dispersion": 0.3,
         "stat": "semiauto",
         "type": "semiauto",
-        "weight": 5.0,
+        "weight": 4.5,
         "locName": "ZH-29",
         "magazineName": {
             "ammoHolders": "zh_29_magazine"
         },
         "magazineSize": 10,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.92x57_mauser_semiauto.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/7.92x57_mauser_semiauto.blk"
         },
         "firingModes": {
             "mode": "semi_auto"
@@ -9895,7 +9892,7 @@
         },
         "magazineSize": 5,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/6.5x50_arisaka_semiauto.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/6.5x50_arisaka_semiauto.blk"
         },
         "firingModes": {
             "mode": "semi_auto"
@@ -9940,7 +9937,7 @@
         },
         "magazineSize": 10,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.92x57_mauser_semiauto.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/7.92x57_mauser_semiauto.blk"
         },
         "firingModes": {
             "mode": "semi_auto"
@@ -9970,7 +9967,7 @@
     {
         "name": "fg_42",
         "rps": 12.5,
-        "dispersion": 0.45,
+        "dispersion": 0.35,
         "stat": "semiauto",
         "type": "semiauto",
         "weight": 5.0,
@@ -9985,7 +9982,7 @@
         ],
         "magazineSize": 20,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.92x57_mauser_semiauto.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/7.92x57_mauser_semiauto.blk"
         },
         "firingModes": [
             {
@@ -10018,7 +10015,7 @@
                 "scope_6x": "scope_zf_4_fg_42_6x"
             }
         },
-        "adsSpeedMult": 0.53,
+        "adsSpeedMult": 0.6,
         "damageMult": null,
         "sightsMag": 2.0,
         "flamethrowerDPS": null,
@@ -10027,7 +10024,7 @@
     {
         "name": "fg_42_model_2",
         "rps": 12.5,
-        "dispersion": 0.42,
+        "dispersion": 0.32,
         "stat": "semiauto",
         "type": "semiauto",
         "weight": 5.0,
@@ -10037,7 +10034,7 @@
         },
         "magazineSize": 20,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.92x57_mauser_semiauto.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/7.92x57_mauser_semiauto.blk"
         },
         "firingModes": [
             {
@@ -10071,7 +10068,7 @@
                 "scope_zf_4_fg_42": "scope_zf_4_fg_42"
             }
         },
-        "adsSpeedMult": 0.55,
+        "adsSpeedMult": 0.65,
         "damageMult": null,
         "sightsMag": 2.0,
         "flamethrowerDPS": null,
@@ -10080,7 +10077,7 @@
     {
         "name": "sniper_fg_42_model_2_gun",
         "rps": 12.5,
-        "dispersion": 0.42,
+        "dispersion": 0.32,
         "stat": "semiauto",
         "type": "semiauto",
         "weight": 5.0,
@@ -10090,7 +10087,7 @@
         },
         "magazineSize": 20,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.92x57_mauser_semiauto.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/7.92x57_mauser_semiauto.blk"
         },
         "firingModes": [
             {
@@ -10124,7 +10121,7 @@
                 "scope_zf_4_fg_42": "scope_zf_4_fg_42"
             }
         },
-        "adsSpeedMult": 0.55,
+        "adsSpeedMult": 0.65,
         "damageMult": null,
         "sightsMag": 2.0,
         "flamethrowerDPS": null,
@@ -10148,7 +10145,7 @@
         ],
         "magazineSize": 2,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/12gauge_shell.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/12gauge_shell.blk"
         },
         "firingModes": {
             "mode": "bolt_action"
@@ -10193,7 +10190,7 @@
         ],
         "magazineSize": 32,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/9x19_parabellum_smg.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/9x19_parabellum_smg.blk"
         },
         "firingModes": {
             "mode": "full_auto"
@@ -10233,7 +10230,7 @@
         },
         "magazineSize": 20,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/9x19_parabellum_smg.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/9x19_parabellum_smg.blk"
         },
         "firingModes": {
             "mode": "full_auto"
@@ -10273,7 +10270,7 @@
         },
         "magazineSize": 32,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/9x19_parabellum_smg.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/9x19_parabellum_smg.blk"
         },
         "firingModes": {
             "mode": "full_auto"
@@ -10313,7 +10310,7 @@
         },
         "magazineSize": 50,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.65x21_parabellum_smg.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/7.65x21_parabellum_smg.blk"
         },
         "firingModes": {
             "mode": "full_auto"
@@ -10346,7 +10343,7 @@
         "dispersion": 0.82,
         "stat": "submachine_gun",
         "type": "submachine_gun",
-        "weight": 3.97,
+        "weight": 4.7,
         "locName": "MP 40",
         "magazineName": [
             {
@@ -10358,7 +10355,7 @@
         ],
         "magazineSize": 32,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/9x19_parabellum_smg.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/9x19_parabellum_smg.blk"
         },
         "firingModes": {
             "mode": "full_auto"
@@ -10391,7 +10388,7 @@
         "dispersion": 0.82,
         "stat": "submachine_gun",
         "type": "submachine_gun",
-        "weight": 3.97,
+        "weight": 4.7,
         "locName": "MP 40",
         "magazineName": [
             {
@@ -10403,7 +10400,7 @@
         ],
         "magazineSize": 32,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/9x19_parabellum_smg.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/9x19_parabellum_smg.blk"
         },
         "firingModes": {
             "mode": "full_auto"
@@ -10443,7 +10440,7 @@
         },
         "magazineSize": 32,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/9x19_parabellum_smg.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/9x19_parabellum_smg.blk"
         },
         "firingModes": {
             "mode": "full_auto"
@@ -10483,7 +10480,7 @@
         },
         "magazineSize": 100,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/9x19_parabellum_smg.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/9x19_parabellum_smg.blk"
         },
         "firingModes": {
             "mode": "full_auto"
@@ -10528,7 +10525,7 @@
         ],
         "magazineSize": 20,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/9x19_parabellum_carbine.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/9x19_parabellum_carbine.blk"
         },
         "firingModes": [
             {
@@ -10566,7 +10563,7 @@
         "dispersion": 0.77,
         "stat": "submachine_gun",
         "type": "submachine_gun",
-        "weight": 4.18,
+        "weight": 4.8,
         "locName": "MP 38",
         "magazineName": [
             {
@@ -10578,7 +10575,7 @@
         ],
         "magazineSize": 32,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/9x19_parabellum_smg.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/9x19_parabellum_smg.blk"
         },
         "firingModes": {
             "mode": "full_auto"
@@ -10611,14 +10608,14 @@
         "dispersion": 0.82,
         "stat": "submachine_gun",
         "type": "submachine_gun",
-        "weight": 4.0,
+        "weight": 4.7,
         "locName": "MP 41",
         "magazineName": {
             "ammoHolders": "mp40_magazine"
         },
         "magazineSize": 32,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/9x19_parabellum_smg.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/9x19_parabellum_smg.blk"
         },
         "firingModes": [
             {
@@ -10663,7 +10660,7 @@
         },
         "magazineSize": 32,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/9x19_parabellum_smg.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/9x19_parabellum_smg.blk"
         },
         "firingModes": [
             {
@@ -10708,7 +10705,7 @@
         },
         "magazineSize": 40,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/9x19_parabellum_smg.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/9x19_parabellum_smg.blk"
         },
         "firingModes": {
             "mode": "full_auto"
@@ -10748,7 +10745,7 @@
         },
         "magazineSize": 50,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.65x21_parabellum_smg.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/7.65x21_parabellum_smg.blk"
         },
         "firingModes": {
             "mode": "full_auto"
@@ -10798,7 +10795,7 @@
         ],
         "magazineSize": 32,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/9x19_parabellum_smg.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/9x19_parabellum_smg.blk"
         },
         "firingModes": {
             "mode": "full_auto"
@@ -10843,7 +10840,7 @@
         ],
         "magazineSize": 32,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/9x19_parabellum_smg.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/9x19_parabellum_smg.blk"
         },
         "firingModes": {
             "mode": "full_auto"
@@ -10888,7 +10885,7 @@
         ],
         "magazineSize": 32,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/9x19_parabellum_smg.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/9x19_parabellum_smg.blk"
         },
         "firingModes": {
             "mode": "full_auto"
@@ -10928,7 +10925,7 @@
         },
         "magazineSize": 32,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/9x19_parabellum_smg.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/9x19_parabellum_smg.blk"
         },
         "firingModes": {
             "mode": "full_auto"
@@ -10968,7 +10965,7 @@
         },
         "magazineSize": 36,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/9x19_parabellum_smg.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/9x19_parabellum_smg.blk"
         },
         "firingModes": [
             {
@@ -11013,7 +11010,7 @@
         },
         "magazineSize": 71,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/9x19_parabellum_smg.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/9x19_parabellum_smg.blk"
         },
         "firingModes": [
             {
@@ -11058,7 +11055,7 @@
         },
         "magazineSize": 71,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/9x19_parabellum_smg.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/9x19_parabellum_smg.blk"
         },
         "firingModes": [
             {
@@ -11103,7 +11100,7 @@
         },
         "magazineSize": 40,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/9x19_parabellum_smg.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/9x19_parabellum_smg.blk"
         },
         "firingModes": [
             {
@@ -11148,7 +11145,7 @@
         },
         "magazineSize": 32,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/9x19_parabellum_smg.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/9x19_parabellum_smg.blk"
         },
         "firingModes": [
             {
@@ -11193,7 +11190,7 @@
         },
         "magazineSize": 40,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/9x25_mauser_export_smg.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/9x25_mauser_export_smg.blk"
         },
         "firingModes": [
             {
@@ -11238,7 +11235,7 @@
         },
         "magazineSize": 40,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/9x25_mauser_export_smg.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/9x25_mauser_export_smg.blk"
         },
         "firingModes": [
             {
@@ -11283,7 +11280,7 @@
         },
         "magazineSize": 20,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/9x19_parabellum_smg.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/9x19_parabellum_smg.blk"
         },
         "firingModes": [
             {
@@ -11328,7 +11325,7 @@
         },
         "magazineSize": 40,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/9x19_parabellum_smg.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/9x19_parabellum_smg.blk"
         },
         "firingModes": [
             {
@@ -11373,7 +11370,7 @@
         },
         "magazineSize": 25,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/9x19_parabellum_smg.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/9x19_parabellum_smg.blk"
         },
         "firingModes": {
             "mode": "full_auto"
@@ -11387,12 +11384,12 @@
         "proneRecoilMult": 0.8,
         "zeroDist": null,
         "reloadSingle": false,
-        "recoilAmount": 0.028,
+        "recoilAmount": 0.038,
         "recoilDir": 0.0,
         "recoilDirAmount": 0.52,
         "visualRecoilMult": 1.6,
-        "recoilControlMult": null,
-        "recoilOffsetMult": null,
+        "recoilControlMult": 0.4,
+        "recoilOffsetMult": 0.3,
         "mods": null,
         "adsSpeedMult": 0.76,
         "damageMult": null,
@@ -11413,7 +11410,7 @@
         },
         "magazineSize": 32,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/9x19_parabellum_smg.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/9x19_parabellum_smg.blk"
         },
         "firingModes": [
             {
@@ -11458,7 +11455,7 @@
         },
         "magazineSize": 32,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.65x21_parabellum_smg.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/7.65x21_parabellum_smg.blk"
         },
         "firingModes": [
             {
@@ -11507,7 +11504,7 @@
         },
         "magazineSize": 30,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/9x19_parabellum_smg.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/9x19_parabellum_smg.blk"
         },
         "firingModes": [
             {
@@ -11545,7 +11542,7 @@
         "dispersion": 0.8,
         "stat": "submachine_gun",
         "type": "submachine_gun",
-        "weight": 4.0,
+        "weight": 4.85,
         "locName": "MP 35",
         "magazineName": {
             "ammoHolders": "mp_35_magazine",
@@ -11553,7 +11550,7 @@
         },
         "magazineSize": 32,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/9x19_parabellum_smg.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/9x19_parabellum_smg.blk"
         },
         "firingModes": {
             "mode": "full_auto"
@@ -11593,7 +11590,7 @@
         },
         "magazineSize": 32,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/9x19_parabellum_smg_long_barrel.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/9x19_parabellum_smg_long_barrel.blk"
         },
         "firingModes": {
             "mode": "full_auto"
@@ -11638,7 +11635,7 @@
         ],
         "magazineSize": 30,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.92x33_kurz.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/7.92x33_kurz.blk"
         },
         "firingModes": [
             {
@@ -11683,7 +11680,7 @@
         },
         "magazineSize": 30,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.92x33_kurz.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/7.92x33_kurz.blk"
         },
         "firingModes": [
             {
@@ -11704,7 +11701,7 @@
         "reloadSingle": false,
         "recoilAmount": 0.049,
         "recoilDir": 0.3,
-        "recoilDirAmount": 0.75,
+        "recoilDirAmount": 0.8,
         "visualRecoilMult": 1.6,
         "recoilControlMult": 0.3,
         "recoilOffsetMult": 0.3,
@@ -11732,7 +11729,7 @@
         },
         "magazineSize": 30,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.92x33_kurz.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/7.92x33_kurz.blk"
         },
         "firingModes": [
             {
@@ -11777,7 +11774,7 @@
         },
         "magazineSize": 30,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.92x33_kurz.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/7.92x33_kurz.blk"
         },
         "firingModes": [
             {
@@ -11822,7 +11819,7 @@
         },
         "magazineSize": 30,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.92x33_kurz.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/7.92x33_kurz.blk"
         },
         "firingModes": [
             {
@@ -11867,7 +11864,7 @@
         },
         "magazineSize": 30,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.92x33_kurz.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/7.92x33_kurz.blk"
         },
         "firingModes": [
             {
@@ -11912,7 +11909,7 @@
         },
         "magazineSize": 30,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.92x33_kurz.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/7.92x33_kurz.blk"
         },
         "firingModes": {
             "mode": "semi_auto"
@@ -11952,7 +11949,7 @@
         },
         "magazineSize": 30,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.92x33_kurz.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/7.92x33_kurz.blk"
         },
         "firingModes": [
             {
@@ -12005,7 +12002,7 @@
         },
         "magazineSize": 20,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.35x35_geco.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/7.35x35_geco.blk"
         },
         "firingModes": [
             {
@@ -12040,7 +12037,7 @@
     {
         "name": "breda_mod_30",
         "rps": 8.03,
-        "dispersion": 0.51,
+        "dispersion": 0.36,
         "stat": "machine_gun",
         "type": "machine_gun",
         "weight": 10.0,
@@ -12050,7 +12047,7 @@
         },
         "magazineSize": 20,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/6.5x52_carcano_tracer.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/6.5x52_carcano_tracer.blk"
         },
         "firingModes": {
             "mode": "full_auto"
@@ -12095,7 +12092,7 @@
         ],
         "magazineSize": 20,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.62x54_r_tracer.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/7.62x54_r_tracer.blk"
         },
         "firingModes": [
             {
@@ -12130,7 +12127,7 @@
     {
         "name": "zb_26",
         "rps": 12.5,
-        "dispersion": 0.43,
+        "dispersion": 0.37,
         "stat": "machine_gun",
         "type": "machine_gun",
         "weight": 10.0,
@@ -12140,7 +12137,7 @@
         },
         "magazineSize": 20,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.92x57_mauser_tracer.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/7.92x57_mauser_tracer.blk"
         },
         "firingModes": {
             "mode": "full_auto"
@@ -12170,7 +12167,7 @@
     {
         "name": "mg_13",
         "rps": 10.0,
-        "dispersion": 0.52,
+        "dispersion": 0.38,
         "stat": "machine_gun",
         "type": "machine_gun",
         "weight": 13.0,
@@ -12185,7 +12182,7 @@
         ],
         "magazineSize": 25,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.92x57_mauser_tracer.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/7.92x57_mauser_tracer.blk"
         },
         "firingModes": {
             "mode": "full_auto"
@@ -12215,7 +12212,7 @@
     {
         "name": "mg_13_saddle_drum",
         "rps": 10.0,
-        "dispersion": 0.52,
+        "dispersion": 0.38,
         "stat": "machine_gun",
         "type": "machine_gun",
         "weight": 13.0,
@@ -12225,7 +12222,7 @@
         },
         "magazineSize": 75,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.92x57_mauser_tracer.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/7.92x57_mauser_tracer.blk"
         },
         "firingModes": {
             "mode": "full_auto"
@@ -12255,7 +12252,7 @@
     {
         "name": "mg_15",
         "rps": 20.0,
-        "dispersion": 0.52,
+        "dispersion": 0.42,
         "stat": "machine_gun",
         "type": "machine_gun",
         "weight": 13.0,
@@ -12265,7 +12262,7 @@
         },
         "magazineSize": 75,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.92x57_mauser_tracer.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/7.92x57_mauser_tracer.blk"
         },
         "firingModes": {
             "mode": "full_auto"
@@ -12295,7 +12292,7 @@
     {
         "name": "mg_30",
         "rps": 9.58,
-        "dispersion": 0.57,
+        "dispersion": 0.44,
         "stat": "machine_gun",
         "type": "machine_gun",
         "weight": 10.0,
@@ -12305,7 +12302,7 @@
         },
         "magazineSize": 25,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/8x56_r_tracer.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/8x56_r_tracer.blk"
         },
         "firingModes": {
             "mode": "full_auto"
@@ -12319,7 +12316,7 @@
         "proneRecoilMult": 0.15,
         "zeroDist": 0.3,
         "reloadSingle": false,
-        "recoilAmount": 0.044,
+        "recoilAmount": 0.04,
         "recoilDir": 0.0,
         "recoilDirAmount": 0.61,
         "visualRecoilMult": 0.7,
@@ -12335,17 +12332,17 @@
     {
         "name": "mg_34",
         "rps": 13.33,
-        "dispersion": 0.65,
+        "dispersion": 0.47,
         "stat": "machine_gun",
         "type": "machine_gun",
-        "weight": 10.0,
+        "weight": 13.6,
         "locName": "MG 34",
         "magazineName": {
             "ammoHolders": "mg_42_handheld_magazine"
         },
         "magazineSize": 50,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.92x57_mauser_tracer.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/7.92x57_mauser_tracer.blk"
         },
         "firingModes": {
             "mode": "full_auto"
@@ -12375,17 +12372,17 @@
     {
         "name": "mg_34_with_patronentrommel",
         "rps": 13.33,
-        "dispersion": 0.65,
+        "dispersion": 0.47,
         "stat": "machine_gun",
         "type": "machine_gun",
-        "weight": 11.5,
+        "weight": 15.1,
         "locName": "MG 34 with Patronentrommel 34 magazine",
         "magazineName": {
             "ammoHolders": "mg_34_with_patronentrommel_magazine"
         },
         "magazineSize": 75,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.92x57_mauser_tracer.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/7.92x57_mauser_tracer.blk"
         },
         "firingModes": {
             "mode": "full_auto"
@@ -12415,10 +12412,10 @@
     {
         "name": "mg_42_handheld",
         "rps": 15.0,
-        "dispersion": 0.68,
+        "dispersion": 0.48,
         "stat": "machine_gun",
         "type": "machine_gun",
-        "weight": 10.0,
+        "weight": 13.1,
         "locName": "MG 42",
         "magazineName": [
             {
@@ -12430,7 +12427,7 @@
         ],
         "magazineSize": 50,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.92x57_mauser_tracer.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/7.92x57_mauser_tracer.blk"
         },
         "firingModes": {
             "mode": "full_auto"
@@ -12460,7 +12457,7 @@
     {
         "name": "mg_45",
         "rps": 25.0,
-        "dispersion": 0.72,
+        "dispersion": 0.48,
         "stat": "machine_gun",
         "type": "machine_gun",
         "weight": 9.0,
@@ -12475,7 +12472,7 @@
         ],
         "magazineSize": 50,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.92x57_mauser_tracer.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/7.92x57_mauser_tracer.blk"
         },
         "firingModes": {
             "mode": "full_auto"
@@ -12515,7 +12512,7 @@
         },
         "magazineSize": 10,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.92x94_smkh_patronen.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/7.92x94_smkh_patronen.blk"
         },
         "firingModes": {
             "mode": "bolt_action"
@@ -12555,7 +12552,7 @@
         },
         "magazineSize": 20,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.92x94_smkh_patronen.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/7.92x94_smkh_patronen.blk"
         },
         "firingModes": {
             "mode": "bolt_action"
@@ -12595,7 +12592,7 @@
         },
         "magazineSize": 10,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.92x94_smkh_patronen.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/7.92x94_smkh_patronen.blk"
         },
         "firingModes": {
             "mode": "bolt_action"
@@ -12625,7 +12622,7 @@
     {
         "name": "wz_35",
         "rps": 0.55,
-        "dispersion": 0.22,
+        "dispersion": 0.05,
         "stat": "rifle",
         "type": "rifle",
         "weight": 10.0,
@@ -12635,7 +12632,7 @@
         },
         "magazineSize": 4,
         "bullets": {
-            "shells": "content/e_ww2_common/gamedata/weapons/bullets/7.92x107_p35.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/7.92x107_p35.blk"
         },
         "firingModes": {
             "mode": "bolt_action"
@@ -12675,7 +12672,7 @@
         },
         "magazineSize": null,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/shells/gross_panzergranate_46.blk"
+            "shells": "content/enlisted/gamedata/weapons/shells/gross_panzergranate_46.blk"
         },
         "firingModes": {
             "mode": "bolt_action"
@@ -12715,7 +12712,7 @@
         },
         "magazineSize": null,
         "bullets": {
-            "shells": "content/e_ww2_common/gamedata/weapons/shells/rpzb_gr_4992.blk"
+            "shells": "content/enlisted/gamedata/weapons/shells/rpzb_gr_4992.blk"
         },
         "firingModes": {
             "mode": "bolt_action"
@@ -12755,7 +12752,7 @@
         },
         "magazineSize": null,
         "bullets": {
-            "shells": "content/e_ww2_common/gamedata/weapons/shells/rpzb_gr_4322.blk"
+            "shells": "content/enlisted/gamedata/weapons/shells/rpzb_gr_4322.blk"
         },
         "firingModes": {
             "mode": "bolt_action"
@@ -12795,7 +12792,7 @@
         },
         "magazineSize": null,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/shells/rpzb_gr_4992.blk"
+            "shells": "content/enlisted/gamedata/weapons/shells/rpzb_gr_4992.blk"
         },
         "firingModes": {
             "mode": "bolt_action"
@@ -12835,7 +12832,7 @@
         },
         "magazineSize": null,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/shells/panzerfaust_100_shell.blk"
+            "shells": "content/enlisted/gamedata/weapons/shells/panzerfaust_100_shell.blk"
         },
         "firingModes": {
             "mode": "semi_auto"
@@ -12875,7 +12872,7 @@
         },
         "magazineSize": null,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/shells/panzerfaust_60_shell.blk"
+            "shells": "content/enlisted/gamedata/weapons/shells/panzerfaust_60_shell.blk"
         },
         "firingModes": {
             "mode": "semi_auto"
@@ -12915,7 +12912,7 @@
         },
         "magazineSize": null,
         "bullets": {
-            "shells": "content/e_ww2_common/gamedata/weapons/shells/wurfgranate_326.blk"
+            "shells": "content/enlisted/gamedata/weapons/shells/wurfgranate_326.blk"
         },
         "firingModes": {
             "mode": "bolt_action"
@@ -12955,7 +12952,7 @@
         },
         "magazineSize": null,
         "bullets": {
-            "shells": "content/e_ww2_common/gamedata/weapons/shells/sprengpatrone.blk"
+            "shells": "content/enlisted/gamedata/weapons/shells/sprengpatrone.blk"
         },
         "firingModes": {
             "mode": "bolt_action"
@@ -12995,7 +12992,7 @@
         },
         "magazineSize": null,
         "bullets": {
-            "shells": "content/e_ww2_common/gamedata/weapons/shells/wurfkorper_361.blk"
+            "shells": "content/enlisted/gamedata/weapons/shells/wurfkorper_361.blk"
         },
         "firingModes": {
             "mode": "bolt_action"
@@ -13035,7 +13032,7 @@
         },
         "magazineSize": null,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/shells/panzerwurfkorper_42.blk"
+            "shells": "content/enlisted/gamedata/weapons/shells/panzerwurfkorper_42.blk"
         },
         "firingModes": {
             "mode": "bolt_action"
@@ -13081,10 +13078,10 @@
         "magazineSize": null,
         "bullets": [
             {
-                "shells": "content/enlisted/gamedata/weapons_enlisted/shells/8cm_wgr_39.blk"
+                "shells": "content/enlisted/gamedata/weapons/shells/8cm_wgr_39.blk"
             },
             {
-                "shells": "content/enlisted/gamedata/weapons_enlisted/shells/8cm_wgr_39_smoke.blk"
+                "shells": "content/enlisted/gamedata/weapons/shells/8cm_wgr_39_smoke.blk"
             }
         ],
         "firingModes": {
@@ -13131,10 +13128,10 @@
         "magazineSize": null,
         "bullets": [
             {
-                "shells": "content/enlisted/gamedata/weapons_enlisted/shells/wrg_36.blk"
+                "shells": "content/enlisted/gamedata/weapons/shells/wrg_36.blk"
             },
             {
-                "shells": "content/enlisted/gamedata/weapons_enlisted/shells/wrg_36_smoke.blk"
+                "shells": "content/enlisted/gamedata/weapons/shells/wrg_36_smoke.blk"
             }
         ],
         "firingModes": {
@@ -13181,10 +13178,10 @@
         "magazineSize": null,
         "bullets": [
             {
-                "shells": "content/enlisted/gamedata/weapons_enlisted/shells/8cm_wgr_39.blk"
+                "shells": "content/enlisted/gamedata/weapons/shells/8cm_wgr_39.blk"
             },
             {
-                "shells": "content/enlisted/gamedata/weapons_enlisted/shells/8cm_wgr_39_smoke.blk"
+                "shells": "content/enlisted/gamedata/weapons/shells/8cm_wgr_39_smoke.blk"
             }
         ],
         "firingModes": {
@@ -13220,26 +13217,12 @@
         "type": "flamethrower",
         "weight": 36.3,
         "locName": "Flamethrower",
-        "magazineName": [
-            {
-                "ammoHolders": "flamethrower_fuel_tank_light"
-            },
-            {
-                "ammoHolders": "jp_flamethrower_fuel_tank_light"
-            },
-            {
-                "ammoHolders": "uk_flamethrower_fuel_tank_light"
-            },
-            {
-                "ammoHolders": "flamethrower_fuel_tank"
-            },
-            {
-                "ammoHolders": "jp_flamethrower_fuel_tank"
-            }
-        ],
-        "magazineSize": 200,
+        "magazineName": {
+            "ammoHolders": "flamethrower_fuel_tank"
+        },
+        "magazineSize": 300,
         "bullets": {
-            "shells": "content/e_ww2_common/gamedata/weapons/bullets/flamethrower_dummy.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/flamethrower_dummy.blk"
         },
         "firingModes": {
             "mode": "full_auto"
@@ -13293,7 +13276,7 @@
         ],
         "magazineSize": 200,
         "bullets": {
-            "shells": "content/e_ww2_common/gamedata/weapons/bullets/flamethrower_dummy.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/flamethrower_dummy.blk"
         },
         "firingModes": {
             "mode": "full_auto"
@@ -13347,7 +13330,7 @@
         ],
         "magazineSize": 200,
         "bullets": {
-            "shells": "content/e_ww2_common/gamedata/weapons/bullets/flamethrower_dummy.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/flamethrower_dummy.blk"
         },
         "firingModes": {
             "mode": "full_auto"
@@ -13387,7 +13370,7 @@
         },
         "magazineSize": 5000,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.92x57_mauser_tracer.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/7.92x57_mauser_tracer.blk"
         },
         "firingModes": null,
         "singleReloadPrep": null,
@@ -13425,7 +13408,7 @@
         },
         "magazineSize": 5000,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.92x57_mauser_tracer.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/7.92x57_mauser_tracer.blk"
         },
         "firingModes": null,
         "singleReloadPrep": null,
@@ -13463,7 +13446,7 @@
         },
         "magazineSize": 5000,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/30_06_springfield_tracer.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/30_06_springfield_tracer.blk"
         },
         "firingModes": null,
         "singleReloadPrep": null,
@@ -13501,7 +13484,7 @@
         },
         "magazineSize": 5000,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.7x58_arisaka_tracer.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/7.7x58_arisaka_tracer.blk"
         },
         "firingModes": null,
         "singleReloadPrep": null,
@@ -13539,7 +13522,7 @@
         },
         "magazineSize": 5000,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.62x54_r_tracer.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/7.62x54_r_tracer.blk"
         },
         "firingModes": null,
         "singleReloadPrep": null,
@@ -13577,7 +13560,7 @@
         },
         "magazineSize": 5000,
         "bullets": {
-            "shells": "content/e_ww2_common/gamedata/weapons/bullets/105mm.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/105mm.blk"
         },
         "firingModes": {
             "mode": "semi_auto"
@@ -13617,7 +13600,7 @@
         },
         "magazineSize": 5000,
         "bullets": {
-            "shells": "content/e_ww2_common/gamedata/weapons/bullets/105mm.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/105mm.blk"
         },
         "firingModes": {
             "mode": "semi_auto"
@@ -14065,7 +14048,7 @@
         },
         "magazineSize": 8,
         "bullets": {
-            "shells": "content/e_ww2_common/gamedata/weapons/bullets/8x22_nambu_pistol.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/8x22_nambu_pistol.blk"
         },
         "firingModes": {
             "mode": "semi_auto"
@@ -14105,7 +14088,7 @@
         },
         "magazineSize": 8,
         "bullets": {
-            "shells": "content/e_ww2_common/gamedata/weapons/bullets/8x22_nambu_pistol.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/8x22_nambu_pistol.blk"
         },
         "firingModes": {
             "mode": "semi_auto"
@@ -14145,7 +14128,7 @@
         },
         "magazineSize": 9,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.65x17_browning_pistol.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/7.65x17_browning_pistol.blk"
         },
         "firingModes": {
             "mode": "semi_auto"
@@ -14185,7 +14168,7 @@
         },
         "magazineSize": 6,
         "bullets": {
-            "shells": "content/e_ww2_common/gamedata/weapons/bullets/8x22_nambu_pistol.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/8x22_nambu_pistol.blk"
         },
         "firingModes": {
             "mode": "semi_auto"
@@ -14225,7 +14208,7 @@
         },
         "magazineSize": 6,
         "bullets": {
-            "shells": "content/e_ww2_common/gamedata/weapons/bullets/8x22_nambu_pistol.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/8x22_nambu_pistol.blk"
         },
         "firingModes": {
             "mode": "semi_auto"
@@ -14265,7 +14248,7 @@
         },
         "magazineSize": 5,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/6.5x50_arisaka_sniper.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/6.5x50_arisaka_sniper.blk"
         },
         "firingModes": {
             "mode": "bolt_action"
@@ -14309,7 +14292,7 @@
         },
         "magazineSize": 5,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.7x58_arisaka.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/7.7x58_arisaka.blk"
         },
         "firingModes": {
             "mode": "bolt_action"
@@ -14353,7 +14336,7 @@
         },
         "magazineSize": 5,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/6.5x50_arisaka_carbine.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/6.5x50_arisaka_carbine.blk"
         },
         "firingModes": {
             "mode": "bolt_action"
@@ -14398,7 +14381,7 @@
         },
         "magazineSize": 5,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/6.5x50_arisaka_semiauto.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/6.5x50_arisaka_semiauto.blk"
         },
         "firingModes": {
             "mode": "semi_auto"
@@ -14443,7 +14426,7 @@
         },
         "magazineSize": 10,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/6.5x50_arisaka_semiauto.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/6.5x50_arisaka_semiauto.blk"
         },
         "firingModes": {
             "mode": "semi_auto"
@@ -14488,7 +14471,7 @@
         },
         "magazineSize": 10,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/6.5x50_arisaka_semiauto.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/6.5x50_arisaka_semiauto.blk"
         },
         "firingModes": {
             "mode": "semi_auto"
@@ -14533,7 +14516,7 @@
         },
         "magazineSize": 30,
         "bullets": {
-            "shells": "content/e_ww2_common/gamedata/weapons/bullets/8x22_nambu_smg.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/8x22_nambu_smg.blk"
         },
         "firingModes": {
             "mode": "full_auto"
@@ -14578,7 +14561,7 @@
         },
         "magazineSize": 30,
         "bullets": {
-            "shells": "content/e_ww2_common/gamedata/weapons/bullets/8x22_nambu_smg.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/8x22_nambu_smg.blk"
         },
         "firingModes": {
             "mode": "full_auto"
@@ -14623,7 +14606,7 @@
         },
         "magazineSize": 30,
         "bullets": {
-            "shells": "content/e_ww2_common/gamedata/weapons/bullets/8x22_nambu_smg.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/8x22_nambu_smg.blk"
         },
         "firingModes": {
             "mode": "full_auto"
@@ -14668,7 +14651,7 @@
         },
         "magazineSize": 50,
         "bullets": {
-            "shells": "content/e_ww2_common/gamedata/weapons/bullets/8x22_nambu_smg.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/8x22_nambu_smg.blk"
         },
         "firingModes": [
             {
@@ -14716,7 +14699,7 @@
         },
         "magazineSize": 50,
         "bullets": {
-            "shells": "content/e_ww2_common/gamedata/weapons/bullets/8x22_nambu_smg.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/8x22_nambu_smg.blk"
         },
         "firingModes": [
             {
@@ -14764,7 +14747,7 @@
         },
         "magazineSize": 30,
         "bullets": {
-            "shells": "content/e_ww2_common/gamedata/weapons/bullets/8x22_nambu_smg.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/8x22_nambu_smg.blk"
         },
         "firingModes": [
             {
@@ -14836,7 +14819,7 @@
     {
         "name": "type_11_lmg",
         "rps": 8.33,
-        "dispersion": 0.45,
+        "dispersion": 0.38,
         "stat": "machine_gun",
         "type": "machine_gun",
         "weight": 10.2,
@@ -14846,7 +14829,7 @@
         },
         "magazineSize": 30,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/6.5x50_arisaka_tracer.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/6.5x50_arisaka_tracer.blk"
         },
         "firingModes": {
             "mode": "full_auto"
@@ -14876,7 +14859,7 @@
     {
         "name": "nambu_type_96_lmg",
         "rps": 9.167,
-        "dispersion": 0.34,
+        "dispersion": 0.31,
         "stat": "machine_gun",
         "type": "machine_gun",
         "weight": 10.6,
@@ -14886,7 +14869,7 @@
         },
         "magazineSize": 30,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/6.5x50_arisaka_tracer.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/6.5x50_arisaka_tracer.blk"
         },
         "firingModes": {
             "mode": "full_auto"
@@ -14921,7 +14904,7 @@
     {
         "name": "nambu_type_97_lmg",
         "rps": 9.167,
-        "dispersion": 0.35,
+        "dispersion": 0.31,
         "stat": "machine_gun",
         "type": "machine_gun",
         "weight": 12.4,
@@ -14931,7 +14914,7 @@
         },
         "magazineSize": 20,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.7x58_arisaka_tracer.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/7.7x58_arisaka_tracer.blk"
         },
         "firingModes": {
             "mode": "full_auto"
@@ -14971,7 +14954,7 @@
         },
         "magazineSize": 7,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/20x125mm_kokura.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/20x125mm_kokura.blk"
         },
         "firingModes": {
             "mode": "semi_auto"
@@ -15011,7 +14994,7 @@
         },
         "magazineSize": 7,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/20x125mm_kokura.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/20x125mm_kokura.blk"
         },
         "firingModes": {
             "mode": "semi_auto"
@@ -15051,7 +15034,7 @@
         },
         "magazineSize": null,
         "bullets": {
-            "shells": "content/e_ww2_common/gamedata/weapons/shells/type_5_rocket.blk"
+            "shells": "content/enlisted/gamedata/weapons/shells/type_5_rocket.blk"
         },
         "firingModes": {
             "mode": "semi_auto"
@@ -15105,7 +15088,7 @@
         ],
         "magazineSize": 200,
         "bullets": {
-            "shells": "content/e_ww2_common/gamedata/weapons/bullets/flamethrower_dummy.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/flamethrower_dummy.blk"
         },
         "firingModes": {
             "mode": "full_auto"
@@ -15159,7 +15142,7 @@
         ],
         "magazineSize": 200,
         "bullets": {
-            "shells": "content/e_ww2_common/gamedata/weapons/bullets/flamethrower_dummy.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/flamethrower_dummy.blk"
         },
         "firingModes": {
             "mode": "full_auto"
@@ -15207,7 +15190,7 @@
         ],
         "magazineSize": 30,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/9x19_parabellum_pistol.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/9x19_parabellum_pistol.blk"
         },
         "firingModes": [
             {
@@ -15228,7 +15211,7 @@
         "reloadSingle": false,
         "recoilAmount": 0.048,
         "recoilDir": 0.4,
-        "recoilDirAmount": 0.5,
+        "recoilDirAmount": 0.67,
         "visualRecoilMult": 1.0,
         "recoilControlMult": 0.5,
         "recoilOffsetMult": 0.3,
@@ -15252,7 +15235,7 @@
         },
         "magazineSize": 5000,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/12.7x99_bmj.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/12.7x99_bmj.blk"
         },
         "firingModes": null,
         "singleReloadPrep": null,
@@ -15290,7 +15273,7 @@
         },
         "magazineSize": 5000,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/13x64_pzgr.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/13x64_pzgr.blk"
         },
         "firingModes": null,
         "singleReloadPrep": null,
@@ -15328,7 +15311,7 @@
         },
         "magazineSize": 5000,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/12.7x108_b32.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/12.7x108_b32.blk"
         },
         "firingModes": null,
         "singleReloadPrep": null,
@@ -15366,7 +15349,7 @@
         },
         "magazineSize": 5000,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/13.2x99_hotchkiss.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/13.2x99_hotchkiss.blk"
         },
         "firingModes": null,
         "singleReloadPrep": null,
@@ -15404,7 +15387,7 @@
         },
         "magazineSize": null,
         "bullets": {
-            "shells": "content/e_ww2_common/gamedata/weapons/shells/type_4_at_7cm.blk"
+            "shells": "content/enlisted/gamedata/weapons/shells/type_4_at_7cm.blk"
         },
         "firingModes": {
             "mode": "bolt_action"
@@ -15434,7 +15417,7 @@
     {
         "name": "fedorov_mg",
         "rps": 9.5,
-        "dispersion": 0.25,
+        "dispersion": 0.23,
         "stat": "machine_gun",
         "type": "machine_gun",
         "weight": 5.5,
@@ -15444,7 +15427,7 @@
         },
         "magazineSize": 25,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/6.5x50_arisaka_semiauto.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/6.5x50_arisaka_semiauto.blk"
         },
         "firingModes": [
             {
@@ -15479,7 +15462,7 @@
     {
         "name": "mg_42_handheld_early",
         "rps": 16.0,
-        "dispersion": 0.65,
+        "dispersion": 0.47,
         "stat": "machine_gun",
         "type": "machine_gun",
         "weight": 10.0,
@@ -15494,7 +15477,7 @@
         ],
         "magazineSize": 50,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.92x57_mauser_tracer.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/7.92x57_mauser_tracer.blk"
         },
         "firingModes": {
             "mode": "full_auto"
@@ -15539,7 +15522,7 @@
         ],
         "magazineSize": 5,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/30_06_springfield_semiauto.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/30_06_springfield_semiauto.blk"
         },
         "firingModes": {
             "mode": "semi_auto"
@@ -15573,6 +15556,51 @@
         "flamethrowerMaxLength": null
     },
     {
+        "name": "coenders_smg",
+        "rps": 16.6,
+        "dispersion": 0.8,
+        "stat": "submachine_gun",
+        "type": "submachine_gun",
+        "weight": 3.5,
+        "locName": "August Coenders SMG",
+        "magazineName": [
+            {
+                "ammoHolder": "coenders_smg_beltfed_magazine"
+            },
+            {
+                "ammoHolder": "9mm19_parabellum_handful"
+            }
+        ],
+        "magazineSize": 100,
+        "bullets": {
+            "shells": "content/enlisted/gamedata/weapons/bullets/9x19_parabellum_smg.blk"
+        },
+        "firingModes": {
+            "mode": "full_auto"
+        },
+        "singleReloadPrep": null,
+        "singleReloadLoop": null,
+        "singleReloadPost": null,
+        "reload": 5.7,
+        "altReload": null,
+        "dualMagReload": null,
+        "proneRecoilMult": 0.8,
+        "zeroDist": 0.25,
+        "reloadSingle": false,
+        "recoilAmount": 0.045,
+        "recoilDir": 0.3,
+        "recoilDirAmount": 0.68,
+        "visualRecoilMult": 1.5,
+        "recoilControlMult": 0.4,
+        "recoilOffsetMult": 0.3,
+        "mods": null,
+        "adsSpeedMult": 0.8,
+        "damageMult": null,
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
+    },
+    {
         "name": "carcano_m38",
         "rps": 0.9,
         "dispersion": 0.17,
@@ -15585,7 +15613,7 @@
         },
         "magazineSize": 6,
         "bullets": {
-            "shells": "content/e_tunisia/gamedata/weapons/bullets/6.5x52_carcano.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/6.5x52_carcano.blk"
         },
         "firingModes": {
             "mode": "bolt_action"
@@ -15629,7 +15657,7 @@
         },
         "magazineSize": 6,
         "bullets": {
-            "shells": "content/e_tunisia/gamedata/weapons/bullets/7.35x51_carcano.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/7.35x51_carcano.blk"
         },
         "firingModes": {
             "mode": "bolt_action"
@@ -15673,7 +15701,7 @@
         },
         "magazineSize": 6,
         "bullets": {
-            "shells": "content/e_tunisia/gamedata/weapons/bullets/7.35x51_carcano_ap.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/7.35x51_carcano_ap.blk"
         },
         "firingModes": {
             "mode": "bolt_action"
@@ -15717,7 +15745,7 @@
         },
         "magazineSize": 6,
         "bullets": {
-            "shells": "content/e_tunisia/gamedata/weapons/bullets/6.5x52_carcano.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/6.5x52_carcano.blk"
         },
         "firingModes": {
             "mode": "bolt_action"
@@ -15761,7 +15789,7 @@
         },
         "magazineSize": 6,
         "bullets": {
-            "shells": "content/e_tunisia/gamedata/weapons/bullets/6.5x52_carcano_long.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/6.5x52_carcano_long.blk"
         },
         "firingModes": {
             "mode": "bolt_action"
@@ -15805,7 +15833,7 @@
         },
         "magazineSize": 6,
         "bullets": {
-            "shells": "content/e_tunisia/gamedata/weapons/bullets/6.5x52_carcano_long.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/6.5x52_carcano_long.blk"
         },
         "firingModes": {
             "mode": "bolt_action"
@@ -15849,7 +15877,7 @@
         },
         "magazineSize": 6,
         "bullets": {
-            "shells": "content/e_tunisia/gamedata/weapons/bullets/6.5x52_carcano.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/6.5x52_carcano.blk"
         },
         "firingModes": {
             "mode": "bolt_action"
@@ -15889,7 +15917,7 @@
         },
         "magazineSize": 10,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/303_british_mk7.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/303_british_mk7.blk"
         },
         "firingModes": {
             "mode": "bolt_action"
@@ -15933,7 +15961,7 @@
         },
         "magazineSize": 6,
         "bullets": {
-            "shells": "content/e_tunisia/gamedata/weapons/bullets/6.5x52_carcano_semiauto.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/6.5x52_carcano_semiauto.blk"
         },
         "firingModes": {
             "mode": "semi_auto"
@@ -15973,7 +16001,7 @@
         },
         "magazineSize": 6,
         "bullets": {
-            "shells": "content/e_tunisia/gamedata/weapons/bullets/6.5x52_carcano_semiauto.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/6.5x52_carcano_semiauto.blk"
         },
         "firingModes": {
             "mode": "semi_auto"
@@ -16013,7 +16041,7 @@
         },
         "magazineSize": 6,
         "bullets": {
-            "shells": "content/e_tunisia/gamedata/weapons/bullets/8x59_breda_semiauto.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/8x59_breda_semiauto.blk"
         },
         "firingModes": {
             "mode": "semi_auto"
@@ -16053,7 +16081,7 @@
         },
         "magazineSize": 10,
         "bullets": {
-            "shells": "content/e_tunisia/gamedata/weapons/bullets/8x59_breda_semiauto.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/8x59_breda_semiauto.blk"
         },
         "firingModes": {
             "mode": "semi_auto"
@@ -16093,7 +16121,7 @@
         },
         "magazineSize": 6,
         "bullets": {
-            "shells": "content/e_tunisia/gamedata/weapons/bullets/6.5x52_carcano_semiauto.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/6.5x52_carcano_semiauto.blk"
         },
         "firingModes": {
             "mode": "semi_auto"
@@ -16133,7 +16161,7 @@
         },
         "magazineSize": 25,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/9x19_parabellum_smg.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/9x19_parabellum_smg.blk"
         },
         "firingModes": {
             "mode": "semi_auto"
@@ -16173,7 +16201,7 @@
         },
         "magazineSize": 20,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/9x19_parabellum_carbine.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/9x19_parabellum_carbine.blk"
         },
         "firingModes": {
             "mode": "semi_auto"
@@ -16213,7 +16241,7 @@
         },
         "magazineSize": 20,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/9x19_parabellum_carbine.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/9x19_parabellum_carbine.blk"
         },
         "firingModes": {
             "mode": "semi_auto"
@@ -16253,7 +16281,7 @@
         },
         "magazineSize": 10,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/303_british_mk7.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/303_british_mk7.blk"
         },
         "firingModes": {
             "mode": "semi_auto"
@@ -16293,7 +16321,7 @@
         },
         "magazineSize": 40,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/9x19_parabellum_smg.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/9x19_parabellum_smg.blk"
         },
         "firingModes": [
             {
@@ -16338,7 +16366,7 @@
         },
         "magazineSize": 40,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/9x19_parabellum_smg.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/9x19_parabellum_smg.blk"
         },
         "firingModes": [
             {
@@ -16383,7 +16411,7 @@
         },
         "magazineSize": 25,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/9x19_parabellum_carbine.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/9x19_parabellum_carbine.blk"
         },
         "firingModes": [
             {
@@ -16428,7 +16456,7 @@
         },
         "magazineSize": 40,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/9x19_parabellum_smg.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/9x19_parabellum_smg.blk"
         },
         "firingModes": [
             {
@@ -16473,7 +16501,7 @@
         },
         "magazineSize": 30,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/11.51x23_browning_smg.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/11.51x23_browning_smg.blk"
         },
         "firingModes": [
             {
@@ -16518,7 +16546,7 @@
         },
         "magazineSize": 32,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/9x19_parabellum_pistol.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/9x19_parabellum_pistol.blk"
         },
         "firingModes": [
             {
@@ -16539,9 +16567,9 @@
         "reloadSingle": false,
         "recoilAmount": 0.051,
         "recoilDir": 0.4,
-        "recoilDirAmount": 0.58,
+        "recoilDirAmount": 0.65,
         "visualRecoilMult": 1.6,
-        "recoilControlMult": 0.4,
+        "recoilControlMult": 0.3,
         "recoilOffsetMult": 0.3,
         "mods": null,
         "adsSpeedMult": 0.8,
@@ -16563,7 +16591,7 @@
         },
         "magazineSize": 33,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/9x19_parabellum_smg.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/9x19_parabellum_smg.blk"
         },
         "firingModes": {
             "mode": "full_auto"
@@ -16603,7 +16631,7 @@
         },
         "magazineSize": 7,
         "bullets": {
-            "shells": "content/e_tunisia/gamedata/weapons/bullets/9x19_glisenti_pistol.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/9x19_glisenti_pistol.blk"
         },
         "firingModes": {
             "mode": "semi_auto"
@@ -16643,7 +16671,7 @@
         },
         "magazineSize": 7,
         "bullets": {
-            "shells": "content/e_tunisia/gamedata/weapons/bullets/9x17_corto_pistol.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/9x17_corto_pistol.blk"
         },
         "firingModes": {
             "mode": "semi_auto"
@@ -16683,7 +16711,7 @@
         },
         "magazineSize": 7,
         "bullets": {
-            "shells": "content/e_tunisia/gamedata/weapons/bullets/9x17_corto_pistol.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/9x17_corto_pistol.blk"
         },
         "firingModes": {
             "mode": "semi_auto"
@@ -16723,7 +16751,7 @@
         },
         "magazineSize": 6,
         "bullets": {
-            "shells": "content/e_tunisia/gamedata/weapons/bullets/455_webley_mk6_pistol.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/455_webley_mk6_pistol.blk"
         },
         "firingModes": {
             "mode": "semi_auto"
@@ -16763,7 +16791,7 @@
         },
         "magazineSize": 6,
         "bullets": {
-            "shells": "content/e_tunisia/gamedata/weapons/bullets/455_webley_mk6_pistol.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/455_webley_mk6_pistol.blk"
         },
         "firingModes": {
             "mode": "semi_auto"
@@ -16803,7 +16831,7 @@
         },
         "magazineSize": 6,
         "bullets": {
-            "shells": "content/e_tunisia/gamedata/weapons/bullets/9x20_380_sw_short_pistol.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/9x20_380_sw_short_pistol.blk"
         },
         "firingModes": {
             "mode": "semi_auto"
@@ -16833,7 +16861,7 @@
     {
         "name": "bren_mk1",
         "rps": 8.03,
-        "dispersion": 0.4,
+        "dispersion": 0.35,
         "stat": "machine_gun",
         "type": "machine_gun",
         "weight": 8.33,
@@ -16843,7 +16871,7 @@
         },
         "magazineSize": 30,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/303_british_mk7_tracer.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/303_british_mk7_tracer.blk"
         },
         "firingModes": {
             "mode": "full_auto"
@@ -16873,7 +16901,7 @@
     {
         "name": "besal_lmg",
         "rps": 10.0,
-        "dispersion": 0.4,
+        "dispersion": 0.35,
         "stat": "machine_gun",
         "type": "machine_gun",
         "weight": 9.8,
@@ -16883,7 +16911,7 @@
         },
         "magazineSize": 30,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/303_british_mk7_tracer.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/303_british_mk7_tracer.blk"
         },
         "firingModes": {
             "mode": "full_auto"
@@ -16913,7 +16941,7 @@
     {
         "name": "charlton_automatic_rifle",
         "rps": 6.5,
-        "dispersion": 0.4,
+        "dispersion": 0.35,
         "stat": "machine_gun",
         "type": "machine_gun",
         "weight": 7.5,
@@ -16923,7 +16951,7 @@
         },
         "magazineSize": 30,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/303_british_mk7_tracer.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/303_british_mk7_tracer.blk"
         },
         "firingModes": {
             "mode": "full_auto"
@@ -16963,7 +16991,7 @@
         },
         "magazineSize": 10,
         "bullets": {
-            "shells": "content/e_tunisia/gamedata/weapons/bullets/20x105_b_solosthurn.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/20x105_b_solosthurn.blk"
         },
         "firingModes": {
             "mode": "semi_auto"
@@ -17003,7 +17031,7 @@
         },
         "magazineSize": 5,
         "bullets": {
-            "shells": "content/e_tunisia/gamedata/weapons/bullets/13.9x99_boys.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/13.9x99_boys.blk"
         },
         "firingModes": {
             "mode": "bolt_action"
@@ -17033,7 +17061,7 @@
     {
         "name": "vickers_berthier",
         "rps": 7.33,
-        "dispersion": 0.47,
+        "dispersion": 0.39,
         "stat": "machine_gun",
         "type": "machine_gun",
         "weight": 10.4,
@@ -17043,7 +17071,7 @@
         },
         "magazineSize": 30,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/303_british_mk7_tracer.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/303_british_mk7_tracer.blk"
         },
         "firingModes": [
             {
@@ -17088,7 +17116,7 @@
         },
         "magazineSize": 10,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/303_british_mk7.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/303_british_mk7.blk"
         },
         "firingModes": {
             "mode": "bolt_action"
@@ -17172,7 +17200,7 @@
         },
         "magazineSize": 5,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.92x57_mauser_carbine.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/7.92x57_mauser_carbine.blk"
         },
         "firingModes": {
             "mode": "bolt_action"
@@ -17222,7 +17250,7 @@
         },
         "magazineSize": 5,
         "bullets": {
-            "shells": "content/e_tunisia/gamedata/weapons/bullets/6.5x52_carcano_long.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/6.5x52_carcano_long.blk"
         },
         "firingModes": {
             "mode": "bolt_action"
@@ -17266,7 +17294,7 @@
         },
         "magazineSize": 32,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/9x19_parabellum_smg.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/9x19_parabellum_smg.blk"
         },
         "firingModes": [
             {
@@ -17311,7 +17339,7 @@
         },
         "magazineSize": 71,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.63x25_mauser_smg.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/7.63x25_mauser_smg.blk"
         },
         "firingModes": [
             {
@@ -17356,7 +17384,7 @@
         },
         "magazineSize": 35,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.62x25_tokarev_smg.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/7.62x25_tokarev_smg.blk"
         },
         "firingModes": {
             "mode": "full_auto"
@@ -17401,7 +17429,7 @@
         ],
         "magazineSize": 35,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.62x25_tokarev_smg.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/7.62x25_tokarev_smg.blk"
         },
         "firingModes": {
             "mode": "full_auto"
@@ -17441,7 +17469,7 @@
         },
         "magazineSize": 71,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.62x25_tokarev_smg.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/7.62x25_tokarev_smg.blk"
         },
         "firingModes": [
             {
@@ -17476,10 +17504,10 @@
     {
         "name": "stl_mg_42_handheld",
         "rps": 15.0,
-        "dispersion": 0.68,
+        "dispersion": 0.48,
         "stat": "machine_gun",
         "type": "machine_gun",
-        "weight": 10.0,
+        "weight": 13.1,
         "locName": "MG 42",
         "magazineName": [
             {
@@ -17491,7 +17519,7 @@
         ],
         "magazineSize": 50,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons_enlisted/bullets/7.92x57_mauser_tracer.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/7.92x57_mauser_tracer.blk"
         },
         "firingModes": {
             "mode": "full_auto"
@@ -17531,7 +17559,7 @@
         },
         "magazineSize": null,
         "bullets": {
-            "shells": "content/e_stalingrad/gamedata/weapons/shells/ampula_shell.blk"
+            "shells": "content/enlisted/gamedata/weapons/shells/ampula_shell.blk"
         },
         "firingModes": null,
         "singleReloadPrep": null,

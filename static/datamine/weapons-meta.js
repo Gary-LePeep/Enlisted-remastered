@@ -375,6 +375,9 @@ const STARUPGRADES = {
         { recoilVert: 0.85, recoilHoriz: 0.85 },
         { damage: 1.10, dev: 0.7225 },
     ],
+    explosive: [
+        {},
+    ],
     flamethrower: [
         {},
     ],
