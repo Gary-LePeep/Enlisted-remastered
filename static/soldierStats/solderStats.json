@@ -224,5 +224,13 @@
         "perk": "perk.repair_speed",
         "value": 0.07
       }
+    ],
+    [
+      {
+        "name": "class.paratrooper#I",
+        "stats": [0, 0, 0],
+        "perk": "",
+        "value": 0.0
+      }
     ]
   ]
