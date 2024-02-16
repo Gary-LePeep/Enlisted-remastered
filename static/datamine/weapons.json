@@ -438,7 +438,7 @@
         "dualMagReload": null,
         "proneRecoilMult": null,
         "zeroDist": 0.05,
-        "reloadSingle": true,
+        "reloadSingle": false,
         "recoilAmount": 0.2,
         "recoilDir": 0.15,
         "recoilDirAmount": 0.64,
@@ -448,7 +448,7 @@
         "mods": null,
         "adsSpeedMult": 0.8,
         "damageMult": null,
-        "sightsMag": 1.0,
+        "sightsMag": 2.0,
         "flamethrowerDPS": null,
         "flamethrowerMaxLength": null
     },
@@ -802,8 +802,8 @@
     },
     {
         "name": "nagant_m1895",
-        "rps": 1.5,
-        "dispersion": 0.7,
+        "rps": 3.0,
+        "dispersion": 0.4,
         "stat": "pistol",
         "type": "pistol",
         "weight": 0.88,
@@ -831,7 +831,7 @@
         "dualMagReload": null,
         "proneRecoilMult": null,
         "zeroDist": null,
-        "reloadSingle": true,
+        "reloadSingle": false,
         "recoilAmount": 0.054,
         "recoilDir": 0.0,
         "recoilDirAmount": 0.6,
@@ -847,8 +847,8 @@
     },
     {
         "name": "nagant_m1895_bramit",
-        "rps": 1.5,
-        "dispersion": 0.7,
+        "rps": 3.0,
+        "dispersion": 0.4,
         "stat": "pistol",
         "type": "pistol",
         "weight": 1.0,
@@ -876,7 +876,7 @@
         "dualMagReload": null,
         "proneRecoilMult": null,
         "zeroDist": null,
-        "reloadSingle": true,
+        "reloadSingle": false,
         "recoilAmount": 0.054,
         "recoilDir": 0.0,
         "recoilDirAmount": 0.6,
@@ -891,21 +891,56 @@
         "flamethrowerMaxLength": null
     },
     {
+        "name": "voevodin_pistol",
+        "rps": 6.0,
+        "dispersion": 0.76,
+        "stat": "pistol",
+        "type": "pistol",
+        "weight": 0.96,
+        "locName": "Voevodin pistol",
+        "magazineName": {
+            "ammoHolders": "voevodin_pistol_magazine"
+        },
+        "magazineSize": 18,
+        "bullets": {
+            "shells": "content/enlisted/gamedata/weapons/bullets/7.62x25_tokarev_pistol.blk"
+        },
+        "firingModes": {
+            "mode": "semi_auto"
+        },
+        "singleReloadPrep": null,
+        "singleReloadLoop": null,
+        "singleReloadPost": null,
+        "reload": 2.3,
+        "altReload": 1.7,
+        "dualMagReload": null,
+        "proneRecoilMult": null,
+        "zeroDist": null,
+        "reloadSingle": false,
+        "recoilAmount": 0.048,
+        "recoilDir": 0.0,
+        "recoilDirAmount": 0.64,
+        "visualRecoilMult": 1.0,
+        "recoilControlMult": null,
+        "recoilOffsetMult": null,
+        "mods": null,
+        "adsSpeedMult": 1.44,
+        "damageMult": 0.9623,
+        "sightsMag": 1.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
+    },
+    {
         "name": "winchester_1895",
         "rps": 1.1,
         "dispersion": 0.13,
         "stat": "rifle",
         "type": "rifle",
-        "weight": 5.0,
+        "weight": 4.1,
         "locName": "Winchester 1895",
-        "magazineName": [
-            {
-                "ammoHolders": "mosin_magazine"
-            },
-            {
-                "ammoHolders": "box_7_62_magazine"
-            }
-        ],
+        "magazineName": {
+            "ammoHolders": "mosin_magazine"
+        },
         "magazineSize": 5,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons/bullets/7.62x54_r.blk"
@@ -943,14 +978,9 @@
         "type": "rifle",
         "weight": 3.4,
         "locName": "Mosina",
-        "magazineName": [
-            {
-                "ammoHolders": "mosin_magazine"
-            },
-            {
-                "ammoHolders": "box_7_62_magazine"
-            }
-        ],
+        "magazineName": {
+            "ammoHolders": "mosin_magazine"
+        },
         "magazineSize": 5,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons/bullets/7.62x54_r_carbine_short.blk"
@@ -990,16 +1020,11 @@
         "dispersion": 0.15,
         "stat": "rifle",
         "type": "rifle",
-        "weight": 5.0,
+        "weight": 3.5,
         "locName": "Mosin M44 CArbine",
-        "magazineName": [
-            {
-                "ammoHolders": "mosin_magazine"
-            },
-            {
-                "ammoHolders": "box_7_62_magazine"
-            }
-        ],
+        "magazineName": {
+            "ammoHolders": "mosin_magazine"
+        },
         "magazineSize": 5,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons/bullets/7.62x54_r_carbine_short.blk"
@@ -1044,14 +1069,9 @@
         "type": "rifle",
         "weight": 3.5,
         "locName": "Mosina",
-        "magazineName": [
-            {
-                "ammoHolders": "mosin_magazine"
-            },
-            {
-                "ammoHolders": "box_7_62_magazine"
-            }
-        ],
+        "magazineName": {
+            "ammoHolders": "mosin_magazine"
+        },
         "magazineSize": 5,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons/bullets/7.62x54_r.blk"
@@ -1094,16 +1114,11 @@
         "dispersion": 0.11,
         "stat": "rifle",
         "type": "rifle",
-        "weight": 5.0,
+        "weight": 4.0,
         "locName": "Mosina",
-        "magazineName": [
-            {
-                "ammoHolders": "mosin_magazine"
-            },
-            {
-                "ammoHolders": "box_7_62_magazine"
-            }
-        ],
+        "magazineName": {
+            "ammoHolders": "mosin_magazine"
+        },
         "magazineSize": 5,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons/bullets/7.62x54_r.blk"
@@ -1143,7 +1158,7 @@
         "dispersion": 0.01,
         "stat": "sniper",
         "type": "rifle",
-        "weight": 5.0,
+        "weight": 4.0,
         "locName": "Mosina",
         "magazineName": [
             {
@@ -1163,12 +1178,12 @@
         "singleReloadPrep": 1.0,
         "singleReloadLoop": 0.9,
         "singleReloadPost": 1.1,
-        "reload": 3.5,
+        "reload": 6.6,
         "altReload": null,
         "dualMagReload": null,
         "proneRecoilMult": null,
         "zeroDist": null,
-        "reloadSingle": true,
+        "reloadSingle": false,
         "recoilAmount": 0.13,
         "recoilDir": 0.1,
         "recoilDirAmount": 0.8,
@@ -1196,7 +1211,7 @@
         "dispersion": 0.01,
         "stat": "rifle",
         "type": "rifle",
-        "weight": 5.0,
+        "weight": 4.0,
         "locName": "Mosina",
         "magazineName": [
             {
@@ -1216,12 +1231,12 @@
         "singleReloadPrep": 1.0,
         "singleReloadLoop": 0.9,
         "singleReloadPost": 1.1,
-        "reload": 3.5,
+        "reload": 6.6,
         "altReload": null,
         "dualMagReload": null,
         "proneRecoilMult": null,
         "zeroDist": null,
-        "reloadSingle": true,
+        "reloadSingle": false,
         "recoilAmount": 0.13,
         "recoilDir": 0.1,
         "recoilDirAmount": 0.8,
@@ -1251,14 +1266,9 @@
         "type": "rifle",
         "weight": 4.0,
         "locName": "Mosina",
-        "magazineName": [
-            {
-                "ammoHolders": "mosin_magazine"
-            },
-            {
-                "ammoHolders": "box_7_62_magazine"
-            }
-        ],
+        "magazineName": {
+            "ammoHolders": "mosin_magazine"
+        },
         "magazineSize": 5,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons/bullets/7.62x54_r.blk"
@@ -1300,14 +1310,9 @@
         "type": "rifle",
         "weight": 3.28,
         "locName": "Mosin~s carbine 1907",
-        "magazineName": [
-            {
-                "ammoHolders": "mosin_magazine"
-            },
-            {
-                "ammoHolders": "box_7_62_magazine"
-            }
-        ],
+        "magazineName": {
+            "ammoHolders": "mosin_magazine"
+        },
         "magazineSize": 5,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons/bullets/7.62x54_r_carbine_short.blk"
@@ -1352,14 +1357,9 @@
         "type": "rifle",
         "weight": 3.8,
         "locName": "Mosin~s Dragoon rifle 1891",
-        "magazineName": [
-            {
-                "ammoHolders": "mosin_magazine"
-            },
-            {
-                "ammoHolders": "box_7_62_magazine"
-            }
-        ],
+        "magazineName": {
+            "ammoHolders": "mosin_magazine"
+        },
         "magazineSize": 5,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons/bullets/7.62x54_r.blk"
@@ -1399,7 +1399,7 @@
         "dispersion": 0.12,
         "stat": "rifle",
         "type": "rifle",
-        "weight": 5.0,
+        "weight": 4.3,
         "locName": "Mosin~s Infantry rifle 1891",
         "magazineName": [
             {
@@ -1488,16 +1488,11 @@
         "dispersion": 0.14,
         "stat": "rifle",
         "type": "rifle",
-        "weight": 5.0,
+        "weight": 4.0,
         "locName": "Mosin~s rifle with Diakov~s grenade launcher mount",
-        "magazineName": [
-            {
-                "ammoHolders": "mosin_magazine"
-            },
-            {
-                "ammoHolders": "box_7_62_magazine"
-            }
-        ],
+        "magazineName": {
+            "ammoHolders": "mosin_magazine"
+        },
         "magazineSize": 5,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons/bullets/7.62x54_r.blk"
@@ -1539,14 +1534,9 @@
         "type": "rifle",
         "weight": 4.0,
         "locName": "Mosina",
-        "magazineName": [
-            {
-                "ammoHolders": "mosin_magazine"
-            },
-            {
-                "ammoHolders": "box_7_62_magazine"
-            }
-        ],
+        "magazineName": {
+            "ammoHolders": "mosin_magazine"
+        },
         "magazineSize": 5,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons/bullets/7.62x54_r.blk"
@@ -1790,6 +1780,50 @@
         "flamethrowerMaxLength": null
     },
     {
+        "name": "svt_40_with_drum",
+        "rps": 5.333,
+        "dispersion": 0.26,
+        "stat": "semiauto",
+        "type": "semiauto",
+        "weight": 4.2,
+        "locName": "SVT 40",
+        "magazineName": {
+            "ammoHolders": "svt_drum_magazine"
+        },
+        "magazineSize": 20,
+        "bullets": {
+            "shells": "content/enlisted/gamedata/weapons/bullets/7.62x54_r_semiauto.blk"
+        },
+        "firingModes": {
+            "mode": "semi_auto"
+        },
+        "singleReloadPrep": null,
+        "singleReloadLoop": null,
+        "singleReloadPost": null,
+        "reload": 3.3,
+        "altReload": 3.2,
+        "dualMagReload": null,
+        "proneRecoilMult": null,
+        "zeroDist": null,
+        "reloadSingle": false,
+        "recoilAmount": 0.128,
+        "recoilDir": 0.16,
+        "recoilDirAmount": 0.81,
+        "visualRecoilMult": 1.3,
+        "recoilControlMult": null,
+        "recoilOffsetMult": null,
+        "mods": {
+            "bayonet:object": {
+                "svt_40_bayonet": "svt_40_bayonet"
+            }
+        },
+        "adsSpeedMult": 0.76,
+        "damageMult": 1.06,
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
+    },
+    {
         "name": "akt_40",
         "rps": 10.0,
         "dispersion": 0.32,
@@ -1797,14 +1831,9 @@
         "type": "semiauto",
         "weight": 3.8,
         "locName": "AKT 40",
-        "magazineName": [
-            {
-                "ammoHolders": "svt_40_magazine"
-            },
-            {
-                "ammoHolders": "box_7_62_magazine"
-            }
-        ],
+        "magazineName": {
+            "ammoHolders": "svt_40_magazine"
+        },
         "magazineSize": 10,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons/bullets/7.62x54_r_semiauto_short.blk"
@@ -1851,14 +1880,9 @@
         "type": "semiauto",
         "weight": 3.8,
         "locName": "SKT 40",
-        "magazineName": [
-            {
-                "ammoHolders": "svt_40_magazine"
-            },
-            {
-                "ammoHolders": "box_7_62_magazine"
-            }
-        ],
+        "magazineName": {
+            "ammoHolders": "svt_40_magazine"
+        },
         "magazineSize": 10,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons/bullets/7.62x54_r_semiauto_short.blk"
@@ -2002,16 +2026,11 @@
         "dispersion": 0.26,
         "stat": "semiauto",
         "type": "semiauto",
-        "weight": 5.0,
+        "weight": 3.85,
         "locName": "AVT-40",
-        "magazineName": [
-            {
-                "ammoHolders": "avt_40_magazine"
-            },
-            {
-                "ammoHolders": "box_7_62_magazine"
-            }
-        ],
+        "magazineName": {
+            "ammoHolders": "avt_40_magazine"
+        },
         "magazineSize": 15,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons/bullets/7.62x54_r_semiauto.blk"
@@ -2046,6 +2065,99 @@
         },
         "adsSpeedMult": 0.8,
         "damageMult": 1.06,
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
+    },
+    {
+        "name": "at_44",
+        "rps": 9.167,
+        "dispersion": 0.65,
+        "stat": "assault_rifle",
+        "type": "assault_rifle",
+        "weight": 4.77,
+        "locName": "AT-44",
+        "magazineName": {
+            "ammoHolders": "at_44_magazine"
+        },
+        "magazineSize": 30,
+        "bullets": {
+            "shells": "content/enlisted/gamedata/weapons/bullets/7.62x39.blk"
+        },
+        "firingModes": [
+            {
+                "mode": "full_auto"
+            },
+            {
+                "mode": "semi_auto"
+            }
+        ],
+        "singleReloadPrep": null,
+        "singleReloadLoop": null,
+        "singleReloadPost": null,
+        "reload": 3.1,
+        "altReload": 2.6,
+        "dualMagReload": null,
+        "proneRecoilMult": 0.5,
+        "zeroDist": 0.3,
+        "reloadSingle": false,
+        "recoilAmount": 0.042,
+        "recoilDir": 0.1,
+        "recoilDirAmount": 0.78,
+        "visualRecoilMult": 1.4,
+        "recoilControlMult": 0.24,
+        "recoilOffsetMult": 0.24,
+        "mods": {
+            "bayonet:object": {
+                "svt_40_bayonet": "svt_40_bayonet"
+            }
+        },
+        "adsSpeedMult": 0.7,
+        "damageMult": null,
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
+    },
+    {
+        "name": "svd_38",
+        "rps": 5.333,
+        "dispersion": 0.08,
+        "stat": "semiauto",
+        "type": "semiauto",
+        "weight": 3.75,
+        "locName": "SVD 38",
+        "magazineName": {
+            "ammoHolders": "svd_38_magazine"
+        },
+        "magazineSize": 10,
+        "bullets": {
+            "shells": "content/enlisted/gamedata/weapons/bullets/7.62x54_r_semiauto.blk"
+        },
+        "firingModes": {
+            "mode": "semi_auto"
+        },
+        "singleReloadPrep": null,
+        "singleReloadLoop": null,
+        "singleReloadPost": null,
+        "reload": 2.6,
+        "altReload": 2.2,
+        "dualMagReload": null,
+        "proneRecoilMult": null,
+        "zeroDist": null,
+        "reloadSingle": false,
+        "recoilAmount": 0.132,
+        "recoilDir": 0.2,
+        "recoilDirAmount": 0.7,
+        "visualRecoilMult": 1.1,
+        "recoilControlMult": null,
+        "recoilOffsetMult": null,
+        "mods": {
+            "scope:object": {
+                "scope_uvp": "scope_uvp"
+            }
+        },
+        "adsSpeedMult": 0.75,
+        "damageMult": null,
         "sightsMag": 2.0,
         "flamethrowerDPS": null,
         "flamethrowerMaxLength": null
@@ -2181,6 +2293,55 @@
         "flamethrowerMaxLength": null
     },
     {
+        "name": "as_44_late",
+        "rps": 11.0,
+        "dispersion": 0.55,
+        "stat": "assault_rifle",
+        "type": "assault_rifle",
+        "weight": 6.0,
+        "locName": "Fedorov avtomat",
+        "magazineName": {
+            "ammoHolders": "as_44_magazine"
+        },
+        "magazineSize": 30,
+        "bullets": {
+            "shells": "content/enlisted/gamedata/weapons/bullets/7.62x39.blk"
+        },
+        "firingModes": [
+            {
+                "mode": "full_auto"
+            },
+            {
+                "mode": "semi_auto"
+            }
+        ],
+        "singleReloadPrep": null,
+        "singleReloadLoop": null,
+        "singleReloadPost": null,
+        "reload": 2.7,
+        "altReload": 2.3,
+        "dualMagReload": null,
+        "proneRecoilMult": 0.85,
+        "zeroDist": 0.3,
+        "reloadSingle": false,
+        "recoilAmount": 0.051,
+        "recoilDir": 0.3,
+        "recoilDirAmount": 0.8,
+        "visualRecoilMult": 1.3,
+        "recoilControlMult": 0.3,
+        "recoilOffsetMult": 0.3,
+        "mods": {
+            "bayonet:object": {
+                "svt_40_bayonet": "svt_40_bayonet"
+            }
+        },
+        "adsSpeedMult": 0.7,
+        "damageMult": null,
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
+    },
+    {
         "name": "toz_b",
         "rps": 4.0,
         "dispersion": 0.9,
@@ -2216,7 +2377,7 @@
         "mods": null,
         "adsSpeedMult": 0.8,
         "damageMult": null,
-        "sightsMag": 1.0,
+        "sightsMag": 2.0,
         "flamethrowerDPS": null,
         "flamethrowerMaxLength": null
     },
@@ -2228,14 +2389,9 @@
         "type": "submachine_gun",
         "weight": 2.8,
         "locName": "PPT-27",
-        "magazineName": [
-            {
-                "ammoHolders": "ppt_27_magazine"
-            },
-            {
-                "ammoHolders": "box_7_62_magazine"
-            }
-        ],
+        "magazineName": {
+            "ammoHolders": "ppt_27_magazine"
+        },
         "magazineSize": 21,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons/bullets/7.62x38_nagant_carbine.blk"
@@ -2720,6 +2876,46 @@
         "flamethrowerMaxLength": null
     },
     {
+        "name": "bezruchko_vysotsky_smg",
+        "rps": 10.833,
+        "dispersion": 0.87,
+        "stat": "submachine_gun",
+        "type": "submachine_gun",
+        "weight": 3.0,
+        "locName": "bezruchko_vysotsky_smg",
+        "magazineName": {
+            "ammoHolders": "pps_magazine"
+        },
+        "magazineSize": 35,
+        "bullets": {
+            "shells": "content/enlisted/gamedata/weapons/bullets/7.62x25_tokarev_smg.blk"
+        },
+        "firingModes": {
+            "mode": "full_auto"
+        },
+        "singleReloadPrep": null,
+        "singleReloadLoop": null,
+        "singleReloadPost": null,
+        "reload": 2.8,
+        "altReload": 2.3,
+        "dualMagReload": null,
+        "proneRecoilMult": 0.8,
+        "zeroDist": 0.15,
+        "reloadSingle": false,
+        "recoilAmount": 0.032,
+        "recoilDir": 0.33,
+        "recoilDirAmount": 0.71,
+        "visualRecoilMult": 1.3,
+        "recoilControlMult": 0.3,
+        "recoilOffsetMult": 0.3,
+        "mods": null,
+        "adsSpeedMult": 0.8,
+        "damageMult": 1.02,
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
+    },
+    {
         "name": "pps_42",
         "rps": 10.0,
         "dispersion": 0.87,
@@ -2938,7 +3134,7 @@
         "recoilControlMult": 0.4,
         "recoilOffsetMult": 0.3,
         "mods": null,
-        "adsSpeedMult": 0.72,
+        "adsSpeedMult": 0.82,
         "damageMult": null,
         "sightsMag": 2.0,
         "flamethrowerDPS": null,
@@ -3032,7 +3228,7 @@
     {
         "name": "lad_mg",
         "rps": 10.0,
-        "dispersion": 0.87,
+        "dispersion": 0.55,
         "stat": "submachine_gun",
         "type": "submachine_gun",
         "weight": 7.63,
@@ -3117,7 +3313,7 @@
     {
         "name": "chauchat",
         "rps": 4.5,
-        "dispersion": 0.4,
+        "dispersion": 0.25,
         "stat": "machine_gun",
         "type": "machine_gun",
         "weight": 10.0,
@@ -3162,14 +3358,9 @@
         "type": "machine_gun",
         "weight": 11.0,
         "locName": "Madsen",
-        "magazineName": [
-            {
-                "ammoHolders": "madsen_magazine"
-            },
-            {
-                "ammoHolders": "box_7_62_magazine"
-            }
-        ],
+        "magazineName": {
+            "ammoHolders": "madsen_magazine"
+        },
         "magazineSize": 25,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons/bullets/7.62x54_r_tracer.blk"
@@ -3292,14 +3483,9 @@
         "type": "machine_gun",
         "weight": 10.0,
         "locName": "DP-M",
-        "magazineName": [
-            {
-                "ammoHolders": "dp_27_magazine"
-            },
-            {
-                "ammoHolders": "box_7_62_magazine"
-            }
-        ],
+        "magazineName": {
+            "ammoHolders": "dp_27_magazine"
+        },
         "magazineSize": 47,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons/bullets/7.62x54_r_tracer.blk"
@@ -3337,14 +3523,9 @@
         "type": "machine_gun",
         "weight": 10.0,
         "locName": "DT-29",
-        "magazineName": [
-            {
-                "ammoHolders": "dt_29_magazine"
-            },
-            {
-                "ammoHolders": "box_7_62_magazine"
-            }
-        ],
+        "magazineName": {
+            "ammoHolders": "dt_29_magazine"
+        },
         "magazineSize": 63,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons/bullets/7.62x54_r_tracer.blk"
@@ -3377,7 +3558,7 @@
     {
         "name": "rd_44",
         "rps": 12.5,
-        "dispersion": 0.47,
+        "dispersion": 0.4,
         "stat": "machine_gun",
         "type": "machine_gun",
         "weight": 7.4,
@@ -3406,14 +3587,94 @@
         "proneRecoilMult": 0.7,
         "zeroDist": 0.3,
         "reloadSingle": false,
-        "recoilAmount": 0.05,
+        "recoilAmount": 0.044,
         "recoilDir": 0.0,
         "recoilDirAmount": 0.7,
         "visualRecoilMult": 1.0,
-        "recoilControlMult": 0.7,
+        "recoilControlMult": 0.5,
         "recoilOffsetMult": 0.1,
         "mods": null,
-        "adsSpeedMult": 0.5,
+        "adsSpeedMult": 0.6,
+        "damageMult": null,
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
+    },
+    {
+        "name": "maxim_tokarev",
+        "rps": 10.0,
+        "dispersion": 0.38,
+        "stat": "machine_gun",
+        "type": "machine_gun",
+        "weight": 15.5,
+        "locName": "Maxim-Tokarev",
+        "magazineName": {
+            "ammoHolders": "dp_42_beltfed_magazine"
+        },
+        "magazineSize": 100,
+        "bullets": {
+            "shells": "content/enlisted/gamedata/weapons/bullets/7.62x54_r_tracer.blk"
+        },
+        "firingModes": {
+            "mode": "full_auto"
+        },
+        "singleReloadPrep": null,
+        "singleReloadLoop": null,
+        "singleReloadPost": null,
+        "reload": 6.5,
+        "altReload": 6.5,
+        "dualMagReload": null,
+        "proneRecoilMult": 0.7,
+        "zeroDist": 0.3,
+        "reloadSingle": false,
+        "recoilAmount": 0.039,
+        "recoilDir": 0.0,
+        "recoilDirAmount": 0.37,
+        "visualRecoilMult": 1.0,
+        "recoilControlMult": 0.8,
+        "recoilOffsetMult": 0.1,
+        "mods": null,
+        "adsSpeedMult": 0.24,
+        "damageMult": null,
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
+    },
+    {
+        "name": "gorov_mg",
+        "rps": 13.33,
+        "dispersion": 0.35,
+        "stat": "machine_gun",
+        "type": "machine_gun",
+        "weight": 7.4,
+        "locName": "Gorov LMG",
+        "magazineName": {
+            "ammoHolders": "lahti_saloranta_m26_magazine"
+        },
+        "magazineSize": 20,
+        "bullets": {
+            "shells": "content/enlisted/gamedata/weapons/bullets/7.62x54_r_tracer.blk"
+        },
+        "firingModes": {
+            "mode": "full_auto"
+        },
+        "singleReloadPrep": null,
+        "singleReloadLoop": null,
+        "singleReloadPost": null,
+        "reload": 2.9,
+        "altReload": 2.6,
+        "dualMagReload": null,
+        "proneRecoilMult": 0.7,
+        "zeroDist": 0.3,
+        "reloadSingle": false,
+        "recoilAmount": 0.064,
+        "recoilDir": 0.0,
+        "recoilDirAmount": 0.74,
+        "visualRecoilMult": 1.0,
+        "recoilControlMult": 0.55,
+        "recoilOffsetMult": 0.3,
+        "mods": null,
+        "adsSpeedMult": 0.7,
         "damageMult": null,
         "sightsMag": 2.0,
         "flamethrowerDPS": null,
@@ -3928,6 +4189,51 @@
         "flamethrowerMaxLength": null
     },
     {
+        "name": "colt_swartz",
+        "rps": 10.0,
+        "dispersion": 0.85,
+        "stat": "pistol",
+        "type": "pistol",
+        "weight": 1.0,
+        "locName": "m1911 Colt",
+        "magazineName": {
+            "ammoHolders": "colt_swartz_magazine"
+        },
+        "magazineSize": 18,
+        "bullets": {
+            "shells": "content/enlisted/gamedata/weapons/bullets/11.51x23_browning_pistol.blk"
+        },
+        "firingModes": [
+            {
+                "mode": "full_auto"
+            },
+            {
+                "mode": "semi_auto"
+            }
+        ],
+        "singleReloadPrep": null,
+        "singleReloadLoop": null,
+        "singleReloadPost": null,
+        "reload": 2.7,
+        "altReload": 2.3,
+        "dualMagReload": null,
+        "proneRecoilMult": 0.8,
+        "zeroDist": null,
+        "reloadSingle": false,
+        "recoilAmount": 0.043,
+        "recoilDir": 0.0,
+        "recoilDirAmount": 0.68,
+        "visualRecoilMult": 1.0,
+        "recoilControlMult": 0.7,
+        "recoilOffsetMult": 0.3,
+        "mods": null,
+        "adsSpeedMult": 0.8,
+        "damageMult": null,
+        "sightsMag": 1.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
+    },
+    {
         "name": "welrod_mk2",
         "rps": 0.9,
         "dispersion": 0.6,
@@ -4158,7 +4464,7 @@
         "dualMagReload": null,
         "proneRecoilMult": null,
         "zeroDist": null,
-        "reloadSingle": true,
+        "reloadSingle": false,
         "recoilAmount": 0.062,
         "recoilDir": 0.0,
         "recoilDirAmount": 0.6,
@@ -4258,7 +4564,7 @@
         "dispersion": 0.14,
         "stat": "rifle",
         "type": "rifle",
-        "weight": 5.0,
+        "weight": 4.0,
         "locName": "m1903 Springfield",
         "magazineName": [
             {
@@ -4309,7 +4615,7 @@
         "dispersion": 0.14,
         "stat": "rifle",
         "type": "rifle",
-        "weight": 5.0,
+        "weight": 4.0,
         "locName": "m1903 Springfield with grenade launcher",
         "magazineName": [
             {
@@ -4358,7 +4664,7 @@
         "dispersion": 0.12,
         "stat": "rifle",
         "type": "rifle",
-        "weight": 5.0,
+        "weight": 4.0,
         "locName": "m1903 Springfield",
         "magazineName": [
             {
@@ -4409,7 +4715,7 @@
         "dispersion": 0.14,
         "stat": "rifle",
         "type": "rifle",
-        "weight": 5.5,
+        "weight": 4.9,
         "locName": "M1903 Springfield Air Service",
         "magazineName": {
             "ammoHolders": "m1903_springfield_air_service_magazine"
@@ -4424,12 +4730,12 @@
         "singleReloadPrep": 1.0,
         "singleReloadLoop": 1.2,
         "singleReloadPost": 1.5,
-        "reload": 3.6,
+        "reload": 8.5,
         "altReload": null,
         "dualMagReload": null,
         "proneRecoilMult": null,
         "zeroDist": null,
-        "reloadSingle": true,
+        "reloadSingle": false,
         "recoilAmount": 0.155,
         "recoilDir": 0.1,
         "recoilDirAmount": 0.8,
@@ -4449,7 +4755,7 @@
         "dispersion": 0.05,
         "stat": "sniper",
         "type": "rifle",
-        "weight": 5.0,
+        "weight": 4.0,
         "locName": "m1903a1 Springfield",
         "magazineName": {
             "ammoHolders": "m1903_springfield_magazine"
@@ -4469,7 +4775,7 @@
         "dualMagReload": null,
         "proneRecoilMult": null,
         "zeroDist": null,
-        "reloadSingle": true,
+        "reloadSingle": false,
         "recoilAmount": 0.155,
         "recoilDir": 0.1,
         "recoilDirAmount": 0.8,
@@ -4496,7 +4802,7 @@
         "dispersion": 0.05,
         "stat": "sniper",
         "type": "rifle",
-        "weight": 5.0,
+        "weight": 4.0,
         "locName": "m1903a3 Springfield",
         "magazineName": {
             "ammoHolders": "m1903_springfield_magazine"
@@ -4516,7 +4822,7 @@
         "dualMagReload": null,
         "proneRecoilMult": null,
         "zeroDist": null,
-        "reloadSingle": true,
+        "reloadSingle": false,
         "recoilAmount": 0.12,
         "recoilDir": 0.0,
         "recoilDirAmount": 0.8,
@@ -4543,7 +4849,7 @@
         "dispersion": 0.01,
         "stat": "rifle",
         "type": "rifle",
-        "weight": 5.0,
+        "weight": 4.3,
         "locName": "Springfield M1903A4",
         "magazineName": {
             "ammoHolders": "m1903_springfield_magazine"
@@ -4563,7 +4869,7 @@
         "dualMagReload": null,
         "proneRecoilMult": null,
         "zeroDist": null,
-        "reloadSingle": true,
+        "reloadSingle": false,
         "recoilAmount": 0.155,
         "recoilDir": 0.1,
         "recoilDirAmount": 0.8,
@@ -4583,7 +4889,7 @@
         "dispersion": 0.12,
         "stat": "rifle",
         "type": "rifle",
-        "weight": 5.0,
+        "weight": 4.2,
         "locName": "Lee-Enfield No. 4 Mk I",
         "magazineName": {
             "ammoHolders": "lee_enfield_no4_mk1_magazine"
@@ -4627,7 +4933,7 @@
         "dispersion": 0.01,
         "stat": "sniper",
         "type": "rifle",
-        "weight": 5.0,
+        "weight": 4.2,
         "locName": "Lee-Enfield No. 4 Mk I (T)",
         "magazineName": {
             "ammoHolders": "lee_enfield_no4_mk1_magazine"
@@ -4708,6 +5014,50 @@
         "flamethrowerMaxLength": null
     },
     {
+        "name": "enfield_p14_no3_mk1",
+        "rps": 0.8,
+        "dispersion": 0.01,
+        "stat": "sniper",
+        "type": "rifle",
+        "weight": 4.3,
+        "locName": "M1917 Enfield",
+        "magazineName": {
+            "ammoHolders": "enfield_p14_magazine"
+        },
+        "magazineSize": 5,
+        "bullets": {
+            "shells": "content/enlisted/gamedata/weapons/bullets/303_british_mk7.blk"
+        },
+        "firingModes": {
+            "mode": "bolt_action"
+        },
+        "singleReloadPrep": 1.1,
+        "singleReloadLoop": 0.7,
+        "singleReloadPost": 1.1,
+        "reload": 5.7,
+        "altReload": null,
+        "dualMagReload": null,
+        "proneRecoilMult": null,
+        "zeroDist": 0.05,
+        "reloadSingle": false,
+        "recoilAmount": 0.112,
+        "recoilDir": 0.1,
+        "recoilDirAmount": 0.8,
+        "visualRecoilMult": 1.0,
+        "recoilControlMult": null,
+        "recoilOffsetMult": null,
+        "mods": {
+            "scope:object": {
+                "enfield_p14_no3_mk1_scope": "enfield_p14_no3_mk1_scope"
+            }
+        },
+        "adsSpeedMult": 0.9,
+        "damageMult": 1.58,
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
+    },
+    {
         "name": "m1917_enfield",
         "rps": 0.9,
         "dispersion": 0.11,
@@ -4760,7 +5110,7 @@
         "dispersion": 0.12,
         "stat": "rifle",
         "type": "rifle",
-        "weight": 5.0,
+        "weight": 3.9,
         "locName": "Ross Rifle Mk III",
         "magazineName": [
             {
@@ -4808,11 +5158,11 @@
     },
     {
         "name": "m1903_springfield_pedersen_device",
-        "rps": 5.333,
-        "dispersion": 0.55,
-        "stat": "submachine_gun",
-        "type": "submachine_gun",
-        "weight": 5.0,
+        "rps": 7.0,
+        "dispersion": 0.34,
+        "stat": "semiauto",
+        "type": "semiauto",
+        "weight": 4.4,
         "locName": "M1903 Springfield with Pedersen Device",
         "magazineName": {
             "ammoHolders": "m1903_springfield_pedersen_device_magazine"
@@ -4852,7 +5202,7 @@
         "dispersion": 0.28,
         "stat": "semiauto",
         "type": "semiauto",
-        "weight": 5.0,
+        "weight": 4.3,
         "locName": "M1 Garand",
         "magazineName": [
             {
@@ -4903,7 +5253,7 @@
         "dispersion": 0.05,
         "stat": "semiauto",
         "type": "semiauto",
-        "weight": 5.0,
+        "weight": 4.3,
         "locName": "M1 Garand",
         "magazineName": [
             {
@@ -4956,7 +5306,7 @@
         "dispersion": 0.05,
         "stat": "semiauto",
         "type": "semiauto",
-        "weight": 5.0,
+        "weight": 4.4,
         "locName": "M1 Garand",
         "magazineName": [
             {
@@ -5052,6 +5402,51 @@
         "flamethrowerMaxLength": null
     },
     {
+        "name": "t20_rifle",
+        "rps": 10.83,
+        "dispersion": 0.28,
+        "stat": "semiauto",
+        "type": "semiauto",
+        "weight": 4.3,
+        "locName": "M1 Garand",
+        "magazineName": {
+            "ammoHolders": "t20_rifle_magazine"
+        },
+        "magazineSize": 20,
+        "bullets": {
+            "shells": "content/enlisted/gamedata/weapons/bullets/30_06_springfield_semiauto.blk"
+        },
+        "firingModes": [
+            {
+                "mode": "full_auto"
+            },
+            {
+                "mode": "semi_auto"
+            }
+        ],
+        "singleReloadPrep": null,
+        "singleReloadLoop": null,
+        "singleReloadPost": null,
+        "reload": 2.5,
+        "altReload": 2.2,
+        "dualMagReload": null,
+        "proneRecoilMult": null,
+        "zeroDist": 0.05,
+        "reloadSingle": false,
+        "recoilAmount": 0.114,
+        "recoilDir": 0.35,
+        "recoilDirAmount": 0.78,
+        "visualRecoilMult": 0.3,
+        "recoilControlMult": 0.25,
+        "recoilOffsetMult": 0.3,
+        "mods": null,
+        "adsSpeedMult": 0.65,
+        "damageMult": 1.06,
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
+    },
+    {
         "name": "pedersen_rifle",
         "rps": 5.333,
         "dispersion": 0.26,
@@ -5092,12 +5487,52 @@
         "flamethrowerMaxLength": null
     },
     {
+        "name": "farquhar_hill_1918",
+        "rps": 5.333,
+        "dispersion": 0.25,
+        "stat": "semiauto",
+        "type": "semiauto",
+        "weight": 6.6,
+        "locName": "Turner SMLE",
+        "magazineName": {
+            "ammoHolders": "farquhar_hill_1918_magazine"
+        },
+        "magazineSize": 19,
+        "bullets": {
+            "shells": "content/enlisted/gamedata/weapons/bullets/303_british_mk7.blk"
+        },
+        "firingModes": {
+            "mode": "semi_auto"
+        },
+        "singleReloadPrep": null,
+        "singleReloadLoop": null,
+        "singleReloadPost": null,
+        "reload": 4.33,
+        "altReload": 3.6,
+        "dualMagReload": null,
+        "proneRecoilMult": null,
+        "zeroDist": null,
+        "reloadSingle": false,
+        "recoilAmount": 0.11,
+        "recoilDir": 0.35,
+        "recoilDirAmount": 0.73,
+        "visualRecoilMult": 0.8,
+        "recoilControlMult": null,
+        "recoilOffsetMult": null,
+        "mods": null,
+        "adsSpeedMult": 0.8,
+        "damageMult": null,
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
+    },
+    {
         "name": "m1_carbine",
         "rps": 5.333,
         "dispersion": 0.28,
         "stat": "assault_rifle",
         "type": "semiauto",
-        "weight": 2.9,
+        "weight": 2.4,
         "locName": "M1 Carbine",
         "magazineName": [
             {
@@ -5336,7 +5771,7 @@
         "dispersion": 0.28,
         "stat": "assault_rifle",
         "type": "semiauto",
-        "weight": 5.0,
+        "weight": 2.4,
         "locName": "M1 Carbine with grenade launcher M8",
         "magazineName": {
             "ammoHolders": "m1_carbine_magazine"
@@ -5420,7 +5855,7 @@
         "dispersion": 0.28,
         "stat": "semiauto",
         "type": "semiauto",
-        "weight": 5.0,
+        "weight": 4.3,
         "locName": "M1 Garand with grenade launcher M7",
         "magazineName": {
             "ammoHolders": "m1_garand_magazine"
@@ -5464,7 +5899,7 @@
         "dispersion": 0.29,
         "stat": "semiauto",
         "type": "semiauto",
-        "weight": 5.0,
+        "weight": 3.9,
         "locName": "M1941 Johnson",
         "magazineName": {
             "ammoHolders": "m1941_johnson_magazine"
@@ -5476,10 +5911,10 @@
         "firingModes": {
             "mode": "semi_auto"
         },
-        "singleReloadPrep": 1.0,
-        "singleReloadLoop": 1.6,
-        "singleReloadPost": 1.2,
-        "reload": 4.3,
+        "singleReloadPrep": 0.8,
+        "singleReloadLoop": 0.8,
+        "singleReloadPost": 1.0,
+        "reload": 3.4,
         "altReload": null,
         "dualMagReload": null,
         "proneRecoilMult": null,
@@ -5536,7 +5971,7 @@
         "dualMagReload": null,
         "proneRecoilMult": null,
         "zeroDist": 0.05,
-        "reloadSingle": true,
+        "reloadSingle": false,
         "recoilAmount": 0.15,
         "recoilDir": 0.0,
         "recoilDirAmount": 0.7,
@@ -5546,7 +5981,7 @@
         "mods": null,
         "adsSpeedMult": 0.8,
         "damageMult": null,
-        "sightsMag": 1.0,
+        "sightsMag": 2.0,
         "flamethrowerDPS": null,
         "flamethrowerMaxLength": null
     },
@@ -5581,7 +6016,7 @@
         "dualMagReload": null,
         "proneRecoilMult": null,
         "zeroDist": 0.05,
-        "reloadSingle": true,
+        "reloadSingle": false,
         "recoilAmount": 0.15,
         "recoilDir": 0.0,
         "recoilDirAmount": 0.7,
@@ -5591,7 +6026,7 @@
         "mods": null,
         "adsSpeedMult": 0.8,
         "damageMult": null,
-        "sightsMag": 1.0,
+        "sightsMag": 2.0,
         "flamethrowerDPS": null,
         "flamethrowerMaxLength": null
     },
@@ -5626,7 +6061,7 @@
         "dualMagReload": null,
         "proneRecoilMult": null,
         "zeroDist": 0.05,
-        "reloadSingle": true,
+        "reloadSingle": false,
         "recoilAmount": 0.15,
         "recoilDir": 0.0,
         "recoilDirAmount": 0.7,
@@ -5636,7 +6071,7 @@
         "mods": null,
         "adsSpeedMult": 0.8,
         "damageMult": null,
-        "sightsMag": 1.0,
+        "sightsMag": 2.0,
         "flamethrowerDPS": null,
         "flamethrowerMaxLength": null
     },
@@ -5666,7 +6101,7 @@
         "dualMagReload": null,
         "proneRecoilMult": null,
         "zeroDist": 0.05,
-        "reloadSingle": true,
+        "reloadSingle": false,
         "recoilAmount": 0.15,
         "recoilDir": 0.0,
         "recoilDirAmount": 0.7,
@@ -5676,7 +6111,7 @@
         "mods": null,
         "adsSpeedMult": 0.8,
         "damageMult": null,
-        "sightsMag": 1.0,
+        "sightsMag": 2.0,
         "flamethrowerDPS": null,
         "flamethrowerMaxLength": null
     },
@@ -5720,7 +6155,7 @@
         "recoilAmount": 0.051,
         "recoilDir": 0.4,
         "recoilDirAmount": 0.62,
-        "visualRecoilMult": 1.6,
+        "visualRecoilMult": 0.7,
         "recoilControlMult": 0.3,
         "recoilOffsetMult": 0.3,
         "mods": null,
@@ -5770,7 +6205,7 @@
         "recoilAmount": 0.051,
         "recoilDir": 0.4,
         "recoilDirAmount": 0.62,
-        "visualRecoilMult": 1.6,
+        "visualRecoilMult": 0.7,
         "recoilControlMult": 0.3,
         "recoilOffsetMult": 0.3,
         "mods": null,
@@ -5851,8 +6286,8 @@
         "recoilDir": -0.4,
         "recoilDirAmount": 0.65,
         "visualRecoilMult": 1.0,
-        "recoilControlMult": null,
-        "recoilOffsetMult": null,
+        "recoilControlMult": 0.4,
+        "recoilOffsetMult": 0.3,
         "mods": null,
         "adsSpeedMult": 0.74,
         "damageMult": null,
@@ -6008,10 +6443,10 @@
     {
         "name": "m3_submachine_gun",
         "rps": 6.3,
-        "dispersion": 0.88,
+        "dispersion": 0.63,
         "stat": "submachine_gun",
         "type": "submachine_gun",
-        "weight": 4.0,
+        "weight": 3.6,
         "locName": "M3 Submachine Gun",
         "magazineName": [
             {
@@ -6039,7 +6474,7 @@
         "reloadSingle": false,
         "recoilAmount": 0.04,
         "recoilDir": 0.4,
-        "recoilDirAmount": 0.58,
+        "recoilDirAmount": 0.65,
         "visualRecoilMult": 1.2,
         "recoilControlMult": 0.4,
         "recoilOffsetMult": 0.3,
@@ -6053,10 +6488,10 @@
     {
         "name": "m3a1_grease_gun",
         "rps": 6.8,
-        "dispersion": 0.86,
+        "dispersion": 0.61,
         "stat": "submachine_gun",
         "type": "submachine_gun",
-        "weight": 4.0,
+        "weight": 3.6,
         "locName": "M3A1 Grease Gun",
         "magazineName": {
             "ammoHolders": "m3_submachine_gun_magazine"
@@ -6079,7 +6514,7 @@
         "reloadSingle": false,
         "recoilAmount": 0.04,
         "recoilDir": 0.4,
-        "recoilDirAmount": 0.58,
+        "recoilDirAmount": 0.68,
         "visualRecoilMult": 1.2,
         "recoilControlMult": 0.4,
         "recoilOffsetMult": 0.3,
@@ -6093,10 +6528,10 @@
     {
         "name": "m3a1_field_repair",
         "rps": 6.8,
-        "dispersion": 0.93,
+        "dispersion": 0.7,
         "stat": "submachine_gun",
         "type": "submachine_gun",
-        "weight": 4.0,
+        "weight": 3.6,
         "locName": "M3 Field Repiar",
         "magazineName": {
             "ammoHolders": "m3_submachine_gun_magazine"
@@ -6119,7 +6554,7 @@
         "reloadSingle": false,
         "recoilAmount": 0.043,
         "recoilDir": 0.4,
-        "recoilDirAmount": 0.5,
+        "recoilDirAmount": 0.63,
         "visualRecoilMult": 1.2,
         "recoilControlMult": 0.4,
         "recoilOffsetMult": 0.3,
@@ -6133,10 +6568,10 @@
     {
         "name": "m3_greasegun_supressed_oss",
         "rps": 6.8,
-        "dispersion": 0.86,
+        "dispersion": 0.61,
         "stat": "submachine_gun",
         "type": "submachine_gun",
-        "weight": 4.0,
+        "weight": 3.6,
         "locName": "M3A1 Grease Gun",
         "magazineName": {
             "ammoHolders": "m3_submachine_gun_magazine"
@@ -6159,7 +6594,7 @@
         "reloadSingle": false,
         "recoilAmount": 0.04,
         "recoilDir": 0.4,
-        "recoilDirAmount": 0.58,
+        "recoilDirAmount": 0.68,
         "visualRecoilMult": 1.2,
         "recoilControlMult": 0.4,
         "recoilOffsetMult": 0.3,
@@ -6226,7 +6661,7 @@
         "dispersion": 0.86,
         "stat": "submachine_gun",
         "type": "submachine_gun",
-        "weight": 4.0,
+        "weight": 4.6,
         "locName": "M1A1 Thompson",
         "magazineName": [
             {
@@ -6408,17 +6843,17 @@
     {
         "name": "thompson_m1928a1_100_drum",
         "rps": 11.67,
-        "dispersion": 0.25,
+        "dispersion": 0.61,
         "stat": "submachine_gun",
         "type": "submachine_gun",
-        "weight": 4.0,
+        "weight": 7.0,
         "locName": "Thompson 1928A1 with 100 drum magazine",
         "magazineName": {
             "ammoHolders": "thompson_m1928a1_100_drum_magazine"
         },
         "magazineSize": 100,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons/bullets/45acp.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/11.51x23_browning_smg.blk"
         },
         "firingModes": [
             {
@@ -6431,20 +6866,20 @@
         "singleReloadPrep": null,
         "singleReloadLoop": null,
         "singleReloadPost": null,
-        "reload": 2.35,
-        "altReload": 1.95,
+        "reload": 4.4,
+        "altReload": 4.0,
         "dualMagReload": null,
-        "proneRecoilMult": null,
+        "proneRecoilMult": 0.8,
         "zeroDist": 0.05,
         "reloadSingle": false,
-        "recoilAmount": 0.03,
-        "recoilDir": 0.0,
-        "recoilDirAmount": 0.5,
-        "visualRecoilMult": 0.7,
+        "recoilAmount": 0.05,
+        "recoilDir": 0.22,
+        "recoilDirAmount": 0.85,
+        "visualRecoilMult": 1.0,
         "recoilControlMult": 0.4,
         "recoilOffsetMult": 0.3,
         "mods": null,
-        "adsSpeedMult": 0.64,
+        "adsSpeedMult": 0.55,
         "damageMult": null,
         "sightsMag": 2.0,
         "flamethrowerDPS": null,
@@ -6726,12 +7161,52 @@
         "flamethrowerMaxLength": null
     },
     {
+        "name": "owen_45_acp_1941",
+        "rps": 12.5,
+        "dispersion": 0.75,
+        "stat": "submachine_gun",
+        "type": "submachine_gun",
+        "weight": 4.2,
+        "locName": "Owen Gun .45 ACP",
+        "magazineName": {
+            "ammoHolders": "owen_45_acp_magazine"
+        },
+        "magazineSize": 15,
+        "bullets": {
+            "shells": "content/enlisted/gamedata/weapons/bullets/11.51x23_browning_smg.blk"
+        },
+        "firingModes": {
+            "mode": "full_auto"
+        },
+        "singleReloadPrep": null,
+        "singleReloadLoop": null,
+        "singleReloadPost": null,
+        "reload": 2.4,
+        "altReload": 2.1,
+        "dualMagReload": null,
+        "proneRecoilMult": null,
+        "zeroDist": 0.05,
+        "reloadSingle": false,
+        "recoilAmount": 0.058,
+        "recoilDir": 0.4,
+        "recoilDirAmount": 0.72,
+        "visualRecoilMult": 0.8,
+        "recoilControlMult": 0.4,
+        "recoilOffsetMult": 0.3,
+        "mods": null,
+        "adsSpeedMult": 0.8,
+        "damageMult": null,
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
+    },
+    {
         "name": "browning_m1918",
         "rps": 10.0,
         "dispersion": 0.39,
         "stat": "machine_gun",
         "type": "machine_gun",
-        "weight": 10.0,
+        "weight": 7.25,
         "locName": "Browning M1918",
         "magazineName": [
             {
@@ -6781,7 +7256,7 @@
         "dispersion": 0.38,
         "stat": "machine_gun",
         "type": "machine_gun",
-        "weight": 10.0,
+        "weight": 8.8,
         "locName": "Browning M1918A1",
         "magazineName": {
             "ammoHolders": "browning_m1918_magazine"
@@ -6826,7 +7301,7 @@
         "dispersion": 0.36,
         "stat": "machine_gun",
         "type": "machine_gun",
-        "weight": 10.0,
+        "weight": 8.8,
         "locName": "Browning M1918A2",
         "magazineName": {
             "ammoHolders": "browning_m1918_magazine"
@@ -6956,12 +7431,102 @@
         "flamethrowerMaxLength": null
     },
     {
+        "name": "winchester_automatic_rifle",
+        "rps": 9.667,
+        "dispersion": 0.25,
+        "stat": "machine_gun",
+        "type": "machine_gun",
+        "weight": 7.25,
+        "locName": "Browning M1918A2",
+        "magazineName": {
+            "ammoHolders": "winchester_automatic_rifle_magazine"
+        },
+        "magazineSize": 20,
+        "bullets": {
+            "shells": "content/enlisted/gamedata/weapons/bullets/30_06_springfield_tracer.blk"
+        },
+        "firingModes": [
+            {
+                "mode": "full_auto"
+            },
+            {
+                "mode": "semi_auto"
+            }
+        ],
+        "singleReloadPrep": null,
+        "singleReloadLoop": null,
+        "singleReloadPost": null,
+        "reload": 2.8,
+        "altReload": 2.3,
+        "dualMagReload": null,
+        "proneRecoilMult": 0.7,
+        "zeroDist": 0.3,
+        "reloadSingle": false,
+        "recoilAmount": 0.043,
+        "recoilDir": 0.15,
+        "recoilDirAmount": 0.67,
+        "visualRecoilMult": 2.0,
+        "recoilControlMult": 0.6,
+        "recoilOffsetMult": 0.6,
+        "mods": null,
+        "adsSpeedMult": 0.75,
+        "damageMult": null,
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
+    },
+    {
+        "name": "fn_model_1930",
+        "rps": 11.667,
+        "dispersion": 0.32,
+        "stat": "machine_gun",
+        "type": "machine_gun",
+        "weight": 9.2,
+        "locName": "Browning WZ 1928",
+        "magazineName": {
+            "ammoHolders": "browning_m1918_magazine"
+        },
+        "magazineSize": 20,
+        "bullets": {
+            "shells": "content/enlisted/gamedata/weapons/bullets/7.92x57_mauser_tracer.blk"
+        },
+        "firingModes": [
+            {
+                "mode": "full_auto"
+            },
+            {
+                "mode": "full_auto_slow"
+            }
+        ],
+        "singleReloadPrep": null,
+        "singleReloadLoop": null,
+        "singleReloadPost": null,
+        "reload": 2.5,
+        "altReload": 2.1,
+        "dualMagReload": null,
+        "proneRecoilMult": 0.7,
+        "zeroDist": 0.3,
+        "reloadSingle": false,
+        "recoilAmount": 0.051,
+        "recoilDir": 0.0,
+        "recoilDirAmount": 0.63,
+        "visualRecoilMult": 1.0,
+        "recoilControlMult": 0.9,
+        "recoilOffsetMult": 0.1,
+        "mods": null,
+        "adsSpeedMult": 0.65,
+        "damageMult": null,
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
+    },
+    {
         "name": "m1941_johnson_mg",
         "rps": 15.0,
         "dispersion": 0.38,
         "stat": "machine_gun",
         "type": "machine_gun",
-        "weight": 7.0,
+        "weight": 5.9,
         "locName": "M1941 Johnson LMG",
         "magazineName": {
             "ammoHolders": "m1941_johnson_mg_magazine"
@@ -7094,6 +7659,46 @@
         "flamethrowerMaxLength": null
     },
     {
+        "name": "vickers_mk1_no2",
+        "rps": 15.833,
+        "dispersion": 0.43,
+        "stat": "machine_gun",
+        "type": "machine_gun",
+        "weight": 9.5,
+        "locName": "vickers_mk1_no2",
+        "magazineName": {
+            "ammoHolders": "vickers_mk1_no2_magazine"
+        },
+        "magazineSize": 100,
+        "bullets": {
+            "shells": "content/enlisted/gamedata/weapons/bullets/303_british_mk7_tracer.blk"
+        },
+        "firingModes": {
+            "mode": "full_auto"
+        },
+        "singleReloadPrep": null,
+        "singleReloadLoop": null,
+        "singleReloadPost": null,
+        "reload": 5.1,
+        "altReload": 4.23,
+        "dualMagReload": null,
+        "proneRecoilMult": 0.7,
+        "zeroDist": 0.3,
+        "reloadSingle": false,
+        "recoilAmount": 0.051,
+        "recoilDir": 0.0,
+        "recoilDirAmount": 0.6,
+        "visualRecoilMult": 0.7,
+        "recoilControlMult": 0.9,
+        "recoilOffsetMult": 0.4,
+        "mods": null,
+        "adsSpeedMult": 0.5,
+        "damageMult": null,
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
+    },
+    {
         "name": "chatellerault_m_24_29",
         "rps": 9.0,
         "dispersion": 0.43,
@@ -7154,8 +7759,8 @@
         "singleReloadPrep": null,
         "singleReloadLoop": null,
         "singleReloadPost": null,
-        "reload": 5.7,
-        "altReload": 5.2,
+        "reload": 6.5,
+        "altReload": 6.5,
         "dualMagReload": null,
         "proneRecoilMult": 0.7,
         "zeroDist": 0.3,
@@ -7429,7 +8034,7 @@
         "dispersion": 5.7,
         "stat": null,
         "type": "mortar",
-        "weight": 5.0,
+        "weight": 4.8,
         "locName": "two_inch_mortar",
         "magazineName": [
             {
@@ -7479,7 +8084,7 @@
         "dispersion": 5.7,
         "stat": null,
         "type": "mortar",
-        "weight": 5.0,
+        "weight": 4.7,
         "locName": "type_89_mortar",
         "magazineName": [
             {
@@ -7740,6 +8345,60 @@
         "flamethrowerMaxLength": 32.0
     },
     {
+        "name": "flamethrower_portable_no_2_mk1_lifebuoy",
+        "rps": 20.0,
+        "dispersion": 0.15,
+        "stat": "flamethrower",
+        "type": "flamethrower",
+        "weight": 18.0,
+        "locName": "Flamethrower",
+        "magazineName": [
+            {
+                "ammoHolders": "flamethrower_fuel_tank_light"
+            },
+            {
+                "ammoHolders": "jp_flamethrower_fuel_tank_light"
+            },
+            {
+                "ammoHolders": "uk_flamethrower_fuel_tank_light"
+            },
+            {
+                "ammoHolders": "flamethrower_fuel_tank"
+            },
+            {
+                "ammoHolders": "jp_flamethrower_fuel_tank"
+            }
+        ],
+        "magazineSize": 200,
+        "bullets": {
+            "shells": "content/enlisted/gamedata/weapons/bullets/flamethrower_dummy.blk"
+        },
+        "firingModes": {
+            "mode": "full_auto"
+        },
+        "singleReloadPrep": null,
+        "singleReloadLoop": null,
+        "singleReloadPost": null,
+        "reload": 6.0,
+        "altReload": null,
+        "dualMagReload": null,
+        "proneRecoilMult": 0.3,
+        "zeroDist": 0.3,
+        "reloadSingle": false,
+        "recoilAmount": 0.01,
+        "recoilDir": 0.0,
+        "recoilDirAmount": 0.35,
+        "visualRecoilMult": 0.6,
+        "recoilControlMult": 0.9,
+        "recoilOffsetMult": 0.1,
+        "mods": null,
+        "adsSpeedMult": null,
+        "damageMult": null,
+        "sightsMag": 1.0,
+        "flamethrowerDPS": 40.0,
+        "flamethrowerMaxLength": 18.0
+    },
+    {
         "name": "mauser_c96",
         "rps": 6.0,
         "dispersion": 0.8,
@@ -7835,16 +8494,11 @@
         "dispersion": 0.8,
         "stat": "pistol",
         "type": "pistol",
-        "weight": 1.0,
+        "weight": 1.5,
         "locName": "Mauser C96",
-        "magazineName": [
-            {
-                "ammoHolders": "mauser_c96_m712_magazine"
-            },
-            {
-                "ammoHolders": "box_9mm_magazine"
-            }
-        ],
+        "magazineName": {
+            "ammoHolders": "mauser_c96_m712_magazine"
+        },
         "magazineSize": 20,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons/bullets/7.63x25_mauser_pistol.blk"
@@ -7861,17 +8515,17 @@
         "singleReloadLoop": null,
         "singleReloadPost": null,
         "reload": 2.5,
-        "altReload": null,
+        "altReload": 2.1,
         "dualMagReload": null,
-        "proneRecoilMult": null,
+        "proneRecoilMult": 0.8,
         "zeroDist": null,
         "reloadSingle": false,
-        "recoilAmount": 0.05,
-        "recoilDir": 0.0,
-        "recoilDirAmount": 0.08,
-        "visualRecoilMult": 1.0,
-        "recoilControlMult": null,
-        "recoilOffsetMult": null,
+        "recoilAmount": 0.052,
+        "recoilDir": 0.3,
+        "recoilDirAmount": 0.079,
+        "visualRecoilMult": 0.6,
+        "recoilControlMult": 0.7,
+        "recoilOffsetMult": 0.1,
         "mods": null,
         "adsSpeedMult": 1.05,
         "damageMult": null,
@@ -8350,7 +9004,7 @@
         "dispersion": 0.13,
         "stat": "rifle",
         "type": "rifle",
-        "weight": 5.0,
+        "weight": 3.92,
         "locName": "Kar98k",
         "magazineName": [
             {
@@ -8451,7 +9105,7 @@
         "dispersion": 0.16,
         "stat": "rifle",
         "type": "rifle",
-        "weight": 5.0,
+        "weight": 3.4,
         "locName": "G40k",
         "magazineName": [
             {
@@ -8516,12 +9170,12 @@
         "singleReloadPrep": 1.0,
         "singleReloadLoop": 1.2,
         "singleReloadPost": 1.5,
-        "reload": 3.6,
+        "reload": 8.5,
         "altReload": null,
         "dualMagReload": null,
         "proneRecoilMult": null,
         "zeroDist": null,
-        "reloadSingle": true,
+        "reloadSingle": false,
         "recoilAmount": 0.155,
         "recoilDir": 0.1,
         "recoilDirAmount": 0.8,
@@ -8545,7 +9199,7 @@
         "dispersion": 0.18,
         "stat": "rifle",
         "type": "rifle",
-        "weight": 5.0,
+        "weight": 3.92,
         "locName": "Kar98k Kriegsmodell",
         "magazineName": [
             {
@@ -8590,7 +9244,7 @@
         "dispersion": 0.01,
         "stat": "sniper",
         "type": "rifle",
-        "weight": 5.0,
+        "weight": 3.92,
         "locName": "Kar98k with scope mount",
         "magazineName": [
             {
@@ -8610,12 +9264,12 @@
         "singleReloadPrep": 1.2,
         "singleReloadLoop": 0.63,
         "singleReloadPost": 1.3,
-        "reload": 3.4,
+        "reload": 5.65,
         "altReload": null,
         "dualMagReload": null,
         "proneRecoilMult": null,
         "zeroDist": null,
-        "reloadSingle": true,
+        "reloadSingle": false,
         "recoilAmount": 0.16,
         "recoilDir": 0.13,
         "recoilDirAmount": 0.8,
@@ -8667,7 +9321,7 @@
         "dualMagReload": null,
         "proneRecoilMult": null,
         "zeroDist": null,
-        "reloadSingle": true,
+        "reloadSingle": false,
         "recoilAmount": 0.155,
         "recoilDir": 0.1,
         "recoilDirAmount": 0.8,
@@ -8687,7 +9341,7 @@
         "dispersion": 0.01,
         "stat": "rifle",
         "type": "rifle",
-        "weight": 5.0,
+        "weight": 4.5,
         "locName": "Gewehr 98",
         "magazineName": [
             {
@@ -8707,12 +9361,12 @@
         "singleReloadPrep": 1.0,
         "singleReloadLoop": 1.2,
         "singleReloadPost": 1.5,
-        "reload": 3.0,
+        "reload": 8.5,
         "altReload": null,
         "dualMagReload": null,
         "proneRecoilMult": null,
         "zeroDist": null,
-        "reloadSingle": true,
+        "reloadSingle": false,
         "recoilAmount": 0.155,
         "recoilDir": 0.1,
         "recoilDirAmount": 0.8,
@@ -8736,7 +9390,7 @@
         "dispersion": 0.12,
         "stat": "rifle",
         "type": "rifle",
-        "weight": 5.0,
+        "weight": 3.92,
         "locName": "Pre-war Kar98k",
         "magazineName": [
             {
@@ -8785,7 +9439,7 @@
         "dispersion": 0.01,
         "stat": "sniper",
         "type": "rifle",
-        "weight": 5.0,
+        "weight": 3.92,
         "locName": "Pre-war Kar98k with scope mount",
         "magazineName": [
             {
@@ -8810,7 +9464,7 @@
         "dualMagReload": null,
         "proneRecoilMult": null,
         "zeroDist": null,
-        "reloadSingle": true,
+        "reloadSingle": false,
         "recoilAmount": 0.18,
         "recoilDir": 0.15,
         "recoilDirAmount": 0.8,
@@ -8886,7 +9540,7 @@
         "dispersion": 0.2,
         "stat": "rifle",
         "type": "rifle",
-        "weight": 5.0,
+        "weight": 3.8,
         "locName": "Gewehr 1888",
         "magazineName": [
             {
@@ -8971,7 +9625,7 @@
         "dispersion": 0.13,
         "stat": "rifle",
         "type": "rifle",
-        "weight": 5.0,
+        "weight": 3.92,
         "locName": "Kar98k with Schiessbecher grenade launcher",
         "magazineName": [
             {
@@ -9020,7 +9674,7 @@
         "dispersion": 0.13,
         "stat": "rifle",
         "type": "rifle",
-        "weight": 5.0,
+        "weight": 3.92,
         "locName": "Kar98k with GGP/40 grenade launcher",
         "magazineName": [
             {
@@ -9071,14 +9725,9 @@
         "type": "rifle",
         "weight": 3.85,
         "locName": "mas_36_with_bayonet",
-        "magazineName": [
-            {
-                "ammoHolders": "mas_36_magazine"
-            },
-            {
-                "ammoHolders": "box_7_62_magazine"
-            }
-        ],
+        "magazineName": {
+            "ammoHolders": "mas_36_magazine"
+        },
         "magazineSize": 5,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons/bullets/7.5x54_mas.blk"
@@ -9141,12 +9790,12 @@
         "singleReloadPrep": 1.1,
         "singleReloadLoop": 0.75,
         "singleReloadPost": 1.0,
-        "reload": 3.4,
+        "reload": 9.6,
         "altReload": null,
         "dualMagReload": null,
         "proneRecoilMult": null,
         "zeroDist": null,
-        "reloadSingle": true,
+        "reloadSingle": false,
         "recoilAmount": 0.129,
         "recoilDir": 0.1,
         "recoilDirAmount": 0.6,
@@ -9250,7 +9899,7 @@
         "dispersion": 0.15,
         "stat": "rifle",
         "type": "rifle",
-        "weight": 4.0,
+        "weight": 3.3,
         "locName": "Arisaka Type 38 carbine",
         "magazineName": {
             "ammoHolders": "arisaka_magazine"
@@ -9295,7 +9944,7 @@
         "dispersion": 0.12,
         "stat": "rifle",
         "type": "rifle",
-        "weight": 4.0,
+        "weight": 4.2,
         "locName": "Arisaka Type 38",
         "magazineName": {
             "ammoHolders": "arisaka_magazine"
@@ -9340,7 +9989,7 @@
         "dispersion": 0.12,
         "stat": "rifle",
         "type": "rifle",
-        "weight": 4.0,
+        "weight": 4.2,
         "locName": "Arisaka Type 38 with grenade discharger",
         "magazineName": {
             "ammoHolders": "arisaka_magazine"
@@ -9383,13 +10032,13 @@
         "flamethrowerMaxLength": null
     },
     {
-        "name": "arisaka_type_99_early_short",
+        "name": "type_100_rifle",
         "rps": 0.8,
-        "dispersion": 0.15,
+        "dispersion": 0.18,
         "stat": "rifle",
         "type": "rifle",
-        "weight": 4.0,
-        "locName": "Arisaka Type 99",
+        "weight": 4.2,
+        "locName": "Type 100 rifle",
         "magazineName": {
             "ammoHolders": "arisaka_7mm_magazine"
         },
@@ -9409,7 +10058,7 @@
         "proneRecoilMult": null,
         "zeroDist": null,
         "reloadSingle": false,
-        "recoilAmount": 0.1,
+        "recoilAmount": 0.095,
         "recoilDir": 0.0,
         "recoilDirAmount": 0.7,
         "visualRecoilMult": 1.0,
@@ -9421,7 +10070,52 @@
                 "type_2_bayonet": "type_2_bayonet"
             }
         },
-        "adsSpeedMult": 0.95,
+        "adsSpeedMult": 1.0,
+        "damageMult": 1.575,
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
+    },
+    {
+        "name": "arisaka_type_99_early_short",
+        "rps": 0.8,
+        "dispersion": 0.15,
+        "stat": "rifle",
+        "type": "rifle",
+        "weight": 4.0,
+        "locName": "Arisaka Type 99",
+        "magazineName": {
+            "ammoHolders": "arisaka_7mm_magazine"
+        },
+        "magazineSize": 5,
+        "bullets": {
+            "shells": "content/enlisted/gamedata/weapons/bullets/7.7x58_arisaka.blk"
+        },
+        "firingModes": {
+            "mode": "bolt_action"
+        },
+        "singleReloadPrep": 0.85,
+        "singleReloadLoop": 0.55,
+        "singleReloadPost": 0.9,
+        "reload": 3.1,
+        "altReload": null,
+        "dualMagReload": null,
+        "proneRecoilMult": null,
+        "zeroDist": null,
+        "reloadSingle": false,
+        "recoilAmount": 0.102,
+        "recoilDir": 0.0,
+        "recoilDirAmount": 0.7,
+        "visualRecoilMult": 1.0,
+        "recoilControlMult": null,
+        "recoilOffsetMult": null,
+        "mods": {
+            "bayonet:object": {
+                "type_30_bayonet": "type_30_bayonet",
+                "type_2_bayonet": "type_2_bayonet"
+            }
+        },
+        "adsSpeedMult": 1.05,
         "damageMult": 1.55,
         "sightsMag": 2.0,
         "flamethrowerDPS": null,
@@ -9478,7 +10172,7 @@
         "dispersion": 0.18,
         "stat": "rifle",
         "type": "rifle",
-        "weight": 4.0,
+        "weight": 3.8,
         "locName": "Arisaka Type 99 Late",
         "magazineName": {
             "ammoHolders": "arisaka_7mm_magazine"
@@ -9596,7 +10290,7 @@
         "recoilOffsetMult": null,
         "mods": {
             "scope:object": {
-                "scope_zf_41": "scope_zf_41_gewehr_41"
+                "scope_zf_41": "scope_zf_41"
             }
         },
         "adsSpeedMult": 0.77,
@@ -9611,7 +10305,7 @@
         "dispersion": 0.27,
         "stat": "semiauto",
         "type": "semiauto",
-        "weight": 5.0,
+        "weight": 4.9,
         "locName": "Gewehr 41 (M)",
         "magazineName": {
             "ammoHolders": "gewehr_41_m_magazine"
@@ -9655,7 +10349,7 @@
         "dispersion": 0.26,
         "stat": "semiauto",
         "type": "semiauto",
-        "weight": 5.0,
+        "weight": 4.3,
         "locName": "Gewehr 43",
         "magazineName": [
             {
@@ -9684,7 +10378,7 @@
         "recoilAmount": 0.138,
         "recoilDir": 0.35,
         "recoilDirAmount": 0.8,
-        "visualRecoilMult": 1.3,
+        "visualRecoilMult": 1.0,
         "recoilControlMult": null,
         "recoilOffsetMult": null,
         "mods": {
@@ -9707,7 +10401,7 @@
         "dispersion": 0.03,
         "stat": "semiauto",
         "type": "semiauto",
-        "weight": 5.0,
+        "weight": 4.3,
         "locName": "Sniper Gewehr 43",
         "magazineName": [
             {
@@ -9736,7 +10430,7 @@
         "recoilAmount": 0.138,
         "recoilDir": 0.35,
         "recoilDirAmount": 0.8,
-        "visualRecoilMult": 1.3,
+        "visualRecoilMult": 1.0,
         "recoilControlMult": null,
         "recoilOffsetMult": null,
         "mods": {
@@ -9756,7 +10450,7 @@
         "dispersion": 0.42,
         "stat": "assault_rifle",
         "type": "semiauto",
-        "weight": 5.0,
+        "weight": 4.4,
         "locName": "Gewehr 43 Kurz",
         "magazineName": {
             "ammoHolders": "stg_44_magazine"
@@ -9885,7 +10579,7 @@
         "dispersion": 0.26,
         "stat": "semiauto",
         "type": "semiauto",
-        "weight": 5.0,
+        "weight": 4.5,
         "locName": "Type Otsu rifle",
         "magazineName": {
             "ammoHolders": "zh_29_jp_magazine"
@@ -9925,12 +10619,52 @@
         "flamethrowerMaxLength": null
     },
     {
+        "name": "mondragon_m1908",
+        "rps": 5.333,
+        "dispersion": 0.29,
+        "stat": "semiauto",
+        "type": "semiauto",
+        "weight": 4.2,
+        "locName": "Gewehr 43",
+        "magazineName": {
+            "ammoHolders": "mondragon_m1908_magazine"
+        },
+        "magazineSize": 30,
+        "bullets": {
+            "shells": "content/enlisted/gamedata/weapons/bullets/7.92x57_mauser_semiauto.blk"
+        },
+        "firingModes": {
+            "mode": "semi_auto"
+        },
+        "singleReloadPrep": null,
+        "singleReloadLoop": null,
+        "singleReloadPost": null,
+        "reload": 4.0,
+        "altReload": 3.1,
+        "dualMagReload": null,
+        "proneRecoilMult": null,
+        "zeroDist": null,
+        "reloadSingle": false,
+        "recoilAmount": 0.124,
+        "recoilDir": 0.25,
+        "recoilDirAmount": 0.78,
+        "visualRecoilMult": 1.1,
+        "recoilControlMult": null,
+        "recoilOffsetMult": null,
+        "mods": null,
+        "adsSpeedMult": 0.8,
+        "damageMult": 1.06,
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
+    },
+    {
         "name": "wz_38m",
         "rps": 5.333,
         "dispersion": 0.3,
         "stat": "semiauto",
         "type": "rifle",
-        "weight": 5.0,
+        "weight": 4.5,
         "locName": "maroszek_wz_38m",
         "magazineName": {
             "ammoHolders": "gewehr_41_magazine"
@@ -9970,7 +10704,7 @@
         "dispersion": 0.35,
         "stat": "semiauto",
         "type": "semiauto",
-        "weight": 5.0,
+        "weight": 4.2,
         "locName": "FG 42",
         "magazineName": [
             {
@@ -10013,6 +10747,105 @@
                 "scope_3_5x": "scope_zf_4_fg_42_3_5x",
                 "scope_4x": "scope_zf_4_fg_42_4x",
                 "scope_6x": "scope_zf_4_fg_42_6x"
+            }
+        },
+        "adsSpeedMult": 0.6,
+        "damageMult": null,
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
+    },
+    {
+        "name": "krieghoff_fg",
+        "rps": 7.0,
+        "dispersion": 0.35,
+        "stat": "semiauto",
+        "type": "semiauto",
+        "weight": 4.56,
+        "locName": "Krieghoff FG",
+        "magazineName": {
+            "ammoHolders": "fg_42_magazine"
+        },
+        "magazineSize": 20,
+        "bullets": {
+            "shells": "content/enlisted/gamedata/weapons/bullets/7.92x57_mauser_semiauto.blk"
+        },
+        "firingModes": [
+            {
+                "mode": "full_auto"
+            },
+            {
+                "mode": "semi_auto"
+            }
+        ],
+        "singleReloadPrep": null,
+        "singleReloadLoop": null,
+        "singleReloadPost": null,
+        "reload": 3.2,
+        "altReload": 2.6,
+        "dualMagReload": null,
+        "proneRecoilMult": null,
+        "zeroDist": 0.05,
+        "reloadSingle": false,
+        "recoilAmount": 0.079,
+        "recoilDir": 0.25,
+        "recoilDirAmount": 0.78,
+        "visualRecoilMult": 0.3,
+        "recoilControlMult": 0.6,
+        "recoilOffsetMult": null,
+        "mods": null,
+        "adsSpeedMult": 0.75,
+        "damageMult": null,
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
+    },
+    {
+        "name": "fg_42_with_grenade_launcher",
+        "rps": 12.5,
+        "dispersion": 0.3,
+        "stat": "semiauto",
+        "type": "semiauto",
+        "weight": 4.2,
+        "locName": "FG 42",
+        "magazineName": [
+            {
+                "ammoHolders": "fg_42_magazine"
+            },
+            {
+                "ammoHolders": "box_7_92x57_magazine"
+            }
+        ],
+        "magazineSize": 20,
+        "bullets": {
+            "shells": "content/enlisted/gamedata/weapons/bullets/7.92x57_mauser_semiauto.blk"
+        },
+        "firingModes": [
+            {
+                "mode": "semi_auto"
+            },
+            {
+                "mode": "full_auto"
+            }
+        ],
+        "singleReloadPrep": null,
+        "singleReloadLoop": null,
+        "singleReloadPost": null,
+        "reload": 2.9,
+        "altReload": 2.3,
+        "dualMagReload": null,
+        "proneRecoilMult": null,
+        "zeroDist": 0.05,
+        "reloadSingle": false,
+        "recoilAmount": 0.089,
+        "recoilDir": 0.35,
+        "recoilDirAmount": 0.74,
+        "visualRecoilMult": 0.3,
+        "recoilControlMult": null,
+        "recoilOffsetMult": null,
+        "mods": {
+            "grenade_launcher:object": {
+                "schiessbecher_grenade_launcher": "schiessbecher_grenade_launcher_fg_42"
             }
         },
         "adsSpeedMult": 0.6,
@@ -10168,7 +11001,7 @@
         "mods": null,
         "adsSpeedMult": 0.8,
         "damageMult": null,
-        "sightsMag": 1.0,
+        "sightsMag": 2.0,
         "flamethrowerDPS": null,
         "flamethrowerMaxLength": null
     },
@@ -10462,7 +11295,7 @@
         "recoilOffsetMult": 0.3,
         "mods": null,
         "adsSpeedMult": 0.8,
-        "damageMult": null,
+        "damageMult": 1.02,
         "sightsMag": 2.0,
         "flamethrowerDPS": null,
         "flamethrowerMaxLength": null
@@ -10738,7 +11571,7 @@
         "dispersion": 0.74,
         "stat": "submachine_gun",
         "type": "submachine_gun",
-        "weight": 4.0,
+        "weight": 4.2,
         "locName": "SIG 1920",
         "magazineName": {
             "ammoHolders": "sig_1920_magazine"
@@ -10771,6 +11604,91 @@
                 "type_2_bayonet": "type_2_bayonet"
             }
         },
+        "adsSpeedMult": 0.8,
+        "damageMult": null,
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
+    },
+    {
+        "name": "sig_1930",
+        "rps": 10.0,
+        "dispersion": 0.74,
+        "stat": "submachine_gun",
+        "type": "submachine_gun",
+        "weight": 4.2,
+        "locName": "SIG 1920",
+        "magazineName": {
+            "ammoHolders": "sig_1920_magazine"
+        },
+        "magazineSize": 50,
+        "bullets": {
+            "shells": "content/enlisted/gamedata/weapons/bullets/7.65x21_parabellum_smg.blk"
+        },
+        "firingModes": {
+            "mode": "full_auto"
+        },
+        "singleReloadPrep": null,
+        "singleReloadLoop": null,
+        "singleReloadPost": null,
+        "reload": 3.4,
+        "altReload": 2.8,
+        "dualMagReload": null,
+        "proneRecoilMult": 0.8,
+        "zeroDist": 0.05,
+        "reloadSingle": false,
+        "recoilAmount": 0.033,
+        "recoilDir": 0.4,
+        "recoilDirAmount": 0.81,
+        "visualRecoilMult": 1.6,
+        "recoilControlMult": 0.3,
+        "recoilOffsetMult": 0.3,
+        "mods": null,
+        "adsSpeedMult": 0.8,
+        "damageMult": null,
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
+    },
+    {
+        "name": "wz_39_mors",
+        "rps": 7.5,
+        "dispersion": 0.83,
+        "stat": "submachine_gun",
+        "type": "submachine_gun",
+        "weight": 3.25,
+        "locName": "wz.38 Mors",
+        "magazineName": {
+            "ammoHolders": "wz_39_mors_magazine"
+        },
+        "magazineSize": 24,
+        "bullets": {
+            "shells": "content/enlisted/gamedata/weapons/bullets/9x19_parabellum_smg.blk"
+        },
+        "firingModes": [
+            {
+                "mode": "full_auto"
+            },
+            {
+                "mode": "semi_auto"
+            }
+        ],
+        "singleReloadPrep": null,
+        "singleReloadLoop": null,
+        "singleReloadPost": null,
+        "reload": 2.3,
+        "altReload": 2.1,
+        "dualMagReload": null,
+        "proneRecoilMult": 0.8,
+        "zeroDist": 0.05,
+        "reloadSingle": false,
+        "recoilAmount": 0.043,
+        "recoilDir": 0.4,
+        "recoilDirAmount": 0.78,
+        "visualRecoilMult": 1.1,
+        "recoilControlMult": 0.3,
+        "recoilOffsetMult": 0.3,
+        "mods": null,
         "adsSpeedMult": 0.8,
         "damageMult": null,
         "sightsMag": 2.0,
@@ -11168,8 +12086,8 @@
         "recoilDir": 0.0,
         "recoilDirAmount": 0.58,
         "visualRecoilMult": 1.0,
-        "recoilControlMult": null,
-        "recoilOffsetMult": null,
+        "recoilControlMult": 0.5,
+        "recoilOffsetMult": 0.3,
         "mods": null,
         "adsSpeedMult": 0.72,
         "damageMult": null,
@@ -11228,7 +12146,7 @@
         "dispersion": 0.84,
         "stat": "submachine_gun",
         "type": "submachine_gun",
-        "weight": 4.4,
+        "weight": 4.0,
         "locName": "Danuvia 43 M",
         "magazineName": {
             "ammoHolders": "danuvia_43m_magazine"
@@ -11254,9 +12172,9 @@
         "proneRecoilMult": null,
         "zeroDist": 0.05,
         "reloadSingle": false,
-        "recoilAmount": 0.064,
+        "recoilAmount": 0.055,
         "recoilDir": 0.6,
-        "recoilDirAmount": 0.62,
+        "recoilDirAmount": 0.68,
         "visualRecoilMult": 1.6,
         "recoilControlMult": 0.4,
         "recoilOffsetMult": 0.3,
@@ -11717,6 +12635,51 @@
         "flamethrowerMaxLength": null
     },
     {
+        "name": "horn_sturmgewehr",
+        "rps": 8.333,
+        "dispersion": 0.46,
+        "stat": "assault_rifle",
+        "type": "assault_rifle",
+        "weight": 4.7,
+        "locName": "StG 44",
+        "magazineName": {
+            "ammoHolders": "stg_44_magazine"
+        },
+        "magazineSize": 30,
+        "bullets": {
+            "shells": "content/enlisted/gamedata/weapons/bullets/7.92x33_kurz.blk"
+        },
+        "firingModes": [
+            {
+                "mode": "full_auto"
+            },
+            {
+                "mode": "semi_auto"
+            }
+        ],
+        "singleReloadPrep": null,
+        "singleReloadLoop": null,
+        "singleReloadPost": null,
+        "reload": 2.86,
+        "altReload": 2.06,
+        "dualMagReload": null,
+        "proneRecoilMult": null,
+        "zeroDist": 0.3,
+        "reloadSingle": false,
+        "recoilAmount": 0.057,
+        "recoilDir": 0.3,
+        "recoilDirAmount": 0.75,
+        "visualRecoilMult": 1.1,
+        "recoilControlMult": 0.27,
+        "recoilOffsetMult": 0.3,
+        "mods": null,
+        "adsSpeedMult": 0.7,
+        "damageMult": null,
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
+    },
+    {
         "name": "stg_45_m",
         "rps": 7.5,
         "dispersion": 0.72,
@@ -11902,7 +12865,7 @@
         "dispersion": 0.55,
         "stat": "assault_rifle",
         "type": "semiauto",
-        "weight": 5.0,
+        "weight": 4.3,
         "locName": "Vstg 1-5",
         "magazineName": {
             "ammoHolders": "stg_44_magazine"
@@ -12077,19 +13040,14 @@
     {
         "name": "lahti_saloranta_m26",
         "rps": 7.5,
-        "dispersion": 0.55,
+        "dispersion": 0.42,
         "stat": "machine_gun",
         "type": "machine_gun",
         "weight": 10.0,
         "locName": "M1941 Johnson LMG",
-        "magazineName": [
-            {
-                "ammoHolders": "lahti_saloranta_m26_magazine"
-            },
-            {
-                "ammoHolders": "box_7_62_magazine"
-            }
-        ],
+        "magazineName": {
+            "ammoHolders": "lahti_saloranta_m26_magazine"
+        },
         "magazineSize": 20,
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons/bullets/7.62x54_r_tracer.blk"
@@ -12114,9 +13072,9 @@
         "recoilAmount": 0.061,
         "recoilDir": 0.0,
         "recoilDirAmount": 0.7,
-        "visualRecoilMult": 0.5,
+        "visualRecoilMult": 1.0,
         "recoilControlMult": 0.9,
-        "recoilOffsetMult": 0.1,
+        "recoilOffsetMult": 0.5,
         "mods": null,
         "adsSpeedMult": 0.3,
         "damageMult": null,
@@ -12780,6 +13738,46 @@
         "flamethrowerMaxLength": null
     },
     {
+        "name": "luftfaust_b",
+        "rps": 60.0,
+        "dispersion": 0.3,
+        "stat": "launcher",
+        "type": "launcher",
+        "weight": 9.5,
+        "locName": "luftfaust_b",
+        "magazineName": {
+            "ammoHolders": "luftfaust_b_magazine_item"
+        },
+        "magazineSize": null,
+        "bullets": {
+            "shells": "content/enlisted/gamedata/weapons/shells/luftfaust_shell.blk"
+        },
+        "firingModes": {
+            "mode": "salvo"
+        },
+        "singleReloadPrep": null,
+        "singleReloadLoop": null,
+        "singleReloadPost": null,
+        "reload": 4.4,
+        "altReload": null,
+        "dualMagReload": null,
+        "proneRecoilMult": null,
+        "zeroDist": null,
+        "reloadSingle": false,
+        "recoilAmount": 0.01,
+        "recoilDir": 0.0,
+        "recoilDirAmount": 0.8,
+        "visualRecoilMult": 1.0,
+        "recoilControlMult": null,
+        "recoilOffsetMult": null,
+        "mods": null,
+        "adsSpeedMult": 0.25,
+        "damageMult": null,
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
+    },
+    {
         "name": "panzerschreck",
         "rps": 0.8,
         "dispersion": 0.05,
@@ -13302,6 +14300,46 @@
         "sightsMag": 1.0,
         "flamethrowerDPS": 60.0,
         "flamethrowerMaxLength": 32.0
+    },
+    {
+        "name": "lanciafiamme_m41_dassalto",
+        "rps": 20.0,
+        "dispersion": 0.15,
+        "stat": "flamethrower",
+        "type": "flamethrower",
+        "weight": 17.0,
+        "locName": "Flamethrower",
+        "magazineName": {
+            "ammoHolders": "lanciafiamme_m41_dassalto_fuel_tank_light"
+        },
+        "magazineSize": 100,
+        "bullets": {
+            "shells": "content/enlisted/gamedata/weapons/bullets/flamethrower_dummy.blk"
+        },
+        "firingModes": {
+            "mode": "full_auto"
+        },
+        "singleReloadPrep": null,
+        "singleReloadLoop": null,
+        "singleReloadPost": null,
+        "reload": 6.0,
+        "altReload": null,
+        "dualMagReload": null,
+        "proneRecoilMult": 0.3,
+        "zeroDist": 0.3,
+        "reloadSingle": false,
+        "recoilAmount": 0.01,
+        "recoilDir": 0.0,
+        "recoilDirAmount": 0.35,
+        "visualRecoilMult": 0.6,
+        "recoilControlMult": 0.9,
+        "recoilOffsetMult": 0.1,
+        "mods": null,
+        "adsSpeedMult": null,
+        "damageMult": null,
+        "sightsMag": 1.0,
+        "flamethrowerDPS": 60.0,
+        "flamethrowerMaxLength": 18.0
     },
     {
         "name": "flammenwerfer_41",
@@ -14116,6 +15154,46 @@
         "flamethrowerMaxLength": null
     },
     {
+        "name": "nambu_type_a_sword_pistol",
+        "rps": 6.0,
+        "dispersion": 0.86,
+        "stat": "pistol",
+        "type": "pistol",
+        "weight": 2.0,
+        "locName": "Nambu Type A Sword-pistol",
+        "magazineName": {
+            "ammoHolders": "nambu_type_a_magazine"
+        },
+        "magazineSize": 8,
+        "bullets": {
+            "shells": "content/enlisted/gamedata/weapons/bullets/8x22_nambu_pistol.blk"
+        },
+        "firingModes": {
+            "mode": "semi_auto"
+        },
+        "singleReloadPrep": null,
+        "singleReloadLoop": null,
+        "singleReloadPost": null,
+        "reload": 3.2,
+        "altReload": 2.9,
+        "dualMagReload": null,
+        "proneRecoilMult": null,
+        "zeroDist": null,
+        "reloadSingle": false,
+        "recoilAmount": 0.041,
+        "recoilDir": 0.0,
+        "recoilDirAmount": 0.45,
+        "visualRecoilMult": 1.0,
+        "recoilControlMult": null,
+        "recoilOffsetMult": null,
+        "mods": null,
+        "adsSpeedMult": 0.7,
+        "damageMult": null,
+        "sightsMag": 1.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
+    },
+    {
         "name": "hamada_type_1",
         "rps": 6.0,
         "dispersion": 0.92,
@@ -14292,7 +15370,7 @@
         },
         "magazineSize": 5,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons/bullets/7.7x58_arisaka.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/7.7x58_arisaka_sniper.blk"
         },
         "firingModes": {
             "mode": "bolt_action"
@@ -14318,7 +15396,95 @@
             }
         },
         "adsSpeedMult": 0.95,
-        "damageMult": 1.541,
+        "damageMult": null,
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
+    },
+    {
+        "name": "arisaka_type_99_long_sniper",
+        "rps": 0.8,
+        "dispersion": 0.01,
+        "stat": "rifle",
+        "type": "rifle",
+        "weight": 4.0,
+        "locName": "Arisaka Type 99",
+        "magazineName": {
+            "ammoHolders": "arisaka_7mm_magazine"
+        },
+        "magazineSize": 5,
+        "bullets": {
+            "shells": "content/enlisted/gamedata/weapons/bullets/7.7x58_arisaka_sniper.blk"
+        },
+        "firingModes": {
+            "mode": "bolt_action"
+        },
+        "singleReloadPrep": 0.9,
+        "singleReloadLoop": 0.6,
+        "singleReloadPost": 1.0,
+        "reload": 3.2,
+        "altReload": null,
+        "dualMagReload": null,
+        "proneRecoilMult": null,
+        "zeroDist": null,
+        "reloadSingle": false,
+        "recoilAmount": 0.1,
+        "recoilDir": 0.0,
+        "recoilDirAmount": 0.7,
+        "visualRecoilMult": 0.9,
+        "recoilControlMult": null,
+        "recoilOffsetMult": null,
+        "mods": {
+            "scope:object": {
+                "scope_arisaka_type_99": "scope_arisaka_type_99"
+            }
+        },
+        "adsSpeedMult": 0.95,
+        "damageMult": 1.1067,
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
+    },
+    {
+        "name": "arisaka_type_99_early_short_with_grenade_discharger",
+        "rps": 0.8,
+        "dispersion": 0.15,
+        "stat": "rifle",
+        "type": "rifle",
+        "weight": 4.0,
+        "locName": "Arisaka Type 99 with grenade discharger",
+        "magazineName": {
+            "ammoHolders": "arisaka_7mm_magazine"
+        },
+        "magazineSize": 5,
+        "bullets": {
+            "shells": "content/enlisted/gamedata/weapons/bullets/7.7x58_arisaka.blk"
+        },
+        "firingModes": {
+            "mode": "bolt_action"
+        },
+        "singleReloadPrep": 0.85,
+        "singleReloadLoop": 0.55,
+        "singleReloadPost": 0.9,
+        "reload": 3.1,
+        "altReload": null,
+        "dualMagReload": null,
+        "proneRecoilMult": null,
+        "zeroDist": null,
+        "reloadSingle": false,
+        "recoilAmount": 0.102,
+        "recoilDir": 0.0,
+        "recoilDirAmount": 0.7,
+        "visualRecoilMult": 1.0,
+        "recoilControlMult": null,
+        "recoilOffsetMult": null,
+        "mods": {
+            "grenade_launcher:object": {
+                "type_2_grenade_discharger": "type_2_grenade_discharger"
+            }
+        },
+        "adsSpeedMult": 1.05,
+        "damageMult": 1.55,
         "sightsMag": 2.0,
         "flamethrowerDPS": null,
         "flamethrowerMaxLength": null
@@ -14459,6 +15625,51 @@
         "flamethrowerMaxLength": null
     },
     {
+        "name": "type_hei_rifle_late",
+        "rps": 5.333,
+        "dispersion": 0.22,
+        "stat": "semiauto",
+        "type": "semiauto",
+        "weight": 4.6,
+        "locName": "Type Hei Rifle",
+        "magazineName": {
+            "ammoHolders": "type_hei_rifle_extended_magazine"
+        },
+        "magazineSize": 10,
+        "bullets": {
+            "shells": "content/enlisted/gamedata/weapons/bullets/6.5x50_arisaka_semiauto.blk"
+        },
+        "firingModes": {
+            "mode": "semi_auto"
+        },
+        "singleReloadPrep": null,
+        "singleReloadLoop": null,
+        "singleReloadPost": null,
+        "reload": 2.93,
+        "altReload": 2.52,
+        "dualMagReload": null,
+        "proneRecoilMult": null,
+        "zeroDist": 0.05,
+        "reloadSingle": false,
+        "recoilAmount": 0.057,
+        "recoilDir": 0.28,
+        "recoilDirAmount": 0.68,
+        "visualRecoilMult": 1.0,
+        "recoilControlMult": null,
+        "recoilOffsetMult": null,
+        "mods": {
+            "bayonet:object": {
+                "type_30_bayonet": "type_30_bayonet",
+                "type_2_bayonet": "type_2_bayonet"
+            }
+        },
+        "adsSpeedMult": 0.78,
+        "damageMult": 1.1,
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
+    },
+    {
         "name": "type_ko_rifle",
         "rps": 4.4,
         "dispersion": 0.18,
@@ -14479,12 +15690,12 @@
         "singleReloadPrep": 1.0,
         "singleReloadLoop": 1.6,
         "singleReloadPost": 1.2,
-        "reload": 4.0,
+        "reload": 5.4,
         "altReload": 4.0,
         "dualMagReload": null,
         "proneRecoilMult": null,
         "zeroDist": 0.05,
-        "reloadSingle": true,
+        "reloadSingle": false,
         "recoilAmount": 0.11,
         "recoilDir": 0.37,
         "recoilDirAmount": 0.73,
@@ -14499,6 +15710,51 @@
         },
         "adsSpeedMult": 0.75,
         "damageMult": 1.0667,
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
+    },
+    {
+        "name": "type_4_rifle",
+        "rps": 5.333,
+        "dispersion": 0.28,
+        "stat": "semiauto",
+        "type": "semiauto",
+        "weight": 4.3,
+        "locName": "Type 4 rifle",
+        "magazineName": {
+            "ammoHolders": "type_4_rifle_magazine"
+        },
+        "magazineSize": 10,
+        "bullets": {
+            "shells": "content/enlisted/gamedata/weapons/bullets/7.7x58_arisaka_semiauto.blk"
+        },
+        "firingModes": {
+            "mode": "semi_auto"
+        },
+        "singleReloadPrep": 1.2,
+        "singleReloadLoop": 0.8,
+        "singleReloadPost": 0.8,
+        "reload": 5.2,
+        "altReload": null,
+        "dualMagReload": null,
+        "proneRecoilMult": null,
+        "zeroDist": 0.05,
+        "reloadSingle": false,
+        "recoilAmount": 0.115,
+        "recoilDir": 0.35,
+        "recoilDirAmount": 0.72,
+        "visualRecoilMult": 0.7,
+        "recoilControlMult": 0.7,
+        "recoilOffsetMult": null,
+        "mods": {
+            "bayonet:object": {
+                "type_30_bayonet": "type_30_bayonet",
+                "type_2_bayonet": "type_2_bayonet"
+            }
+        },
+        "adsSpeedMult": 0.75,
+        "damageMult": 1.033,
         "sightsMag": 2.0,
         "flamethrowerDPS": null,
         "flamethrowerMaxLength": null
@@ -14596,7 +15852,7 @@
     {
         "name": "type_100_smg_late",
         "rps": 13.333,
-        "dispersion": 0.7,
+        "dispersion": 0.75,
         "stat": "submachine_gun",
         "type": "submachine_gun",
         "weight": 4.3,
@@ -14614,15 +15870,15 @@
         "singleReloadPrep": null,
         "singleReloadLoop": null,
         "singleReloadPost": null,
-        "reload": 2.4,
-        "altReload": 1.9,
+        "reload": 2.3,
+        "altReload": 1.8,
         "dualMagReload": null,
         "proneRecoilMult": 0.65,
         "zeroDist": 0.05,
         "reloadSingle": false,
         "recoilAmount": 0.032,
         "recoilDir": 0.34,
-        "recoilDirAmount": 0.71,
+        "recoilDirAmount": 0.73,
         "visualRecoilMult": 1.0,
         "recoilControlMult": 0.25,
         "recoilOffsetMult": null,
@@ -14632,7 +15888,7 @@
                 "type_2_bayonet": "type_2_bayonet"
             }
         },
-        "adsSpeedMult": 0.75,
+        "adsSpeedMult": 0.78,
         "damageMult": 1.0667,
         "sightsMag": 2.0,
         "flamethrowerDPS": null,
@@ -14740,7 +15996,7 @@
         "dispersion": 0.75,
         "stat": "submachine_gun",
         "type": "submachine_gun",
-        "weight": 3.9,
+        "weight": 3.4,
         "locName": "Nambu Type 2a",
         "magazineName": {
             "ammoHolders": "nambu_type_2a_smg_magazine"
@@ -14778,6 +16034,99 @@
         "mods": null,
         "adsSpeedMult": 0.9,
         "damageMult": null,
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
+    },
+    {
+        "name": "nambu_type_2_1934_smg",
+        "rps": 10.0,
+        "dispersion": 0.75,
+        "stat": "submachine_gun",
+        "type": "submachine_gun",
+        "weight": 3.4,
+        "locName": "Nambu Type 2 (1934)",
+        "magazineName": {
+            "ammoHolders": "nambu_type_2_1934_smg_magazine"
+        },
+        "magazineSize": 50,
+        "bullets": {
+            "shells": "content/enlisted/gamedata/weapons/bullets/8x22_nambu_smg.blk"
+        },
+        "firingModes": [
+            {
+                "mode": "full_auto"
+            },
+            {
+                "mode": "full_auto_slow"
+            },
+            {
+                "mode": "semi_auto"
+            }
+        ],
+        "singleReloadPrep": null,
+        "singleReloadLoop": null,
+        "singleReloadPost": null,
+        "reload": 2.6,
+        "altReload": 2.2,
+        "dualMagReload": null,
+        "proneRecoilMult": 0.75,
+        "zeroDist": 0.05,
+        "reloadSingle": false,
+        "recoilAmount": 0.02,
+        "recoilDir": 0.4,
+        "recoilDirAmount": 0.5,
+        "visualRecoilMult": 1.0,
+        "recoilControlMult": 0.4,
+        "recoilOffsetMult": null,
+        "mods": {
+            "bayonet:object": {
+                "type_30_bayonet": "type_30_bayonet",
+                "type_2_bayonet": "type_2_bayonet"
+            }
+        },
+        "adsSpeedMult": 0.9,
+        "damageMult": null,
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
+    },
+    {
+        "name": "tokyo_arsenal_model_1927",
+        "rps": 20.0,
+        "dispersion": 0.7,
+        "stat": "submachine_gun",
+        "type": "submachine_gun",
+        "weight": 3.2,
+        "locName": "Tokyo Arsenal M1927",
+        "magazineName": {
+            "ammoHolders": "tokyo_arsenal_drum_magazine"
+        },
+        "magazineSize": 50,
+        "bullets": {
+            "shells": "content/enlisted/gamedata/weapons/bullets/8x22_nambu_smg.blk"
+        },
+        "firingModes": {
+            "mode": "full_auto"
+        },
+        "singleReloadPrep": null,
+        "singleReloadLoop": null,
+        "singleReloadPost": null,
+        "reload": 3.4,
+        "altReload": 2.9,
+        "dualMagReload": null,
+        "proneRecoilMult": 0.75,
+        "zeroDist": 0.05,
+        "reloadSingle": false,
+        "recoilAmount": 0.034,
+        "recoilDir": 0.1,
+        "recoilDirAmount": 0.83,
+        "visualRecoilMult": 1.1,
+        "recoilControlMult": 0.3,
+        "recoilOffsetMult": null,
+        "mods": null,
+        "adsSpeedMult": 0.72,
+        "damageMult": 1.0,
         "sightsMag": 2.0,
         "flamethrowerDPS": null,
         "flamethrowerMaxLength": null
@@ -14862,7 +16211,7 @@
         "dispersion": 0.31,
         "stat": "machine_gun",
         "type": "machine_gun",
-        "weight": 10.6,
+        "weight": 9.0,
         "locName": "nambu_type_96_lmg",
         "magazineName": {
             "ammoHolders": "nambu_type_96_lmg_magazine"
@@ -14935,6 +16284,51 @@
         "recoilControlMult": 0.9,
         "recoilOffsetMult": 0.1,
         "mods": null,
+        "adsSpeedMult": 0.3,
+        "damageMult": null,
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
+    },
+    {
+        "name": "nambu_type_99_lmg",
+        "rps": 13.333,
+        "dispersion": 0.58,
+        "stat": "machine_gun",
+        "type": "machine_gun",
+        "weight": 12.0,
+        "locName": "nambu_type_96_lmg",
+        "magazineName": {
+            "ammoHolders": "nambu_type_99_lmg_magazine"
+        },
+        "magazineSize": 30,
+        "bullets": {
+            "shells": "content/enlisted/gamedata/weapons/bullets/7.7x58_arisaka_tracer.blk"
+        },
+        "firingModes": {
+            "mode": "full_auto"
+        },
+        "singleReloadPrep": null,
+        "singleReloadLoop": null,
+        "singleReloadPost": null,
+        "reload": 3.5,
+        "altReload": 3.0,
+        "dualMagReload": null,
+        "proneRecoilMult": 0.7,
+        "zeroDist": 0.3,
+        "reloadSingle": false,
+        "recoilAmount": 0.056,
+        "recoilDir": 0.0,
+        "recoilDirAmount": 0.63,
+        "visualRecoilMult": 0.4,
+        "recoilControlMult": 0.9,
+        "recoilOffsetMult": 0.1,
+        "mods": {
+            "bayonet:object": {
+                "type_30_bayonet": "type_30_bayonet",
+                "type_2_bayonet": "type_2_bayonet"
+            }
+        },
         "adsSpeedMult": 0.3,
         "damageMult": null,
         "sightsMag": 2.0,
@@ -15212,7 +16606,7 @@
         "recoilAmount": 0.048,
         "recoilDir": 0.4,
         "recoilDirAmount": 0.67,
-        "visualRecoilMult": 1.0,
+        "visualRecoilMult": 0.7,
         "recoilControlMult": 0.5,
         "recoilOffsetMult": 0.3,
         "mods": null,
@@ -15601,6 +16995,46 @@
         "flamethrowerMaxLength": null
     },
     {
+        "name": "bsa_welgun",
+        "rps": 8.333,
+        "dispersion": 0.77,
+        "stat": "submachine_gun",
+        "type": "submachine_gun",
+        "weight": 5.2,
+        "locName": "Lanchester",
+        "magazineName": {
+            "ammoHolders": "sten_mk2_magazine"
+        },
+        "magazineSize": 32,
+        "bullets": {
+            "shells": "content/enlisted/gamedata/weapons/bullets/9x19_parabellum_smg.blk"
+        },
+        "firingModes": {
+            "mode": "full_auto"
+        },
+        "singleReloadPrep": null,
+        "singleReloadLoop": null,
+        "singleReloadPost": null,
+        "reload": 2.5,
+        "altReload": 1.8,
+        "dualMagReload": null,
+        "proneRecoilMult": null,
+        "zeroDist": 0.05,
+        "reloadSingle": false,
+        "recoilAmount": 0.052,
+        "recoilDir": 0.1,
+        "recoilDirAmount": 0.8,
+        "visualRecoilMult": 1.1,
+        "recoilControlMult": 0.3,
+        "recoilOffsetMult": 0.3,
+        "mods": null,
+        "adsSpeedMult": 0.8,
+        "damageMult": null,
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
+    },
+    {
         "name": "carcano_m38",
         "rps": 0.9,
         "dispersion": 0.17,
@@ -15833,7 +17267,7 @@
         },
         "magazineSize": 6,
         "bullets": {
-            "shells": "content/enlisted/gamedata/weapons/bullets/6.5x52_carcano_long.blk"
+            "shells": "content/enlisted/gamedata/weapons/bullets/6.5x52_carcano_sniper.blk"
         },
         "firingModes": {
             "mode": "bolt_action"
@@ -16009,8 +17443,8 @@
         "singleReloadPrep": null,
         "singleReloadLoop": null,
         "singleReloadPost": null,
-        "reload": 3.2,
-        "altReload": 3.8,
+        "reload": 2.8,
+        "altReload": 2.4,
         "dualMagReload": null,
         "proneRecoilMult": null,
         "zeroDist": 0.05,
@@ -16094,7 +17528,7 @@
         "dualMagReload": null,
         "proneRecoilMult": null,
         "zeroDist": 0.05,
-        "reloadSingle": true,
+        "reloadSingle": false,
         "recoilAmount": 0.113,
         "recoilDir": 0.0,
         "recoilDirAmount": 0.71,
@@ -16144,6 +17578,91 @@
         "mods": null,
         "adsSpeedMult": 1.1,
         "damageMult": 1.066,
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
+    },
+    {
+        "name": "breda_m1935_pg",
+        "rps": 5.333,
+        "dispersion": 0.34,
+        "stat": "semiauto",
+        "type": "semiauto",
+        "weight": 5.2,
+        "locName": "Breda PG",
+        "magazineName": {
+            "ammoHolders": "breda_m1935_pg_magazine"
+        },
+        "magazineSize": 20,
+        "bullets": {
+            "shells": "content/enlisted/gamedata/weapons/bullets/7x57_mauser_semiauto.blk"
+        },
+        "firingModes": [
+            {
+                "mode": "semi_auto_4_shots"
+            },
+            {
+                "mode": "semi_auto"
+            }
+        ],
+        "singleReloadPrep": null,
+        "singleReloadLoop": null,
+        "singleReloadPost": null,
+        "reload": 2.5,
+        "altReload": 2.2,
+        "dualMagReload": null,
+        "proneRecoilMult": null,
+        "zeroDist": 0.05,
+        "reloadSingle": false,
+        "recoilAmount": 0.094,
+        "recoilDir": 0.35,
+        "recoilDirAmount": 0.73,
+        "visualRecoilMult": 1.3,
+        "recoilControlMult": 0.25,
+        "recoilOffsetMult": 0.3,
+        "mods": null,
+        "adsSpeedMult": 0.7,
+        "damageMult": null,
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
+    },
+    {
+        "name": "breda_m1935_pg_carcano",
+        "rps": 5.333,
+        "dispersion": 0.31,
+        "stat": "semiauto",
+        "type": "semiauto",
+        "weight": 5.2,
+        "locName": "Breda PG",
+        "magazineName": {
+            "ammoHolders": "breda_m1935_pg_carcano_magazine"
+        },
+        "magazineSize": 20,
+        "bullets": {
+            "shells": "content/enlisted/gamedata/weapons/bullets/6.5x52_carcano_semiauto.blk"
+        },
+        "firingModes": {
+            "mode": "semi_auto"
+        },
+        "singleReloadPrep": null,
+        "singleReloadLoop": null,
+        "singleReloadPost": null,
+        "reload": 2.5,
+        "altReload": 2.2,
+        "dualMagReload": null,
+        "proneRecoilMult": null,
+        "zeroDist": 0.05,
+        "reloadSingle": false,
+        "recoilAmount": 0.082,
+        "recoilDir": 0.28,
+        "recoilDirAmount": 0.7,
+        "visualRecoilMult": 1.3,
+        "recoilControlMult": 0.25,
+        "recoilOffsetMult": 0.3,
+        "mods": null,
+        "adsSpeedMult": 0.7,
+        "damageMult": null,
         "sightsMag": 2.0,
         "flamethrowerDPS": null,
         "flamethrowerMaxLength": null
@@ -16289,12 +17808,12 @@
         "singleReloadPrep": 1.2,
         "singleReloadLoop": 1.1,
         "singleReloadPost": 1.4,
-        "reload": 3.5,
+        "reload": 5.6,
         "altReload": null,
         "dualMagReload": null,
         "proneRecoilMult": null,
         "zeroDist": null,
-        "reloadSingle": true,
+        "reloadSingle": false,
         "recoilAmount": 0.128,
         "recoilDir": 0.35,
         "recoilDirAmount": 0.78,
@@ -16489,6 +18008,51 @@
         "flamethrowerMaxLength": null
     },
     {
+        "name": "og_43",
+        "rps": 8.33,
+        "dispersion": 0.72,
+        "stat": "submachine_gun",
+        "type": "submachine_gun",
+        "weight": 3.0,
+        "locName": "OG-43",
+        "magazineName": {
+            "ammoHolders": "og_43_magazine"
+        },
+        "magazineSize": 20,
+        "bullets": {
+            "shells": "content/enlisted/gamedata/weapons/bullets/9x19_parabellum_smg.blk"
+        },
+        "firingModes": [
+            {
+                "mode": "full_auto"
+            },
+            {
+                "mode": "semi_auto"
+            }
+        ],
+        "singleReloadPrep": null,
+        "singleReloadLoop": null,
+        "singleReloadPost": null,
+        "reload": 2.6,
+        "altReload": 2.1,
+        "dualMagReload": null,
+        "proneRecoilMult": 0.8,
+        "zeroDist": null,
+        "reloadSingle": false,
+        "recoilAmount": 0.032,
+        "recoilDir": 0.0,
+        "recoilDirAmount": 0.75,
+        "visualRecoilMult": 1.6,
+        "recoilControlMult": 0.3,
+        "recoilOffsetMult": null,
+        "mods": null,
+        "adsSpeedMult": 0.8,
+        "damageMult": null,
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
+    },
+    {
         "name": "thompson_m1921_28_box",
         "rps": 11.67,
         "dispersion": 0.68,
@@ -16568,7 +18132,7 @@
         "recoilAmount": 0.051,
         "recoilDir": 0.4,
         "recoilDirAmount": 0.65,
-        "visualRecoilMult": 1.6,
+        "visualRecoilMult": 0.7,
         "recoilControlMult": 0.3,
         "recoilOffsetMult": 0.3,
         "mods": null,
@@ -16584,7 +18148,7 @@
         "dispersion": 0.85,
         "stat": "submachine_gun",
         "type": "submachine_gun",
-        "weight": 4.0,
+        "weight": 4.2,
         "locName": "Owen Gun MkI/42",
         "magazineName": {
             "ammoHolders": "owen_magazine"
@@ -16759,12 +18323,12 @@
         "singleReloadPrep": 1.1,
         "singleReloadLoop": 1.1,
         "singleReloadPost": 0.7,
-        "reload": 8.4,
+        "reload": 5.1,
         "altReload": null,
         "dualMagReload": null,
         "proneRecoilMult": null,
         "zeroDist": null,
-        "reloadSingle": true,
+        "reloadSingle": false,
         "recoilAmount": 0.06,
         "recoilDir": 0.0,
         "recoilDirAmount": 0.63,
@@ -16799,12 +18363,12 @@
         "singleReloadPrep": 1.1,
         "singleReloadLoop": 1.1,
         "singleReloadPost": 0.7,
-        "reload": 8.4,
+        "reload": 5.1,
         "altReload": null,
         "dualMagReload": null,
         "proneRecoilMult": null,
         "zeroDist": null,
-        "reloadSingle": true,
+        "reloadSingle": false,
         "recoilAmount": 0.06,
         "recoilDir": 0.0,
         "recoilDirAmount": 0.63,
@@ -16839,12 +18403,12 @@
         "singleReloadPrep": 1.1,
         "singleReloadLoop": 1.35,
         "singleReloadPost": 0.7,
-        "reload": 8.1,
+        "reload": 5.85,
         "altReload": null,
         "dualMagReload": null,
         "proneRecoilMult": null,
         "zeroDist": null,
-        "reloadSingle": true,
+        "reloadSingle": false,
         "recoilAmount": 0.052,
         "recoilDir": 0.0,
         "recoilDirAmount": 0.68,
@@ -16953,9 +18517,14 @@
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons/bullets/303_british_mk7_tracer.blk"
         },
-        "firingModes": {
-            "mode": "full_auto"
-        },
+        "firingModes": [
+            {
+                "mode": "full_auto"
+            },
+            {
+                "mode": "semi_auto"
+            }
+        ],
         "singleReloadPrep": null,
         "singleReloadLoop": null,
         "singleReloadPost": null,
@@ -17021,10 +18590,10 @@
     {
         "name": "atr_boys",
         "rps": 0.55,
-        "dispersion": 0.22,
+        "dispersion": 0.05,
         "stat": "rifle",
         "type": "rifle",
-        "weight": 10.0,
+        "weight": 16.3,
         "locName": "atr_boys",
         "magazineName": {
             "ammoHolders": "atr_boys_magazine"

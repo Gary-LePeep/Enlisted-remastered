@@ -257,27 +257,27 @@
                 10.0
             ],
             "HitPower100m": [
-                0.9,
-                100.0
+                0.95,
+                150.0
             ],
             "HitPower200m": [
-                0.8,
+                0.9,
                 300.0
             ],
             "HitPower400m": [
                 0.7,
-                400.0
+                450.0
             ],
             "HitPower600m": [
-                0.3,
-                600.0
+                0.5,
+                650.0
             ],
             "HitPower1000m": [
-                0.1,
+                0.4,
                 1000.0
             ],
             "HitPower1500m": [
-                0.01,
+                0.3,
                 1500.0
             ]
         },
@@ -468,7 +468,7 @@
     "12gauge_shell": {
         "maxDistance": 2000.0,
         "effectiveDistance": 20.0,
-        "hitPowerMult": 2.25,
+        "hitPowerMult": 2.6,
         "hitpower": {
             "HitPower10m": [
                 1.0,
@@ -2207,7 +2207,16 @@
                 1500.0
             ]
         },
-        "armorpower": null,
+        "armorpower": {
+            "ArmorPower0m": [
+                1.0,
+                10.0
+            ],
+            "ArmorPower1500m": [
+                0.1,
+                1500.0
+            ]
+        },
         "speed": 770.0,
         "spawn": null,
         "cumulativeDamage": null,
@@ -2429,6 +2438,62 @@
             ]
         },
         "speed": 630.0,
+        "spawn": null,
+        "cumulativeDamage": null,
+        "explodeHitPower": null,
+        "explodeRadius": null,
+        "splashDamage": null,
+        "detonation": null
+    },
+    "6.5x52_carcano_sniper": {
+        "maxDistance": 2000.0,
+        "effectiveDistance": 500.0,
+        "hitPowerMult": 14.2,
+        "hitpower": {
+            "HitPower10m": [
+                1.0,
+                10.0
+            ],
+            "HitPower100m": [
+                0.93,
+                100.0
+            ],
+            "HitPower200m": [
+                0.87,
+                200.0
+            ],
+            "HitPower300m": [
+                0.82,
+                300.0
+            ],
+            "HitPower400m": [
+                0.76,
+                400.0
+            ],
+            "HitPower500m": [
+                0.71,
+                500.0
+            ],
+            "HitPower1000m": [
+                0.5,
+                1000.0
+            ],
+            "HitPower1500m": [
+                0.39,
+                1500.0
+            ]
+        },
+        "armorpower": {
+            "ArmorPower0m": [
+                1.0,
+                10.0
+            ],
+            "ArmorPower1500m": [
+                0.1,
+                1500.0
+            ]
+        },
+        "speed": 660.0,
         "spawn": null,
         "cumulativeDamage": null,
         "explodeHitPower": null,
@@ -2999,7 +3064,7 @@
     "7.62x38_nagant_pistol": {
         "maxDistance": 200.0,
         "effectiveDistance": 50.0,
-        "hitPowerMult": 5.0,
+        "hitPowerMult": 5.1,
         "hitpower": {
             "HitPower10m": [
                 1.0,
@@ -4128,10 +4193,66 @@
         "splashDamage": null,
         "detonation": null
     },
+    "7.7x58_arisaka_semiauto": {
+        "maxDistance": 1500.0,
+        "effectiveDistance": 300.0,
+        "hitPowerMult": 12.0,
+        "hitpower": {
+            "HitPower10m": [
+                1.0,
+                10.0
+            ],
+            "HitPower100m": [
+                0.78,
+                100.0
+            ],
+            "HitPower200m": [
+                0.63,
+                200.0
+            ],
+            "HitPower300m": [
+                0.5,
+                300.0
+            ],
+            "HitPower400m": [
+                0.4,
+                400.0
+            ],
+            "HitPower500m": [
+                0.31,
+                500.0
+            ],
+            "HitPower1000m": [
+                0.09,
+                1000.0
+            ],
+            "HitPower1500m": [
+                0.04,
+                1500.0
+            ]
+        },
+        "armorpower": {
+            "ArmorPower0m": [
+                1.0,
+                10.0
+            ],
+            "ArmorPower1500m": [
+                0.1,
+                1500.0
+            ]
+        },
+        "speed": 730.0,
+        "spawn": null,
+        "cumulativeDamage": null,
+        "explodeHitPower": null,
+        "explodeRadius": null,
+        "splashDamage": null,
+        "detonation": null
+    },
     "7.7x58_arisaka_sniper": {
         "maxDistance": 1500.0,
         "effectiveDistance": 500.0,
-        "hitPowerMult": 22.2,
+        "hitPowerMult": 22.5,
         "hitpower": {
             "HitPower10m": [
                 1.0,
@@ -4176,7 +4297,7 @@
                 1500.0
             ]
         },
-        "speed": 690.0,
+        "speed": 730.0,
         "spawn": null,
         "cumulativeDamage": null,
         "explodeHitPower": null,
@@ -4258,15 +4379,15 @@
                 400.0
             ],
             "HitPower600m": [
-                0.3,
+                0.5,
                 600.0
             ],
             "HitPower1000m": [
-                0.1,
+                0.3,
                 1000.0
             ],
             "HitPower1500m": [
-                0.01,
+                0.2,
                 1500.0
             ]
         },
@@ -5160,6 +5281,118 @@
             ]
         },
         "speed": 865.0,
+        "spawn": null,
+        "cumulativeDamage": null,
+        "explodeHitPower": null,
+        "explodeRadius": null,
+        "splashDamage": null,
+        "detonation": null
+    },
+    "7x57_mauser": {
+        "maxDistance": 2000.0,
+        "effectiveDistance": 350.0,
+        "hitPowerMult": 13.8,
+        "hitpower": {
+            "HitPower10m": [
+                1.0,
+                10.0
+            ],
+            "HitPower100m": [
+                0.82,
+                100.0
+            ],
+            "HitPower200m": [
+                0.67,
+                200.0
+            ],
+            "HitPower300m": [
+                0.55,
+                300.0
+            ],
+            "HitPower400m": [
+                0.45,
+                400.0
+            ],
+            "HitPower500m": [
+                0.37,
+                500.0
+            ],
+            "HitPower1000m": [
+                0.12,
+                1000.0
+            ],
+            "HitPower1500m": [
+                0.06,
+                1500.0
+            ]
+        },
+        "armorpower": {
+            "ArmorPower0m": [
+                1.0,
+                10.0
+            ],
+            "ArmorPower1500m": [
+                0.1,
+                1500.0
+            ]
+        },
+        "speed": 700.0,
+        "spawn": null,
+        "cumulativeDamage": null,
+        "explodeHitPower": null,
+        "explodeRadius": null,
+        "splashDamage": null,
+        "detonation": null
+    },
+    "7x57_mauser_semiauto": {
+        "maxDistance": 2000.0,
+        "effectiveDistance": 350.0,
+        "hitPowerMult": 11.7,
+        "hitpower": {
+            "HitPower10m": [
+                1.0,
+                10.0
+            ],
+            "HitPower100m": [
+                0.82,
+                100.0
+            ],
+            "HitPower200m": [
+                0.67,
+                200.0
+            ],
+            "HitPower300m": [
+                0.55,
+                300.0
+            ],
+            "HitPower400m": [
+                0.45,
+                400.0
+            ],
+            "HitPower500m": [
+                0.37,
+                500.0
+            ],
+            "HitPower1000m": [
+                0.12,
+                1000.0
+            ],
+            "HitPower1500m": [
+                0.06,
+                1500.0
+            ]
+        },
+        "armorpower": {
+            "ArmorPower0m": [
+                1.0,
+                10.0
+            ],
+            "ArmorPower1500m": [
+                0.1,
+                1500.0
+            ]
+        },
+        "speed": 700.0,
         "spawn": null,
         "cumulativeDamage": null,
         "explodeHitPower": null,
@@ -6116,6 +6349,20 @@
             ]
         },
         "speed": 445.0,
+        "spawn": null,
+        "cumulativeDamage": null,
+        "explodeHitPower": null,
+        "explodeRadius": null,
+        "splashDamage": null,
+        "detonation": null
+    },
+    "effect_dummy": {
+        "maxDistance": 10000.0,
+        "effectiveDistance": null,
+        "hitPowerMult": null,
+        "hitpower": null,
+        "armorpower": null,
+        "speed": null,
         "spawn": null,
         "cumulativeDamage": null,
         "explodeHitPower": null,
@@ -7229,7 +7476,7 @@
         "detonation": null
     },
     "12_7x99mm_m20_apit_bullet": {
-        "maxDistance": 4000.0,
+        "maxDistance": 3400.0,
         "effectiveDistance": 3000.0,
         "hitPowerMult": null,
         "hitpower": {
@@ -7636,7 +7883,7 @@
         "detonation": null
     },
     "13mm_mg_131_pzgr_l_spur_bullet": {
-        "maxDistance": 2500.0,
+        "maxDistance": 3000.0,
         "effectiveDistance": 500.0,
         "hitPowerMult": null,
         "hitpower": {
@@ -7738,7 +7985,7 @@
         "detonation": null
     },
     "13_2mm_type3_b_30_bullet": {
-        "maxDistance": 2500.0,
+        "maxDistance": 3000.0,
         "effectiveDistance": 3000.0,
         "hitPowerMult": null,
         "hitpower": {
@@ -7767,32 +8014,7 @@
                 3000.0
             ]
         },
-        "armorpower": {
-            "ArmorPower0m": [
-                27.0,
-                10.0
-            ],
-            "ArmorPower100m": [
-                26.0,
-                200.0
-            ],
-            "ArmorPower500m": [
-                18.0,
-                500.0
-            ],
-            "ArmorPower1000m": [
-                13.0,
-                1000.0
-            ],
-            "ArmorPower1450m": [
-                0.1,
-                1450.0
-            ],
-            "ArmorPower1500m": [
-                0.0,
-                1500.0
-            ]
-        },
+        "armorpower": null,
         "speed": 815.0,
         "spawn": null,
         "cumulativeDamage": null,
@@ -7802,7 +8024,7 @@
         "detonation": null
     },
     "13_2mm_type3_mdz_bullet": {
-        "maxDistance": 2000.0,
+        "maxDistance": 3000.0,
         "effectiveDistance": 3000.0,
         "hitPowerMult": 3.0,
         "hitpower": {
@@ -7833,16 +8055,20 @@
         },
         "armorpower": {
             "ArmorPower0m": [
-                7.0,
-                10.0
+                3.5,
+                5.0
+            ],
+            "ArmorPower100m": [
+                3.3,
+                100.0
             ],
             "ArmorPower500m": [
-                6.0,
+                3.2,
                 500.0
             ],
             "ArmorPower1000m": [
-                5.0,
-                1200.0
+                3.0,
+                1000.0
             ],
             "ArmorPower1450m": [
                 0.1,
@@ -7865,7 +8091,7 @@
         "detonation": null
     },
     "13_2mm_type3_t_38_bullet": {
-        "maxDistance": 2000.0,
+        "maxDistance": 3000.0,
         "effectiveDistance": 3000.0,
         "hitPowerMult": 8.0,
         "hitpower": {
@@ -7928,7 +8154,83 @@
         "splashDamage": null,
         "detonation": null
     },
+    "150gal_drop_tank": {
+        "maxDistance": null,
+        "effectiveDistance": null,
+        "hitPowerMult": 1.0,
+        "hitpower": null,
+        "armorpower": null,
+        "speed": null,
+        "spawn": null,
+        "cumulativeDamage": null,
+        "explodeHitPower": 120.0,
+        "explodeRadius": [
+            1.0,
+            3.0
+        ],
+        "splashDamage": null,
+        "detonation": null
+    },
     "15mm_mg_151_15_brgr_g_spur_bullet": {
+        "maxDistance": 2000.0,
+        "effectiveDistance": 700.0,
+        "hitPowerMult": 10.0,
+        "hitpower": {
+            "HitPower10m": [
+                1.0,
+                50.0
+            ],
+            "HitPower1000m": [
+                0.9,
+                300.0
+            ],
+            "HitPower1500m": [
+                0.5,
+                700.0
+            ],
+            "HitPower2000m": [
+                0.1,
+                1500.0
+            ]
+        },
+        "armorpower": {
+            "ArmorPower0m": [
+                13.0,
+                10.0
+            ],
+            "ArmorPower100m": [
+                12.0,
+                100.0
+            ],
+            "ArmorPower500m": [
+                7.0,
+                500.0
+            ],
+            "ArmorPower1000m": [
+                2.0,
+                1000.0
+            ],
+            "ArmorPower1450m": [
+                1.0,
+                1450.0
+            ],
+            "ArmorPower1500m": [
+                0.0,
+                1500.0
+            ]
+        },
+        "speed": 960.0,
+        "spawn": null,
+        "cumulativeDamage": null,
+        "explodeHitPower": 2.0,
+        "explodeRadius": [
+            0.01,
+            0.1
+        ],
+        "splashDamage": null,
+        "detonation": null
+    },
+    "15mm_mg_151_15_brgr_l_spur_bullet": {
         "maxDistance": 2000.0,
         "effectiveDistance": 700.0,
         "hitPowerMult": 10.0,
@@ -8009,29 +8311,8 @@
                 1500.0
             ]
         },
-        "armorpower": {
-            "ArmorPower0m": [
-                26.0,
-                10.0
-            ],
-            "ArmorPower100m": [
-                25.0,
-                100.0
-            ],
-            "ArmorPower500m": [
-                17.0,
-                500.0
-            ],
-            "ArmorPower1000m": [
-                7.0,
-                1000.0
-            ],
-            "ArmorPower1500m": [
-                2.0,
-                1500.0
-            ]
-        },
-        "speed": 960.0,
+        "armorpower": null,
+        "speed": 850.0,
         "spawn": null,
         "cumulativeDamage": null,
         "explodeHitPower": null,
@@ -8057,7 +8338,7 @@
         "detonation": null
     },
     "20mm_shvak_bz_bullet": {
-        "maxDistance": 2500.0,
+        "maxDistance": 3500.0,
         "effectiveDistance": null,
         "hitPowerMult": null,
         "hitpower": {
@@ -8084,7 +8365,7 @@
         "detonation": null
     },
     "20mm_shvak_ozt_bullet": {
-        "maxDistance": 2500.0,
+        "maxDistance": 3500.0,
         "effectiveDistance": 700.0,
         "hitPowerMult": 1.0,
         "hitpower": {
@@ -8134,16 +8415,13 @@
         "speed": 800.0,
         "spawn": null,
         "cumulativeDamage": null,
-        "explodeHitPower": 13.0,
-        "explodeRadius": [
-            0.035,
-            0.35
-        ],
+        "explodeHitPower": null,
+        "explodeRadius": null,
         "splashDamage": null,
         "detonation": null
     },
     "20x101rbmm_api_bullet": {
-        "maxDistance": 2000.0,
+        "maxDistance": 3000.0,
         "effectiveDistance": null,
         "hitPowerMult": null,
         "hitpower": {
@@ -8170,7 +8448,7 @@
         "detonation": null
     },
     "20x101rbmm_he_i_bullet": {
-        "maxDistance": 2000.0,
+        "maxDistance": 3000.0,
         "effectiveDistance": 300.0,
         "hitPowerMult": 1.0,
         "hitpower": {
@@ -8220,11 +8498,8 @@
         "speed": 750.0,
         "spawn": null,
         "cumulativeDamage": null,
-        "explodeHitPower": 13.0,
-        "explodeRadius": [
-            0.043,
-            0.43
-        ],
+        "explodeHitPower": null,
+        "explodeRadius": null,
         "splashDamage": null,
         "detonation": null
     },
@@ -8285,7 +8560,7 @@
         "detonation": null
     },
     "20x110mm_ball_mk1_bullet": {
-        "maxDistance": 2000.0,
+        "maxDistance": 5000.0,
         "effectiveDistance": 700.0,
         "hitPowerMult": 7.0,
         "hitpower": {
@@ -8345,9 +8620,9 @@
         "detonation": null
     },
     "20x110mm_he_i_mk_2_bullet": {
-        "maxDistance": 2000.0,
+        "maxDistance": 5000.0,
         "effectiveDistance": 700.0,
-        "hitPowerMult": 1.0,
+        "hitPowerMult": 1.5,
         "hitpower": {
             "HitPower10m": [
                 1.0,
@@ -8395,16 +8670,13 @@
         "speed": 853.0,
         "spawn": null,
         "cumulativeDamage": null,
-        "explodeHitPower": 16.0,
-        "explodeRadius": [
-            0.058,
-            0.58
-        ],
+        "explodeHitPower": null,
+        "explodeRadius": null,
         "splashDamage": null,
         "detonation": null
     },
     "20x110mm_m75_ap_t_bullet": {
-        "maxDistance": 2000.0,
+        "maxDistance": 5000.0,
         "effectiveDistance": null,
         "hitPowerMult": null,
         "hitpower": {
@@ -8422,7 +8694,7 @@
             ]
         },
         "armorpower": null,
-        "speed": 899.0,
+        "speed": 778.76,
         "spawn": null,
         "cumulativeDamage": null,
         "explodeHitPower": null,
@@ -8431,7 +8703,7 @@
         "detonation": null
     },
     "20x110mm_mk1_he_i_bullet": {
-        "maxDistance": 2000.0,
+        "maxDistance": 5000.0,
         "effectiveDistance": 700.0,
         "hitPowerMult": 1.0,
         "hitpower": {
@@ -8481,16 +8753,40 @@
         "speed": 868.0,
         "spawn": null,
         "cumulativeDamage": null,
-        "explodeHitPower": 16.0,
-        "explodeRadius": [
-            0.058,
-            0.58
-        ],
+        "explodeHitPower": null,
+        "explodeRadius": null,
+        "splashDamage": null,
+        "detonation": null
+    },
+    "20x110mm_sapi_mk_1_bullet": {
+        "maxDistance": 5000.0,
+        "effectiveDistance": null,
+        "hitPowerMult": null,
+        "hitpower": {
+            "HitPower0m": [
+                1.0,
+                0.0
+            ],
+            "HitPower1000m": [
+                0.9,
+                0.0
+            ],
+            "HitPower10000m": [
+                0.8,
+                10000.0
+            ]
+        },
+        "armorpower": null,
+        "speed": 844.0,
+        "spawn": null,
+        "cumulativeDamage": null,
+        "explodeHitPower": null,
+        "explodeRadius": null,
         "splashDamage": null,
         "detonation": null
     },
     "20x110mm_tracer_mk_1_bullet": {
-        "maxDistance": 2000.0,
+        "maxDistance": 5000.0,
         "effectiveDistance": 700.0,
         "hitPowerMult": 7.0,
         "hitpower": {
@@ -8627,11 +8923,8 @@
         "speed": 588.0,
         "spawn": null,
         "cumulativeDamage": null,
-        "explodeHitPower": 16.0,
-        "explodeRadius": [
-            0.057,
-            0.57
-        ],
+        "explodeHitPower": null,
+        "explodeRadius": null,
         "splashDamage": null,
         "detonation": null
     },
@@ -8686,11 +8979,8 @@
         "speed": 588.0,
         "spawn": null,
         "cumulativeDamage": null,
-        "explodeHitPower": 13.0,
-        "explodeRadius": [
-            0.043,
-            0.43
-        ],
+        "explodeHitPower": null,
+        "explodeRadius": null,
         "splashDamage": null,
         "detonation": null
     },
@@ -8925,7 +9215,7 @@
             ]
         },
         "armorpower": null,
-        "speed": 710.0,
+        "speed": 720.0,
         "spawn": null,
         "cumulativeDamage": null,
         "explodeHitPower": null,
@@ -9004,7 +9294,7 @@
             ]
         },
         "armorpower": null,
-        "speed": 710.0,
+        "speed": 720.0,
         "spawn": null,
         "cumulativeDamage": null,
         "explodeHitPower": 4.5,
@@ -9035,6 +9325,145 @@
         },
         "armorpower": null,
         "speed": 710.0,
+        "spawn": null,
+        "cumulativeDamage": null,
+        "explodeHitPower": null,
+        "explodeRadius": null,
+        "splashDamage": null,
+        "detonation": null
+    },
+    "20x94mm_ho_5_apt_bullet": {
+        "maxDistance": 2000.0,
+        "effectiveDistance": null,
+        "hitPowerMult": null,
+        "hitpower": {
+            "HitPower0m": [
+                1.0,
+                0.0
+            ],
+            "HitPower1000m": [
+                0.9,
+                0.0
+            ],
+            "HitPower10000m": [
+                0.8,
+                10000.0
+            ]
+        },
+        "armorpower": null,
+        "speed": 702.0,
+        "spawn": null,
+        "cumulativeDamage": null,
+        "explodeHitPower": null,
+        "explodeRadius": null,
+        "splashDamage": null,
+        "detonation": null
+    },
+    "20x94mm_ho_5_ball_bullet": {
+        "maxDistance": 2000.0,
+        "effectiveDistance": 700.0,
+        "hitPowerMult": 11.0,
+        "hitpower": {
+            "HitPower10m": [
+                1.0,
+                50.0
+            ],
+            "HitPower1000m": [
+                0.8,
+                1000.0
+            ],
+            "HitPower1500m": [
+                0.7,
+                1500.0
+            ],
+            "HitPower2000m": [
+                0.25,
+                2000.0
+            ]
+        },
+        "armorpower": {
+            "ArmorPower0m": [
+                16.0,
+                10.0
+            ],
+            "ArmorPower100m": [
+                13.0,
+                100.0
+            ],
+            "ArmorPower500m": [
+                8.0,
+                500.0
+            ],
+            "ArmorPower1000m": [
+                6.0,
+                1000.0
+            ],
+            "ArmorPower1450m": [
+                0.1,
+                1450.0
+            ],
+            "ArmorPower1500m": [
+                0.0,
+                1500.0
+            ]
+        },
+        "speed": 740.0,
+        "spawn": null,
+        "cumulativeDamage": null,
+        "explodeHitPower": null,
+        "explodeRadius": null,
+        "splashDamage": null,
+        "detonation": null
+    },
+    "20x94mm_ho_5_hei_bullet": {
+        "maxDistance": 2000.0,
+        "effectiveDistance": 700.0,
+        "hitPowerMult": 1.0,
+        "hitpower": {
+            "HitPower10m": [
+                1.0,
+                50.0
+            ],
+            "HitPower1000m": [
+                0.8,
+                1000.0
+            ],
+            "HitPower1500m": [
+                0.7,
+                1500.0
+            ],
+            "HitPower2000m": [
+                0.25,
+                2000.0
+            ]
+        },
+        "armorpower": {
+            "ArmorPower0m": [
+                2.0,
+                10.0
+            ],
+            "ArmorPower100m": [
+                2.0,
+                100.0
+            ],
+            "ArmorPower500m": [
+                1.5,
+                500.0
+            ],
+            "ArmorPower1000m": [
+                1.0,
+                1000.0
+            ],
+            "ArmorPower1450m": [
+                0.5,
+                1450.0
+            ],
+            "ArmorPower1500m": [
+                0.0,
+                1500.0
+            ]
+        },
+        "speed": 740.0,
         "spawn": null,
         "cumulativeDamage": null,
         "explodeHitPower": null,
@@ -9172,7 +9601,7 @@
         "detonation": null
     },
     "30x184bmm_mgr_l_spur_bullet": {
-        "maxDistance": 1600.0,
+        "maxDistance": 2600.0,
         "effectiveDistance": 300.0,
         "hitPowerMult": 2.0,
         "hitpower": {
@@ -9211,7 +9640,7 @@
                 1000.0
             ]
         },
-        "speed": 525.0,
+        "speed": 860.0,
         "spawn": null,
         "cumulativeDamage": null,
         "explodeHitPower": null,
@@ -9253,14 +9682,22 @@
         "hitpower": {
             "HitPower0m": [
                 1.0,
-                0.0
+                300.0
             ],
             "HitPower1000m": [
-                0.9,
-                0.0
+                0.7,
+                1000.0
+            ],
+            "HitPower1500m": [
+                0.6,
+                1500.0
+            ],
+            "HitPower2500m": [
+                0.6,
+                2500.0
             ],
             "HitPower10000m": [
-                0.8,
+                0.5,
                 10000.0
             ]
         },
@@ -9305,7 +9742,7 @@
         "detonation": null
     },
     "30x90rbmm_brgr_bullet": {
-        "maxDistance": 1100.0,
+        "maxDistance": 2500.0,
         "effectiveDistance": 300.0,
         "hitPowerMult": 15.0,
         "hitpower": {
@@ -9339,7 +9776,7 @@
         "detonation": null
     },
     "30x90rbmm_mbrgr_patr": {
-        "maxDistance": 1000.0,
+        "maxDistance": 2500.0,
         "effectiveDistance": 300.0,
         "hitPowerMult": 2.0,
         "hitpower": {
@@ -9387,103 +9824,7 @@
         "detonation": null
     },
     "30x90rbmm_mgesch_bullet": {
-        "maxDistance": 1600.0,
-        "effectiveDistance": 300.0,
-        "hitPowerMult": 2.0,
-        "hitpower": {
-            "HitPower10m": [
-                1.0,
-                50.0
-            ],
-            "HitPower1000m": [
-                0.9,
-                300.0
-            ],
-            "HitPower1500m": [
-                0.1,
-                700.0
-            ],
-            "HitPower2000m": [
-                0.008,
-                1500.0
-            ]
-        },
-        "armorpower": {
-            "ArmorPower0m": [
-                4.0,
-                10.0
-            ],
-            "ArmorPower100m": [
-                3.0,
-                100.0
-            ],
-            "ArmorPower500m": [
-                2.0,
-                500.0
-            ],
-            "ArmorPower1000m": [
-                1.0,
-                1000.0
-            ]
-        },
-        "speed": 525.0,
-        "spawn": null,
-        "cumulativeDamage": null,
-        "explodeHitPower": null,
-        "explodeRadius": null,
-        "splashDamage": null,
-        "detonation": null
-    },
-    "30x90rbmm_mgesch_g_spur_m_zer_bullet": {
-        "maxDistance": 1600.0,
-        "effectiveDistance": 300.0,
-        "hitPowerMult": 2.0,
-        "hitpower": {
-            "HitPower10m": [
-                1.0,
-                50.0
-            ],
-            "HitPower1000m": [
-                0.9,
-                300.0
-            ],
-            "HitPower1500m": [
-                0.1,
-                700.0
-            ],
-            "HitPower2000m": [
-                0.008,
-                1500.0
-            ]
-        },
-        "armorpower": {
-            "ArmorPower0m": [
-                4.0,
-                10.0
-            ],
-            "ArmorPower100m": [
-                3.0,
-                100.0
-            ],
-            "ArmorPower500m": [
-                2.0,
-                500.0
-            ],
-            "ArmorPower1000m": [
-                1.0,
-                1000.0
-            ]
-        },
-        "speed": 525.0,
-        "spawn": null,
-        "cumulativeDamage": null,
-        "explodeHitPower": null,
-        "explodeRadius": null,
-        "splashDamage": null,
-        "detonation": null
-    },
-    "30x90rbmm_mgesch_l_spur_bullet": {
-        "maxDistance": 1600.0,
+        "maxDistance": 2500.0,
         "effectiveDistance": 300.0,
         "hitPowerMult": 2.0,
         "hitpower": {
@@ -9530,13 +9871,126 @@
         "splashDamage": null,
         "detonation": null
     },
+    "30x90rbmm_mgesch_g_spur_m_zer_bullet": {
+        "maxDistance": 1635.0,
+        "effectiveDistance": 300.0,
+        "hitPowerMult": 2.0,
+        "hitpower": {
+            "HitPower10m": [
+                1.0,
+                50.0
+            ],
+            "HitPower1000m": [
+                0.9,
+                300.0
+            ],
+            "HitPower1500m": [
+                0.1,
+                700.0
+            ],
+            "HitPower2000m": [
+                0.008,
+                1500.0
+            ]
+        },
+        "armorpower": {
+            "ArmorPower0m": [
+                4.0,
+                10.0
+            ],
+            "ArmorPower100m": [
+                3.0,
+                100.0
+            ],
+            "ArmorPower500m": [
+                2.0,
+                500.0
+            ],
+            "ArmorPower1000m": [
+                1.0,
+                1000.0
+            ]
+        },
+        "speed": 500.0,
+        "spawn": null,
+        "cumulativeDamage": null,
+        "explodeHitPower": null,
+        "explodeRadius": null,
+        "splashDamage": null,
+        "detonation": null
+    },
+    "30x90rbmm_mgesch_l_spur_bullet": {
+        "maxDistance": 2500.0,
+        "effectiveDistance": 300.0,
+        "hitPowerMult": 2.0,
+        "hitpower": {
+            "HitPower10m": [
+                1.0,
+                50.0
+            ],
+            "HitPower1000m": [
+                0.9,
+                300.0
+            ],
+            "HitPower1500m": [
+                0.1,
+                700.0
+            ],
+            "HitPower2000m": [
+                0.008,
+                1500.0
+            ]
+        },
+        "armorpower": {
+            "ArmorPower0m": [
+                4.0,
+                10.0
+            ],
+            "ArmorPower100m": [
+                3.0,
+                100.0
+            ],
+            "ArmorPower500m": [
+                2.0,
+                500.0
+            ],
+            "ArmorPower1000m": [
+                1.0,
+                1000.0
+            ]
+        },
+        "speed": 500.0,
+        "spawn": null,
+        "cumulativeDamage": null,
+        "explodeHitPower": null,
+        "explodeRadius": null,
+        "splashDamage": null,
+        "detonation": null
+    },
+    "330_liters_a_6m": {
+        "maxDistance": null,
+        "effectiveDistance": null,
+        "hitPowerMult": 1.0,
+        "hitpower": null,
+        "armorpower": null,
+        "speed": null,
+        "spawn": null,
+        "cumulativeDamage": null,
+        "explodeHitPower": 120.0,
+        "explodeRadius": [
+            1.0,
+            3.0
+        ],
+        "splashDamage": null,
+        "detonation": null
+    },
     "37mm_m54_he_i_t_bullet": {
-        "maxDistance": 5300.0,
+        "maxDistance": 6350.0,
         "effectiveDistance": null,
         "hitPowerMult": 2.0,
         "hitpower": null,
         "armorpower": null,
-        "speed": 792.0,
+        "speed": 792.48,
         "spawn": null,
         "cumulativeDamage": null,
         "explodeHitPower": null,
@@ -9545,12 +9999,45 @@
         "detonation": null
     },
     "37mm_m80_ap_t_bullet": {
-        "maxDistance": 2000.0,
+        "maxDistance": 5000.0,
         "effectiveDistance": null,
         "hitPowerMult": null,
         "hitpower": null,
-        "armorpower": null,
-        "speed": 556.0,
+        "armorpower": {
+            "ArmorPower0m": [
+                45.0,
+                10.0
+            ],
+            "ArmorPower100m": [
+                43.0,
+                100.0
+            ],
+            "ArmorPower500m": [
+                37.0,
+                500.0
+            ],
+            "ArmorPower1000m": [
+                25.0,
+                1000.0
+            ],
+            "ArmorPower1500m": [
+                17.0,
+                1500.0
+            ],
+            "ArmorPower2000m": [
+                11.0,
+                2000.0
+            ],
+            "ArmorPower2450m": [
+                5.0,
+                2450.0
+            ],
+            "ArmorPower2500m": [
+                0.0,
+                2500.0
+            ]
+        },
+        "speed": 556.26,
         "spawn": null,
         "cumulativeDamage": null,
         "explodeHitPower": null,
@@ -9576,48 +10063,7 @@
                 10000.0
             ]
         },
-        "armorpower": {
-            "ArmorPower0m": [
-                60.0,
-                10.0
-            ],
-            "ArmorPower100m": [
-                57.0,
-                100.0
-            ],
-            "ArmorPower500m": [
-                42.0,
-                500.0
-            ],
-            "ArmorPower1000m": [
-                33.0,
-                1000.0
-            ],
-            "ArmorPower1500m": [
-                24.0,
-                1500.0
-            ],
-            "ArmorPower2000m": [
-                16.0,
-                2000.0
-            ],
-            "ArmorPower2500m": [
-                11.0,
-                2500.0
-            ],
-            "ArmorPower3000m": [
-                5.0,
-                3000.0
-            ],
-            "ArmorPower4000m": [
-                3.0,
-                4000.0
-            ],
-            "ArmorPower5000m": [
-                0.0,
-                5000.0
-            ]
-        },
+        "armorpower": null,
         "speed": 880.0,
         "spawn": null,
         "cumulativeDamage": null,
@@ -9718,11 +10164,8 @@
         "speed": 246.0,
         "spawn": null,
         "cumulativeDamage": null,
-        "explodeHitPower": 45.0,
-        "explodeRadius": [
-            0.11,
-            1.1
-        ],
+        "explodeHitPower": null,
+        "explodeRadius": null,
         "splashDamage": null,
         "detonation": null
     },
@@ -9787,11 +10230,8 @@
         "speed": 730.0,
         "spawn": null,
         "cumulativeDamage": null,
-        "explodeHitPower": 33.0,
-        "explodeRadius": [
-            0.105,
-            1.05
-        ],
+        "explodeHitPower": null,
+        "explodeRadius": null,
         "splashDamage": null,
         "detonation": null
     },
@@ -9802,14 +10242,22 @@
         "hitpower": {
             "HitPower0m": [
                 1.0,
-                0.0
+                300.0
             ],
             "HitPower1000m": [
-                0.9,
-                0.0
+                0.7,
+                1000.0
+            ],
+            "HitPower1500m": [
+                0.6,
+                1500.0
+            ],
+            "HitPower2500m": [
+                0.6,
+                2500.0
             ],
             "HitPower10000m": [
-                0.8,
+                0.5,
                 10000.0
             ]
         },
@@ -9831,11 +10279,8 @@
         "speed": 780.0,
         "spawn": null,
         "cumulativeDamage": null,
-        "explodeHitPower": 45.0,
-        "explodeRadius": [
-            0.22,
-            1.24
-        ],
+        "explodeHitPower": null,
+        "explodeRadius": null,
         "splashDamage": null,
         "detonation": null
     },
@@ -9920,11 +10365,8 @@
         "speed": 920.0,
         "spawn": null,
         "cumulativeDamage": null,
-        "explodeHitPower": 70.0,
-        "explodeRadius": [
-            0.8,
-            1.7
-        ],
+        "explodeHitPower": null,
+        "explodeRadius": null,
         "splashDamage": null,
         "detonation": null
     },
@@ -10028,7 +10470,7 @@
     "7_5x54mm_g_mk6z_tracer_bullet": {
         "maxDistance": 2000.0,
         "effectiveDistance": 400.0,
-        "hitPowerMult": 2.8,
+        "hitPowerMult": 2.9,
         "hitpower": {
             "HitPower10m": [
                 1.45,
@@ -10127,7 +10569,32 @@
                 1500.0
             ]
         },
-        "armorpower": null,
+        "armorpower": {
+            "ArmorPower0m": [
+                3.5,
+                5.0
+            ],
+            "ArmorPower100m": [
+                3.3,
+                100.0
+            ],
+            "ArmorPower500m": [
+                3.2,
+                500.0
+            ],
+            "ArmorPower1000m": [
+                3.0,
+                1000.0
+            ],
+            "ArmorPower1450m": [
+                0.1,
+                1450.0
+            ],
+            "ArmorPower1500m": [
+                0.0,
+                1500.0
+            ]
+        },
         "speed": 920.0,
         "spawn": null,
         "cumulativeDamage": null,
@@ -10142,7 +10609,7 @@
     "7_5x54mm_mk7_ball_bullet": {
         "maxDistance": 2000.0,
         "effectiveDistance": 400.0,
-        "hitPowerMult": 2.8,
+        "hitPowerMult": 2.9,
         "hitpower": {
             "HitPower10m": [
                 1.45,
@@ -10243,28 +10710,32 @@
         },
         "armorpower": {
             "ArmorPower0m": [
-                10.0,
+                13.0,
                 10.0
             ],
             "ArmorPower100m": [
-                9.0,
+                12.0,
                 100.0
             ],
+            "ArmorPower300m": [
+                9.0,
+                300.0
+            ],
             "ArmorPower500m": [
-                7.0,
-                500.0
+                6.0,
+                600.0
             ],
             "ArmorPower1000m": [
-                4.0,
+                3.0,
                 1000.0
             ],
-            "ArmorPower1450m": [
-                1.0,
-                1450.0
-            ],
-            "ArmorPower1500m": [
-                0.0,
+            "ArmorPower150m": [
+                1.5,
                 1500.0
+            ],
+            "ArmorPower1600m": [
+                0.0,
+                1600.0
             ]
         },
         "speed": 853.0,
@@ -10941,28 +11412,32 @@
         },
         "armorpower": {
             "ArmorPower0m": [
-                10.0,
+                13.0,
                 10.0
             ],
             "ArmorPower100m": [
-                9.0,
+                12.0,
                 100.0
             ],
+            "ArmorPower300m": [
+                9.0,
+                300.0
+            ],
             "ArmorPower500m": [
-                7.0,
-                500.0
+                6.0,
+                600.0
             ],
             "ArmorPower1000m": [
-                4.0,
+                3.0,
                 1000.0
             ],
-            "ArmorPower1450m": [
-                1.0,
-                1450.0
-            ],
-            "ArmorPower1500m": [
-                0.0,
+            "ArmorPower150m": [
+                1.5,
                 1500.0
+            ],
+            "ArmorPower1600m": [
+                0.0,
+                1600.0
             ]
         },
         "speed": 730.0,
@@ -11009,28 +11484,32 @@
         },
         "armorpower": {
             "ArmorPower0m": [
-                10.0,
+                13.0,
                 10.0
             ],
             "ArmorPower100m": [
-                9.0,
+                12.0,
                 100.0
             ],
+            "ArmorPower300m": [
+                9.0,
+                300.0
+            ],
             "ArmorPower500m": [
-                7.0,
-                500.0
+                6.0,
+                600.0
             ],
             "ArmorPower1000m": [
-                4.0,
+                3.0,
                 1000.0
             ],
-            "ArmorPower1450m": [
-                1.0,
-                1450.0
-            ],
-            "ArmorPower1500m": [
-                0.0,
+            "ArmorPower150m": [
+                1.5,
                 1500.0
+            ],
+            "ArmorPower1600m": [
+                0.0,
+                1600.0
             ]
         },
         "speed": 730.0,
@@ -11044,7 +11523,7 @@
     "7_7x56mm_breda_ball_bullet": {
         "maxDistance": 2000.0,
         "effectiveDistance": 400.0,
-        "hitPowerMult": 3.0,
+        "hitPowerMult": 2.9,
         "hitpower": {
             "HitPower10m": [
                 1.45,
@@ -11112,7 +11591,7 @@
     "7_7x56mm_breda_tracer_bullet": {
         "maxDistance": 2000.0,
         "effectiveDistance": 400.0,
-        "hitPowerMult": 2.8,
+        "hitPowerMult": 2.9,
         "hitpower": {
             "HitPower10m": [
                 1.45,
@@ -11457,7 +11936,7 @@
         "detonation": null
     },
     "7_7x58srmm_ap_bullet": {
-        "maxDistance": 2500.0,
+        "maxDistance": 2000.0,
         "effectiveDistance": 400.0,
         "hitPowerMult": null,
         "hitpower": {
@@ -11492,28 +11971,32 @@
         },
         "armorpower": {
             "ArmorPower0m": [
-                10.0,
+                13.0,
                 10.0
             ],
             "ArmorPower100m": [
-                9.0,
+                12.0,
                 100.0
             ],
+            "ArmorPower300m": [
+                9.0,
+                300.0
+            ],
             "ArmorPower500m": [
-                7.0,
-                500.0
+                6.0,
+                600.0
             ],
             "ArmorPower1000m": [
-                4.0,
+                3.0,
                 1000.0
             ],
-            "ArmorPower1450m": [
-                1.0,
-                1450.0
-            ],
-            "ArmorPower1500m": [
-                0.0,
+            "ArmorPower150m": [
+                1.5,
                 1500.0
+            ],
+            "ArmorPower1600m": [
+                0.0,
+                1600.0
             ]
         },
         "speed": 730.0,
@@ -11525,9 +12008,9 @@
         "detonation": null
     },
     "7_7x58srmm_ball_bullet": {
-        "maxDistance": 2500.0,
+        "maxDistance": 2000.0,
         "effectiveDistance": 400.0,
-        "hitPowerMult": 3.0,
+        "hitPowerMult": 2.9,
         "hitpower": {
             "HitPower10m": [
                 1.45,
@@ -11593,7 +12076,7 @@
         "detonation": null
     },
     "7_7x58srmm_he_bullet": {
-        "maxDistance": 2500.0,
+        "maxDistance": 2000.0,
         "effectiveDistance": 400.0,
         "hitPowerMult": 2.5,
         "hitpower": {
@@ -11664,7 +12147,7 @@
         "detonation": null
     },
     "7_7x58srmm_incendiary_bullet": {
-        "maxDistance": 2500.0,
+        "maxDistance": 2000.0,
         "effectiveDistance": 400.0,
         "hitPowerMult": 2.5,
         "hitpower": {
@@ -11726,7 +12209,7 @@
         "speed": 720.0,
         "spawn": null,
         "cumulativeDamage": null,
-        "explodeHitPower": null,
+        "explodeHitPower": 5.5,
         "explodeRadius": [
             0.03,
             0.035
@@ -11735,9 +12218,9 @@
         "detonation": null
     },
     "7_7x58srmm_tracer_bullet": {
-        "maxDistance": 2500.0,
+        "maxDistance": 2000.0,
         "effectiveDistance": 400.0,
-        "hitPowerMult": 2.7,
+        "hitPowerMult": 2.9,
         "hitpower": {
             "HitPower10m": [
                 1.45,
@@ -11909,19 +12392,19 @@
         },
         "armorpower": {
             "ArmorPower0m": [
-                13.0,
+                7.5,
                 10.0
             ],
             "ArmorPower100m": [
-                12.0,
+                7.5,
                 100.0
             ],
             "ArmorPower300m": [
-                9.0,
+                6.5,
                 300.0
             ],
             "ArmorPower500m": [
-                6.0,
+                5.0,
                 600.0
             ],
             "ArmorPower1000m": [
@@ -12273,7 +12756,7 @@
                 7000.0
             ]
         },
-        "speed": 80.0,
+        "speed": 70.0,
         "spawn": null,
         "cumulativeDamage": {
             "armorPower": 90.0,
@@ -12391,6 +12874,72 @@
             3.5
         ],
         "splashDamage": null,
+        "detonation": null
+    },
+    "luftfaust_shell": {
+        "maxDistance": null,
+        "effectiveDistance": null,
+        "hitPowerMult": null,
+        "hitpower": {
+            "HitPower10m": [
+                1.0,
+                50.0
+            ],
+            "HitPower1000m": [
+                0.7,
+                1000.0
+            ],
+            "HitPower1500m": [
+                0.5,
+                1500.0
+            ],
+            "HitPower2000m": [
+                0.1,
+                2000.0
+            ]
+        },
+        "armorpower": {
+            "ArmorPower0m": [
+                4.0,
+                10.0
+            ],
+            "ArmorPower100m": [
+                3.0,
+                100.0
+            ],
+            "ArmorPower500m": [
+                2.0,
+                500.0
+            ],
+            "ArmorPower1000m": [
+                1.0,
+                1000.0
+            ]
+        },
+        "speed": 310.0,
+        "spawn": null,
+        "cumulativeDamage": null,
+        "explodeHitPower": 18.0,
+        "explodeRadius": [
+            1.5,
+            1.5
+        ],
+        "splashDamage": {
+            "radius": [
+                0.1,
+                0.4
+            ],
+            "penetration": [
+                3.0,
+                0.0
+            ],
+            "damage": 40.0,
+            "dmgOffset": [
+                0.0,
+                0.05,
+                0.0
+            ]
+        },
         "detonation": null
     },
     "lunge_mine_shell": {
@@ -12729,7 +13278,10 @@
         "spawn": null,
         "cumulativeDamage": null,
         "explodeHitPower": 350.0,
-        "explodeRadius": null,
+        "explodeRadius": [
+            0.35,
+            1.0
+        ],
         "splashDamage": null,
         "detonation": null
     },
@@ -13340,6 +13892,20 @@
         "splashDamage": null,
         "detonation": null
     },
+    "sc_500_87": {
+        "maxDistance": null,
+        "effectiveDistance": null,
+        "hitPowerMult": 1.0,
+        "hitpower": null,
+        "armorpower": null,
+        "speed": null,
+        "spawn": null,
+        "cumulativeDamage": null,
+        "explodeHitPower": null,
+        "explodeRadius": null,
+        "splashDamage": null,
+        "detonation": null
+    },
     "sprengpatrone": {
         "maxDistance": null,
         "effectiveDistance": null,
@@ -13426,6 +13992,40 @@
         "explodeHitPower": null,
         "explodeRadius": null,
         "splashDamage": null,
+        "detonation": null
+    },
+    "type_2_grenade_discharger_shell": {
+        "maxDistance": 6.0,
+        "effectiveDistance": null,
+        "hitPowerMult": null,
+        "hitpower": null,
+        "armorpower": null,
+        "speed": 54.0,
+        "spawn": null,
+        "cumulativeDamage": {
+            "armorPower": 50.0,
+            "distance": 3.0,
+            "damage": 120.0,
+            "onHitChanceMultFire": 15.0
+        },
+        "explodeHitPower": null,
+        "explodeRadius": null,
+        "splashDamage": {
+            "radius": [
+                1.0,
+                10.0
+            ],
+            "penetration": [
+                15.0,
+                2.0
+            ],
+            "damage": 20.0,
+            "dmgOffset": [
+                0.0,
+                0.25,
+                0.0
+            ]
+        },
         "detonation": null
     },
     "type_4_at_7cm": {
@@ -13835,10 +14435,10 @@
                 8.0
             ],
             "penetration": [
-                15.0,
+                5.0,
                 2.0
             ],
-            "damage": 25.0,
+            "damage": 100.0,
             "dmgOffset": [
                 0.0,
                 0.25,
