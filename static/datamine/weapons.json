@@ -1610,7 +1610,7 @@
         "recoilAmount": 0.132,
         "recoilDir": 0.35,
         "recoilDirAmount": 0.78,
-        "visualRecoilMult": 1.3,
+        "visualRecoilMult": 1.0,
         "recoilControlMult": 0.4,
         "recoilOffsetMult": 0.3,
         "mods": {
@@ -6785,7 +6785,7 @@
         "recoilAmount": 0.054,
         "recoilDir": 0.0,
         "recoilDirAmount": 0.6,
-        "visualRecoilMult": 1.2,
+        "visualRecoilMult": 1.0,
         "recoilControlMult": 0.4,
         "recoilOffsetMult": 0.3,
         "mods": null,
@@ -9536,7 +9536,7 @@
     },
     {
         "name": "gewehr_88",
-        "rps": 0.5,
+        "rps": 0.82,
         "dispersion": 0.2,
         "stat": "rifle",
         "type": "rifle",
@@ -9581,7 +9581,7 @@
     },
     {
         "name": "vg_2",
-        "rps": 0.75,
+        "rps": 0.9,
         "dispersion": 0.19,
         "stat": "rifle",
         "type": "rifle",
@@ -9600,8 +9600,8 @@
         "singleReloadPrep": null,
         "singleReloadLoop": null,
         "singleReloadPost": null,
-        "reload": 3.6,
-        "altReload": 3.2,
+        "reload": 3.3,
+        "altReload": 2.6,
         "dualMagReload": null,
         "proneRecoilMult": null,
         "zeroDist": null,
@@ -13262,9 +13262,14 @@
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons/bullets/8x56_r_tracer.blk"
         },
-        "firingModes": {
-            "mode": "full_auto"
-        },
+        "firingModes": [
+            {
+                "mode": "full_auto"
+            },
+            {
+                "mode": "semi_auto"
+            }
+        ],
         "singleReloadPrep": null,
         "singleReloadLoop": null,
         "singleReloadPost": null,
@@ -13302,9 +13307,14 @@
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons/bullets/7.92x57_mauser_tracer.blk"
         },
-        "firingModes": {
-            "mode": "full_auto"
-        },
+        "firingModes": [
+            {
+                "mode": "full_auto"
+            },
+            {
+                "mode": "semi_auto"
+            }
+        ],
         "singleReloadPrep": null,
         "singleReloadLoop": null,
         "singleReloadPost": null,
@@ -13342,9 +13352,14 @@
         "bullets": {
             "shells": "content/enlisted/gamedata/weapons/bullets/7.92x57_mauser_tracer.blk"
         },
-        "firingModes": {
-            "mode": "full_auto"
-        },
+        "firingModes": [
+            {
+                "mode": "full_auto"
+            },
+            {
+                "mode": "semi_auto"
+            }
+        ],
         "singleReloadPrep": null,
         "singleReloadLoop": null,
         "singleReloadPost": null,
@@ -17340,7 +17355,7 @@
     },
     {
         "name": "smle_mk3",
-        "rps": 0.75,
+        "rps": 0.92,
         "dispersion": 0.15,
         "stat": "rifle",
         "type": "rifle",
@@ -17943,8 +17958,8 @@
         "singleReloadPrep": null,
         "singleReloadLoop": null,
         "singleReloadPost": null,
-        "reload": 3.8,
-        "altReload": 3.3,
+        "reload": 3.0,
+        "altReload": 2.5,
         "dualMagReload": null,
         "proneRecoilMult": null,
         "zeroDist": 0.25,
@@ -18674,7 +18689,7 @@
     },
     {
         "name": "smle_mk3_grenade_launcher",
-        "rps": 0.75,
+        "rps": 0.92,
         "dispersion": 0.15,
         "stat": "rifle",
         "type": "rifle",

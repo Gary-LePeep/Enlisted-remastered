@@ -9701,7 +9701,36 @@
                 10000.0
             ]
         },
-        "armorpower": null,
+        "armorpower": {
+            "ArmorPower0m": [
+                77.0,
+                10.0
+            ],
+            "ArmorPower100m": [
+                74.0,
+                100.0
+            ],
+            "ArmorPower300m": [
+                67.0,
+                300.0
+            ],
+            "ArmorPower500m": [
+                61.0,
+                600.0
+            ],
+            "ArmorPower1000m": [
+                47.0,
+                1000.0
+            ],
+            "ArmorPower1500m": [
+                37.0,
+                1500.0
+            ],
+            "ArmorPower1600m": [
+                29.0,
+                1600.0
+            ]
+        },
         "speed": 960.0,
         "spawn": null,
         "cumulativeDamage": null,
@@ -13892,20 +13921,6 @@
         "splashDamage": null,
         "detonation": null
     },
-    "sc_500_87": {
-        "maxDistance": null,
-        "effectiveDistance": null,
-        "hitPowerMult": 1.0,
-        "hitpower": null,
-        "armorpower": null,
-        "speed": null,
-        "spawn": null,
-        "cumulativeDamage": null,
-        "explodeHitPower": null,
-        "explodeRadius": null,
-        "splashDamage": null,
-        "detonation": null
-    },
     "sprengpatrone": {
         "maxDistance": null,
         "effectiveDistance": null,
@@ -14166,6 +14181,20 @@
         "splashDamage": null,
         "detonation": null
     },
+    "type_92mod_25": {
+        "maxDistance": null,
+        "effectiveDistance": null,
+        "hitPowerMult": 1.0,
+        "hitpower": null,
+        "armorpower": null,
+        "speed": null,
+        "spawn": null,
+        "cumulativeDamage": null,
+        "explodeHitPower": null,
+        "explodeRadius": null,
+        "splashDamage": null,
+        "detonation": null
+    },
     "type_94mod_10": {
         "maxDistance": null,
         "effectiveDistance": null,
@@ -14357,10 +14386,10 @@
                 10.0
             ],
             "penetration": [
-                15.0,
+                5.0,
                 2.0
             ],
-            "damage": 75.0,
+            "damage": 210.0,
             "dmgOffset": [
                 0.0,
                 0.25,
