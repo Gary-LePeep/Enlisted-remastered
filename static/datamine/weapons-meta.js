@@ -268,7 +268,7 @@ const WEAPONS_META = [
             'sniper_svt_38',
             'sniper_svt_40',
             "sniper_svt_38_gun",
-            "sniper_svt_40_gun"
+            "sniper_svt_40_gun",
             'svt_38',
             'svt_40',
             "svt_40_with_drum"
