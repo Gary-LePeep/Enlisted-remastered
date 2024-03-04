@@ -344,7 +344,7 @@ for (let h = 0; h < 2; h++) {
                 labelsDiv.id = `turretLabelsDiv${h}`;
                 turretDiv.appendChild(labelsDiv);
                 for (let l = 0; l < labels.length; l++) {
-                    labelsDiv.appendChild(translate(`page.tanks.table.${labels[l]}`, 'b', `position:absolute; top:${265 + (dataDivs.length * 50) + (l * 44.15)}px; left:${h === 0 ? 645 - tableWidth : 950 + tableWidth}px; width:285px; text-align:${h === 0 ? 'right' : 'left'}; font-size:17px; font-family: Helvetica; color:white;`));
+                    labelsDiv.appendChild(translate(`page.tanks.table.${labels[l]}`, 'b', `position:absolute; top:${265 + (dataDivs.length * 50) + (l * 44.25)}px; left:${h === 0 ? 645 - tableWidth : 950 + tableWidth}px; width:285px; text-align:${h === 0 ? 'right' : 'left'}; font-size:18px; font-family: Helvetica; color:white;`));
                 }
                 const turretTableBody = document.createElement('tbody');
                 turretTable.appendChild(turretTableBody);
