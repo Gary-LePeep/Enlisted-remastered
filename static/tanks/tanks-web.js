@@ -31,8 +31,6 @@ function setDataTable(div, string, which, grade = false) {
     }
 }
 
-const TANKS_JSON = readJSON('{{tanksJson}}');
-
 // add data placeholders
 const nameDiv = document.createElement('div');
 const IGNDiv = document.createElement('div');
