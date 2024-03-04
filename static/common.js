@@ -76,15 +76,20 @@ function readJSON(stringName) {
     return JSON.parse(stringName.replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&#39;/g, '"').replace(/&#34;/g, '"').replace(/~/g, "'").replace(/None/g, 'null').replace(/False/g, false).replace(/True/g, true).replace(/Ã—/g, '×').replace(/ÄŒ/g, 'Č').replace(/Ã¶/g, 'ö').replace(/Ã¤/g, 'ä').replace(/&amp;/g, '&').replace(/Ð¡/g, 'С').replace(/â€“/g, '–').replace(/Â/g, ' '));
 }
 
-function translate(text, type = 'string', style = '') {
+function translate(text, type = 'string', style = '', maxLen = null) {
     let language = readJSON(LANGUAGE);
     if (type === 'string') {
         let ret = language[text];
         if (ret == null) {
             ret = text;
         }
+        if (maxLen != null) {
+            ret = ret.substring(0, maxLen)
+        }
         return ret;
     }
+
+
 
     const element = document.createElement(type);
     element.style = style;
@@ -97,6 +102,9 @@ function translate(text, type = 'string', style = '') {
         let ret = language[text];
         if (ret == null) {
             ret = text;
+        }
+        if (maxLen != null) {
+            ret = ret.substring(0, maxLen)
         }
         element.innerHTML = ret;
         element.text = ret;
