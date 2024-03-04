@@ -99,28 +99,27 @@
 
         function defaultColorTurretTable(table) {
             for (let i = 0; i < table.childNodes.length; i++) {
-                for (let j = 0; j < table.childNodes[i].childNodes.length; j++) {
-                    if (table.childNodes[i].childNodes[j] != null) {
+                for (const element of table.childNodes[i].childNodes) {
+                    if (element != null) {
                         if (i >= 25) {
-                            table.childNodes[i].childNodes[j].style.backgroundColor = '#335544';
-                            table.childNodes[i].childNodes[j].style.borderColor = '#669977';
+                            element.style.backgroundColor = '#335544';
+                            element.style.borderColor = '#669977';
                         }
                         else if (i >= 19) {
-                            table.childNodes[i].childNodes[j].style.backgroundColor = '#333355';
-                            table.childNodes[i].childNodes[j].style.borderColor = '#666699';
+                            element.style.backgroundColor = '#333355';
+                            element.style.borderColor = '#666699';
                         }
                         else if (i >= 12) {
-                            table.childNodes[i].childNodes[j].style.backgroundColor = '#553344';
-                            table.childNodes[i].childNodes[j].style.borderColor = '#996677';
+                            element.style.backgroundColor = '#553344';
+                            element.style.borderColor = '#996677';
                         }
                         else {
-                            table.childNodes[i].childNodes[j].style.backgroundColor = '#333333';
-                            table.childNodes[i].childNodes[j].style.borderColor = '#666666';
+                            element.style.backgroundColor = '#333333';
+                            element.style.borderColor = '#666666';
                         }
                     }
                 }
             }
-
         }
 
         function colorTurretTable() {
@@ -164,8 +163,8 @@
                 }
                 const values = [];
                 let largest = lowerBetter.includes(i) ? 9007199254740991 : -1;
-                for (let j = 0; j < mainGuns0.length; j++) {
-                    const turretItem0 = table0.childNodes[i].childNodes[mainGuns0[j]];
+                for (const mainGun0 of mainGuns0) {
+                    const turretItem0 = table0.childNodes[i].childNodes[mainGun0];
                     if (turretItem0 != null) {
                         turretItem0.style.backgroundColor = 'rgb(100, 100, 0)';
                         const val = toPlace(parseFloat((turretItem0.textContent === '　' || turretItem0.textContent === translate('N_A')) ? 0 : turretItem0.textContent), 2);
@@ -180,8 +179,8 @@
                         }
                     }
                 }
-                for (let j = 0; j < mainGuns1.length; j++) {
-                    const turretItem1 = table1.childNodes[i].childNodes[mainGuns1[j]];
+                for (const mainGun1 of mainGuns1) {
+                    const turretItem1 = table1.childNodes[i].childNodes[mainGun1];
                     if (turretItem1 != null) {
                         turretItem1.style.backgroundColor = 'rgb(100, 100, 0)';
                         const val = toPlace(parseFloat((turretItem1.textContent === '　' || turretItem1.textContent === translate('N_A')) ? 0 : turretItem1.textContent), 2);
@@ -199,27 +198,27 @@
                 const avg = (values.reduce((a, b) => a + b, 0) / values.length) || 0;
                 const max = (4 * avg) / 3;
 
-                for (let j = 0; j < mainGuns0.length; j++) {
-                    if (table0.childNodes[i].childNodes[mainGuns0[j]] != null) {
-                        const val = toPlace(parseFloat(table0.childNodes[i].childNodes[mainGuns0[j]].textContent), 2);
+                for (const mainGun0 of mainGuns0) {
+                    if (table0.childNodes[i].childNodes[mainGun0] != null) {
+                        const val = toPlace(parseFloat(table0.childNodes[i].childNodes[mainGun0].textContent), 2);
                         const red = val < (3 * max / 4) ? 100 : (1 - (val - (3 * max / 4)) / (max / 4)) * 100;
                         const green = val > (3 * max / 4) ? 100 : (((val - (max / 4)) / (max / 4)) - 1) * 100;
-                        table0.childNodes[i].childNodes[mainGuns0[j]].style.backgroundColor = lowerBetter.includes(i) ? `rgb(${green}, ${red}, 0)` : `rgb(${red}, ${green}, 0)`;
-                        table0.childNodes[i].childNodes[mainGuns0[j]].style.borderColor = lowerBetter.includes(i) ? `rgb(${green}, ${red}, 0)` : `rgb(${red}, ${green}, 0)`;
+                        table0.childNodes[i].childNodes[mainGun0].style.backgroundColor = lowerBetter.includes(i) ? `rgb(${green}, ${red}, 0)` : `rgb(${red}, ${green}, 0)`;
+                        table0.childNodes[i].childNodes[mainGun0].style.borderColor = lowerBetter.includes(i) ? `rgb(${green}, ${red}, 0)` : `rgb(${red}, ${green}, 0)`;
                         if (val === largest) {
-                            table0.childNodes[i].childNodes[mainGuns0[j]].style.borderColor = '#00BB00';
+                            table0.childNodes[i].childNodes[mainGun0].style.borderColor = '#00BB00';
                         }
                     }
                 }
-                for (let j = 0; j < mainGuns1.length; j++) {
-                    if (table1.childNodes[i].childNodes[mainGuns1[j]] != null) {
-                        const val = toPlace(parseFloat(table1.childNodes[i].childNodes[mainGuns1[j]].textContent), 2);
+                for (const mainGun1 of mainGuns1) {
+                    if (table1.childNodes[i].childNodes[mainGun1] != null) {
+                        const val = toPlace(parseFloat(table1.childNodes[i].childNodes[mainGun1].textContent), 2);
                         const red = val < (3 * max / 4) ? 100 : (1 - (val - (3 * max / 4)) / (max / 4)) * 100;
                         const green = val > (3 * max / 4) ? 100 : (((val - (max / 4)) / (max / 4)) - 1) * 100;
-                        table1.childNodes[i].childNodes[mainGuns1[j]].style.backgroundColor = lowerBetter.includes(i) ? `rgb(${green}, ${red}, 0)` : `rgb(${red}, ${green}, 0)`;
-                        table1.childNodes[i].childNodes[mainGuns1[j]].style.borderColor = lowerBetter.includes(i) ? `rgb(${green}, ${red}, 0)` : `rgb(${red}, ${green}, 0)`;
+                        table1.childNodes[i].childNodes[mainGun1].style.backgroundColor = lowerBetter.includes(i) ? `rgb(${green}, ${red}, 0)` : `rgb(${red}, ${green}, 0)`;
+                        table1.childNodes[i].childNodes[mainGun1].style.borderColor = lowerBetter.includes(i) ? `rgb(${green}, ${red}, 0)` : `rgb(${red}, ${green}, 0)`;
                         if (val === largest) {
-                            table1.childNodes[i].childNodes[mainGuns1[j]].style.borderColor = '#00BB00';
+                            table1.childNodes[i].childNodes[mainGun1].style.borderColor = '#00BB00';
                         }
                     }
                 }
@@ -292,8 +291,8 @@
                         window.dataNames[h] = '';
 
                         // remove table data
-                        for (let j = 0; j < dataDivs.length; j++) {
-                            setDataTable(dataDivs[j], '-', h);
+                        for (const element of dataDivs) {
+                            setDataTable(element, '-', h);
                         }
 
                         // remove turret table
