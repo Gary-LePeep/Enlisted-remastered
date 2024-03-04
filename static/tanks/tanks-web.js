@@ -31,6 +31,8 @@ function setDataTable(div, string, which, grade = false) {
     }
 }
 
+const TANKS_JSON = readJSON('{{tanksJson}}');
+
 // add data placeholders
 const nameDiv = document.createElement('div');
 const IGNDiv = document.createElement('div');
@@ -284,12 +286,12 @@ for (let h = 0; h < 2; h++) {
         }
         const sideList = document.createElement('ul');
         campaignButton.append(sideList);
-        for (let j = 0; j < TANKS_META[i].Tanks.length; j++) {
+        for (const tankName of TANKS_META[i].Tanks) {
             const tankButton = document.createElement('li');
             tankButton.className = 'Link submenu';
             sideList.append(tankButton);
             const tankButtonText = document.createElement('a');
-            tankButtonText.text = translate(`item.${TANKS_META[i].Tanks[j]}`);
+            tankButtonText.text = translate(`item.${tankName}`);
             tankButton.append(tankButtonText);
             const tanklist = document.createElement('ul');
             tankButton.append(tanklist);
@@ -302,9 +304,9 @@ for (let h = 0; h < 2; h++) {
                 colorButtonText.text = tankButtonText.text;
 
                 // get data name
-                TANK_DATA = null;
-                for (tank of TANKS_JSON) {
-                    if (tank.nameGame === TANKS_META[i].Tanks[j]) {
+                let TANK_DATA = null;
+                for (const tank of TANKS_JSON) {
+                    if (tank.nameGame === tankName) {
                         TANK_DATA = tank;
                     }
                 }
@@ -314,7 +316,7 @@ for (let h = 0; h < 2; h++) {
 
                 // set data tables
                 setDataTable(nameDiv, colorButtonText.text, h);
-                setDataTable(IGNDiv, TANKS_META[i].Tanks[j], h);
+                setDataTable(IGNDiv, tankName, h);
                 setDataTable(FilenameDiv, TANK_DATA.name.length <= 60 ? TANK_DATA.name : TANK_DATA.name.substring(0, 60) + '…', h);
                 setDataTable(crewDiv, TANK_DATA.crew, h, true);
                 setDataTable(massDiv, TANK_DATA.mass, h, true);
@@ -405,10 +407,10 @@ for (let h = 0; h < 2; h++) {
 
                 // combine duplicate turrets
                 function arrUnique(arr) {
-                    var cleaned = [];
+                    let cleaned = [];
                     arr.forEach(function (itm) {
                         const temp_name = itm.name;
-                        var unique = true;
+                        let unique = true;
                         cleaned.forEach(function (itm2) {
                             if (_.isEqual(itm, itm2)) {
                                 unique = false;
@@ -422,7 +424,7 @@ for (let h = 0; h < 2; h++) {
                 }
                 const dedupTurretArray = arrUnique(_.cloneDeep(turretArray));
                 for (const dedupTurret of dedupTurretArray) {
-                    count = 0;
+                    let count = 0;
                     for (const turret of turretArray) {
                         if (_.isEqual(dedupTurret, turret)) {
                             count += 1;
