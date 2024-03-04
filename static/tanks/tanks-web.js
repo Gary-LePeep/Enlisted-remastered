@@ -467,8 +467,7 @@ for (let h = 0; h < 2; h++) {
 
                     // AP shell data
                     if (shellAP != null) {
-                        console.log("dedup turret length: " + dedupTurretArray.length)
-                        APTableRow.appendChild(translate((shellAP.name == null ? shellAP.type : shellAP.name).replace(/_/g, ' '), 'th').substring(0, 80/dedupTurretArray.length));
+                        APTableRow.appendChild(translate((shellAP.name == null ? shellAP.type : shellAP.name).replace(/_/g, ' ').substring(0, 80 / dedupTurretArray.length, 'th')));
                         APTypeTableRow.appendChild(translate(shellAP.type.replace(/_/g, ' '), 'th'));
                         APSpeedTableRow.appendChild(translate(`${shellAP.speed} ${translate('mps')}`, 'th'));
                         if (shellAP.cumulativeArmorPower != null) {
