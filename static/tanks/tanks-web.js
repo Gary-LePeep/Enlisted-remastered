@@ -420,6 +420,7 @@ for (let h = 0; h < 2; h++) {
                     });
                     return cleaned;
                 }
+                console.info("turret array: " + JSON.stringify(turretArray))
                 const dedupTurretArray = arrUnique(_.cloneDeep(turretArray));
                 for (const dedupTurret of dedupTurretArray) {
                     let count = 0;
