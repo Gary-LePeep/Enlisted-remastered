@@ -3,7 +3,7 @@ const TANKS_META = [
         'Side': 'weapons.side.soviet',
         BRs: [
             {
-                'BR': "I",
+                'BR': "0",
                 Tanks: [
                     'ussr_ba_11',
                     'ussr_bm_8_24',
@@ -39,8 +39,9 @@ const TANKS_META = [
         'Side': 'weapons.side.german',
         BRs: [
             {
-                'BR': "I",
+                'BR': "0",
                 Tanks: [
+                    "germ_dickermax",
                     'germ_pzkpfw_38t_ausf_f',
                     'germ_pzkpfw_ii_ausf_c',
                     'germ_pzkpfw_iii_ausf_b',
@@ -61,26 +62,40 @@ const TANKS_META = [
                     'germ_stug_iii_ausf_g',
                     'germ_pzkpfw_vi_ausf_e_tiger',
                     'germ_jagdpanther',
-                    'germ_pzkpfw_v_ausf_a_panther',
                     'germ_pzkpfw_v_ausf_g_panther',
-                    'germ_panzerjager_iv_l_70',
                     'germ_panzerjager_iv_l_70_a',
-                    'germ_pzkpfw_iv_ausf_j',
-                    'germ_pzkpfw_vi_ausf_e_tiger',
                     'germ_pzkpfw_vi_ausf_b_tiger_iip',
                     'it_m41_75_32',
                     'it_ab_41',
                     'it_m13_40_serie_3',
                     'it_m14_41',
-                    'germ_pzkpfw_iii_ausf_j',
-                    'germ_pzkpfw_iii_ausf_n',
-                    'germ_pzkpfw_iv_ausf_f2',
                     'germ_pzkpfw_ii_flamm',
-                    'germ_pzkpfw_iii_ausf_j',
-                    'germ_pzkpfw_iii_ausf_n',
-                    'germ_pzkpfw_iv_ausf_f2',
                     'germ_pzkpfw_iv_ausf_g',
-                    'germ_stug_iii_ausf_f'
+                    'germ_stug_iii_ausf_f',
+                    "germ_flakpanzer_IV_Wirbelwind",
+                    "germ_flakpanzer_i_ausf_a",
+                    "germ_flak_36_sdkfz_6_2",
+                    "germ_panzerbefelhswagen_iv_ausf_j",
+                    "germ_panzerjager_iv_l_48",
+                    "germ_panzerjager_tiger",
+                    "germ_pzkpfw_38t_marder_iii",
+                    "germ_pzkpfw_iii_ausf_f",
+                    "germ_pzkpfw_iii_ausf_j1",
+                    "germ_pzkpfw_iii_ausf_l",
+                    "germ_pzkpfw_ii_ausf_h",
+                    "germ_pzkpfw_iv_ausf_c",
+                    "germ_pzkpfw_vi_ausf_b_tiger_iih",
+                    "germ_pzkpfw_vi_ausf_b_tiger_iip",
+                    "germ_pzkpfw_v_ausf_f_panther",
+                    "germ_sdkfz_251_10",
+                    "germ_stug_iii_ausf_a",
+                    "germ_stuh_iii_ausf_g",
+                    "germ_sturmpanzer_ii",
+                    "germ_towed_at_pak36_movable",
+                    "germ_towed_at_pak38_movable",
+                    "germ_towed_at_pak40_movable",
+                    "it_m41_75_18",
+                    "it_m41_75_32"
                 ]
             }
         ]
@@ -89,7 +104,7 @@ const TANKS_META = [
         'Side': 'weapons.side.usuk',
         BRs: [
             {
-                'BR': "I",
+                'BR': "0",
                 Tanks: [
                     'us_m4_calliope',
                     'churchill_3',
@@ -122,7 +137,7 @@ const TANKS_META = [
         'Side': 'weapons.side.japan',
         BRs: [
             {
-                'BR': "I",
+                'BR': "0",
                 Tanks: [
                     'jp_type_97_chi_ha',
                     'jp_type_97_kai',
