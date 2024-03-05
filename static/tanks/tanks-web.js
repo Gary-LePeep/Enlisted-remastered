@@ -253,7 +253,7 @@ for (let h = 0; h < 2; h++) {
         campaignList.append(campaignButton);
 
         const campaignButtonText = document.createElement('a');
-        campaignButtonText.text = i < 0 ? translate('Remove') : translate(TANKS_META[i].Category);
+        campaignButtonText.text = i < 0 ? translate('Remove') : translate(TANKS_META[i].Side);
         campaignButton.append(campaignButtonText);
         if (i < 0) {
             campaignButton.onclick = () => {
@@ -284,242 +284,258 @@ for (let h = 0; h < 2; h++) {
         }
         const sideList = document.createElement('ul');
         campaignButton.append(sideList);
-        for (const tankName of TANKS_META[i].Tanks) {
-            const tankButton = document.createElement('li');
-            tankButton.className = 'Link submenu';
-            sideList.append(tankButton);
-            const tankButtonText = document.createElement('a');
-            tankButtonText.text = translate(`item.${tankName}`);
-            tankButton.append(tankButtonText);
-            const tanklist = document.createElement('ul');
-            tankButton.append(tanklist);
 
-            tankButton.onclick = () => {
-                // clear existing
-                campaignList.childNodes[0].onclick();
+        for (const br of TANKS_META[i]) {
+            const brButton = document.createElement('li');
+            brButton.className = 'Link submenu';
+            sideList.append(brButton);
 
-                // set color button name to selected tank
-                colorButtonText.text = tankButtonText.text;
+            const brButtonText = document.createElement('a');
+            brButtonText.text = br.BR
+            brButton.append(brButtonText);
 
-                // get data name
-                let TANK_DATA = null;
-                for (const tank of TANKS_JSON) {
-                    if (tank.nameGame === tankName) {
-                        TANK_DATA = tank;
+            const brList = document.createElement('ul');
+            brButton.append(sideList);
+
+
+            for (const tankName of TANKS_META[i].Tanks) {
+                const tankButton = document.createElement('li');
+                tankButton.className = 'Link submenu';
+                brList.append(tankButton);
+                const tankButtonText = document.createElement('a');
+                tankButtonText.text = translate(`item.${tankName}`);
+                tankButton.append(tankButtonText);
+                const tanklist = document.createElement('ul');
+                tankButton.append(tanklist);
+
+                tankButton.onclick = () => {
+                    // clear existing
+                    campaignList.childNodes[0].onclick();
+
+                    // set color button name to selected tank
+                    colorButtonText.text = tankButtonText.text;
+
+                    // get data name
+                    let TANK_DATA = null;
+                    for (const tank of TANKS_JSON) {
+                        if (tank.nameGame === tankName) {
+                            TANK_DATA = tank;
+                        }
                     }
-                }
-                if (TANK_DATA === null) {
-                    return;
-                }
+                    if (TANK_DATA === null) {
+                        return;
+                    }
 
-                // set data tables
-                setDataTable(nameDiv, colorButtonText.text, h);
-                setDataTable(IGNDiv, tankName, h);
-                setDataTable(FilenameDiv, TANK_DATA.name.length <= 60 ? TANK_DATA.name : TANK_DATA.name.substring(0, 60) + '…', h);
-                setDataTable(crewDiv, TANK_DATA.crew, h, true);
-                setDataTable(massDiv, TANK_DATA.mass, h, true);
-                setDataTable(horsepowerDiv, TANK_DATA.horsepower, h, true);
-                setDataTable(rpmDiv, TANK_DATA.engineRPM, h, true);
-                setDataTable(brakeDiv, TANK_DATA.brake, h, true);
-                const powerFactor = TANK_DATA.horsepower / (TANK_DATA.mass / 1000);
-                let topSpeed = powerFactor * 1.97;
-                if (TANK_DATA.horsepower < 250) { // lower horsepower engines have better speed than the 1.97 multiple would suggest
-                    topSpeed = powerFactor * ((-0.004604 * TANK_DATA.horsepower) + 3.304373);
-                }
-                setDataTable(topSpeedDiv, toPlace(topSpeed, 0), h, true);
-                setDataTable(accelDiv, toPlace(powerFactor, 1), h, true);
-                const turretArray = TANK_DATA.turrets;
-                const turretTable = document.createElement('table');
-                const tableWidth = (Math.min(250 * turretArray.length, 740));
-                const labels = ['yawSpeed', 'pitchSpeed', 'depression', 'elevation', 'rotation', 'rpm', 'ammoCount', 'ammoBelt', 'reloadShell', 'APround', 'shellType', 'speed', 'armorPower', 'explosiveMass', 'explosiveRadius', 'HEround', 'shellType', 'speed', 'explosiveMass', 'explosiveRadius', 'smokeRound'];
-                turretTable.style = `position: absolute; table-layout: fixed; top:${148 + (dataDivs.length * 50)}px; left: ${h === 1 ? 940 : 940 - tableWidth}px; width: ${tableWidth}px; border-collapse:separate; border:0px; padding: 0px`;
-                turretTable.id = `turretTable${h}`;
-                turretDiv.appendChild(turretTable);
-                const turretTableHeader = document.createElement('thead');
-                turretTable.appendChild(turretTableHeader);
-                const turretTableHeaderRow = document.createElement('tr');
-                turretTableHeaderRow.style = 'height: 100px;';
-                turretTableHeader.appendChild(turretTableHeaderRow);
-                const labelsDiv = document.createElement('div');
-                labelsDiv.id = `turretLabelsDiv${h}`;
-                turretDiv.appendChild(labelsDiv);
-                for (let l = 0; l < labels.length; l++) {
-                    labelsDiv.appendChild(translate(`page.tanks.table.${labels[l]}`, 'b', `position:absolute; top:${265 + (dataDivs.length * 50) + (l * 44.7)}px; left:${h === 0 ? 645 - tableWidth : 950 + tableWidth}px; width:285px; text-align:${h === 0 ? 'right' : 'left'}; font-size:18px; font-family: Helvetica; color:white;`));
-                }
-                const turretTableBody = document.createElement('tbody');
-                turretTable.appendChild(turretTableBody);
-                const yawTableRow = document.createElement('tr');
-                turretTable.appendChild(yawTableRow);
-                const pitchTableRow = document.createElement('tr');
-                turretTable.appendChild(pitchTableRow);
-                const depressionTableRow = document.createElement('tr');
-                turretTable.appendChild(depressionTableRow);
-                const elevationTableRow = document.createElement('tr');
-                turretTable.appendChild(elevationTableRow);
-                const rotationTableRow = document.createElement('tr');
-                turretTable.appendChild(rotationTableRow);
-                const rpmTableRow = document.createElement('tr');
-                turretTable.appendChild(rpmTableRow);
-                const ammoCountTableRow = document.createElement('tr');
-                turretTable.appendChild(ammoCountTableRow);
-                const ammoBeltTableRow = document.createElement('tr');
-                turretTable.appendChild(ammoBeltTableRow);
-                const reloadTableRow = document.createElement('tr');
-                turretTable.appendChild(reloadTableRow);
+                    // set data tables
+                    setDataTable(nameDiv, colorButtonText.text, h);
+                    setDataTable(IGNDiv, tankName, h);
+                    setDataTable(FilenameDiv, TANK_DATA.name.length <= 60 ? TANK_DATA.name : TANK_DATA.name.substring(0, 60) + '…', h);
+                    setDataTable(crewDiv, TANK_DATA.crew, h, true);
+                    setDataTable(massDiv, TANK_DATA.mass, h, true);
+                    setDataTable(horsepowerDiv, TANK_DATA.horsepower, h, true);
+                    setDataTable(rpmDiv, TANK_DATA.engineRPM, h, true);
+                    setDataTable(brakeDiv, TANK_DATA.brake, h, true);
+                    const powerFactor = TANK_DATA.horsepower / (TANK_DATA.mass / 1000);
+                    let topSpeed = powerFactor * 1.97;
+                    if (TANK_DATA.horsepower < 250) { // lower horsepower engines have better speed than the 1.97 multiple would suggest
+                        topSpeed = powerFactor * ((-0.004604 * TANK_DATA.horsepower) + 3.304373);
+                    }
+                    setDataTable(topSpeedDiv, toPlace(topSpeed, 0), h, true);
+                    setDataTable(accelDiv, toPlace(powerFactor, 1), h, true);
+                    const turretArray = TANK_DATA.turrets;
+                    const turretTable = document.createElement('table');
+                    const tableWidth = (Math.min(250 * turretArray.length, 740));
+                    // TODO: Remove explosion patch radius as it's deprecated
+                    const labels = ['yawSpeed', 'pitchSpeed', 'depression', 'elevation', 'rotation', 'rpm', 'ammoCount', 'ammoBelt', 'reloadShell', 'APround', 'shellType', 'speed', 'armorPower', 'explosiveMass', 'explosiveRadius', 'HEround', 'shellType', 'speed', 'explosiveMass', 'explosiveRadius', 'smokeRound'];
+                    turretTable.style = `position: absolute; table-layout: fixed; top:${148 + (dataDivs.length * 50)}px; left: ${h === 1 ? 940 : 940 - tableWidth}px; width: ${tableWidth}px; border-collapse:separate; border:0px; padding: 0px`;
+                    turretTable.id = `turretTable${h}`;
+                    turretDiv.appendChild(turretTable);
+                    const turretTableHeader = document.createElement('thead');
+                    turretTable.appendChild(turretTableHeader);
+                    const turretTableHeaderRow = document.createElement('tr');
+                    turretTableHeaderRow.style = 'height: 100px;';
+                    turretTableHeader.appendChild(turretTableHeaderRow);
+                    const labelsDiv = document.createElement('div');
+                    labelsDiv.id = `turretLabelsDiv${h}`;
+                    turretDiv.appendChild(labelsDiv);
+                    for (let l = 0; l < labels.length; l++) {
+                        labelsDiv.appendChild(translate(`page.tanks.table.${labels[l]}`, 'b', `position:absolute; top:${265 + (dataDivs.length * 50) + (l * 44.8)}px; left:${h === 0 ? 645 - tableWidth : 950 + tableWidth}px; width:285px; text-align:${h === 0 ? 'right' : 'left'}; font-size:18px; font-family: Helvetica; color:white;`));
+                    }
+                    const turretTableBody = document.createElement('tbody');
+                    turretTable.appendChild(turretTableBody);
+                    const yawTableRow = document.createElement('tr');
+                    turretTable.appendChild(yawTableRow);
+                    const pitchTableRow = document.createElement('tr');
+                    turretTable.appendChild(pitchTableRow);
+                    const depressionTableRow = document.createElement('tr');
+                    turretTable.appendChild(depressionTableRow);
+                    const elevationTableRow = document.createElement('tr');
+                    turretTable.appendChild(elevationTableRow);
+                    const rotationTableRow = document.createElement('tr');
+                    turretTable.appendChild(rotationTableRow);
+                    const rpmTableRow = document.createElement('tr');
+                    turretTable.appendChild(rpmTableRow);
+                    const ammoCountTableRow = document.createElement('tr');
+                    turretTable.appendChild(ammoCountTableRow);
+                    const ammoBeltTableRow = document.createElement('tr');
+                    turretTable.appendChild(ammoBeltTableRow);
+                    const reloadTableRow = document.createElement('tr');
+                    turretTable.appendChild(reloadTableRow);
 
-                const blankRow = document.createElement('tr');
-                turretTable.appendChild(blankRow);
+                    const blankRow = document.createElement('tr');
+                    turretTable.appendChild(blankRow);
 
-                const APTableRow = document.createElement('tr');
-                turretTable.appendChild(APTableRow);
-                const APTypeTableRow = document.createElement('tr');
-                turretTable.appendChild(APTypeTableRow);
-                const APSpeedTableRow = document.createElement('tr');
-                turretTable.appendChild(APSpeedTableRow);
-                const APArmorPowerTableRow = document.createElement('tr');
-                turretTable.appendChild(APArmorPowerTableRow);
-                const APExplosiveMassTableRow = document.createElement('tr');
-                turretTable.appendChild(APExplosiveMassTableRow);
-                const APExplosiveRadiusTableRow = document.createElement('tr');
-                turretTable.appendChild(APExplosiveRadiusTableRow);
+                    const APTableRow = document.createElement('tr');
+                    turretTable.appendChild(APTableRow);
+                    const APTypeTableRow = document.createElement('tr');
+                    turretTable.appendChild(APTypeTableRow);
+                    const APSpeedTableRow = document.createElement('tr');
+                    turretTable.appendChild(APSpeedTableRow);
+                    const APArmorPowerTableRow = document.createElement('tr');
+                    turretTable.appendChild(APArmorPowerTableRow);
+                    const APExplosiveMassTableRow = document.createElement('tr');
+                    turretTable.appendChild(APExplosiveMassTableRow);
+                    const APExplosiveRadiusTableRow = document.createElement('tr');
+                    turretTable.appendChild(APExplosiveRadiusTableRow);
 
-                const blankRow2 = document.createElement('tr');
-                turretTable.appendChild(blankRow2);
+                    const blankRow2 = document.createElement('tr');
+                    turretTable.appendChild(blankRow2);
 
-                const HETableRow = document.createElement('tr');
-                turretTable.appendChild(HETableRow);
-                const HETypeTableRow = document.createElement('tr');
-                turretTable.appendChild(HETypeTableRow);
-                const HESpeedTableRow = document.createElement('tr');
-                turretTable.appendChild(HESpeedTableRow);
-                const HEExplosiveMassTableRow = document.createElement('tr');
-                turretTable.appendChild(HEExplosiveMassTableRow);
-                const HEExplosiveRadiusTableRow = document.createElement('tr');
-                turretTable.appendChild(HEExplosiveRadiusTableRow);
+                    const HETableRow = document.createElement('tr');
+                    turretTable.appendChild(HETableRow);
+                    const HETypeTableRow = document.createElement('tr');
+                    turretTable.appendChild(HETypeTableRow);
+                    const HESpeedTableRow = document.createElement('tr');
+                    turretTable.appendChild(HESpeedTableRow);
+                    const HEExplosiveMassTableRow = document.createElement('tr');
+                    turretTable.appendChild(HEExplosiveMassTableRow);
+                    const HEExplosiveRadiusTableRow = document.createElement('tr');
+                    turretTable.appendChild(HEExplosiveRadiusTableRow);
 
-                const blankRow3 = document.createElement('tr');
-                turretTable.appendChild(blankRow3);
+                    const blankRow3 = document.createElement('tr');
+                    turretTable.appendChild(blankRow3);
 
-                const SmokeTableRow = document.createElement('tr');
-                turretTable.appendChild(SmokeTableRow);
+                    const SmokeTableRow = document.createElement('tr');
+                    turretTable.appendChild(SmokeTableRow);
 
-                // combine duplicate turrets
-                function arrUnique(arr) {
-                    let cleaned = [];
-                    arr.forEach(function (itm) {
-                        const temp_name = itm.name;
-                        let unique = true;
-                        cleaned.forEach(function (itm2) {
-                            if (_.isEqual(itm, itm2)) {
-                                unique = false;
+                    // combine duplicate turrets
+                    function arrUnique(arr) {
+                        let cleaned = [];
+                        arr.forEach(function (itm) {
+                            const temp_name = itm.name;
+                            let unique = true;
+                            cleaned.forEach(function (itm2) {
+                                if (_.isEqual(itm, itm2)) {
+                                    unique = false;
+                                }
+                            });
+                            if (unique) {
+                                cleaned.push(itm);
                             }
                         });
-                        if (unique) {
-                            cleaned.push(itm);
-                        }
-                    });
-                    return cleaned;
-                }
-
-                const dedupTurretArray = arrUnique(_.cloneDeep(turretArray));
-                for (const dedupTurret of dedupTurretArray) {
-                    let count = 0;
-                    for (const turret of turretArray) {
-                        if (_.isEqual(dedupTurret, turret)) {
-                            count += 1;
-                        }
-                    }
-                    dedupTurret.count = count;
-                }
-
-                // do print turret table
-                for (let l = 0; l < dedupTurretArray.length; l++) {
-                    const turret = dedupTurretArray[h === 1 ? l : dedupTurretArray.length - l - 1];
-                    turretTableHeaderRow.appendChild(translate(`${turret.gun.name.replace(/_/g, ' ')}${turret.count > 1 ? `<span style='color: aqua; font-size: 150%;'>   ×${turret.count}</span>` : ''}`, 'th'));
-                    yawTableRow.appendChild(translate(turret.yaw == null ? `page.tanks.table.coax.${turret.gun.name.includes('smoke')}` : turret.yaw, 'th'));
-                    pitchTableRow.appendChild(translate(turret.pitch == null ? `page.tanks.table.coax.${turret.gun.name.includes('smoke')}` : turret.pitch, 'th'));
-                    depressionTableRow.appendChild(translate(turret.depression == null ? `page.tanks.table.coax.${turret.gun.name.includes('smoke')}` : `${turret.depression * -1} ${translate('degrees')}`, 'th'));
-                    elevationTableRow.appendChild(translate(turret.elevation == null ? `page.tanks.table.coax.${turret.gun.name.includes('smoke')}` : `${turret.elevation} ${translate('degrees')}`, 'th'));
-                    rotationTableRow.appendChild(translate(turret.rotation == null ? `page.tanks.table.coax.${turret.gun.name.includes('smoke')}` : `${turret.rotation} ${translate('degrees')}`, 'th'));
-                    rpmTableRow.appendChild(translate(toPlace(turret.gun.rps * 60, 2), 'th'));
-                    ammoCountTableRow.appendChild(translate(turret.ammo, 'th'));
-                    ammoBeltTableRow.appendChild(translate(turret.gun.ammoBelt == null ? 'individual' : turret.gun.ammoBelt, 'th'));
-                    reloadTableRow.appendChild(translate(turret.gun.reload == null ? 'N_A' : turret.gun.reload, 'th'));
-                    let shellAP = null;
-                    let shellHE = null;
-                    let shellSmoke = null;
-
-                    console.info("all shells: " + JSON.stringify(turret.gun.shells));
-
-                    for (const shell of turret.gun.shells) {
-                        if (shellSmoke == null && shell.type.includes('smoke')) {
-                            shellSmoke = shell;
-                        }
-                        else if (shellHE == null && (shell.type.includes('frag') || shell.type.includes('shrapnel'))) {
-                            shellHE = shell;
-                        }
-                        else if (shellAP == null) {
-                            shellAP = shell;
-                        }
-                        else {
-                            console.warn("extra shell?: " + JSON.stringify(shell));
-                        }
+                        return cleaned;
                     }
 
+                    const dedupTurretArray = arrUnique(_.cloneDeep(turretArray));
+                    for (const dedupTurret of dedupTurretArray) {
+                        let count = 0;
+                        for (const turret of turretArray) {
+                            if (_.isEqual(dedupTurret, turret)) {
+                                count += 1;
+                            }
+                        }
+                        dedupTurret.count = count;
+                    }
 
-                    // AP shell data
-                    if (shellAP != null) {
-                        APTableRow.appendChild(translate((shellAP.name == null ? shellAP.type : shellAP.name).replace(/_/g, ' '), 'th', '', 80 / dedupTurretArray.length));
-                        APTypeTableRow.appendChild(translate(shellAP.type.replace(/_/g, ' '), 'th'));
-                        APSpeedTableRow.appendChild(translate(`${shellAP.speed} ${translate('mps')}`, 'th'));
-                        if (shellAP.cumulativeArmorPower != null) {
-                            APArmorPowerTableRow.appendChild(translate(`${shellAP.cumulativeArmorPower} ${translate('millimeters')}`, 'th'));
-                        } else if (shellAP.demarrePenetrationK != null) {
-                            const refDiam = 45;
-                            const refMass = 1.43;
-                            const refVel = 870;
-                            const refPen = 0.069;
-                            const diam = shellAP.caliber * 1000;
-                            const shellMass = shellAP.mass;
-                            const vel = shellAP.speed;
-                            const deMarreArmorPower = refPen * ((vel / refVel) ** 1.43) * ((diam / refDiam) ** 1.07) * ((shellMass / (diam ** 3)) ** 0.71) / ((refMass / (refDiam ** 3)) ** 0.71);
-                            APArmorPowerTableRow.appendChild(translate(`${1000 * toPlace(deMarreArmorPower, 3)} ${translate('millimeters')}`, 'th'));
+                    // do print turret table
+                    for (let l = 0; l < dedupTurretArray.length; l++) {
+                        const turret = dedupTurretArray[h === 1 ? l : dedupTurretArray.length - l - 1];
+                        turretTableHeaderRow.appendChild(translate(`${turret.gun.name.replace(/_/g, ' ')}${turret.count > 1 ? `<span style='color: aqua; font-size: 150%;'>   ×${turret.count}</span>` : ''}`, 'th'));
+                        yawTableRow.appendChild(translate(turret.yaw == null ? `page.tanks.table.coax.${turret.gun.name.includes('smoke')}` : turret.yaw, 'th'));
+                        pitchTableRow.appendChild(translate(turret.pitch == null ? `page.tanks.table.coax.${turret.gun.name.includes('smoke')}` : turret.pitch, 'th'));
+                        depressionTableRow.appendChild(translate(turret.depression == null ? `page.tanks.table.coax.${turret.gun.name.includes('smoke')}` : `${turret.depression * -1} ${translate('degrees')}`, 'th'));
+                        elevationTableRow.appendChild(translate(turret.elevation == null ? `page.tanks.table.coax.${turret.gun.name.includes('smoke')}` : `${turret.elevation} ${translate('degrees')}`, 'th'));
+                        rotationTableRow.appendChild(translate(turret.rotation == null ? `page.tanks.table.coax.${turret.gun.name.includes('smoke')}` : `${turret.rotation} ${translate('degrees')}`, 'th'));
+                        rpmTableRow.appendChild(translate(toPlace(turret.gun.rps * 60, 2), 'th'));
+                        ammoCountTableRow.appendChild(translate(turret.ammo, 'th'));
+                        ammoBeltTableRow.appendChild(translate(turret.gun.ammoBelt == null ? 'individual' : turret.gun.ammoBelt, 'th'));
+                        reloadTableRow.appendChild(translate(turret.gun.reload == null ? 'N_A' : turret.gun.reload, 'th'));
+                        let shellAP = null;
+                        let shellHE = null;
+                        let shellSmoke = null;
+
+                        console.info("all shells: " + JSON.stringify(turret.gun.shells));
+
+                        for (const shell of turret.gun.shells) {
+                            if (shellSmoke == null && shell.type.includes('smoke')) {
+                                shellSmoke = shell;
+                            }
+                            else if (shellHE == null && (shell.type.includes('frag') || shell.type.includes('shrapnel'))) {
+                                shellHE = shell;
+                            }
+                            else if (shellAP == null) {
+                                shellAP = shell;
+                            }
+                            else {
+                                console.warn("extra shell?: " + JSON.stringify(shell));
+                            }
+                        }
+
+
+                        // AP shell data
+                        if (shellAP != null) {
+                            APTableRow.appendChild(translate((shellAP.name == null ? shellAP.type : shellAP.name).replace(/_/g, ' '), 'th', '', 80 / dedupTurretArray.length));
+                            APTypeTableRow.appendChild(translate(shellAP.type.replace(/_/g, ' '), 'th'));
+                            APSpeedTableRow.appendChild(translate(`${shellAP.speed} ${translate('mps')}`, 'th'));
+                            if (shellAP.cumulativeArmorPower != null) {
+                                APArmorPowerTableRow.appendChild(translate(`${shellAP.cumulativeArmorPower} ${translate('millimeters')}`, 'th'));
+                            } else if (shellAP.demarrePenetrationK != null) {
+                                const refDiam = 45;
+                                const refMass = 1.43;
+                                const refVel = 870;
+                                const refPen = 0.069;
+                                const diam = shellAP.caliber * 1000;
+                                const shellMass = shellAP.mass;
+                                const vel = shellAP.speed;
+                                const deMarreArmorPower = refPen * ((vel / refVel) ** 1.43) * ((diam / refDiam) ** 1.07) * ((shellMass / (diam ** 3)) ** 0.71) / ((refMass / (refDiam ** 3)) ** 0.71);
+                                APArmorPowerTableRow.appendChild(translate(`${1000 * toPlace(deMarreArmorPower, 3)} ${translate('millimeters')}`, 'th'));
+                            } else {
+                                APArmorPowerTableRow.appendChild(translate('　', 'th'));
+                            }
+                            APExplosiveMassTableRow.appendChild(translate(shellAP.explosiveMass == null ? translate('N_A') : `${shellAP.explosiveMass} ${translate('kg')}`, 'th'));
+                            APExplosiveRadiusTableRow.appendChild(translate(shellAP.explosionPatchRadius == null ? 0 : `${shellAP.explosionPatchRadius} ${translate('meters')}`, 'th'));
                         } else {
+                            APTableRow.appendChild(translate('N_A', 'th'));
+                            APTypeTableRow.appendChild(translate('　', 'th'));
+                            APSpeedTableRow.appendChild(translate('　', 'th'));
                             APArmorPowerTableRow.appendChild(translate('　', 'th'));
+                            APExplosiveMassTableRow.appendChild(translate('　', 'th'));
+                            APExplosiveRadiusTableRow.appendChild(translate('　', 'th'));
                         }
-                        APExplosiveMassTableRow.appendChild(translate(shellAP.explosiveMass == null ? translate('N_A') : `${shellAP.explosiveMass} ${translate('kg')}`, 'th'));
-                        APExplosiveRadiusTableRow.appendChild(translate(shellAP.explosionPatchRadius == null ? 0 : `${shellAP.explosionPatchRadius} ${translate('meters')}`, 'th'));
-                    } else {
-                        APTableRow.appendChild(translate('N_A', 'th'));
-                        APTypeTableRow.appendChild(translate('　', 'th'));
-                        APSpeedTableRow.appendChild(translate('　', 'th'));
-                        APArmorPowerTableRow.appendChild(translate('　', 'th'));
-                        APExplosiveMassTableRow.appendChild(translate('　', 'th'));
-                        APExplosiveRadiusTableRow.appendChild(translate('　', 'th'));
+                        // HE shell data
+                        if (shellHE != null) {
+                            HETableRow.appendChild(translate((shellHE.name == null ? shellHE.type : shellHE.name).replace(/_/g, ' '), 'th'));
+                            HETypeTableRow.appendChild(translate(shellHE.type.replace(/_/g, ' '), 'th'));
+                            HESpeedTableRow.appendChild(translate(`${shellHE.speed} ${translate('mps')}`, 'th'));
+                            HEExplosiveMassTableRow.appendChild(translate(shellHE.explosiveMass == null ? translate('N_A') : `${shellHE.explosiveMass} ${translate('kg')}`, 'th'));
+                            HEExplosiveRadiusTableRow.appendChild(translate(shellHE.explosionPatchRadius == null ? 0 : `${shellHE.explosionPatchRadius} ${translate('meters')}`, 'th'));
+                        } else {
+                            HETableRow.appendChild(translate('N_A', 'th'));
+                            HETypeTableRow.appendChild(translate('　', 'th'));
+                            HESpeedTableRow.appendChild(translate('　', 'th'));
+                            HEExplosiveMassTableRow.appendChild(translate('　', 'th'));
+                            HEExplosiveRadiusTableRow.appendChild(translate('　', 'th'));
+                        }
+                        // Smoke shell data
+                        if (shellSmoke != null) {
+                            SmokeTableRow.appendChild(translate((shellSmoke.name == null ? shellSmoke.type : shellSmoke.name).replace(/_/g, ' '), 'th'));
+                        } else {
+                            SmokeTableRow.appendChild(translate('N_A', 'th'));
+                        }
                     }
-                    // HE shell data
-                    if (shellHE != null) {
-                        HETableRow.appendChild(translate((shellHE.name == null ? shellHE.type : shellHE.name).replace(/_/g, ' '), 'th'));
-                        HETypeTableRow.appendChild(translate(shellHE.type.replace(/_/g, ' '), 'th'));
-                        HESpeedTableRow.appendChild(translate(`${shellHE.speed} ${translate('mps')}`, 'th'));
-                        HEExplosiveMassTableRow.appendChild(translate(shellHE.explosiveMass == null ? translate('N_A') : `${shellHE.explosiveMass} ${translate('kg')}`, 'th'));
-                        HEExplosiveRadiusTableRow.appendChild(translate(shellHE.explosionPatchRadius == null ? 0 : `${shellHE.explosionPatchRadius} ${translate('meters')}`, 'th'));
-                    } else {
-                        HETableRow.appendChild(translate('N_A', 'th'));
-                        HETypeTableRow.appendChild(translate('　', 'th'));
-                        HESpeedTableRow.appendChild(translate('　', 'th'));
-                        HEExplosiveMassTableRow.appendChild(translate('　', 'th'));
-                        HEExplosiveRadiusTableRow.appendChild(translate('　', 'th'));
-                    }
-                    // Smoke shell data
-                    if (shellSmoke != null) {
-                        SmokeTableRow.appendChild(translate((shellSmoke.name == null ? shellSmoke.type : shellSmoke.name).replace(/_/g, ' '), 'th'));
-                    } else {
-                        SmokeTableRow.appendChild(translate('N_A', 'th'));
-                    }
-                }
-                colorTurretTable();
-            };
+                    colorTurretTable();
+                };
+            }
         }
     }
 }
