@@ -431,6 +431,7 @@ for (let h = 0; h < 2; h++) {
                     }
                     dedupTurret.count = count;
                 }
+                console.info("dedup turret array: " + JSON.stringify(dedupTurretArray))
 
                 // do print turret table
                 for (let l = 0; l < dedupTurretArray.length; l++) {
