@@ -467,7 +467,7 @@ for (let h = 0; h < 2; h++) {
 
                     // AP shell data
                     if (shellAP != null) {
-                        console.log("AP shell: " + shellAP)
+                        console.log("AP shell: " + shellAP.name)
                         APTableRow.appendChild(translate((shellAP.name == null ? shellAP.type : shellAP.name).replace(/_/g, ' '), 'th', '', 80 / dedupTurretArray.length));
                         APTypeTableRow.appendChild(translate(shellAP.type.replace(/_/g, ' '), 'th'));
                         APSpeedTableRow.appendChild(translate(`${shellAP.speed} ${translate('mps')}`, 'th'));
@@ -498,7 +498,7 @@ for (let h = 0; h < 2; h++) {
                     }
                     // HE shell data
                     if (shellHE != null) {
-                        console.log("HE shell: " + shellHE)
+                        console.log("HE shell: " + shellHE.name)
                         HETableRow.appendChild(translate((shellHE.name == null ? shellHE.type : shellHE.name).replace(/_/g, ' '), 'th'));
                         HETypeTableRow.appendChild(translate(shellHE.type.replace(/_/g, ' '), 'th'));
                         HESpeedTableRow.appendChild(translate(`${shellHE.speed} ${translate('mps')}`, 'th'));
@@ -513,7 +513,7 @@ for (let h = 0; h < 2; h++) {
                     }
                     // Smoke shell data
                     if (shellSmoke != null) {
-                        console.log("Smoke shell: " + shellSmoke)
+                        console.log("Smoke shell: " + shellSmoke.name)
                         SmokeTableRow.appendChild(translate((shellSmoke.name == null ? shellSmoke.type : shellSmoke.name).replace(/_/g, ' '), 'th'));
                     } else {
                         SmokeTableRow.appendChild(translate('N_A', 'th'));
