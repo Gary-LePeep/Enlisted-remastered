@@ -285,6 +285,8 @@ for (let h = 0; h < 2; h++) {
         const sideList = document.createElement('ul');
         campaignButton.append(sideList);
 
+        console.warn(TANKS_META[i])
+
         for (const br of TANKS_META[i]) {
             const brButton = document.createElement('li');
             brButton.className = 'Link submenu';
