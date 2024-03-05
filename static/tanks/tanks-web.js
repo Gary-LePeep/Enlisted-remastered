@@ -491,6 +491,7 @@ for (let h = 0; h < 2; h++) {
                         APExplosiveMassTableRow.appendChild(translate(shellAP.explosiveMass == null ? translate('N_A') : `${shellAP.explosiveMass} ${translate('kg')}`, 'th'));
                         APExplosiveRadiusTableRow.appendChild(translate(shellAP.explosionPatchRadius == null ? 0 : `${shellAP.explosionPatchRadius} ${translate('meters')}`, 'th'));
                     } else {
+                        console.warn("AP shell: " + JSON.stringify(shellAP))
                         APTableRow.appendChild(translate('N_A', 'th'));
                         APTypeTableRow.appendChild(translate('　', 'th'));
                         APSpeedTableRow.appendChild(translate('　', 'th'));
@@ -507,6 +508,7 @@ for (let h = 0; h < 2; h++) {
                         HEExplosiveMassTableRow.appendChild(translate(shellHE.explosiveMass == null ? translate('N_A') : `${shellHE.explosiveMass} ${translate('kg')}`, 'th'));
                         HEExplosiveRadiusTableRow.appendChild(translate(shellHE.explosionPatchRadius == null ? 0 : `${shellHE.explosionPatchRadius} ${translate('meters')}`, 'th'));
                     } else {
+                        console.warn("HE shell: " + JSON.stringify(shellHE))
                         HETableRow.appendChild(translate('N_A', 'th'));
                         HETypeTableRow.appendChild(translate('　', 'th'));
                         HESpeedTableRow.appendChild(translate('　', 'th'));
@@ -518,6 +520,7 @@ for (let h = 0; h < 2; h++) {
                         console.info("Smoke shell: " + JSON.stringify(shellSmoke))
                         SmokeTableRow.appendChild(translate((shellSmoke.name == null ? shellSmoke.type : shellSmoke.name).replace(/_/g, ' '), 'th'));
                     } else {
+                        console.warn("Smoke shell: " + JSON.stringify(shellSmoke))
                         SmokeTableRow.appendChild(translate('N_A', 'th'));
                     }
                 }
