@@ -452,14 +452,14 @@ for (let h = 0; h < 2; h++) {
                         if (shellSmoke == null && shell.type.includes('smoke')) {
                             shellSmoke = shell;
                         }
-                        else if (shellHE == null && shell.type.includes('frag')) {
+                        else if (shellHE == null && (shell.type.includes('frag') || shell.type.includes('shrapnel'))) {
                             shellHE = shell;
                         }
                         else if (shellAP == null) {
                             shellAP = shell;
                         }
                         else {
-                            console.log(turret.gun.shells);
+                            console.log("extra shell?: " + turret.gun.shells);
                             return;
                         }
                     }
@@ -467,6 +467,7 @@ for (let h = 0; h < 2; h++) {
 
                     // AP shell data
                     if (shellAP != null) {
+                        console.log("AP shell: " + shellAP)
                         APTableRow.appendChild(translate((shellAP.name == null ? shellAP.type : shellAP.name).replace(/_/g, ' '), 'th', '', 80 / dedupTurretArray.length));
                         APTypeTableRow.appendChild(translate(shellAP.type.replace(/_/g, ' '), 'th'));
                         APSpeedTableRow.appendChild(translate(`${shellAP.speed} ${translate('mps')}`, 'th'));
@@ -497,6 +498,7 @@ for (let h = 0; h < 2; h++) {
                     }
                     // HE shell data
                     if (shellHE != null) {
+                        console.log("HE shell: " + shellHE)
                         HETableRow.appendChild(translate((shellHE.name == null ? shellHE.type : shellHE.name).replace(/_/g, ' '), 'th'));
                         HETypeTableRow.appendChild(translate(shellHE.type.replace(/_/g, ' '), 'th'));
                         HESpeedTableRow.appendChild(translate(`${shellHE.speed} ${translate('mps')}`, 'th'));
@@ -511,6 +513,7 @@ for (let h = 0; h < 2; h++) {
                     }
                     // Smoke shell data
                     if (shellSmoke != null) {
+                        console.log("Smoke shell: " + shellSmoke)
                         SmokeTableRow.appendChild(translate((shellSmoke.name == null ? shellSmoke.type : shellSmoke.name).replace(/_/g, ' '), 'th'));
                     } else {
                         SmokeTableRow.appendChild(translate('N_A', 'th'));
