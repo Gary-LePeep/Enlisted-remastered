@@ -297,8 +297,7 @@ for (let h = 0; h < 2; h++) {
             const brList = document.createElement('ul');
             sideList.append(brButton);
 
-
-            for (const tankName of TANKS_META[i].Tanks) {
+            for (const tankName of br.Tanks) {
                 const tankButton = document.createElement('li');
                 tankButton.className = 'Link submenu';
                 brList.append(tankButton);
