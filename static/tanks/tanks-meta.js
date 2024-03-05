@@ -119,7 +119,7 @@ const TANKS_META = [
         ]
     },
     {
-        'Side': 'weapons.category.pacific.axis',
+        'Side': 'weapons.side.japan',
         BRs: [
             {
                 'BR': "I",

@@ -1716,5 +1716,9 @@
     "weapons.category.semiauto.german": "German Semi/Auto Rifles",
     "weapons.category.semiauto.japan": "Japanese Semi/Auto Rifles",
     "weapons.category.semiauto.soviet": "Soviet Semi/Auto Rifles",
-    "weapons.category.semiauto.usuk": "US/UK Semi/Auto Rifles"
+    "weapons.category.semiauto.usuk": "US/UK Semi/Auto Rifles",
+    "weapons.side.soviet": "Soviet",
+    "weapons.side.german": "German",
+    "weapons.side.usuk": "US/UK",
+    "weapons.side.japan": "Japan"
 }
