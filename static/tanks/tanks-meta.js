@@ -3,12 +3,45 @@ const TANKS_META = [
         'Side': 'weapons.side.soviet',
         BRs: [
             {
-                'BR': '0',
+                'BR': 'I',
                 Tanks: [
                     'ussr_ba_11',
-                    'ussr_bm_8_24',
-                    'ussr_bt_7a_f32',
                     'ussr_bt_7_1937',
+                ]
+            },
+            {
+                'BR': 'II',
+                Tanks: [
+                    'us_halftrack_m3_a1',
+                    'gaz_aaa',
+                    'ussr_bm_8_24',
+                ]
+            },
+            {
+                'BR': 'III',
+                Tanks: [
+
+                ]
+            },
+            {
+                'BR': 'IV',
+                Tanks: [
+
+                ]
+            },
+            {
+                'BR': 'V',
+                Tanks: [
+
+                ]
+            },
+            {
+                'BR': '0',
+                Tanks: [
+
+
+                    'ussr_bt_7a_f32',
+
                     'ussr_gaz_4m',
                     'ussr_gaz_dshk',
                     'ussr_gaz_mm_72k',
@@ -45,6 +78,36 @@ const TANKS_META = [
     {
         'Side': 'weapons.side.german',
         BRs: [
+            {
+                'BR': 'I',
+                Tanks: [
+
+                ]
+            },
+            {
+                'BR': 'II',
+                Tanks: [
+
+                ]
+            },
+            {
+                'BR': 'III',
+                Tanks: [
+
+                ]
+            },
+            {
+                'BR': 'IV',
+                Tanks: [
+
+                ]
+            },
+            {
+                'BR': 'V',
+                Tanks: [
+
+                ]
+            },
             {
                 'BR': '0',
                 Tanks: [
@@ -108,6 +171,36 @@ const TANKS_META = [
         'Side': 'weapons.side.usuk',
         BRs: [
             {
+                'BR': 'I',
+                Tanks: [
+
+                ]
+            },
+            {
+                'BR': 'II',
+                Tanks: [
+
+                ]
+            },
+            {
+                'BR': 'III',
+                Tanks: [
+
+                ]
+            },
+            {
+                'BR': 'IV',
+                Tanks: [
+
+                ]
+            },
+            {
+                'BR': 'V',
+                Tanks: [
+
+                ]
+            },
+            {
                 'BR': '0',
                 Tanks: [
                     'us_halftrack_m13',
@@ -150,6 +243,36 @@ const TANKS_META = [
     {
         'Side': 'weapons.side.japan',
         BRs: [
+            {
+                'BR': 'I',
+                Tanks: [
+
+                ]
+            },
+            {
+                'BR': 'II',
+                Tanks: [
+
+                ]
+            },
+            {
+                'BR': 'III',
+                Tanks: [
+
+                ]
+            },
+            {
+                'BR': 'IV',
+                Tanks: [
+
+                ]
+            },
+            {
+                'BR': 'V',
+                Tanks: [
+
+                ]
+            },
             {
                 'BR': '0',
                 Tanks: [
