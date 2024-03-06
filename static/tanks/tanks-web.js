@@ -291,7 +291,7 @@ for (let h = 0; h < 2; h++) {
             sideList.append(brButton);
 
             const brButtonText = document.createElement('a');
-            brButtonText.text = br.BR
+            brButtonText.text = translate(br.BR)
             brButton.append(brButtonText);
 
             const brList = document.createElement('ul');

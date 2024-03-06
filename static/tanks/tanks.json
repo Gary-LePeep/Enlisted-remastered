@@ -664,6 +664,168 @@
         ]
     },
     {
+        "name": "germ_jgdpz_38t",
+        "nameGame": "germ_jgdpz_38t",
+        "crew": 4,
+        "mass": 46000.0,
+        "horsepower": 700.0,
+        "engineRPM": 3000.0,
+        "brake": 170000.0,
+        "turrets": [
+            {
+                "yaw": 8.0,
+                "pitch": 4.0,
+                "depression": -8.0,
+                "elevation": 14.0,
+                "rotation": 22.0,
+                "gun": {
+                    "name": "88mm_pak43",
+                    "rps": 0.117,
+                    "reload": null,
+                    "ammoBelt": null,
+                    "shells": [
+                        {
+                            "name": "88mm_pzrg_39_43",
+                            "type": "apcbc_tank",
+                            "mass": 10.16,
+                            "caliber": 0.088,
+                            "speed": 1000.0,
+                            "Cx": 0.2623,
+                            "explosionPatchRadius": null,
+                            "explosiveMass": 0.064,
+                            "normalizationPreset": "apbc",
+                            "stucking": 0.7,
+                            "stuckingAngle": 45.0,
+                            "fresnel": [
+                                0.23,
+                                0.1,
+                                2.0
+                            ],
+                            "demarrePenetrationK": 1.0,
+                            "demarreSpeedPow": 1.43,
+                            "demarreMassPow": 0.71,
+                            "demarreCaliberPow": 1.07,
+                            "damageType": "generic",
+                            "damage": null,
+                            "cumulativeArmorPower": null
+                        },
+                        {
+                            "name": "88mm_sprgr_43",
+                            "type": "he_frag_tank",
+                            "mass": 9.4,
+                            "caliber": 0.088,
+                            "speed": 820.0,
+                            "Cx": null,
+                            "explosionPatchRadius": null,
+                            "explosiveMass": 1.0,
+                            "normalizationPreset": "heat",
+                            "stucking": null,
+                            "stuckingAngle": null,
+                            "fresnel": [
+                                0.23,
+                                0.1,
+                                2.0
+                            ],
+                            "demarrePenetrationK": 0.15,
+                            "demarreSpeedPow": 1.43,
+                            "demarreMassPow": 0.71,
+                            "demarreCaliberPow": 1.07,
+                            "damageType": "generic",
+                            "damage": null,
+                            "cumulativeArmorPower": null
+                        }
+                    ]
+                },
+                "ammo": 60
+            },
+            {
+                "yaw": 5.5,
+                "pitch": 4.0,
+                "depression": -5.0,
+                "elevation": 10.0,
+                "rotation": 15.0,
+                "gun": {
+                    "name": "7_92mm_mg34",
+                    "rps": 15.0,
+                    "reload": 8.0,
+                    "ammoBelt": 150,
+                    "shells": [
+                        {
+                            "name": "7_92mm_mg34_defaultset_bullet_1",
+                            "type": "ap_ball",
+                            "mass": 0.0115,
+                            "caliber": 0.0079,
+                            "speed": 865.0,
+                            "Cx": 0.3049,
+                            "explosionPatchRadius": null,
+                            "explosiveMass": null,
+                            "normalizationPreset": "default",
+                            "stucking": null,
+                            "stuckingAngle": null,
+                            "fresnel": null,
+                            "cumulativeArmorPower": null
+                        },
+                        {
+                            "name": "7_92mm_mg34_7_92mm_mg34_ap_bullet_1",
+                            "type": "ap_ball",
+                            "mass": 0.0115,
+                            "caliber": 0.0079,
+                            "speed": 865.0,
+                            "Cx": 0.3049,
+                            "explosionPatchRadius": null,
+                            "explosiveMass": null,
+                            "normalizationPreset": "default",
+                            "stucking": null,
+                            "stuckingAngle": null,
+                            "fresnel": null,
+                            "cumulativeArmorPower": null
+                        }
+                    ]
+                },
+                "ammo": 3000
+            },
+            {
+                "yaw": null,
+                "pitch": null,
+                "depression": null,
+                "elevation": null,
+                "rotation": null,
+                "gun": {
+                    "name": "91mm_germ_smoke_mortar_launcher",
+                    "rps": 0.2,
+                    "reload": null,
+                    "ammoBelt": null,
+                    "shells": [
+                        {
+                            "name": "76mm_smoke_grenade",
+                            "type": "smoke_grenade_tank",
+                            "mass": 2.0,
+                            "caliber": 0.091,
+                            "speed": null,
+                            "Cx": null,
+                            "explosionPatchRadius": null,
+                            "explosiveMass": null,
+                            "normalizationPreset": "heat",
+                            "stucking": null,
+                            "stuckingAngle": null,
+                            "fresnel": [
+                                0.23,
+                                0.1,
+                                2.0
+                            ],
+                            "cumulativeArmorPower": null
+                        }
+                    ]
+                },
+                "ammo": 30
+            }
+        ],
+        "ammoDistrib": [
+            0,
+            1
+        ]
+    },
+    {
         "name": "germ_panzerbefelhswagen_IV_ausf_J",
         "nameGame": "germ_panzerbefelhswagen_iv_ausf_j",
         "crew": 5,
@@ -21898,6 +22060,761 @@
         "horsepower": 7.0,
         "engineRPM": 4000.0,
         "brake": 3200.0,
+        "turrets": [
+            {
+                "yaw": 35.0,
+                "pitch": 20.0,
+                "depression": -2.0,
+                "elevation": 20.0,
+                "rotation": 80.0,
+                "gun": {
+                    "name": "57mm_6pdr_qqf_mk_3_l43",
+                    "rps": 0.25,
+                    "reload": null,
+                    "ammoBelt": null,
+                    "shells": [
+                        {
+                            "name": "57mm_shot_mk5t",
+                            "type": "ap_tank",
+                            "mass": 2.8,
+                            "caliber": 0.057,
+                            "speed": 815.0,
+                            "Cx": 0.54,
+                            "explosionPatchRadius": null,
+                            "explosiveMass": null,
+                            "normalizationPreset": "ap",
+                            "stucking": 0.7,
+                            "stuckingAngle": 45.0,
+                            "fresnel": [
+                                0.23,
+                                0.1,
+                                2.0
+                            ],
+                            "demarrePenetrationK": 0.9,
+                            "demarreSpeedPow": 1.43,
+                            "demarreMassPow": 0.71,
+                            "demarreCaliberPow": 1.07,
+                            "damageType": "generic",
+                            "damage": null,
+                            "cumulativeArmorPower": null
+                        },
+                        {
+                            "name": "57mm_shell_mk10t",
+                            "type": "he_frag_tank",
+                            "mass": 2.72,
+                            "caliber": 0.057,
+                            "speed": 655.0,
+                            "Cx": null,
+                            "explosionPatchRadius": null,
+                            "explosiveMass": 0.59,
+                            "normalizationPreset": "heat",
+                            "stucking": null,
+                            "stuckingAngle": null,
+                            "fresnel": [
+                                0.23,
+                                0.1,
+                                2.0
+                            ],
+                            "demarrePenetrationK": 0.15,
+                            "demarreSpeedPow": 1.43,
+                            "demarreMassPow": 0.71,
+                            "demarreCaliberPow": 1.07,
+                            "damageType": "generic",
+                            "damage": null,
+                            "cumulativeArmorPower": null
+                        }
+                    ]
+                },
+                "ammo": 318
+            }
+        ],
+        "ammoDistrib": [
+            0,
+            1
+        ]
+    },
+    {
+        "name": "germ_sdkfz_251_1_apc",
+        "nameGame": "germ_sdkfz_251_1_apc",
+        "crew": 16,
+        "mass": 7000.0,
+        "horsepower": 100.0,
+        "engineRPM": 3000.0,
+        "brake": 30000.0,
+        "turrets": [
+            {
+                "yaw": 35.0,
+                "pitch": 20.0,
+                "depression": -2.0,
+                "elevation": 20.0,
+                "rotation": 80.0,
+                "gun": {
+                    "name": "57mm_6pdr_qqf_mk_3_l43",
+                    "rps": 0.25,
+                    "reload": null,
+                    "ammoBelt": null,
+                    "shells": [
+                        {
+                            "name": "57mm_shot_mk5t",
+                            "type": "ap_tank",
+                            "mass": 2.8,
+                            "caliber": 0.057,
+                            "speed": 815.0,
+                            "Cx": 0.54,
+                            "explosionPatchRadius": null,
+                            "explosiveMass": null,
+                            "normalizationPreset": "ap",
+                            "stucking": 0.7,
+                            "stuckingAngle": 45.0,
+                            "fresnel": [
+                                0.23,
+                                0.1,
+                                2.0
+                            ],
+                            "demarrePenetrationK": 0.9,
+                            "demarreSpeedPow": 1.43,
+                            "demarreMassPow": 0.71,
+                            "demarreCaliberPow": 1.07,
+                            "damageType": "generic",
+                            "damage": null,
+                            "cumulativeArmorPower": null
+                        },
+                        {
+                            "name": "57mm_shell_mk10t",
+                            "type": "he_frag_tank",
+                            "mass": 2.72,
+                            "caliber": 0.057,
+                            "speed": 655.0,
+                            "Cx": null,
+                            "explosionPatchRadius": null,
+                            "explosiveMass": 0.59,
+                            "normalizationPreset": "heat",
+                            "stucking": null,
+                            "stuckingAngle": null,
+                            "fresnel": [
+                                0.23,
+                                0.1,
+                                2.0
+                            ],
+                            "demarrePenetrationK": 0.15,
+                            "demarreSpeedPow": 1.43,
+                            "demarreMassPow": 0.71,
+                            "demarreCaliberPow": 1.07,
+                            "damageType": "generic",
+                            "damage": null,
+                            "cumulativeArmorPower": null
+                        }
+                    ]
+                },
+                "ammo": 318
+            }
+        ],
+        "ammoDistrib": [
+            0,
+            1
+        ]
+    },
+    {
+        "name": "germ_sdkfz_251_9_apc",
+        "nameGame": "germ_sdkfz_251_9_apc",
+        "crew": 14,
+        "mass": 7000.0,
+        "horsepower": 100.0,
+        "engineRPM": 3000.0,
+        "brake": 30000.0,
+        "turrets": [
+            {
+                "yaw": 35.0,
+                "pitch": 20.0,
+                "depression": -2.0,
+                "elevation": 20.0,
+                "rotation": 80.0,
+                "gun": {
+                    "name": "57mm_6pdr_qqf_mk_3_l43",
+                    "rps": 0.25,
+                    "reload": null,
+                    "ammoBelt": null,
+                    "shells": [
+                        {
+                            "name": "57mm_shot_mk5t",
+                            "type": "ap_tank",
+                            "mass": 2.8,
+                            "caliber": 0.057,
+                            "speed": 815.0,
+                            "Cx": 0.54,
+                            "explosionPatchRadius": null,
+                            "explosiveMass": null,
+                            "normalizationPreset": "ap",
+                            "stucking": 0.7,
+                            "stuckingAngle": 45.0,
+                            "fresnel": [
+                                0.23,
+                                0.1,
+                                2.0
+                            ],
+                            "demarrePenetrationK": 0.9,
+                            "demarreSpeedPow": 1.43,
+                            "demarreMassPow": 0.71,
+                            "demarreCaliberPow": 1.07,
+                            "damageType": "generic",
+                            "damage": null,
+                            "cumulativeArmorPower": null
+                        },
+                        {
+                            "name": "57mm_shell_mk10t",
+                            "type": "he_frag_tank",
+                            "mass": 2.72,
+                            "caliber": 0.057,
+                            "speed": 655.0,
+                            "Cx": null,
+                            "explosionPatchRadius": null,
+                            "explosiveMass": 0.59,
+                            "normalizationPreset": "heat",
+                            "stucking": null,
+                            "stuckingAngle": null,
+                            "fresnel": [
+                                0.23,
+                                0.1,
+                                2.0
+                            ],
+                            "demarrePenetrationK": 0.15,
+                            "demarreSpeedPow": 1.43,
+                            "demarreMassPow": 0.71,
+                            "demarreCaliberPow": 1.07,
+                            "damageType": "generic",
+                            "damage": null,
+                            "cumulativeArmorPower": null
+                        },
+                        {
+                            "name": "57mm_shot_mk9t",
+                            "type": "apcbc_solid_medium_caliber_tank",
+                            "mass": 3.23,
+                            "caliber": 0.057,
+                            "speed": 801.0,
+                            "Cx": 0.54,
+                            "explosionPatchRadius": null,
+                            "explosiveMass": null,
+                            "normalizationPreset": "apbc",
+                            "stucking": 0.7,
+                            "stuckingAngle": 45.0,
+                            "fresnel": [
+                                0.23,
+                                0.1,
+                                2.0
+                            ],
+                            "demarrePenetrationK": 1.0,
+                            "demarreSpeedPow": 1.43,
+                            "demarreMassPow": 0.71,
+                            "demarreCaliberPow": 1.07,
+                            "damageType": "generic",
+                            "damage": null,
+                            "cumulativeArmorPower": null
+                        }
+                    ]
+                },
+                "ammo": 318
+            }
+        ],
+        "ammoDistrib": [
+            0,
+            1,
+            4
+        ]
+    },
+    {
+        "name": "germ_sdkfz_7_2_apc",
+        "nameGame": "germ_sdkfz_7_2_apc",
+        "crew": 15,
+        "mass": 9700.0,
+        "horsepower": 140.0,
+        "engineRPM": 2600.0,
+        "brake": 30000.0,
+        "turrets": [
+            {
+                "yaw": 35.0,
+                "pitch": 20.0,
+                "depression": -2.0,
+                "elevation": 20.0,
+                "rotation": 80.0,
+                "gun": {
+                    "name": "57mm_6pdr_qqf_mk_3_l43",
+                    "rps": 0.25,
+                    "reload": null,
+                    "ammoBelt": null,
+                    "shells": [
+                        {
+                            "name": "57mm_shot_mk5t",
+                            "type": "ap_tank",
+                            "mass": 2.8,
+                            "caliber": 0.057,
+                            "speed": 815.0,
+                            "Cx": 0.54,
+                            "explosionPatchRadius": null,
+                            "explosiveMass": null,
+                            "normalizationPreset": "ap",
+                            "stucking": 0.7,
+                            "stuckingAngle": 45.0,
+                            "fresnel": [
+                                0.23,
+                                0.1,
+                                2.0
+                            ],
+                            "demarrePenetrationK": 0.9,
+                            "demarreSpeedPow": 1.43,
+                            "demarreMassPow": 0.71,
+                            "demarreCaliberPow": 1.07,
+                            "damageType": "generic",
+                            "damage": null,
+                            "cumulativeArmorPower": null
+                        },
+                        {
+                            "name": "57mm_shell_mk10t",
+                            "type": "he_frag_tank",
+                            "mass": 2.72,
+                            "caliber": 0.057,
+                            "speed": 655.0,
+                            "Cx": null,
+                            "explosionPatchRadius": null,
+                            "explosiveMass": 0.59,
+                            "normalizationPreset": "heat",
+                            "stucking": null,
+                            "stuckingAngle": null,
+                            "fresnel": [
+                                0.23,
+                                0.1,
+                                2.0
+                            ],
+                            "demarrePenetrationK": 0.15,
+                            "demarreSpeedPow": 1.43,
+                            "demarreMassPow": 0.71,
+                            "demarreCaliberPow": 1.07,
+                            "damageType": "generic",
+                            "damage": null,
+                            "cumulativeArmorPower": null
+                        }
+                    ]
+                },
+                "ammo": 318
+            }
+        ],
+        "ammoDistrib": [
+            0,
+            1
+        ]
+    },
+    {
+        "name": "jp_halftrack_type_1_ho_ha_apc",
+        "nameGame": "jp_halftrack_type_1_ho_ha_apc",
+        "crew": 16,
+        "mass": 9700.0,
+        "horsepower": 140.0,
+        "engineRPM": 2600.0,
+        "brake": 30000.0,
+        "turrets": [
+            {
+                "yaw": 35.0,
+                "pitch": 20.0,
+                "depression": -2.0,
+                "elevation": 20.0,
+                "rotation": 80.0,
+                "gun": {
+                    "name": "57mm_6pdr_qqf_mk_3_l43",
+                    "rps": 0.25,
+                    "reload": null,
+                    "ammoBelt": null,
+                    "shells": [
+                        {
+                            "name": "57mm_shot_mk5t",
+                            "type": "ap_tank",
+                            "mass": 2.8,
+                            "caliber": 0.057,
+                            "speed": 815.0,
+                            "Cx": 0.54,
+                            "explosionPatchRadius": null,
+                            "explosiveMass": null,
+                            "normalizationPreset": "ap",
+                            "stucking": 0.7,
+                            "stuckingAngle": 45.0,
+                            "fresnel": [
+                                0.23,
+                                0.1,
+                                2.0
+                            ],
+                            "demarrePenetrationK": 0.9,
+                            "demarreSpeedPow": 1.43,
+                            "demarreMassPow": 0.71,
+                            "demarreCaliberPow": 1.07,
+                            "damageType": "generic",
+                            "damage": null,
+                            "cumulativeArmorPower": null
+                        },
+                        {
+                            "name": "57mm_shell_mk10t",
+                            "type": "he_frag_tank",
+                            "mass": 2.72,
+                            "caliber": 0.057,
+                            "speed": 655.0,
+                            "Cx": null,
+                            "explosionPatchRadius": null,
+                            "explosiveMass": 0.59,
+                            "normalizationPreset": "heat",
+                            "stucking": null,
+                            "stuckingAngle": null,
+                            "fresnel": [
+                                0.23,
+                                0.1,
+                                2.0
+                            ],
+                            "demarrePenetrationK": 0.15,
+                            "demarreSpeedPow": 1.43,
+                            "demarreMassPow": 0.71,
+                            "demarreCaliberPow": 1.07,
+                            "damageType": "generic",
+                            "damage": null,
+                            "cumulativeArmorPower": null
+                        }
+                    ]
+                },
+                "ammo": 318
+            }
+        ],
+        "ammoDistrib": [
+            0,
+            1
+        ]
+    },
+    {
+        "name": "jp_type_94_isuzu_apc",
+        "nameGame": "jp_type_94_isuzu_apc",
+        "crew": 15,
+        "mass": 5300.0,
+        "horsepower": 68.0,
+        "engineRPM": 2500.0,
+        "brake": 6000.0,
+        "turrets": [
+            {
+                "yaw": 35.0,
+                "pitch": 20.0,
+                "depression": -2.0,
+                "elevation": 20.0,
+                "rotation": 80.0,
+                "gun": {
+                    "name": "57mm_6pdr_qqf_mk_3_l43",
+                    "rps": 0.25,
+                    "reload": null,
+                    "ammoBelt": null,
+                    "shells": [
+                        {
+                            "name": "57mm_shot_mk5t",
+                            "type": "ap_tank",
+                            "mass": 2.8,
+                            "caliber": 0.057,
+                            "speed": 815.0,
+                            "Cx": 0.54,
+                            "explosionPatchRadius": null,
+                            "explosiveMass": null,
+                            "normalizationPreset": "ap",
+                            "stucking": 0.7,
+                            "stuckingAngle": 45.0,
+                            "fresnel": [
+                                0.23,
+                                0.1,
+                                2.0
+                            ],
+                            "demarrePenetrationK": 0.9,
+                            "demarreSpeedPow": 1.43,
+                            "demarreMassPow": 0.71,
+                            "demarreCaliberPow": 1.07,
+                            "damageType": "generic",
+                            "damage": null,
+                            "cumulativeArmorPower": null
+                        },
+                        {
+                            "name": "57mm_shell_mk10t",
+                            "type": "he_frag_tank",
+                            "mass": 2.72,
+                            "caliber": 0.057,
+                            "speed": 655.0,
+                            "Cx": null,
+                            "explosionPatchRadius": null,
+                            "explosiveMass": 0.59,
+                            "normalizationPreset": "heat",
+                            "stucking": null,
+                            "stuckingAngle": null,
+                            "fresnel": [
+                                0.23,
+                                0.1,
+                                2.0
+                            ],
+                            "demarrePenetrationK": 0.15,
+                            "demarreSpeedPow": 1.43,
+                            "demarreMassPow": 0.71,
+                            "demarreCaliberPow": 1.07,
+                            "damageType": "generic",
+                            "damage": null,
+                            "cumulativeArmorPower": null
+                        }
+                    ]
+                },
+                "ammo": 318
+            }
+        ],
+        "ammoDistrib": [
+            0,
+            1
+        ]
+    },
+    {
+        "name": "uk_universal_carrier_apc",
+        "nameGame": "uk_universal_carrier_apc",
+        "crew": 14,
+        "mass": 5300.0,
+        "horsepower": 68.0,
+        "engineRPM": 2500.0,
+        "brake": 6000.0,
+        "turrets": [
+            {
+                "yaw": 35.0,
+                "pitch": 20.0,
+                "depression": -2.0,
+                "elevation": 20.0,
+                "rotation": 80.0,
+                "gun": {
+                    "name": "57mm_6pdr_qqf_mk_3_l43",
+                    "rps": 0.25,
+                    "reload": null,
+                    "ammoBelt": null,
+                    "shells": [
+                        {
+                            "name": "57mm_shot_mk5t",
+                            "type": "ap_tank",
+                            "mass": 2.8,
+                            "caliber": 0.057,
+                            "speed": 815.0,
+                            "Cx": 0.54,
+                            "explosionPatchRadius": null,
+                            "explosiveMass": null,
+                            "normalizationPreset": "ap",
+                            "stucking": 0.7,
+                            "stuckingAngle": 45.0,
+                            "fresnel": [
+                                0.23,
+                                0.1,
+                                2.0
+                            ],
+                            "demarrePenetrationK": 0.9,
+                            "demarreSpeedPow": 1.43,
+                            "demarreMassPow": 0.71,
+                            "demarreCaliberPow": 1.07,
+                            "damageType": "generic",
+                            "damage": null,
+                            "cumulativeArmorPower": null
+                        },
+                        {
+                            "name": "57mm_shell_mk10t",
+                            "type": "he_frag_tank",
+                            "mass": 2.72,
+                            "caliber": 0.057,
+                            "speed": 655.0,
+                            "Cx": null,
+                            "explosionPatchRadius": null,
+                            "explosiveMass": 0.59,
+                            "normalizationPreset": "heat",
+                            "stucking": null,
+                            "stuckingAngle": null,
+                            "fresnel": [
+                                0.23,
+                                0.1,
+                                2.0
+                            ],
+                            "demarrePenetrationK": 0.15,
+                            "demarreSpeedPow": 1.43,
+                            "demarreMassPow": 0.71,
+                            "demarreCaliberPow": 1.07,
+                            "damageType": "generic",
+                            "damage": null,
+                            "cumulativeArmorPower": null
+                        }
+                    ]
+                },
+                "ammo": 318
+            }
+        ],
+        "ammoDistrib": [
+            0,
+            1
+        ]
+    },
+    {
+        "name": "ussr_gaz_aaa_apc",
+        "nameGame": "ussr_gaz_aaa_apc",
+        "crew": 15,
+        "mass": 2950.0,
+        "horsepower": 57.0,
+        "engineRPM": 2200.0,
+        "brake": 6000.0,
+        "turrets": [
+            {
+                "yaw": 35.0,
+                "pitch": 20.0,
+                "depression": -2.0,
+                "elevation": 20.0,
+                "rotation": 80.0,
+                "gun": {
+                    "name": "57mm_6pdr_qqf_mk_3_l43",
+                    "rps": 0.25,
+                    "reload": null,
+                    "ammoBelt": null,
+                    "shells": [
+                        {
+                            "name": "57mm_shot_mk5t",
+                            "type": "ap_tank",
+                            "mass": 2.8,
+                            "caliber": 0.057,
+                            "speed": 815.0,
+                            "Cx": 0.54,
+                            "explosionPatchRadius": null,
+                            "explosiveMass": null,
+                            "normalizationPreset": "ap",
+                            "stucking": 0.7,
+                            "stuckingAngle": 45.0,
+                            "fresnel": [
+                                0.23,
+                                0.1,
+                                2.0
+                            ],
+                            "demarrePenetrationK": 0.9,
+                            "demarreSpeedPow": 1.43,
+                            "demarreMassPow": 0.71,
+                            "demarreCaliberPow": 1.07,
+                            "damageType": "generic",
+                            "damage": null,
+                            "cumulativeArmorPower": null
+                        },
+                        {
+                            "name": "57mm_shell_mk10t",
+                            "type": "he_frag_tank",
+                            "mass": 2.72,
+                            "caliber": 0.057,
+                            "speed": 655.0,
+                            "Cx": null,
+                            "explosionPatchRadius": null,
+                            "explosiveMass": 0.59,
+                            "normalizationPreset": "heat",
+                            "stucking": null,
+                            "stuckingAngle": null,
+                            "fresnel": [
+                                0.23,
+                                0.1,
+                                2.0
+                            ],
+                            "demarrePenetrationK": 0.15,
+                            "demarreSpeedPow": 1.43,
+                            "demarreMassPow": 0.71,
+                            "demarreCaliberPow": 1.07,
+                            "damageType": "generic",
+                            "damage": null,
+                            "cumulativeArmorPower": null
+                        }
+                    ]
+                },
+                "ammo": 318
+            }
+        ],
+        "ammoDistrib": [
+            0,
+            1
+        ]
+    },
+    {
+        "name": "ussr_halftrack_m3_a1_apc",
+        "nameGame": "us_halftrack_m3_a1_apc",
+        "crew": 19,
+        "mass": 2950.0,
+        "horsepower": 57.0,
+        "engineRPM": 2200.0,
+        "brake": 6000.0,
+        "turrets": [
+            {
+                "yaw": 35.0,
+                "pitch": 20.0,
+                "depression": -2.0,
+                "elevation": 20.0,
+                "rotation": 80.0,
+                "gun": {
+                    "name": "57mm_6pdr_qqf_mk_3_l43",
+                    "rps": 0.25,
+                    "reload": null,
+                    "ammoBelt": null,
+                    "shells": [
+                        {
+                            "name": "57mm_shot_mk5t",
+                            "type": "ap_tank",
+                            "mass": 2.8,
+                            "caliber": 0.057,
+                            "speed": 815.0,
+                            "Cx": 0.54,
+                            "explosionPatchRadius": null,
+                            "explosiveMass": null,
+                            "normalizationPreset": "ap",
+                            "stucking": 0.7,
+                            "stuckingAngle": 45.0,
+                            "fresnel": [
+                                0.23,
+                                0.1,
+                                2.0
+                            ],
+                            "demarrePenetrationK": 0.9,
+                            "demarreSpeedPow": 1.43,
+                            "demarreMassPow": 0.71,
+                            "demarreCaliberPow": 1.07,
+                            "damageType": "generic",
+                            "damage": null,
+                            "cumulativeArmorPower": null
+                        },
+                        {
+                            "name": "57mm_shell_mk10t",
+                            "type": "he_frag_tank",
+                            "mass": 2.72,
+                            "caliber": 0.057,
+                            "speed": 655.0,
+                            "Cx": null,
+                            "explosionPatchRadius": null,
+                            "explosiveMass": 0.59,
+                            "normalizationPreset": "heat",
+                            "stucking": null,
+                            "stuckingAngle": null,
+                            "fresnel": [
+                                0.23,
+                                0.1,
+                                2.0
+                            ],
+                            "demarrePenetrationK": 0.15,
+                            "demarreSpeedPow": 1.43,
+                            "demarreMassPow": 0.71,
+                            "demarreCaliberPow": 1.07,
+                            "damageType": "generic",
+                            "damage": null,
+                            "cumulativeArmorPower": null
+                        }
+                    ]
+                },
+                "ammo": 318
+            }
+        ],
+        "ammoDistrib": [
+            0,
+            1
+        ]
+    },
+    {
+        "name": "us_studebaker_us6_u1_tent_apc",
+        "nameGame": "us_studebaker_us6_u1_apc",
+        "crew": 15,
+        "mass": 5250.0,
+        "horsepower": 95.0,
+        "engineRPM": 2500.0,
+        "brake": 31000.0,
         "turrets": [
             {
                 "yaw": 35.0,

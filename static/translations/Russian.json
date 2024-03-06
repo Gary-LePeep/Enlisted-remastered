@@ -1719,8 +1719,8 @@
     "weapons.category.semiauto.japan": "Самозарядные Винтовки Японии",
     "weapons.category.semiauto.soviet": "Самозарядные Винтовки СССР",
     "weapons.category.semiauto.usuk": "Самозарядные Винтовки США/ВБ",
-    "weapons.side.soviet": "СССР",
     "weapons.side.german": "Германия",
-    "weapons.side.usuk": "США/ВБ",
-    "weapons.side.japan": "Япония"
+    "weapons.side.japan": "Япония",
+    "weapons.side.soviet": "СССР",
+    "weapons.side.usuk": "США/ВБ"
 }
