@@ -464,8 +464,6 @@ for (let h = 0; h < 2; h++) {
                         let shellHE = null;
                         let shellSmoke = null;
 
-                        console.info("all shells: " + JSON.stringify(turret.gun.shells));
-
                         for (const shell of turret.gun.shells) {
                             if (shellSmoke == null && shell.type.includes('smoke')) {
                                 shellSmoke = shell;
