@@ -17,7 +17,9 @@ const TANKS_META = [
                 'BR': 'II',
                 Tanks: [
                     'us_halftrack_m3_a1_apc',
+                    'us_halftrack_m3_a1',
                     'ussr_gaz_aaa_apc',
+                    'ussr_gaz_aaa',
                     'ussr_bm_8_24',
                     'ussr_t_50',
                     'ussr_t_28',

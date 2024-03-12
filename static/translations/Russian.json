@@ -1,6 +1,7 @@
 {
     "EMPTY": "",
     "N_A": "нет",
+    "Tank": "Танк",
     "class.anti_tank": "Бронебойщик",
     "class.assault": "Штурмовик",
     "class.biker": "Мотоциклист",
@@ -1719,6 +1720,7 @@
     "weapons.category.semiauto.japan": "Самозарядные Винтовки Японии",
     "weapons.category.semiauto.soviet": "Самозарядные Винтовки СССР",
     "weapons.category.semiauto.usuk": "Самозарядные Винтовки США/ВБ",
+    "weapons.individual": "отдельные",
     "weapons.side.german": "Германия",
     "weapons.side.japan": "Япония",
     "weapons.side.soviet": "СССР",

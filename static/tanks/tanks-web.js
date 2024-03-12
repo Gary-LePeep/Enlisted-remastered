@@ -457,7 +457,7 @@ for (let h = 0; h < 2; h++) {
                         rotationTableRow.appendChild(translate(turret.rotation == null ? `page.tanks.table.coax.${turret.gun.name.includes('smoke')}` : `${turret.rotation} ${translate('degrees')}`, 'th'));
                         rpmTableRow.appendChild(translate(toPlace(turret.gun.rps * 60, 2), 'th'));
                         ammoCountTableRow.appendChild(translate(turret.ammo, 'th'));
-                        ammoBeltTableRow.appendChild(translate(turret.gun.ammoBelt == null ? 'individual' : turret.gun.ammoBelt, 'th'));
+                        ammoBeltTableRow.appendChild(translate(turret.gun.ammoBelt == null ? translate('individual') : turret.gun.ammoBelt, 'th'));
                         reloadTableRow.appendChild(translate(turret.gun.reload == null ? 'N_A' : turret.gun.reload, 'th'));
                         let shellAP = null;
                         let shellHE = null;

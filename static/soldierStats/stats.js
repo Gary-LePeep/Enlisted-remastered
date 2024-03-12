@@ -196,6 +196,12 @@ const SOLDIER_STATS = [
       Talent: 'perk.pilot_awareness',
       Value: .1
     },
+    {
+      Name: 'class.pilot_assaulter#III',
+      Stats: [5, 7, 9],
+      Talent: 'perk.pilot_stamina_boost',
+      Value: .21
+    },
   ],
   [
     {

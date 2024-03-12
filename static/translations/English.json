@@ -1,6 +1,7 @@
 {
     "EMPTY": "",
     "N_A": "N/A",
+    "Tank": "Tank",
     "class.anti_tank": "AT Gunner",
     "class.assault": "Assaulter",
     "class.biker": "Rider",
@@ -1717,6 +1718,7 @@
     "weapons.category.semiauto.japan": "Japanese Semi/Auto Rifles",
     "weapons.category.semiauto.soviet": "Soviet Semi/Auto Rifles",
     "weapons.category.semiauto.usuk": "US/UK Semi/Auto Rifles",
+    "weapons.individual": "individual",
     "weapons.side.german": "German",
     "weapons.side.japan": "Japan",
     "weapons.side.soviet": "Soviet",
