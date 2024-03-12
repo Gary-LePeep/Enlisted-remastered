@@ -113,6 +113,7 @@ function colorTurretTable() {
     // collect just the indices of the main gun(s)
     for (let i = 0; i < table0.childNodes[15].childNodes.length; i++) {
         if (!(table0.childNodes[15].childNodes[i].textContent.includes('　'))) {
+            console.error(table0.childNodes[15].childNodes[i].textContent)
             mainGuns0.push(i);
         }
     }
