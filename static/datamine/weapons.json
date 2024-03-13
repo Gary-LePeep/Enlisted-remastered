@@ -15685,6 +15685,56 @@
         "flamethrowerMaxLength": null
     },
     {
+        "name": "type_hei_automatic_rifle",
+        "rps": 12.0,
+        "dispersion": 0.22,
+        "stat": "semiauto",
+        "type": "semiauto",
+        "weight": 4.9,
+        "locName": "Type Hei Rifle",
+        "magazineName": {
+            "ammoHolders": "type_hei_automatic_rifle_magazine"
+        },
+        "magazineSize": 30,
+        "bullets": {
+            "shells": "content/enlisted/gamedata/weapons/bullets/6.5x50_arisaka_semiauto.blk"
+        },
+        "firingModes": [
+            {
+                "mode": "full_auto"
+            },
+            {
+                "mode": "semi_auto"
+            }
+        ],
+        "singleReloadPrep": null,
+        "singleReloadLoop": null,
+        "singleReloadPost": null,
+        "reload": 3.1,
+        "altReload": 2.7,
+        "dualMagReload": null,
+        "proneRecoilMult": null,
+        "zeroDist": 0.05,
+        "reloadSingle": false,
+        "recoilAmount": 0.082,
+        "recoilDir": 0.24,
+        "recoilDirAmount": 0.73,
+        "visualRecoilMult": 0.3,
+        "recoilControlMult": 0.25,
+        "recoilOffsetMult": 0.3,
+        "mods": {
+            "bayonet:object": {
+                "type_30_bayonet": "type_30_bayonet",
+                "type_2_bayonet": "type_2_bayonet"
+            }
+        },
+        "adsSpeedMult": 0.72,
+        "damageMult": 1.1,
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
+    },
+    {
         "name": "type_ko_rifle",
         "rps": 4.4,
         "dispersion": 0.18,
@@ -16344,6 +16394,51 @@
                 "type_2_bayonet": "type_2_bayonet"
             }
         },
+        "adsSpeedMult": 0.3,
+        "damageMult": null,
+        "sightsMag": 2.0,
+        "flamethrowerDPS": null,
+        "flamethrowerMaxLength": null
+    },
+    {
+        "name": "type_100_mg",
+        "rps": 10.0,
+        "dispersion": 0.0005,
+        "stat": "machine_gun",
+        "type": "machine_gun",
+        "weight": 16.0,
+        "locName": "MG 34 with Patronentrommel 34 magazine",
+        "magazineName": {
+            "ammoHolders": "type_100_mg_magazine"
+        },
+        "magazineSize": 50,
+        "bullets": {
+            "shells": "content/enlisted/gamedata/weapons/bullets/7.92x57_mauser_tracer_d.blk"
+        },
+        "firingModes": [
+            {
+                "mode": "full_auto"
+            },
+            {
+                "mode": "semi_auto"
+            }
+        ],
+        "singleReloadPrep": null,
+        "singleReloadLoop": null,
+        "singleReloadPost": null,
+        "reload": 5.7,
+        "altReload": 4.0,
+        "dualMagReload": null,
+        "proneRecoilMult": 0.7,
+        "zeroDist": 0.3,
+        "reloadSingle": false,
+        "recoilAmount": 0.051,
+        "recoilDir": 0.0,
+        "recoilDirAmount": 0.63,
+        "visualRecoilMult": 0.6,
+        "recoilControlMult": 0.9,
+        "recoilOffsetMult": 0.1,
+        "mods": null,
         "adsSpeedMult": 0.3,
         "damageMult": null,
         "sightsMag": 2.0,

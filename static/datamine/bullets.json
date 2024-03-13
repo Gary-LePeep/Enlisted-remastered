@@ -4977,6 +4977,62 @@
         "splashDamage": null,
         "detonation": null
     },
+    "7.92x57_mauser_tracer_d": {
+        "maxDistance": 2000.0,
+        "effectiveDistance": 500.0,
+        "hitPowerMult": 12.0,
+        "hitpower": {
+            "HitPower10m": [
+                1.0,
+                10.0
+            ],
+            "HitPower100m": [
+                0.9,
+                100.0
+            ],
+            "HitPower200m": [
+                0.8,
+                300.0
+            ],
+            "HitPower400m": [
+                0.7,
+                400.0
+            ],
+            "HitPower600m": [
+                0.3,
+                600.0
+            ],
+            "HitPower1000m": [
+                0.1,
+                1000.0
+            ],
+            "HitPower1500m": [
+                0.01,
+                1500.0
+            ]
+        },
+        "armorpower": {
+            "ArmorPower0m": [
+                1.0,
+                10.0
+            ],
+            "ArmorPower1500m": [
+                0.1,
+                1500.0
+            ]
+        },
+        "speed": 750.0,
+        "spawn": {
+            "minCount": 2,
+            "maxCount": 2,
+            "spread": 0.4
+        },
+        "cumulativeDamage": null,
+        "explodeHitPower": null,
+        "explodeRadius": null,
+        "splashDamage": null,
+        "detonation": null
+    },
     "7.92x94_patronen": {
         "maxDistance": 3000.0,
         "effectiveDistance": 400.0,
@@ -14190,8 +14246,11 @@
         "speed": null,
         "spawn": null,
         "cumulativeDamage": null,
-        "explodeHitPower": null,
-        "explodeRadius": null,
+        "explodeHitPower": 400.0,
+        "explodeRadius": [
+            4.0,
+            10.0
+        ],
         "splashDamage": null,
         "detonation": null
     },
