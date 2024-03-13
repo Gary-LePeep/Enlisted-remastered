@@ -111,9 +111,9 @@ function colorTurretTable() {
     const mainGuns1 = [];
 
     // collect just the indices of the main gun(s)
+    // This is the "max penetration" row, since MGs rarely have penetration, but they will if the tank has a HMG
     for (let i = 0; i < table0.childNodes[15].childNodes.length; i++) {
         if (!(table0.childNodes[15].childNodes[i].textContent.includes('　'))) {
-            console.error(table0.childNodes[15].childNodes[i].textContent)
             mainGuns0.push(i);
         }
     }
@@ -495,7 +495,10 @@ for (let h = 0; h < 2; h++) {
                                 const diam = shellAP.caliber * 1000;
                                 const shellMass = shellAP.mass;
                                 const vel = shellAP.speed;
-                                const deMarreArmorPower = refPen * ((vel / refVel) ** 1.43) * ((diam / refDiam) ** 1.07) * ((shellMass / (diam ** 3)) ** 0.71) / ((refMass / (refDiam ** 3)) ** 0.71);
+                                // I dont know why this adjustment has to exist, but every penetration calculated with demarre is consistently 1.27 times less than what it should be??
+                                // TODO: figure out why it's dumb
+                                const ADJUSTMENT = 1.27
+                                const deMarreArmorPower = ADJUSTMENT * refPen * ((vel / refVel) ** 1.43) * ((diam / refDiam) ** 1.07) * ((shellMass / (diam ** 3)) ** 0.71) / ((refMass / (refDiam ** 3)) ** 0.71);
                                 APArmorPowerTableRow.appendChild(translate(`${1000 * toPlace(deMarreArmorPower, 3)} ${translate('millimeters')}`, 'th'));
                             } else {
                                 APArmorPowerTableRow.appendChild(translate('　', 'th'));
