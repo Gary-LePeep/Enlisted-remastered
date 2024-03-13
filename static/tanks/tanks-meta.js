@@ -43,6 +43,7 @@ const TANKS_META = [
                     'ussr_t_34_85_d_5t',
                     'ussr_t_34_85_zis_53',
                     'ussr_t_34_85_e',
+                    'ussr_kv_1_zis_5',
                 ]
             },
             {
@@ -125,6 +126,7 @@ const TANKS_META = [
                     'germ_pzkpfw_v_ausf_g_panther',
                     'germ_panzerwerfer_42',
                     'germ_dickermax',
+                    'germ_pzkpfw_v_ersatz_m10_premium'
                 ]
             },
             {
@@ -135,6 +137,7 @@ const TANKS_META = [
                     'germ_pzkpfw_vi_ausf_b_tiger_iih',
                     'germ_pzkpfw_vi_ausf_b_tiger_iip',
                     'germ_jagdpanther',
+                    'germ_pzkpfw_vi_ausf_h1_tiger'
                 ]
             },
             {
@@ -190,6 +193,7 @@ const TANKS_META = [
                     'uk_ac1_sentinel',
                     'uk_universal_carrier_apc',
                     'us_studebaker_us6_u1_apc',
+                    'us_lvt_a_1_pacific_premium'
                 ]
             },
             {
@@ -210,6 +214,7 @@ const TANKS_META = [
                     'us_m18_hellcat',
                     'us_m4_calliope',
                     'us_m4a1_76w_sherman',
+                    'uk_m10_achilles_premium'
                 ]
             },
             {
@@ -276,7 +281,7 @@ const TANKS_META = [
             {
                 'BR': 'V',
                 Tanks: [
-
+                    'jp_type_5_ho_ri_production'
                 ]
             },
             {
