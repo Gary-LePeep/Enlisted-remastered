@@ -16537,14 +16537,39 @@
                             "cumulativeArmorPower": null
                         },
                         {
-                            "name": "76mm_sh_354t",
-                            "type": "shrapnel_tank",
-                            "mass": 6.44,
+                            "name": "76mm_br_354p",
+                            "type": "apcr_tank",
+                            "mass": 3.02,
                             "caliber": 0.0762,
-                            "speed": 618.0,
-                            "Cx": 0.5181,
+                            "speed": 950.0,
+                            "Cx": 0.5627,
                             "explosionPatchRadius": null,
-                            "explosiveMass": 0.085,
+                            "explosiveMass": null,
+                            "normalizationPreset": "apcr",
+                            "stucking": 0.7,
+                            "stuckingAngle": 45.0,
+                            "fresnel": [
+                                0.23,
+                                0.1,
+                                2.0
+                            ],
+                            "demarrePenetrationK": 0.65,
+                            "demarreSpeedPow": 1.43,
+                            "demarreMassPow": 0.71,
+                            "demarreCaliberPow": 1.07,
+                            "damageType": "generic",
+                            "damage": null,
+                            "cumulativeArmorPower": null
+                        },
+                        {
+                            "name": "76mm_d350a",
+                            "type": "smoke_tank",
+                            "mass": 6.45,
+                            "caliber": 0.076,
+                            "speed": 680.0,
+                            "Cx": 0.4336,
+                            "explosionPatchRadius": null,
+                            "explosiveMass": 0.05,
                             "normalizationPreset": "heat",
                             "stucking": null,
                             "stuckingAngle": null,
@@ -16553,12 +16578,6 @@
                                 0.1,
                                 2.0
                             ],
-                            "demarrePenetrationK": 0.37,
-                            "demarreSpeedPow": 1.43,
-                            "demarreMassPow": 0.71,
-                            "demarreCaliberPow": 1.07,
-                            "damageType": "generic",
-                            "damage": null,
                             "cumulativeArmorPower": null
                         }
                     ]
@@ -16615,7 +16634,8 @@
         "ammoDistrib": [
             0,
             1,
-            2
+            4,
+            7
         ]
     },
     {
@@ -22945,6 +22965,186 @@
         "ammoDistrib": [
             0,
             2
+        ]
+    },
+    {
+        "name": "us_m8a1",
+        "nameGame": "us_m8a1",
+        "crew": 4,
+        "mass": 15570.0,
+        "horsepower": 296.0,
+        "engineRPM": 3200.0,
+        "brake": 45000.0,
+        "turrets": [
+            {
+                "yaw": 12.0,
+                "pitch": 4.0,
+                "depression": -10.0,
+                "elevation": 30.0,
+                "rotation": 360.0,
+                "gun": {
+                    "name": "75mm_m3_open_turret",
+                    "rps": 0.2,
+                    "reload": null,
+                    "ammoBelt": null,
+                    "shells": [
+                        {
+                            "name": "75mm_m72",
+                            "type": "ap_tank",
+                            "mass": 6.3,
+                            "caliber": 0.075,
+                            "speed": 619.0,
+                            "Cx": 0.5,
+                            "explosionPatchRadius": null,
+                            "explosiveMass": null,
+                            "normalizationPreset": "ap",
+                            "stucking": 0.7,
+                            "stuckingAngle": 45.0,
+                            "fresnel": [
+                                0.23,
+                                0.1,
+                                2.0
+                            ],
+                            "demarrePenetrationK": 0.9,
+                            "demarreSpeedPow": 1.43,
+                            "demarreMassPow": 0.71,
+                            "demarreCaliberPow": 1.07,
+                            "damageType": "generic",
+                            "damage": null,
+                            "cumulativeArmorPower": null
+                        },
+                        {
+                            "name": "75mm_m48",
+                            "type": "he_frag_tank",
+                            "mass": 6.3,
+                            "caliber": 0.075,
+                            "speed": 463.0,
+                            "Cx": null,
+                            "explosionPatchRadius": null,
+                            "explosiveMass": 0.666,
+                            "normalizationPreset": "heat",
+                            "stucking": null,
+                            "stuckingAngle": null,
+                            "fresnel": [
+                                0.23,
+                                0.1,
+                                2.0
+                            ],
+                            "demarrePenetrationK": 0.15,
+                            "demarreSpeedPow": 1.43,
+                            "demarreMassPow": 0.71,
+                            "demarreCaliberPow": 1.07,
+                            "damageType": "generic",
+                            "damage": null,
+                            "cumulativeArmorPower": null
+                        },
+                        {
+                            "name": "75mm_m89",
+                            "type": "smoke_tank",
+                            "mass": 3.0,
+                            "caliber": 0.075,
+                            "speed": 259.0,
+                            "Cx": null,
+                            "explosionPatchRadius": null,
+                            "explosiveMass": 0.05,
+                            "normalizationPreset": "heat",
+                            "stucking": null,
+                            "stuckingAngle": null,
+                            "fresnel": [
+                                0.23,
+                                0.1,
+                                2.0
+                            ],
+                            "cumulativeArmorPower": null
+                        }
+                    ]
+                },
+                "ammo": 46
+            },
+            {
+                "yaw": 90.0,
+                "pitch": 90.0,
+                "depression": -5.0,
+                "elevation": 70.0,
+                "rotation": 360.0,
+                "gun": {
+                    "name": "12_7mm_m2_hb",
+                    "rps": 9.5833,
+                    "reload": 8.0,
+                    "ammoBelt": 200,
+                    "shells": [
+                        {
+                            "name": "12_7mm_m2_hb_defaultset_bullet_1",
+                            "type": "ap_i_t_ball_M20",
+                            "mass": 0.0397,
+                            "caliber": 0.0127,
+                            "speed": 929.0,
+                            "Cx": 0.335,
+                            "explosionPatchRadius": null,
+                            "explosiveMass": null,
+                            "normalizationPreset": "default",
+                            "stucking": null,
+                            "stuckingAngle": null,
+                            "fresnel": null,
+                            "demarrePenetrationK": 0.9,
+                            "demarreSpeedPow": 1.43,
+                            "demarreMassPow": 0.71,
+                            "demarreCaliberPow": 1.07,
+                            "damageType": "generic",
+                            "damage": null,
+                            "cumulativeArmorPower": null
+                        },
+                        {
+                            "name": "12_7mm_m2_hb_12mm_usa_m2hb_common_bullet_1",
+                            "type": "ap_i_t_ball_M20",
+                            "mass": 0.0397,
+                            "caliber": 0.0127,
+                            "speed": 929.0,
+                            "Cx": 0.335,
+                            "explosionPatchRadius": null,
+                            "explosiveMass": null,
+                            "normalizationPreset": "default",
+                            "stucking": null,
+                            "stuckingAngle": null,
+                            "fresnel": null,
+                            "demarrePenetrationK": 0.9,
+                            "demarreSpeedPow": 1.43,
+                            "demarreMassPow": 0.71,
+                            "demarreCaliberPow": 1.07,
+                            "damageType": "generic",
+                            "damage": null,
+                            "cumulativeArmorPower": null
+                        },
+                        {
+                            "name": "12_7mm_m2_hb_12mm_usa_m2hb_apit",
+                            "type": "ap_i_t_ball_M20",
+                            "mass": 0.0397,
+                            "caliber": 0.0127,
+                            "speed": 929.0,
+                            "Cx": 0.335,
+                            "explosionPatchRadius": null,
+                            "explosiveMass": null,
+                            "normalizationPreset": "default",
+                            "stucking": null,
+                            "stuckingAngle": null,
+                            "fresnel": null,
+                            "demarrePenetrationK": 0.9,
+                            "demarreSpeedPow": 1.43,
+                            "demarreMassPow": 0.71,
+                            "demarreCaliberPow": 1.07,
+                            "damageType": "generic",
+                            "damage": null,
+                            "cumulativeArmorPower": null
+                        }
+                    ]
+                },
+                "ammo": 1000
+            }
+        ],
+        "ammoDistrib": [
+            0,
+            1,
+            4
         ]
     },
     {
